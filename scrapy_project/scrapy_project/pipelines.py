@@ -12,6 +12,7 @@ from rdflib import RDF, RDFS
 class ScrapyProjectPipeline(object):
 	def __init__(self):
 		print "INIT"
+		#Recall function to open/close spider
 		dispatcher.connect(self.open_spider, signals.spider_opened)
 		dispatcher.connect(self.close_spider, signals.spider_closed)
 
@@ -67,6 +68,3 @@ class ScrapyProjectPipeline(object):
 
 		self.acm=URIRef(self.USDL4EDU+'acm-conceptscheme')
 		self.graph.add((self.acm,RDF.type,self.conceptScheme))
-
-
-   
