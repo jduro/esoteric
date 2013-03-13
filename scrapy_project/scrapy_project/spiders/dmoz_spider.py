@@ -61,8 +61,10 @@ class ACMSpider(BaseSpider):
         # print lis[1].select('./ul/*').extract()
         items=[]
         items=getContext(lis)
+        print "got all items"
+        #printContext(items,0)
 
-        printContext(items,0)
+        return items
 
 
 def printContext(items,tab):
