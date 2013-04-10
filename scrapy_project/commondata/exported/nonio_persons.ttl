@@ -1,0 +1,247 @@
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix usdl4edu: <http://rdf.genssiz.dei.uc.pt/usdl4edu#> .
+
+usdl4edu:Alberto-Jorge-Lebre-Cardoso a foaf:Person ;
+    foaf:firstName "Alberto" ;
+    foaf:lastName "Cardoso" .
+
+usdl4edu:Antnio-Dourado-Pereira-Correia a foaf:Person ;
+    foaf:firstName "António" ;
+    foaf:lastName "Correia" .
+
+usdl4edu:Antnio-Jorge-Silva-Cardoso a foaf:Person ;
+    foaf:firstName "António" ;
+    foaf:lastName "Cardoso" .
+
+usdl4edu:Antnio-Jos-Nunes-Mendes a foaf:Person ;
+    foaf:firstName "António" ;
+    foaf:lastName "Mendes" .
+
+usdl4edu:Antnio-Jos-Olaio-Correia-de-Carvalho a foaf:Person ;
+    foaf:firstName "António" ;
+    foaf:lastName "Carvalho" .
+
+usdl4edu:Artur-Lus-Gonalves-de-Azevedo-Rebelo-Alves a foaf:Person ;
+    foaf:firstName "Artur" ;
+    foaf:lastName "Alves" .
+
+usdl4edu:Bernardete-Martins-Ribeiro a foaf:Person ;
+    foaf:firstName "Bernardete" ;
+    foaf:lastName "Ribeiro" .
+
+usdl4edu:Bruno-Miguel-Brs-Cabral a foaf:Person ;
+    foaf:firstName "Bruno" ;
+    foaf:lastName "Cabral" .
+
+usdl4edu:Carlos-Alberto-Henggeler-de-Carvalho-Antunes a foaf:Person ;
+    foaf:firstName "Carlos" ;
+    foaf:lastName "Antunes" .
+
+usdl4edu:Carlos-Eduardo-Delgado-Cerqueira a foaf:Person ;
+    foaf:firstName "Carlos" ;
+    foaf:lastName "Cerqueira" .
+
+usdl4edu:Carlos-Manuel-Mira-da-Fonseca a foaf:Person ;
+    foaf:firstName "Carlos" ;
+    foaf:lastName "Fonseca" .
+
+usdl4edu:Carlos-Manuel-Robalo-Lisboa-Bento a foaf:Person ;
+    foaf:firstName "Carlos" ;
+    foaf:lastName "Bento" .
+
+usdl4edu:Daniel-Augusto-Gama-de-Castro-Silva a foaf:Person ;
+    foaf:firstName "Daniel" ;
+    foaf:lastName "Silva" .
+
+usdl4edu:Edmundo-Heitor-da-Silva-Monteiro a foaf:Person ;
+    foaf:firstName "Edmundo" ;
+    foaf:lastName "Monteiro" .
+
+usdl4edu:Eduardo-Miguel-Morgado-Nunes a foaf:Person ;
+    foaf:firstName "Eduardo" ;
+    foaf:lastName "Nunes" .
+
+usdl4edu:Ernesto-Jorge-Fernandes-Costa a foaf:Person ;
+    foaf:firstName "Ernesto" ;
+    foaf:lastName "Costa" .
+
+usdl4edu:Fernando-Amlcar-Bandeira-Cardoso a foaf:Person ;
+    foaf:firstName "Fernando" ;
+    foaf:lastName "Cardoso" .
+
+usdl4edu:Fernando-Jorge-Penousal-Martins-Machado a foaf:Person ;
+    foaf:firstName "Fernando" ;
+    foaf:lastName "Machado" .
+
+usdl4edu:Fernando-Jos-Barros-Rodrigues-da-Silva a foaf:Person ;
+    foaf:firstName "Fernando" ;
+    foaf:lastName "Silva" .
+
+usdl4edu:Fernando-Pedro-Lopes-Boavida-Fernandes a foaf:Person ;
+    foaf:firstName "Fernando" ;
+    foaf:lastName "Fernandes" .
+
+usdl4edu:Filipe-Alexandre-Madeira-Rodrigues-Neves a foaf:Person ;
+    foaf:firstName "Filipe" ;
+    foaf:lastName "Neves" .
+
+usdl4edu:Filipe-Joo-Boavida-Mendona-Machado-de-Arajo a foaf:Person ;
+    foaf:firstName "Filipe" ;
+    foaf:lastName "Araújo" .
+
+usdl4edu:Helder-de-Jesus-Arajo a foaf:Person ;
+    foaf:firstName "Helder" ;
+    foaf:lastName "Araújo" .
+
+usdl4edu:Jlio-Severino-das-Neves a foaf:Person ;
+    foaf:firstName "Júlio" ;
+    foaf:lastName "Neves" .
+
+usdl4edu:Joo-Lus-Cardoso-Soares a foaf:Person ;
+    foaf:firstName "João" ;
+    foaf:lastName "Soares" .
+
+usdl4edu:Joo-Manuel-Frade-Belo-Bicker a foaf:Person ;
+    foaf:firstName "João" ;
+    foaf:lastName "Bicker" .
+
+usdl4edu:Joo-Paulo-da-Silva-Machado-Garcia-Vilela a foaf:Person ;
+    foaf:firstName "João" ;
+    foaf:lastName "Vilela" .
+
+usdl4edu:Jorge-Manuel-Oliveira-Henriques a foaf:Person ;
+    foaf:firstName "Jorge" ;
+    foaf:lastName "Henriques" .
+
+usdl4edu:Jorge-Manuel-Senos-da-Fonseca-Picado a foaf:Person ;
+    foaf:firstName "Jorge" ;
+    foaf:lastName "Picado" .
+
+usdl4edu:Jorge-Miguel-S-Silva a foaf:Person ;
+    foaf:firstName "Jorge" ;
+    foaf:lastName "Silva" .
+
+usdl4edu:Jos-Augusto-Mas-da-Silva-Carvalho a foaf:Person ;
+    foaf:firstName "José" ;
+    foaf:lastName "Carvalho" .
+
+usdl4edu:Licnio-Gomes-Roque a foaf:Person ;
+    foaf:firstName "Licínio" ;
+    foaf:lastName "Roque" .
+
+usdl4edu:Luis-Filipe-dos-Santos-Coelho-Paquete a foaf:Person ;
+    foaf:firstName "Luis" ;
+    foaf:lastName "Paquete" .
+
+usdl4edu:Lus-Alexandre-Serras-de-Moura-e-Silva a foaf:Person ;
+    foaf:firstName "Luís" ;
+    foaf:lastName "Silva" .
+
+usdl4edu:Lus-Fernando-Gomes-da-Silva-Quintais a foaf:Person ;
+    foaf:firstName "Luís" ;
+    foaf:lastName "Quintais" .
+
+usdl4edu:Lus-Miguel-Machado-Lopes-Macedo a foaf:Person ;
+    foaf:firstName "Luís" ;
+    foaf:lastName "Macedo" .
+
+usdl4edu:Marco-Paulo-Amorim-Vieira a foaf:Person ;
+    foaf:firstName "Marco" ;
+    foaf:lastName "Vieira" .
+
+usdl4edu:Maria-Alice-Barriga-Geirinhas-dos-Santos a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Santos" .
+
+usdl4edu:Maria-Emlia-de-Mesquita-Nogueira a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Nogueira" .
+
+usdl4edu:Maria-Helena-Almeida-Vieira-Alberto a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Alberto" .
+
+usdl4edu:Maria-Joana-Almeida-Vieira-Santos a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Santos" .
+
+usdl4edu:Maria-Jos-Patrcio-Marcelino a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Marcelino" .
+
+usdl4edu:Maria-Teresa-Ferreira-Soares-Mendes a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Mendes" .
+
+usdl4edu:Maria-do-Cu-Marques-Pinto a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Pinto" .
+
+usdl4edu:Miguel-Pedro-Cerqueira-Soares a foaf:Person ;
+    foaf:firstName "Miguel" ;
+    foaf:lastName "Soares" .
+
+usdl4edu:Mrio-Alberto-da-Costa-Zenha-Rela a foaf:Person ;
+    foaf:firstName "Mário" ;
+    foaf:lastName "Rela" .
+
+usdl4edu:Nuno-Miguel-Cabral-Carreira-Coelho a foaf:Person ;
+    foaf:firstName "Nuno" ;
+    foaf:lastName "Coelho" .
+
+usdl4edu:Nuno-Miguel-Mendona-da-Silva-Gonalves a foaf:Person ;
+    foaf:firstName "Nuno" ;
+    foaf:lastName "Gonçalves" .
+
+usdl4edu:Paulo-Alexandre-Ferreira-Simes a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Simões" .
+
+usdl4edu:Paulo-Fernando-Pereira-de-Carvalho a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Carvalho" .
+
+usdl4edu:Paulo-Filipe-de-Jesus-Mesquita a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Mesquita" .
+
+usdl4edu:Paulo-Jorge-Pimenta-Marques a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Marques" .
+
+usdl4edu:Paulo-Jorge-de-Sousa-Gomes a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Gomes" .
+
+usdl4edu:Paulo-Jos-Osrio-Rupino-da-Cunha a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Cunha" .
+
+usdl4edu:Pedro-Filipe-Rodrigues-Pousada a foaf:Person ;
+    foaf:firstName "Pedro" ;
+    foaf:lastName "Pousada" .
+
+usdl4edu:Pedro-Gustavo-Santos-Rodrigues-Bizarro a foaf:Person ;
+    foaf:firstName "Pedro" ;
+    foaf:lastName "Bizarro" .
+
+usdl4edu:Pedro-Nuno-San-Bento-Furtado a foaf:Person ;
+    foaf:firstName "Pedro" ;
+    foaf:lastName "Furtado" .
+
+usdl4edu:Rui-Alexandre-de-Matos-Arajo a foaf:Person ;
+    foaf:firstName "Rui" ;
+    foaf:lastName "Araújo" .
+
+usdl4edu:Rui-Pedro-Pinto-de-Carvalho-e-Paiva a foaf:Person ;
+    foaf:firstName "Rui" ;
+    foaf:lastName "Paiva" .
+
+usdl4edu:Vera-Manuela-Miranda-Marques-Alves a foaf:Person ;
+    foaf:firstName "Vera" ;
+    foaf:lastName "Alves" .
+
+usdl4edu:Vtor-Manuel-Mendes-da-Silva a foaf:Person ;
+    foaf:firstName "Vítor" ;
+    foaf:lastName "Silva" .
+

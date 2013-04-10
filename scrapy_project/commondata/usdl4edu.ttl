@@ -1,0 +1,382 @@
+# baseURI: http://rdf.genssiz.dei.uc.pt/usdl4edu
+
+@prefix :        <http://rdf.genssiz.dei.uc.pt/usdl4edu#> .
+@prefix dc:      <http://purl.org/dc/terms/> .
+@prefix ecs:     <http://rdf.ecs.soton.ac.uk/ontology/ecs#> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix gr:      <http://purl.org/goodrelations/v1#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+gr:ProductOrService
+      rdf:type rdfs:Class ;
+      rdfs:comment "The superclass of all classes describing products or services types, either by nature or purpose. Examples for such subclasses are \"TV set\", \"vacuum cleaner\", etc. An instance of this class can be either an actual product or service (gr:Individual), a placeholder instance for unknown instances of a mass-produced commodity (gr:SomeItems), or a model / prototype specification (gr:ProductOrServiceModel). When in doubt, use gr:SomeItems."^^xsd:string ;
+      rdfs:label "Product or service"^^xsd:string .
+
+<http://rdf.genssiz.dei.uc.pt/usdl4edu>
+      rdf:type owl:Ontology ;
+      owl:versionInfo "Created with TopBraid Composer"^^xsd:string .
+
+:CognitiveDimension
+      rdf:type rdfs:Class ;
+      rdfs:comment "This class will be representing the Cognitive dimension of Bloom's Taxonomy for one educational objectives of a curricular unit"^^xsd:string ;
+      rdfs:label "Cognitive Dimension"^^xsd:string .
+
+:CognitiveDimension_1Remember
+      rdf:type :CognitiveDimension ;
+      rdfs:comment "Remember category of Cognitive Dimension"^^xsd:string ;
+      rdfs:label "Remember category"^^xsd:string ;
+      dc:description "Retrieve relevant knowledge from long-term memory"^^xsd:string ;
+      :hasKeyword "recall"^^xsd:string , "describe"^^xsd:string , "list"^^xsd:string , "identify"^^xsd:string , "know"^^xsd:string , "match"^^xsd:string , "reproduce"^^xsd:string , "recognize"^^xsd:string , "outline"^^xsd:string , "select"^^xsd:string , "label"^^xsd:string , "remember"^^xsd:string , "state"^^xsd:string , "name"^^xsd:string , "define"^^xsd:string ;
+      :hasValue 1 .
+
+:CognitiveDimension_2Understand
+      rdf:type :CognitiveDimension ;
+      rdfs:comment "Understand category of Cognitive Dimension"^^xsd:string ;
+      rdfs:label "Understand category"^^xsd:string ;
+      dc:description "Construct meaning from instructional messages, including oral, written,and graphic communication"^^xsd:string ;
+      :hasKeyword "defend"^^xsd:string , "distinguish"^^xsd:string , "paraphrase"^^xsd:string , "rewrite"^^xsd:string , "translate"^^xsd:string , "generalize"^^xsd:string , "predict"^^xsd:string , "convert"^^xsd:string , "interpret"^^xsd:string , "comprehend"^^xsd:string , "summarize"^^xsd:string , "extend"^^xsd:string , "understand"^^xsd:string , "estimate"^^xsd:string , "infer"^^xsd:string , "explain"^^xsd:string ;
+      :hasValue 2 .
+
+:CognitiveDimension_3Apply
+      rdf:type :CognitiveDimension ;
+      rdfs:comment "Apply category of Cognitive Dimension"^^xsd:string ;
+      rdfs:label "Carry out or use a procedure in a given situation"^^xsd:string ;
+      dc:description "Recall previous learned information" ;
+      :hasKeyword "construct"^^xsd:string , "compute"^^xsd:string , "change"^^xsd:string , "show"^^xsd:string , "apply"^^xsd:string , "produce"^^xsd:string , "manipulate"^^xsd:string , "predict"^^xsd:string , "operate"^^xsd:string , "prepare"^^xsd:string , "relate"^^xsd:string , "use"^^xsd:string , "discover"^^xsd:string , "demonstrate"^^xsd:string , "solve"^^xsd:string , "modify"^^xsd:string ;
+      :hasValue 3 .
+
+:CognitiveDimension_4Analyse
+      rdf:type :CognitiveDimension ;
+      rdfs:comment "Analyse category of Cognitive Dimension"^^xsd:string ;
+      rdfs:label "Analyse category"^^xsd:string ;
+      dc:description "Break material into constituent parts and determine how parts relate to one another and to an overall structure or purpose"^^xsd:string ;
+      :hasKeyword "discriminate"^^xsd:string , "distinguish"^^xsd:string , "relate"^^xsd:string , "identify"^^xsd:string , "separate"^^xsd:string , "analyze"^^xsd:string , "diagram"^^xsd:string , "outline"^^xsd:string , "illustrate"^^xsd:string , "deconstruct"^^xsd:string , "compare"^^xsd:string , "infer"^^xsd:string , "select"^^xsd:string , "differentiate"^^xsd:string , "contrast"^^xsd:string ;
+      :hasValue 4 .
+
+:CognitiveDimension_5Evaluate
+      rdf:type :CognitiveDimension ;
+      rdfs:comment "Evaluate category of Cognitive Dimension"^^xsd:string ;
+      rdfs:label "Evaluate category"^^xsd:string ;
+      dc:description "Make judgements based on criteria and standards"^^xsd:string ;
+      :hasKeyword "compare"^^xsd:string , "critique"^^xsd:string , "evaluate"^^xsd:string , "explain"^^xsd:string , "describe"^^xsd:string , "justify"^^xsd:string , "criticize"^^xsd:string , "discriminate"^^xsd:string , "interpret"^^xsd:string , "relate"^^xsd:string , "summarize"^^xsd:string , "conclude"^^xsd:string , "contrast"^^xsd:string , "support"^^xsd:string , "defend"^^xsd:string , "appraise"^^xsd:string ;
+      :hasValue 5 .
+
+:CognitiveDimension_6Create
+      rdf:type :CognitiveDimension ;
+      rdfs:comment "Create category of Cognitive Dimension"^^xsd:string ;
+      rdfs:label "Create category"^^xsd:string ;
+      dc:description "Put elements together to form a coherent or functional whole; reorganize elements into a new pattern or structure"^^xsd:string ;
+      :hasKeyword "generate"^^xsd:string , "write"^^xsd:string , "reconstruct"^^xsd:string , "explain"^^xsd:string , "revise"^^xsd:string , "summarize"^^xsd:string , "plan"^^xsd:string , "create"^^xsd:string , "devise"^^xsd:string , "tell"^^xsd:string , "categorize"^^xsd:string , "design"^^xsd:string , "organize"^^xsd:string , "reorganize"^^xsd:string , "rewrite"^^xsd:string , "compose"^^xsd:string , "modify"^^xsd:string , "combine"^^xsd:string , "compile"^^xsd:string , "rearrange"^^xsd:string , "relate"^^xsd:string ;
+      :hasValue 6 .
+
+:CourseUnit
+      rdf:type rdfs:Class ;
+      rdfs:comment "This class will represent a course unit from the service or from a specific Degree"^^xsd:string ;
+      rdfs:label "Course Unit"^^xsd:string .
+
+:Degree
+      rdf:type rdfs:Class ;
+      rdfs:comment "A dregree is also part of a educational service and contains curricular units"^^xsd:string ;
+      rdfs:label "Degree"^^xsd:string .
+
+:EducationalService
+      rdf:type rdfs:Class ;
+      rdfs:comment "The educational service itself"^^xsd:string ;
+      rdfs:label "Educational Service"^^xsd:string ;
+      rdfs:subClassOf gr:ProductOrService .
+
+:HighEducationCycle
+      rdf:type rdfs:Class ;
+      rdfs:comment "The European higher education area adopted a system based on three cycles of study, at bachelor, master and doctorate's level"^^xsd:string ;
+      rdfs:label "High Education Cycle"^^xsd:string .
+
+:HighEducationCycle_1st
+      rdf:type :HighEducationCycle ;
+      rdfs:comment "1st cycle of study lasting three or four years to attain a bachelor's degree"^^xsd:string ;
+      rdfs:label "1st Cycle - Bachelor"^^xsd:string ;
+      dc:description "A bachelor's degree is usually an academic degree earned for an undergraduate course or major that generally lasts four years, but can range anywhere from one to seven years depending on the region of the world" .
+
+:HighEducationCycle_2nd
+      rdf:type :HighEducationCycle ;
+      rdfs:comment "2nd cycle of study lasting one or two years to attain a master's degree"^^xsd:string ;
+      rdfs:label "2nd Cycle - Master"^^xsd:string ;
+      dc:description "A master's degree is an advanced academic degree granted to individuals who have undergone study demonstrating a mastery or high-order overview of a specific field of study or area of professional practice" .
+
+:HighEducationCycle_3rd
+      rdf:type :HighEducationCycle ;
+      rdfs:comment "3rd cycle of study lasting three years to attain a doctorate"^^xsd:string ;
+      rdfs:label "3rd Cycle - Doctorate"^^xsd:string ;
+      dc:description "A doctorate is an academic degree or professional degree that, in most countries, qualifies the holder to teach at the university level in the specific field of their certificate" .
+
+:KnowledgeDimension
+      rdf:type rdfs:Class ;
+      rdfs:comment "This class will be representing the Knowledge dimension of Bloom's Taxonomy for one educational objectives of a curricular unit"^^xsd:string ;
+      rdfs:label "Knowledge Dimension"^^xsd:string .
+
+:KnowledgeDimension_1Factual
+      rdf:type :KnowledgeDimension ;
+      rdfs:comment "Factual Knowledge"^^xsd:string ;
+      rdfs:label "Factual Knowledge"^^xsd:string ;
+      dc:description "The basic elements students must know to be acquainted with a discipline or solve problems in it" ;
+      :hasValue 1 .
+
+:KnowledgeDimension_2Conceptual
+      rdf:type :KnowledgeDimension ;
+      rdfs:comment "Conceptual Knowledge"^^xsd:string ;
+      rdfs:label "Conceptual Knowledge"^^xsd:string ;
+      dc:description "The interrelationships among the basic elements within a larger structure that enable them to function together"^^xsd:string ;
+      :hasValue 2 .
+
+:KnowledgeDimension_3Procedural
+      rdf:type :KnowledgeDimension ;
+      rdfs:comment "Procedural Knowledge"^^xsd:string ;
+      rdfs:label "Procedural Knowledge"^^xsd:string ;
+      dc:description "How to do something, methods of inquiry, and criteria for using skills, algorithms, techniques, and methods"^^xsd:string ;
+      :hasValue 3 .
+
+:KnowledgeDimension_4Meta
+      rdf:type :KnowledgeDimension ;
+      rdfs:comment "Meta Knowledge"^^xsd:string ;
+      rdfs:label "Meta Knowledge"^^xsd:string ;
+      dc:description "Knowledge of cognition in general as well as awareness and knowledge of one's own cognition"^^xsd:string ;
+      :hasValue 4 .
+
+:Language
+      rdf:type rdfs:Class ;
+      rdfs:comment "Language of instruction"^^xsd:string ;
+      rdfs:label "Language"^^xsd:string .
+
+:LanguageEN
+      rdf:type :Language ;
+      rdfs:label "English"^^xsd:string .
+
+:LanguagePT
+      rdf:type :Language ;
+      rdfs:label "Portuguese"^^xsd:string .
+
+:ModeDelivery
+      rdf:type rdfs:Class ;
+      rdfs:comment "Delivery mode of a curricular unit. Can be presential or online (MOOCs)"^^xsd:string ;
+      rdfs:label "Delivery Mode"^^xsd:string .
+
+:ModeDeliveryOnline
+      rdf:type :ModeDelivery ;
+      rdfs:label "Online"^^xsd:string .
+
+:ModeDeliveryPres
+      rdf:type :ModeDelivery ;
+      rdfs:label "Presential"^^xsd:string .
+
+:Objective
+      rdf:type rdfs:Class ;
+      rdfs:comment "This class will be representing the Bloom's Taxonomy for one educational objectives of a curricular unit"^^xsd:string ;
+      rdfs:label "Objective"^^xsd:string ;
+      rdfs:subClassOf :OverallObjective .
+
+:OverallObjective
+      rdf:type rdfs:Class ;
+      rdfs:comment "This class will be representing the Bloom's Taxonomy for the overall educational objectives of a curricular unit"^^xsd:string ;
+      rdfs:label "Overall Objective"^^xsd:string .
+
+:OverallPrerequisite
+      rdf:type rdfs:Class ;
+      rdfs:comment "This class will have the plain text of the prerequisite and the properties will be each of the prerequisites in skos hierarchy"^^xsd:string ;
+      rdfs:label "Overall Prerequisite"^^xsd:string .
+
+:SkillDimension
+      rdf:type rdfs:Class ;
+      rdfs:comment "This class will be representing the Skill dimension of Bloom's Taxonomy for one educational objectives of a curricular unit"^^xsd:string ;
+      rdfs:label "Skill Dimension"^^xsd:string ;
+      dc:description "Recall previous learned information" .
+
+:SkillDimension_1Recognition
+      rdf:type :SkillDimension ;
+      rdfs:comment "Recognition category of Skill Dimension"^^xsd:string ;
+      rdfs:label "Recognition category"^^xsd:string ;
+      dc:description "Recognize tools and materials" ;
+      :hasValue 1 .
+
+:SkillDimension_2Basic
+      rdf:type :SkillDimension ;
+      rdfs:comment "Basic category of Skill Dimension"^^xsd:string ;
+      rdfs:label "Basic category"^^xsd:string ;
+      dc:description "Set tool in action and perform elementary tasks" ;
+      :hasValue 2 .
+
+:SkillDimension_3Competent
+      rdf:type :SkillDimension ;
+      rdfs:comment "Competent category of Skill Dimension"^^xsd:string ;
+      rdfs:label "Competent category"^^xsd:string ;
+      dc:description "Fluently use tools for successful problem solving" ;
+      :hasValue 3 .
+
+:SkillDimension_4Expert
+      rdf:type :SkillDimension ;
+      rdfs:comment "Expert category of Skill Dimension"^^xsd:string ;
+      rdfs:label "Expertcategory"^^xsd:string ;
+      dc:description "Ability to use tools with ease to rapidly, efficiently, effectively and safely perform task on a regular basis" ;
+      :hasValue 4 .
+
+:hasCognitiveDimension
+      rdf:type rdf:Property ;
+      rdfs:domain :Objective , :OverallObjective ;
+      rdfs:label "has Cognitive Dimension"^^xsd:string ;
+      rdfs:range :CognitiveDimension .
+
+:hasContext
+      rdf:type rdf:Property ;
+      rdfs:comment "the context of a given objectiver or learning outcome"^^xsd:string ;
+      rdfs:domain :Objective ;
+      rdfs:label "has Context"^^xsd:string ;
+      rdfs:range skos:Concept .
+
+:hasCourseUnit
+      rdf:type rdf:Property ;
+      rdfs:domain :EducationalService , :Degree ;
+      rdfs:label "has Course Unit"^^xsd:string ;
+      rdfs:range :CourseUnit .
+
+:hasCycle
+      rdf:type rdf:Property ;
+      rdfs:domain :Degree ;
+      rdfs:label "has High Education Cycle"^^xsd:string ;
+      rdfs:range :HighEducationCycle .
+
+:hasDegree
+      rdf:type rdf:Property ;
+      rdfs:domain :EducationalService ;
+      rdfs:label "has Degree"^^xsd:string ;
+      rdfs:range :Degree .
+
+:hasDeliveryMode
+      rdf:type rdf:Property ;
+      rdfs:domain :CourseUnit ;
+      rdfs:label "has Delivery Mode"^^xsd:string ;
+      rdfs:range :ModeDelivery .
+
+:hasDuration
+      rdf:type rdf:Property ;
+      rdfs:comment "Duration of the Degree in years"^^xsd:string ;
+      rdfs:domain :Degree ;
+      rdfs:label "Duration"^^xsd:string ;
+      rdfs:range xsd:integer .
+
+:hasEcts
+      rdf:type rdf:Property ;
+      rdfs:domain :Degree , :CourseUnit ;
+      rdfs:label "has ects"^^xsd:string ;
+      rdfs:range xsd:integer .
+
+:hasKeyword
+      rdf:type rdf:Property ;
+      rdfs:domain :SkillDimension , :KnowledgeDimension , :CognitiveDimension ;
+      rdfs:label "has Key Word"^^xsd:string ;
+      rdfs:range xsd:string .
+
+:hasKnowledgeDimension
+      rdf:type rdf:Property ;
+      rdfs:domain :Objective , :OverallObjective ;
+      rdfs:label "has Knowledge Dimension"^^xsd:string ;
+      rdfs:range :KnowledgeDimension .
+
+:hasLanguage
+      rdf:type rdf:Property ;
+      rdfs:domain :Degree , :CourseUnit ;
+      rdfs:label "Language"^^xsd:string ;
+      rdfs:range :Language .
+
+:hasOrganization
+      rdf:type rdf:Property ;
+      rdfs:comment "The organization or University that is hosting the educational service (degree or specific unit)"^^xsd:string ;
+      rdfs:domain :EducationalService ;
+      rdfs:label "has Organization"^^xsd:string ;
+      rdfs:range foaf:Organization .
+
+:hasOverallObjective
+      rdf:type rdf:Property ;
+      rdfs:domain :CourseUnit ;
+      rdfs:label "has Overall Objective"^^xsd:string ;
+      rdfs:range :OverallObjective .
+
+:hasOverallPrerequisite
+      rdf:type rdf:Property ;
+      rdfs:comment "The overall prerequisite, mostly in plain text"^^xsd:string ;
+      rdfs:domain :CourseUnit ;
+      rdfs:label "has Overall Prerequisite"^^xsd:string ;
+      rdfs:range :OverallPrerequisite .
+
+:hasPartObjective
+      rdf:type rdf:Property ;
+      rdfs:domain :OverallObjective ;
+      rdfs:label "has Overall Objective"^^xsd:string ;
+      rdfs:range :Objective .
+
+:hasPrerequisite
+      rdf:type rdf:Property ;
+      rdfs:comment "A prerequisite of a service could be (in a simpler way) just a Context (Area)"^^xsd:string ;
+      rdfs:domain :OverallPrerequisite ;
+      rdfs:label "has Prerequisite"^^xsd:string ;
+      rdfs:range skos:Concept .
+
+:hasSemester
+      rdf:type rdf:Property ;
+      rdfs:domain :CourseUnit ;
+      rdfs:label "has Semester"^^xsd:string ;
+      rdfs:range xsd:integer .
+
+:hasSkillDimension
+      rdf:type rdf:Property ;
+      rdfs:domain :Objective , :OverallObjective ;
+      rdfs:label "has Skill Dimension"^^xsd:string ;
+      rdfs:range :SkillDimension .
+
+:hasTeacher
+      rdf:type rdf:Property ;
+      rdfs:domain :CourseUnit ;
+      rdfs:label "has Teacher"^^xsd:string ;
+      rdfs:range foaf:Person .
+
+:hasTitle
+      rdf:type rdf:Property ;
+      rdfs:domain :Degree , :CourseUnit ;
+      rdfs:label "Title"^^xsd:string ;
+      rdfs:range xsd:string .
+
+:hasURL
+      rdf:type rdf:Property ;
+      rdfs:comment "The url of the course"^^xsd:string ;
+      rdfs:domain :EducationalService ;
+      rdfs:label "has URL"^^xsd:string ;
+      rdfs:range xsd:string .
+
+:hasValue
+      rdf:type rdf:Property ;
+      rdfs:comment "Value of this instance of the knowledge dimension"^^xsd:string ;
+      rdfs:domain :KnowledgeDimension , :SkillDimension , :CognitiveDimension ;
+      rdfs:label "value"^^xsd:string ;
+      rdfs:range xsd:integer .
+
+:hasWorkload
+      rdf:type rdf:Property ;
+      rdfs:comment "Workload/week"^^xsd:string ;
+      rdfs:domain :CourseUnit ;
+      rdfs:label "Workload"^^xsd:string ;
+      rdfs:range xsd:integer .
+
+skos:Concept
+      rdf:type rdfs:Class ;
+      rdfs:label "Concept"^^xsd:string .
+
+foaf:Organization
+      rdf:type rdfs:Class ;
+      rdfs:comment "The Organization class represents a kind of Agent corresponding to social instititutions such as companies, societies etc."^^xsd:string ;
+      rdfs:label "Organization"^^xsd:string .
+
+foaf:Person
+      rdf:type rdfs:Class ;
+      rdfs:comment "The Person class represents people. Something is a Person if it is a person. We don't nitpic about whether they're alive, dead, real, or imaginary. The Person class is a sub-class of the Agent class, since all people are considered 'agents' in FOAF."^^xsd:string ;
+      rdfs:label "Person"^^xsd:string .

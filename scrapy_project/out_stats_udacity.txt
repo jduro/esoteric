@@ -1,0 +1,288 @@
+Sem nada: explore how secrets are written and shared, as well as what can go wrong when cryptography is misused or implemented badly.
+<>Context:cryptography
+----
+Sem nada: this course will cover probabilistic inference, planning and search, localization, tracking and control, all with a focus on robotics.
+<>Context:tracking
+<>Context:robotics
+----
+TUDO:this course will teach you how to think like a verification engineer.it will show the software development aspects you need to know to ensure chips are working as expected. you will learn how to implement verification environments.
+VERBO:show
+Inicio-Fim:show the software development aspects you need to know to ensure chips are working as expected. you will learn how to implement verification environments.
+**
+Inicio-ponto:show the software development aspects you need to know to ensure chips are working as expected
+Context:software development techniques
+Got 2 words of 3
+Context:software development methods
+Got 2 words of 3
+Context:collaboration in software development
+Got 3 words of 4
+Context:men
+Got 1 words of 1
+Context:history of software
+Got 2 words of 3
+Context:agile software development
+Got 2 words of 3
+---
+TUDO:this course will teach you how to think like a verification engineer.it will show the software development aspects you need to know to ensure chips are working as expected. you will learn how to implement verification environments.
+VERBO:know
+Inicio-Fim:know to ensure chips are working as expected. you will learn how to implement verification environments.
+**
+Inicio-ponto:know to ensure chips are working as expected
+---
+TUDO:at the end of this course, you will have learned key concepts in computer science and enough python programming to be able to write programs to solve problems on your own. this course will prepare you to move on to more intermediate-level courses in cs.
+VERBO:prepare
+Inicio-Fim:prepare you to move on to more intermediate-level courses in cs.
+**
+Inicio-ponto:prepare you to move on to more intermediate-level courses in cs
+---
+TUDO:at the end of this course, you will have learned key concepts in computer science and enough python programming to be able to write programs to solve problems on your own. this course will prepare you to move on to more intermediate-level courses in cs.
+VERBO:solve
+Inicio-Fim:solve problems on your own. this course will prepare you to move on to more intermediate-level courses in cs.
+**
+Inicio-ponto:solve problems on your own
+---
+TUDO:at the end of this course, you will have learned key concepts in computer science and enough python programming to be able to write programs to solve problems on your own. this course will prepare you to move on to more intermediate-level courses in cs.
+VERBO:write
+Inicio-Fim:write programs to solve problems on your own. this course will prepare you to move on to more intermediate-level courses in cs.
+**
+Inicio-ponto:write programs to solve problems on your own
+---
+Sem nada: move along the path towards becoming an expert programmer! in this class you will practice going from a problem description to a solution, using a series of assignments.
+----
+TUDO:you'll learn the key steps of the customer development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger.
+VERBO:use
+Inicio-Fim:use their feedback to make your product, marketing and business model far stronger.
+**
+Inicio-ponto:use their feedback to make your product, marketing and business model far stronger
+Context:marketing
+Got 1 words of 1
+Context:computing and business
+Got 2 words of 3
+---
+TUDO:you'll learn the key steps of the customer development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger.
+VERBO:evaluate
+Inicio-Fim:evaluate and use their feedback to make your product, marketing and business model far stronger.
+**
+Inicio-ponto:evaluate and use their feedback to make your product, marketing and business model far stronger
+Context:marketing
+Got 1 words of 1
+Context:computing and business
+Got 2 words of 3
+---
+TUDO:you'll learn the key steps of the customer development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger.
+VERBO:identify
+Inicio-Fim:identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger.
+**
+Inicio-ponto:identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger
+Context:age
+Got 1 words of 1
+Context:marketing
+Got 1 words of 1
+Context:computing and business
+Got 2 words of 3
+---
+TUDO:you'll learn the key steps of the customer development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger.
+VERBO:identify
+Inicio-Fim:identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger.
+**
+Inicio-ponto:identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger
+Context:age
+Got 1 words of 1
+Context:marketing
+Got 1 words of 1
+Context:computing and business
+Got 2 words of 3
+---
+TUDO:by the end of this class you will know enough to make an animated 3d demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated.
+VERBO:know
+Inicio-Fim:know enough to make an animated 3d demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated.
+**
+Inicio-ponto:know enough to make an animated 3d demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated
+Context:age
+Got 1 words of 1
+Context:basic
+Got 1 words of 1
+---
+TUDO:at the end of this course, you'll understand how to develop an html5 game. you will gain familiarity with html5 features such as 2d canvas and techniques for improving performance.
+VERBO:understand
+Inicio-Fim:understand how to develop an html5 game. you will gain familiarity with html5 features such as 2d canvas and techniques for improving performance.
+**
+Inicio-ponto:understand how to develop an html5 game
+---
+TUDO:at the end of this course you will have a solid understanding about systematic debugging, will know how to automate debugging and will have built several functional debugging tools in python.
+VERBO:know
+Inicio-Fim:know how to automate debugging and will have built several functional debugging tools in python.
+**
+Inicio-ponto:know how to automate debugging and will have built several functional debugging tools in python
+---
+TUDO:this course will teach you how to think like a software tester, how to find bugs in code earlier, and write better code.
+VERBO:write
+Inicio-Fim:write better code.
+**
+Inicio-ponto:write better code
+---
+TUDO:take this class and learn how to build your own simple web browser complete with the ability to parse and understand html and javascript.
+VERBO:understand
+Inicio-Fim:understand html and javascript.
+**
+Inicio-ponto:understand html and javascript
+Context:javascript
+Got 1 words of 1
+---
+TUDO:at the end of this course, you will have a solid understanding of theoretical computer science. this will not only allow you to recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice.
+VERBO:recognize
+Inicio-Fim:recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice.
+**
+Inicio-ponto:recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice
+---
+TUDO:by the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences. you'll also learn how to build mathematical models for systems of differential equations. along the way, you'll learn how to translate mathematical expressions into python code, and solve some really cool problems!
+VERBO:solve
+Inicio-Fim:solve some really cool problems!
+**
+Inicio-ponto:solve some really cool problems!
+---
+TUDO:by the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences. you'll also learn how to build mathematical models for systems of differential equations. along the way, you'll learn how to translate mathematical expressions into python code, and solve some really cool problems!
+VERBO:use
+Inicio-Fim:use of differential equations in the applied sciences. you'll also learn how to build mathematical models for systems of differential equations. along the way, you'll learn how to translate mathematical expressions into python code, and solve some really cool problems!
+**
+Inicio-ponto:use of differential equations in the applied sciences
+Context:stochastic differential equations
+Got 2 words of 3
+Context:differential equations
+Got 2 words of 2
+Context:ordinary differential equations
+Got 2 words of 3
+Context:partial differential equations
+Got 2 words of 3
+Context:differential algebraic equations
+Got 2 words of 3
+---
+TUDO:by the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences. you'll also learn how to build mathematical models for systems of differential equations. along the way, you'll learn how to translate mathematical expressions into python code, and solve some really cool problems!
+VERBO:translate
+Inicio-Fim:translate mathematical expressions into python code, and solve some really cool problems!
+**
+Inicio-ponto:translate mathematical expressions into python code, and solve some really cool problems!
+Context:mathematica
+Got 1 words of 1
+---
+Sem nada: in this project-based course your knowledge will be evaluated as you learn to build your own blog application! learn everything steve huffman wished he would have known when he broke into the startup world. read more about huffman and the course 
+----
+TUDO:by the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms.
+VERBO:evaluate
+Inicio-Fim:evaluate the efficiency of these algorithms.
+**
+Inicio-ponto:evaluate the efficiency of these algorithms
+---
+TUDO:by the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms.
+VERBO:devise
+Inicio-Fim:devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms.
+**
+Inicio-ponto:devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms
+Context:dynamic graph algorithms
+Got 2 words of 3
+Context:spectra of graphs
+Got 2 words of 3
+Context:data structures design and analysis
+Got 3 words of 5
+Context:data structures and algorithms for data management
+Got 6 words of 7
+Context:data types and structures
+Got 3 words of 4
+Context:data path algorithms
+Got 2 words of 3
+Context:data structures
+Got 2 words of 2
+Context:graph algorithms analysis
+Got 2 words of 3
+Context:design and analysis of algorithms
+Got 3 words of 5
+Context:graphs and surfaces
+Got 2 words of 3
+Context:graph algorithms
+Got 2 words of 2
+---
+TUDO:by the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms.
+VERBO:understand
+Inicio-Fim:understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms.
+**
+Inicio-ponto:understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms
+Context:dynamic graph algorithms
+Got 2 words of 3
+Context:spectra of graphs
+Got 2 words of 3
+Context:data structures design and analysis
+Got 3 words of 5
+Context:data structures and algorithms for data management
+Got 6 words of 7
+Context:data types and structures
+Got 3 words of 4
+Context:data path algorithms
+Got 2 words of 3
+Context:data structures
+Got 2 words of 2
+Context:graph algorithms analysis
+Got 2 words of 3
+Context:design and analysis of algorithms
+Got 3 words of 5
+Context:graphs and surfaces
+Got 2 words of 3
+Context:graph algorithms
+Got 2 words of 2
+---
+Sem nada: this class introduces students to the basics of artificial intelligence, which includes machine learning, probabilistic reasoning, robotics, and natural language processing.
+<>Context:probabilistic reasoning
+<>Context:artificial intelligence
+<>Context:basic
+<>Context:natural language processing
+<>Context:robotics
+<>Context:machine learning
+----
+TUDO:you'll master the fundamentals of massively parallel computing by using cuda c/c++ to program modern gpus. you'll learn the gpu programming model and architecture, key algorithms and parallel programming patterns, and optimization techniques. your assignments will illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain. most of all we hope you'll learn how to think in parallel.
+VERBO:illustrate
+Inicio-Fim:illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain. most of all we hope you'll learn how to think in parallel.
+**
+Inicio-ponto:illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain
+Context:age
+Got 1 words of 1
+Context:parallel computing models
+Got 2 words of 3
+Context:computing in government
+Got 2 words of 3
+Context:people in computing
+Got 2 words of 3
+Context:image processing
+Got 2 words of 2
+Context:computing and business
+Got 2 words of 3
+Context:parallel computing methodologies
+Got 2 words of 3
+---
+TUDO:you'll master the fundamentals of massively parallel computing by using cuda c/c++ to program modern gpus. you'll learn the gpu programming model and architecture, key algorithms and parallel programming patterns, and optimization techniques. your assignments will illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain. most of all we hope you'll learn how to think in parallel.
+VERBO:translate
+Inicio-Fim:translate to any application domain. most of all we hope you'll learn how to think in parallel.
+**
+Inicio-ponto:translate to any application domain
+---
+Sem nada: t; m; t; a; s; c; w; 
+----
+Sem nada: in this course, you will learn...  
+----
+Sem nada: this unique class gives you the chance to see the sites where physics history was made and learn some of the subject's most captivating concepts.
+<>Context:physics
+----
+Sem nada: this course will cover visualization, probability, regression and other topics that will help you learn the basic methods of understanding data with statistics. 
+<>Context:basic
+<>Context:visualization
+----
+Sem nada: understand and develop the language, models, and tools for math reasoning.
+----
+NOT SAVING
+22
+23
+66
+10
+NOT SAVING
+22
+23
+66
+10
