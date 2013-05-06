@@ -10,13 +10,14 @@ from scrapy.shell import inspect_response
 from time import time, sleep
 import urlparse
 
+from selenium import selenium
+import time
 import sys
 
 class UdacitySpider(CrawlSpider):
     name="udacity"
     allowed_domains=["udacity.com"]
     start_urls=["https://www.udacity.com/courses"]
-    #rules = (Rule(SgmlLinkExtractor(restrict_xpaths='//li[@data-ng-show]/a/@href'),callback='parseCourse'),)
     rules = (
         Rule(
             SgmlLinkExtractor(
@@ -25,14 +26,6 @@ class UdacitySpider(CrawlSpider):
             callback='parse_item',
             ),
         )
-
-    # def parse(self, response):
-    #     hxs = HtmlXPathSelector(response)
-    #     #item = EducationalService()
-    #     print self.rules
-    #     print hxs.select('/html/head/title/text()').extract()
-
-    #     #print item['title']
 
     def parse_item(self, response):
         hxs = HtmlXPathSelector(response)
@@ -62,6 +55,222 @@ class UdacitySpider(CrawlSpider):
 
         return edu
 
+class EdxSpider(CrawlSpider):
+    name="edx"
+    allowed_domains=["edx.org"]
+    start_urls=["https://www.edx.org/courses"]
+    # rules = (
+    #     Rule(
+    #         SgmlLinkExtractor(
+    #             allow=('https://www.edx.org/courses/\w+'),
+    #         ),
+    #         callback='parse_item',
+    #         ),
+    #     )
+
+    def parse(self, response):
+        print response.url
+        # links=SgmlLinkExtractor(
+        #         allow=('https://www.edx.org/courses/\w+'),
+        #     )
+        # print "TAMANHO:",len(links.extract_links(response))
+        # for link in links.extract_links(response):
+        #     request = Request(link.url,callback=self.parse_item)
+        #     request.meta['item']=item
+        hxs = HtmlXPathSelector(response)
+        for li in hxs.select("//ul/li"):
+            request = Request("https://www.edx.org"+str(li.select("./article/a/@href").extract()[0]),callback=self.parse_item)
+            request.meta['desc']=str(li.select("./article/a/div[1]/section/div[2]/p/text()").extract()[0].encode('utf-8')).strip()
+            yield request
+
+
+
+    def parse_item(self, response):
+        # print response.url
+        hxs = HtmlXPathSelector(response)
+        edu=EducationalServiceItem()
+        title=str(hxs.select('(//h1)[2]/text()').extract()[0])
+        edu['title']=title[title.find(":")+2:]
+        edu['url']=response.url
+        edu['summary']=response.meta['desc']
+        print response.url
+        edu['objectives']=""
+        first=True
+        for child in hxs.select("//section[@class='about']/*"):
+            if first:
+                first=False
+                continue
+            
+            edu['objectives']+=self.recursiveExtractText(child)
+        # print edu['objectives']
+        edu['prereq']=""
+        first=True
+        #Sometimes the class of the section is Prerequisites
+        for child in hxs.select("//section[@class='Prerequisites']/*"):
+            if first:
+                first=False
+                continue
+            
+            edu['prereq']+=self.recursiveExtractText(child)
+        first=True
+        #Sometimes the class of the section is prerequisites
+        for child in hxs.select("//section[@class='prerequisites']/*"):
+            if first:
+                first=False
+                continue
+            
+            edu['prereq']+=self.recursiveExtractText(child)
+        #Sometimes prerequisites are in the box on the right in li tag
+        if edu['prereq']=="":
+            # open_in_browser(response)
+            pre=hxs.select("//li[@class='prerequisites']/span/text()").extract()
+            if pre!=[]:
+                if not "None" in str(pre[0]):
+                    edu['prereq']=str(pre[0].strip())
+
+        # #Teachers
+        # for teacher in hxs.select("//section[@class='course-staff']/article|//section[@class='course-staff']/h2/article"):
+        #     print teacher.select("./*")[1].select("./text()").extract()
+        #     print teacher.select("./p/text()").extract()
+        first=True
+        edu['teachers']=[]
+        teacher=None
+        if len(hxs.select("//section[@class='course-staff']/h2/article"))==1:
+            for child in hxs.select("//section[@class='course-staff']/h2/article/h3|//section[@class='course-staff']/h2/article/p"):
+                if first:
+                    if child.select("./text()")==[]:
+                        continue
+                    first=False
+                    teacher=TeacherItem()
+                    teacher['name']=str(child.select("./text()").extract()[0].encode('utf-8'))
+                    teacher['bio']=""
+                else:
+                    if child.select("./text()")==[]:
+                        first=True
+                        edu['teachers'].append(teacher)
+                        teacher=None
+                    else:
+                        teacher['bio']+=str(child.select("./text()").extract()[0].encode('utf-8'))+"\n"
+            if teacher!=None:
+                edu['teachers'].append(teacher)
+        else:
+            for teacher in hxs.select("//section[@class='course-staff']/article|//section[@class='course-staff']/h2/article"):
+                t=TeacherItem()
+                t['name']=str(teacher.select("./*")[1].select("./text()").extract()[0].encode('utf-8'))
+                t['bio']=str(teacher.select("./p/text()").extract()[0].encode('utf-8'))
+                edu['teachers'].append(t)
+        
+        return edu
+
+
+    def recursiveExtractText(self, node):
+        if len(node.select("./*"))!=0:
+            aux= node.select("./text()").extract()
+            text=""
+            if len(aux)!=0:
+                # print aux[0].strip()
+                text=str(aux[0].encode('utf-8')).strip()
+            for child in node.select("./*"):
+                text+=self.recursiveExtractText(child)+"\n"
+            return text
+        else:
+            if node.select("./text()").extract()!=[]:
+                return node.select("./text()").extract()[0].encode('utf-8').strip()
+            return ""
+
+
+class CourseraSpider(CrawlSpider):
+    name="coursera"
+    # allowed_domains=["https://www.coursera.org","https://www.coursera.org/course"]
+    start_urls=["https://www.coursera.org/courses"]
+    rules = (
+        Rule(
+            SgmlLinkExtractor(
+                allow=(r'/course/\w+'),
+            ),
+            callback='parse_item',
+            ),
+        )
+    def parse(self, response):
+        print "IN PARSE!"
+        # inspect_response(response,self)
+
+        links=SgmlLinkExtractor(
+                allow=('https://www.coursera.org/course/\w+'),
+            )
+        print "TAMANHO:",len(links.extract_links(response))
+        for link in links.extract_links(response):
+            # print link
+            yield Request(link.url,callback=self.parse_item)
+        # open_in_browser(response)
+
+    def parse_item(self, response):
+        print "IN PARSE_ITEM"
+        # open_in_browser(response)
+        print response.url
+        hxs = HtmlXPathSelector(response)
+        edu=EducationalServiceItem()
+
+        edu['url']=response.url
+        # if len(hxs.select('//h1/text()').extract())==0:
+        #     print "DEU BODE"
+        #     print "DEU BODE URL:",response.url
+        #     print "DEU BODE BODY:",response.body
+        #     open_in_browser(response)
+        edu['title']=str(hxs.select('//h1/text()').extract()[0])
+        courseDetail=hxs.select('//div[@class="coursera-course-detail"]')
+
+        #In some cases the text is inside a div, in other it isn't
+        if courseDetail[0].select('./div/text()').extract()!=[]:
+            div=courseDetail[0].select('./div/text()').extract()
+        elif courseDetail[0].select('./p/text()').extract()!=[]:
+            div=courseDetail[0].select('./p/text()').extract()
+        else:
+            div=courseDetail[0].select('./text()').extract()
+
+        edu['objectives']=""
+        #in some cases the text is spread in <p> tags
+        for s in div:
+        
+            # if aux==[]:
+            #     continue
+            edu['objectives']+=str(s.strip())
+        edu['prereq']=""
+        #some courses don't have prerequisites
+        if len(courseDetail)>2:
+            #In some cases the text is inside a div, in other it isn't
+            if courseDetail[2].select('./div/text()').extract()!=[]:
+                div=courseDetail[2].select('./div/text()').extract()
+            elif courseDetail[2].select('./p/text()').extract()!=[]:
+                div=courseDetail[2].select('./p/text()').extract()
+            else:
+                div=courseDetail[2].select('./text()').extract()
+            #in some cases the text is spread in <p> tags
+            for s in div:
+                # aux=s.select("./text()").extract()
+                # if aux==[]:
+                #     continue
+                edu['prereq']+=str(s.strip())
+
+        # edu['prereq']=str(courseDetail[2].select('./text()').extract()[0])
+        edu['summary']=str(hxs.select('(//div[@class="span6"])[1]/p/text()').extract()[0])
+
+        # print "url:",edu['url']
+        # print "title:",edu['title']
+        # print "objectives:",edu['objectives']
+        # print "prereq:",edu['prereq']
+        # print "summary:",edu['summary']
+        edu['teachers']=[]
+        instructors=hxs.select("//div[@class='coursera-course2-instructors']/div")
+        for instructor in instructors:
+            teacher=TeacherItem()
+            teacher['name']=str(instructor.select("./div[3]/a[1]/span/text()").extract()[0])
+            # teacher['role']=instructor.select(".//text()").extract()
+            teacher['bio']=str(instructor.select("./div[3]/a[2]/span/text()").extract()[0])
+            edu['teachers'].append(teacher)
+
+        return edu
+
 class NonioSpider(BaseSpider):
     name = 'nonio'
     start_urls = ['https://inforestudante.uc.pt/nonio/security/init.do']
@@ -72,7 +281,7 @@ class NonioSpider(BaseSpider):
         print "Gonna send login"
         print response.url
         return [FormRequest.from_response(response,
-                    formdata={'method' : 'submeter' ,'username': 'user', 'password': 'pass'},
+                    formdata={'method' : 'submeter' ,'username': 'x', 'password': 'x'},
                     callback=self.after_login, dont_filter=True)]
         #dont_filter=True because the login page of NONIO redirects 3 times
 
@@ -102,7 +311,7 @@ class NonioSpider(BaseSpider):
         #     print self.cursos_domain+str(cell.select("./a/@href").extract()[0])
         #     print "**CALLING**"
         #     yield Request(self.cursos_domain+str(cell.select("./a/@href").extract()[0]),callback=self.parse_course)
-        return Request(self.cursos_domain+str(table[4].select("./a/@href").extract()[0]),callback=self.parse_course)
+        return Request(self.cursos_domain+str(table[7].select("./a/@href").extract()[0]),callback=self.parse_course)
 
     def parse_course(self, response):
         # open_in_browser(response)

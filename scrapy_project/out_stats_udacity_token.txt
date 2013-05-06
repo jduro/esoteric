@@ -1,0 +1,117 @@
+How to Build a Startup
+TUDO:You'll learn the key steps of the Customer Development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger.
+verbo:identify/identifi
+verbo:evaluate/evalu
+verbo:identify/identifi
+verbo:use/use
+----
+Design of Computer Programs
+TUDO:Move along the path towards becoming an expert programmer! In this class you will practice going from a problem description to a solution, using a series of assignments.
+verbo:use/use
+----
+Functional Hardware Verification
+TUDO:This course will teach you how to think like a verification engineer.It will show the software development aspects you need to know to ensure chips are working as expected. You will learn how to implement verification environments.
+verbo:know/know
+verbo:show/show
+----
+Introduction to Computer Science
+TUDO:At the end of this course, you will have learned key concepts in computer science and enough Python programming to be able to write programs to solve problems on your own. This course will prepare you to move on to more intermediate-level courses in CS.
+verbo:write/write
+verbo:prepare/prepar
+verbo:solve/solv
+verbo:compute/comput
+----
+Artificial Intelligence for Robotics
+TUDO:This course will cover probabilistic inference, planning and search, localization, tracking and control, all with a focus on robotics.
+verbo:infer/infer
+verbo:infer/infer
+verbo:plan/plan
+----
+Applied Cryptography
+TUDO:Explore how secrets are written and shared, as well as what can go wrong when cryptography is misused or implemented badly.
+Sem nada: explore how secrets are written and shared, as well as what can go wrong when cryptography is misused or implemented badly.
+----
+Introduction to Theoretical Computer Science
+TUDO:At the end of this course, you will have a solid understanding of theoretical computer science. This will not only allow you to recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice.
+verbo:understand/understand
+verbo:recognize/recogn
+verbo:compute/comput
+----
+Introduction to Parallel Programming
+TUDO:You'll master the fundamentals of massively parallel computing by using CUDA C/C++ to program modern GPUs. You'll learn the GPU programming model and architecture, key algorithms and parallel programming patterns, and optimization techniques. Your assignments will illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain. Most of all we hope you'll learn how to think in parallel.
+verbo:translate/translat
+verbo:illustrate/illustr
+verbo:compute/comput
+verbo:use/use
+----
+HTML5 Game Development
+TUDO:At the end of this course, you'll understand how to develop an HTML5 game. You will gain familiarity with HTML5 features such as 2D canvas and techniques for improving performance.
+verbo:understand/understand
+----
+Programming Languages
+TUDO:Take this class and learn how to build your own simple web browser complete with the ability to parse and understand HTML and JavaScript.
+verbo:understand/understand
+----
+Software Testing
+TUDO:This course will teach you how to think like a software tester, how to find bugs in code earlier, and write better code.
+verbo:write/write
+----
+Differential Equations in Action
+TUDO:By the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences. You'll also learn how to build mathematical models for systems of differential equations. Along the way, you'll learn how to translate mathematical expressions into Python code, and solve some really cool problems!
+verbo:translate/translat
+verbo:differentiate/differenti
+verbo:solve/solv
+verbo:apply/appli
+verbo:use/use
+----
+Algorithms
+TUDO:By the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms.
+verbo:understand/understand
+verbo:evaluate/evalu
+verbo:devise/devis
+----
+Software Debugging
+TUDO:At the end of this course you will have a solid understanding about systematic debugging, will know how to automate debugging and will have built several functional debugging tools in Python.
+verbo:understand/understand
+verbo:know/know
+----
+Interactive 3D Graphics
+TUDO:By the end of this class you will know enough to make an animated 3D demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated.
+verbo:generalize/gener
+verbo:understand/understand
+verbo:know/know
+verbo:generate/gener
+verbo:compute/comput
+----
+Web Development
+TUDO:In this project-based course your knowledge will be evaluated as you learn to build your own blog application! Learn everything Steve Huffman wished he would have known when he broke into the startup world. Read more about Huffman and the course 
+verbo:evaluate/evalu
+----
+Introduction to Physics
+TUDO:This unique class gives you the chance to see the sites where physics history was made and learn some of the subject's most captivating concepts.
+Sem nada: this unique class gives you the chance to see the sites where physics history was made and learn some of the subject's most captivating concepts.
+----
+Statistics
+TUDO:T; M; T; A; S; C; W; 
+Sem nada: t; m; t; a; s; c; w; 
+----
+College Algebra
+TUDO:In this course, you will learn...  
+Sem nada: in this course, you will learn...  
+----
+Visualizing Algebra
+TUDO:Understand and develop the language, models, and tools for math reasoning.
+verbo:understand/understand
+----
+Introduction to Statistics
+TUDO:This course will cover visualization, probability, regression and other topics that will help you learn the basic methods of understanding data with statistics. 
+verbo:understand/understand
+----
+21
+42
+65
+4
+21
+42
+65
+4

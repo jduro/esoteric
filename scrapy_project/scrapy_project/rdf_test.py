@@ -1,6 +1,7 @@
 from rdflib.graph import Graph, ConjunctiveGraph
 from rdflib import Literal, BNode, Namespace, URIRef
 from rdflib import RDF,RDFS
+import nltk
 
 graph = Graph()
 #graph.parse('http://rdf.genssiz.dei.uc.pt/usdl4edu#')
@@ -73,68 +74,68 @@ graphConcepts.parse("\commondata\exported\context.ttl",format='n3')
 SKOS = Namespace("http://www.w3.org/2004/02/skos/core#")
 
 keywords=[]
-for obj in graphUSDL4EDU.subjects(RDF.type,USDL4EDU["CognitiveDimension"]):
+for obj in graphUSDL4EDU.subjects(RDF.type,USDL4EDU["KnowledgeDimension"]):
 	# aux=[]
 	for mbox in graphUSDL4EDU.objects(obj,USDL4EDU["hasKeyword"]):
 		# aux.append(str(mbox))
 		keywords.append(str(mbox))
-		# print mbox
+		print mbox
+print keywords
+# graph=Graph()
+# graph.parse("\commondata\exported\udacity.ttl",format='n3')
+# description=""
+# number_descriptions=0
+# number_found=0
+# number_context=0
+# for obj in graph.subjects(RDF.type,USDL4EDU["OverallObjective"]):
+# 	for mbox in graph.objects(obj,DC["description"]):
+# 		number_descriptions+=1
+# 		# if obj==URIRef(USDL4EDU["Organizao-Comportamento-Conhecimento-e-Inovao-objectives"]):
+# 		# 	description=mbox
+# 		# print mbox.encode("utf-8")
+# 		# print mbox
+# 		for k in keywords:
+# 			if " "+k+" " in mbox or mbox in " "+k+" ":
+# 				number_found+=1
+# 				print obj
+# 				print k
+# 				print mbox[mbox.find(k):mbox.find(k)+75].encode("utf-8").strip()
+# 				for o in graphConcepts.subjects(RDF.type,SKOS["Concept"]):
+# 					for m in graphConcepts.objects(o,SKOS["prefLabel"]):
+# 						context=m.split(" ")
+# 						total=0
+# 						for c in context:
+# 							if c in mbox[mbox.find(k):mbox.find(k)+75]:
+# 								total+=1
+# 						if total>(len(context)/2):
+# 							print m
+# 							print "Got "+str(total)+" words of "+str(len(context))
+# 							number_context+=1
+# 				print "---"
+# 	# for k in self.keywords:
+# 	# 	if " "+k+" " in unitItem["objectives"]:
+# 	# 		print unitItem["title"]
+# 	# 		print k
+# 	# 		print unitItem["objectives"][unitItem["objectives"].find(k)-30:unitItem["objectives"].find(k)+31]
+# 	# 		print "---"
+# # description=description[:description.find("Ingl")].strip()
+# # graphOnto=Graph()
+# # graphOnto.parse("\commondata\dicionarios\Onto.PT.0.4.1.rdfs")
+# # ONTOPT = Namespace("http://ontopt.dei.uc.pt/OntoPT.owl#")
 
-graph=Graph()
-graph.parse("\commondata\exported\udacity.ttl",format='n3')
-description=""
-number_descriptions=0
-number_found=0
-number_context=0
-for obj in graph.subjects(RDF.type,USDL4EDU["OverallObjective"]):
-	for mbox in graph.objects(obj,DC["description"]):
-		number_descriptions+=1
-		# if obj==URIRef(USDL4EDU["Organizao-Comportamento-Conhecimento-e-Inovao-objectives"]):
-		# 	description=mbox
-		# print mbox.encode("utf-8")
-		# print mbox
-		for k in keywords:
-			if " "+k+" " in mbox or mbox in " "+k+" ":
-				number_found+=1
-				print obj
-				print k
-				print mbox[mbox.find(k):mbox.find(k)+75].encode("utf-8").strip()
-				for o in graphConcepts.subjects(RDF.type,SKOS["Concept"]):
-					for m in graphConcepts.objects(o,SKOS["prefLabel"]):
-						context=m.split(" ")
-						total=0
-						for c in context:
-							if c in mbox[mbox.find(k):mbox.find(k)+75]:
-								total+=1
-						if total>(len(context)/2):
-							print m
-							print "Got "+str(total)+" words of "+str(len(context))
-							number_context+=1
-				print "---"
-	# for k in self.keywords:
-	# 	if " "+k+" " in unitItem["objectives"]:
-	# 		print unitItem["title"]
-	# 		print k
-	# 		print unitItem["objectives"][unitItem["objectives"].find(k)-30:unitItem["objectives"].find(k)+31]
-	# 		print "---"
-# description=description[:description.find("Ingl")].strip()
-# graphOnto=Graph()
-# graphOnto.parse("\commondata\dicionarios\Onto.PT.0.4.1.rdfs")
-# ONTOPT = Namespace("http://ontopt.dei.uc.pt/OntoPT.owl#")
-
-# for obj in graphOnto.subjects(RDF.type,ONTOPT["VerboSynset"]):
-# 	for mbox in graphOnto.objects(obj,ONTOPT["formaLexical"]):
-# 		if " "+mbox+" " in description:
-# 			print obj
-# 			print mbox.encode("utf-8")
-# 			print description[description.find(mbox):description.find(mbox)+len(mbox)].encode("utf-8")
-# 			print "------"
-print str(number_descriptions) +" Descrptions"
-print str(number_found) +" Found"
-print str(number_context) +" Context"
-# for i in range(len(keywords)):
-# 	for k in range(i+1,len(keywords)):
-# 		if keywords[i]==keywords[k]:
-# 			print keywords[i]+" pos:"+str(i)
-# 			print keywords[k]+" pos:"+str(k)
-# 			print "---"
+# # for obj in graphOnto.subjects(RDF.type,ONTOPT["VerboSynset"]):
+# # 	for mbox in graphOnto.objects(obj,ONTOPT["formaLexical"]):
+# # 		if " "+mbox+" " in description:
+# # 			print obj
+# # 			print mbox.encode("utf-8")
+# # 			print description[description.find(mbox):description.find(mbox)+len(mbox)].encode("utf-8")
+# # 			print "------"
+# print str(number_descriptions) +" Descrptions"
+# print str(number_found) +" Found"
+# print str(number_context) +" Context"
+# # for i in range(len(keywords)):
+# # 	for k in range(i+1,len(keywords)):
+# # 		if keywords[i]==keywords[k]:
+# # 			print keywords[i]+" pos:"+str(i)
+# # 			print keywords[k]+" pos:"+str(k)
+# # 			print "---"

@@ -1,0 +1,17 @@
+Gonna send login
+https://inforestudante.uc.pt/nonio/security/init.do
+---- PIPELINE ----
+Mestrado em Engenharia Informática
+MEI
+----120
+Através desta unidade curricular os estudantes ficarão a conhecer os conceitos fundamentais para compreender a interacção entre humanos e sistemas computacionais. O estudante adquirirá competências na aplicação de modelos, métodos e técnicas para entender, analisar e projectar para as necessidades dos utilizadores em contexto, e competências para conceber e avaliar propostas de interface tendo em conta a usabilidade, entre outras qualidades da experiência de uso. Mais especificamente, o estudante deverá compreender o papel dos factores humanos na interacção e interface, compreender e aplicar técnicas de prototipagem para investigação e ensaio de proposta de design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de HCI. Os estudantes ficarão a conhecer diversos instrumentos metodológicos e aprenderão a combinar as técnicas de uma forma sistemática enquanto abordagem empírica ao design de interacção.  
+NOT SAVING
+0
+0
+0
+0
+NOT SAVING
+0
+0
+0
+0

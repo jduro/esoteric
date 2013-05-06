@@ -13,5 +13,7 @@ NEWSPIDER_MODULE = 'scrapy_project.spiders'
 
 ITEM_PIPELINES = ['scrapy_project.pipelines.ScrapyProjectPipeline']
 
+DOWNLOADER_MIDDLEWARES = {'scrapy_project.middlewares.WebkitDownloader': 3333,}
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'scrapy_project (+http://www.yourdomain.com)'

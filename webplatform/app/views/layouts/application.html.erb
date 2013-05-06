@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>usdl4edu</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner" style="padding-left:30px;">
+    <a class="brand" href="#">usdl4edu</a>
+    <% if @isIndex %>
+    <a href="#myModal" role="button" class="btn pull-right" data-toggle="modal" style="margin-right:60px">Import Vocabulary</a>
+    <%end%>
+  </div>
+</div>
+
+<div class="divbody">
+	<div class="row">
+		<div class="span3">
+			<% @services.each do |s| %>
+				<h1><%= s.title %></h1>
+			<% end %>
+		</div>
+		<div class="span9">
+			<%= yield %>
+		</div>
+	</div>
+</div>
+
+
+<% if @isIndex %>
+<%= form_tag "/service_import", :multipart => true do %>
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Import Vocabulary</h3>
+  </div>
+  <div class="modal-body">
+    <p><%= file_field_tag "file" %></p>
+  </div>
+    <div class="modal-footer">
+    
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <%= submit_tag "Import file", class: "btn btn-primary"%>
+  </div>
+</div>
+<% end %>
+<%end%>
+
+
+</body>
+</html>

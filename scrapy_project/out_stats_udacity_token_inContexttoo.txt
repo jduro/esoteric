@@ -1,0 +1,34 @@
+TUDO:you'll learn the key steps of the customer development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger.
+TUDO TOKEN: ['you', "'ll", 'learn', 'the', 'key', 'step', 'of', 'the', 'custom', 'develop', 'process', ':', 'how', 'to', 'identifi', 'and', 'engag', 'the', 'first', 'custom', 'for', 'your', 'product', ',', 'and', 'how', 'to', 'gather', ',', 'evalu', 'and', 'use', 'their', 'feedback', 'to', 'make', 'your', 'product', ',', 'market', 'and', 'busi', 'model', 'far', 'stronger', '.']
+VERBO:use
+verbo:use
+OBJ:http://rdf.genssiz.dei.uc.pt/usdl4edu#CognitiveDimension_3Apply
+Inicio-Fim:use their feedback to make your product, marketing and business model far stronger.
+**
+Inicio-ponto:use their feedback to make your product, marketing and business model far stronger
+TUDO:this course will teach you how to think like a verification engineer.it will show the software development aspects you need to know to ensure chips are working as expected. you will learn how to implement verification environments.
+TUDO TOKEN: ['thi', 'cours', 'will', 'teach', 'you', 'how', 'to', 'think', 'like', 'a', 'verif', 'engineer.it', 'will', 'show', 'the', 'softwar', 'develop', 'aspect', 'you', 'need', 'to', 'know', 'to', 'ensur', 'chip', 'are', 'work', 'as', 'expected.', 'you', 'will', 'learn', 'how', 'to', 'implement', 'verif', 'environ', '.']
+VERBO:show
+verbo:show
+OBJ:http://rdf.genssiz.dei.uc.pt/usdl4edu#CognitiveDimension_3Apply
+Inicio-Fim:show the software development aspects you need to know to ensure chips are working as expected. you will learn how to implement verification environments.
+**
+Inicio-ponto:show the software development aspects you need to know to ensure chips are working as expected
+TUDO:at the end of this course, you will have learned key concepts in computer science and enough python programming to be able to write programs to solve problems on your own. this course will prepare you to move on to more intermediate-level courses in cs.
+TUDO TOKEN: ['at', 'the', 'end', 'of', 'thi', 'cours', ',', 'you', 'will', 'have', 'learn', 'key', 'concept', 'in', 'comput', 'scienc', 'and', 'enough', 'python', 'program', 'to', 'be', 'abl', 'to', 'write', 'program', 'to', 'solv', 'problem', 'on', 'your', 'own.', 'thi', 'cours', 'will', 'prepar', 'you', 'to', 'move', 'on', 'to', 'more', 'intermediate-level', 'cours', 'in', 'cs', '.']
+VERBO:comput
+verbo:compute
+OBJ:http://rdf.genssiz.dei.uc.pt/usdl4edu#CognitiveDimension_3Apply
+Inicio-Fim:computer science and enough python programming to be able to write programs to solve problems on your own. this course will prepare you to move on to more intermediate-level courses in cs.
+**
+Inicio-ponto:computer science and enough python programming to be able to write programs to solve problems on your own
+TUDO:move along the path towards becoming an expert programmer! in this class you will practice going from a problem description to a solution, using a series of assignments.
+TUDO TOKEN: ['move', 'along', 'the', 'path', 'toward', 'becom', 'an', 'expert', 'programm', '!', 'in', 'thi', 'class', 'you', 'will', 'practic', 'go', 'from', 'a', 'problem', 'descript', 'to', 'a', 'solut', ',', 'use', 'a', 'seri', 'of', 'assign', '.']
+VERBO:use
+verbo:use
+OBJ:http://rdf.genssiz.dei.uc.pt/usdl4edu#CognitiveDimension_3Apply
+Inicio-Fim:.
+**
+Inicio-ponto:
+TUDO:at the end of this course, you will have a solid understanding of theoretical computer science. this will not only allow you to recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice.
+TUDO TOKEN: ['at', 'the', 'end', 'of', 'thi', 'cours', ',', 'you', 'will', 'have', 'a', 'solid', 'understand', 'of', 'theoret', 'comput', 'science.', 'thi', 'will', 'not', 'onli', 'allow', 'you', 'to', 'recogn', 'some', 'of', 'the', 'most', 'challeng', 'algorithm', 'problem', 'out', 'there', ',', 'but', 'also', 'give', 'you', 'power', 'tool', 'to', 'deal', 'with', 'them

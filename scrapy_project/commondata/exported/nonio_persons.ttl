@@ -21,6 +21,10 @@ usdl4edu:Antnio-Jos-Olaio-Correia-de-Carvalho a foaf:Person ;
     foaf:firstName "António" ;
     foaf:lastName "Carvalho" .
 
+usdl4edu:Antnio-Manuel-Sucena-Silveira-Gomes a foaf:Person ;
+    foaf:firstName "António" ;
+    foaf:lastName "Gomes" .
+
 usdl4edu:Artur-Lus-Gonalves-de-Azevedo-Rebelo-Alves a foaf:Person ;
     foaf:firstName "Artur" ;
     foaf:lastName "Alves" .
@@ -89,6 +93,10 @@ usdl4edu:Filipe-Joo-Boavida-Mendona-Machado-de-Arajo a foaf:Person ;
     foaf:firstName "Filipe" ;
     foaf:lastName "Araújo" .
 
+usdl4edu:Gabriel-Falco-Paiva-Fernandes a foaf:Person ;
+    foaf:firstName "Gabriel" ;
+    foaf:lastName "Fernandes" .
+
 usdl4edu:Helder-de-Jesus-Arajo a foaf:Person ;
     foaf:firstName "Helder" ;
     foaf:lastName "Araújo" .
@@ -128,6 +136,10 @@ usdl4edu:Jos-Augusto-Mas-da-Silva-Carvalho a foaf:Person ;
 usdl4edu:Licnio-Gomes-Roque a foaf:Person ;
     foaf:firstName "Licínio" ;
     foaf:lastName "Roque" .
+
+usdl4edu:Liz-Marie-Defossez-Ramalho a foaf:Person ;
+    foaf:firstName "Lizá" ;
+    foaf:lastName "Ramalho" .
 
 usdl4edu:Luis-Filipe-dos-Santos-Coelho-Paquete a foaf:Person ;
     foaf:firstName "Luis" ;
