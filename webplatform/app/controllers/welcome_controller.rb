@@ -61,4 +61,17 @@ class WelcomeController < ApplicationController
 			redirect_to action: "index"
 		end
 	end
+
+	def info()
+		@serviceSelected = Service.find(params[:id])
+
+		graph = RDF::Graph.load(@serviceSelected.path, :format => :ttl)
+		@a=graph.query([RDF::URI.new(@serviceSelected.url)])
+		# flash[:notice]=a
+
+		@isIndex=true
+
+		@services=Service.all
+		@organizations=Service.select(:organization).map(&:organization).uniq
+	end
 end
