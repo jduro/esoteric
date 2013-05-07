@@ -28,7 +28,7 @@ class WelcomeController < ApplicationController
 
 			puts "----BEGIN----"
 			check=false
-			RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :description, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasURL => :urlCourse}}).execute(graph).each do |s|
+			RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :description, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasURL => :urlCourse}}).execute(graph).each do |s|
 				check=true
 				service=Service.new
 				# puts "URL:"+s.q.to_s
@@ -64,10 +64,22 @@ class WelcomeController < ApplicationController
 
 	def info()
 		@serviceSelected = Service.find(params[:id])
-
+		puts "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n"
 		graph = RDF::Graph.load(@serviceSelected.path, :format => :ttl)
-		@a=graph.query([RDF::URI.new(@serviceSelected.url)])
-		# flash[:notice]=a
+		RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, USDL4EDU.hasDegree => :degree, USDL4EDU.hasCourseUnit => :unit}}).execute(graph).each do |s|
+			puts "hello\n"
+			if s.q.to_s==@serviceSelected.url
+				@serviceGraph=s.q
+				if s.degree
+					@childs=s.degree.to_s
+				elsif s.unit
+					@childs=s.unit.to_s
+				end
+
+				print s.degree.to_s
+
+			end
+		end
 
 		@isIndex=true
 
