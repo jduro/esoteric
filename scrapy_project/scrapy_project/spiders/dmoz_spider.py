@@ -91,6 +91,7 @@ class EdxSpider(CrawlSpider):
         edu=EducationalServiceItem()
         title=str(hxs.select('(//h1)[2]/text()').extract()[0])
         edu['title']=title[title.find(":")+2:]
+        edu['code']=str(hxs.select('//span[@class="course-number"]/text()').extract()[0])
         edu['url']=response.url
         edu['summary']=response.meta['desc']
         print response.url

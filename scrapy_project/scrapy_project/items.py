@@ -22,6 +22,7 @@ class EducationalServiceItem(Item):
     summary = Field()
     teachers = Field()
     url = Field()
+    code = Field()
 
 class DegreeItem(Item):
     size = Field()

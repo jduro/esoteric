@@ -116,13 +116,13 @@ class ScrapyProjectPipeline(object):
 		elif spider.name=="edx":
 			#See http://rdf.genssiz.dei.uc.pt/usdl4edu# for Ontology schema
 			#Educational Service
-			service=URIRef(self.USDL4EDU+str(item['title'].encode("ascii","replace")).strip().replace(" ","-").replace(".","").replace(":","").replace(",","").replace("&","-and-").replace("/","-").replace("(","").replace(")","")+"-service")
+			service=URIRef(self.USDL4EDU+str(item['title'].encode("ascii","replace")).strip().replace(" ","-").replace(".","").replace(":","").replace(",","").replace("&","-and-").replace("/","-").replace("(","").replace(")","")+"-"+item['code']+"-service")
 			self.graph.add((service,RDF.type,self.educationalService))
 			self.graph.add((service,self.DC["description"],Literal(item['title'].strip()+" - Educational service from Edx")))
 			self.graph.add((service,self.USDL4EDU["hasOrganization"],self.organization))
 			self.graph.add((service,self.USDL4EDU["hasURL"],Literal(item["url"])))
 			#Curricular Unit
-			unit=URIRef(self.USDL4EDU+item['title'].strip().replace(" ","-").replace(".","").replace(",","").replace(":","").replace("&","-and-").replace("/","-").replace("(","").replace(")","")+"-unit")
+			unit=URIRef(self.USDL4EDU+item['title'].strip().replace(" ","-").replace(".","").replace(",","").replace(":","").replace("&","-and-").replace("/","-").replace("(","").replace(")","")+"-"+item['code']+"-unit")
 			self.graph.add((unit,RDF.type,self.courseUnit))
 			self.graph.add((service,self.USDL4EDU["hasCourseUnit"],unit))
 			self.graph.add((unit,self.USDL4EDU["hasTitle"],Literal(item['title'].encode("ascii","replace").strip())))
@@ -131,7 +131,7 @@ class ScrapyProjectPipeline(object):
 			self.graph.add((unit,self.USDL4EDU["hasLanguage"],self.languageEN))
 			#TEACHERS (not check existing, rdflib doesn't add a existing one)
 			for t in item['teachers']:
-				teacher=URIRef(self.USDL4EDU+t['name'].decode('utf-8').encode("ascii","ignore").strip().replace(" ","-").replace(".","-"))
+				teacher=URIRef(self.USDL4EDU+t['name'].decode('utf-8').encode("ascii","ignore").strip().replace(" ","-").replace(".","").replace(":","").replace(",","").replace("&","-and-").replace("/","-").replace("(","").replace(")","").replace("\'","").replace("\"","").replace("!","").replace("+","").replace("|","").replace("?",""))
 				self.graph.add((teacher,RDF.type,self.person))
 				name=t['name'].strip().split(" ")
 				self.graph.add((teacher,self.FOAF["firstName"],Literal(name[0])))
@@ -141,12 +141,12 @@ class ScrapyProjectPipeline(object):
 
 			#Overall Prerequisite
 			if item['prereq']=="":
-				overallPrereq=URIRef(self.USDL4EDU+item['title'].strip().replace(" ","-").replace(".","").replace(",","").replace(":","").replace("&","-and-").replace("/","-").replace("(","").replace(")","")+"-prerequisites")
+				overallPrereq=URIRef(self.USDL4EDU+item['title'].strip().replace(" ","-").replace(".","").replace(",","").replace(":","").replace("&","-and-").replace("/","-").replace("(","").replace(")","")+"-"+item['code']+"-prerequisites")
 				self.graph.add((overallPrereq,RDF.type,self.overallprereq))
 				self.graph.add((overallPrereq,self.DC["description"],Literal(item['prereq'].encode("ascii","replace"))))
 				self.graph.add((unit,self.USDL4EDU["hasOverallPrerequisite"],overallPrereq))
 			#Overall Objectives
-			overallObj=URIRef(self.USDL4EDU+item['title'].strip().replace(" ","-").replace(".","").replace(",","").replace(":","").replace("&","-and-").replace("/","-").replace("(","").replace(")","")+"-objectives")
+			overallObj=URIRef(self.USDL4EDU+item['title'].strip().replace(" ","-").replace(".","").replace(",","").replace(":","").replace("&","-and-").replace("/","-").replace("(","").replace(")","")+"-"+item['code']+"-objectives")
 			self.graph.add((overallObj,RDF.type,self.overallObjective))
 			self.graph.add((overallObj,self.DC["description"],Literal(item['objectives'])))
 			self.graph.add((unit,self.USDL4EDU["hasOverallObjective"],overallObj))
@@ -154,7 +154,7 @@ class ScrapyProjectPipeline(object):
 			# print "objectives:",item['objectives']
 			# print "prereq:",item['prereq']
 			# print "summary:",item['summary']
-			self.parseOverallObjective2(item['objectives'].replace("\n",""),overallObj,item['title'].strip())
+			self.parseOverallObjective2(item['objectives'].replace("\n",""),overallObj,item['title'].strip()+"-"+item['code'])
 			self.number_descriptions+=1
 		elif spider.name=="nonio" and item['size']==len(item['courseUnits']):
 			print "---- PIPELINE ----"
