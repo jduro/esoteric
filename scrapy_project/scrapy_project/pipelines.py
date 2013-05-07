@@ -294,7 +294,7 @@ class ScrapyProjectPipeline(object):
 
 					#Objective
 					number+=1
-					objective=URIRef(self.USDL4EDU+title.encode("ascii","ignore").replace(" ","-").replace("/","").replace(",","").replace(":","")+"-objective"+str(number))
+					objective=URIRef(self.USDL4EDU+title.encode("ascii","ignore").replace(" ","-").replace(".","").replace(":","").replace(",","").replace("&","-and-").replace("/","-").replace("(","").replace(")","").replace("\'","").replace("\"","").replace("!","").replace("+","plus").replace("|","").replace("?","")+"-objective"+str(number))
 					self.graph.add((objective,RDF.type,self.objectiveEDU))
 					print "verbo:"+mbox2+"/"+mbox
 					print aux
