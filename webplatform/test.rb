@@ -3,16 +3,17 @@ DC=RDF::Vocabulary.new "http://purl.org/dc/terms/"
 USDL4EDU = RDF::Vocabulary.new NS
 
 directory = "public/services/upload"
-path = File.join(directory, "nonio_MEI.ttl")
+path = File.join(directory, "edx.ttl")
 graph = RDF::Graph.load(path, :format => :ttl)
 
 a=0
 RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :description, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasURL => :urlCourse}}).execute(graph).each do |s|
-	print "hello\n"
+	# print "hello\n"
 	a+=1
 	service=Service.new
 	# puts "URL:"+s.q.to_s
 	service.url=s.q.to_s
+	print service.url+"\n"
 	service.urlCourse=s.urlCourse.to_s
 	if s.organization==USDL4EDU.edx
 		service.organization="edx"
@@ -23,8 +24,10 @@ RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :
 	elsif description=="http://rdf.genssiz.dei.uc.pt/usdl4edu#dei-uc"
 		service.organization="dei"
 	end
-	print service.organization
+	print service.organization+"\n"
 	service.title=s.description.to_s.gsub(/ - .*/,"")
+	print service.title
+	print "\n"
 	# puts "title:"+service.title
 	# puts "description:"+service.description
 	service.path=path

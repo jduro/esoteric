@@ -29,7 +29,6 @@
   <% end %>
 	<div class="row">
 		<div class="span6">
-      
         <div class="tabbable tabs-left"> <!-- Only required for left/right tabs -->
           <ul class="nav nav-tabs">
             <% count=1 %>
@@ -56,7 +55,8 @@
 
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
-                      <p><button class="btn btn-small disabled"> <%=service.title%></button><i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></p>
+                      <div style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                      <i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></div>
                     <% end %>
                   <% end %>
 
@@ -66,7 +66,8 @@
 
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
-                      <p><button class="btn btn-small disabled"> <%=service.title%></button><i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></p>
+                      <div style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                      <i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></div>
                     <% end %>
                   <% end %>
 

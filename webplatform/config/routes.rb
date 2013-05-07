@@ -58,4 +58,7 @@ Webplatform::Application.routes.draw do
   root :to => 'welcome#index'
 
   match "/service_import" => "welcome#import"
+
+  match "/service/:id" => "welcome#info"
+
 end
