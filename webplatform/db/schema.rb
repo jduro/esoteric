@@ -16,8 +16,9 @@ ActiveRecord::Schema.define(:version => 20130503150644) do
   create_table "services", :force => true do |t|
     t.string   "title"
     t.string   "url"
+    t.string   "urlCourse"
     t.string   "path"
-    t.string   "description"
+    t.string   "organization"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
