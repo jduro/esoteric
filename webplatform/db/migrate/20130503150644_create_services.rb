@@ -3,8 +3,9 @@ class CreateServices < ActiveRecord::Migration
     create_table :services do |t|
       t.string :title
       t.string :url
+      t.string :urlCourse
       t.string :path
-      t.string :description	
+      t.string :organization	
       t.timestamps
     end
   end

@@ -17,13 +17,68 @@
 </div>
 
 <div class="divbody">
+  <% if flash[:notice] %>
+    <div class="alert alert-success">
+        <%= flash[:notice] %>
+    </div>
+  <% end %>
+  <% if flash[:error] %>
+    <div class="alert alert-error">
+        <%= flash[:error] %>
+    </div>
+  <% end %>
 	<div class="row">
-		<div class="span3">
-			<% @services.each do |s| %>
-				<h1><%= s.title %></h1>
-			<% end %>
-		</div>
-		<div class="span9">
+		<div class="span6">
+      
+        <div class="tabbable tabs-left"> <!-- Only required for left/right tabs -->
+          <ul class="nav nav-tabs">
+            <% count=1 %>
+            <% @organizations.each do |organization| %>
+              <% if count==1 %>
+                <li class="active"><a href="#tab<%=count%>" data-toggle="tab" class="btn-large">
+                  <%=organization%>&nbsp;&nbsp;<span class="badge badge-success pull-right"><%= @services.select{|a| a.organization==organization}.size%></span>
+                </a></li>
+              <% else %>
+                <li><a href="#tab<%=count%>" data-toggle="tab" class="btn-large" >
+                  <%=organization%>&nbsp;&nbsp;<span class="badge badge-success pull-right"><%= @services.select{|a| a.organization==organization}.size%></span>
+                </a></li>
+              <% end %>
+              <% count+=1 %>
+            <%end%>
+          </ul>
+
+          <div class="tab-content">
+
+            <% count=1 %>
+            <% @organizations.each do |organization| %>
+              <% if count==1 %>
+                <div class="tab-pane active" id="tab<%=count%>">
+
+                  <% @services.each do |service| %>
+                    <% if service.organization==organization %>
+                      <p><button class="btn btn-small disabled"> <%=service.title%></button><i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></p>
+                    <% end %>
+                  <% end %>
+
+                </div>
+              <% else %>
+                <div class="tab-pane" id="tab<%=count%>">
+
+                  <% @services.each do |service| %>
+                    <% if service.organization==organization %>
+                      <p><button class="btn btn-small disabled"> <%=service.title%></button><i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></p>
+                    <% end %>
+                  <% end %>
+
+                </div>
+              <% end %>
+              <% count+=1 %>
+            <%end%>
+
+          </div>
+        </div>
+    </div>
+		<div class="span6">
 			<%= yield %>
 		</div>
 	</div>
