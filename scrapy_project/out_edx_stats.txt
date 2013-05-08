@@ -1,124 +1,734 @@
 https://www.edx.org/courses
-https://www.edx.org/courses/MITx/7.00x/2013_Spring/about
-TUDO:7.00x is an introductory level biology course hosted by professor Eric Lander, who was one of the leaders of the Human Genome Project. Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world. As a student, you will first focus on the structure and function of macromolecules such as DNA, RNA and proteins. You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health. As you continue in the course, you will apply an understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world. After you complete this course, you will have a foundation in biology that will allow you to understand the remarkable medical revolution going on today.Students will complete this course in 12 weeks. Each week features a series of lecture sequences that     are supported by interactive video tutorials and interspersed exercises or problems. Additionally, students     will work on a homework assignment or exam each week. The course will conclude with a comprehensive final exam.Additionally, for teachers of science, we have forged a collaboration with the National Science Teachers         Association (NSTA) to facilitate understanding of challenging content and help with practical classroom         applications of the courseware. There will be four NSTA web seminars and moderated community forums for         discussion related to 7.00x Secret of Life subject matter and pedagogy.  VisitNSTA/MITx7.00x – The Secret of Life will let you explore the mysteries of biochemistry, genetics, molecular biology,     recombinant DNA technology and genomics, and rational medicine. We are excited to take this journey with you!
-Phrase:  7
-Phrase:  00x is an introductory level biology course hosted by professor Eric Lander, who was one of the leaders of the Human Genome Project
-Phrase:   Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world
-Phrase:   As a student, you will first focus on the structure and function of macromolecules such as DNA, RNA and proteins
-Phrase:   You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health
-Phrase:   As you continue in the course, you will apply an understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world
-Phrase:   After you complete this course, you will have a foundation in biology that will allow you to understand the remarkable medical revolution going on today
-Phrase:  Students will complete this course in 12 weeks
-Phrase:   Each week features a series of lecture sequences that     are supported by interactive video tutorials and interspersed exercises or problems
-Phrase:   Additionally, students     will work on a homework assignment or exam each week
-Phrase:   The course will conclude with a comprehensive final exam
-Phrase:  Additionally, for teachers of science, we have forged a collaboration with the National Science Teachers         Association (NSTA) to facilitate understanding of challenging content and help with practical classroom         applications of the courseware
-Phrase:   There will be four NSTA web seminars and moderated community forums for         discussion related to 7
-Phrase:  00x Secret of Life subject matter and pedagogy
-Phrase:    VisitNSTA/MITx7
-Phrase:  00x – The Secret of Life will let you explore the mysteries of biochemistry, genetics, molecular biology,     recombinant DNA technology and genomics, and rational medicine
-Phrase:   We are excited to take this journey with you!
-verbo:design/design
-designed exclusively for edx, the course content reflects the topics taught in the mit introductory biology courses and many biology courses across the world
-verbo:relate/relat
-related to 7
-verbo:relate/relat
-related to 7
-verbo:discover/discov
-discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health
-verbo:relate/relat
-related to 7
+https://www.edx.org/courses/BerkeleyX/CS169.1x/2013_Spring/about
+TUDO:CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.Students will work individually on weekly coding projects. Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX.
+Phrase:  CS169
+Phrase:  1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails
+Phrase:   Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software
+Phrase:   They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application
+Phrase:   Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
+Phrase:   Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability
+Phrase:  Students will work individually on weekly coding projects
+Phrase:   Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX
+Phrase:  
+verbo:use/use
+use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
 verbo:apply/appli
-applications of the courseware
-verbo:change/chang
-changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health
-verbo:conclude/conclud
-conclude with a comprehensive final exam
-verbo:relate/relat
-related to 7
-verbo:support/support
-supported by interactive video tutorials and interspersed exercises or problems
+application
 verbo:reflect/reflect
-reflects the topics taught in the mit introductory biology courses and many biology courses across the world
+reflection can improve productivity and code maintainability
 KNOWLEDGE DIMENSION:  reflect
+verbo:support/support
+support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
 verbo:understand/understand
-understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world
-12
-[0, 1, 4, 1, 4, 2]
+understand the new challenges and opportunities of saas versus shrink-wrapped software
+verbo:design/design
+design, development, testing, and public cloud deployment of a simple saas application
+6
+[0, 1, 2, 0, 2, 1]
 4
 [0, 0, 0, 1]
 4
 ----
-https://www.edx.org/courses/HarvardX/SPU27x/2013_Oct/about
-https://www.edx.org/courses/UTAustinX/UT.3.01x/2013_Sept/about
-https://www.edx.org/courses/UTAustinX/UT.1.01x/2013_Sept/about
-TUDO:Science & Cooking brings together top chefs and preeminent Harvard researchers to explore how everyday cooking and haute cuisine can illuminate basic principles in physics and engineering, and vice versa.During each week of the course, you will watch as chefs reveal the secrets behind some of their most famous culinary creations — often right in their own restaurants. Inspired by such cooking mastery, the Harvard team will then explain, in simple and sophisticated ways, the science behind the recipe.Topics will include: soft matter materials, such as emulsions, illustrated by aioli; elasticity, exemplified by the done-ness of a steak; and diffusion, revealed by the phenomenon of spherification, the culinary technique pioneered by Ferran Adrià.To help you make the link between cooking and science, an “equation of the week” will capture the core scientific concept being explored. You will also have the opportunity to be an experimental scientist in your very own laboratory — your kitchen. By following along with the engaging recipe of the week, taking measurements, and making observations, you will learn to think both like a cook and a scientist. The lab is also one of the most unique components of this course — after all, in what other science course do you get to eat your lab?
-Phrase:  Science & Cooking brings together top chefs and preeminent Harvard researchers to explore how everyday cooking and haute cuisine can illuminate basic principles in physics and engineering, and vice versa
-Phrase:  During each week of the course, you will watch as chefs reveal the secrets behind some of their most famous culinary creations — often right in their own restaurants
-Phrase:   Inspired by such cooking mastery, the Harvard team will then explain, in simple and sophisticated ways, the science behind the recipe
-Phrase:  Topics will include: soft matter materials, such as emulsions, illustrated by aioli; elasticity, exemplified by the done-ness of a steak; and diffusion, revealed by the phenomenon of spherification, the culinary technique pioneered by Ferran Adrià
-Phrase:  To help you make the link between cooking and science, an “equation of the week” will capture the core scientific concept being explored
-Phrase:   You will also have the opportunity to be an experimental scientist in your very own laboratory — your kitchen
-Phrase:   By following along with the engaging recipe of the week, taking measurements, and making observations, you will learn to think both like a cook and a scientist
-Phrase:   The lab is also one of the most unique components of this course — after all, in what other science course do you get to eat your lab?
-verbo:illustrate/illustr
-illustrated by aioli; elasticity, exemplified by the done-ness of a steak; and diffusion, revealed by the phenomenon of spherification, the culinary technique pioneered by ferran adrià
+https://www.edx.org/courses/UTAustinX/UT.2.01x/2013_Sept/about
+https://www.edx.org/courses/BerkeleyX/CS169.2x/2012_Fall/about
+https://www.edx.org/courses/BerkeleyX/CS169.2x/2013_Spring/about
+https://www.edx.org/courses/MITx/3.091x/2013_Spring/about
+https://www.edx.org/courses/MITx/14.73x/2013_Spring/about
+https://www.edx.org/courses/HarvardX/HLS1x/2013_Spring/about
+TUDO:The last century ushered in significant progress. Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty. Scientific progress improved the way we lived across the world.Yet the last century also brought increased levels of war, tyranny, and genocide.  Man pushed boundaries of good and evil, right and wrong, justice and injustice – and people lost faith in values. Now, thinkers and leaders are reconstructing theories of value and creating institutions to embody them.Join this thought-provoking, broad-sweeping course as it draws intriguing connections between philosophy, art, literature, and history, illuminating our world and our place in it.
+Phrase:  The last century ushered in significant progress
+Phrase:   Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty
+Phrase:   Scientific progress improved the way we lived across the world
+Phrase:  Yet the last century also brought increased levels of war, tyranny, and genocide
+Phrase:    Man pushed boundaries of good and evil, right and wrong, justice and injustice – and people lost faith in values
+Phrase:   Now, thinkers and leaders are reconstructing theories of value and creating institutions to embody them
+Phrase:  Join this thought-provoking, broad-sweeping course as it draws intriguing connections between philosophy, art, literature, and history, illuminating our world and our place in it
+Phrase:  
+verbo:understand/understand
+understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty
+verbo:create/creat
+creativity, and beauty
+verbo:reconstruct/reconstruct
+reconstructing theories of value and creating institutions to embody them
+3
+[0, 1, 0, 0, 0, 2]
+4
+[0, 0, 0, 0]
+----
+TUDO:CS 169.2x is the second half of University of California, Berkeley's semester long course on Software as a Service. In the first half of the course, CS 169.1x, students use Agile development methods to deploy a simple SaaS app in the cloud. In the second half, CS 169.2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript. They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data. Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers.Other topics covered in CS 169.2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment. There will also be several short quizzes.Unlike CS 169.1x, which has been offered multiple times both online and on-campus, CS 169.2x is fresh, new material. Although versions of it have been taught at UC Berkeley, it has evolved significantly between offerings, and this online version is essentially new. This is, therefore, an "alpha" version. A more polished version will offered at a later date.Note:
+Phrase:  CS 169
+Phrase:  2x is the second half of University of California, Berkeley's semester long course on Software as a Service
+Phrase:   In the first half of the course, CS 169
+Phrase:  1x, students use Agile development methods to deploy a simple SaaS app in the cloud
+Phrase:   In the second half, CS 169
+Phrase:  2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript
+Phrase:   They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data
+Phrase:   Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers
+Phrase:  Other topics covered in CS 169
+Phrase:  2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment
+Phrase:   There will also be several short quizzes
+Phrase:  Unlike CS 169
+Phrase:  1x, which has been offered multiple times both online and on-campus, CS 169
+Phrase:  2x is fresh, new material
+Phrase:   Although versions of it have been taught at UC Berkeley, it has evolved significantly between offerings, and this online version is essentially new
+Phrase:   This is, therefore, an "alpha" version
+Phrase:   A more polished version will offered at a later date
+Phrase:  Note:
+verbo:use/use
+use agile development methods to deploy a simple saas app in the cloud
+verbo:apply/appli
+:
+verbo:criticize/critic
+critical skill for professional programmers
+verbo:identify/identifi
+:
+verbo:recognize/recogn
+recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
+verbo:organize/organ
+organize and manage small programming teamsintroduction to design patterns: what they are and how to recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
+verbo:design/design
+design patterns: what they are and how to recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
+verbo:create/creat
+create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with javascript
+8
+[2, 0, 2, 0, 1, 3]
+3
+[0, 0, 0, 0]
+----
+TUDO:CS 169.2x is the second half of University of California, Berkeley's semester long course on Software as a Service. In the first half of the course, CS 169.1x, students use Agile development methods to deploy a simple SaaS app in the cloud. In the second half, CS 169.2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript. They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data. Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers.Other topics covered in CS 169.2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment. There will also be several short quizzes.Unlike CS 169.1x, which has been offered multiple times both online and on-campus, CS 169.2x is fresh, new material. Although versions of it have been taught at UC Berkeley, it has evolved significantly between offerings, and this online version is essentially new. This is, therefore, an "alpha" version. A more polished version will offered at a later date.Note:
+Phrase:  CS 169
+Phrase:  2x is the second half of University of California, Berkeley's semester long course on Software as a Service
+Phrase:   In the first half of the course, CS 169
+Phrase:  1x, students use Agile development methods to deploy a simple SaaS app in the cloud
+Phrase:   In the second half, CS 169
+Phrase:  2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript
+Phrase:   They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data
+Phrase:   Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers
+Phrase:  Other topics covered in CS 169
+Phrase:  2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment
+Phrase:   There will also be several short quizzes
+Phrase:  Unlike CS 169
+Phrase:  1x, which has been offered multiple times both online and on-campus, CS 169
+Phrase:  2x is fresh, new material
+Phrase:   Although versions of it have been taught at UC Berkeley, it has evolved significantly between offerings, and this online version is essentially new
+Phrase:   This is, therefore, an "alpha" version
+Phrase:   A more polished version will offered at a later date
+Phrase:  Note:
+verbo:use/use
+use agile development methods to deploy a simple saas app in the cloud
+verbo:apply/appli
+:
+verbo:criticize/critic
+critical skill for professional programmers
+verbo:identify/identifi
+:
+verbo:recognize/recogn
+recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
+verbo:organize/organ
+organize and manage small programming teamsintroduction to design patterns: what they are and how to recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
+verbo:design/design
+design patterns: what they are and how to recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
+verbo:create/creat
+create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with javascript
+8
+[2, 0, 2, 0, 1, 3]
+3
+[0, 0, 0, 0]
+----
+TUDO:3.091x is a first-year course where chemical principles are explained by examination of the properties of materials. The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course. The on-campus version of the course has been taught for over thirty five years and is one of the largest classes at MIT. The class will cover the relationship between electronic structure, chemical bonding, and atomic order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins). There will be topical coverage of organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams. Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e.g. batteries and fuel cells), and from emerging technologies (e.g. photonic and biomedical devices). For the Spring 2013 class, edX registration and course materials are free.Students will complete weekly concept questions, watch videos and work on interspersed exercises, as well as submit weekly homework. Homework assignments may be submitted multiple times until the deadline. Those who earn a passing grade will get a free honor code certificate from MITx.
+Phrase:  3
+Phrase:  091x is a first-year course where chemical principles are explained by examination of the properties of materials
+Phrase:   The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course
+Phrase:   The on-campus version of the course has been taught for over thirty five years and is one of the largest classes at MIT
+Phrase:   The class will cover the relationship between electronic structure, chemical bonding, and atomic order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins)
+Phrase:   There will be topical coverage of organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams
+Phrase:   Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e
+Phrase:  g
+Phrase:   batteries and fuel cells), and from emerging technologies (e
+Phrase:  g
+Phrase:   photonic and biomedical devices)
+Phrase:   For the Spring 2013 class, edX registration and course materials are free
+Phrase:  Students will complete weekly concept questions, watch videos and work on interspersed exercises, as well as submit weekly homework
+Phrase:   Homework assignments may be submitted multiple times until the deadline
+Phrase:   Those who earn a passing grade will get a free honor code certificate from MITx
+Phrase:  
+verbo:relate/relat
+related to applications and engineering systems throughout the course
+verbo:relate/relat
+related to applications and engineering systems throughout the course
+verbo:relate/relat
+related to applications and engineering systems throughout the course
 verbo:explain/explain
-explain, in simple and sophisticated ways, the science behind the recipe
+explained by examination of the properties of materials
 KNOWLEDGE DIMENSION:  explain
+verbo:order/order
+order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins)
+KNOWLEDGE DIMENSION:  order
+verbo:generalize/gener
+generation and storage (e
+verbo:organize/organ
+organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams
+verbo:relate/relat
+related to applications and engineering systems throughout the course
+verbo:generate/gener
+generation and storage (e
+9
+[0, 1, 1, 3, 1, 3]
+4
+[1, 1, 0, 0]
+1
+----
+TUDO:This is a course for those who are interested in the challenge posed by massive and persistent world poverty, and are hopeful that economists might have something useful to say about this challenge. The questions we will take up include: Is extreme poverty a thing of the past? What is economic life like when living under a dollar per day? Are the poor always hungry?  How do we make schools work for poor citizens? How do we deal with the disease burden? Is microfinance invaluable or overrated? Without property rights, is life destined to be "nasty, brutish and short"? Should we leave economic development to the market? Should we leave economic development to non-governmental organizations (NGOs)? Does foreign aid help or hinder? Where is the best place to intervene? And many others. At the end of this course, you should have a good sense of the key questions asked by scholars interested in poverty today, and hopefully a few answers as well.
+Phrase:  This is a course for those who are interested in the challenge posed by massive and persistent world poverty, and are hopeful that economists might have something useful to say about this challenge
+Phrase:   The questions we will take up include: Is extreme poverty a thing of the past? What is economic life like when living under a dollar per day? Are the poor always hungry?  How do we make schools work for poor citizens? How do we deal with the disease burden? Is microfinance invaluable or overrated? Without property rights, is life destined to be "nasty, brutish and short"? Should we leave economic development to the market? Should we leave economic development to non-governmental organizations (NGOs)? Does foreign aid help or hinder? Where is the best place to intervene? And many others
+Phrase:   At the end of this course, you should have a good sense of the key questions asked by scholars interested in poverty today, and hopefully a few answers as well
+Phrase:  
+verbo:use/use
+useful to say about this challenge
+verbo:organize/organ
+organizations (ngos)? does foreign aid help or hinder? where is the best place to intervene? and many others
 2
-[0, 0, 0, 2, 0, 0]
+[0, 0, 1, 0, 0, 1]
+4
+[0, 0, 0, 0]
+----
+TUDO:About HLS1xHLS1x Copyright, an experimental course offered on edX, explores in depth the law, theory, and practice of copyright. Approximately two thirds of the course focus on the copyright system of the United States; the remainder is devoted to the laws pertaining to copyright and "neighboring rights" in other countries. Considerable attention is devoted to the relationship between copyright law and creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture. The course commences on January 28, 2013, and lasts for 12 weeks.Enrollment in the course is limited to 500 participants, who were selected through an application process. When admitting participants, the course organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender. Applicants had to be at least 13 years old, have a good grasp of the English language, and be willing to devote eight hours per week to learning and discussing the material. Otherwise, however, there are no prerequisites for taking this course. In particular, no legal background is required.Several methods of instruction are used. Participants watch pre-recorded lectures, engage in interactive live webcasts of events in which guest speakers address especially controversial issues, discuss legal problems in online forums, and (most importantly) participate once a week in an 80-minute online seminar. Those seminars are taught by teaching fellows, all of whom are currently students at Harvard Law School.At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy. Those exams are graded by the teaching fellows. Participants who receive passing grades are to be awarded certificates of completion and provided written assessments of their degree of proficiency.HLS1x Copyright is an experimental course, with four different variants that allow Prof. Fisher and his team to experiment with different combinations of teaching materials and educational technologies. Enrollment for the course is limited because we believe that high-quality legal education depends, at least in part, upon supervised small-group discussions of difficult issues. Fidelity to that principle requires confining the course to the number of participants that can be supervised effectively by our 21 teaching fellows. The limit on the enrollment does not mean, however, that we are not allowing access to the course materials; to the contrary, they are made publicly available.
+Phrase:  About HLS1xHLS1x Copyright, an experimental course offered on edX, explores in depth the law, theory, and practice of copyright
+Phrase:   Approximately two thirds of the course focus on the copyright system of the United States; the remainder is devoted to the laws pertaining to copyright and "neighboring rights" in other countries
+Phrase:   Considerable attention is devoted to the relationship between copyright law and creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture
+Phrase:   The course commences on January 28, 2013, and lasts for 12 weeks
+Phrase:  Enrollment in the course is limited to 500 participants, who were selected through an application process
+Phrase:   When admitting participants, the course organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender
+Phrase:   Applicants had to be at least 13 years old, have a good grasp of the English language, and be willing to devote eight hours per week to learning and discussing the material
+Phrase:   Otherwise, however, there are no prerequisites for taking this course
+Phrase:   In particular, no legal background is required
+Phrase:  Several methods of instruction are used
+Phrase:   Participants watch pre-recorded lectures, engage in interactive live webcasts of events in which guest speakers address especially controversial issues, discuss legal problems in online forums, and (most importantly) participate once a week in an 80-minute online seminar
+Phrase:   Those seminars are taught by teaching fellows, all of whom are currently students at Harvard Law School
+Phrase:  At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy
+Phrase:   Those exams are graded by the teaching fellows
+Phrase:   Participants who receive passing grades are to be awarded certificates of completion and provided written assessments of their degree of proficiency
+Phrase:  HLS1x Copyright is an experimental course, with four different variants that allow Prof
+Phrase:   Fisher and his team to experiment with different combinations of teaching materials and educational technologies
+Phrase:   Enrollment for the course is limited because we believe that high-quality legal education depends, at least in part, upon supervised small-group discussions of difficult issues
+Phrase:   Fidelity to that principle requires confining the course to the number of participants that can be supervised effectively by our 21 teaching fellows
+Phrase:   The limit on the enrollment does not mean, however, that we are not allowing access to the course materials; to the contrary, they are made publicly available
+Phrase:  
+verbo:experiment/experi
+experimental course offered on edx, explores in depth the law, theory, and practice of copyright
+verbo:assess/assess
+assess his or her knowledge of copyright law and policy
+KNOWLEDGE DIMENSION:  assess
+verbo:state/state
+states; the remainder is devoted to the laws pertaining to copyright and "neighboring rights" in other countries
+verbo:select/select
+selected through an application process
+verbo:select/select
+selected through an application process
+verbo:organize/organ
+organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender
+verbo:design/design
+designed to assess his or her knowledge of copyright law and policy
+verbo:create/creat
+creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture
+verbo:combine/combin
+combinations of teaching materials and educational technologies
+9
+[2, 0, 1, 1, 1, 4]
 4
 [0, 1, 0, 0]
 2
 ----
-TUDO:Globalization is a fascinating spectacle that can be understood as global systems of competition and connectivity.  These man-made systems provide transport, communication, governance, and entertainment on a global scale. International crime networks are outgrowths of the same systems. Topics include national identity, language diversity, the global labor market, popular culture, sports and climate change.However, an increase in integration has not brought increased equality.  Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process.The globalization process exemplifies connectivity. Globalization is unimaginable without the unprecedented electronic networks that project dominant cultural products into every society on earth.Learn how to identify and analyze global systems and better understand how the world works.
-Phrase:  Globalization is a fascinating spectacle that can be understood as global systems of competition and connectivity
-Phrase:    These man-made systems provide transport, communication, governance, and entertainment on a global scale
-Phrase:   International crime networks are outgrowths of the same systems
-Phrase:   Topics include national identity, language diversity, the global labor market, popular culture, sports and climate change
-Phrase:  However, an increase in integration has not brought increased equality
-Phrase:    Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process
-Phrase:  The globalization process exemplifies connectivity
-Phrase:   Globalization is unimaginable without the unprecedented electronic networks that project dominant cultural products into every society on earth
-Phrase:  Learn how to identify and analyze global systems and better understand how the world works
-Phrase:  
-verbo:identify/identifi
-
-verbo:create/creat
-creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process
-verbo:analyze/analyz
-analyze global systems and better understand how the world works
+https://www.edx.org/courses/MITx/6.00x/2013_Spring/about
+TUDO:Introduction to Computer Science and Programming6.00x is an introduction to using computation to solve real problems. The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving. Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course.Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth.       The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about       how to use computation to accomplish some goal later in their career. That said, it is not a "computation appreciation" course. It is a challenging       and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will.Those who earn a passing grade will get an honor code certificate from MITx. Please see theedX FAQ for more information about certificates.The required textbook for this course isIntroduction to Computation and Programming Using	Python (Spring 2013 edition)The MIT Press is offering MITx students a special price, through      March 22, 2013 only, of $17.50 (a 30% discount). To take advantage of this offer, please use      promotion code ICPUP30 atLimited-time offer!http://mitpress.mit.edu/guttagIf you already own a copy       of the Fall 2012 version ofNote to students who purchased the Fall 2012 edition of this textbook:Introduction to Computation and Programming Using PythonIn the meantime, if you're interested in reading more on Python, check your local library for Python textbooks or      search online for a free Python text, such asthis one
+Phrase:  Introduction to Computer Science and Programming6
+Phrase:  00x is an introduction to using computation to solve real problems
+Phrase:   The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving
+Phrase:   Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course
+Phrase:  Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth
+Phrase:         The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about       how to use computation to accomplish some goal later in their career
+Phrase:   That said, it is not a "computation appreciation" course
+Phrase:   It is a challenging       and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will
+Phrase:  Those who earn a passing grade will get an honor code certificate from MITx
+Phrase:   Please see theedX FAQ for more information about certificates
+Phrase:  The required textbook for this course isIntroduction to Computation and Programming Using	Python (Spring 2013 edition)The MIT Press is offering MITx students a special price, through      March 22, 2013 only, of $17
+Phrase:  50 (a 30% discount)
+Phrase:   To take advantage of this offer, please use      promotion code ICPUP30 atLimited-time offer!http://mitpress
+Phrase:  mit
+Phrase:  edu/guttagIf you already own a copy       of the Fall 2012 version ofNote to students who purchased the Fall 2012 edition of this textbook:Introduction to Computation and Programming Using PythonIn the meantime, if you're interested in reading more on Python, check your local library for Python textbooks or      search online for a free Python text, such asthis one
+verbo:compute/comput
+computer science and programming6
+verbo:solve/solv
+solve real problems
+verbo:experiment/experi
+experience who have a desire (or at least a need) to understand computational approaches to problem solving
+verbo:use/use
+use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course
 verbo:understand/understand
-understand how the world works
+understand computational approaches to problem solving
+5
+[0, 1, 4, 0, 0, 0]
+2
+[0, 0, 0, 0]
+----
+https://www.edx.org/courses/BerkeleyX/CS169.1x/2013_March/about
+TUDO:CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.Students will work individually on weekly coding projects. Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX.
+Phrase:  CS169
+Phrase:  1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails
+Phrase:   Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software
+Phrase:   They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application
+Phrase:   Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
+Phrase:   Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability
+Phrase:  Students will work individually on weekly coding projects
+Phrase:   Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX
+Phrase:  
+verbo:use/use
+use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
+verbo:apply/appli
+application
+verbo:reflect/reflect
+reflection can improve productivity and code maintainability
+KNOWLEDGE DIMENSION:  reflect
+verbo:support/support
+support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
+verbo:understand/understand
+understand the new challenges and opportunities of saas versus shrink-wrapped software
+verbo:design/design
+design, development, testing, and public cloud deployment of a simple saas application
+6
+[0, 1, 2, 0, 2, 1]
 4
-[1, 1, 0, 1, 0, 1]
+[0, 0, 0, 1]
+4
+----
+https://www.edx.org/courses/HarvardX/CB22x/2013_Spring/about
+https://www.edx.org/courses/MITx/6.002x/2013_Spring/about
+TUDO:About this courseWhat is it to be human, and how can ancient concepts of the heroic and anti-heroic inform our understanding of the human condition? That question is at the core ofThe Ancient Greek HeroThe classical Greeks' concepts of Heroes and the "heroic" were very different from the way we understand the term today. In this course, students analyze Greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general.In Greek tradition, a hero was a human, male or female, of the remote past, who was endowed with superhuman abilities by virtue of being descended from an immortal god. Rather than being paragons of virtue, as heroes are viewed in many modern cultures, ancient Greek heroes had all of the qualities and faults of their fellow humans, but on a much larger scale. Further, despite their mortality, heroes, like the gods, were objects of cult worship – a dimension which is also explored in depth in the course.The original sources studied in this course include the HomericIliadOdysseyTales of HoffmanBlade RunnerThe true hero of the course is thelogoslogosUsing modern technology and engaging texts,The Ancient Greek Hero
+Phrase:  About this courseWhat is it to be human, and how can ancient concepts of the heroic and anti-heroic inform our understanding of the human condition? That question is at the core ofThe Ancient Greek HeroThe classical Greeks' concepts of Heroes and the "heroic" were very different from the way we understand the term today
+Phrase:   In this course, students analyze Greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general
+Phrase:  In Greek tradition, a hero was a human, male or female, of the remote past, who was endowed with superhuman abilities by virtue of being descended from an immortal god
+Phrase:   Rather than being paragons of virtue, as heroes are viewed in many modern cultures, ancient Greek heroes had all of the qualities and faults of their fellow humans, but on a much larger scale
+Phrase:   Further, despite their mortality, heroes, like the gods, were objects of cult worship – a dimension which is also explored in depth in the course
+Phrase:  The original sources studied in this course include the HomericIliadOdysseyTales of HoffmanBlade RunnerThe true hero of the course is thelogoslogosUsing modern technology and engaging texts,The Ancient Greek Hero
+verbo:analyze/analyz
+analyze greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general
+verbo:order/order
+order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general
+KNOWLEDGE DIMENSION:  order
+verbo:understand/understand
+understanding of the human condition? that question is at the core ofthe ancient greek herothe classical greeks' concepts of heroes and the "heroic" were very different from the way we understand the term today
+3
+[0, 1, 0, 2, 0, 0]
+3
+[1, 0, 0, 0]
+1
+----
+TUDO:The course introduces engineering in the context of the lumped circuit abstraction. Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications. Design and lab exercises are also significant components of the course.The course is organized by weeks. To keep pace with the class, you are expected to complete all the work by the due dates indicated. Homeworks and labs must be completed by the Sunday of the week following the one in which they are posted. Weekly coursework includes interactive video sequences, readings from the textbook, homework, online laboratories, and optional tutorials. The course will also have a midterm exam and a ﬁnal exam. Those who successfully earn enough points will receive an honor code certificate from MITx.
+Phrase:  The course introduces engineering in the context of the lumped circuit abstraction
+Phrase:   Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications
+Phrase:   Design and lab exercises are also significant components of the course
+Phrase:  The course is organized by weeks
+Phrase:   To keep pace with the class, you are expected to complete all the work by the due dates indicated
+Phrase:   Homeworks and labs must be completed by the Sunday of the week following the one in which they are posted
+Phrase:   Weekly coursework includes interactive video sequences, readings from the textbook, homework, online laboratories, and optional tutorials
+Phrase:   The course will also have a midterm exam and a ﬁnal exam
+Phrase:   Those who successfully earn enough points will receive an honor code certificate from MITx
+Phrase:  
+verbo:organize/organ
+organized by weeks
+verbo:design/design
+design in the time and frequency domains; and analog and digital circuits and applications
+2
+[0, 0, 0, 0, 0, 2]
+6
+[0, 0, 0, 0]
+----
+https://www.edx.org/courses/BerkeleyX/Stat2.1x/2013_Spring/about
+https://www.edx.org/courses/MITx/2.01x/2013_Spring/about
+https://www.edx.org/courses/BerkeleyX/CS188.1x/2013_Spring/about
+https://www.edx.org/courses/BerkeleyX/CS184.1x/2013_Spring/about
+https://www.edx.org/courses/HarvardX/ER22x/2013_Spring/about
+TUDO:Introduction to StatisticsWe are surrounded by information, much of it numerical, and it is important to know how to make sense of it. Stat2x is an introduction to the fundamental concepts and methods of statistics, the science of drawing conclusions from data.The course is the online equivalent of Statistics 2, a 15-week introductory course taken in Berkeley by about 1,000 students each year. Stat2x is divided into three 5-week components. Stat2.1x is the first of the three.The focus of Stat2.1x is on descriptive statistics.  The goal of descriptive statistics is to summarize and present numerical information in a manner that is illuminating and useful. The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables. Methods will be illustrated with data from a variety of areas in the sciences and humanities.There will be no mindless memorization of formulas and methods. Throughout Stat2.1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results.
+Phrase:  Introduction to StatisticsWe are surrounded by information, much of it numerical, and it is important to know how to make sense of it
+Phrase:   Stat2x is an introduction to the fundamental concepts and methods of statistics, the science of drawing conclusions from data
+Phrase:  The course is the online equivalent of Statistics 2, a 15-week introductory course taken in Berkeley by about 1,000 students each year
+Phrase:   Stat2x is divided into three 5-week components
+Phrase:   Stat2
+Phrase:  1x is the first of the three
+Phrase:  The focus of Stat2
+Phrase:  1x is on descriptive statistics
+Phrase:    The goal of descriptive statistics is to summarize and present numerical information in a manner that is illuminating and useful
+Phrase:   The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables
+Phrase:   Methods will be illustrated with data from a variety of areas in the sciences and humanities
+Phrase:  There will be no mindless memorization of formulas and methods
+Phrase:   Throughout Stat2
+Phrase:  1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results
+Phrase:  
+verbo:relate/relat
+relation between two variables
+verbo:calculate/calcul
+calculations, the assumptions under which they are valid, and the correct interpretation of results
+verbo:relate/relat
+relation between two variables
+verbo:know/know
+know how to make sense of it
+verbo:relate/relat
+relation between two variables
+verbo:illustrate/illustr
+illustrated with data from a variety of areas in the sciences and humanities
+verbo:interpret/interpret
+interpretation of results
+KNOWLEDGE DIMENSION:  interpret
+verbo:understand/understand
+understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results
+verbo:summarize/summar
+summarize and present numerical information in a manner that is illuminating and useful
+verbo:relate/relat
+relation between two variables
+10
+[1, 3, 2, 2, 1, 1]
+3
+[0, 1, 0, 0]
+2
+----
+TUDO:2.01x is a first course on the mechanical behavior of deformable structural elements. It introduces principles of structural analysis in applications to essential load-bearing elements, such as bars in axial loading, axisymmetric shafts in torsion, and symmetric beams in bending. The course covers fundamental concepts of continuum mechanics, including internal forces, displacement fields, stresses, and strains. The students will learn to predict linear elastic structural behavior, and prevent failure, by relying on the notions of equilibrium, geometric compatibility, and constitutive material response.
+Phrase:  2
+Phrase:  01x is a first course on the mechanical behavior of deformable structural elements
+Phrase:   It introduces principles of structural analysis in applications to essential load-bearing elements, such as bars in axial loading, axisymmetric shafts in torsion, and symmetric beams in bending
+Phrase:   The course covers fundamental concepts of continuum mechanics, including internal forces, displacement fields, stresses, and strains
+Phrase:   The students will learn to predict linear elastic structural behavior, and prevent failure, by relying on the notions of equilibrium, geometric compatibility, and constitutive material response
+Phrase:  
+verbo:predict/predict
+predict linear elastic structural behavior, and prevent failure, by relying on the notions of equilibrium, geometric compatibility, and constitutive material response
+KNOWLEDGE DIMENSION:  predict
+1
+[0, 1, 0, 0, 0, 0]
+2
+[0, 0, 1, 0]
+3
+----
+TUDO:CS188.1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence. The on-campus version of this upper division computer science course draws about 600 Berkeley students each year.Artificial intelligence is already all around you, from web search to video games.  AI methods plan your driving directions, filter your spam, and focus your cameras on faces.  AI lets you guide your phone with your voice and read foreign newspapers in English.  Beyond today's applications, AI is at the core of many new technologies that will shape our future.  From self-driving cars to household robots, advancements in AI help transform science fiction into real systems.CS188.1x focuses on Behavior from Computation.  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision–theoretic modeling paradigm.  By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings.  CS188.2x (to follow CS188.1x, precise date to be determined) will cover Reasoning and Learning.  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.
+Phrase:  CS188
+Phrase:  1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence
+Phrase:   The on-campus version of this upper division computer science course draws about 600 Berkeley students each year
+Phrase:  Artificial intelligence is already all around you, from web search to video games
+Phrase:    AI methods plan your driving directions, filter your spam, and focus your cameras on faces
+Phrase:    AI lets you guide your phone with your voice and read foreign newspapers in English
+Phrase:    Beyond today's applications, AI is at the core of many new technologies that will shape our future
+Phrase:    From self-driving cars to household robots, advancements in AI help transform science fiction into real systems
+Phrase:  CS188
+Phrase:  1x focuses on Behavior from Computation
+Phrase:    It will introduce the basic ideas and techniques underlying the design of intelligent computer systems
+Phrase:   A specific emphasis will be on the statistical and decision–theoretic modeling paradigm
+Phrase:    By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings
+Phrase:    CS188
+Phrase:  2x (to follow CS188
+Phrase:  1x, precise date to be determined) will cover Reasoning and Learning
+Phrase:    With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures
+Phrase:   Your machine learning algorithms will classify handwritten digits and photographs
+Phrase:   The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue
+Phrase:  
+verbo:compute/comput
+computer science course draws about 600 berkeley students each year
+verbo:classify/classifi
+
+verbo:apply/appli
+applications, ai is at the core of many new technologies that will shape our future
+verbo:infer/infer
+inferences in uncertain environments and optimize actions for arbitrary reward structures
+verbo:infer/infer
+inferences in uncertain environments and optimize actions for arbitrary reward structures
+verbo:design/design
+design of intelligent computer systems
+verbo:plan/plan
+plan your driving directions, filter your spam, and focus your cameras on faces
+KNOWLEDGE DIMENSION:  plan
+7
+[0, 1, 3, 1, 0, 2]
+3
+[0, 1, 0, 0]
+2
+----
+TUDO:CS184.1x teaches the Foundations of Computer Graphics.    Students will make images of     3D scenes in real-time, and with offline raytracing.    This course runs for 6 weeks and consists of four segments. Each segment includes an    individual programming assignment:Overview and Basic Math (Homework 0: 10% of grade)Transformations (Homework 1: 20% of grade)OpenGL and Lighting (Homework 2: 35% of grade)Raytracing (Homework 3: 35% of grade)This term, students who earn a total score of 50% or greater will have passed the course and may obtain a free honor code certificate from BerkeleyX.
+Phrase:  CS184
+Phrase:  1x teaches the Foundations of Computer Graphics
+Phrase:      Students will make images of     3D scenes in real-time, and with offline raytracing
+Phrase:      This course runs for 6 weeks and consists of four segments
+Phrase:   Each segment includes an    individual programming assignment:Overview and Basic Math (Homework 0: 10% of grade)Transformations (Homework 1: 20% of grade)OpenGL and Lighting (Homework 2: 35% of grade)Raytracing (Homework 3: 35% of grade)This term, students who earn a total score of 50% or greater will have passed the course and may obtain a free honor code certificate from BerkeleyX
+Phrase:  
+verbo:compute/comput
+computer graphics
+1
+[0, 0, 1, 0, 0, 0]
 3
 [0, 0, 0, 0]
 ----
-TUDO:Energy Technology & PolicyThis multidisciplinary course will give students an overview of energy technologies, fuels, environmental impacts and public policies. Topics will be interdisciplinary and will include an introduction to quantitative concepts in energy, including the differences among fuels and energy technologies, energy policy levers, and the societal aspects of energy, such as culture, economics, war, and international affairs. This course will cover brief snippets of energy history, use real-world examples, and look forward into the future. The course will have interactive learning modules and lecture-oriented around current events related to energy.
-Phrase:  Energy Technology & PolicyThis multidisciplinary course will give students an overview of energy technologies, fuels, environmental impacts and public policies
-Phrase:   Topics will be interdisciplinary and will include an introduction to quantitative concepts in energy, including the differences among fuels and energy technologies, energy policy levers, and the societal aspects of energy, such as culture, economics, war, and international affairs
-Phrase:   This course will cover brief snippets of energy history, use real-world examples, and look forward into the future
-Phrase:   The course will have interactive learning modules and lecture-oriented around current events related to energy
+TUDO:Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications. Topics include affirmative action, income distribution, same-sex marriage, the role of markets, debates about rights (human rights and property rights), arguments for and against equality, dilemmas of loyalty in public and private life. The course invites students to subject their own views on these controversies to critical examination.The principal readings for the course are texts by Aristotle, John Locke, Immanuel Kant, John Stuart Mill, and John Rawls. Other assigned readings include writings by contemporary philosophers, court cases, and articles about political controversies that raise philosophical questions.
+Phrase:  Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications
+Phrase:   Topics include affirmative action, income distribution, same-sex marriage, the role of markets, debates about rights (human rights and property rights), arguments for and against equality, dilemmas of loyalty in public and private life
+Phrase:   The course invites students to subject their own views on these controversies to critical examination
+Phrase:  The principal readings for the course are texts by Aristotle, John Locke, Immanuel Kant, John Stuart Mill, and John Rawls
+Phrase:   Other assigned readings include writings by contemporary philosophers, court cases, and articles about political controversies that raise philosophical questions
 Phrase:  
-verbo:relate/relat
-related to energy
-verbo:relate/relat
-related to energy
-verbo:relate/relat
-related to energy
-verbo:use/use
-use real-world examples, and look forward into the future
-verbo:relate/relat
-related to energy
+verbo:criticize/critic
+critical analysis of classical and contemporary theories of justice, including discussion of present-day applications
+verbo:write/write
+
+2
+[0, 0, 0, 0, 1, 1]
 5
-[0, 0, 2, 1, 1, 1]
+[0, 0, 0, 0]
+----
+https://www.edx.org/courses/BerkeleyX/CS169.1x/2012_Fall/about
+TUDO:CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.Students will work individually on weekly coding projects. Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX.
+Phrase:  CS169
+Phrase:  1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails
+Phrase:   Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software
+Phrase:   They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application
+Phrase:   Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
+Phrase:   Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability
+Phrase:  Students will work individually on weekly coding projects
+Phrase:   Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX
+Phrase:  
+verbo:use/use
+use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
+verbo:apply/appli
+application
+verbo:reflect/reflect
+reflection can improve productivity and code maintainability
+KNOWLEDGE DIMENSION:  reflect
+verbo:support/support
+support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
+verbo:understand/understand
+understand the new challenges and opportunities of saas versus shrink-wrapped software
+verbo:design/design
+design, development, testing, and public cloud deployment of a simple saas application
+6
+[0, 1, 2, 0, 2, 1]
 4
+[0, 0, 0, 1]
+4
+----
+https://www.edx.org/courses/HarvardX/CS50x/2012/about
+https://www.edx.org/courses/HarvardX/PH278x/2013_Spring/about
+https://www.edx.org/courses/MITx/6.002x/2012_Fall/about
+https://www.edx.org/courses/MITx/6.00x/2012_Fall/about
+https://www.edx.org/courses/HarvardX/PH207x/2012_Fall/about
+https://www.edx.org/courses/BerkeleyX/CS188.1x/2012_Fall/about
+https://www.edx.org/courses/BerkeleyX/CS184.1x/2012_Fall/about
+TUDO:CS50x is Harvard College's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. As of Fall 2012, the on-campus version of CS50x is Harvard's largest course.Students who earn a passing grade on 8 problem sets (programming assignments - 15-20 hours each), 2 quizzes, and a final project will get an honor code certificate from HarvardX. Students may take CS50x at their own pace, starting anytime after October 15, 2012 and finishing anytime before April 15, 2013.
+Phrase:  CS50x is Harvard College's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience
+Phrase:   An entry-level course taught by David J
+Phrase:   Malan, CS50x teaches students how to think algorithmically and solve problems efficiently
+Phrase:   Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development
+Phrase:   Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML
+Phrase:   Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming
+Phrase:   As of Fall 2012, the on-campus version of CS50x is Harvard's largest course
+Phrase:  Students who earn a passing grade on 8 problem sets (programming assignments - 15-20 hours each), 2 quizzes, and a final project will get an honor code certificate from HarvardX
+Phrase:   Students may take CS50x at their own pace, starting anytime after October 15, 2012 and finishing anytime before April 15, 2013
+Phrase:  
+verbo:compute/comput
+computer science and the art of programming for majors and non-majors alike, with or without prior programming experience
+verbo:solve/solv
+solve problems efficiently
+2
+[0, 0, 2, 0, 0, 0]
+3
+[0, 0, 0, 0]
+----
+TUDO:One of the greatest challenges of our time is to address global environmental changes, such as climate change and biodiversity loss, that may harm the health of billions of people worldwide. This class will examine these changes, their causes, as well as their health consequences, and engage students in thinking about their solutions. Those who earn a passing grade will get a certificate of mastery from HarvardX.
+Phrase:  One of the greatest challenges of our time is to address global environmental changes, such as climate change and biodiversity loss, that may harm the health of billions of people worldwide
+Phrase:   This class will examine these changes, their causes, as well as their health consequences, and engage students in thinking about their solutions
+Phrase:   Those who earn a passing grade will get a certificate of mastery from HarvardX
+Phrase:  
+verbo:change/chang
+changes, such as climate change and biodiversity loss, that may harm the health of billions of people worldwide
+1
+[0, 0, 1, 0, 0, 0]
+3
+[0, 0, 0, 0]
+----
+TUDO:The course introduces engineering in the context of the lumped circuit abstraction. Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications. Design and lab exercises are also significant components of the course.The course is organized by weeks. To keep pace with the class, you are expected to complete all the work by the due dates indicated. Homeworks and labs must be completed by the Sunday of the week following the one in which they are posted. Weekly coursework includes interactive video sequences, readings from the textbook, homework, online laboratories, and optional tutorials. The course will also have a midterm exam and a ﬁnal exam. Those who successfully earn enough points will receive an honor code certificate from MITx.
+Phrase:  The course introduces engineering in the context of the lumped circuit abstraction
+Phrase:   Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications
+Phrase:   Design and lab exercises are also significant components of the course
+Phrase:  The course is organized by weeks
+Phrase:   To keep pace with the class, you are expected to complete all the work by the due dates indicated
+Phrase:   Homeworks and labs must be completed by the Sunday of the week following the one in which they are posted
+Phrase:   Weekly coursework includes interactive video sequences, readings from the textbook, homework, online laboratories, and optional tutorials
+Phrase:   The course will also have a midterm exam and a ﬁnal exam
+Phrase:   Those who successfully earn enough points will receive an honor code certificate from MITx
+Phrase:  
+verbo:organize/organ
+organized by weeks
+verbo:design/design
+design in the time and frequency domains; and analog and digital circuits and applications
+2
+[0, 0, 0, 0, 0, 2]
+6
+[0, 0, 0, 0]
+----
+TUDO:Introduction to Computer Science and Programming6.00x is an introduction to using computation to solve real problems. The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving. Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course.Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth.       The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about       how to use computation to accomplish some goal later in their career. That said, it is not a "computation appreciation" course. It is a challenging       and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will.Those who earn a passing grade will get an honor code certificate from MITx. Please see theedX FAQ for more information about certificates.- expect the book to take at least 10 days to arrive (North America; rest of the world may take longer). The book and the course       lectures parallel each other, though there is more detail in the book about some topics.A textbook for 6.00x 	is now available for purchase ($24.99)The book is NOT requiredthis one
+Phrase:  Introduction to Computer Science and Programming6
+Phrase:  00x is an introduction to using computation to solve real problems
+Phrase:   The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving
+Phrase:   Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course
+Phrase:  Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth
+Phrase:         The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about       how to use computation to accomplish some goal later in their career
+Phrase:   That said, it is not a "computation appreciation" course
+Phrase:   It is a challenging       and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will
+Phrase:  Those who earn a passing grade will get an honor code certificate from MITx
+Phrase:   Please see theedX FAQ for more information about certificates
+Phrase:  - expect the book to take at least 10 days to arrive (North America; rest of the world may take longer)
+Phrase:   The book and the course       lectures parallel each other, though there is more detail in the book about some topics
+Phrase:  A textbook for 6
+Phrase:  00x 	is now available for purchase ($24
+Phrase:  99)The book is NOT requiredthis one
+verbo:compute/comput
+computer science and programming6
+verbo:solve/solv
+solve real problems
+verbo:experiment/experi
+experience who have a desire (or at least a need) to understand computational approaches to problem solving
+verbo:use/use
+use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course
+verbo:understand/understand
+understand computational approaches to problem solving
+5
+[0, 1, 4, 0, 0, 0]
+2
+[0, 0, 0, 0]
+----
+TUDO:Quantitative Methods in Clinical and Public Health Research is the online adaptation of material from the Harvard School of Public Health's classes in epidemiology and biostatistics.Principled investigations to monitor and thus improve the health of individuals are firmly based on a sound understanding of modern quantitative methods. This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics. This course will address this need by covering the principles of biostatistics and epidemiology used for public health and clinical research. These include outcomes measurement, measures of associations between outcomes and their determinants, study design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques. Students will analyze sample data sets to acquire knowledge of appropriate computer software. By the end of the course the successful student should have attained a sound understanding of these methods and a solid foundation for further study.
+Phrase:  Quantitative Methods in Clinical and Public Health Research is the online adaptation of material from the Harvard School of Public Health's classes in epidemiology and biostatistics
+Phrase:  Principled investigations to monitor and thus improve the health of individuals are firmly based on a sound understanding of modern quantitative methods
+Phrase:   This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics
+Phrase:   This course will address this need by covering the principles of biostatistics and epidemiology used for public health and clinical research
+Phrase:   These include outcomes measurement, measures of associations between outcomes and their determinants, study design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques
+Phrase:   Students will analyze sample data sets to acquire knowledge of appropriate computer software
+Phrase:   By the end of the course the successful student should have attained a sound understanding of these methods and a solid foundation for further study
+Phrase:  
+verbo:compute/comput
+computer software
+verbo:discover/discov
+discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics
+verbo:use/use
+used for public health and clinical research
+verbo:analyze/analyz
+analyze sample data sets to acquire knowledge of appropriate computer software
+verbo:infer/infer
+infer, with measured uncertainty, the unobserved population characteristics
+verbo:understand/understand
+understanding of modern quantitative methods
+verbo:infer/infer
+infer, with measured uncertainty, the unobserved population characteristics
+verbo:design/design
+design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques
+8
+[0, 2, 3, 2, 0, 1]
+3
+[0, 0, 0, 0]
+----
+TUDO:CS188.1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence. The on-campus version of this upper division computer science course draws about 600 Berkeley students each year.Artificial intelligence is already all around you, from web search to video games.  AI methods plan your driving directions, filter your spam, and focus your cameras on faces.  AI lets you guide your phone with your voice and read foreign newspapers in English.  Beyond today's applications, AI is at the core of many new technologies that will shape our future.  From self-driving cars to household robots, advancements in AI help transform science fiction into real systems.CS188.1x focuses on Behavior from Computation.  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision–theoretic modeling paradigm.  By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings.  CS188.2x (to follow CS188.1x, precise date to be determined) will cover Reasoning and Learning.  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.
+Phrase:  CS188
+Phrase:  1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence
+Phrase:   The on-campus version of this upper division computer science course draws about 600 Berkeley students each year
+Phrase:  Artificial intelligence is already all around you, from web search to video games
+Phrase:    AI methods plan your driving directions, filter your spam, and focus your cameras on faces
+Phrase:    AI lets you guide your phone with your voice and read foreign newspapers in English
+Phrase:    Beyond today's applications, AI is at the core of many new technologies that will shape our future
+Phrase:    From self-driving cars to household robots, advancements in AI help transform science fiction into real systems
+Phrase:  CS188
+Phrase:  1x focuses on Behavior from Computation
+Phrase:    It will introduce the basic ideas and techniques underlying the design of intelligent computer systems
+Phrase:   A specific emphasis will be on the statistical and decision–theoretic modeling paradigm
+Phrase:    By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings
+Phrase:    CS188
+Phrase:  2x (to follow CS188
+Phrase:  1x, precise date to be determined) will cover Reasoning and Learning
+Phrase:    With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures
+Phrase:   Your machine learning algorithms will classify handwritten digits and photographs
+Phrase:   The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue
+Phrase:  
+verbo:compute/comput
+computer science course draws about 600 berkeley students each year
+verbo:classify/classifi
+
+verbo:apply/appli
+applications, ai is at the core of many new technologies that will shape our future
+verbo:infer/infer
+inferences in uncertain environments and optimize actions for arbitrary reward structures
+verbo:infer/infer
+inferences in uncertain environments and optimize actions for arbitrary reward structures
+verbo:design/design
+design of intelligent computer systems
+verbo:plan/plan
+plan your driving directions, filter your spam, and focus your cameras on faces
+KNOWLEDGE DIMENSION:  plan
+7
+[0, 1, 3, 1, 0, 2]
+3
+[0, 1, 0, 0]
+2
+----
+TUDO:CS184.1x teaches the Foundations of Computer Graphics.    Students will make images of     3D scenes in real-time, and with offline raytracing.    This course runs for 6 weeks and consists of four segments. Each segment includes an    individual programming assignment:Overview and Basic Math (Homework 0: 10% of grade)Transformations (Homework 1: 20% of grade)OpenGL and Lighting (Homework 2: 35% of grade)Raytracing (Homework 3: 35% of grade)This term, students who earn a total score of 50% or greater will have passed the course and may obtain a free honor code certificate from BerkeleyX.
+Phrase:  CS184
+Phrase:  1x teaches the Foundations of Computer Graphics
+Phrase:      Students will make images of     3D scenes in real-time, and with offline raytracing
+Phrase:      This course runs for 6 weeks and consists of four segments
+Phrase:   Each segment includes an    individual programming assignment:Overview and Basic Math (Homework 0: 10% of grade)Transformations (Homework 1: 20% of grade)OpenGL and Lighting (Homework 2: 35% of grade)Raytracing (Homework 3: 35% of grade)This term, students who earn a total score of 50% or greater will have passed the course and may obtain a free honor code certificate from BerkeleyX
+Phrase:  
+verbo:compute/comput
+computer graphics
+1
+[0, 0, 1, 0, 0, 0]
+3
+[0, 0, 0, 0]
+----
+https://www.edx.org/courses/MITx/8.MReV/2013_Summer/about
+TUDO:Mechanics ReView is a second look at introductory Newtonian Mechanics.  It will give you a unified overview of mechanics that will dramatically increase your problem-solving ability. It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics.Newtonian mechanics is the study of how forces change the motion of objects. This course begins with force, and moves on to straight-line motion, momentum, mechanical energy, rotational motion, and angular momentum. Optional units include oscillations, planetary orbits, and a review of multi-concept problems.Why Take Our Course?Our approach to mechanics is a unique one. Through worked examples and online texts we introduce a strategic overview of core concepts in mechanics. This overview couples with a new approach to problem-solving that will help you break down and solve multi-concept problems. By choosing asysteminteractionsmodelThe road to "easy" goes through "hard." This course is more challenging than a standard high school or introductory college physics offering. We will help you become a more expert problem solver, and that process involves solving a variety of problems, in many different ways, with our new approach. The reward is stronger problem-solving ability that carries over to other areas in physics.Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up. Ourapproachproven effectivenessTeachers in the United States, and especially in Massachusetts, can receive extra benefit from this course. We offerProfessional Development PointsContinuing Education UnitsAmerican Association of Physics Teachers
+Phrase:  Mechanics ReView is a second look at introductory Newtonian Mechanics
+Phrase:    It will give you a unified overview of mechanics that will dramatically increase your problem-solving ability
+Phrase:   It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics
+Phrase:  Newtonian mechanics is the study of how forces change the motion of objects
+Phrase:   This course begins with force, and moves on to straight-line motion, momentum, mechanical energy, rotational motion, and angular momentum
+Phrase:   Optional units include oscillations, planetary orbits, and a review of multi-concept problems
+Phrase:  Why Take Our Course?Our approach to mechanics is a unique one
+Phrase:   Through worked examples and online texts we introduce a strategic overview of core concepts in mechanics
+Phrase:   This overview couples with a new approach to problem-solving that will help you break down and solve multi-concept problems
+Phrase:   By choosing asysteminteractionsmodelThe road to "easy" goes through "hard
+Phrase:  " This course is more challenging than a standard high school or introductory college physics offering
+Phrase:   We will help you become a more expert problem solver, and that process involves solving a variety of problems, in many different ways, with our new approach
+Phrase:   The reward is stronger problem-solving ability that carries over to other areas in physics
+Phrase:  Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up
+Phrase:   Ourapproachproven effectivenessTeachers in the United States, and especially in Massachusetts, can receive extra benefit from this course
+Phrase:   We offerProfessional Development PointsContinuing Education UnitsAmerican Association of Physics Teachers
+verbo:prepare/prepar
+prepare for ap or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!for teachersif you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up
+verbo:solve/solv
+solving ability
+verbo:change/chang
+change the motion of objects
+verbo:state/state
+states, and especially in massachusetts, can receive extra benefit from this course
+verbo:understand/understand
+understanding of mechanics
+verbo:organize/organ
+organize your mechanics knowledge, to prepare for ap or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!for teachersif you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up
+verbo:design/design
+designed for teachers and those who want to improve their existing understanding of mechanics
+7
+[1, 1, 3, 0, 0, 2]
+3
 [0, 0, 0, 0]
 ----
 https://www.edx.org/courses/BerkeleyX/CS191x/2013_Spring/about
+https://www.edx.org/courses/UTAustinX/UT.4.01x/2013_Sept/about
 https://www.edx.org/courses/MITx/8.02x/2013_Spring/about
+https://www.edx.org/courses/MITx/7.00x/2013_Spring/about
+https://www.edx.org/courses/UTAustinX/UT.1.01x/2013_Sept/about
+https://www.edx.org/courses/UTAustinX/UT.3.01x/2013_Sept/about
+https://www.edx.org/courses/BerkeleyX/Stat2.2x/2013_April/about
 TUDO:Quantum Mechanics and Quantum ComputationQuantum computation is a remarkable subject based on one of the great computational discoveries that computers based on quantum mechanics are exponentially powerful. This course aims to make this cutting-edge material broadly accessible to undergraduate students, including computer science majors who do not have any prior exposure to quantum mechanics. The course starts with a simple introduction to the fundamental principles of quantum mechanics using the concepts of qubits (or quantum bits) and quantum gates. This treatment emphasizes the paradoxical nature of the subject, including entanglement, non-local correlations, the no-cloning theorem and quantum teleportation. The course covers the fundamentals of quantum algorithms, including the quantum fourier transform, period finding, Shor's quantum algorithm for factoring integers, as well as the prospects for quantum algorithms for NP-complete problems.
 Phrase:  Quantum Mechanics and Quantum ComputationQuantum computation is a remarkable subject based on one of the great computational discoveries that computers based on quantum mechanics are exponentially powerful
 Phrase:   This course aims to make this cutting-edge material broadly accessible to undergraduate students, including computer science majors who do not have any prior exposure to quantum mechanics
@@ -133,6 +743,23 @@ verbo:use/use
 2
 [0, 0, 2, 0, 0, 0]
 3
+[0, 0, 0, 0]
+----
+TUDO:Everyone gets sick. Thanks to medical innovations in the past 50 years, many diseases and conditions have been either mitigated or even cured through medicine. How does a research innovation turn into a therapeutic medicine that health care providers prescribe to patients? This course explores the process, challenges and issues in developing pharmaceutical products.  Drug development is a dynamic field where innovation and entrepreneurship are necessary to keep up with health care expectations, strict regulations and tightening development budgets.  An overview of drug development, approval, and consumer issues will be presented and discussed in the context of research practices, science, marketing, public welfare and business. Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate.
+Phrase:  Everyone gets sick
+Phrase:   Thanks to medical innovations in the past 50 years, many diseases and conditions have been either mitigated or even cured through medicine
+Phrase:   How does a research innovation turn into a therapeutic medicine that health care providers prescribe to patients? This course explores the process, challenges and issues in developing pharmaceutical products
+Phrase:    Drug development is a dynamic field where innovation and entrepreneurship are necessary to keep up with health care expectations, strict regulations and tightening development budgets
+Phrase:    An overview of drug development, approval, and consumer issues will be presented and discussed in the context of research practices, science, marketing, public welfare and business
+Phrase:   Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate
+Phrase:  
+verbo:generalize/gener
+general public, are encouraged to participate
+verbo:generate/gener
+general public, are encouraged to participate
+2
+[0, 1, 0, 0, 0, 1]
+4
 [0, 0, 0, 0]
 ----
 TUDO:8.02 is the second semester of the MIT introductory physicssequence. Passing the online version of this course will guarantee you an MITx certificate of mastery.The course is on electricity and magnetism which are at theheart of Maxwell's equations. We will studyThe    New York TimesIn addition to the basic concepts of Electromagnetism, a vast variety of interesting topics are covered in this course including: Lightning, Electric Shock Treatment, Electrocardiograms, Metal Detectors, Musical Instruments, Magnetic Levitation, Bullet Trains, Electric Motors, Radios, TV, Car Coils, Superconductivity, Aurora Borealis, Rainbows, Radio Telescopes, Interferometers, Particle Accelerators such as the Large Hadron Collider, Mass Spectrometers, Red Sunsets, Blue Skies, Haloes around Sun and Moon, Color Perception, Doppler Effect, Big-Bang Cosmology.You will complete automatically graded weekly homework problemsand a series of exams using multiple choice, numerical and symbolicquestions to test your understanding and to help you master thematerial.  Lectures are interspersed with questions that must beanswered before advancing to the next lecture segment.  There is amoderated forum for student-to-student threaded discussions. Whilehomework deadlines will be strictly enforced, the lowest homeworkgrade will be dropped.  Your grade will be based on interactivequestions during the lectures (5%), homework problems and simulations (20%), threemidterm exams (15% each), and the final exam (30%).  Dependingon what percentage of all the points you get, your grade will beas follows: A (more than 85%), B (70-85%), C (60-70%).  At least 60%of the points must be obtained to qualify for a certificate of mastery.
@@ -158,8 +785,100 @@ understanding and to help you master thematerial
 2
 [0, 0, 0, 0]
 ----
-https://www.edx.org/courses/BerkeleyX/Stat2.2x/2013_April/about
-https://www.edx.org/courses/UTAustinX/UT.4.01x/2013_Sept/about
+TUDO:7.00x is an introductory level biology course hosted by professor Eric Lander, who was one of the leaders of the Human Genome Project. Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world. As a student, you will first focus on the structure and function of macromolecules such as DNA, RNA and proteins. You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health. As you continue in the course, you will apply an understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world. After you complete this course, you will have a foundation in biology that will allow you to understand the remarkable medical revolution going on today.Students will complete this course in 12 weeks. Each week features a series of lecture sequences that     are supported by interactive video tutorials and interspersed exercises or problems. Additionally, students     will work on a homework assignment or exam each week. The course will conclude with a comprehensive final exam.Additionally, for teachers of science, we have forged a collaboration with the National Science Teachers         Association (NSTA) to facilitate understanding of challenging content and help with practical classroom         applications of the courseware. There will be four NSTA web seminars and moderated community forums for         discussion related to 7.00x Secret of Life subject matter and pedagogy.  VisitNSTA/MITx7.00x – The Secret of Life will let you explore the mysteries of biochemistry, genetics, molecular biology,     recombinant DNA technology and genomics, and rational medicine. We are excited to take this journey with you!
+Phrase:  7
+Phrase:  00x is an introductory level biology course hosted by professor Eric Lander, who was one of the leaders of the Human Genome Project
+Phrase:   Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world
+Phrase:   As a student, you will first focus on the structure and function of macromolecules such as DNA, RNA and proteins
+Phrase:   You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health
+Phrase:   As you continue in the course, you will apply an understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world
+Phrase:   After you complete this course, you will have a foundation in biology that will allow you to understand the remarkable medical revolution going on today
+Phrase:  Students will complete this course in 12 weeks
+Phrase:   Each week features a series of lecture sequences that     are supported by interactive video tutorials and interspersed exercises or problems
+Phrase:   Additionally, students     will work on a homework assignment or exam each week
+Phrase:   The course will conclude with a comprehensive final exam
+Phrase:  Additionally, for teachers of science, we have forged a collaboration with the National Science Teachers         Association (NSTA) to facilitate understanding of challenging content and help with practical classroom         applications of the courseware
+Phrase:   There will be four NSTA web seminars and moderated community forums for         discussion related to 7
+Phrase:  00x Secret of Life subject matter and pedagogy
+Phrase:    VisitNSTA/MITx7
+Phrase:  00x – The Secret of Life will let you explore the mysteries of biochemistry, genetics, molecular biology,     recombinant DNA technology and genomics, and rational medicine
+Phrase:   We are excited to take this journey with you!
+verbo:relate/relat
+related to 7
+verbo:discover/discov
+discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health
+verbo:change/chang
+changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health
+verbo:apply/appli
+applications of the courseware
+verbo:reflect/reflect
+reflects the topics taught in the mit introductory biology courses and many biology courses across the world
+KNOWLEDGE DIMENSION:  reflect
+verbo:relate/relat
+related to 7
+verbo:conclude/conclud
+conclude with a comprehensive final exam
+verbo:support/support
+supported by interactive video tutorials and interspersed exercises or problems
+verbo:relate/relat
+related to 7
+verbo:understand/understand
+understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world
+verbo:relate/relat
+related to 7
+verbo:design/design
+designed exclusively for edx, the course content reflects the topics taught in the mit introductory biology courses and many biology courses across the world
+12
+[0, 1, 4, 1, 4, 2]
+4
+[0, 0, 0, 1]
+4
+----
+TUDO:Energy Technology & PolicyThis multidisciplinary course will give students an overview of energy technologies, fuels, environmental impacts and public policies. Topics will be interdisciplinary and will include an introduction to quantitative concepts in energy, including the differences among fuels and energy technologies, energy policy levers, and the societal aspects of energy, such as culture, economics, war, and international affairs. This course will cover brief snippets of energy history, use real-world examples, and look forward into the future. The course will have interactive learning modules and lecture-oriented around current events related to energy.
+Phrase:  Energy Technology & PolicyThis multidisciplinary course will give students an overview of energy technologies, fuels, environmental impacts and public policies
+Phrase:   Topics will be interdisciplinary and will include an introduction to quantitative concepts in energy, including the differences among fuels and energy technologies, energy policy levers, and the societal aspects of energy, such as culture, economics, war, and international affairs
+Phrase:   This course will cover brief snippets of energy history, use real-world examples, and look forward into the future
+Phrase:   The course will have interactive learning modules and lecture-oriented around current events related to energy
+Phrase:  
+verbo:relate/relat
+related to energy
+verbo:use/use
+use real-world examples, and look forward into the future
+verbo:relate/relat
+related to energy
+verbo:relate/relat
+related to energy
+verbo:relate/relat
+related to energy
+5
+[0, 0, 2, 1, 1, 1]
+4
+[0, 0, 0, 0]
+----
+TUDO:Globalization is a fascinating spectacle that can be understood as global systems of competition and connectivity.  These man-made systems provide transport, communication, governance, and entertainment on a global scale. International crime networks are outgrowths of the same systems. Topics include national identity, language diversity, the global labor market, popular culture, sports and climate change.However, an increase in integration has not brought increased equality.  Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process.The globalization process exemplifies connectivity. Globalization is unimaginable without the unprecedented electronic networks that project dominant cultural products into every society on earth.Learn how to identify and analyze global systems and better understand how the world works.
+Phrase:  Globalization is a fascinating spectacle that can be understood as global systems of competition and connectivity
+Phrase:    These man-made systems provide transport, communication, governance, and entertainment on a global scale
+Phrase:   International crime networks are outgrowths of the same systems
+Phrase:   Topics include national identity, language diversity, the global labor market, popular culture, sports and climate change
+Phrase:  However, an increase in integration has not brought increased equality
+Phrase:    Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process
+Phrase:  The globalization process exemplifies connectivity
+Phrase:   Globalization is unimaginable without the unprecedented electronic networks that project dominant cultural products into every society on earth
+Phrase:  Learn how to identify and analyze global systems and better understand how the world works
+Phrase:  
+verbo:identify/identifi
+
+verbo:analyze/analyz
+analyze global systems and better understand how the world works
+verbo:understand/understand
+understand how the world works
+verbo:create/creat
+creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process
+4
+[1, 1, 0, 1, 0, 1]
+3
+[0, 0, 0, 0]
+----
 TUDO:Introduction to Statistics: ProbabilityStatistics 2 at Berkeley is an introductory class taken by about 1000 students each year. Stat2.2x is the second of three five-week courses that make up Stat2x, the online equivalent of Berkeley's Stat 2.The focus of Stat2.2x is on probability theory: exactly what is a random sample, and how does randomness work? If you buy 10 lottery tickets instead of 1, does your chance of winning go up by a factor of 10? What is the law of averages? How can polls make accurate predictions based on data from small fractions of the population? What should you expect to happen "just by chance"? These are some of the questions we will address in the course.We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting. Then we will step back from all the details and try to identify features of large random samples that will help us approximate probabilities that are hard to compute exactly. We will study sums and averages of large random samples, discuss the factors that affect their accuracy, and use the normal approximation for their probability distributions.Be warned: by the end of Stat2.2x you will not want to gamble. Ever. (Unless you're really good at counting cards, in which case you could try blackjack, but perhaps after taking all these edX courses you'll find other ways of earning money.)As Stat2.2x is part of a series, the basic prerequisites are the same as those for Stat2.1x: high school arithmetic and good comprehension of English. In addition, you are expected to know the material of Stat2.1x, with particular emphasis on histograms, averages, SDs, and the normal curve.The fundamental approach of the series was provided in the description of Stat2.1x and appears here again: There will be no mindless memorization of formulas and methods. Throughout the course, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results.
 Phrase:  Introduction to Statistics: ProbabilityStatistics 2 at Berkeley is an introductory class taken by about 1000 students each year
 Phrase:   Stat2
@@ -182,771 +901,52 @@ Phrase:  The fundamental approach of the series was provided in the description 
 Phrase:  1x and appears here again: There will be no mindless memorization of formulas and methods
 Phrase:   Throughout the course, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results
 Phrase:  
-verbo:know/know
-know the material of stat2
-verbo:identify/identifi
-
 verbo:compute/comput
 compute exactly
-verbo:calculate/calcul
-calculations of chances when the experiments are small enough that exact calculations are feasible and interesting
 verbo:experiment/experi
 experiments are small enough that exact calculations are feasible and interesting
 verbo:use/use
 use the normal approximation for their probability distributions
+verbo:calculate/calcul
+calculations of chances when the experiments are small enough that exact calculations are feasible and interesting
+verbo:identify/identifi
+
+verbo:know/know
+know the material of stat2
+verbo:predict/predict
+predictions based on data from small fractions of the population? what should you expect to happen "just by chance"? these are some of the questions we will address in the course
+KNOWLEDGE DIMENSION:  predict
 verbo:interpret/interpret
 interpretation of results
 KNOWLEDGE DIMENSION:  interpret
 verbo:understand/understand
 understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results
-verbo:predict/predict
-predictions based on data from small fractions of the population? what should you expect to happen "just by chance"? these are some of the questions we will address in the course
-KNOWLEDGE DIMENSION:  predict
 9
 [2, 3, 4, 0, 0, 0]
 2
 [0, 1, 1, 0]
 2
 ----
-TUDO:Everyone gets sick. Thanks to medical innovations in the past 50 years, many diseases and conditions have been either mitigated or even cured through medicine. How does a research innovation turn into a therapeutic medicine that health care providers prescribe to patients? This course explores the process, challenges and issues in developing pharmaceutical products.  Drug development is a dynamic field where innovation and entrepreneurship are necessary to keep up with health care expectations, strict regulations and tightening development budgets.  An overview of drug development, approval, and consumer issues will be presented and discussed in the context of research practices, science, marketing, public welfare and business. Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate.
-Phrase:  Everyone gets sick
-Phrase:   Thanks to medical innovations in the past 50 years, many diseases and conditions have been either mitigated or even cured through medicine
-Phrase:   How does a research innovation turn into a therapeutic medicine that health care providers prescribe to patients? This course explores the process, challenges and issues in developing pharmaceutical products
-Phrase:    Drug development is a dynamic field where innovation and entrepreneurship are necessary to keep up with health care expectations, strict regulations and tightening development budgets
-Phrase:    An overview of drug development, approval, and consumer issues will be presented and discussed in the context of research practices, science, marketing, public welfare and business
-Phrase:   Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate
-Phrase:  
-verbo:generate/gener
-general public, are encouraged to participate
-verbo:generalize/gener
-general public, are encouraged to participate
-2
-[0, 1, 0, 0, 0, 1]
-4
-[0, 0, 0, 0]
-----
-https://www.edx.org/courses/UTAustinX/UT.2.01x/2013_Sept/about
-TUDO:The last century ushered in significant progress. Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty. Scientific progress improved the way we lived across the world.Yet the last century also brought increased levels of war, tyranny, and genocide.  Man pushed boundaries of good and evil, right and wrong, justice and injustice – and people lost faith in values. Now, thinkers and leaders are reconstructing theories of value and creating institutions to embody them.Join this thought-provoking, broad-sweeping course as it draws intriguing connections between philosophy, art, literature, and history, illuminating our world and our place in it.
-Phrase:  The last century ushered in significant progress
-Phrase:   Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty
-Phrase:   Scientific progress improved the way we lived across the world
-Phrase:  Yet the last century also brought increased levels of war, tyranny, and genocide
-Phrase:    Man pushed boundaries of good and evil, right and wrong, justice and injustice – and people lost faith in values
-Phrase:   Now, thinkers and leaders are reconstructing theories of value and creating institutions to embody them
-Phrase:  Join this thought-provoking, broad-sweeping course as it draws intriguing connections between philosophy, art, literature, and history, illuminating our world and our place in it
-Phrase:  
-verbo:reconstruct/reconstruct
-reconstructing theories of value and creating institutions to embody them
-verbo:create/creat
-creativity, and beauty
-verbo:understand/understand
-understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty
-3
-[0, 1, 0, 0, 0, 2]
-4
-[0, 0, 0, 0]
-----
-https://www.edx.org/courses/BerkeleyX/CS169.1x/2012_Fall/about
-https://www.edx.org/courses/MITx/6.002x/2012_Fall/about
-https://www.edx.org/courses/BerkeleyX/CS188.1x/2012_Fall/about
-TUDO:CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.Students will work individually on weekly coding projects. Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX.
-Phrase:  CS169
-Phrase:  1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails
-Phrase:   Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software
-Phrase:   They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application
-Phrase:   Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
-Phrase:   Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability
-Phrase:  Students will work individually on weekly coding projects
-Phrase:   Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX
-Phrase:  
-verbo:design/design
-design, development, testing, and public cloud deployment of a simple saas application
-verbo:apply/appli
-application
-verbo:use/use
-use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
-verbo:support/support
-support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
-verbo:reflect/reflect
-reflection can improve productivity and code maintainability
-KNOWLEDGE DIMENSION:  reflect
-verbo:understand/understand
-understand the new challenges and opportunities of saas versus shrink-wrapped software
-6
-[0, 1, 2, 0, 2, 1]
-4
-[0, 0, 0, 1]
-4
-----
-TUDO:The course introduces engineering in the context of the lumped circuit abstraction. Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications. Design and lab exercises are also significant components of the course.The course is organized by weeks. To keep pace with the class, you are expected to complete all the work by the due dates indicated. Homeworks and labs must be completed by the Sunday of the week following the one in which they are posted. Weekly coursework includes interactive video sequences, readings from the textbook, homework, online laboratories, and optional tutorials. The course will also have a midterm exam and a ﬁnal exam. Those who successfully earn enough points will receive an honor code certificate from MITx.
-Phrase:  The course introduces engineering in the context of the lumped circuit abstraction
-Phrase:   Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications
-Phrase:   Design and lab exercises are also significant components of the course
-Phrase:  The course is organized by weeks
-Phrase:   To keep pace with the class, you are expected to complete all the work by the due dates indicated
-Phrase:   Homeworks and labs must be completed by the Sunday of the week following the one in which they are posted
-Phrase:   Weekly coursework includes interactive video sequences, readings from the textbook, homework, online laboratories, and optional tutorials
-Phrase:   The course will also have a midterm exam and a ﬁnal exam
-Phrase:   Those who successfully earn enough points will receive an honor code certificate from MITx
-Phrase:  
-verbo:design/design
-design in the time and frequency domains; and analog and digital circuits and applications
-verbo:organize/organ
-organized by weeks
-2
-[0, 0, 0, 0, 0, 2]
-6
-[0, 0, 0, 0]
-----
-TUDO:CS188.1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence. The on-campus version of this upper division computer science course draws about 600 Berkeley students each year.Artificial intelligence is already all around you, from web search to video games.  AI methods plan your driving directions, filter your spam, and focus your cameras on faces.  AI lets you guide your phone with your voice and read foreign newspapers in English.  Beyond today's applications, AI is at the core of many new technologies that will shape our future.  From self-driving cars to household robots, advancements in AI help transform science fiction into real systems.CS188.1x focuses on Behavior from Computation.  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision–theoretic modeling paradigm.  By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings.  CS188.2x (to follow CS188.1x, precise date to be determined) will cover Reasoning and Learning.  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.
-Phrase:  CS188
-Phrase:  1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence
-Phrase:   The on-campus version of this upper division computer science course draws about 600 Berkeley students each year
-Phrase:  Artificial intelligence is already all around you, from web search to video games
-Phrase:    AI methods plan your driving directions, filter your spam, and focus your cameras on faces
-Phrase:    AI lets you guide your phone with your voice and read foreign newspapers in English
-Phrase:    Beyond today's applications, AI is at the core of many new technologies that will shape our future
-Phrase:    From self-driving cars to household robots, advancements in AI help transform science fiction into real systems
-Phrase:  CS188
-Phrase:  1x focuses on Behavior from Computation
-Phrase:    It will introduce the basic ideas and techniques underlying the design of intelligent computer systems
-Phrase:   A specific emphasis will be on the statistical and decision–theoretic modeling paradigm
-Phrase:    By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings
-Phrase:    CS188
-Phrase:  2x (to follow CS188
-Phrase:  1x, precise date to be determined) will cover Reasoning and Learning
-Phrase:    With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures
-Phrase:   Your machine learning algorithms will classify handwritten digits and photographs
-Phrase:   The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue
-Phrase:  
-verbo:plan/plan
-plan your driving directions, filter your spam, and focus your cameras on faces
-KNOWLEDGE DIMENSION:  plan
-verbo:design/design
-design of intelligent computer systems
-verbo:infer/infer
-inferences in uncertain environments and optimize actions for arbitrary reward structures
-verbo:classify/classifi
-
-verbo:apply/appli
-applications, ai is at the core of many new technologies that will shape our future
-verbo:compute/comput
-computer science course draws about 600 berkeley students each year
-verbo:infer/infer
-inferences in uncertain environments and optimize actions for arbitrary reward structures
-7
-[0, 1, 3, 1, 0, 2]
-3
-[0, 1, 0, 0]
-2
-----
-https://www.edx.org/courses/HarvardX/CS50x/2012/about
-https://www.edx.org/courses/BerkeleyX/CS169.2x/2012_Fall/about
-https://www.edx.org/courses/MITx/6.00x/2012_Fall/about
-https://www.edx.org/courses/HarvardX/PH207x/2012_Fall/about
-TUDO:CS50x is Harvard College's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. As of Fall 2012, the on-campus version of CS50x is Harvard's largest course.Students who earn a passing grade on 8 problem sets (programming assignments - 15-20 hours each), 2 quizzes, and a final project will get an honor code certificate from HarvardX. Students may take CS50x at their own pace, starting anytime after October 15, 2012 and finishing anytime before April 15, 2013.
-Phrase:  CS50x is Harvard College's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience
-Phrase:   An entry-level course taught by David J
-Phrase:   Malan, CS50x teaches students how to think algorithmically and solve problems efficiently
-Phrase:   Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development
-Phrase:   Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML
-Phrase:   Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming
-Phrase:   As of Fall 2012, the on-campus version of CS50x is Harvard's largest course
-Phrase:  Students who earn a passing grade on 8 problem sets (programming assignments - 15-20 hours each), 2 quizzes, and a final project will get an honor code certificate from HarvardX
-Phrase:   Students may take CS50x at their own pace, starting anytime after October 15, 2012 and finishing anytime before April 15, 2013
-Phrase:  
-verbo:solve/solv
-solve problems efficiently
-verbo:compute/comput
-computer science and the art of programming for majors and non-majors alike, with or without prior programming experience
-2
-[0, 0, 2, 0, 0, 0]
-3
-[0, 0, 0, 0]
-----
-TUDO:CS 169.2x is the second half of University of California, Berkeley's semester long course on Software as a Service. In the first half of the course, CS 169.1x, students use Agile development methods to deploy a simple SaaS app in the cloud. In the second half, CS 169.2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript. They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data. Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers.Other topics covered in CS 169.2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment. There will also be several short quizzes.Unlike CS 169.1x, which has been offered multiple times both online and on-campus, CS 169.2x is fresh, new material. Although versions of it have been taught at UC Berkeley, it has evolved significantly between offerings, and this online version is essentially new. This is, therefore, an "alpha" version. A more polished version will offered at a later date.Note:
-Phrase:  CS 169
-Phrase:  2x is the second half of University of California, Berkeley's semester long course on Software as a Service
-Phrase:   In the first half of the course, CS 169
-Phrase:  1x, students use Agile development methods to deploy a simple SaaS app in the cloud
-Phrase:   In the second half, CS 169
-Phrase:  2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript
-Phrase:   They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data
-Phrase:   Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers
-Phrase:  Other topics covered in CS 169
-Phrase:  2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment
-Phrase:   There will also be several short quizzes
-Phrase:  Unlike CS 169
-Phrase:  1x, which has been offered multiple times both online and on-campus, CS 169
-Phrase:  2x is fresh, new material
-Phrase:   Although versions of it have been taught at UC Berkeley, it has evolved significantly between offerings, and this online version is essentially new
-Phrase:   This is, therefore, an "alpha" version
-Phrase:   A more polished version will offered at a later date
-Phrase:  Note:
-verbo:recognize/recogn
-recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
-verbo:identify/identifi
-:
-verbo:design/design
-design patterns: what they are and how to recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
-verbo:create/creat
-create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with javascript
-verbo:organize/organ
-organize and manage small programming teamsintroduction to design patterns: what they are and how to recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
-verbo:apply/appli
-:
-verbo:use/use
-use agile development methods to deploy a simple saas app in the cloud
-verbo:criticize/critic
-critical skill for professional programmers
-8
-[2, 0, 2, 0, 1, 3]
-3
-[0, 0, 0, 0]
-----
-TUDO:Introduction to Computer Science and Programming6.00x is an introduction to using computation to solve real problems. The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving. Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course.Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth.       The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about       how to use computation to accomplish some goal later in their career. That said, it is not a "computation appreciation" course. It is a challenging       and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will.Those who earn a passing grade will get an honor code certificate from MITx. Please see theedX FAQ for more information about certificates.- expect the book to take at least 10 days to arrive (North America; rest of the world may take longer). The book and the course       lectures parallel each other, though there is more detail in the book about some topics.A textbook for 6.00x 	is now available for purchase ($24.99)The book is NOT requiredthis one
-Phrase:  Introduction to Computer Science and Programming6
-Phrase:  00x is an introduction to using computation to solve real problems
-Phrase:   The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving
-Phrase:   Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course
-Phrase:  Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth
-Phrase:         The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about       how to use computation to accomplish some goal later in their career
-Phrase:   That said, it is not a "computation appreciation" course
-Phrase:   It is a challenging       and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will
-Phrase:  Those who earn a passing grade will get an honor code certificate from MITx
-Phrase:   Please see theedX FAQ for more information about certificates
-Phrase:  - expect the book to take at least 10 days to arrive (North America; rest of the world may take longer)
-Phrase:   The book and the course       lectures parallel each other, though there is more detail in the book about some topics
-Phrase:  A textbook for 6
-Phrase:  00x 	is now available for purchase ($24
-Phrase:  99)The book is NOT requiredthis one
-verbo:solve/solv
-solve real problems
-verbo:compute/comput
-computer science and programming6
-verbo:experiment/experi
-experience who have a desire (or at least a need) to understand computational approaches to problem solving
-verbo:use/use
-use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course
-verbo:understand/understand
-understand computational approaches to problem solving
-5
-[0, 1, 4, 0, 0, 0]
-2
-[0, 0, 0, 0]
-----
-TUDO:Quantitative Methods in Clinical and Public Health Research is the online adaptation of material from the Harvard School of Public Health's classes in epidemiology and biostatistics.Principled investigations to monitor and thus improve the health of individuals are firmly based on a sound understanding of modern quantitative methods. This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics. This course will address this need by covering the principles of biostatistics and epidemiology used for public health and clinical research. These include outcomes measurement, measures of associations between outcomes and their determinants, study design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques. Students will analyze sample data sets to acquire knowledge of appropriate computer software. By the end of the course the successful student should have attained a sound understanding of these methods and a solid foundation for further study.
-Phrase:  Quantitative Methods in Clinical and Public Health Research is the online adaptation of material from the Harvard School of Public Health's classes in epidemiology and biostatistics
-Phrase:  Principled investigations to monitor and thus improve the health of individuals are firmly based on a sound understanding of modern quantitative methods
-Phrase:   This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics
-Phrase:   This course will address this need by covering the principles of biostatistics and epidemiology used for public health and clinical research
-Phrase:   These include outcomes measurement, measures of associations between outcomes and their determinants, study design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques
-Phrase:   Students will analyze sample data sets to acquire knowledge of appropriate computer software
-Phrase:   By the end of the course the successful student should have attained a sound understanding of these methods and a solid foundation for further study
-Phrase:  
-verbo:design/design
-design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques
-verbo:analyze/analyz
-analyze sample data sets to acquire knowledge of appropriate computer software
-verbo:infer/infer
-infer, with measured uncertainty, the unobserved population characteristics
-verbo:discover/discov
-discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics
-verbo:compute/comput
-computer software
-verbo:use/use
-used for public health and clinical research
-verbo:infer/infer
-infer, with measured uncertainty, the unobserved population characteristics
-verbo:understand/understand
-understanding of modern quantitative methods
-8
-[0, 2, 3, 2, 0, 1]
-3
-[0, 0, 0, 0]
-----
-https://www.edx.org/courses/BerkeleyX/CS184.1x/2012_Fall/about
-TUDO:CS184.1x teaches the Foundations of Computer Graphics.    Students will make images of     3D scenes in real-time, and with offline raytracing.    This course runs for 6 weeks and consists of four segments. Each segment includes an    individual programming assignment:Overview and Basic Math (Homework 0: 10% of grade)Transformations (Homework 1: 20% of grade)OpenGL and Lighting (Homework 2: 35% of grade)Raytracing (Homework 3: 35% of grade)This term, students who earn a total score of 50% or greater will have passed the course and may obtain a free honor code certificate from BerkeleyX.
-Phrase:  CS184
-Phrase:  1x teaches the Foundations of Computer Graphics
-Phrase:      Students will make images of     3D scenes in real-time, and with offline raytracing
-Phrase:      This course runs for 6 weeks and consists of four segments
-Phrase:   Each segment includes an    individual programming assignment:Overview and Basic Math (Homework 0: 10% of grade)Transformations (Homework 1: 20% of grade)OpenGL and Lighting (Homework 2: 35% of grade)Raytracing (Homework 3: 35% of grade)This term, students who earn a total score of 50% or greater will have passed the course and may obtain a free honor code certificate from BerkeleyX
-Phrase:  
-verbo:compute/comput
-computer graphics
-1
-[0, 0, 1, 0, 0, 0]
-3
-[0, 0, 0, 0]
-----
-https://www.edx.org/courses/BerkeleyX/CS188.1x/2013_Spring/about
-https://www.edx.org/courses/BerkeleyX/CS169.2x/2013_Spring/about
-https://www.edx.org/courses/HarvardX/HLS1x/2013_Spring/about
-https://www.edx.org/courses/MITx/6.00x/2013_Spring/about
-https://www.edx.org/courses/MITx/3.091x/2013_Spring/about
-https://www.edx.org/courses/MITx/14.73x/2013_Spring/about
-https://www.edx.org/courses/BerkeleyX/CS169.1x/2013_Spring/about
-TUDO:CS188.1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence. The on-campus version of this upper division computer science course draws about 600 Berkeley students each year.Artificial intelligence is already all around you, from web search to video games.  AI methods plan your driving directions, filter your spam, and focus your cameras on faces.  AI lets you guide your phone with your voice and read foreign newspapers in English.  Beyond today's applications, AI is at the core of many new technologies that will shape our future.  From self-driving cars to household robots, advancements in AI help transform science fiction into real systems.CS188.1x focuses on Behavior from Computation.  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision–theoretic modeling paradigm.  By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings.  CS188.2x (to follow CS188.1x, precise date to be determined) will cover Reasoning and Learning.  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.
-Phrase:  CS188
-Phrase:  1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence
-Phrase:   The on-campus version of this upper division computer science course draws about 600 Berkeley students each year
-Phrase:  Artificial intelligence is already all around you, from web search to video games
-Phrase:    AI methods plan your driving directions, filter your spam, and focus your cameras on faces
-Phrase:    AI lets you guide your phone with your voice and read foreign newspapers in English
-Phrase:    Beyond today's applications, AI is at the core of many new technologies that will shape our future
-Phrase:    From self-driving cars to household robots, advancements in AI help transform science fiction into real systems
-Phrase:  CS188
-Phrase:  1x focuses on Behavior from Computation
-Phrase:    It will introduce the basic ideas and techniques underlying the design of intelligent computer systems
-Phrase:   A specific emphasis will be on the statistical and decision–theoretic modeling paradigm
-Phrase:    By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings
-Phrase:    CS188
-Phrase:  2x (to follow CS188
-Phrase:  1x, precise date to be determined) will cover Reasoning and Learning
-Phrase:    With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures
-Phrase:   Your machine learning algorithms will classify handwritten digits and photographs
-Phrase:   The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue
-Phrase:  
-verbo:plan/plan
-plan your driving directions, filter your spam, and focus your cameras on faces
-KNOWLEDGE DIMENSION:  plan
-verbo:design/design
-design of intelligent computer systems
-verbo:infer/infer
-inferences in uncertain environments and optimize actions for arbitrary reward structures
-verbo:classify/classifi
-
-verbo:apply/appli
-applications, ai is at the core of many new technologies that will shape our future
-verbo:compute/comput
-computer science course draws about 600 berkeley students each year
-verbo:infer/infer
-inferences in uncertain environments and optimize actions for arbitrary reward structures
-7
-[0, 1, 3, 1, 0, 2]
-3
-[0, 1, 0, 0]
-2
-----
-TUDO:CS 169.2x is the second half of University of California, Berkeley's semester long course on Software as a Service. In the first half of the course, CS 169.1x, students use Agile development methods to deploy a simple SaaS app in the cloud. In the second half, CS 169.2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript. They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data. Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers.Other topics covered in CS 169.2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment. There will also be several short quizzes.Unlike CS 169.1x, which has been offered multiple times both online and on-campus, CS 169.2x is fresh, new material. Although versions of it have been taught at UC Berkeley, it has evolved significantly between offerings, and this online version is essentially new. This is, therefore, an "alpha" version. A more polished version will offered at a later date.Note:
-Phrase:  CS 169
-Phrase:  2x is the second half of University of California, Berkeley's semester long course on Software as a Service
-Phrase:   In the first half of the course, CS 169
-Phrase:  1x, students use Agile development methods to deploy a simple SaaS app in the cloud
-Phrase:   In the second half, CS 169
-Phrase:  2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript
-Phrase:   They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data
-Phrase:   Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers
-Phrase:  Other topics covered in CS 169
-Phrase:  2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment
-Phrase:   There will also be several short quizzes
-Phrase:  Unlike CS 169
-Phrase:  1x, which has been offered multiple times both online and on-campus, CS 169
-Phrase:  2x is fresh, new material
-Phrase:   Although versions of it have been taught at UC Berkeley, it has evolved significantly between offerings, and this online version is essentially new
-Phrase:   This is, therefore, an "alpha" version
-Phrase:   A more polished version will offered at a later date
-Phrase:  Note:
-verbo:recognize/recogn
-recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
-verbo:identify/identifi
-:
-verbo:design/design
-design patterns: what they are and how to recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
-verbo:create/creat
-create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with javascript
-verbo:organize/organ
-organize and manage small programming teamsintroduction to design patterns: what they are and how to recognize opportunities to apply themusing rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in saasthere will be three homework assignments: two programming assignments and one assignment about operations/deployment
-verbo:apply/appli
-:
-verbo:use/use
-use agile development methods to deploy a simple saas app in the cloud
-verbo:criticize/critic
-critical skill for professional programmers
-8
-[2, 0, 2, 0, 1, 3]
-3
-[0, 0, 0, 0]
-----
-TUDO:About HLS1xHLS1x Copyright, an experimental course offered on edX, explores in depth the law, theory, and practice of copyright. Approximately two thirds of the course focus on the copyright system of the United States; the remainder is devoted to the laws pertaining to copyright and "neighboring rights" in other countries. Considerable attention is devoted to the relationship between copyright law and creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture. The course commences on January 28, 2013, and lasts for 12 weeks.Enrollment in the course is limited to 500 participants, who were selected through an application process. When admitting participants, the course organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender. Applicants had to be at least 13 years old, have a good grasp of the English language, and be willing to devote eight hours per week to learning and discussing the material. Otherwise, however, there are no prerequisites for taking this course. In particular, no legal background is required.Several methods of instruction are used. Participants watch pre-recorded lectures, engage in interactive live webcasts of events in which guest speakers address especially controversial issues, discuss legal problems in online forums, and (most importantly) participate once a week in an 80-minute online seminar. Those seminars are taught by teaching fellows, all of whom are currently students at Harvard Law School.At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy. Those exams are graded by the teaching fellows. Participants who receive passing grades are to be awarded certificates of completion and provided written assessments of their degree of proficiency.HLS1x Copyright is an experimental course, with four different variants that allow Prof. Fisher and his team to experiment with different combinations of teaching materials and educational technologies. Enrollment for the course is limited because we believe that high-quality legal education depends, at least in part, upon supervised small-group discussions of difficult issues. Fidelity to that principle requires confining the course to the number of participants that can be supervised effectively by our 21 teaching fellows. The limit on the enrollment does not mean, however, that we are not allowing access to the course materials; to the contrary, they are made publicly available.
-Phrase:  About HLS1xHLS1x Copyright, an experimental course offered on edX, explores in depth the law, theory, and practice of copyright
-Phrase:   Approximately two thirds of the course focus on the copyright system of the United States; the remainder is devoted to the laws pertaining to copyright and "neighboring rights" in other countries
-Phrase:   Considerable attention is devoted to the relationship between copyright law and creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture
-Phrase:   The course commences on January 28, 2013, and lasts for 12 weeks
-Phrase:  Enrollment in the course is limited to 500 participants, who were selected through an application process
-Phrase:   When admitting participants, the course organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender
-Phrase:   Applicants had to be at least 13 years old, have a good grasp of the English language, and be willing to devote eight hours per week to learning and discussing the material
-Phrase:   Otherwise, however, there are no prerequisites for taking this course
-Phrase:   In particular, no legal background is required
-Phrase:  Several methods of instruction are used
-Phrase:   Participants watch pre-recorded lectures, engage in interactive live webcasts of events in which guest speakers address especially controversial issues, discuss legal problems in online forums, and (most importantly) participate once a week in an 80-minute online seminar
-Phrase:   Those seminars are taught by teaching fellows, all of whom are currently students at Harvard Law School
-Phrase:  At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy
-Phrase:   Those exams are graded by the teaching fellows
-Phrase:   Participants who receive passing grades are to be awarded certificates of completion and provided written assessments of their degree of proficiency
-Phrase:  HLS1x Copyright is an experimental course, with four different variants that allow Prof
-Phrase:   Fisher and his team to experiment with different combinations of teaching materials and educational technologies
-Phrase:   Enrollment for the course is limited because we believe that high-quality legal education depends, at least in part, upon supervised small-group discussions of difficult issues
-Phrase:   Fidelity to that principle requires confining the course to the number of participants that can be supervised effectively by our 21 teaching fellows
-Phrase:   The limit on the enrollment does not mean, however, that we are not allowing access to the course materials; to the contrary, they are made publicly available
-Phrase:  
-verbo:select/select
-selected through an application process
-verbo:state/state
-states; the remainder is devoted to the laws pertaining to copyright and "neighboring rights" in other countries
-verbo:design/design
-designed to assess his or her knowledge of copyright law and policy
-verbo:create/creat
-creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture
-verbo:combine/combin
-combinations of teaching materials and educational technologies
-verbo:organize/organ
-organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender
-verbo:select/select
-selected through an application process
-verbo:experiment/experi
-experimental course offered on edx, explores in depth the law, theory, and practice of copyright
-verbo:assess/assess
-assess his or her knowledge of copyright law and policy
-KNOWLEDGE DIMENSION:  assess
-9
-[2, 0, 1, 1, 1, 4]
-4
-[0, 1, 0, 0]
-2
-----
-TUDO:Introduction to Computer Science and Programming6.00x is an introduction to using computation to solve real problems. The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving. Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course.Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth.       The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about       how to use computation to accomplish some goal later in their career. That said, it is not a "computation appreciation" course. It is a challenging       and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will.Those who earn a passing grade will get an honor code certificate from MITx. Please see theedX FAQ for more information about certificates.The required textbook for this course isIntroduction to Computation and Programming Using	Python (Spring 2013 edition)The MIT Press is offering MITx students a special price, through      March 22, 2013 only, of $17.50 (a 30% discount). To take advantage of this offer, please use      promotion code ICPUP30 atLimited-time offer!http://mitpress.mit.edu/guttagIf you already own a copy       of the Fall 2012 version ofNote to students who purchased the Fall 2012 edition of this textbook:Introduction to Computation and Programming Using PythonIn the meantime, if you're interested in reading more on Python, check your local library for Python textbooks or      search online for a free Python text, such asthis one
-Phrase:  Introduction to Computer Science and Programming6
-Phrase:  00x is an introduction to using computation to solve real problems
-Phrase:   The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving
-Phrase:   Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course
-Phrase:  Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth
-Phrase:         The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about       how to use computation to accomplish some goal later in their career
-Phrase:   That said, it is not a "computation appreciation" course
-Phrase:   It is a challenging       and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will
-Phrase:  Those who earn a passing grade will get an honor code certificate from MITx
-Phrase:   Please see theedX FAQ for more information about certificates
-Phrase:  The required textbook for this course isIntroduction to Computation and Programming Using	Python (Spring 2013 edition)The MIT Press is offering MITx students a special price, through      March 22, 2013 only, of $17
-Phrase:  50 (a 30% discount)
-Phrase:   To take advantage of this offer, please use      promotion code ICPUP30 atLimited-time offer!http://mitpress
-Phrase:  mit
-Phrase:  edu/guttagIf you already own a copy       of the Fall 2012 version ofNote to students who purchased the Fall 2012 edition of this textbook:Introduction to Computation and Programming Using PythonIn the meantime, if you're interested in reading more on Python, check your local library for Python textbooks or      search online for a free Python text, such asthis one
-verbo:solve/solv
-solve real problems
-verbo:compute/comput
-computer science and programming6
-verbo:experiment/experi
-experience who have a desire (or at least a need) to understand computational approaches to problem solving
-verbo:use/use
-use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course
-verbo:understand/understand
-understand computational approaches to problem solving
-5
-[0, 1, 4, 0, 0, 0]
-2
-[0, 0, 0, 0]
-----
-TUDO:3.091x is a first-year course where chemical principles are explained by examination of the properties of materials. The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course. The on-campus version of the course has been taught for over thirty five years and is one of the largest classes at MIT. The class will cover the relationship between electronic structure, chemical bonding, and atomic order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins). There will be topical coverage of organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams. Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e.g. batteries and fuel cells), and from emerging technologies (e.g. photonic and biomedical devices). For the Spring 2013 class, edX registration and course materials are free.Students will complete weekly concept questions, watch videos and work on interspersed exercises, as well as submit weekly homework. Homework assignments may be submitted multiple times until the deadline. Those who earn a passing grade will get a free honor code certificate from MITx.
-Phrase:  3
-Phrase:  091x is a first-year course where chemical principles are explained by examination of the properties of materials
-Phrase:   The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course
-Phrase:   The on-campus version of the course has been taught for over thirty five years and is one of the largest classes at MIT
-Phrase:   The class will cover the relationship between electronic structure, chemical bonding, and atomic order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins)
-Phrase:   There will be topical coverage of organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams
-Phrase:   Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e
-Phrase:  g
-Phrase:   batteries and fuel cells), and from emerging technologies (e
-Phrase:  g
-Phrase:   photonic and biomedical devices)
-Phrase:   For the Spring 2013 class, edX registration and course materials are free
-Phrase:  Students will complete weekly concept questions, watch videos and work on interspersed exercises, as well as submit weekly homework
-Phrase:   Homework assignments may be submitted multiple times until the deadline
-Phrase:   Those who earn a passing grade will get a free honor code certificate from MITx
-Phrase:  
-verbo:generate/gener
-generation and storage (e
-verbo:relate/relat
-related to applications and engineering systems throughout the course
-verbo:organize/organ
-organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams
-verbo:order/order
-order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins)
-KNOWLEDGE DIMENSION:  order
-verbo:relate/relat
-related to applications and engineering systems throughout the course
+https://www.edx.org/courses/HarvardX/SPU27x/2013_Oct/about
+TUDO:Science & Cooking brings together top chefs and preeminent Harvard researchers to explore how everyday cooking and haute cuisine can illuminate basic principles in physics and engineering, and vice versa.During each week of the course, you will watch as chefs reveal the secrets behind some of their most famous culinary creations — often right in their own restaurants. Inspired by such cooking mastery, the Harvard team will then explain, in simple and sophisticated ways, the science behind the recipe.Topics will include: soft matter materials, such as emulsions, illustrated by aioli; elasticity, exemplified by the done-ness of a steak; and diffusion, revealed by the phenomenon of spherification, the culinary technique pioneered by Ferran Adrià.To help you make the link between cooking and science, an “equation of the week” will capture the core scientific concept being explored. You will also have the opportunity to be an experimental scientist in your very own laboratory — your kitchen. By following along with the engaging recipe of the week, taking measurements, and making observations, you will learn to think both like a cook and a scientist. The lab is also one of the most unique components of this course — after all, in what other science course do you get to eat your lab?
+Phrase:  Science & Cooking brings together top chefs and preeminent Harvard researchers to explore how everyday cooking and haute cuisine can illuminate basic principles in physics and engineering, and vice versa
+Phrase:  During each week of the course, you will watch as chefs reveal the secrets behind some of their most famous culinary creations — often right in their own restaurants
+Phrase:   Inspired by such cooking mastery, the Harvard team will then explain, in simple and sophisticated ways, the science behind the recipe
+Phrase:  Topics will include: soft matter materials, such as emulsions, illustrated by aioli; elasticity, exemplified by the done-ness of a steak; and diffusion, revealed by the phenomenon of spherification, the culinary technique pioneered by Ferran Adrià
+Phrase:  To help you make the link between cooking and science, an “equation of the week” will capture the core scientific concept being explored
+Phrase:   You will also have the opportunity to be an experimental scientist in your very own laboratory — your kitchen
+Phrase:   By following along with the engaging recipe of the week, taking measurements, and making observations, you will learn to think both like a cook and a scientist
+Phrase:   The lab is also one of the most unique components of this course — after all, in what other science course do you get to eat your lab?
 verbo:explain/explain
-explained by examination of the properties of materials
+explain, in simple and sophisticated ways, the science behind the recipe
 KNOWLEDGE DIMENSION:  explain
-verbo:relate/relat
-related to applications and engineering systems throughout the course
-verbo:relate/relat
-related to applications and engineering systems throughout the course
-verbo:generalize/gener
-generation and storage (e
-9
-[0, 1, 1, 3, 1, 3]
-4
-[1, 1, 0, 0]
-1
-----
-TUDO:This is a course for those who are interested in the challenge posed by massive and persistent world poverty, and are hopeful that economists might have something useful to say about this challenge. The questions we will take up include: Is extreme poverty a thing of the past? What is economic life like when living under a dollar per day? Are the poor always hungry?  How do we make schools work for poor citizens? How do we deal with the disease burden? Is microfinance invaluable or overrated? Without property rights, is life destined to be "nasty, brutish and short"? Should we leave economic development to the market? Should we leave economic development to non-governmental organizations (NGOs)? Does foreign aid help or hinder? Where is the best place to intervene? And many others. At the end of this course, you should have a good sense of the key questions asked by scholars interested in poverty today, and hopefully a few answers as well.
-Phrase:  This is a course for those who are interested in the challenge posed by massive and persistent world poverty, and are hopeful that economists might have something useful to say about this challenge
-Phrase:   The questions we will take up include: Is extreme poverty a thing of the past? What is economic life like when living under a dollar per day? Are the poor always hungry?  How do we make schools work for poor citizens? How do we deal with the disease burden? Is microfinance invaluable or overrated? Without property rights, is life destined to be "nasty, brutish and short"? Should we leave economic development to the market? Should we leave economic development to non-governmental organizations (NGOs)? Does foreign aid help or hinder? Where is the best place to intervene? And many others
-Phrase:   At the end of this course, you should have a good sense of the key questions asked by scholars interested in poverty today, and hopefully a few answers as well
-Phrase:  
-verbo:organize/organ
-organizations (ngos)? does foreign aid help or hinder? where is the best place to intervene? and many others
-verbo:use/use
-useful to say about this challenge
-2
-[0, 0, 1, 0, 0, 1]
-4
-[0, 0, 0, 0]
-----
-TUDO:CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.Students will work individually on weekly coding projects. Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX.
-Phrase:  CS169
-Phrase:  1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails
-Phrase:   Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software
-Phrase:   They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application
-Phrase:   Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
-Phrase:   Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability
-Phrase:  Students will work individually on weekly coding projects
-Phrase:   Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX
-Phrase:  
-verbo:design/design
-design, development, testing, and public cloud deployment of a simple saas application
-verbo:apply/appli
-application
-verbo:use/use
-use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
-verbo:support/support
-support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
-verbo:reflect/reflect
-reflection can improve productivity and code maintainability
-KNOWLEDGE DIMENSION:  reflect
-verbo:understand/understand
-understand the new challenges and opportunities of saas versus shrink-wrapped software
-6
-[0, 1, 2, 0, 2, 1]
-4
-[0, 0, 0, 1]
-4
-----
-https://www.edx.org/courses/BerkeleyX/Stat2.1x/2013_Spring/about
-TUDO:Introduction to StatisticsWe are surrounded by information, much of it numerical, and it is important to know how to make sense of it. Stat2x is an introduction to the fundamental concepts and methods of statistics, the science of drawing conclusions from data.The course is the online equivalent of Statistics 2, a 15-week introductory course taken in Berkeley by about 1,000 students each year. Stat2x is divided into three 5-week components. Stat2.1x is the first of the three.The focus of Stat2.1x is on descriptive statistics.  The goal of descriptive statistics is to summarize and present numerical information in a manner that is illuminating and useful. The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables. Methods will be illustrated with data from a variety of areas in the sciences and humanities.There will be no mindless memorization of formulas and methods. Throughout Stat2.1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results.
-Phrase:  Introduction to StatisticsWe are surrounded by information, much of it numerical, and it is important to know how to make sense of it
-Phrase:   Stat2x is an introduction to the fundamental concepts and methods of statistics, the science of drawing conclusions from data
-Phrase:  The course is the online equivalent of Statistics 2, a 15-week introductory course taken in Berkeley by about 1,000 students each year
-Phrase:   Stat2x is divided into three 5-week components
-Phrase:   Stat2
-Phrase:  1x is the first of the three
-Phrase:  The focus of Stat2
-Phrase:  1x is on descriptive statistics
-Phrase:    The goal of descriptive statistics is to summarize and present numerical information in a manner that is illuminating and useful
-Phrase:   The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables
-Phrase:   Methods will be illustrated with data from a variety of areas in the sciences and humanities
-Phrase:  There will be no mindless memorization of formulas and methods
-Phrase:   Throughout Stat2
-Phrase:  1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results
-Phrase:  
-verbo:know/know
-know how to make sense of it
-verbo:relate/relat
-relation between two variables
-verbo:relate/relat
-relation between two variables
 verbo:illustrate/illustr
-illustrated with data from a variety of areas in the sciences and humanities
-verbo:relate/relat
-relation between two variables
-verbo:calculate/calcul
-calculations, the assumptions under which they are valid, and the correct interpretation of results
-verbo:relate/relat
-relation between two variables
-verbo:interpret/interpret
-interpretation of results
-KNOWLEDGE DIMENSION:  interpret
-verbo:summarize/summar
-summarize and present numerical information in a manner that is illuminating and useful
-verbo:understand/understand
-understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results
-10
-[1, 3, 2, 2, 1, 1]
-3
+illustrated by aioli; elasticity, exemplified by the done-ness of a steak; and diffusion, revealed by the phenomenon of spherification, the culinary technique pioneered by ferran adrià
+2
+[0, 0, 0, 2, 0, 0]
+4
 [0, 1, 0, 0]
 2
-----
-https://www.edx.org/courses/HarvardX/PH278x/2013_Spring/about
-https://www.edx.org/courses/BerkeleyX/CS184.1x/2013_Spring/about
-https://www.edx.org/courses/HarvardX/CB22x/2013_Spring/about
-https://www.edx.org/courses/MITx/6.002x/2013_Spring/about
-https://www.edx.org/courses/BerkeleyX/CS169.1x/2013_March/about
-TUDO:One of the greatest challenges of our time is to address global environmental changes, such as climate change and biodiversity loss, that may harm the health of billions of people worldwide. This class will examine these changes, their causes, as well as their health consequences, and engage students in thinking about their solutions. Those who earn a passing grade will get a certificate of mastery from HarvardX.
-Phrase:  One of the greatest challenges of our time is to address global environmental changes, such as climate change and biodiversity loss, that may harm the health of billions of people worldwide
-Phrase:   This class will examine these changes, their causes, as well as their health consequences, and engage students in thinking about their solutions
-Phrase:   Those who earn a passing grade will get a certificate of mastery from HarvardX
-Phrase:  
-verbo:change/chang
-changes, such as climate change and biodiversity loss, that may harm the health of billions of people worldwide
-1
-[0, 0, 1, 0, 0, 0]
-3
-[0, 0, 0, 0]
-----
-TUDO:CS184.1x teaches the Foundations of Computer Graphics.    Students will make images of     3D scenes in real-time, and with offline raytracing.    This course runs for 6 weeks and consists of four segments. Each segment includes an    individual programming assignment:Overview and Basic Math (Homework 0: 10% of grade)Transformations (Homework 1: 20% of grade)OpenGL and Lighting (Homework 2: 35% of grade)Raytracing (Homework 3: 35% of grade)This term, students who earn a total score of 50% or greater will have passed the course and may obtain a free honor code certificate from BerkeleyX.
-Phrase:  CS184
-Phrase:  1x teaches the Foundations of Computer Graphics
-Phrase:      Students will make images of     3D scenes in real-time, and with offline raytracing
-Phrase:      This course runs for 6 weeks and consists of four segments
-Phrase:   Each segment includes an    individual programming assignment:Overview and Basic Math (Homework 0: 10% of grade)Transformations (Homework 1: 20% of grade)OpenGL and Lighting (Homework 2: 35% of grade)Raytracing (Homework 3: 35% of grade)This term, students who earn a total score of 50% or greater will have passed the course and may obtain a free honor code certificate from BerkeleyX
-Phrase:  
-verbo:compute/comput
-computer graphics
-1
-[0, 0, 1, 0, 0, 0]
-3
-[0, 0, 0, 0]
-----
-TUDO:About this courseWhat is it to be human, and how can ancient concepts of the heroic and anti-heroic inform our understanding of the human condition? That question is at the core ofThe Ancient Greek HeroThe classical Greeks' concepts of Heroes and the "heroic" were very different from the way we understand the term today. In this course, students analyze Greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general.In Greek tradition, a hero was a human, male or female, of the remote past, who was endowed with superhuman abilities by virtue of being descended from an immortal god. Rather than being paragons of virtue, as heroes are viewed in many modern cultures, ancient Greek heroes had all of the qualities and faults of their fellow humans, but on a much larger scale. Further, despite their mortality, heroes, like the gods, were objects of cult worship – a dimension which is also explored in depth in the course.The original sources studied in this course include the HomericIliadOdysseyTales of HoffmanBlade RunnerThe true hero of the course is thelogoslogosUsing modern technology and engaging texts,The Ancient Greek Hero
-Phrase:  About this courseWhat is it to be human, and how can ancient concepts of the heroic and anti-heroic inform our understanding of the human condition? That question is at the core ofThe Ancient Greek HeroThe classical Greeks' concepts of Heroes and the "heroic" were very different from the way we understand the term today
-Phrase:   In this course, students analyze Greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general
-Phrase:  In Greek tradition, a hero was a human, male or female, of the remote past, who was endowed with superhuman abilities by virtue of being descended from an immortal god
-Phrase:   Rather than being paragons of virtue, as heroes are viewed in many modern cultures, ancient Greek heroes had all of the qualities and faults of their fellow humans, but on a much larger scale
-Phrase:   Further, despite their mortality, heroes, like the gods, were objects of cult worship – a dimension which is also explored in depth in the course
-Phrase:  The original sources studied in this course include the HomericIliadOdysseyTales of HoffmanBlade RunnerThe true hero of the course is thelogoslogosUsing modern technology and engaging texts,The Ancient Greek Hero
-verbo:order/order
-order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general
-KNOWLEDGE DIMENSION:  order
-verbo:analyze/analyz
-analyze greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general
-verbo:understand/understand
-understanding of the human condition? that question is at the core ofthe ancient greek herothe classical greeks' concepts of heroes and the "heroic" were very different from the way we understand the term today
-3
-[0, 1, 0, 2, 0, 0]
-3
-[1, 0, 0, 0]
-1
-----
-TUDO:The course introduces engineering in the context of the lumped circuit abstraction. Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications. Design and lab exercises are also significant components of the course.The course is organized by weeks. To keep pace with the class, you are expected to complete all the work by the due dates indicated. Homeworks and labs must be completed by the Sunday of the week following the one in which they are posted. Weekly coursework includes interactive video sequences, readings from the textbook, homework, online laboratories, and optional tutorials. The course will also have a midterm exam and a ﬁnal exam. Those who successfully earn enough points will receive an honor code certificate from MITx.
-Phrase:  The course introduces engineering in the context of the lumped circuit abstraction
-Phrase:   Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications
-Phrase:   Design and lab exercises are also significant components of the course
-Phrase:  The course is organized by weeks
-Phrase:   To keep pace with the class, you are expected to complete all the work by the due dates indicated
-Phrase:   Homeworks and labs must be completed by the Sunday of the week following the one in which they are posted
-Phrase:   Weekly coursework includes interactive video sequences, readings from the textbook, homework, online laboratories, and optional tutorials
-Phrase:   The course will also have a midterm exam and a ﬁnal exam
-Phrase:   Those who successfully earn enough points will receive an honor code certificate from MITx
-Phrase:  
-verbo:design/design
-design in the time and frequency domains; and analog and digital circuits and applications
-verbo:organize/organ
-organized by weeks
-2
-[0, 0, 0, 0, 0, 2]
-6
-[0, 0, 0, 0]
-----
-TUDO:CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.Students will work individually on weekly coding projects. Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX.
-Phrase:  CS169
-Phrase:  1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails
-Phrase:   Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software
-Phrase:   They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application
-Phrase:   Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
-Phrase:   Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability
-Phrase:  Students will work individually on weekly coding projects
-Phrase:   Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX
-Phrase:  
-verbo:design/design
-design, development, testing, and public cloud deployment of a simple saas application
-verbo:apply/appli
-application
-verbo:use/use
-use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
-verbo:support/support
-support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming
-verbo:reflect/reflect
-reflection can improve productivity and code maintainability
-KNOWLEDGE DIMENSION:  reflect
-verbo:understand/understand
-understand the new challenges and opportunities of saas versus shrink-wrapped software
-6
-[0, 1, 2, 0, 2, 1]
-4
-[0, 0, 0, 1]
-4
-----
-https://www.edx.org/courses/MITx/2.01x/2013_Spring/about
-https://www.edx.org/courses/HarvardX/ER22x/2013_Spring/about
-TUDO:2.01x is a first course on the mechanical behavior of deformable structural elements. It introduces principles of structural analysis in applications to essential load-bearing elements, such as bars in axial loading, axisymmetric shafts in torsion, and symmetric beams in bending. The course covers fundamental concepts of continuum mechanics, including internal forces, displacement fields, stresses, and strains. The students will learn to predict linear elastic structural behavior, and prevent failure, by relying on the notions of equilibrium, geometric compatibility, and constitutive material response.
-Phrase:  2
-Phrase:  01x is a first course on the mechanical behavior of deformable structural elements
-Phrase:   It introduces principles of structural analysis in applications to essential load-bearing elements, such as bars in axial loading, axisymmetric shafts in torsion, and symmetric beams in bending
-Phrase:   The course covers fundamental concepts of continuum mechanics, including internal forces, displacement fields, stresses, and strains
-Phrase:   The students will learn to predict linear elastic structural behavior, and prevent failure, by relying on the notions of equilibrium, geometric compatibility, and constitutive material response
-Phrase:  
-verbo:predict/predict
-predict linear elastic structural behavior, and prevent failure, by relying on the notions of equilibrium, geometric compatibility, and constitutive material response
-KNOWLEDGE DIMENSION:  predict
-1
-[0, 1, 0, 0, 0, 0]
-2
-[0, 0, 1, 0]
-3
-----
-TUDO:Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications. Topics include affirmative action, income distribution, same-sex marriage, the role of markets, debates about rights (human rights and property rights), arguments for and against equality, dilemmas of loyalty in public and private life. The course invites students to subject their own views on these controversies to critical examination.The principal readings for the course are texts by Aristotle, John Locke, Immanuel Kant, John Stuart Mill, and John Rawls. Other assigned readings include writings by contemporary philosophers, court cases, and articles about political controversies that raise philosophical questions.
-Phrase:  Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications
-Phrase:   Topics include affirmative action, income distribution, same-sex marriage, the role of markets, debates about rights (human rights and property rights), arguments for and against equality, dilemmas of loyalty in public and private life
-Phrase:   The course invites students to subject their own views on these controversies to critical examination
-Phrase:  The principal readings for the course are texts by Aristotle, John Locke, Immanuel Kant, John Stuart Mill, and John Rawls
-Phrase:   Other assigned readings include writings by contemporary philosophers, court cases, and articles about political controversies that raise philosophical questions
-Phrase:  
-verbo:write/write
-
-verbo:criticize/critic
-critical analysis of classical and contemporary theories of justice, including discussion of present-day applications
-2
-[0, 0, 0, 0, 1, 1]
-5
-[0, 0, 0, 0]
-----
-https://www.edx.org/courses/MITx/8.MReV/2013_Summer/about
-TUDO:Mechanics ReView is a second look at introductory Newtonian Mechanics.  It will give you a unified overview of mechanics that will dramatically increase your problem-solving ability. It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics.Newtonian mechanics is the study of how forces change the motion of objects. This course begins with force, and moves on to straight-line motion, momentum, mechanical energy, rotational motion, and angular momentum. Optional units include oscillations, planetary orbits, and a review of multi-concept problems.Why Take Our Course?Our approach to mechanics is a unique one. Through worked examples and online texts we introduce a strategic overview of core concepts in mechanics. This overview couples with a new approach to problem-solving that will help you break down and solve multi-concept problems. By choosing asysteminteractionsmodelThe road to "easy" goes through "hard." This course is more challenging than a standard high school or introductory college physics offering. We will help you become a more expert problem solver, and that process involves solving a variety of problems, in many different ways, with our new approach. The reward is stronger problem-solving ability that carries over to other areas in physics.Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up. Ourapproachproven effectivenessTeachers in the United States, and especially in Massachusetts, can receive extra benefit from this course. We offerProfessional Development PointsContinuing Education UnitsAmerican Association of Physics Teachers
-Phrase:  Mechanics ReView is a second look at introductory Newtonian Mechanics
-Phrase:    It will give you a unified overview of mechanics that will dramatically increase your problem-solving ability
-Phrase:   It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics
-Phrase:  Newtonian mechanics is the study of how forces change the motion of objects
-Phrase:   This course begins with force, and moves on to straight-line motion, momentum, mechanical energy, rotational motion, and angular momentum
-Phrase:   Optional units include oscillations, planetary orbits, and a review of multi-concept problems
-Phrase:  Why Take Our Course?Our approach to mechanics is a unique one
-Phrase:   Through worked examples and online texts we introduce a strategic overview of core concepts in mechanics
-Phrase:   This overview couples with a new approach to problem-solving that will help you break down and solve multi-concept problems
-Phrase:   By choosing asysteminteractionsmodelThe road to "easy" goes through "hard
-Phrase:  " This course is more challenging than a standard high school or introductory college physics offering
-Phrase:   We will help you become a more expert problem solver, and that process involves solving a variety of problems, in many different ways, with our new approach
-Phrase:   The reward is stronger problem-solving ability that carries over to other areas in physics
-Phrase:  Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up
-Phrase:   Ourapproachproven effectivenessTeachers in the United States, and especially in Massachusetts, can receive extra benefit from this course
-Phrase:   We offerProfessional Development PointsContinuing Education UnitsAmerican Association of Physics Teachers
-verbo:state/state
-states, and especially in massachusetts, can receive extra benefit from this course
-verbo:design/design
-designed for teachers and those who want to improve their existing understanding of mechanics
-verbo:organize/organ
-organize your mechanics knowledge, to prepare for ap or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!for teachersif you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up
-verbo:solve/solv
-solving ability
-verbo:prepare/prepar
-prepare for ap or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!for teachersif you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up
-verbo:change/chang
-change the motion of objects
-verbo:understand/understand
-understanding of mechanics
-7
-[1, 1, 3, 0, 0, 2]
-3
-[0, 0, 0, 0]
 ----
 Number descriptions:  33
 Number found:  159
