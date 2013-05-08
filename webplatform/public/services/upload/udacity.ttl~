@@ -1,0 +1,1057 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix usdl4edu: <http://rdf.genssiz.dei.uc.pt/usdl4edu#> .
+
+usdl4edu:Algorithms-service a usdl4edu:EducationalService ;
+    dc:description "Algorithms - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Algorithms-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs215" .
+
+usdl4edu:Applied-Cryptography-service a usdl4edu:EducationalService ;
+    dc:description "Applied Cryptography - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Applied-Cryptography-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs387" .
+
+usdl4edu:Artificial-Intelligence-for-Robotics-service a usdl4edu:EducationalService ;
+    dc:description "Artificial Intelligence for Robotics - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Artificial-Intelligence-for-Robotics-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs373" .
+
+usdl4edu:College-Algebra-service a usdl4edu:EducationalService ;
+    dc:description "College Algebra - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:College-Algebra-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/ma008" .
+
+usdl4edu:Design-of-Computer-Programs-service a usdl4edu:EducationalService ;
+    dc:description "Design of Computer Programs - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Design-of-Computer-Programs-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs212" .
+
+usdl4edu:Differential-Equations-in-Action-service a usdl4edu:EducationalService ;
+    dc:description "Differential Equations in Action - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Differential-Equations-in-Action-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs222" .
+
+usdl4edu:Elementary-Statistics-service a usdl4edu:EducationalService ;
+    dc:description "Elementary Statistics - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Elementary-Statistics-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/st095" .
+
+usdl4edu:Functional-Hardware-Verification-service a usdl4edu:EducationalService ;
+    dc:description "Functional Hardware Verification - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Functional-Hardware-Verification-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs348" .
+
+usdl4edu:HTML5-Game-Development-service a usdl4edu:EducationalService ;
+    dc:description "HTML5 Game Development - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:HTML5-Game-Development-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs255" .
+
+usdl4edu:How-to-Build-a-Startup-service a usdl4edu:EducationalService ;
+    dc:description "How to Build a Startup - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:How-to-Build-a-Startup-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/ep245" .
+
+usdl4edu:Interactive-3D-Graphics-service a usdl4edu:EducationalService ;
+    dc:description "Interactive 3D Graphics - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Interactive-3D-Graphics-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs291" .
+
+usdl4edu:Introduction-to-Artificial-Intelligence-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Artificial Intelligence - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Artificial-Intelligence-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs271" .
+
+usdl4edu:Introduction-to-Computer-Science-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Computer Science - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Computer-Science-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs101" .
+
+usdl4edu:Introduction-to-Parallel-Programming-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Parallel Programming - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Parallel-Programming-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs344" .
+
+usdl4edu:Introduction-to-Physics-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Physics - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Physics-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/ph100" .
+
+usdl4edu:Introduction-to-Programming-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Programming - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Programming-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs046" .
+
+usdl4edu:Introduction-to-Psychology-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Psychology - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Psychology-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/ps001" .
+
+usdl4edu:Introduction-to-Statistics-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Statistics - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Statistics-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/st101" .
+
+usdl4edu:Introduction-to-Theoretical-Computer-Science-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Theoretical Computer Science - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Theoretical-Computer-Science-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs313" .
+
+usdl4edu:Programming-Languages-service a usdl4edu:EducationalService ;
+    dc:description "Programming Languages - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Programming-Languages-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs262" .
+
+usdl4edu:Software-Testing-service a usdl4edu:EducationalService ;
+    dc:description "Software Testing - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Software-Testing-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs258" .
+
+<http://rdf.genssiz.dei.uc.pt/usdl4edu#Visualizing-Algebra-(Entry-Level-Mathematics)-service> a usdl4edu:EducationalService ;
+    dc:description "Visualizing Algebra (Entry-Level Mathematics) - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit <http://rdf.genssiz.dei.uc.pt/usdl4edu#Visualizing-Algebra-(Entry-Level-Mathematics)-unit> ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/ma006" .
+
+usdl4edu:Web-Development-service a usdl4edu:EducationalService ;
+    dc:description "Web Development - Educational service from Udacity" ;
+    usdl4edu:hasCourseUnit usdl4edu:Web-Development-unit ;
+    usdl4edu:hasOrganization usdl4edu:udacity ;
+    usdl4edu:hasURL "https://www.udacity.com/course/cs253" .
+
+usdl4edu:Adam-Sherwin a foaf:Person ;
+    foaf:firstName "Adam" ;
+    foaf:lastName "Sherwin" ;
+    foaf:status "Adam spent seven years inferring and monitoring how people drive, and helping to start and buy lending businesses. Now instead of filling his days with never-ending database queries and presentations, Adam hopes to help everyone learn statistics." .
+
+usdl4edu:Algorithms-objective1 a usdl4edu:Objective ;
+    dc:description "By the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Algorithms-objective2 a usdl4edu:Objective ;
+    dc:description "By the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm4-4-1,
+        usdl4edu:acm5-2-1-2-5,
+        usdl4edu:acm6-5-1,
+        usdl4edu:acm6-5-1-4,
+        usdl4edu:acm6-7-3-7,
+        usdl4edu:acm7-1-2-13,
+        usdl4edu:acm8-1-2,
+        usdl4edu:acm8-2-2-1-1 .
+
+usdl4edu:Algorithms-objective3 a usdl4edu:Objective ;
+    dc:description "By the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm4-4-1,
+        usdl4edu:acm5-2-1-2-5,
+        usdl4edu:acm6-5-1,
+        usdl4edu:acm6-5-1-4,
+        usdl4edu:acm6-7-3-7,
+        usdl4edu:acm7-1-2-13,
+        usdl4edu:acm8-1-2,
+        usdl4edu:acm8-2-2-1-1 .
+
+usdl4edu:Algorithms-objectives a usdl4edu:OverallObjective ;
+    dc:description "By the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasPartObjective usdl4edu:Algorithms-objective1,
+        usdl4edu:Algorithms-objective2,
+        usdl4edu:Algorithms-objective3 .
+
+usdl4edu:Algorithms-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "This class assumes an understanding of programming at the level of CS101, including the ability to read and write short programs in Python; it also assumes a comfort level with mathematical notation at the level of high school Algebra II or the SATs." .
+
+usdl4edu:Algorithms2-unit a usdl4edu:CourseUnit ;
+    dc:description "Ever played the Kevin Bacon game? This class will show you how it works by giving you an introduction to the design and analysis of algorithms, enabling you to discover how individuals are connected. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Algorithms-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Algorithms-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Job-Evers,
+        usdl4edu:Michael-Littman ;
+    usdl4edu:hasTitle "Algorithms" .
+
+usdl4edu:Andy-Brown a foaf:Person ;
+    foaf:firstName "Andy" ;
+    foaf:lastName "Brown" ;
+    foaf:status "After graduating from MIT in 2009, Andy spent two years teaching, traveling around the world, and biking across the United States. When he heard about Udacity, he abandoned his vagabond ways to share his passion for Physics and teaching with tens of thousands of incredible Udacity students." .
+
+usdl4edu:Applied-Cryptography-objective a usdl4edu:Objective ;
+    dc:description "explore how secrets are written and shared, as well as what can go wrong when cryptography is misused or implemented badly." ;
+    usdl4edu:hasContext usdl4edu:acm9-1 .
+
+usdl4edu:Applied-Cryptography-objectives a usdl4edu:OverallObjective ;
+    dc:description "Explore how secrets are written and shared, as well as what can go wrong when cryptography is misused or implemented badly." ;
+    usdl4edu:hasPartObjective usdl4edu:Applied-Cryptography-objective .
+
+usdl4edu:Applied-Cryptography-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "This course assumes previous programming experience, comparable to what is covered by the Udacity CS101 course, as well as some understanding of probability and theory of computation and algorithm analysis." .
+
+usdl4edu:Applied-Cryptography-unit a usdl4edu:CourseUnit ;
+    dc:description "Cryptography is present in everyday life, from paying with a credit card to using the telephone. Learn all about making and breaking puzzles in computing." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Applied-Cryptography-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Applied-Cryptography-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:David-Evans,
+        usdl4edu:Shayan-Doroudi ;
+    usdl4edu:hasTitle "Applied Cryptography" .
+
+usdl4edu:Artificial-Intelligence-for-Robotics-objective1 a usdl4edu:Objective ;
+    dc:description "This course will cover probabilistic inference, planning and search, localization, tracking and control, all with a focus on robotics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm11-3-3-5,
+        usdl4edu:acm11-3-5-1,
+        usdl4edu:acm11-3-8-4-8,
+        usdl4edu:acm3-2-2,
+        usdl4edu:acm3-2-2-2 .
+
+usdl4edu:Artificial-Intelligence-for-Robotics-objective2 a usdl4edu:Objective ;
+    dc:description "This course will cover probabilistic inference, planning and search, localization, tracking and control, all with a focus on robotics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm11-3-3-5,
+        usdl4edu:acm11-3-5-1,
+        usdl4edu:acm11-3-8-4-8,
+        usdl4edu:acm3-2-2,
+        usdl4edu:acm3-2-2-2 ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Artificial-Intelligence-for-Robotics-objective3 a usdl4edu:Objective ;
+    dc:description "This course will cover probabilistic inference, planning and search, localization, tracking and control, all with a focus on robotics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm11-3-3-5,
+        usdl4edu:acm11-3-5-1,
+        usdl4edu:acm11-3-8-4-8,
+        usdl4edu:acm3-2-2,
+        usdl4edu:acm3-2-2-2 .
+
+usdl4edu:Artificial-Intelligence-for-Robotics-objectives a usdl4edu:OverallObjective ;
+    dc:description "This course will cover probabilistic inference, planning and search, localization, tracking and control, all with a focus on robotics." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
+    usdl4edu:hasPartObjective usdl4edu:Artificial-Intelligence-for-Robotics-objective1,
+        usdl4edu:Artificial-Intelligence-for-Robotics-objective2,
+        usdl4edu:Artificial-Intelligence-for-Robotics-objective3 .
+
+usdl4edu:Artificial-Intelligence-for-Robotics-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "You should either already know Python, or have enough experience with another language to be confident you can pick up what you need on your own.?Fortunately, Python was built to be easy to learn, read, and use. If you already know another programming language, you'll be coding in Python in less than an hour. Additionally, knowledge of probability and linear algebra will be helpful." .
+
+usdl4edu:Artificial-Intelligence-for-Robotics-unit a usdl4edu:CourseUnit ;
+    dc:description "Learn how to program all the major systems of a robotic car from the leader of Google and Stanford's autonomous driving teams. This class will teach you basic methods in Artificial Intelligence, including: probabilistic inference, planning and search, localization, tracking and control, all with a focus on robotics. Extensive programming examples and assignments will apply these methods in the context of building self-driving cars." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Artificial-Intelligence-for-Robotics-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Artificial-Intelligence-for-Robotics-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Sebastian-Thrun ;
+    usdl4edu:hasTitle "Artificial Intelligence for Robotics" .
+
+usdl4edu:Axel-Scherer a foaf:Person ;
+    foaf:firstName "Axel" ;
+    foaf:lastName "Scherer" ;
+    foaf:status "Axel Scherer is a senior engineer and manager with over 10 years of experience building new markets and innovating technical products. Currently, Axel is leading a team for Testbenches and Verification Methodologies in the Functional Verification R&D group at Cadence Design Systems, a leading global Electronic Design Automation company. Axel's work centers on advanced verification on various technologies spanning formal equivalence checking, model checking, assertion-based verification and test bench simulation. He is a passionate and innovative leader with a proven track record of motivating and enabling global teams to succeed." .
+
+usdl4edu:Cay-Horstmann a foaf:Person ;
+    foaf:firstName "Cay" ;
+    foaf:lastName "Horstmann" ;
+    foaf:status "Cay grew up in Northern Germany and attended the Christian-Albrechts-Universit?t in Kiel, a harbor town on the Baltic sea. He received a M.S. in computer science from Syracuse University, and a Ph.D. in mathematics from the University of Michigan in Ann Arbor. For four years, he was VP and CTO of an Internet startup that went from 3 people in a tiny office to a public company. He now teaches computer science at San Jose State University. In his copious spare time, he writes books and articles on programming languages and computer science education." .
+
+usdl4edu:Chris-Saden a foaf:Person ;
+    foaf:firstName "Chris" ;
+    foaf:lastName "Saden" ;
+    foaf:status "Chris graduated from Emory in 2008 with majors in Math and Chemistry. After teaching and tutoring for four years, he joined Udacity to share his passion for math with thousands of students." .
+
+usdl4edu:College-Algebra-objective a usdl4edu:Objective ;
+    dc:description "in this course, you will learn...  " .
+
+usdl4edu:College-Algebra-objectives a usdl4edu:OverallObjective ;
+    dc:description "In this course, you will learn...  " ;
+    usdl4edu:hasPartObjective usdl4edu:College-Algebra-objective .
+
+usdl4edu:College-Algebra-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Basic arithmetic - addition, subtraction, multiplication and division of positive and negative numbers.  " .
+
+usdl4edu:College-Algebra-unit a usdl4edu:CourseUnit ;
+    dc:description "How on earth are animals, architecture, and business related? You?ve heard it before, but we?ll say it again: math is everywhere. In this class, you?ll gain an in-depth understanding of algebraic principles, many of which you may have seen before, and learn how to use them to solve problems that we encounter in everyday life.  The online version of College Algebra will cover all of the topics that you would see in more traditional class formats, but it will present the material in a way that we hope you?ll find fresh and interesting. You will learn about functions, polynomials, graphing, complex numbers, exponential and logarithmic equations, and much more, all through exploring real-world scenarios." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:College-Algebra-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:College-Algebra-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Julie-Sliva-Spitzer,
+        usdl4edu:Miriam-Swords-Kalk,
+        usdl4edu:Sarah-Norell ;
+    usdl4edu:hasTitle "College Algebra" .
+
+usdl4edu:Colt-McAnlis a foaf:Person ;
+    foaf:firstName "Colt" ;
+    foaf:lastName "McAnlis" ;
+    foaf:status "Colt McAnlis is a Developer Advocate at Google focusing on Chrome Games and Native Client; Before that, he was a systems & graphics programmer in the games industry working at Blizzard, Microsoft (Ensemble), and Petroglyph. He also spent 4 years as an Adjunct Professor at SMU Guildhall's school for game development, where he taught classes on math, physics, graphics, and concurrent programming. When he's not working with partners, Colt spends his time preparing for an invasion of giant ants from outer space." .
+
+usdl4edu:David-Luebke a foaf:Person ;
+    foaf:firstName "David" ;
+    foaf:lastName "Luebke" ;
+    foaf:status "David Luebke helped found NVIDIA Research in 2006 after eight years teaching computer science on the faculty of the University of Virginia. Dave's research on real-time 3D computer graphics led to an early interest in GPU computing when that field was still in its infancy. Today Dave is senior director of graphics research and a NVIDIA Distinguished Inventor. Dave lives in central Virginia with his wife and three boys, plays racquetball and ultimate frisbee, and prefers college hoops to the NBA. Find him at his " .
+
+usdl4edu:Design-of-Computer-Programs-objective1 a usdl4edu:Objective ;
+    dc:description "",
+        "Move along the path towards becoming an expert programmer! In this class you will practice going from a problem description to a solution, using a series of assignments" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Design-of-Computer-Programs-objectives a usdl4edu:OverallObjective ;
+    dc:description "Move along the path towards becoming an expert programmer! In this class you will practice going from a problem description to a solution, using a series of assignments." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Design-of-Computer-Programs-objective1 .
+
+usdl4edu:Design-of-Computer-Programs-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "This course assumes previous programming experience, comparable to what is covered by the Udacity CS101 course." .
+
+usdl4edu:Design-of-Computer-Programs-unit a usdl4edu:CourseUnit ;
+    dc:description "Learn new concepts, patterns, and methods that will expand your programming abilities, helping move you from a novice to an expert programmer." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Design-of-Computer-Programs-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Design-of-Computer-Programs-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Peter-Norvig ;
+    usdl4edu:hasTitle "Design of Computer Programs" .
+
+usdl4edu:Differential-Equations-in-Action-objective1 a usdl4edu:Objective ;
+    dc:description "By the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Differential-Equations-in-Action-objective2 a usdl4edu:Objective ;
+    dc:description " Along the way, you'll learn how to translate mathematical expressions into Python code, and solve some really cool problems!" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Differential-Equations-in-Action-objective3 a usdl4edu:Objective ;
+    dc:description "By the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm7-2-1-7,
+        usdl4edu:acm7-5-3,
+        usdl4edu:acm7-5-3-1,
+        usdl4edu:acm7-5-3-2,
+        usdl4edu:acm7-5-3-3 .
+
+usdl4edu:Differential-Equations-in-Action-objective4 a usdl4edu:Objective ;
+    dc:description " Along the way, you'll learn how to translate mathematical expressions into Python code, and solve some really cool problems!" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm14-4-48 .
+
+usdl4edu:Differential-Equations-in-Action-objective5 a usdl4edu:Objective ;
+    dc:description "By the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm7-2-1-7,
+        usdl4edu:acm7-5-3,
+        usdl4edu:acm7-5-3-1,
+        usdl4edu:acm7-5-3-2,
+        usdl4edu:acm7-5-3-3 .
+
+usdl4edu:Differential-Equations-in-Action-objectives a usdl4edu:OverallObjective ;
+    dc:description "By the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences. You'll also learn how to build mathematical models for systems of differential equations. Along the way, you'll learn how to translate mathematical expressions into Python code, and solve some really cool problems!" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Differential-Equations-in-Action-objective1,
+        usdl4edu:Differential-Equations-in-Action-objective2,
+        usdl4edu:Differential-Equations-in-Action-objective3,
+        usdl4edu:Differential-Equations-in-Action-objective4,
+        usdl4edu:Differential-Equations-in-Action-objective5 .
+
+usdl4edu:Differential-Equations-in-Action-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "You'll need a basic knowledge of programming for this course, around the level of " .
+
+usdl4edu:Differential-Equations-in-Action-unit a usdl4edu:CourseUnit ;
+    dc:description "In this course you will examine real world problems -- rescue the Apollo 13 astronauts, stop the spread of epidemics, and fight forest fires -- involving differential equations and figure out how to solve them using numerical methods. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Differential-Equations-in-Action-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Differential-Equations-in-Action-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Jrn-Loviscach,
+        usdl4edu:Miriam-Swords-Kalk ;
+    usdl4edu:hasTitle "Differential Equations in Action" .
+
+usdl4edu:Elementary-Statistics-objective a usdl4edu:Objective ;
+    dc:description "t; m; t; a; s; c; w; " .
+
+usdl4edu:Elementary-Statistics-objectives a usdl4edu:OverallObjective ;
+    dc:description "T; M; T; A; S; C; W; " ;
+    usdl4edu:hasPartObjective usdl4edu:Elementary-Statistics-objective .
+
+usdl4edu:Elementary-Statistics-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "It sounds strange to say, but math is not the focus of this class.  To do well, however, it is necessary to have a basic understanding of proportions (fractions, decimals, and percentages), negative numbers, basic algebra (solving equations), and exponents and square roots. " .
+
+usdl4edu:Elementary-Statistics-unit a usdl4edu:CourseUnit ;
+    dc:description """
+We live in a time of unprecedented access to information...data.  Whether researching the best school, job, or relationship, the Internet has thrown open the doors to vast pools of data.  Statistics are simply objective and systematic methods for describing and interpreting information so that you may make the most informed decisions about life.
+""" ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Elementary-Statistics-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Elementary-Statistics-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Katie-Kormanik,
+        usdl4edu:Ronald-Rogers,
+        usdl4edu:Sean-Laraway ;
+    usdl4edu:hasTitle "Elementary Statistics" .
+
+usdl4edu:Eric-Haines a foaf:Person ;
+    foaf:firstName "Eric" ;
+    foaf:lastName "Haines" ;
+    foaf:status "Eric Haines is a Senior Principal Engineer at Autodesk, Inc., working on a next-generation interactive rendering system for computer-aided design applications. He is a coauthor of the book ?Real-Time Rendering,? a founder and editor of the Journal of Computer Graphics Techniques, and maintainer of the Graphics Gems code repository, among other activities. He received an MS from the Program of Computer Graphics at Cornell in 1985." .
+
+usdl4edu:Functional-Hardware-Verification-objective1 a usdl4edu:Objective ;
+    dc:description "It will show the software development aspects you need to know to ensure chips are working as expected" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm5-3-2-1,
+        usdl4edu:acm5-3-2-1-2,
+        usdl4edu:acm5-3-3,
+        usdl4edu:acm5-3-6 .
+
+usdl4edu:Functional-Hardware-Verification-objective2 a usdl4edu:Objective ;
+    dc:description "It will show the software development aspects you need to know to ensure chips are working as expected" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Functional-Hardware-Verification-objectives a usdl4edu:OverallObjective ;
+    dc:description """This course will teach you how to think like a verification engineer.
+It will show the software development aspects you need to know to 
+ensure chips are working as expected. You will learn how to implement verification environments.""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasPartObjective usdl4edu:Functional-Hardware-Verification-objective1,
+        usdl4edu:Functional-Hardware-Verification-objective2 .
+
+usdl4edu:Functional-Hardware-Verification-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description """Programming experience including object-oriented programming. Data & Control structure. 
+""" .
+
+usdl4edu:Functional-Hardware-Verification-unit a usdl4edu:CourseUnit ;
+    dc:description "When developing chips it is essential that they get verified thoroughly because it is very hard or impossible to fix them once they have been manufactured.  In this class, you will learn how to program verification environments that verify chip functionality efficiently, as well as understand and leverage automation such as constrained random test generation and improve code reuse leveraging a standardized methodology." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Functional-Hardware-Verification-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Functional-Hardware-Verification-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Axel-Scherer,
+        usdl4edu:Hannes-Frhlich ;
+    usdl4edu:hasTitle "Functional Hardware Verification" .
+
+usdl4edu:Greg-Feist a foaf:Person ;
+    foaf:firstName "Greg" ;
+    foaf:lastName "Feist" ;
+    foaf:status "Gregory J. Feist is Associate Professor of Psychology in Personality at San Jose State University and Director of the MA Program in Research and Experimental Psychology. He teaches Introduction to Psychology, Test and Measures, and The Psychology of Science. He is co-author of the introductory text, Psychology: Perspectives and Connections (McGraw-Hill). He received his PhD in 1991 from the University of California at Berkeley." .
+
+usdl4edu:Gundega-Dekena a foaf:Person ;
+    foaf:firstName "Gundega" ;
+    foaf:lastName "Dekena" ;
+    foaf:status "Once upon a time Gundega was a Udacity student. In a way she still is, because she is learning new things from instructors she works with and her Udacity coworkers every day." .
+
+usdl4edu:HTML5-Game-Development-objective1 a usdl4edu:Objective ;
+    dc:description "At the end of this course, you'll understand how to develop an HTML5 game" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:HTML5-Game-Development-objectives a usdl4edu:OverallObjective ;
+    dc:description """At the end of this course, you'll understand how to develop an HTML5 game. 
+You will gain familiarity with HTML5 features such as 2D canvas and techniques for improving performance.""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasPartObjective usdl4edu:HTML5-Game-Development-objective1 .
+
+usdl4edu:HTML5-Game-Development-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Knowledge of HTML, Javascript, and how the web works is necessary for this course. There is an optional lesson on the specific parts of Javascript and the DOM that you'll need for this class as a refresher, but this is not an introductory course on Javascript." .
+
+usdl4edu:HTML5-Game-Development-unit a usdl4edu:CourseUnit ;
+    dc:description "This course will walk you through the major components of building GRITS, an HTML5 game. We'll talk about how to take standard game development techniques, and use them to create high performance HTML5 applications." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:HTML5-Game-Development-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:HTML5-Game-Development-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Colt-McAnlis,
+        usdl4edu:Peter-Lubbers,
+        usdl4edu:Sean-Bennett ;
+    usdl4edu:hasTitle "HTML5 Game Development" .
+
+usdl4edu:Hannes-Frhlich a foaf:Person ;
+    foaf:firstName "Hannes" ;
+    foaf:lastName "Fr?hlich" ;
+    foaf:status "Member of the Product Expert Team in the Functional Verification R&D group of Cadence Design Systems, a leading global Electronic Design Automation company. My primary focus area is the Specman/e and UVM Multi-language solution. I have 10 years of verification experience spanning from an AE to AE Manager to Solutions Architect." .
+
+usdl4edu:How-to-Build-a-Startup-objective1 a usdl4edu:Objective ;
+    dc:description "You'll learn the key steps of the Customer Development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm12-9-7 .
+
+usdl4edu:How-to-Build-a-Startup-objective2 a usdl4edu:Objective ;
+    dc:description "You'll learn the key steps of the Customer Development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm12-9-7 .
+
+usdl4edu:How-to-Build-a-Startup-objective3 a usdl4edu:Objective ;
+    dc:description "",
+        "You'll learn the key steps of the Customer Development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:How-to-Build-a-Startup-objectives a usdl4edu:OverallObjective ;
+    dc:description "You'll learn the key steps of the Customer Development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:How-to-Build-a-Startup-objective1,
+        usdl4edu:How-to-Build-a-Startup-objective2,
+        usdl4edu:How-to-Build-a-Startup-objective3 .
+
+usdl4edu:How-to-Build-a-Startup-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Prior knowledge or experience are not required. Passion, tenacity, and a willingness to work hard are essential. Ideally, you'll join the class with at least a rough idea of the business model of the startup you'll work on step-by-step through the course of the class." .
+
+usdl4edu:How-to-Build-a-Startup-unit a usdl4edu:CourseUnit ;
+    dc:description "Learn the key tools and steps to build a successful startup (or at least reduce the risk of failure).  An introduction to the basics of Steve Blank's famous Customer Development process, where entrepreneurs " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:How-to-Build-a-Startup-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:How-to-Build-a-Startup-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Kathleen-Mullaney,
+        usdl4edu:Steve-Blank ;
+    usdl4edu:hasTitle "How to Build a Startup" .
+
+usdl4edu:Interactive-3D-Graphics-objective1 a usdl4edu:Objective ;
+    dc:description "By the end of this class you will know enough to make an animated 3D demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Interactive-3D-Graphics-objective2 a usdl4edu:Objective ;
+    dc:description "By the end of this class you will know enough to make an animated 3D demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Interactive-3D-Graphics-objective3 a usdl4edu:Objective ;
+    dc:description "By the end of this class you will know enough to make an animated 3D demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm14-4-8 .
+
+usdl4edu:Interactive-3D-Graphics-objective4 a usdl4edu:Objective ;
+    dc:description "By the end of this class you will know enough to make an animated 3D demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
+    usdl4edu:hasContext usdl4edu:acm14-4-8 .
+
+usdl4edu:Interactive-3D-Graphics-objective5 a usdl4edu:Objective ;
+    dc:description "By the end of this class you will know enough to make an animated 3D demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Interactive-3D-Graphics-objectives a usdl4edu:OverallObjective ;
+    dc:description "By the end of this class you will know enough to make an animated 3D demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasPartObjective usdl4edu:Interactive-3D-Graphics-objective1,
+        usdl4edu:Interactive-3D-Graphics-objective2,
+        usdl4edu:Interactive-3D-Graphics-objective3,
+        usdl4edu:Interactive-3D-Graphics-objective4,
+        usdl4edu:Interactive-3D-Graphics-objective5 .
+
+usdl4edu:Interactive-3D-Graphics-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description ". Some knowledge of JavaScript is useful later on if you wish to make your projects more interactive and engaging. Familiarity with vectors and matrices will ease your way but is not critical." .
+
+usdl4edu:Interactive-3D-Graphics-unit a usdl4edu:CourseUnit ;
+    dc:description "This class will teach you about the basic principles of 3D computer graphics: meshes, transforms, cameras, materials, lighting, and animation. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Interactive-3D-Graphics-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Interactive-3D-Graphics-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Eric-Haines,
+        usdl4edu:Gundega-Dekena ;
+    usdl4edu:hasTitle "Interactive 3D Graphics" .
+
+usdl4edu:Introduction-to-Artificial-Intelligence-objective a usdl4edu:Objective ;
+    dc:description "this class introduces students to the basics of artificial intelligence, which includes machine learning, probabilistic reasoning, robotics, and natural language processing." ;
+    usdl4edu:hasContext usdl4edu:acm11-3,
+        usdl4edu:acm11-3-1,
+        usdl4edu:acm11-3-2-4,
+        usdl4edu:acm11-4,
+        usdl4edu:acm14-4-8,
+        usdl4edu:acm3-2-2 .
+
+usdl4edu:Introduction-to-Artificial-Intelligence-objectives a usdl4edu:OverallObjective ;
+    dc:description "This class introduces students to the basics of Artificial Intelligence, which includes machine learning, probabilistic reasoning, robotics, and natural language processing." ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Artificial-Intelligence-objective .
+
+usdl4edu:Introduction-to-Artificial-Intelligence-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Some of the topics in Introduction to Artificial Intelligence will build on probability theory and linear algebra. You should have understanding of probability theory comparable to that at our ST101: Introduction to Statistics class" .
+
+usdl4edu:Introduction-to-Artificial-Intelligence-unit a usdl4edu:CourseUnit ;
+    dc:description "The objective of this class is to teach you modern AI. You will learn about the basic techniques and tricks of the trade. We also aspire to excite you about the field of AI." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Artificial-Intelligence-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Artificial-Intelligence-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Peter-Norvig,
+        usdl4edu:Sebastian-Thrun ;
+    usdl4edu:hasTitle "Introduction to Artificial Intelligence" .
+
+usdl4edu:Introduction-to-Computer-Science-objective1 a usdl4edu:Objective ;
+    dc:description " This course will prepare you to move on to more intermediate-level courses in CS" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm14-2-70-1 .
+
+usdl4edu:Introduction-to-Computer-Science-objective2 a usdl4edu:Objective ;
+    dc:description "At the end of this course, you will have learned key concepts in computer science and enough Python programming to be able to write programs to solve problems on your own" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Computer-Science-objective3 a usdl4edu:Objective ;
+    dc:description "At the end of this course, you will have learned key concepts in computer science and enough Python programming to be able to write programs to solve problems on your own" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm11-3-8-4,
+        usdl4edu:acm13-1-4-4-2 .
+
+usdl4edu:Introduction-to-Computer-Science-objective4 a usdl4edu:Objective ;
+    dc:description "At the end of this course, you will have learned key concepts in computer science and enough Python programming to be able to write programs to solve problems on your own" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Introduction-to-Computer-Science-objectives a usdl4edu:OverallObjective ;
+    dc:description """At the end of this course, you will have learned key concepts in computer science and 
+enough Python programming to be able to write programs to solve problems on your own. This course will prepare you to move on to more intermediate-level courses in CS.""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Computer-Science-objective1,
+        usdl4edu:Introduction-to-Computer-Science-objective2,
+        usdl4edu:Introduction-to-Computer-Science-objective3,
+        usdl4edu:Introduction-to-Computer-Science-objective4 .
+
+usdl4edu:Introduction-to-Computer-Science-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "There is no prior programming knowledge needed for this course. Beginners welcome!" .
+
+usdl4edu:Introduction-to-Computer-Science-unit a usdl4edu:CourseUnit ;
+    dc:description "In this course you will learn key concepts in computer science and learn how to write your own computer programs in the context of building a web crawler." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Computer-Science-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Computer-Science-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:David-Evans ;
+    usdl4edu:hasTitle "Introduction to Computer Science" .
+
+usdl4edu:Introduction-to-Parallel-Programming-objective1 a usdl4edu:Objective ;
+    dc:description "",
+        " Most of all we hope you'll learn how to think in parallel",
+        " You'll learn the GPU programming model and architecture, key algorithms and parallel programming patterns, and optimization techniques",
+        " Your assignments will illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain",
+        "You'll master the fundamentals of massively parallel computing by using CUDA C/C++ to program modern GPUs" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Parallel-Programming-objective2 a usdl4edu:Objective ;
+    dc:description "You'll master the fundamentals of massively parallel computing by using CUDA C/C++ to program modern GPUs" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Parallel-Programming-objective3 a usdl4edu:Objective ;
+    dc:description " Your assignments will illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Introduction-to-Parallel-Programming-objective4 a usdl4edu:Objective ;
+    dc:description " Your assignments will illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm11-2,
+        usdl4edu:acm11-6-3-2,
+        usdl4edu:acm6-1-6-1,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Introduction-to-Parallel-Programming-objectives a usdl4edu:OverallObjective ;
+    dc:description "You'll master the fundamentals of massively parallel computing by using CUDA C/C++ to program modern GPUs. You'll learn the GPU programming model and architecture, key algorithms and parallel programming patterns, and optimization techniques. Your assignments will illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain. Most of all we hope you'll learn how to think in parallel." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Parallel-Programming-objective1,
+        usdl4edu:Introduction-to-Parallel-Programming-objective2,
+        usdl4edu:Introduction-to-Parallel-Programming-objective3,
+        usdl4edu:Introduction-to-Parallel-Programming-objective4 .
+
+usdl4edu:Introduction-to-Parallel-Programming-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "We expect students to have a solid experience with the C programming language and basic knowledge of data structures and algorithms." .
+
+usdl4edu:Introduction-to-Parallel-Programming-unit a usdl4edu:CourseUnit ;
+    dc:description "Learn the fundamentals of parallel computing with the GPU and the CUDA programming environment! In this class, you'll learn about parallel programming by coding a series of image processing algorithms, such as you might find in Photoshop or Instagram. You'll be able to program and run your assignments on high-end GPUs, even if you don't own one yourself.  " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Parallel-Programming-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Parallel-Programming-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Cheng-Han-Lee,
+        usdl4edu:David-Luebke,
+        usdl4edu:John-Owens,
+        usdl4edu:Mike-Roberts ;
+    usdl4edu:hasTitle "Introduction to Parallel Programming" .
+
+usdl4edu:Introduction-to-Physics-objective a usdl4edu:Objective ;
+    dc:description "this unique class gives you the chance to see the sites where physics history was made and learn some of the subject's most captivating concepts." ;
+    usdl4edu:hasContext usdl4edu:acm12-3-7 .
+
+usdl4edu:Introduction-to-Physics-objectives a usdl4edu:OverallObjective ;
+    dc:description "This unique class gives you the chance to see the sites where physics history was made and learn some of the subject's most captivating concepts." ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Physics-objective .
+
+usdl4edu:Introduction-to-Physics-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "This course is suitable for anyone; a basic understanding of algebra is suggested." .
+
+usdl4edu:Introduction-to-Physics-unit a usdl4edu:CourseUnit ;
+    dc:description "Study physics abroad in Europe -- virtually! Learn the basics of physics on location in Italy, the Netherlands and the UK, by answering some of the discipline's major questions from over the last 2000 years. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Physics-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Physics-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Andy-Brown,
+        usdl4edu:Jonathan-Burket ;
+    usdl4edu:hasTitle "Introduction to Physics" .
+
+usdl4edu:Introduction-to-Programming-objective a usdl4edu:Objective ;
+    dc:description "upon successful completion of this course, students should be able to:" .
+
+usdl4edu:Introduction-to-Programming-objectives a usdl4edu:OverallObjective ;
+    dc:description "Upon successful completion of this course, students should be able to:" ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Programming-objective .
+
+usdl4edu:Introduction-to-Programming-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "No prior programming experience and knowledge is assumed or needed." .
+
+usdl4edu:Introduction-to-Programming-unit a usdl4edu:CourseUnit ;
+    dc:description "In this class, you will learn basic skills and concepts of computer programming in an object-oriented approach using Java.  " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Programming-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Programming-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Cay-Horstmann,
+        usdl4edu:Cheng-Han-Lee,
+        usdl4edu:Sara-Tansey ;
+    usdl4edu:hasTitle "Introduction to Programming" .
+
+usdl4edu:Introduction-to-Psychology-objective a usdl4edu:Objective ;
+    dc:description "students will be able to:" .
+
+usdl4edu:Introduction-to-Psychology-objectives a usdl4edu:OverallObjective ;
+    dc:description "Students will be able to:" ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Psychology-objective .
+
+usdl4edu:Introduction-to-Psychology-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "There are no prerequisites, but we encourage curiosity about human nature." .
+
+usdl4edu:Introduction-to-Psychology-unit a usdl4edu:CourseUnit ;
+    dc:description "Introduction to Psychology is a journey through all of the major psychological concepts and principles. The knowledge gained from this course will allow students to critically evaluate psychological research and have a more in-depth understanding of human thought and behavior." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Psychology-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Psychology-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Greg-Feist,
+        usdl4edu:Lauren-Castellano,
+        usdl4edu:Susan-Snycerski ;
+    usdl4edu:hasTitle "Introduction to Psychology" .
+
+usdl4edu:Introduction-to-Statistics-objective1 a usdl4edu:Objective ;
+    dc:description "This course will cover visualization, probability, regression and other topics that will help you learn the basic methods of understanding data with statistics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Introduction-to-Statistics-objectives a usdl4edu:OverallObjective ;
+    dc:description "This course will cover visualization, probability, regression and other topics that will help you learn the basic methods of understanding data with statistics. " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Statistics-objective1 .
+
+usdl4edu:Introduction-to-Statistics-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "This course does not require any previous knowledge of statistics. Basic familiarity with algebra such as knowing how to compute the mean, median and mode of a set of numbers will be helpful. " .
+
+usdl4edu:Introduction-to-Statistics-unit a usdl4edu:CourseUnit ;
+    dc:description "Statistics is about extracting meaning from data. In this class, we will introduce techniques for visualizing relationships in data and systematic techniques for understanding the relationships using mathematics." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Statistics-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Statistics-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Adam-Sherwin,
+        usdl4edu:Sebastian-Thrun ;
+    usdl4edu:hasTitle "Introduction to Statistics" .
+
+usdl4edu:Introduction-to-Theoretical-Computer-Science-objective1 a usdl4edu:Objective ;
+    dc:description "At the end of this course, you will have a solid understanding of theoretical computer science" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
+
+usdl4edu:Introduction-to-Theoretical-Computer-Science-objective2 a usdl4edu:Objective ;
+    dc:description "At the end of this course, you will have a solid understanding of theoretical computer science" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
+
+usdl4edu:Introduction-to-Theoretical-Computer-Science-objective3 a usdl4edu:Objective ;
+    dc:description " This will not only allow you to recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Introduction-to-Theoretical-Computer-Science-objectives a usdl4edu:OverallObjective ;
+    dc:description "At the end of this course, you will have a solid understanding of theoretical computer science. This will not only allow you to recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Theoretical-Computer-Science-objective1,
+        usdl4edu:Introduction-to-Theoretical-Computer-Science-objective2,
+        usdl4edu:Introduction-to-Theoretical-Computer-Science-objective3 .
+
+usdl4edu:Introduction-to-Theoretical-Computer-Science-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "You should have a basic understanding of algorithms (such as " .
+
+usdl4edu:Introduction-to-Theoretical-Computer-Science-unit a usdl4edu:CourseUnit ;
+    dc:description "This class teaches you about basic concepts in theoretical computer science -- such as NP-completeness -- and what they imply for solving tough algorithmic problems." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Theoretical-Computer-Science-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Theoretical-Computer-Science-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Sarah-Norell,
+        usdl4edu:Sean-Bennett,
+        usdl4edu:Sebastian-Wernicke ;
+    usdl4edu:hasTitle "Introduction to Theoretical Computer Science" .
+
+usdl4edu:Job-Evers a foaf:Person ;
+    foaf:firstName "Job" ;
+    foaf:lastName "Evers" ;
+    foaf:status "On his first day at work, Job boosted office efficiency by 100% (plus or minus) by writing scripts to automate some of the more mundane tasks that the TAs are required to do. When he's not working, you can find Job upside-down in a mound of powder, his skis probably lost hundreds of feet up the mountain." .
+
+usdl4edu:John-Owens a foaf:Person ;
+    foaf:firstName "John" ;
+    foaf:lastName "Owens" ;
+    foaf:status """John Owens is an associate professor of electrical and computer
+engineering at the University of California, Davis, where he leads a
+research group in parallel computing. He joined the faculty at UC
+Davis after many happy years as a student at Stanford (graduate) and
+Berkeley (undergraduate), and lives in Berkeley with his wife and
+daughter. In his free time, he enjoys puzzles, water polo, and
+pursuing a finite Erd?s-Bacon number. John has a """ .
+
+usdl4edu:John-Regehr a foaf:Person ;
+    foaf:firstName "John" ;
+    foaf:lastName "Regehr" ;
+    foaf:status "John Regehr is a computer science professor at the University of Utah. His research is on making software fail and on making software that fails less often. Lately, he is obsessed with compiler bugs and integer overflow problems." .
+
+usdl4edu:Jonathan-Burket a foaf:Person ;
+    foaf:firstName "Jonathan" ;
+    foaf:lastName "Burket" ;
+    foaf:status "When not coming up with fiendishly clever physics problems, Jonathan daydreams about going into space. A student at University of Virginia, he tries to protect people on the internet with his research in computer security. He also enjoys collecting giraffe figurines, watching German soccer, and singing in the shower." .
+
+usdl4edu:Jrn-Loviscach a foaf:Person ;
+    foaf:firstName "J?rn" ;
+    foaf:lastName "Loviscach" ;
+    foaf:status "J?rn Loviscach is a professor of technical mathematics and computer engineering. In a former life, he was a professor of computer graphics, animation, and simulation, worked as editor and senior editor for several computer magazines. For three years he also served as deputy editor-in-chief of " .
+
+usdl4edu:Julie-Sliva-Spitzer a foaf:Person ;
+    foaf:firstName "Julie" ;
+    foaf:lastName "Sliva" ;
+    foaf:status "Julie Sliva Spitzer is a Professor of Mathematics Education in the Mathematics Department at San Jose State University, where she primarily works with prospective mathematics teachers on pedagogy. Her primary area of interest is in teaching mathematics to special education students. She is excited to help increase access to further education through this course." .
+
+usdl4edu:Kathleen-Mullaney a foaf:Person ;
+    foaf:firstName "Kathleen" ;
+    foaf:lastName "Mullaney" ;
+    foaf:status "Kathleen manages content development at Udacity. EP245 is the first class for which she is working as the official Assistant Instructor. She's learned a lot from Steve while producing his class and hopes to help students with the course in any way she can!" .
+
+usdl4edu:Katie-Kormanik a foaf:Person ;
+    foaf:firstName "Katie" ;
+    foaf:lastName "Kormanik" ;
+    foaf:status "Outside of Udacity, Katie is a curriculum writer and " .
+
+usdl4edu:Lauren-Castellano a foaf:Person ;
+    foaf:firstName "Lauren" ;
+    foaf:lastName "Castellano" ;
+    foaf:status "Lauren Castellano earned her MA in Experimental Psychology from San Jose State University and her BA in Psychology from the University of Nevada Las Vegas. She has been a teaching assistant for three years. She is passionate about teaching psychology because she believes it applies to everything we do and anyone can benefit from learning about psychology. Lauren is also passionate about traveling and scuba diving; she is a certified rescue diver and a dive master candidate." .
+
+usdl4edu:Michael-Littman a foaf:Person ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Littman" ;
+    foaf:status "Michael Littman is a Professor of Computer Science at Rutgers University and (soon) Brown University. He served as department chair at Rutgers for the past several years and leads a machine-learning research group. Michael's computer science classes on topics such as algorithms, discrete math, and artificial intelligence earned him university-level teaching awards at both Duke and Rutgers. He is a Fellow of the Association for the Advancement of Artificial Intelligence." .
+
+usdl4edu:Mike-Roberts a foaf:Person ;
+    foaf:firstName "Mike" ;
+    foaf:lastName "Roberts" ;
+    foaf:status "Mike Roberts is a computer science PhD student at Stanford University. Before coming to Stanford, Mike spent two years doing GPU computing research at Harvard University, where he was involved in an exciting interdisciplinary project to construct a nanometer-scale wiring diagram of a mouse brain. Mike also collects rare funk 45s, and he used to DJ at a Motown night with his best friend every weekend. You can see what Mike is up to on his " .
+
+usdl4edu:Peter-Lubbers a foaf:Person ;
+    foaf:firstName "Peter" ;
+    foaf:lastName "Lubbers" ;
+    foaf:status "Peter Lubbers is a Program Manager at Google in the Chrome Developer Relations team and lives and breathes HTML5. He is the co-author of Pro HTML5 Programming (Apress) and the founder of the San Francisco HTML5 User Group, the largest HTML5 User Group in the world. A native of the Netherlands, Peter served as a Special Forces commando in the Royal Dutch Green Berets. In his spare time Peter likes jumping out of planes, bungee-jumping, and running ultra-marathons." .
+
+usdl4edu:Programming-Languages-objective1 a usdl4edu:Objective ;
+    dc:description "Take this class and learn how to build your own simple web browser complete with the ability to parse and understand HTML and JavaScript" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm14-4-116,
+        usdl4edu:acm14-4-40 .
+
+usdl4edu:Programming-Languages-objectives a usdl4edu:OverallObjective ;
+    dc:description "Take this class and learn how to build your own simple web browser complete with the ability to parse and understand HTML and JavaScript." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasPartObjective usdl4edu:Programming-Languages-objective1 .
+
+usdl4edu:Programming-Languages-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "This course assumes previous programming experience, comparable to what is covered by the Udacity CS101 course." .
+
+usdl4edu:Programming-Languages-unit a usdl4edu:CourseUnit ;
+    dc:description "This class will give you an introduction to the fundamentals of programming languages. Key concepts include how to specify and process valid strings, sentences and program structures. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Programming-Languages-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Programming-Languages-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Anthony-Teate,
+        usdl4edu:Westley-Weimer ;
+    usdl4edu:hasTitle "Programming Languages" .
+
+usdl4edu:Ronald-Rogers a foaf:Person ;
+    foaf:firstName "Ronald" ;
+    foaf:lastName "Rogers" ;
+    foaf:status "Ron Rogers has been a professor of psychology at San Jose State University since 1999. Dr. Rogers has developed and taught statistics and research methods courses at both the undergraduate and graduate level. He earned his M.A. and Ph.D. in Behavioral Neuroscience from Rutgers University in 1995." .
+
+usdl4edu:Sandra-DeSousa a foaf:Person ;
+    foaf:firstName "Sandra" ;
+    foaf:lastName "DeSousa" ;
+    foaf:status "Sandra DeSousa is an Adjunct Instructor of Mathematics at San Jose State University and San Jose City College. She has been teaching developmental math for the last 6 years (in both small classrooms and large lecture halls). Teaching algebra to her struggling students is her favorite because she loves when they ?get it.? She is always trying new and different teaching methods to help her students succeed and is very excited to work with Udacity." .
+
+usdl4edu:Sara-Tansey a foaf:Person ;
+    foaf:firstName "Sara" ;
+    foaf:lastName "Tansey" ;
+    foaf:status "The origins of Sara Tansey?s unique skill set confound those she meets. Where did she learn to code like she does? How does she scale treacherous rock faces with such ease? And she can shoot a bow-and-arrow?! Who even does that anymore!? The truth is that Sara was actually raised by rock-climbing, bow-wielding, java-brewing monks in a monastery on the island of...(you?re not going to believe this)... Java. Can Tansey code? Tansey can code. And she can?t wait to help you do the same." .
+
+usdl4edu:Sean-Laraway a foaf:Person ;
+    foaf:firstName "Sean" ;
+    foaf:lastName "Laraway" ;
+    foaf:status "Sean Laraway has taught at San Jose State University since 2004. He completed a post-doctoral fellowship in Psychopharmacology. He has taught statistics at the undergraduate and graduate levels since 1998. He earned his MA and PhD in Behavior Analysis from Western Michigan University in 2003." .
+
+usdl4edu:Sebastian-Wernicke a foaf:Person ;
+    foaf:firstName "Sebastian" ;
+    foaf:lastName "Wernicke" ;
+    foaf:status "Sebastian studied Bioinformatics at Universit?t T?bingen and holds a Ph.D. from Universit?t Jena in Germany, where his research focused on finding efficient algorithms for computationally hard problems on biological networks. After several years of strategic consulting for pharma companies and financial services, he's currently working with Seven Bridges Genomics, a big data bioinformatics startup. He is also well-known for his TED Talks, especially the one on the statistics of TED Talks.." .
+
+usdl4edu:Shayan-Doroudi a foaf:Person ;
+    foaf:firstName "Shayan" ;
+    foaf:lastName "Doroudi" ;
+    foaf:status "While Shayan's technically studying computer science at Caltech, his diverse range of interests have led him to undertake a variety of projects including modeling the fungibility of foreign aid, studying kidney exchanges, making robots out of DNA, and most recently helping Udacity educate thousands of students worldwide." .
+
+usdl4edu:Software-Testing-objective1 a usdl4edu:Objective ;
+    dc:description "This course will teach you how to think like a software tester, how to find bugs in code earlier, and write better code" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Software-Testing-objectives a usdl4edu:OverallObjective ;
+    dc:description "This course will teach you how to think like a software tester, how to find bugs in code earlier, and write better code." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasPartObjective usdl4edu:Software-Testing-objective1 .
+
+usdl4edu:Software-Testing-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Programming experience is required." .
+
+usdl4edu:Software-Testing-unit a usdl4edu:CourseUnit ;
+    dc:description "When writing software, destruction can be just as valuable as creation. Learn how to catch bugs and break software as you discover different testing methods that will help you build better software." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Software-Testing-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Software-Testing-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:John-Regehr,
+        usdl4edu:Sean-Bennett ;
+    usdl4edu:hasTitle "Software Testing" .
+
+usdl4edu:Steve-Blank a foaf:Person ;
+    foaf:firstName "Steve" ;
+    foaf:lastName "Blank" ;
+    foaf:status "Steve Blank is a seasoned Silicon Valley entrepreneur. Translation: he has failed and--more often--succeeded, in a 21-year career building 8 Valley startups, including several with major IPO's. Along the way, he's learned an incredible amount, and has spent the last decade sharing what he's learned with entrepreneurs all over the world. Author of two famous books on entrepreneurship, " .
+
+usdl4edu:Steve-Huffman a foaf:Person ;
+    foaf:firstName "Steve" ;
+    foaf:lastName "Huffman" ;
+    foaf:status "Steve Huffman co-founded the social news site " .
+
+usdl4edu:Susan-Snycerski a foaf:Person ;
+    foaf:firstName "Susan" ;
+    foaf:lastName "Snycerski" ;
+    foaf:status "Susan Snycerski has been teaching Introductory Psychology for 15 years. It's one of her favorite subjects to teach as she feels students can learn so much about themselves and others in this course. She completed her BS in Psychology at Central Michigan University and her Master's and Ph.D. at Western Michigan University. She was awarded a two-year postdoctoral fellowship from the National Institute on Drug Abuse and holds a graduate certificate in Clinical Trials Administration. She has been teaching at San Jose State for 8 years. Susan enjoys hiking, gourmet cooking, and cheering for the Detroit Red Wings, her favorite NHL hockey team." .
+
+<http://rdf.genssiz.dei.uc.pt/usdl4edu#Visualizing-Algebra-(Entry-Level-Mathematics)-objective1> a usdl4edu:Objective ;
+    dc:description "Understand and develop the language, models, and tools for math reasoning" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm14-4-3,
+        usdl4edu:acm8-5-4-3 .
+
+<http://rdf.genssiz.dei.uc.pt/usdl4edu#Visualizing-Algebra-(Entry-Level-Mathematics)-objectives> a usdl4edu:OverallObjective ;
+    dc:description """Understand and develop the language, models, and tools for math reasoning.
+""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasPartObjective <http://rdf.genssiz.dei.uc.pt/usdl4edu#Visualizing-Algebra-(Entry-Level-Mathematics)-objective1> .
+
+<http://rdf.genssiz.dei.uc.pt/usdl4edu#Visualizing-Algebra-(Entry-Level-Mathematics)-prerequisites> a usdl4edu:OverallPrerequisite ;
+    dc:description """
+Almost nothing! Students should know their multiplication tables (1-12) and be proficient with adding and subtracting integers (for example, -7 - 16). A pencil and paper will be a student?s best aid rather than a calculator. 
+""" .
+
+<http://rdf.genssiz.dei.uc.pt/usdl4edu#Visualizing-Algebra-(Entry-Level-Mathematics)-unit> a usdl4edu:CourseUnit ;
+    dc:description "Throughout this course, we will use algebra to quantify and describe the world around us. Have you ever wondered how many songs can fit onto your flash drive? By the end of the course, you?ll have stronger skills for modeling problems, analyzing patterns, and using algebra to arrive at conclusions." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective <http://rdf.genssiz.dei.uc.pt/usdl4edu#Visualizing-Algebra-(Entry-Level-Mathematics)-objectives> ;
+    usdl4edu:hasOverallPrerequisite <http://rdf.genssiz.dei.uc.pt/usdl4edu#Visualizing-Algebra-(Entry-Level-Mathematics)-prerequisites> ;
+    usdl4edu:hasTeacher usdl4edu:Chris-Saden,
+        usdl4edu:Sandra-DeSousa ;
+    usdl4edu:hasTitle "Visualizing Algebra (Entry-Level Mathematics)" .
+
+usdl4edu:Web-Development-objective1 a usdl4edu:Objective ;
+    dc:description "In this project-based course your knowledge will be evaluated as you learn to build your own blog application! Learn everything Steve Huffman wished he would have known when he broke into the startup world" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Web-Development-objectives a usdl4edu:OverallObjective ;
+    dc:description "In this project-based course your knowledge will be evaluated as you learn to build your own blog application! Learn everything Steve Huffman wished he would have known when he broke into the startup world. Read more about Huffman and the course " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasPartObjective usdl4edu:Web-Development-objective1 .
+
+usdl4edu:Web-Development-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "A moderate amount of programming and computer science experience is necessary for this course." .
+
+usdl4edu:Web-Development-unit a usdl4edu:CourseUnit ;
+    dc:description "Starting from the basics of how the web works, this class will walk you through everything you need to know to build your own blog application and scale it to support large numbers of users. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Web-Development-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Web-Development-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Anthony-Teate,
+        usdl4edu:Steve-Huffman ;
+    usdl4edu:hasTitle "Web Development" .
+
+usdl4edu:Westley-Weimer a foaf:Person ;
+    foaf:firstName "Westley" ;
+    foaf:lastName "Weimer" ;
+    foaf:status "Westley Weimer is a Professor of Computer Science at the University of Virginia where he teaches computer science and leads research in " .
+
+usdl4edu:Anthony-Teate a foaf:Person ;
+    foaf:firstName "Anthony" ;
+    foaf:lastName "Teate" ;
+    foaf:status "Although he is currently studying computational physics at the University of Virginia, Anthony migrated across the U.S. this summer to work for Udacity. When he is not in front of the computer, Anthony enjoys playing basketball, mentoring high school students, and friendly games of Apples to Apples." .
+
+usdl4edu:Cheng-Han-Lee a foaf:Person ;
+    foaf:firstName "Cheng-Han" ;
+    foaf:lastName "Lee" ;
+    foaf:status "Cheng-Han is a world traveler. He has lived in Taiwan, Shanghai, Charleston (SC), Dallas, Austin, San Diego, Seattle, and now the Bay Area. In addition to traveling, he likes to find new parks to explore, new venues to visit, and new restaurants to try. He was a program manager at Microsoft prior to Udacity, and he studied at the University of Texas -- Austin and University of California -- San Diego for his degrees in computer science." .
+
+usdl4edu:David-Evans a foaf:Person ;
+    foaf:firstName "David" ;
+    foaf:lastName "Evans" ;
+    foaf:status "David Evans is a Professor of Computer Science at the University of Virginia where he teaches computer science and leads " .
+
+usdl4edu:Miriam-Swords-Kalk a foaf:Person ;
+    foaf:firstName "Miriam" ;
+    foaf:lastName "Swords" ;
+    foaf:status "Miriam feels inspired by the inherent beauty of math and loves helping others develop confidence and excitement as they learn. Having the opportunity to do this with thousands of students all over the world through her work at Udacity is a dream come true. Outside of work, she enjoys singing, baking, teaching yoga, and tutoring high schoolers. Miriam attended Stanford University, where she earned a B.S. in Physics, a B.A. in Philosophy and Religious Studies, and an M.A. in Religious Studies." .
+
+usdl4edu:Peter-Norvig a foaf:Person ;
+    foaf:firstName "Peter" ;
+    foaf:lastName "Norvig" ;
+    foaf:status "Peter Norvig is Director of Research at Google Inc. He is also a Fellow of the American Association for Artificial Intelligence and the Association for Computing Machinery. Norvig is co-author of the popular textbook Artificial Intelligence: A Modern Approach. Prior to joining Google he was the head of the Computation Sciences Division at NASA Ames Research Center." .
+
+usdl4edu:Sarah-Norell a foaf:Person ;
+    foaf:firstName "Sarah" ;
+    foaf:lastName "Norell" ;
+    foaf:status "Sarah Norell holds a PhD in Mathematics from the University of London, UK. She has lectured at the London School of Economics, University of Ume? and Mid-Sweden University and tutored at all ages. These experiences give her invaluable insight into the misconceptions students have about maths at many levels. This insight, plus Udacity tech, have allowed her to effectively teach maths online, like she's always wanted to." .
+
+usdl4edu:Sean-Bennett a foaf:Person ;
+    foaf:firstName "Sean" ;
+    foaf:lastName "Bennett" ;
+    foaf:status "Sean Bennett is a Course Architect at Udacity and is passionate about using the web to improve the quality of education available worldwide. Sean's background is in web programming, and he likes to dabble in functional web programming. When he's not working to improve education, Sean likes running, hiking, and preparing for the inevitable zombie apocalypse." .
+
+usdl4edu:Sebastian-Thrun a foaf:Person ;
+    foaf:firstName "Sebastian" ;
+    foaf:lastName "Thrun" ;
+    foaf:status "Sebastian Thrun is a Research Professor of Computer Science at Stanford University, a Google Fellow, a member of the National Academy of Engineering and the German Academy of Sciences. Thrun is best known for his research in robotics and machine learning, specifically his work with self-driving cars." .
+
+usdl4edu:udacity a foaf:Organization ;
+    dc:description "Udacity" .
+
