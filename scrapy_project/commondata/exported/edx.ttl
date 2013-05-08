@@ -1,0 +1,1967 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix usdl4edu: <http://rdf.genssiz.dei.uc.pt/usdl4edu#> .
+
+usdl4edu:Age-of-Globalization-UT301x-service a usdl4edu:EducationalService ;
+    dc:description "Age of Globalization - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Age-of-Globalization-UT301x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/UTAustinX/UT.3.01x/2013_Sept/about" .
+
+usdl4edu:Artificial-Intelligence-CS1881x-service a usdl4edu:EducationalService ;
+    dc:description "Artificial Intelligence - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Artificial-Intelligence-CS1881x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/BerkeleyX/CS188.1x/2012_Fall/about",
+        "https://www.edx.org/courses/BerkeleyX/CS188.1x/2013_Spring/about" .
+
+usdl4edu:Circuits-and-Electronics-6002x-service a usdl4edu:EducationalService ;
+    dc:description "Circuits and Electronics - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Circuits-and-Electronics-6002x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/MITx/6.002x/2012_Fall/about",
+        "https://www.edx.org/courses/MITx/6.002x/2013_Spring/about" .
+
+usdl4edu:Copyright-HLS1x-service a usdl4edu:EducationalService ;
+    dc:description "Copyright - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Copyright-HLS1x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/HarvardX/HLS1x/2013_Spring/about" .
+
+usdl4edu:Electricity-and-Magnetism-802x-service a usdl4edu:EducationalService ;
+    dc:description "Electricity and Magnetism - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Electricity-and-Magnetism-802x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/MITx/8.02x/2013_Spring/about" .
+
+usdl4edu:Elements-of-Structures-201x-service a usdl4edu:EducationalService ;
+    dc:description "Elements of Structures - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Elements-of-Structures-201x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/MITx/2.01x/2013_Spring/about" .
+
+usdl4edu:Energy-101-UT101x-service a usdl4edu:EducationalService ;
+    dc:description "Energy 101 - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Energy-101-UT101x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/UTAustinX/UT.1.01x/2013_Sept/about" .
+
+usdl4edu:Foundations-of-Computer-Graphics-CS1841x-service a usdl4edu:EducationalService ;
+    dc:description "Foundations of Computer Graphics - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Foundations-of-Computer-Graphics-CS1841x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/BerkeleyX/CS184.1x/2012_Fall/about",
+        "https://www.edx.org/courses/BerkeleyX/CS184.1x/2013_Spring/about" .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-service a usdl4edu:EducationalService ;
+    dc:description "Health in Numbers: Quantitative Methods in Clinical & Public Health Research - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/HarvardX/PH207x/2012_Fall/about" .
+
+usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-service a usdl4edu:EducationalService ;
+    dc:description "Human Health and Global Environmental Change - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/HarvardX/PH278x/2013_Spring/about" .
+
+usdl4edu:Ideas-of-the-20th-Century-UT201x-service a usdl4edu:EducationalService ;
+    dc:description "Ideas of the 20th Century - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Ideas-of-the-20th-Century-UT201x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/UTAustinX/UT.2.01x/2013_Sept/about" .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Biology - The Secret of Life - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/MITx/7.00x/2013_Spring/about" .
+
+usdl4edu:Introduction-to-Computer-Science-I-CS50x-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Computer Science I - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Computer-Science-I-CS50x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/HarvardX/CS50x/2012/about" .
+
+usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Computer Science and Programming - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/MITx/6.00x/2012_Fall/about",
+        "https://www.edx.org/courses/MITx/6.00x/2013_Spring/about" .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Solid State Chemistry - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/MITx/3.091x/2013_Spring/about" .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Statistics: Descriptive Statistics - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/BerkeleyX/Stat2.1x/2013_Spring/about" .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-service a usdl4edu:EducationalService ;
+    dc:description "Introduction to Statistics: Probability - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Introduction-to-Statistics-Probability-Stat22x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/BerkeleyX/Stat2.2x/2013_April/about" .
+
+usdl4edu:Justice-ER22x-service a usdl4edu:EducationalService ;
+    dc:description "Justice - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Justice-ER22x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/HarvardX/ER22x/2013_Spring/about" .
+
+usdl4edu:Mechanics-ReView-8MReV-service a usdl4edu:EducationalService ;
+    dc:description "Mechanics ReView - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Mechanics-ReView-8MReV-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/MITx/8.MReV/2013_Summer/about" .
+
+usdl4edu:Quantum-Mechanics-and-Quantum-Computation-CS191x-service a usdl4edu:EducationalService ;
+    dc:description "Quantum Mechanics and Quantum Computation - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Quantum-Mechanics-and-Quantum-Computation-CS191x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/BerkeleyX/CS191x/2013_Spring/about" .
+
+usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-service a usdl4edu:EducationalService ;
+    dc:description "Science & Cooking: From Haute Cuisine to Soft Matter Science - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/HarvardX/SPU27x/2013_Oct/about" .
+
+usdl4edu:Software-as-a-Service-CS1691x-service a usdl4edu:EducationalService ;
+    dc:description "Software as a Service - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Software-as-a-Service-CS1691x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/BerkeleyX/CS169.1x/2012_Fall/about",
+        "https://www.edx.org/courses/BerkeleyX/CS169.1x/2013_March/about",
+        "https://www.edx.org/courses/BerkeleyX/CS169.1x/2013_Spring/about" .
+
+usdl4edu:Software-as-a-Service-CS1692x-service a usdl4edu:EducationalService ;
+    dc:description "Software as a Service - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Software-as-a-Service-CS1692x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/BerkeleyX/CS169.2x/2012_Fall/about",
+        "https://www.edx.org/courses/BerkeleyX/CS169.2x/2013_Spring/about" .
+
+usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-service a usdl4edu:EducationalService ;
+    dc:description "Take Your Medicine - The Impact of Drug Development - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/UTAustinX/UT.4.01x/2013_Sept/about" .
+
+usdl4edu:The-Ancient-Greek-Hero-CB22x-service a usdl4edu:EducationalService ;
+    dc:description "The Ancient Greek Hero - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:The-Ancient-Greek-Hero-CB22x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/HarvardX/CB22x/2013_Spring/about" .
+
+usdl4edu:The-Challenges-of-Global-Poverty-1473x-service a usdl4edu:EducationalService ;
+    dc:description "The Challenges of Global Poverty - Educational service from Edx" ;
+    usdl4edu:hasCourseUnit usdl4edu:The-Challenges-of-Global-Poverty-1473x-unit ;
+    usdl4edu:hasOrganization usdl4edu:edx ;
+    usdl4edu:hasURL "https://www.edx.org/courses/MITx/14.73x/2013_Spring/about" .
+
+usdl4edu:Aaron-Bernstein a foaf:Person ;
+    foaf:firstName "Aaron" ;
+    foaf:lastName "Bernstein" ;
+    foaf:status """Aaron Bernstein, M.D., M.P.H., is the Associate Director of the Center for Health and the Global Environment at the Harvard School of Public Health and a pediatric hospitalist at Boston Children's Hospital. Dr. Bernstein’s work examines the human health effects of global environmental changes, such as climate change and the loss of biodiversity, with the aim of promoting a deeper understanding of these subjects among students, educators, policy makers, and the public.
+""" .
+
+usdl4edu:Abhijit-Vinayak-Banerjee a foaf:Person ;
+    foaf:firstName "Abhijit" ;
+    foaf:lastName "Vinayak" ;
+    foaf:status "Abhijit Banerjee was educated at the University of Calcutta, Jawaharlal Nehru University, and Harvard University. He is currently the Ford Foundation International Professor of Economics at MIT. Banerjee is a past president of the Bureau for Research in the Economic Analysis of Development, a fellow of the American Academy of Arts and Sciences and the Econometric Society, and has been a Guggenheim Fellow and an Alfred P. Sloan Fellow. He is the recipient of many awards, including the inaugural Infosys Prize in 2009, and has been an honorary advisor to many organizations including the World Bank and the government of India." .
+
+usdl4edu:Age-of-Globalization-UT301x-objective1 a usdl4edu:Objective ;
+    dc:description "Learn how to identify and analyze global systems and better understand how the world works" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Age-of-Globalization-UT301x-objective2 a usdl4edu:Objective ;
+    dc:description "",
+        "  Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process",
+        "  These man-made systems provide transport, communication, governance, and entertainment on a global scale",
+        " Globalization is unimaginable without the unprecedented electronic networks that project dominant cultural products into every society on earth",
+        " International crime networks are outgrowths of the same systems",
+        " Topics include national identity, language diversity, the global labor market, popular culture, sports and climate change",
+        "Globalization is a fascinating spectacle that can be understood as global systems of competition and connectivity",
+        "However, an increase in integration has not brought increased equality",
+        "Learn how to identify and analyze global systems and better understand how the world works",
+        "The globalization process exemplifies connectivity" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Age-of-Globalization-UT301x-objective3 a usdl4edu:Objective ;
+    dc:description "Learn how to identify and analyze global systems and better understand how the world works" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm8-3-3-5 .
+
+usdl4edu:Age-of-Globalization-UT301x-objective4 a usdl4edu:Objective ;
+    dc:description "  Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm14-1-28 .
+
+usdl4edu:Age-of-Globalization-UT301x-objectives a usdl4edu:OverallObjective ;
+    dc:description "Globalization is a fascinating spectacle that can be understood as global systems of competition and connectivity.  These man-made systems provide transport, communication, governance, and entertainment on a global scale. International crime networks are outgrowths of the same systems. Topics include national identity, language diversity, the global labor market, popular culture, sports and climate change.However, an increase in integration has not brought increased equality.  Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process.The globalization process exemplifies connectivity. Globalization is unimaginable without the unprecedented electronic networks that project dominant cultural products into every society on earth.Learn how to identify and analyze global systems and better understand how the world works." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Age-of-Globalization-UT301x-objective1,
+        usdl4edu:Age-of-Globalization-UT301x-objective2,
+        usdl4edu:Age-of-Globalization-UT301x-objective3,
+        usdl4edu:Age-of-Globalization-UT301x-objective4 .
+
+usdl4edu:Age-of-Globalization-UT301x-unit a usdl4edu:CourseUnit ;
+    dc:description "Identify the historical and cultural systems driving globalization and changing societies around the world." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Age-of-Globalization-UT301x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:John-Hoberman ;
+    usdl4edu:hasTitle "Age of Globalization" .
+
+usdl4edu:Alexie-M-Kolpak a foaf:Person ;
+    foaf:firstName "Alexie" ;
+    foaf:lastName "M." ;
+    foaf:status "Alexie M. Kolpak is an Assistant Professor in the Department of Mechanical Engineering at MIT. She earned a B.A. in biochemistry and a Ph.D. in physical chemistry at the University of Pennsylvania. Her research is focused on using first-principles computations to design novel materials and heterostructures for sustainable energy and nano-electronics." .
+
+usdl4edu:Alvin-Wong a foaf:Person ;
+    foaf:firstName "Alvin" ;
+    foaf:lastName "Wong" ;
+    foaf:status """
+	Alvin Wong is a second year undergraduate student at UC Berkeley, majoring in 		Electrical Engineering and Computer Science. He is currently taking the Spring 		2013 offering of CS188, where he actively contributes responses on the class 
+	forum. He is interested in mobile game design and plans to develop and release a 	 few Android games this summer.
+    """ .
+
+usdl4edu:Alwina-Liu a foaf:Person ;
+    foaf:firstName "Alwina" ;
+    foaf:lastName "Liu" ;
+    foaf:status "Alwina is a physics undergraduate at MIT. She has written new problems and designed new problem types for the course, and will be helping to run it this summer." .
+
+usdl4edu:Anant-Agarwal a foaf:Person ;
+    foaf:firstName "Anant" ;
+    foaf:lastName "Agarwal" ;
+    foaf:status "President of edX and Professor of Electrical Engineering and Computer Science at MIT. His research focus is in parallel computer architectures and cloud software systems, and he is a founder of several successful startups, including Tilera, a company that produces scalable multicore processors. Prof. Agarwal won MIT’s Smullin and Jamieson prizes for teaching and co-authored the course textbook “Foundations of Analog and Digital Electronic Circuits.”" .
+
+usdl4edu:Arjun-Singh-Head-Teaching-Assistant a foaf:Person ;
+    foaf:firstName "Arjun" ;
+    foaf:lastName "Singh" ;
+    foaf:status """
+      Arjun Singh (BS UC Berkeley) is a PhD student at UC Berkeley and
+      Berkeley's lead developer for the edX platform. He has been a teaching
+      assistant for the on-campus CS188 offerings four times. As a member of the
+      Robot Learning Lab, he has worked on """ .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective1 a usdl4edu:Objective ;
+    dc:description "  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective2 a usdl4edu:Objective ;
+    dc:description "  Beyond today's applications, AI is at the core of many new technologies that will shape our future" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm14-1-16,
+        usdl4edu:acm14-4,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective3 a usdl4edu:Objective ;
+    dc:description " The on-campus version of this upper division computer science course draws about 600 Berkeley students each year" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective4 a usdl4edu:Objective ;
+    dc:description "",
+        "  AI lets you guide your phone with your voice and read foreign newspapers in English",
+        "  AI methods plan your driving directions, filter your spam, and focus your cameras on faces",
+        "  Beyond today's applications, AI is at the core of many new technologies that will shape our future",
+        "  By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings",
+        "  CS188",
+        "  From self-driving cars to household robots, advancements in AI help transform science fiction into real systems",
+        "  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems",
+        "  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures",
+        " A specific emphasis will be on the statistical and decision–theoretic modeling paradigm",
+        " The on-campus version of this upper division computer science course draws about 600 Berkeley students each year",
+        " The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue",
+        " Your machine learning algorithms will classify handwritten digits and photographs",
+        "1x focuses on Behavior from Computation",
+        "1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence",
+        "1x, precise date to be determined) will cover Reasoning and Learning",
+        "2x (to follow CS188",
+        "Artificial intelligence is already all around you, from web search to video games",
+        "CS188" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective5 a usdl4edu:Objective ;
+    dc:description "  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective6 a usdl4edu:Objective ;
+    dc:description "  AI methods plan your driving directions, filter your spam, and focus your cameras on faces" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective7 a usdl4edu:Objective ;
+    dc:description "  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm11-1-2,
+        usdl4edu:acm13-1-2-1-4,
+        usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm14-1-18,
+        usdl4edu:acm3 .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objectives a usdl4edu:OverallObjective ;
+    dc:description "CS188.1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence. The on-campus version of this upper division computer science course draws about 600 Berkeley students each year.Artificial intelligence is already all around you, from web search to video games.  AI methods plan your driving directions, filter your spam, and focus your cameras on faces.  AI lets you guide your phone with your voice and read foreign newspapers in English.  Beyond today's applications, AI is at the core of many new technologies that will shape our future.  From self-driving cars to household robots, advancements in AI help transform science fiction into real systems.CS188.1x focuses on Behavior from Computation.  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision–theoretic modeling paradigm.  By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings.  CS188.2x (to follow CS188.1x, precise date to be determined) will cover Reasoning and Learning.  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
+    usdl4edu:hasPartObjective usdl4edu:Artificial-Intelligence-CS1881x-objective1,
+        usdl4edu:Artificial-Intelligence-CS1881x-objective2,
+        usdl4edu:Artificial-Intelligence-CS1881x-objective3,
+        usdl4edu:Artificial-Intelligence-CS1881x-objective4,
+        usdl4edu:Artificial-Intelligence-CS1881x-objective5,
+        usdl4edu:Artificial-Intelligence-CS1881x-objective6,
+        usdl4edu:Artificial-Intelligence-CS1881x-objective7 .
+
+usdl4edu:Artificial-Intelligence-CS1881x-unit a usdl4edu:CourseUnit ;
+    dc:description "CS188.1x is an online adaptation of the first half of UC Berkeley’s upper division course CS188: Introduction to Artificial Intelligence." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Artificial-Intelligence-CS1881x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Alvin-Wong,
+        usdl4edu:Arjun-Singh-Head-Teaching-Assistant,
+        usdl4edu:Brad-Miller,
+        usdl4edu:Dan-Klein-Instructor,
+        usdl4edu:James-Ferguson,
+        usdl4edu:Jeff-Donahue,
+        usdl4edu:Judy-Hoffman,
+        usdl4edu:Ketrina-Yim-Course-Illustrator,
+        usdl4edu:Michael-Liang,
+        usdl4edu:Nick-Hay,
+        usdl4edu:Peter-Cottle-Teaching-Assistant,
+        usdl4edu:Pieter-Abbeel-Instructor,
+        usdl4edu:Zack-Mayeda-Course-Video-Producer,
+        usdl4edu:Ziang-Xie-Teaching-Assistant ;
+    usdl4edu:hasTitle "Artificial Intelligence" .
+
+usdl4edu:Brad-Miller a foaf:Person ;
+    foaf:firstName "Brad" ;
+    foaf:lastName "Miller" ;
+    foaf:status """
+      Brad Miller (BS Carnegie Mellon) is a 4th year PhD student at UC Berkeley.
+      His research focuses on applications of machine learning in the context of
+      security, including attempts to learn in the presence of an adversary as
+      well as techniques for using machine learning to compromise security properties
+      of a system. Brad co-architected the 188 autograder and is also currently a TA for the on-campus offering of CS188.
+    """ .
+
+usdl4edu:Brian-White a foaf:Person ;
+    foaf:firstName "Brian" ;
+    foaf:lastName "White" ;
+    foaf:status "Brian White is an educator, developer, and educational researcher. He teaches Introductory Biology at the University of Massachusetts of Boston. He serves as a course coordinator for 7.00x." .
+
+usdl4edu:Circuits-and-Electronics-6002x-objective1 a usdl4edu:Objective ;
+    dc:description "The course is organized by weeks" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Circuits-and-Electronics-6002x-objective2 a usdl4edu:Objective ;
+    dc:description " Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm10-5-2,
+        usdl4edu:acm2-4-2,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Circuits-and-Electronics-6002x-objectives a usdl4edu:OverallObjective ;
+    dc:description "The course introduces engineering in the context of the lumped circuit abstraction. Topics covered include: resistive elements and networks; independent and dependent sources; switches and MOS transistors; digital abstraction; amplifiers; energy storage elements; dynamics of first- and second-order networks; design in the time and frequency domains; and analog and digital circuits and applications. Design and lab exercises are also significant components of the course.The course is organized by weeks. To keep pace with the class, you are expected to complete all the work by the due dates indicated. Homeworks and labs must be completed by the Sunday of the week following the one in which they are posted. Weekly coursework includes interactive video sequences, readings from the textbook, homework, online laboratories, and optional tutorials. The course will also have a midterm exam and a ﬁnal exam. Those who successfully earn enough points will receive an honor code certificate from MITx." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasPartObjective usdl4edu:Circuits-and-Electronics-6002x-objective1,
+        usdl4edu:Circuits-and-Electronics-6002x-objective2 .
+
+usdl4edu:Circuits-and-Electronics-6002x-unit a usdl4edu:CourseUnit ;
+    dc:description "6.002x teaches the fundamentals of circuit and electronic analysis." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Circuits-and-Electronics-6002x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Anant-Agarwal,
+        usdl4edu:Chris-Terman,
+        usdl4edu:Gerald-Sussman,
+        usdl4edu:Khurram-Afridi,
+        usdl4edu:Piotr-Mitros,
+        usdl4edu:Tania-Khanna ;
+    usdl4edu:hasTitle "Circuits and Electronics" .
+
+usdl4edu:Colin-Fredericks a foaf:Person ;
+    foaf:firstName "Colin" ;
+    foaf:lastName "Fredericks" ;
+    foaf:status "Dr. Fredericks is a postdoctoral fellow at MIT. He is an educational researcher in Dr. Pritchard's group, and winner of the 2010-11 Learning Triangle award for teaching. Colin is the course coordinator for Mechanics ReView." .
+
+usdl4edu:Copyright-HLS1x-objective1 a usdl4edu:Objective ;
+    dc:description "About HLS1xHLS1x Copyright, an experimental course offered on edX, explores in depth the law, theory, and practice of copyright" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Copyright-HLS1x-objective2 a usdl4edu:Objective ;
+    dc:description "At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Copyright-HLS1x-objective3 a usdl4edu:Objective ;
+    dc:description " Approximately two thirds of the course focus on the copyright system of the United States; the remainder is devoted to the laws pertaining to copyright and \"neighboring rights\" in other countries" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Copyright-HLS1x-objective4 a usdl4edu:Objective ;
+    dc:description "Enrollment in the course is limited to 500 participants, who were selected through an application process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Copyright-HLS1x-objective5 a usdl4edu:Objective ;
+    dc:description "Enrollment in the course is limited to 500 participants, who were selected through an application process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Copyright-HLS1x-objective6 a usdl4edu:Objective ;
+    dc:description " Fisher and his team to experiment with different combinations of teaching materials and educational technologies" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm12-10,
+        usdl4edu:acm14-1-16,
+        usdl4edu:acm14-1-43,
+        usdl4edu:acm14-4 .
+
+usdl4edu:Copyright-HLS1x-objective7 a usdl4edu:Objective ;
+    dc:description " When admitting participants, the course organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm12-10,
+        usdl4edu:acm13-3-3 .
+
+usdl4edu:Copyright-HLS1x-objective8 a usdl4edu:Objective ;
+    dc:description " Considerable attention is devoted to the relationship between copyright law and creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Copyright-HLS1x-objective9 a usdl4edu:Objective ;
+    dc:description "At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8 .
+
+usdl4edu:Copyright-HLS1x-objectives a usdl4edu:OverallObjective ;
+    dc:description "About HLS1xHLS1x Copyright, an experimental course offered on edX, explores in depth the law, theory, and practice of copyright. Approximately two thirds of the course focus on the copyright system of the United States; the remainder is devoted to the laws pertaining to copyright and \"neighboring rights\" in other countries. Considerable attention is devoted to the relationship between copyright law and creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture. The course commences on January 28, 2013, and lasts for 12 weeks.Enrollment in the course is limited to 500 participants, who were selected through an application process. When admitting participants, the course organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender. Applicants had to be at least 13 years old, have a good grasp of the English language, and be willing to devote eight hours per week to learning and discussing the material. Otherwise, however, there are no prerequisites for taking this course. In particular, no legal background is required.Several methods of instruction are used. Participants watch pre-recorded lectures, engage in interactive live webcasts of events in which guest speakers address especially controversial issues, discuss legal problems in online forums, and (most importantly) participate once a week in an 80-minute online seminar. Those seminars are taught by teaching fellows, all of whom are currently students at Harvard Law School.At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy. Those exams are graded by the teaching fellows. Participants who receive passing grades are to be awarded certificates of completion and provided written assessments of their degree of proficiency.HLS1x Copyright is an experimental course, with four different variants that allow Prof. Fisher and his team to experiment with different combinations of teaching materials and educational technologies. Enrollment for the course is limited because we believe that high-quality legal education depends, at least in part, upon supervised small-group discussions of difficult issues. Fidelity to that principle requires confining the course to the number of participants that can be supervised effectively by our 21 teaching fellows. The limit on the enrollment does not mean, however, that we are not allowing access to the course materials; to the contrary, they are made publicly available." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
+    usdl4edu:hasPartObjective usdl4edu:Copyright-HLS1x-objective1,
+        usdl4edu:Copyright-HLS1x-objective2,
+        usdl4edu:Copyright-HLS1x-objective3,
+        usdl4edu:Copyright-HLS1x-objective4,
+        usdl4edu:Copyright-HLS1x-objective5,
+        usdl4edu:Copyright-HLS1x-objective6,
+        usdl4edu:Copyright-HLS1x-objective7,
+        usdl4edu:Copyright-HLS1x-objective8,
+        usdl4edu:Copyright-HLS1x-objective9 .
+
+usdl4edu:Copyright-HLS1x-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "" .
+
+usdl4edu:Copyright-HLS1x-unit a usdl4edu:CourseUnit ;
+    dc:description "HLS1x Copyright will explore the current law of copyright and the ongoing debates concerning how that law should be reformed." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Copyright-HLS1x-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Copyright-HLS1x-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:William-Fisher-III ;
+    usdl4edu:hasTitle "Copyright" .
+
+usdl4edu:Dan-Klein-Instructor a foaf:Person ;
+    foaf:firstName "Dan" ;
+    foaf:lastName "Klein" ;
+    foaf:status " (PhD Stanford, MSt Oxford, BA Cornell) is an associate professor of computer science at the University of California, Berkeley. His research focuses on " .
+
+usdl4edu:Daniel-Bonevac a foaf:Person ;
+    foaf:firstName "Daniel" ;
+    foaf:lastName "Bonevac" ;
+    foaf:status """Daniel Bonevac is a Professor of Philosophy at the University of Texas at Austin who specializes in metaphysics, logic, and ethics.  He was Chairman of the Department of Philosophy from 1991 to 2001. He majored in philosophy at Haverford College, and got his MA and PhD in philosophy from the University of Pittsburgh, working primarily with Wilfrid Sellars, Gerald Massey, and Carl Hempel. His first book, 
+""" .
+
+usdl4edu:Daniel-Muoz a foaf:Person ;
+    foaf:firstName "Daniel" ;
+    foaf:lastName "Muñoz" ;
+    foaf:status """Daniel Muñoz is a junior at the University of Texas at Austin studying philosophy and linguistics. His philosophical interests are mostly in the philosophy of mind and metaethics. Recently, Daniel was awarded the Mary Sue Collins Hibbs Scholarship in Philosophy for his scholastic achievement. Outside of academics, he serves as co-editor of Ex Nihilo, UT's undergraduate philosophy journal, and president of Texas Secular Humanists, a community service organization for non-religious students he co-founded in 2011. An active choral singer, he has served as president of the University of Texas Men's Chorus.
+""" .
+
+usdl4edu:David-E-Pritchard a foaf:Person ;
+    foaf:firstName "David" ;
+    foaf:lastName "E." ;
+    foaf:status "Dr. Pritchard is a professor of physics at MIT, and the creator of the MAPS curriculum that is at the core of Mechanics ReView. Dr. Pritchard is a pioneer in atomic physics research and has mentored three Nobel lauriates. His research group currently focuses on understanding how students can learn better, especially from online courses such as this one." .
+
+usdl4edu:David-J-Malan-Instructor a foaf:Person ;
+    foaf:firstName "David" ;
+    foaf:lastName "J." ;
+    foaf:status """David is a Senior Lecturer on Computer Science at Harvard College for the School of Engineering and Applied Sciences. He received his A.B., S.M., and Ph.D. in Computer Science from Harvard in 1999, 2004, and 2007, respectively.
+""" .
+
+usdl4edu:David-Weitz a foaf:Person ;
+    foaf:firstName "David" ;
+    foaf:lastName "Weitz" ;
+    foaf:status """David Weitz is a Professor of Physics and Applied Physics, at the Harvard School of Engineering and Applied Sciences and the Department of Physics. He developed the popular Harvard class, "Science and Cooking: From Haute Cuisine to the Science of Soft Matter," with his colleague Michael Brenner and chef Ferran Adrià. His research group studies the science of soft matter materials as well as biophysics and biotechnology.         
+""" .
+
+usdl4edu:Dr-Alan-Watts a foaf:Person ;
+    foaf:firstName "Dr." ;
+    foaf:lastName "Alan" ;
+    foaf:status """As Assistant Director of the Drug Dynamics Institute (DDI), Alan works with development-focused pharmaceutical researchers in academia and industry to advance drug products through the preclinical stage. Alan also oversees the UTech Dorm Room, a wet lab incubator space, located within the College of Pharmacy. With academic and industry experience in drug product development, Alan has first-hand knowledge of the steps necessary to help new drug products reach the clinical stage.  During his time in industry, Alan developed drugs for delivery to the lungs. His experience in this field has led to a comprehensive understanding of the steps necessary for the formulation, characterization, efficacy testing and safety testing of inhaled drug products.
+ received her doctorate at the Ecole de Management in Grenoble, France, and her Master’s in Science and Technology Commercialization at The University of Texas at Austin.  She led the development of The Innovation Readiness Series™, an online course developed to help global innovators.  Her research interests include innovation and commercialization. She has worked globally to encourage economic development through science and innovations. Prior to her work with UT Austin, Donna was a software consultant, and developed custom database applications and eLearning environments for companies such as Exxon, Agilent, and Keller Williams Realty International.  She is passionate about creating action based online systems to educate and help others achieve their goals.
+""" .
+
+usdl4edu:Dr-Janet-Walkow a foaf:Person ;
+    foaf:firstName "Dr." ;
+    foaf:lastName "Janet" ;
+    foaf:status """Dr. Janet Walkow is the Executive Director and Chief Technology Officer of the Drug Dynamics Institute (DDI). She joined the faculty of the University of Texas in 2008, building on a successful career in the pharmaceutical industry, where she led efforts ranging from R&D product development to Corporate Strategy.  The DDI brings together scientists and investigators to work on novel solutions for disease and healthcare issues, fostering collaborations and developing ways to eliminate drug development. She is passionate about the need for scientists and the general public to understand how medical therapies are developed. A leader in efforts to empower women, Janet is co-founder of the Leading Women Project, empowering women of all ages and professions learn to lead themselves and others. 
+""" .
+
+usdl4edu:Dr-Michael-E-Webber a foaf:Person ;
+    foaf:firstName "Dr." ;
+    foaf:lastName "Michael" ;
+    foaf:status """Michael Webber is the Josey Centennial Fellow in Energy Resources, Co-Director of the Clean Energy Incubator at the Austin Technology Incubator, and Deputy Director of the Energy Institute at UT Austin, where he trains a new generation of energy leaders through research and education at the intersection of engineering, policy, and commercialization. He has authored more than 150 scientific articles, columns, books and book chapters, including a compendium of his commentary titled 
+""" .
+
+usdl4edu:Earl-Francis-Cook a foaf:Person ;
+    foaf:firstName "Earl" ;
+    foaf:lastName "Francis" ;
+    foaf:status "E. Francis Cook, ScD, is a Professor of Epidemiology at the Harvard School of Public Health (HSPH) and at the Harvard Medical School. In the past five years he has taught or directed more than 30 offerings of 8 different courses at HSPH. He developed and directs the Summer-Only Masters of Science (SM) in Epidemiology and the Summer-Only Masters of Public Health (Clinical Effectiveness) (MPH) Degree Programs at HSPH." .
+
+usdl4edu:Electricity-and-Magnetism-802x-objective1 a usdl4edu:Objective ;
+    dc:description "You will complete automatically graded weekly homework problemsand a series of exams using multiple choice, numerical and symbolicquestions to test your understanding and to help you master thematerial" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Electricity-and-Magnetism-802x-objective2 a usdl4edu:Objective ;
+    dc:description "",
+        "  At least 60%of the points must be obtained to qualify for a certificate of mastery",
+        "  Dependingon what percentage of all the points you get, your grade will beas follows: A (more than 85%), B (70-85%), C (60-70%)",
+        "  Lectures are interspersed with questions that must beanswered before advancing to the next lecture segment",
+        "  There is amoderated forum for student-to-student threaded discussions",
+        "  Your grade will be based on interactivequestions during the lectures (5%), homework problems and simulations (20%), threemidterm exams (15% each), and the final exam (30%)",
+        " Passing the online version of this course will guarantee you an MITx certificate of mastery",
+        " We will studyThe    New York TimesIn addition to the basic concepts of Electromagnetism, a vast variety of interesting topics are covered in this course including: Lightning, Electric Shock Treatment, Electrocardiograms, Metal Detectors, Musical Instruments, Magnetic Levitation, Bullet Trains, Electric Motors, Radios, TV, Car Coils, Superconductivity, Aurora Borealis, Rainbows, Radio Telescopes, Interferometers, Particle Accelerators such as the Large Hadron Collider, Mass Spectrometers, Red Sunsets, Blue Skies, Haloes around Sun and Moon, Color Perception, Doppler Effect, Big-Bang Cosmology",
+        " Whilehomework deadlines will be strictly enforced, the lowest homeworkgrade will be dropped",
+        "02 is the second semester of the MIT introductory physicssequence",
+        "8",
+        "The course is on electricity and magnetism which are at theheart of Maxwell's equations",
+        "You will complete automatically graded weekly homework problemsand a series of exams using multiple choice, numerical and symbolicquestions to test your understanding and to help you master thematerial" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Electricity-and-Magnetism-802x-objectives a usdl4edu:OverallObjective ;
+    dc:description """8.02 is the second semester of the MIT introductory physics
+sequence. Passing the online version of this course will guarantee you an MITx certificate of mastery.
+The course is on electricity and magnetism which are at the
+heart of Maxwell's equations. We will studyThe
+    New York Times
+In addition to the basic concepts of Electromagnetism, a vast variety of interesting topics are covered in this course including: Lightning, Electric Shock Treatment, Electrocardiograms, Metal Detectors, Musical Instruments, Magnetic Levitation, Bullet Trains, Electric Motors, Radios, TV, Car Coils, Superconductivity, Aurora Borealis, Rainbows, Radio Telescopes, Interferometers, Particle Accelerators such as the Large Hadron Collider, Mass Spectrometers, Red Sunsets, Blue Skies, Haloes around Sun and Moon, Color Perception, Doppler Effect, Big-Bang Cosmology.You will complete automatically graded weekly homework problems
+and a series of exams using multiple choice, numerical and symbolic
+questions to test your understanding and to help you master the
+material.  Lectures are interspersed with questions that must be
+answered before advancing to the next lecture segment.  There is a
+moderated forum for student-to-student threaded discussions. While
+homework deadlines will be strictly enforced, the lowest homework
+grade will be dropped.  Your grade will be based on interactive
+questions during the lectures (5%), homework problems and simulations (20%), three
+midterm exams (15% each), and the final exam (30%).  Depending
+on what percentage of all the points you get, your grade will be
+as follows: A (more than 85%), B (70-85%), C (60-70%).  At least 60%
+of the points must be obtained to qualify for a certificate of mastery.""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasPartObjective usdl4edu:Electricity-and-Magnetism-802x-objective1,
+        usdl4edu:Electricity-and-Magnetism-802x-objective2 .
+
+usdl4edu:Electricity-and-Magnetism-802x-unit a usdl4edu:CourseUnit ;
+    dc:description """8.02x (Electricity and Magnetism) presents the basic concepts of
+Electromagnetism, and how this touches upon a vast variety of
+interesting real-world topics.""" ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Electricity-and-Magnetism-802x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Isaac-Chuang,
+        usdl4edu:John-Belcher,
+        usdl4edu:Peter-Dourmashkin,
+        usdl4edu:Riccardo-Abbate,
+        usdl4edu:Walter-Lewin ;
+    usdl4edu:hasTitle "Electricity and Magnetism" .
+
+usdl4edu:Elements-of-Structures-201x-objective1 a usdl4edu:Objective ;
+    dc:description " The students will learn to predict linear elastic structural behavior, and prevent failure, by relying on the notions of equilibrium, geometric compatibility, and constitutive material response" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_3Procedural .
+
+usdl4edu:Elements-of-Structures-201x-objectives a usdl4edu:OverallObjective ;
+    dc:description "2.01x is a first course on the mechanical behavior of deformable structural elements. It introduces principles of structural analysis in applications to essential load-bearing elements, such as bars in axial loading, axisymmetric shafts in torsion, and symmetric beams in bending. The course covers fundamental concepts of continuum mechanics, including internal forces, displacement fields, stresses, and strains. The students will learn to predict linear elastic structural behavior, and prevent failure, by relying on the notions of equilibrium, geometric compatibility, and constitutive material response." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_3Procedural ;
+    usdl4edu:hasPartObjective usdl4edu:Elements-of-Structures-201x-objective1 .
+
+usdl4edu:Elements-of-Structures-201x-unit a usdl4edu:CourseUnit ;
+    dc:description "A first course on mathematical modeling of structures and the mechanical behavior of deformable structural elements." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Elements-of-Structures-201x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Alexie-M-Kolpak,
+        usdl4edu:Jess-is-a-mechanical-engineering-sophomore-at-MIT-She-is-working-example-problems-on-film-to-help-201x-students-understand-the-problem-solving-process-Currently-interested-in-international-development-she-has-worked-on-the-development-of-an-efficient-low-cost-muli-crop-thresher-and-researched-power-measurement-in-rickshaws,
+        usdl4edu:Kun-Qian,
+        usdl4edu:Sandeep-Kumar,
+        usdl4edu:Simona-Socrate ;
+    usdl4edu:hasTitle "Elements of Structures" .
+
+usdl4edu:Energy-101-UT101x-objective1 a usdl4edu:Objective ;
+    dc:description " This course will cover brief snippets of energy history, use real-world examples, and look forward into the future" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Energy-101-UT101x-objective2 a usdl4edu:Objective ;
+    dc:description " The course will have interactive learning modules and lecture-oriented around current events related to energy" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Energy-101-UT101x-objective3 a usdl4edu:Objective ;
+    dc:description " The course will have interactive learning modules and lecture-oriented around current events related to energy" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Energy-101-UT101x-objective4 a usdl4edu:Objective ;
+    dc:description " The course will have interactive learning modules and lecture-oriented around current events related to energy" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Energy-101-UT101x-objective5 a usdl4edu:Objective ;
+    dc:description " The course will have interactive learning modules and lecture-oriented around current events related to energy" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Energy-101-UT101x-objectives a usdl4edu:OverallObjective ;
+    dc:description "Energy Technology & PolicyThis multidisciplinary course will give students an overview of energy technologies, fuels, environmental impacts and public policies. Topics will be interdisciplinary and will include an introduction to quantitative concepts in energy, including the differences among fuels and energy technologies, energy policy levers, and the societal aspects of energy, such as culture, economics, war, and international affairs. This course will cover brief snippets of energy history, use real-world examples, and look forward into the future. The course will have interactive learning modules and lecture-oriented around current events related to energy." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasPartObjective usdl4edu:Energy-101-UT101x-objective1,
+        usdl4edu:Energy-101-UT101x-objective2,
+        usdl4edu:Energy-101-UT101x-objective3,
+        usdl4edu:Energy-101-UT101x-objective4,
+        usdl4edu:Energy-101-UT101x-objective5 .
+
+usdl4edu:Energy-101-UT101x-unit a usdl4edu:CourseUnit ;
+    dc:description "By being fluent in energy you will be able to think critically about energy issues." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Energy-101-UT101x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Dr-Michael-E-Webber ;
+    usdl4edu:hasTitle "Energy 101" .
+
+usdl4edu:Eric-Grimson a foaf:Person ;
+    foaf:firstName "Eric" ;
+    foaf:lastName "Grimson" ;
+    foaf:status """W. Eric L. Grimson is the Chancellor of the Massachusetts Institute of Technology, a professor of computer science and engineering, and the Bernard M. Gordon Professor of Medical Engineering. He was named Chancellor of MIT in 2011.
+A member of the MIT faculty since 1984, Professor Grimson previously served as head of the Department of Electrical Engineering and Computer Science, as its associate department head, and as its education officer. Professor Grimson is internationally recognized for his research in computer vision, especially in applications in medical image analysis. He and his students have developed techniques for activity and behavior recognition, object and person recognition, image database indexing, image guided surgery, site modeling, and many other areas of computer vision.
+Professor Grimson has been actively engaged with students throughout his career. For 25 years he lectured subject 6.001 Structure and Interpretation of Computer Programs, and is now engaged in teaching 6.00 Introduction to Computer Science and Programming and 6.01 Introduction to EECS. He has also taught undergraduate subjects in computer architecture, software engineering, and signal processing. In all, Professor Grimson has taught more than 10,000 MIT undergraduates and served as the thesis supervisor to almost 50 MIT PhDs.
+Professor Grimson is a native of Saskatchewan, Canada. He received the BSc (Hons) degree in mathematics and physics from the University of Regina in 1975 and his PhD in mathematics in 1980 from MIT. He is a recipient of the Bose Award for Excellence in Teaching in the School of Engineering at MIT. He is a fellow of the Association for the Advancement of Artificial Intelligence (AAAI) and a fellow of the Institute of Electrical and Electronics Engineers (IEEE).
+""" .
+
+usdl4edu:Eric-S-Lander a foaf:Person ;
+    foaf:firstName "Eric" ;
+    foaf:lastName "S." ;
+    foaf:status "Eric Lander is a Professor of Biology at MIT and Professor of Systems Biology at Harvard Medical School. He is the President and Founding Director of the Broad Institute of MIT and Harvard. Lander was one of the principal leaders of the Human Genome Project. He and his colleagues are using these findings to explore the molecular mechanisms underlying the basis of human diseases. Lander also serves as co-chair of the President’s Council of Advisors on Science and Technology (PCAST), which directly advises the White House on matters of science and technology." .
+
+usdl4edu:Esther-Duflo a foaf:Person ;
+    foaf:firstName "Esther" ;
+    foaf:lastName "Duflo" ;
+    foaf:status """Esther Duflo is the Abdul Latif Jameel Professor of Poverty Alleviation and Development Economics in the Department of Economics at MIT. She was educated at the Ecole Normale Supérieure, in Paris, and at MIT. She has received numerous honors and prizes including a John Bates Clark Medal for the best American economist under 40 in 2010, a MacArthur “Genius” Fellowship in 2009. She was recognized as one of the best eight young economists by The Economist magazine, one of the 100 most influential thinkers by Foreign Policy since the list exists, and one of the “Forty under 40” most influential business leaders under forty by Fortune magazine in 2010.
+        """ .
+
+usdl4edu:Foundations-of-Computer-Graphics-CS1841x-objective1 a usdl4edu:Objective ;
+    dc:description "1x teaches the Foundations of Computer Graphics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm11-6 .
+
+usdl4edu:Foundations-of-Computer-Graphics-CS1841x-objectives a usdl4edu:OverallObjective ;
+    dc:description """CS184.1x teaches the Foundations of Computer Graphics.
+    Students will make images of 
+    3D scenes in real-time, and with offline raytracing.
+    This course runs for 6 weeks and consists of four segments. Each segment includes an
+    individual programming assignment:Overview and Basic Math (Homework 0: 10% of grade)
+
+Transformations (Homework 1: 20% of grade)
+
+OpenGL and Lighting (Homework 2: 35% of grade)
+
+Raytracing (Homework 3: 35% of grade)
+
+This term, students who earn a total score of 50% or greater will have passed the course and may obtain a free honor code certificate from BerkeleyX.""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Foundations-of-Computer-Graphics-CS1841x-objective1 .
+
+usdl4edu:Foundations-of-Computer-Graphics-CS1841x-unit a usdl4edu:CourseUnit ;
+    dc:description """CS184.1x teaches the Foundations of Computer Graphics.  Students will be able 
+to make images of 3D scenes in both real-time, and with offline raytracing.""" ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Foundations-of-Computer-Graphics-CS1841x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Ravi-Ramamoorthi ;
+    usdl4edu:hasTitle "Foundations of Computer Graphics" .
+
+usdl4edu:Gerald-Sussman a foaf:Person ;
+    foaf:firstName "Gerald" ;
+    foaf:lastName "Sussman" ;
+    foaf:status "Professor of Electrical Engineering at MIT. He is a well known educator in the computer science community, perhaps best known as the author of Structure and Interpretation of Computer Programs, which is universally acknowledged as one of the top ten textbooks in computer science, and as the creator of Scheme, a popular teaching language. His research spans a range of topics, from artificial intelligence, to physics and chaotic systems, to supercomputer design." .
+
+usdl4edu:Gordon-A-Heaton a foaf:Person ;
+    foaf:firstName "Gordon" ;
+    foaf:lastName "A." ;
+    foaf:status "Gordon A. Heaton is a second year undergraduate at UC Berkeley, intending to double major in Economics and Statistics. He is an international student from London, UK, although he was born in Tokyo, Japan. He has taken coursework in Probability and Statistics, Multivariable Calculus, Game Theory, Macroeconomic Theory, and Microeconomic Theory. Gordon is fascinated by the prospect of applying quantitative methods to relevant issues, and this is what drew him to Statistics. He ultimately hopes to do research in Economics or some related field, and is currently considering continuing education in graduate school. Gordon is an avid soccer player, and in his free time enjoys photography and waterskiing." .
+
+usdl4edu:Gordon-A-Heaton-is-a-second-year-undergraduate-at-UC-Berkeley-intending-to-double-major-in-Economics-and-Statistics-He-is-an-international-student-from-London-UK-although-he-was-born-in-Tokyo-Japan-He-has-taken-coursework-in-Probability-and-Statistics-Multivariable-Calculus-Game-Theory-Macroeconomic-Theory-and-Microeconomic-Theory-Gordon-is-fascinated-by-the-prospect-of-applying-quantitative-methods-to-relevant-issues-and-this-is-what-drew-him-to-Statistics-He-ultimately-hopes-to-do-research-in-Economics-or-some-related-field-and-is-currently-considering-continuing-education-in-graduate-school-Gordon-is-an-avid-soccer-player-and-in-his-free-time-enjoys-photography-and-waterskiing a foaf:Person ;
+    foaf:firstName "Gordon" ;
+    foaf:lastName "A." ;
+    foaf:status "Gordon A. Heaton is a second year undergraduate at UC Berkeley, intending to double major in Economics and Statistics. He is an international student from London, UK, although he was born in Tokyo, Japan. He has taken coursework in Probability and Statistics, Multivariable Calculus, Game Theory, Macroeconomic Theory, and Microeconomic Theory. Gordon is fascinated by the prospect of applying quantitative methods to relevant issues, and this is what drew him to Statistics. He ultimately hopes to do research in Economics or some related field, and is currently considering continuing education in graduate school. Gordon is an avid soccer player, and in his free time enjoys photography and waterskiing." .
+
+usdl4edu:Graham-Walker a foaf:Person ;
+    foaf:firstName "Graham" ;
+    foaf:lastName "Walker" ;
+    foaf:status "Graham Walker is a Professor of Biology at MIT and an HHMI Professor at the Howard Hughes Medical Institute. The Walker lab focuses on the regulation and mechanism of action of proteins involved in DNA repair and mutagenesis and in other cellular responses to DNA damage." .
+
+usdl4edu:Gregory-Nagy a foaf:Person ;
+    foaf:firstName "Gregory" ;
+    foaf:lastName "Nagy" ;
+    foaf:status "Gregory Nagy is the Francis Jones Professor of Classical Greek Literature and Professor of Comparative Literature at Harvard University, and is the Director of the " .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective1 a usdl4edu:Objective ;
+    dc:description " This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm8-1-1-5-6 .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective2 a usdl4edu:Objective ;
+    dc:description "Principled investigations to monitor and thus improve the health of individuals are firmly based on a sound understanding of modern quantitative methods" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective3 a usdl4edu:Objective ;
+    dc:description " This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm5-2-1-2-12,
+        usdl4edu:acm8-1-1-5-6 .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective4 a usdl4edu:Objective ;
+    dc:description " Students will analyze sample data sets to acquire knowledge of appropriate computer software" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective5 a usdl4edu:Objective ;
+    dc:description " This course will address this need by covering the principles of biostatistics and epidemiology used for public health and clinical research" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective6 a usdl4edu:Objective ;
+    dc:description " Students will analyze sample data sets to acquire knowledge of appropriate computer software" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective7 a usdl4edu:Objective ;
+    dc:description " This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm8-1-1-5-6 .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective8 a usdl4edu:Objective ;
+    dc:description " These include outcomes measurement, measures of associations between outcomes and their determinants, study design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm10-1-1,
+        usdl4edu:acm2-6-5-6,
+        usdl4edu:acm5-3-1-4-1,
+        usdl4edu:acm6-5-10,
+        usdl4edu:acm7-2-2-4 .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objectives a usdl4edu:OverallObjective ;
+    dc:description "Quantitative Methods in Clinical and Public Health Research is the online adaptation of material from the Harvard School of Public Health's classes in epidemiology and biostatistics.Principled investigations to monitor and thus improve the health of individuals are firmly based on a sound understanding of modern quantitative methods. This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics. This course will address this need by covering the principles of biostatistics and epidemiology used for public health and clinical research. These include outcomes measurement, measures of associations between outcomes and their determinants, study design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques. Students will analyze sample data sets to acquire knowledge of appropriate computer software. By the end of the course the successful student should have attained a sound understanding of these methods and a solid foundation for further study." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective1,
+        usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective2,
+        usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective3,
+        usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective4,
+        usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective5,
+        usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective6,
+        usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective7,
+        usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective8 .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-unit a usdl4edu:CourseUnit ;
+    dc:description "PH207x is the online adaptation of material from the Harvard School of Public Health's classes in epidemiology and biostatistics." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Earl-Francis-Cook,
+        usdl4edu:Marcello-Pagano ;
+    usdl4edu:hasTitle "Health in Numbers: Quantitative Methods in Clinical & Public Health Research" .
+
+usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-objective1 a usdl4edu:Objective ;
+    dc:description "One of the greatest challenges of our time is to address global environmental changes, such as climate change and biodiversity loss, that may harm the health of billions of people worldwide" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm14-2-76,
+        usdl4edu:acm14-3-12,
+        usdl4edu:acm8-4 .
+
+usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-objectives a usdl4edu:OverallObjective ;
+    dc:description "One of the greatest challenges of our time is to address global environmental changes, such as climate change and biodiversity loss, that may harm the health of billions of people worldwide. This class will examine these changes, their causes, as well as their health consequences, and engage students in thinking about their solutions. Those who earn a passing grade will get a certificate of mastery from HarvardX." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-objective1 .
+
+usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "" .
+
+usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-unit a usdl4edu:CourseUnit ;
+    dc:description "PH278x explores global environmental changes, examining their causes as well as their health consequences, and engages students in thinking about their solutions" ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Aaron-Bernstein,
+        usdl4edu:Jack-Spengler ;
+    usdl4edu:hasTitle "Human Health and Global Environmental Change" .
+
+usdl4edu:Ideas-of-the-20th-Century-UT201x-objective1 a usdl4edu:Objective ;
+    dc:description " Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Ideas-of-the-20th-Century-UT201x-objective2 a usdl4edu:Objective ;
+    dc:description " Now, thinkers and leaders are reconstructing theories of value and creating institutions to embody them" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Ideas-of-the-20th-Century-UT201x-objective3 a usdl4edu:Objective ;
+    dc:description " Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Ideas-of-the-20th-Century-UT201x-objectives a usdl4edu:OverallObjective ;
+    dc:description "The last century ushered in significant progress. Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty. Scientific progress improved the way we lived across the world.Yet the last century also brought increased levels of war, tyranny, and genocide.  Man pushed boundaries of good and evil, right and wrong, justice and injustice – and people lost faith in values. Now, thinkers and leaders are reconstructing theories of value and creating institutions to embody them.Join this thought-provoking, broad-sweeping course as it draws intriguing connections between philosophy, art, literature, and history, illuminating our world and our place in it." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasPartObjective usdl4edu:Ideas-of-the-20th-Century-UT201x-objective1,
+        usdl4edu:Ideas-of-the-20th-Century-UT201x-objective2,
+        usdl4edu:Ideas-of-the-20th-Century-UT201x-objective3 .
+
+usdl4edu:Ideas-of-the-20th-Century-UT201x-unit a usdl4edu:CourseUnit ;
+    dc:description "Learn how philosophy, art, literature, and history shaped the last century and the world today." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Ideas-of-the-20th-Century-UT201x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Daniel-Bonevac,
+        usdl4edu:Daniel-Muoz,
+        usdl4edu:Roy-Flukinger ;
+    usdl4edu:hasTitle "Ideas of the 20th Century" .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective1 a usdl4edu:Objective ;
+    dc:description " As you continue in the course, you will apply an understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm13-2-9-5,
+        usdl4edu:acm6-4,
+        usdl4edu:acm9-6-4 .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective10 a usdl4edu:Objective ;
+    dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective11 a usdl4edu:Objective ;
+    dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective12 a usdl4edu:Objective ;
+    dc:description " Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8 .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective2 a usdl4edu:Objective ;
+    dc:description " You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective3 a usdl4edu:Objective ;
+    dc:description "Additionally, for teachers of science, we have forged a collaboration with the National Science Teachers         Association (NSTA) to facilitate understanding of challenging content and help with practical classroom         applications of the courseware" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm8-4-4 .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective4 a usdl4edu:Objective ;
+    dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective5 a usdl4edu:Objective ;
+    dc:description " You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective6 a usdl4edu:Objective ;
+    dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective7 a usdl4edu:Objective ;
+    dc:description " Each week features a series of lecture sequences that     are supported by interactive video tutorials and interspersed exercises or problems" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective8 a usdl4edu:Objective ;
+    dc:description " The course will conclude with a comprehensive final exam" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective9 a usdl4edu:Objective ;
+    dc:description " Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objectives a usdl4edu:OverallObjective ;
+    dc:description """7.00x is an introductory level biology course hosted by professor Eric Lander, who was one of the leaders of the Human Genome Project. Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world. As a student, you will first focus on the structure and function of macromolecules such as DNA, RNA and proteins. You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health. As you continue in the course, you will apply an understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world. After you complete this course, you will have a foundation in biology that will allow you to understand the remarkable medical revolution going on today.Students will complete this course in 12 weeks. Each week features a series of lecture sequences that 
+    are supported by interactive video tutorials and interspersed exercises or problems. Additionally, students 
+    will work on a homework assignment or exam each week. The course will conclude with a comprehensive final exam.Additionally, for teachers of science, we have forged a collaboration with the National Science Teachers 
+        Association (NSTA) to facilitate understanding of challenging content and help with practical classroom 
+        applications of the courseware. There will be four NSTA web seminars and moderated community forums for 
+        discussion related to 7.00x Secret of Life subject matter and pedagogy.  VisitNSTA/MITx
+7.00x – The Secret of Life will let you explore the mysteries of biochemistry, genetics, molecular biology, 
+    recombinant DNA technology and genomics, and rational medicine. We are excited to take this journey with you!""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective1,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective10,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective11,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective12,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective2,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective3,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective4,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective5,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective6,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective7,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective8,
+        usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective9 .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-unit a usdl4edu:CourseUnit ;
+    dc:description "7.00x lets you explore the secret of life by guiding you through the basics of biochemistry, genetics, molecular biology, recombinant DNA, genomics, and rational medicine." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Brian-White,
+        usdl4edu:Eric-S-Lander,
+        usdl4edu:Graham-Walker,
+        usdl4edu:Mary-Ellen-Wiltrout,
+        usdl4edu:Michelle-Mischke ;
+    usdl4edu:hasTitle "Introduction to Biology - The Secret of Life" .
+
+usdl4edu:Introduction-to-Computer-Science-I-CS50x-objective1 a usdl4edu:Objective ;
+    dc:description "CS50x is Harvard College's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
+
+usdl4edu:Introduction-to-Computer-Science-I-CS50x-objective2 a usdl4edu:Objective ;
+    dc:description " Malan, CS50x teaches students how to think algorithmically and solve problems efficiently" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Computer-Science-I-CS50x-objectives a usdl4edu:OverallObjective ;
+    dc:description "CS50x is Harvard College's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. As of Fall 2012, the on-campus version of CS50x is Harvard's largest course.Students who earn a passing grade on 8 problem sets (programming assignments - 15-20 hours each), 2 quizzes, and a final project will get an honor code certificate from HarvardX. Students may take CS50x at their own pace, starting anytime after October 15, 2012 and finishing anytime before April 15, 2013." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Computer-Science-I-CS50x-objective1,
+        usdl4edu:Introduction-to-Computer-Science-I-CS50x-objective2 .
+
+usdl4edu:Introduction-to-Computer-Science-I-CS50x-unit a usdl4edu:CourseUnit ;
+    dc:description "CS50x is an introduction to the intellectual enterprises of computer science and the art of programming." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Computer-Science-I-CS50x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:David-J-Malan-Instructor,
+        usdl4edu:Nate-Hardison-Preceptor,
+        usdl4edu:Rob-Bowden-Head-Teaching-Fellow,
+        usdl4edu:Tommy-MacWilliam-Head-Teaching-Fellow,
+        usdl4edu:Zamyla-Chan-Teaching-Fellow ;
+    usdl4edu:hasTitle "Introduction to Computer Science I" .
+
+usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective1 a usdl4edu:Objective ;
+    dc:description " The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective2 a usdl4edu:Objective ;
+    dc:description "Introduction to Computer Science and Programming6" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
+
+usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective3 a usdl4edu:Objective ;
+    dc:description "00x is an introduction to using computation to solve real problems" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective4 a usdl4edu:Objective ;
+    dc:description " Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
+
+usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective5 a usdl4edu:Objective ;
+    dc:description " The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objectives a usdl4edu:OverallObjective ;
+    dc:description """Introduction to Computer Science and Programming6.00x is an introduction to using computation to solve real problems. The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving. Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course.Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth. 
+      The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about 
+      how to use computation to accomplish some goal later in their career. That said, it is not a "computation appreciation" course. It is a challenging 
+      and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will.Those who earn a passing grade will get an honor code certificate from MITx. Please see theedX FAQ for more information about certificates.
+- expect the book to take at least 10 days to arrive (North America; rest of the world may take longer). The book and the course 
+      lectures parallel each other, though there is more detail in the book about some topics.A textbook for 6.00x 
+	is now available for purchase ($24.99)
+The book is NOT required
+this one
+""",
+        """Introduction to Computer Science and Programming6.00x is an introduction to using computation to solve real problems. The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving. Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course.Since the course will be the only formal computer science course many of the students take, we have chosen to focus on breadth rather than depth. 
+      The goal is to provide students with a brief introduction to many topics so they will have an idea of what is possible when they need to think about 
+      how to use computation to accomplish some goal later in their career. That said, it is not a "computation appreciation" course. It is a challenging 
+      and rigorous course in which the students spend a lot of time and effort learning to bend the computer to their will.Those who earn a passing grade will get an honor code certificate from MITx. Please see theedX FAQ for more information about certificates.
+The required textbook for this course isIntroduction to Computation and Programming Using
+	Python (Spring 2013 edition)
+The MIT Press is offering MITx students a special price, through
+      March 22, 2013 only, of $17.50 (a 30% discount). To take advantage of this offer, please use
+      promotion code ICPUP30 atLimited-time offer!
+http://mitpress.mit.edu/guttag
+If you already own a copy 
+      of the Fall 2012 version ofNote to students who purchased the Fall 2012 edition of this textbook:
+Introduction to Computation and Programming Using Python
+In the meantime, if you're interested in reading more on Python, check your local library for Python textbooks or
+      search online for a free Python text, such asthis one
+""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective1,
+        usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective2,
+        usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective3,
+        usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective4,
+        usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective5 .
+
+usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-unit a usdl4edu:CourseUnit ;
+    dc:description "6.00x is an introduction to computer science as a tool to solve real-world analytical problems." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Chris-Terman,
+        usdl4edu:Eric-Grimson,
+        usdl4edu:John-Guttag,
+        usdl4edu:Larry-Rudolph ;
+    usdl4edu:hasTitle "Introduction to Computer Science and Programming" .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective1 a usdl4edu:Objective ;
+    dc:description " Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm2-5-2 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective2 a usdl4edu:Objective ;
+    dc:description " The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm12-3-6,
+        usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm8-3,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective3 a usdl4edu:Objective ;
+    dc:description " The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm12-3-6,
+        usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm8-3,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective4 a usdl4edu:Objective ;
+    dc:description "091x is a first-year course where chemical principles are explained by examination of the properties of materials" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective5 a usdl4edu:Objective ;
+    dc:description " The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm12-3-6,
+        usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm8-3,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective6 a usdl4edu:Objective ;
+    dc:description " The class will cover the relationship between electronic structure, chemical bonding, and atomic order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins)" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm14-1-55 ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective7 a usdl4edu:Objective ;
+    dc:description " The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm12-3-6,
+        usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm8-3,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective8 a usdl4edu:Objective ;
+    dc:description " Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm2-5-2 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective9 a usdl4edu:Objective ;
+    dc:description " There will be topical coverage of organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm12-3-4 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objectives a usdl4edu:OverallObjective ;
+    dc:description "3.091x is a first-year course where chemical principles are explained by examination of the properties of materials. The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course. The on-campus version of the course has been taught for over thirty five years and is one of the largest classes at MIT. The class will cover the relationship between electronic structure, chemical bonding, and atomic order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins). There will be topical coverage of organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams. Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e.g. batteries and fuel cells), and from emerging technologies (e.g. photonic and biomedical devices). For the Spring 2013 class, edX registration and course materials are free.Students will complete weekly concept questions, watch videos and work on interspersed exercises, as well as submit weekly homework. Homework assignments may be submitted multiple times until the deadline. Those who earn a passing grade will get a free honor code certificate from MITx." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective1,
+        usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective2,
+        usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective3,
+        usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective4,
+        usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective5,
+        usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective6,
+        usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective7,
+        usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective8,
+        usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective9 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-unit a usdl4edu:CourseUnit ;
+    dc:description "3.091x explains chemical principles by examination of the properties of materials." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Michael-Cima ;
+    usdl4edu:hasTitle "Introduction to Solid State Chemistry" .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective1 a usdl4edu:Objective ;
+    dc:description "  The goal of descriptive statistics is to summarize and present numerical information in a manner that is illuminating and useful" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective10 a usdl4edu:Objective ;
+    dc:description " The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective2 a usdl4edu:Objective ;
+    dc:description "1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective3 a usdl4edu:Objective ;
+    dc:description "1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective4 a usdl4edu:Objective ;
+    dc:description " The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective5 a usdl4edu:Objective ;
+    dc:description "1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective6 a usdl4edu:Objective ;
+    dc:description " The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective7 a usdl4edu:Objective ;
+    dc:description "Introduction to StatisticsWe are surrounded by information, much of it numerical, and it is important to know how to make sense of it" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective8 a usdl4edu:Objective ;
+    dc:description " Methods will be illustrated with data from a variety of areas in the sciences and humanities" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective9 a usdl4edu:Objective ;
+    dc:description " The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objectives a usdl4edu:OverallObjective ;
+    dc:description "Introduction to StatisticsWe are surrounded by information, much of it numerical, and it is important to know how to make sense of it. Stat2x is an introduction to the fundamental concepts and methods of statistics, the science of drawing conclusions from data.The course is the online equivalent of Statistics 2, a 15-week introductory course taken in Berkeley by about 1,000 students each year. Stat2x is divided into three 5-week components. Stat2.1x is the first of the three.The focus of Stat2.1x is on descriptive statistics.  The goal of descriptive statistics is to summarize and present numerical information in a manner that is illuminating and useful. The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables. Methods will be illustrated with data from a variety of areas in the sciences and humanities.There will be no mindless memorization of formulas and methods. Throughout Stat2.1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective1,
+        usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective10,
+        usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective2,
+        usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective3,
+        usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective4,
+        usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective5,
+        usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective6,
+        usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective7,
+        usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective8,
+        usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective9 .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "" .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-unit a usdl4edu:CourseUnit ;
+    dc:description "An introduction to descriptive statistics, emphasizing critical thinking and clear communication." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Ani-Adhikari,
+        usdl4edu:Gordon-A-Heaton-is-a-second-year-undergraduate-at-UC-Berkeley-intending-to-double-major-in-Economics-and-Statistics-He-is-an-international-student-from-London-UK-although-he-was-born-in-Tokyo-Japan-He-has-taken-coursework-in-Probability-and-Statistics-Multivariable-Calculus-Game-Theory-Macroeconomic-Theory-and-Microeconomic-Theory-Gordon-is-fascinated-by-the-prospect-of-applying-quantitative-methods-to-relevant-issues-and-this-is-what-drew-him-to-Statistics-He-ultimately-hopes-to-do-research-in-Economics-or-some-related-field-and-is-currently-considering-continuing-education-in-graduate-school-Gordon-is-an-avid-soccer-player-and-in-his-free-time-enjoys-photography-and-waterskiing,
+        usdl4edu:Paul-Matsiras,
+        usdl4edu:Philip-B-Stark ;
+    usdl4edu:hasTitle "Introduction to Statistics: Descriptive Statistics" .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective1 a usdl4edu:Objective ;
+    dc:description " Throughout the course, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective2 a usdl4edu:Objective ;
+    dc:description " Throughout the course, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective3 a usdl4edu:Objective ;
+    dc:description "2x is on probability theory: exactly what is a random sample, and how does randomness work? If you buy 10 lottery tickets instead of 1, does your chance of winning go up by a factor of 10? What is the law of averages? How can polls make accurate predictions based on data from small fractions of the population? What should you expect to happen \"just by chance\"? These are some of the questions we will address in the course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_3Procedural .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective4 a usdl4edu:Objective ;
+    dc:description " Then we will step back from all the details and try to identify features of large random samples that will help us approximate probabilities that are hard to compute exactly" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective5 a usdl4edu:Objective ;
+    dc:description " We will study sums and averages of large random samples, discuss the factors that affect their accuracy, and use the normal approximation for their probability distributions" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm7-5-5-1 .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective6 a usdl4edu:Objective ;
+    dc:description "We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective7 a usdl4edu:Objective ;
+    dc:description "We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective8 a usdl4edu:Objective ;
+    dc:description "",
+        " (Unless you're really good at counting cards, in which case you could try blackjack, but perhaps after taking all these edX courses you'll find other ways of earning money",
+        " Ever",
+        " In addition, you are expected to know the material of Stat2",
+        " Stat2",
+        " Then we will step back from all the details and try to identify features of large random samples that will help us approximate probabilities that are hard to compute exactly",
+        " Throughout the course, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results",
+        " We will study sums and averages of large random samples, discuss the factors that affect their accuracy, and use the normal approximation for their probability distributions",
+        ")As Stat2",
+        "1x and appears here again: There will be no mindless memorization of formulas and methods",
+        "1x, with particular emphasis on histograms, averages, SDs, and the normal curve",
+        "1x: high school arithmetic and good comprehension of English",
+        "2x is on probability theory: exactly what is a random sample, and how does randomness work? If you buy 10 lottery tickets instead of 1, does your chance of winning go up by a factor of 10? What is the law of averages? How can polls make accurate predictions based on data from small fractions of the population? What should you expect to happen \"just by chance\"? These are some of the questions we will address in the course",
+        "2x is part of a series, the basic prerequisites are the same as those for Stat2",
+        "2x is the second of three five-week courses that make up Stat2x, the online equivalent of Berkeley's Stat 2",
+        "2x you will not want to gamble",
+        "Be warned: by the end of Stat2",
+        "Introduction to Statistics: ProbabilityStatistics 2 at Berkeley is an introductory class taken by about 1000 students each year",
+        "The focus of Stat2",
+        "The fundamental approach of the series was provided in the description of Stat2",
+        "We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective9 a usdl4edu:Objective ;
+    dc:description " In addition, you are expected to know the material of Stat2" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objectives a usdl4edu:OverallObjective ;
+    dc:description "Introduction to Statistics: ProbabilityStatistics 2 at Berkeley is an introductory class taken by about 1000 students each year. Stat2.2x is the second of three five-week courses that make up Stat2x, the online equivalent of Berkeley's Stat 2.The focus of Stat2.2x is on probability theory: exactly what is a random sample, and how does randomness work? If you buy 10 lottery tickets instead of 1, does your chance of winning go up by a factor of 10? What is the law of averages? How can polls make accurate predictions based on data from small fractions of the population? What should you expect to happen \"just by chance\"? These are some of the questions we will address in the course.We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting. Then we will step back from all the details and try to identify features of large random samples that will help us approximate probabilities that are hard to compute exactly. We will study sums and averages of large random samples, discuss the factors that affect their accuracy, and use the normal approximation for their probability distributions.Be warned: by the end of Stat2.2x you will not want to gamble. Ever. (Unless you're really good at counting cards, in which case you could try blackjack, but perhaps after taking all these edX courses you'll find other ways of earning money.)As Stat2.2x is part of a series, the basic prerequisites are the same as those for Stat2.1x: high school arithmetic and good comprehension of English. In addition, you are expected to know the material of Stat2.1x, with particular emphasis on histograms, averages, SDs, and the normal curve.The fundamental approach of the series was provided in the description of Stat2.1x and appears here again: There will be no mindless memorization of formulas and methods. Throughout the course, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
+    usdl4edu:hasPartObjective usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective1,
+        usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective2,
+        usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective3,
+        usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective4,
+        usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective5,
+        usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective6,
+        usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective7,
+        usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective8,
+        usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective9 .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "" .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-unit a usdl4edu:CourseUnit ;
+    dc:description "An introduction to probability, with the aim of developing probabilistic intuition as well as techniques needed to analyze simple random samples." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Introduction-to-Statistics-Probability-Stat22x-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Ani-Adhikari,
+        usdl4edu:Gordon-A-Heaton,
+        usdl4edu:Paul-Matsiras,
+        usdl4edu:Philip-B-Stark ;
+    usdl4edu:hasTitle "Introduction to Statistics: Probability" .
+
+usdl4edu:Isaac-Chuang a foaf:Person ;
+    foaf:firstName "Isaac" ;
+    foaf:lastName "Chuang" ;
+    foaf:status """ Isaac Chuang (Course Developer) is a professor of Physics and a professor of Electrical Engineering and Computer Science at MIT.  His research focuses on quantum information and quantum computation.  Professor Chuang leads the NSF  IGERT on Interdisciplinary Quantum Information Science and Engineering at MIT.  He is deeply involved in developing new methods for teaching and learning, as the associate director of MIT's Office of Digital Learning, and as a core developer of the edX platform.
+""" .
+
+usdl4edu:Jack-Spengler a foaf:Person ;
+    foaf:firstName "Jack" ;
+    foaf:lastName "Spengler" ;
+    foaf:status """John D. Spengler is the Director of the Center for Health and the Global Environment at the Harvard School of Public Health as well as the Akira Yamaguchi Professor of Environmental Health and Human Habitation. He has conducted research in the areas of personal monitoring, air pollution health effects, aerosol characterization, indoor air pollution and air pollution meteorology. In addition to his academic and research activities, Professor Spengler has been active in professional education workshops, distance learning and short courses. He also serves as an advisor to several global organizations, including the World Health Organization.
+""" .
+
+usdl4edu:James-Ferguson a foaf:Person ;
+    foaf:firstName "James" ;
+    foaf:lastName "Ferguson" ;
+    foaf:status """
+      James Ferguson is an undergraduate student studying Electrical Engineering and Computer Science at UC Berkeley. He is currently working with """ .
+
+usdl4edu:Jeff-Donahue a foaf:Person ;
+    foaf:firstName "Jeff" ;
+    foaf:lastName "Donahue" ;
+    foaf:status """      
+      Jeff Donahue (BS UT Austin) is a PhD student at UC Berkeley, advised by
+      """ .
+
+usdl4edu:Jess-is-a-mechanical-engineering-sophomore-at-MIT-She-is-working-example-problems-on-film-to-help-201x-students-understand-the-problem-solving-process-Currently-interested-in-international-development-she-has-worked-on-the-development-of-an-efficient-low-cost-muli-crop-thresher-and-researched-power-measurement-in-rickshaws a foaf:Person ;
+    foaf:firstName "Jess" ;
+    foaf:lastName "is" ;
+    foaf:status "Jess is a mechanical engineering sophomore at MIT. She is working example problems on film to help 2.01x students understand the problem-solving process. Currently interested in international development, she has worked on the development of an efficient, low-cost muli-crop thresher and researched power measurement in rickshaws." .
+
+usdl4edu:John-Belcher a foaf:Person ;
+    foaf:firstName "John" ;
+    foaf:lastName "Belcher" ;
+    foaf:status "Professor Belcher earned his Ph.D. in Physics from Caltech in 1971.  Much of his research career has centered on the Voyager Mission to the outer planets, now known as the " .
+
+usdl4edu:John-Guttag a foaf:Person ;
+    foaf:firstName "John" ;
+    foaf:lastName "Guttag" ;
+    foaf:status """Professor Guttag is the Dugald C. Jackson Professor of Computer Science and Electrical Engineering at MIT.  He leads the Computer Science and Artificial Intelligence Laboratory’s Data Driven Medical Research Group.  The group works on the application of advanced computational techniques to medicine.  Current projects include prediction of adverse medical events, prediction of patient-specific response to therapies, non-invasive monitoring and diagnostic tools, and tele-medicine.  He has also done research, published, and lectured in the areas of data networking, sports analytics, software defined radios, software engineering, and mechanical theorem proving.
+Professor Guttag received his bachelors degree in English and his master's in applied mathematics from Brown University.  His doctorate is from the University of Toronto.
+From January of 1999 through August of 2004, Professor Guttag served as Head of MIT’s Electrical Engineering and Computer Science Department. He is a Fellow of the ACM and a member of the American Academy of Arts and Sciences.
+""" .
+
+usdl4edu:John-Hoberman a foaf:Person ;
+    foaf:firstName "John" ;
+    foaf:lastName "Hoberman" ;
+    foaf:status """John Hoberman holds a Ph.D. Scandinavian Languages and Literature from University of California, Berkeley. He has taught courses on globalization many times over the past ten years. He lectures on the international sports system and the global doping crisis in many countries around the world, and has published almost a hundred sports commentaries in newspapers and popular magazines. His books include 
+""" .
+
+usdl4edu:Judy-Hoffman a foaf:Person ;
+    foaf:firstName "Judy" ;
+    foaf:lastName "Hoffman" ;
+    foaf:status """
+      Judy Hoffman (BS UC Berkeley) is a 3rd year PhD student at UC Berkeley,
+      working with """ .
+
+usdl4edu:Justice-ER22x-objective1 a usdl4edu:Objective ;
+    dc:description "Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm8-4-3-3,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Justice-ER22x-objective2 a usdl4edu:Objective ;
+    dc:description "",
+        " Other assigned readings include writings by contemporary philosophers, court cases, and articles about political controversies that raise philosophical questions",
+        " The course invites students to subject their own views on these controversies to critical examination",
+        " Topics include affirmative action, income distribution, same-sex marriage, the role of markets, debates about rights (human rights and property rights), arguments for and against equality, dilemmas of loyalty in public and private life",
+        "Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications",
+        "The principal readings for the course are texts by Aristotle, John Locke, Immanuel Kant, John Stuart Mill, and John Rawls" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Justice-ER22x-objectives a usdl4edu:OverallObjective ;
+    dc:description "Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications. Topics include affirmative action, income distribution, same-sex marriage, the role of markets, debates about rights (human rights and property rights), arguments for and against equality, dilemmas of loyalty in public and private life. The course invites students to subject their own views on these controversies to critical examination.The principal readings for the course are texts by Aristotle, John Locke, Immanuel Kant, John Stuart Mill, and John Rawls. Other assigned readings include writings by contemporary philosophers, court cases, and articles about political controversies that raise philosophical questions." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasPartObjective usdl4edu:Justice-ER22x-objective1,
+        usdl4edu:Justice-ER22x-objective2 .
+
+usdl4edu:Justice-ER22x-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "" .
+
+usdl4edu:Justice-ER22x-unit a usdl4edu:CourseUnit ;
+    dc:description "JusticeX is an introduction to moral and political philosophy, including discussion of contemporary dilemmas and controversies." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Justice-ER22x-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Justice-ER22x-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:Michael-J-Sandel ;
+    usdl4edu:hasTitle "Justice" .
+
+usdl4edu:Ketrina-Yim-Course-Illustrator a foaf:Person ;
+    foaf:firstName "Ketrina" ;
+    foaf:lastName "Yim" ;
+    foaf:status """
+      Ketrina Yim (MS/BS UC Berkeley) is a programmer by day and an artist by
+      night. As an undergraduate, she decorated the whiteboards of Soda Hall
+      with computer-science-themed cartoons, which eventually led to """ .
+
+usdl4edu:Khurram-Afridi a foaf:Person ;
+    foaf:firstName "Khurram" ;
+    foaf:lastName "Afridi" ;
+    foaf:status "Visiting Associate Professor in the Department of Electrical Engineering and Computer Science at MIT. His research interests are in power electronics and its applications in automotive electronics and smart electric grids. He received his BS degree from Caltech, and SM and PhD degrees from MIT. He has been awarded the Werner-von-Siemens Chair for Power Electronics, LUMS SSE, the BMW Scientific Award, BMW AG, and a Carnation Merit Award, Caltech. He was a member of the SURFSAT-1 design team at JPL, the Chief Operating Officer of Techlogix and led the founding team of LUMS School of Science and Engineering." .
+
+usdl4edu:Kun-Qian a foaf:Person ;
+    foaf:firstName "Kun" ;
+    foaf:lastName "Qian" ;
+    foaf:status "Kun Qian is currently pursuing his master's degree at the MIT School of Architecture. He believe that the online education is going to be an increasingly important part of people's daily life, so it should not only be a tool to access knowledge, but a whole package of art in a digital form. He is taking great care to match the aesthetics of 2.01x to its high standards." .
+
+usdl4edu:Larry-Rudolph a foaf:Person ;
+    foaf:firstName "Larry" ;
+    foaf:lastName "Rudolph" ;
+    foaf:status """Larry Rudolph is a researcher at the MIT Computer Science and Artificial Intelligence Laboratory.  Larry received 
+his PhD also in Computer Science in 1981 from the Courant Institute at NYU.  He was on the faculty at University of Toronto, 
+Carnegie-Mellon University, and The Hebrew University, before joining MIT as a principal research scientist, in 1995.   
+Way back in 1978, he helped start the Ultracomputer, a high performance parallel computer architecture, many ideas
+of which can be found in current multi-core computer chips.  Through the lens of parallel processing, Larry's research
+took a new look at most aspects of computer systems, from algorithms and programming languages down to
+computer architecture, switching networks, as well as free-space optical interconnection networks.  His research
+focused switched from high to low performance computing, that is, mobile systems and applications.   He took a
+break from MIT to launch the mobile virtualization project at VMware whose code can be found with the Android OS on
+Verizon phones.  He also founded a used marketplace for digital goods. 
+On-line and distance learning has been of interest to Larry since teaching a "pervasive computing" course as
+part of the Singapore-MIT Alliance where students were sitting in classrooms either in Cambridge or Singapore;
+the 12 hour time difference was a fun challenge.  Larry's interest in Python is exemplified in his book "Bluetooth
+For Programmers" which uses Python to explain how to control Bluetooth functionality.
+""" .
+
+usdl4edu:Marcello-Pagano a foaf:Person ;
+    foaf:firstName "Marcello" ;
+    foaf:lastName "Pagano" ;
+    foaf:status "Marcello Pagano, Professor of Statistical Computing, obtained his Ph.D. from  Johns Hopkins University and has spent the last 35 years on the faculty at the Harvard School Public Health teaching biostatistics and advising students." .
+
+usdl4edu:Mary-Ellen-Wiltrout a foaf:Person ;
+    foaf:firstName "Mary" ;
+    foaf:lastName "Ellen" ;
+    foaf:status "Mary Ellen Wiltrout earned her Ph.D. from the Department of Biology at MIT, taught molecular biology at Harvard University, and recently returned to MIT and the Broad Institute to serve as a course coordinator for 7.00x." .
+
+usdl4edu:Mechanics-ReView-8MReV-objective1 a usdl4edu:Objective ;
+    dc:description " It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Mechanics-ReView-8MReV-objective2 a usdl4edu:Objective ;
+    dc:description "  It will give you a unified overview of mechanics that will dramatically increase your problem-solving ability",
+        " The reward is stronger problem-solving ability that carries over to other areas in physics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Mechanics-ReView-8MReV-objective3 a usdl4edu:Objective ;
+    dc:description "Newtonian mechanics is the study of how forces change the motion of objects" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Mechanics-ReView-8MReV-objective4 a usdl4edu:Objective ;
+    dc:description "Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Mechanics-ReView-8MReV-objective5 a usdl4edu:Objective ;
+    dc:description " Ourapproachproven effectivenessTeachers in the United States, and especially in Massachusetts, can receive extra benefit from this course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Mechanics-ReView-8MReV-objective6 a usdl4edu:Objective ;
+    dc:description "Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Mechanics-ReView-8MReV-objective7 a usdl4edu:Objective ;
+    dc:description " It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8 .
+
+usdl4edu:Mechanics-ReView-8MReV-objectives a usdl4edu:OverallObjective ;
+    dc:description """Mechanics ReView is a second look at introductory Newtonian Mechanics.  It will give you a unified overview of mechanics that will dramatically increase your problem-solving ability. It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics.Newtonian mechanics is the study of how forces change the motion of objects. This course begins with force, and moves on to straight-line motion, momentum, mechanical energy, rotational motion, and angular momentum. Optional units include oscillations, planetary orbits, and a review of multi-concept problems.Why Take Our Course?Our approach to mechanics is a unique one. Through worked examples and online texts we introduce a strategic overview of core concepts in mechanics. This overview couples with a new approach to problem-solving that will help you break down and solve multi-concept problems. By choosing asystem
+interactions
+model
+The road to "easy" goes through "hard." This course is more challenging than a standard high school or introductory college physics offering. We will help you become a more expert problem solver, and that process involves solving a variety of problems, in many different ways, with our new approach. The reward is stronger problem-solving ability that carries over to other areas in physics.Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up. Ourapproach
+proven effectiveness
+Teachers in the United States, and especially in Massachusetts, can receive extra benefit from this course. We offerProfessional Development Points
+Continuing Education Units
+American Association of Physics Teachers
+""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Mechanics-ReView-8MReV-objective1,
+        usdl4edu:Mechanics-ReView-8MReV-objective2,
+        usdl4edu:Mechanics-ReView-8MReV-objective3,
+        usdl4edu:Mechanics-ReView-8MReV-objective4,
+        usdl4edu:Mechanics-ReView-8MReV-objective5,
+        usdl4edu:Mechanics-ReView-8MReV-objective6,
+        usdl4edu:Mechanics-ReView-8MReV-objective7 .
+
+usdl4edu:Mechanics-ReView-8MReV-unit a usdl4edu:CourseUnit ;
+    dc:description "Mechanics ReView presents a college-level introductory mechanics class using a strategic problem-solving approach." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Mechanics-ReView-8MReV-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Alwina-Liu,
+        usdl4edu:Colin-Fredericks,
+        usdl4edu:David-E-Pritchard ;
+    usdl4edu:hasTitle "Mechanics ReView" .
+
+usdl4edu:Michael-Brenner a foaf:Person ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Brenner" ;
+    foaf:status """Michael Brenner is the Glover Professor of Applied Mathematics and Applied Physics, and Harvard College Professor at the Harvard School of Engineering and Applied Sciences. He developed the popular Harvard class, "Science and Cooking: From Haute Cuisine to the Science of Soft Matter," with his colleague David Weitz and chef Ferran Adrià. His research uses mathematics to examine a wide variety of problems in science and engineering, ranging from understanding the shapes of bird beaks, whale flippers and fungal spores, to finding the principles for designing materials that can assemble themselves, to answering ordinary questions about daily life, such as why a droplet of fluid splashes when it collides with a solid surface. 
+""" .
+
+usdl4edu:Michael-Cima a foaf:Person ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Cima" ;
+    foaf:status """Michael Cima is a Professor of Materials Science and Engineering at the Massachusetts Institute of Technology and has an appointment at the David H. Koch Institute for Integrative Cancer Research.  He earned a B.S. in chemistry and a Ph.D. in chemical engineering, both from the University of California at Berkeley. He was elected a Fellow of the American Ceramics Society in 1997 and was elected to the National Academy of Engineering in 2011. Prof. Cima's research concerns advanced technology for medical devices that are used for drug delivery and diagnostics, high-throughput development methods for formulations of materials and pharmaceutical formulations. Prof. Cima is an author of thirty seven US patents, a co-inventor of MIT’s three dimensional printing process, and a co-founder of four startup companies.
+""" .
+
+usdl4edu:Michael-J-Sandel a foaf:Person ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "J." ;
+    foaf:status """Michael J. Sandel is the Anne T. and Robert M. Bass Professor of Government at Harvard University, where he teaches political philosophy.  His course "Justice" has enrolled more than 15,000 Harvard students.  Sandel's writings have been published in 21 languages.  His books include 
+""" .
+
+usdl4edu:Michael-Liang a foaf:Person ;
+    foaf:firstName "Michael" ;
+    foaf:lastName "Liang" ;
+    foaf:status """
+Michael Liang is an 2nd year undergraduate student at UC Berkeley,
+majoring in Electrical Engineering and Computer Science. He took the
+Fall 2012 offering CS188. He has an interest in machine learning,
+classification, and computer security.
+    """ .
+
+usdl4edu:Michelle-Mischke a foaf:Person ;
+    foaf:firstName "Michelle" ;
+    foaf:lastName "Mischke" ;
+    foaf:status "Dr. Michelle Mischke is an Instructor in the Department of Biology at MIT. She serves as a course coordinator for 7.00x." .
+
+usdl4edu:Nate-Hardison-Preceptor a foaf:Person ;
+    foaf:firstName "Nate" ;
+    foaf:lastName "Hardison," ;
+    foaf:status """Nate is a Preceptor in Computer Science at the School of Engineering and Applied Sciences. He received his B.S. in Symbolic Systems from Stanford in 2010 and his M.S. in Computer Science from Stanford in 2011.
+""" .
+
+usdl4edu:Nick-Hay a foaf:Person ;
+    foaf:firstName "Nick" ;
+    foaf:lastName "Hay" ;
+    foaf:status """
+      Nick Hay is a PhD student at UC Berkeley, advised by
+      """ .
+
+usdl4edu:Peter-Cottle-Teaching-Assistant a foaf:Person ;
+    foaf:firstName "Peter" ;
+    foaf:lastName "Cottle" ;
+    foaf:status """
+      Peter Cottle (BS UC San Diego) is a PhD student at UC Berkeley.  He was
+      one of the star students in the Spring 2012 offering of CS188, and he is
+      currently a teaching assistant for the on-campus CS188 offering.  He
+      conducts his PhD research in the CADML group, which solves manufacturing
+      problems with computer science. He has applied some of the concepts from
+      CS188 for his MS Thesis, a """ .
+
+usdl4edu:Peter-Dourmashkin a foaf:Person ;
+    foaf:firstName "Peter" ;
+    foaf:lastName "Dourmashkin" ;
+    foaf:status """ Peter Dourmashkin is Senior Lecturer in the Department of Physics at MIT.   His research interests are in Mathematical Physics, Lie Group and Algebra Representation Theory.  He has been part of the development, implementation, and teaching team for Technology Enabled Active Learning (TEAL).  He has developed OCW Scholar Courses, the physics curriculum for a new university, the Singapore University of Technology and Design (SUTD), and is currently working on online learning through MITx and edX.
+""" .
+
+usdl4edu:Pia-Srensen a foaf:Person ;
+    foaf:firstName "Pia" ;
+    foaf:lastName "Sörensen" ;
+    foaf:status """Pia Sörensen is Preceptor of Science and Cooking at the School of Engineering and Applied Sciences at Harvard University, and the HarvardX Fellow for Science & CookingX. She earned her PhD in Chemical Biology at Harvard University, studying small molecule inhibitors of cell division. 
+""" .
+
+usdl4edu:Pieter-Abbeel-Instructor a foaf:Person ;
+    foaf:firstName "Pieter" ;
+    foaf:lastName "Abbeel" ;
+    foaf:status """
+      """ .
+
+usdl4edu:Piotr-Mitros a foaf:Person ;
+    foaf:firstName "Piotr" ;
+    foaf:lastName "Mitros" ;
+    foaf:status "Chief Scientist of edX and Research Scientist at MIT. His research focus is in finding ways to apply techniques from control systems to optimizing the learning process. He has worked as an analog designer at Texas Instruments, Talking Lights, and most recently, designed the analog front end for a novel medical imaging modality for Rhythmia Medical." .
+
+usdl4edu:Professors-Banerjee-and-Duflo-together-with-Prof-Sendhil-Mullainathan-of-Harvard-University-founded-the a foaf:Person ;
+    foaf:firstName "Professors" ;
+    foaf:lastName "Banerjee" ;
+    foaf:status "Professors Banerjee and Duflo, together with Prof. Sendhil Mullainathan of Harvard University, founded the " .
+
+usdl4edu:Quantum-Mechanics-and-Quantum-Computation-CS191x-objective1 a usdl4edu:Objective ;
+    dc:description "Quantum Mechanics and Quantum ComputationQuantum computation is a remarkable subject based on one of the great computational discoveries that computers based on quantum mechanics are exponentially powerful" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm11-5-3-2,
+        usdl4edu:acm2-10-10-3,
+        usdl4edu:acm6-1-3 .
+
+usdl4edu:Quantum-Mechanics-and-Quantum-Computation-CS191x-objective2 a usdl4edu:Objective ;
+    dc:description "",
+        " The course covers the fundamentals of quantum algorithms, including the quantum fourier transform, period finding, Shor's quantum algorithm for factoring integers, as well as the prospects for quantum algorithms for NP-complete problems",
+        " The course starts with a simple introduction to the fundamental principles of quantum mechanics using the concepts of qubits (or quantum bits) and quantum gates",
+        " This course aims to make this cutting-edge material broadly accessible to undergraduate students, including computer science majors who do not have any prior exposure to quantum mechanics",
+        " This treatment emphasizes the paradoxical nature of the subject, including entanglement, non-local correlations, the no-cloning theorem and quantum teleportation",
+        "Quantum Mechanics and Quantum ComputationQuantum computation is a remarkable subject based on one of the great computational discoveries that computers based on quantum mechanics are exponentially powerful" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Quantum-Mechanics-and-Quantum-Computation-CS191x-objectives a usdl4edu:OverallObjective ;
+    dc:description "Quantum Mechanics and Quantum ComputationQuantum computation is a remarkable subject based on one of the great computational discoveries that computers based on quantum mechanics are exponentially powerful. This course aims to make this cutting-edge material broadly accessible to undergraduate students, including computer science majors who do not have any prior exposure to quantum mechanics. The course starts with a simple introduction to the fundamental principles of quantum mechanics using the concepts of qubits (or quantum bits) and quantum gates. This treatment emphasizes the paradoxical nature of the subject, including entanglement, non-local correlations, the no-cloning theorem and quantum teleportation. The course covers the fundamentals of quantum algorithms, including the quantum fourier transform, period finding, Shor's quantum algorithm for factoring integers, as well as the prospects for quantum algorithms for NP-complete problems." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Quantum-Mechanics-and-Quantum-Computation-CS191x-objective1,
+        usdl4edu:Quantum-Mechanics-and-Quantum-Computation-CS191x-objective2 .
+
+usdl4edu:Quantum-Mechanics-and-Quantum-Computation-CS191x-unit a usdl4edu:CourseUnit ;
+    dc:description "A simple conceptual introduction to quantum mechanics and quantum computation." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Quantum-Mechanics-and-Quantum-Computation-CS191x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Umesh-V-Vazirani ;
+    usdl4edu:hasTitle "Quantum Mechanics and Quantum Computation" .
+
+usdl4edu:Ravi-Ramamoorthi a foaf:Person ;
+    foaf:firstName "Ravi" ;
+    foaf:lastName "Ramamoorthi" ;
+    foaf:status """ is a Professor at UC Berkeley.  He has
+      taught computer graphics more than 10 times at Stanford,
+      Columbia and UC Berkeley, and has been honored with a number of
+      awards for his research, including the 
+      """ .
+
+usdl4edu:Riccardo-Abbate a foaf:Person ;
+    foaf:firstName "Riccardo" ;
+    foaf:lastName "Abbate" ;
+    foaf:status """ Riccardo  earned his Ph.D. in Theoretical Particle Physics at MIT in 2012, with a thesis focusing on the Theory of Strong Interaction.
+""" .
+
+usdl4edu:Rob-Bowden-Head-Teaching-Fellow a foaf:Person ;
+    foaf:firstName "Rob" ;
+    foaf:lastName "Bowden," ;
+    foaf:status """Rob is a senior at Harvard College concentrating in Computer Science with a secondary field in Mathematical Sciences.
+""" .
+
+usdl4edu:Roy-Flukinger a foaf:Person ;
+    foaf:firstName "Roy" ;
+    foaf:lastName "Flukinger" ;
+    foaf:status """Roy Flukinger is the Senior Research Curator of the Harry Ransom Center at The University of Texas at Austin, where he assists in the development, administration and interpretation of the collections.  He holds degrees from Tulane University and from The University of Texas at Austin, and has taught as an Adjunct Lecturer or Assistant Professor at UT and other institutions of higher learning.  He has published and lectured extensively in the fields of regional, cultural and contemporary photography and the history of art and photography, and has produced or participated in over eighty exhibitions. His more recent publications have been on the Center’s famous Gernsheim Collection and upon such twentieth century artists and photographers as Arnold Newman, Fritz Henle and David Douglas Duncan.
+""" .
+
+usdl4edu:Sandeep-Kumar a foaf:Person ;
+    foaf:firstName "Sandeep" ;
+    foaf:lastName "Kumar" ;
+    foaf:status "Sandeep Kumar is assisting Simona in designing the online curriculum for 2.01x. He obtained a M.S. from Caltech in mechanical engineering, and is currently pursuing a Ph.D. at MIT. His work involves the development of an efficient framework for multi-scale analysis of large deformations in crystalline materials." .
+
+usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-objective1 a usdl4edu:Objective ;
+    dc:description "Topics will include: soft matter materials, such as emulsions, illustrated by aioli; elasticity, exemplified by the done-ness of a steak; and diffusion, revealed by the phenomenon of spherification, the culinary technique pioneered by Ferran Adrià" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-objective2 a usdl4edu:Objective ;
+    dc:description " Inspired by such cooking mastery, the Harvard team will then explain, in simple and sophisticated ways, the science behind the recipe" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-objectives a usdl4edu:OverallObjective ;
+    dc:description "Science & Cooking brings together top chefs and preeminent Harvard researchers to explore how everyday cooking and haute cuisine can illuminate basic principles in physics and engineering, and vice versa.During each week of the course, you will watch as chefs reveal the secrets behind some of their most famous culinary creations — often right in their own restaurants. Inspired by such cooking mastery, the Harvard team will then explain, in simple and sophisticated ways, the science behind the recipe.Topics will include: soft matter materials, such as emulsions, illustrated by aioli; elasticity, exemplified by the done-ness of a steak; and diffusion, revealed by the phenomenon of spherification, the culinary technique pioneered by Ferran Adrià.To help you make the link between cooking and science, an “equation of the week” will capture the core scientific concept being explored. You will also have the opportunity to be an experimental scientist in your very own laboratory — your kitchen. By following along with the engaging recipe of the week, taking measurements, and making observations, you will learn to think both like a cook and a scientist. The lab is also one of the most unique components of this course — after all, in what other science course do you get to eat your lab?" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
+    usdl4edu:hasPartObjective usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-objective1,
+        usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-objective2 .
+
+usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "" .
+
+usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-unit a usdl4edu:CourseUnit ;
+    dc:description "SPU27x brings together top chefs and Harvard researchers to explore how everyday cooking and haute cuisine can illuminate basic principles in physics and engineering, and vice versa." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Science--and--Cooking-From-Haute-Cuisine-to-Soft-Matter-Science-SPU27x-prerequisites ;
+    usdl4edu:hasTeacher usdl4edu:David-Weitz,
+        usdl4edu:Michael-Brenner,
+        usdl4edu:Pia-Srensen ;
+    usdl4edu:hasTitle "Science & Cooking: From Haute Cuisine to Soft Matter Science" .
+
+usdl4edu:Simona-Socrate a foaf:Person ;
+    foaf:firstName "Simona" ;
+    foaf:lastName "Socrate" ;
+    foaf:status "Simona Socrate is a Senior Lecturer in the Department of Mechanical Engineering and a Principal Research Scientist at MIT/ISN. She earned a Ph.D. in nuclear engineering from the University of Rome, and a Ph.D. in mechanical engineering from MIT. She has been teaching classes in structural mechanics at MIT for over ten years. Her research efforts focus on the mechanical behavior of fabrics, composites, and soft biological tissue. Her areas of interest include measuring and modeling the high strain rate properties of biological tissue to prevent injuries, and investigating the mechanics of pregnancy to reduce the risk of pre-term delivery. " .
+
+usdl4edu:Software-as-a-Service-CS1691x-objective1 a usdl4edu:Objective ;
+    dc:description " Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Software-as-a-Service-CS1691x-objective2 a usdl4edu:Objective ;
+    dc:description " They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Software-as-a-Service-CS1691x-objective3 a usdl4edu:Objective ;
+    dc:description " Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm1-2,
+        usdl4edu:acm1-2-8,
+        usdl4edu:acm10-1-6-2,
+        usdl4edu:acm10-2-1-1,
+        usdl4edu:acm10-2-1-2,
+        usdl4edu:acm5-3-1-4-1,
+        usdl4edu:acm5-3-3,
+        usdl4edu:acm5-3-4-5-2,
+        usdl4edu:acm6-5-10 .
+
+usdl4edu:Software-as-a-Service-CS1691x-objective4 a usdl4edu:Objective ;
+    dc:description " Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm10-1-6-2,
+        usdl4edu:acm10-2-1-1,
+        usdl4edu:acm10-2-1-2,
+        usdl4edu:acm5-3-1-4-1,
+        usdl4edu:acm5-3-3,
+        usdl4edu:acm5-3-4-5-2,
+        usdl4edu:acm6-5-10 .
+
+usdl4edu:Software-as-a-Service-CS1691x-objective5 a usdl4edu:Objective ;
+    dc:description " Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta .
+
+usdl4edu:Software-as-a-Service-CS1691x-objective6 a usdl4edu:Objective ;
+    dc:description " They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm5-3-2-1-1 .
+
+usdl4edu:Software-as-a-Service-CS1691x-objectives a usdl4edu:OverallObjective ;
+    dc:description "CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.Students will work individually on weekly coding projects. Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta ;
+    usdl4edu:hasPartObjective usdl4edu:Software-as-a-Service-CS1691x-objective1,
+        usdl4edu:Software-as-a-Service-CS1691x-objective2,
+        usdl4edu:Software-as-a-Service-CS1691x-objective3,
+        usdl4edu:Software-as-a-Service-CS1691x-objective4,
+        usdl4edu:Software-as-a-Service-CS1691x-objective5,
+        usdl4edu:Software-as-a-Service-CS1691x-objective6 .
+
+usdl4edu:Software-as-a-Service-CS1691x-unit a usdl4edu:CourseUnit ;
+    dc:description "CS169.1x teaches the fundamentals for engineering long-lived software using Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Software-as-a-Service-CS1691x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Armando-Fox,
+        usdl4edu:David-Patterson ;
+    usdl4edu:hasTitle "Software as a Service" .
+
+usdl4edu:Software-as-a-Service-CS1692x-objective1 a usdl4edu:Objective ;
+    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment",
+        "Note:" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Software-as-a-Service-CS1692x-objective2 a usdl4edu:Objective ;
+    dc:description "1x, students use Agile development methods to deploy a simple SaaS app in the cloud" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm5-3-2-1,
+        usdl4edu:acm5-3-2-1-2 .
+
+usdl4edu:Software-as-a-Service-CS1692x-objective3 a usdl4edu:Objective ;
+    dc:description " Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Software-as-a-Service-CS1692x-objective4 a usdl4edu:Objective ;
+    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment",
+        "Note:" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Software-as-a-Service-CS1692x-objective5 a usdl4edu:Objective ;
+    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm5-2-1-2-12,
+        usdl4edu:acm5-3-2-1-7,
+        usdl4edu:acm9-3-1 .
+
+usdl4edu:Software-as-a-Service-CS1692x-objective6 a usdl4edu:Objective ;
+    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm5-2-1-2-12,
+        usdl4edu:acm5-3-2-1-7,
+        usdl4edu:acm5-3-6-2,
+        usdl4edu:acm9-3-1 .
+
+usdl4edu:Software-as-a-Service-CS1692x-objective7 a usdl4edu:Objective ;
+    dc:description "2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm14-4-116,
+        usdl4edu:acm14-4-40,
+        usdl4edu:acm8-1-1-2 .
+
+usdl4edu:Software-as-a-Service-CS1692x-objective8 a usdl4edu:Objective ;
+    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm5-2-1-2-12,
+        usdl4edu:acm5-3-2-1-7,
+        usdl4edu:acm9-3-1 .
+
+usdl4edu:Software-as-a-Service-CS1692x-objectives a usdl4edu:OverallObjective ;
+    dc:description """CS 169.2x is the second half of University of California, Berkeley's semester long course on Software as a Service. In the first half of the course, CS 169.1x, students use Agile development methods to deploy a simple SaaS app in the cloud. In the second half, CS 169.2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript. They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data. Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers.Other topics covered in CS 169.2x includeHow to form, organize and manage small programming teams
+
+Introduction to design patterns: what they are and how to recognize opportunities to apply them
+
+Using Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaS
+
+There will be three homework assignments: two programming assignments and one assignment about operations/deployment. There will also be several short quizzes.Unlike CS 169.1x, which has been offered multiple times both online and on-campus, CS 169.2x is fresh, new material. Although versions of it have been taught at UC Berkeley, it has evolved significantly between offerings, and this online version is essentially new. This is, therefore, an "alpha" version. A more polished version will offered at a later date.Note:
+""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Software-as-a-Service-CS1692x-objective1,
+        usdl4edu:Software-as-a-Service-CS1692x-objective2,
+        usdl4edu:Software-as-a-Service-CS1692x-objective3,
+        usdl4edu:Software-as-a-Service-CS1692x-objective4,
+        usdl4edu:Software-as-a-Service-CS1692x-objective5,
+        usdl4edu:Software-as-a-Service-CS1692x-objective6,
+        usdl4edu:Software-as-a-Service-CS1692x-objective7,
+        usdl4edu:Software-as-a-Service-CS1692x-objective8 .
+
+usdl4edu:Software-as-a-Service-CS1692x-unit a usdl4edu:CourseUnit ;
+    dc:description "CS 169.2x teaches sophisticated SaaS+Agile skills, such as working with legacy code, building on basics from CS 169.1x." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Software-as-a-Service-CS1692x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Armando-Fox,
+        usdl4edu:David-Patterson ;
+    usdl4edu:hasTitle "Software as a Service" .
+
+usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-objective1 a usdl4edu:Objective ;
+    dc:description " Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-objective2 a usdl4edu:Objective ;
+    dc:description " Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-objectives a usdl4edu:OverallObjective ;
+    dc:description "Everyone gets sick. Thanks to medical innovations in the past 50 years, many diseases and conditions have been either mitigated or even cured through medicine. How does a research innovation turn into a therapeutic medicine that health care providers prescribe to patients? This course explores the process, challenges and issues in developing pharmaceutical products.  Drug development is a dynamic field where innovation and entrepreneurship are necessary to keep up with health care expectations, strict regulations and tightening development budgets.  An overview of drug development, approval, and consumer issues will be presented and discussed in the context of research practices, science, marketing, public welfare and business. Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasPartObjective usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-objective1,
+        usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-objective2 .
+
+usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-unit a usdl4edu:CourseUnit ;
+    dc:description "Discover the impact of drug development and become an informed consumer or scientist." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Dr-Alan-Watts,
+        usdl4edu:Dr-Janet-Walkow ;
+    usdl4edu:hasTitle "Take Your Medicine - The Impact of Drug Development" .
+
+usdl4edu:Tania-Khanna a foaf:Person ;
+    foaf:firstName "Tania" ;
+    foaf:lastName "Khanna" ;
+    foaf:status "Visiting Lecturer in the Department of Electrical Engineering and Computer Science at MIT. Her research interests are in system level optimization of electronic circuits and its applications in biomedical electronics. She received her BS degree from Cornell, and SM and PhD degrees from MIT. " .
+
+usdl4edu:The-Ancient-Greek-Hero-CB22x-objective1 a usdl4edu:Objective ;
+    dc:description "About this courseWhat is it to be human, and how can ancient concepts of the heroic and anti-heroic inform our understanding of the human condition? That question is at the core ofThe Ancient Greek HeroThe classical Greeks' concepts of Heroes and the \"heroic\" were very different from the way we understand the term today" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:The-Ancient-Greek-Hero-CB22x-objective2 a usdl4edu:Objective ;
+    dc:description " In this course, students analyze Greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:The-Ancient-Greek-Hero-CB22x-objective3 a usdl4edu:Objective ;
+    dc:description " In this course, students analyze Greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual .
+
+usdl4edu:The-Ancient-Greek-Hero-CB22x-objectives a usdl4edu:OverallObjective ;
+    dc:description """About this courseWhat is it to be human, and how can ancient concepts of the heroic and anti-heroic inform our understanding of the human condition? That question is at the core ofThe Ancient Greek Hero
+The classical Greeks' concepts of Heroes and the "heroic" were very different from the way we understand the term today. In this course, students analyze Greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general.In Greek tradition, a hero was a human, male or female, of the remote past, who was endowed with superhuman abilities by virtue of being descended from an immortal god. Rather than being paragons of virtue, as heroes are viewed in many modern cultures, ancient Greek heroes had all of the qualities and faults of their fellow humans, but on a much larger scale. Further, despite their mortality, heroes, like the gods, were objects of cult worship – a dimension which is also explored in depth in the course.The original sources studied in this course include the HomericIliad
+Odyssey
+Tales of Hoffman
+Blade Runner
+The true hero of the course is thelogos
+logos
+Using modern technology and engaging texts,The Ancient Greek Hero
+""" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual ;
+    usdl4edu:hasPartObjective usdl4edu:The-Ancient-Greek-Hero-CB22x-objective1,
+        usdl4edu:The-Ancient-Greek-Hero-CB22x-objective2,
+        usdl4edu:The-Ancient-Greek-Hero-CB22x-objective3 .
+
+usdl4edu:The-Ancient-Greek-Hero-CB22x-unit a usdl4edu:CourseUnit ;
+    dc:description "The Ancient Greek Hero is a survey of ancient Greek literature focusing on classical concepts of the hero and how they can inform our understanding of the human condition." ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:The-Ancient-Greek-Hero-CB22x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Gregory-Nagy ;
+    usdl4edu:hasTitle "The Ancient Greek Hero" .
+
+usdl4edu:The-Challenges-of-Global-Poverty-1473x-objective1 a usdl4edu:Objective ;
+    dc:description "This is a course for those who are interested in the challenge posed by massive and persistent world poverty, and are hopeful that economists might have something useful to say about this challenge" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:The-Challenges-of-Global-Poverty-1473x-objective2 a usdl4edu:Objective ;
+    dc:description " The questions we will take up include: Is extreme poverty a thing of the past? What is economic life like when living under a dollar per day? Are the poor always hungry?  How do we make schools work for poor citizens? How do we deal with the disease burden? Is microfinance invaluable or overrated? Without property rights, is life destined to be \"nasty, brutish and short\"? Should we leave economic development to the market? Should we leave economic development to non-governmental organizations (NGOs)? Does foreign aid help or hinder? Where is the best place to intervene? And many others" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm14-2 .
+
+usdl4edu:The-Challenges-of-Global-Poverty-1473x-objectives a usdl4edu:OverallObjective ;
+    dc:description "This is a course for those who are interested in the challenge posed by massive and persistent world poverty, and are hopeful that economists might have something useful to say about this challenge. The questions we will take up include: Is extreme poverty a thing of the past? What is economic life like when living under a dollar per day? Are the poor always hungry?  How do we make schools work for poor citizens? How do we deal with the disease burden? Is microfinance invaluable or overrated? Without property rights, is life destined to be \"nasty, brutish and short\"? Should we leave economic development to the market? Should we leave economic development to non-governmental organizations (NGOs)? Does foreign aid help or hinder? Where is the best place to intervene? And many others. At the end of this course, you should have a good sense of the key questions asked by scholars interested in poverty today, and hopefully a few answers as well." ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasPartObjective usdl4edu:The-Challenges-of-Global-Poverty-1473x-objective1,
+        usdl4edu:The-Challenges-of-Global-Poverty-1473x-objective2 .
+
+usdl4edu:The-Challenges-of-Global-Poverty-1473x-unit a usdl4edu:CourseUnit ;
+    dc:description """An introduction to development economics, from the urgent issues of
+global poverty and the economic models that might explain them, to the policy
+implications of those models.""" ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasOverallObjective usdl4edu:The-Challenges-of-Global-Poverty-1473x-objectives ;
+    usdl4edu:hasTeacher usdl4edu:Abhijit-Vinayak-Banerjee,
+        usdl4edu:Esther-Duflo,
+        usdl4edu:Professors-Banerjee-and-Duflo-together-with-Prof-Sendhil-Mullainathan-of-Harvard-University-founded-the ;
+    usdl4edu:hasTitle "The Challenges of Global Poverty" .
+
+usdl4edu:Tommy-MacWilliam-Head-Teaching-Fellow a foaf:Person ;
+    foaf:firstName "Tommy" ;
+    foaf:lastName "MacWilliam," ;
+    foaf:status """Tommy is a senior at Harvard College concentrating in Computer Science with a secondary field in Government.
+""" .
+
+usdl4edu:Umesh-V-Vazirani a foaf:Person ;
+    foaf:firstName "Umesh" ;
+    foaf:lastName "V." ;
+    foaf:status "Umesh Vazirani is the Strauch Distinguished Professor of Electrical Engineering and Computer Science at University of California, Berkeley, and is the director of the Berkeley Quantum Information and Computation Center. Professor Vazirani has done foundational work on the computational foundations of randomness, algorithms and novel models of computation. His 1993 paper with Ethan Bernstein helped launch the field of quantum complexity theory. In 2007-08, he was appointed Keenan Visiting Professor for distinguished teaching at Princeton University. He is the author of two books An Introduction to Computational Learning Theory with Michael Kearns (MIT Press) and Algorithms with Sanjoy Dasgupta and Christos Papadimitriou (McGraw Hill)." .
+
+usdl4edu:Walter-Lewin a foaf:Person ;
+    foaf:firstName "Walter" ;
+    foaf:lastName "Lewin" ;
+    foaf:status "Professor Lewin got his PhD in Nuclear Physics at the Technical University in Delft, the Netherlands in 1965. He joined the Physics faculty at MIT in 1966 and became a pioneer in the new field of X-ray Astronomy. His 105 online lectures are world renowned and watched by about 2 million people yearly. Lewin has received five teaching awards. He is the only MIT Professor featured in \"The Best 300 Professors\" of The Princeton Review. Professor Lewin co-authored with Warren Goldstein the book \"For the Love of Physics\" (Free Press, Simon & Schuster), which as of 2012 has been translated in 9 languages and will be translated in a total of 11 languages. About this book Bill Gates wrote: \"For the Love of Physics captures Walter Lewin's extraordinary intellect, passion for physics, and brilliance as a teacher. Hopefully this book will bring more people into the orbit of this extraordinary educator and scientist.\" " .
+
+usdl4edu:William-Fisher-III a foaf:Person ;
+    foaf:firstName "William" ;
+    foaf:lastName "Fisher" ;
+    foaf:status """ received his undergraduate degree (in American Studies) from Amherst College and his graduate degrees (J.D. and Ph.D. in the History of American Civilization) from Harvard University. Between 1982 and 1984, he served as a law clerk to Judge Harry T. Edwards of the United States Court of Appeals for the D.C. Circuit and then to Justice Thurgood Marshall of the United States Supreme Court. Since 1984, he has taught at Harvard Law School, where he is currently the Wilmer Hale Professor of Intellectual Property Law and the Director of the 
+""" .
+
+usdl4edu:Zack-Mayeda-Course-Video-Producer a foaf:Person ;
+    foaf:firstName "Zack" ;
+    foaf:lastName "Mayeda" ;
+    foaf:status """
+      Zack Mayeda is an undergraduate student at UC Berkeley, currently enrolled
+      in the on-campus offering of CS188. He is studying Electrical Engineering
+      and Computer Science, and is interested in mobile application development
+      and web design.
+    """,
+        """
+      Zack Mayeda is an undergraduate student at UC Berkeley, previously enrolled
+      in the on-campus offering of CS188. He is studying Electrical Engineering
+      and Computer Science, and is interested in mobile application development
+      and web design.
+    """ .
+
+usdl4edu:Zamyla-Chan-Teaching-Fellow a foaf:Person ;
+    foaf:firstName "Zamyla" ;
+    foaf:lastName "Chan," ;
+    foaf:status """Zamyla is a junior at Harvard College concentrating in Engineering Sciences with a secondary field in Computer Science.
+""" .
+
+usdl4edu:Ziang-Xie-Teaching-Assistant a foaf:Person ;
+    foaf:firstName "Ziang" ;
+    foaf:lastName "Xie" ;
+    foaf:status """
+      Ziang Xie is an undergraduate student at UC Berkeley,
+      studying Electrical Engineering and Computer Science. He took the
+      Spring 2011 offering of CS188, and is currently a member of the
+      Robot Learning Lab, where he's worked on
+      """ .
+
+usdl4edu:Ani-Adhikari a foaf:Person ;
+    foaf:firstName "Ani" ;
+    foaf:lastName "Adhikari" ;
+    foaf:status "Ani Adhikari, Senior Lecturer in Statistics at UC Berkeley, has received the Distinguished Teaching Award at Berkeley and the Dean's Award for Distinguished Teaching at Stanford University. While her research interests are centered on applications of statistics in the natural sciences, her primary focus has always been on teaching and mentoring students. She teaches courses at all levels and has a particular affinity for teaching statistics to students who have little mathematical preparation. She received her undergraduate degree from the Indian Statistical Institute, and her Ph.D. in Statistics from Berkeley." .
+
+usdl4edu:Armando-Fox a foaf:Person ;
+    foaf:firstName "Armando" ;
+    foaf:lastName "Fox" ;
+    foaf:status "Armando Fox is a Professor-In-Residence and Academic Director for Online-Education at UC Berkeley and was previously an Assistant Professor at Stanford, where he received teaching and mentoring awards from the Associated Students of Stanford University, the Society of Women Engineers, and Tau Beta Pi Engineering Honor Society. In previous lives he helped design the Intel Pentium Pro microprocessor and founded a successful startup to commercialize his UC Berkeley dissertation research on mobile computing. His degrees in electrical engineering and computer science are from MIT, the University of Illinois, and UC Berkeley, and he is an ACM Distinguished Member.",
+        "Armando Fox is an Adjunct Associate Professor at UC Berkeley and was previously an Assistant Professor at Stanford, where he received teaching and mentoring awards from the Associated Students of Stanford University, the Society of Women Engineers, and Tau Beta Pi Engineering Honor Society. In previous lives he helped design the Intel Pentium Pro microprocessor and founded a successful startup to commercialize his UC Berkeley dissertation research on mobile computing. His degrees in electrical engineering and computer science are from MIT, the University of Illinois, and UC Berkeley, and he is an ACM Distinguished Member." .
+
+usdl4edu:Chris-Terman a foaf:Person ;
+    foaf:firstName "Chris" ;
+    foaf:lastName "Terman" ;
+    foaf:status " Senior Lecturer in the Department of Electrical Engineering and Computer Science at MIT. He has taught computer science courses in the department for many years and won many awards for his teaching. His research has been in the areas of programming languages, compilers, computer-aided design tools and educational technologies.",
+        """Chris Terman is a Senior Lecturer in the MIT Department of Electrical Engineering and Computer Science and a Principal Investigator at the MIT Computer Science and Artificial Intelligence Laboratory. Chris does research in the area of digital systems, computer-aided design tools and interactive educational technology for design-oriented courses. For the past four decades, he has been an award-wining teacher in computer science, mainly in the area of digital systems and their applications, including participating in MITx's inaugural course on Circuits and Electronics.
+Chris received his BA in Physics from Wesleyan University and headed to MIT for graduate school in 1973.  He completed his MS, EE and PhD degrees in Computer Science and Engineering and subsequently joined the MIT EECS faculty.  Chris escaped from MIT in 1985 and was a cofounder of several firms, including Symbolics Inc. (manufacturer of Lisp Machines), TLW Inc. (VLSI designs for communications and multimedia), and Curl Co. (software technology for the Web).  He returned to MIT in 1995 and subsequently participated in the design of the Ray and Maria Stata Center, CSAIL's home, and has served as Associate Director and later Co-Director of CSAIL.
+""" .
+
+usdl4edu:David-Patterson a foaf:Person ;
+    foaf:firstName "David" ;
+    foaf:lastName "Patterson" ;
+    foaf:status "David Patterson is the Pardee Professor of Computer Science at UC Berkeley and the recipient of the Distinguished Teaching Award (UC Berkeley), the Karlstrom Outstanding Educator Award (ACM), the Mulligan Education Medal (IEEE), and the Undergraduate Teaching Award (IEEE). He has served as Chair of Berkeley's CS Division, Chair of the CRA, and President of the ACM. His best-known research projects are Reduced Instruction Set Computers (RISC), Redundant Arrays of Inexpensive Disks (RAID), and Network of Workstations (NOW). Among other distinctions, he's been elected to the National Academy of Engineering, the National Academy of Sciences, and the Silicon Valley Engineering Hall of Fame, and is a Fellow of the Computer History Museum. He received all his degrees from UCLA." .
+
+usdl4edu:Paul-Matsiras a foaf:Person ;
+    foaf:firstName "Paul" ;
+    foaf:lastName "Matsiras" ;
+    foaf:status "Paul Matsiras is a graduating senior double majoring in statistics and economics at the University of California, Berkeley. In addition to his studies, Paul is an officer for Cal's Undergraduate Economics Association, as well as the President and Founder of the school's Undergraduate Statistics Association. Outside of school, he has interned at both the Federal Reserve Board of Governors and the U.S. Department of Commerce. And, after completing his undergraduate degree, Paul intends to pursue a graduate degree in economics." .
+
+usdl4edu:Philip-B-Stark a foaf:Person ;
+    foaf:firstName "Philip" ;
+    foaf:lastName "B." ;
+    foaf:status "Philip B. Stark is Professor of Statistics at University of California, Berkeley where he developed the university's first online course. He has published research on the Big Bang, causal inference, the census, earthquake prediction, election auditing, food web models, the geomagnetic field, geriatric hearing loss, information retrieval, Internet content filters, nonparametrics, the seismic structure of Sun and Earth, spectroscopy, spectrum estimation, and uncertainty quantification for computational models of complex systems. He has consulted for the U.S. Departments of Agriculture, Commerce, Housing and Urban Development, Justice, and Veterans Affairs; the Federal Trade Commission; the California and Colorado Secretaries of State; the California Attorney General; and the Illinois State Attorney. He has testified to Congress and the California legislature, and in litigation concerning employment, environmental protection, equal protection, lending, intellectual property, jury selection, import restrictions, insurance, natural resources, product liability, trade secrets, and advertising. He received his AB from Princeton University and his Ph.D. from UCSD." .
+
+usdl4edu:edx a foaf:Organization ;
+    dc:description "Edx" .
+
