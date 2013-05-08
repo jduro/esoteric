@@ -159,7 +159,8 @@ class EdxSpider(CrawlSpider):
                 t=TeacherItem()
                 t['name']=str(teacher.select("./*")[1].select("./text()").extract()[0].encode('utf-8'))
                 t['bio']=str(teacher.select("./p/text()").extract()[0].encode('utf-8'))
-                edu['teachers'].append(t)
+                if not "Berkeley students Nicholas Estorga and Brandon" in t['name']:
+                    edu['teachers'].append(t)
         
         return edu
 

@@ -177,6 +177,18 @@ usdl4edu:Abhijit-Vinayak-Banerjee a foaf:Person ;
     foaf:status "Abhijit Banerjee was educated at the University of Calcutta, Jawaharlal Nehru University, and Harvard University. He is currently the Ford Foundation International Professor of Economics at MIT. Banerjee is a past president of the Bureau for Research in the Economic Analysis of Development, a fellow of the American Academy of Arts and Sciences and the Econometric Society, and has been a Guggenheim Fellow and an Alfred P. Sloan Fellow. He is the recipient of many awards, including the inaugural Infosys Prize in 2009, and has been an honorary advisor to many organizations including the World Bank and the government of India." .
 
 usdl4edu:Age-of-Globalization-UT301x-objective1 a usdl4edu:Objective ;
+    dc:description "  Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm14-1-28 .
+
+usdl4edu:Age-of-Globalization-UT301x-objective2 a usdl4edu:Objective ;
+    dc:description "Learn how to identify and analyze global systems and better understand how the world works" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm8-3-3-5 .
+
+usdl4edu:Age-of-Globalization-UT301x-objective3 a usdl4edu:Objective ;
     dc:description "",
         "  Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process",
         "  These man-made systems provide transport, communication, governance, and entertainment on a global scale",
@@ -189,21 +201,9 @@ usdl4edu:Age-of-Globalization-UT301x-objective1 a usdl4edu:Objective ;
         "The globalization process exemplifies connectivity" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
 
-usdl4edu:Age-of-Globalization-UT301x-objective2 a usdl4edu:Objective ;
-    dc:description "Learn how to identify and analyze global systems and better understand how the world works" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasContext usdl4edu:acm14-1-11,
-        usdl4edu:acm14-1-12,
-        usdl4edu:acm8-3-3-5 .
-
-usdl4edu:Age-of-Globalization-UT301x-objective3 a usdl4edu:Objective ;
+usdl4edu:Age-of-Globalization-UT301x-objective4 a usdl4edu:Objective ;
     dc:description "Learn how to identify and analyze global systems and better understand how the world works" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
-
-usdl4edu:Age-of-Globalization-UT301x-objective4 a usdl4edu:Objective ;
-    dc:description "  Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm14-1-28 .
 
 usdl4edu:Age-of-Globalization-UT301x-objectives a usdl4edu:OverallObjective ;
     dc:description "Globalization is a fascinating spectacle that can be understood as global systems of competition and connectivity.  These man-made systems provide transport, communication, governance, and entertainment on a global scale. International crime networks are outgrowths of the same systems. Topics include national identity, language diversity, the global labor market, popular culture, sports and climate change.However, an increase in integration has not brought increased equality.  Globalization creates winners and losers among countries and global corporations, making competition the beating heart of the globalization process.The globalization process exemplifies connectivity. Globalization is unimaginable without the unprecedented electronic networks that project dominant cultural products into every society on earth.Learn how to identify and analyze global systems and better understand how the world works." ;
@@ -254,11 +254,31 @@ usdl4edu:Arjun-Singh-Head-Teaching-Assistant a foaf:Person ;
       Robot Learning Lab, he has worked on """ .
 
 usdl4edu:Artificial-Intelligence-CS1881x-objective1 a usdl4edu:Objective ;
+    dc:description "  AI methods plan your driving directions, filter your spam, and focus your cameras on faces" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective2 a usdl4edu:Objective ;
+    dc:description "  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm11-1-2,
+        usdl4edu:acm13-1-2-1-4,
+        usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm14-1-18,
+        usdl4edu:acm3 .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective3 a usdl4edu:Objective ;
+    dc:description "  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Artificial-Intelligence-CS1881x-objective4 a usdl4edu:Objective ;
     dc:description " The on-campus version of this upper division computer science course draws about 600 Berkeley students each year" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
 
-usdl4edu:Artificial-Intelligence-CS1881x-objective2 a usdl4edu:Objective ;
+usdl4edu:Artificial-Intelligence-CS1881x-objective5 a usdl4edu:Objective ;
     dc:description "",
         "  AI lets you guide your phone with your voice and read foreign newspapers in English",
         "  AI methods plan your driving directions, filter your spam, and focus your cameras on faces",
@@ -280,36 +300,16 @@ usdl4edu:Artificial-Intelligence-CS1881x-objective2 a usdl4edu:Objective ;
         "CS188" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
-usdl4edu:Artificial-Intelligence-CS1881x-objective3 a usdl4edu:Objective ;
+usdl4edu:Artificial-Intelligence-CS1881x-objective6 a usdl4edu:Objective ;
     dc:description "  Beyond today's applications, AI is at the core of many new technologies that will shape our future" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm14-1-16,
         usdl4edu:acm14-4,
         usdl4edu:acm8-4-4 .
 
-usdl4edu:Artificial-Intelligence-CS1881x-objective4 a usdl4edu:Objective ;
-    dc:description "  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
-
-usdl4edu:Artificial-Intelligence-CS1881x-objective5 a usdl4edu:Objective ;
+usdl4edu:Artificial-Intelligence-CS1881x-objective7 a usdl4edu:Objective ;
     dc:description "  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
-
-usdl4edu:Artificial-Intelligence-CS1881x-objective6 a usdl4edu:Objective ;
-    dc:description "  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8,
-        usdl4edu:acm11-1-2,
-        usdl4edu:acm13-1-2-1-4,
-        usdl4edu:acm14-1-11,
-        usdl4edu:acm14-1-12,
-        usdl4edu:acm14-1-18,
-        usdl4edu:acm3 .
-
-usdl4edu:Artificial-Intelligence-CS1881x-objective7 a usdl4edu:Objective ;
-    dc:description "  AI methods plan your driving directions, filter your spam, and focus your cameras on faces" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
 
 usdl4edu:Artificial-Intelligence-CS1881x-objectives a usdl4edu:OverallObjective ;
     dc:description "CS188.1x is a new online adaptation of the first half of UC Berkeley's CS188: Introduction to Artificial Intelligence. The on-campus version of this upper division computer science course draws about 600 Berkeley students each year.Artificial intelligence is already all around you, from web search to video games.  AI methods plan your driving directions, filter your spam, and focus your cameras on faces.  AI lets you guide your phone with your voice and read foreign newspapers in English.  Beyond today's applications, AI is at the core of many new technologies that will shape our future.  From self-driving cars to household robots, advancements in AI help transform science fiction into real systems.CS188.1x focuses on Behavior from Computation.  It will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision–theoretic modeling paradigm.  By the end of this course, you will have built autonomous agents that efficiently make decisions in stochastic and in adversarial settings.  CS188.2x (to follow CS188.1x, precise date to be determined) will cover Reasoning and Learning.  With this additional machinery your agents will be able to draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in CS188x apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue." ;
@@ -343,16 +343,6 @@ usdl4edu:Artificial-Intelligence-CS1881x-unit a usdl4edu:CourseUnit ;
         usdl4edu:Zack-Mayeda-Course-Video-Producer,
         usdl4edu:Ziang-Xie-Teaching-Assistant ;
     usdl4edu:hasTitle "Artificial Intelligence" .
-
-<http://rdf.genssiz.dei.uc.pt/usdl4edu#Berkeley-students-Nicholas-Estorga-and-Brandon-Wang-have
-------developed-the-auto-graders-used-in-the-course-and-will-be
-------assisting-in-its-administration> a foaf:Person ;
-    foaf:firstName "Berkeley" ;
-    foaf:lastName "students" ;
-    foaf:status """Berkeley students Nicholas Estorga and Brandon Wang have
-      developed the auto-graders used in the course, and will be
-      assisting in its administration. 
-""" .
 
 usdl4edu:Brad-Miller a foaf:Person ;
     foaf:firstName "Brad" ;
@@ -407,48 +397,48 @@ usdl4edu:Colin-Fredericks a foaf:Person ;
     foaf:status "Dr. Fredericks is a postdoctoral fellow at MIT. He is an educational researcher in Dr. Pritchard's group, and winner of the 2010-11 Learning Triangle award for teaching. Colin is the course coordinator for Mechanics ReView." .
 
 usdl4edu:Copyright-HLS1x-objective1 a usdl4edu:Objective ;
-    dc:description "About HLS1xHLS1x Copyright, an experimental course offered on edX, explores in depth the law, theory, and practice of copyright" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    dc:description " Considerable attention is devoted to the relationship between copyright law and creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Copyright-HLS1x-objective2 a usdl4edu:Objective ;
-    dc:description "At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
-
-usdl4edu:Copyright-HLS1x-objective3 a usdl4edu:Objective ;
-    dc:description " Approximately two thirds of the course focus on the copyright system of the United States; the remainder is devoted to the laws pertaining to copyright and \"neighboring rights\" in other countries" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
-
-usdl4edu:Copyright-HLS1x-objective4 a usdl4edu:Objective ;
-    dc:description "Enrollment in the course is limited to 500 participants, who were selected through an application process" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
-
-usdl4edu:Copyright-HLS1x-objective5 a usdl4edu:Objective ;
-    dc:description "Enrollment in the course is limited to 500 participants, who were selected through an application process" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
-
-usdl4edu:Copyright-HLS1x-objective6 a usdl4edu:Objective ;
     dc:description " When admitting participants, the course organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm12-10,
         usdl4edu:acm13-3-3 .
 
-usdl4edu:Copyright-HLS1x-objective7 a usdl4edu:Objective ;
-    dc:description "At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8 .
-
-usdl4edu:Copyright-HLS1x-objective8 a usdl4edu:Objective ;
-    dc:description " Considerable attention is devoted to the relationship between copyright law and creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
-
-usdl4edu:Copyright-HLS1x-objective9 a usdl4edu:Objective ;
+usdl4edu:Copyright-HLS1x-objective3 a usdl4edu:Objective ;
     dc:description " Fisher and his team to experiment with different combinations of teaching materials and educational technologies" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm12-10,
         usdl4edu:acm14-1-16,
         usdl4edu:acm14-1-43,
         usdl4edu:acm14-4 .
+
+usdl4edu:Copyright-HLS1x-objective4 a usdl4edu:Objective ;
+    dc:description "At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8 .
+
+usdl4edu:Copyright-HLS1x-objective5 a usdl4edu:Objective ;
+    dc:description "Enrollment in the course is limited to 500 participants, who were selected through an application process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Copyright-HLS1x-objective6 a usdl4edu:Objective ;
+    dc:description " Approximately two thirds of the course focus on the copyright system of the United States; the remainder is devoted to the laws pertaining to copyright and \"neighboring rights\" in other countries" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Copyright-HLS1x-objective7 a usdl4edu:Objective ;
+    dc:description "Enrollment in the course is limited to 500 participants, who were selected through an application process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Copyright-HLS1x-objective8 a usdl4edu:Objective ;
+    dc:description "At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Copyright-HLS1x-objective9 a usdl4edu:Objective ;
+    dc:description "About HLS1xHLS1x Copyright, an experimental course offered on edX, explores in depth the law, theory, and practice of copyright" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Copyright-HLS1x-objectives a usdl4edu:OverallObjective ;
     dc:description "About HLS1xHLS1x Copyright, an experimental course offered on edX, explores in depth the law, theory, and practice of copyright. Approximately two thirds of the course focus on the copyright system of the United States; the remainder is devoted to the laws pertaining to copyright and \"neighboring rights\" in other countries. Considerable attention is devoted to the relationship between copyright law and creative expression in a variety of fields: literature; music; film; photography; graphic art; software; comedy; fashion; and architecture. The course commences on January 28, 2013, and lasts for 12 weeks.Enrollment in the course is limited to 500 participants, who were selected through an application process. When admitting participants, the course organizers sought to create a group that is diverse along many dimensions, including country of residence, age, occupation, educational background, and gender. Applicants had to be at least 13 years old, have a good grasp of the English language, and be willing to devote eight hours per week to learning and discussing the material. Otherwise, however, there are no prerequisites for taking this course. In particular, no legal background is required.Several methods of instruction are used. Participants watch pre-recorded lectures, engage in interactive live webcasts of events in which guest speakers address especially controversial issues, discuss legal problems in online forums, and (most importantly) participate once a week in an 80-minute online seminar. Those seminars are taught by teaching fellows, all of whom are currently students at Harvard Law School.At the conclusion of the course, each participant takes a three-hour exam, designed to assess his or her knowledge of copyright law and policy. Those exams are graded by the teaching fellows. Participants who receive passing grades are to be awarded certificates of completion and provided written assessments of their degree of proficiency.HLS1x Copyright is an experimental course, with four different variants that allow Prof. Fisher and his team to experiment with different combinations of teaching materials and educational technologies. Enrollment for the course is limited because we believe that high-quality legal education depends, at least in part, upon supervised small-group discussions of difficult issues. Fidelity to that principle requires confining the course to the number of participants that can be supervised effectively by our 21 teaching fellows. The limit on the enrollment does not mean, however, that we are not allowing access to the course materials; to the contrary, they are made publicly available." ;
@@ -616,11 +606,11 @@ usdl4edu:Elements-of-Structures-201x-unit a usdl4edu:CourseUnit ;
 
 usdl4edu:Energy-101-UT101x-objective1 a usdl4edu:Objective ;
     dc:description " The course will have interactive learning modules and lecture-oriented around current events related to energy" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Energy-101-UT101x-objective2 a usdl4edu:Objective ;
-    dc:description " This course will cover brief snippets of energy history, use real-world examples, and look forward into the future" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    dc:description " The course will have interactive learning modules and lecture-oriented around current events related to energy" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
 
 usdl4edu:Energy-101-UT101x-objective3 a usdl4edu:Objective ;
     dc:description " The course will have interactive learning modules and lecture-oriented around current events related to energy" ;
@@ -628,11 +618,11 @@ usdl4edu:Energy-101-UT101x-objective3 a usdl4edu:Objective ;
 
 usdl4edu:Energy-101-UT101x-objective4 a usdl4edu:Objective ;
     dc:description " The course will have interactive learning modules and lecture-oriented around current events related to energy" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Energy-101-UT101x-objective5 a usdl4edu:Objective ;
-    dc:description " The course will have interactive learning modules and lecture-oriented around current events related to energy" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+    dc:description " This course will cover brief snippets of energy history, use real-world examples, and look forward into the future" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Energy-101-UT101x-objectives a usdl4edu:OverallObjective ;
     dc:description "Energy Technology & PolicyThis multidisciplinary course will give students an overview of energy technologies, fuels, environmental impacts and public policies. Topics will be interdisciplinary and will include an introduction to quantitative concepts in energy, including the differences among fuels and energy technologies, energy policy levers, and the societal aspects of energy, such as culture, economics, war, and international affairs. This course will cover brief snippets of energy history, use real-world examples, and look forward into the future. The course will have interactive learning modules and lecture-oriented around current events related to energy." ;
@@ -699,10 +689,7 @@ to make images of 3D scenes in both real-time, and with offline raytracing.""" ;
     usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryOnline ;
     usdl4edu:hasLanguage usdl4edu:LanguageEN ;
     usdl4edu:hasOverallObjective usdl4edu:Foundations-of-Computer-Graphics-CS1841x-objectives ;
-    usdl4edu:hasTeacher <http://rdf.genssiz.dei.uc.pt/usdl4edu#Berkeley-students-Nicholas-Estorga-and-Brandon-Wang-have
-------developed-the-auto-graders-used-in-the-course-and-will-be
-------assisting-in-its-administration>,
-        usdl4edu:Ravi-Ramamoorthi ;
+    usdl4edu:hasTeacher usdl4edu:Ravi-Ramamoorthi ;
     usdl4edu:hasTitle "Foundations of Computer Graphics" .
 
 usdl4edu:Gerald-Sussman a foaf:Person ;
@@ -731,38 +718,6 @@ usdl4edu:Gregory-Nagy a foaf:Person ;
     foaf:status "Gregory Nagy is the Francis Jones Professor of Classical Greek Literature and Professor of Comparative Literature at Harvard University, and is the Director of the " .
 
 usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective1 a usdl4edu:Objective ;
-    dc:description " Students will analyze sample data sets to acquire knowledge of appropriate computer software" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective2 a usdl4edu:Objective ;
-    dc:description " This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm5-2-1-2-12,
-        usdl4edu:acm8-1-1-5-6 .
-
-usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective3 a usdl4edu:Objective ;
-    dc:description " This course will address this need by covering the principles of biostatistics and epidemiology used for public health and clinical research" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective4 a usdl4edu:Objective ;
-    dc:description " Students will analyze sample data sets to acquire knowledge of appropriate computer software" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
-
-usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective5 a usdl4edu:Objective ;
-    dc:description " This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasContext usdl4edu:acm8-1-1-5-6 .
-
-usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective6 a usdl4edu:Objective ;
-    dc:description "Principled investigations to monitor and thus improve the health of individuals are firmly based on a sound understanding of modern quantitative methods" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
-
-usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective7 a usdl4edu:Objective ;
-    dc:description " This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
-    usdl4edu:hasContext usdl4edu:acm8-1-1-5-6 .
-
-usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective8 a usdl4edu:Objective ;
     dc:description " These include outcomes measurement, measures of associations between outcomes and their determinants, study design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8,
@@ -771,6 +726,38 @@ usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-
         usdl4edu:acm5-3-1-4-1,
         usdl4edu:acm6-5-10,
         usdl4edu:acm7-2-2-4 .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective2 a usdl4edu:Objective ;
+    dc:description " Students will analyze sample data sets to acquire knowledge of appropriate computer software" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective3 a usdl4edu:Objective ;
+    dc:description " This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm8-1-1-5-6 .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective4 a usdl4edu:Objective ;
+    dc:description " Students will analyze sample data sets to acquire knowledge of appropriate computer software" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective5 a usdl4edu:Objective ;
+    dc:description " This course will address this need by covering the principles of biostatistics and epidemiology used for public health and clinical research" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective6 a usdl4edu:Objective ;
+    dc:description " This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm5-2-1-2-12,
+        usdl4edu:acm8-1-1-5-6 .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective7 a usdl4edu:Objective ;
+    dc:description " This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm8-1-1-5-6 .
+
+usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objective8 a usdl4edu:Objective ;
+    dc:description "Principled investigations to monitor and thus improve the health of individuals are firmly based on a sound understanding of modern quantitative methods" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
 
 usdl4edu:Health-in-Numbers-Quantitative-Methods-in-Clinical--and--Public-Health-Research-PH207x-objectives a usdl4edu:OverallObjective ;
     dc:description "Quantitative Methods in Clinical and Public Health Research is the online adaptation of material from the Harvard School of Public Health's classes in epidemiology and biostatistics.Principled investigations to monitor and thus improve the health of individuals are firmly based on a sound understanding of modern quantitative methods. This involves the ability to discover patterns and extract knowledge from health data on a sample of individuals and then to infer, with measured uncertainty, the unobserved population characteristics. This course will address this need by covering the principles of biostatistics and epidemiology used for public health and clinical research. These include outcomes measurement, measures of associations between outcomes and their determinants, study design options, bias and confounding, probability and diagnostic tests, confidence intervals and hypothesis testing, power and sample size determinations, life tables and survival methods,  regression methods (both, linear and logistic), and sample survey techniques. Students will analyze sample data sets to acquire knowledge of appropriate computer software. By the end of the course the successful student should have attained a sound understanding of these methods and a solid foundation for further study." ;
@@ -820,15 +807,15 @@ usdl4edu:Human-Health-and-Global-Environmental-Change-PH278x-unit a usdl4edu:Cou
 
 usdl4edu:Ideas-of-the-20th-Century-UT201x-objective1 a usdl4edu:Objective ;
     dc:description " Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Ideas-of-the-20th-Century-UT201x-objective2 a usdl4edu:Objective ;
-    dc:description " Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty" ;
+    dc:description " Now, thinkers and leaders are reconstructing theories of value and creating institutions to embody them" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Ideas-of-the-20th-Century-UT201x-objective3 a usdl4edu:Objective ;
-    dc:description " Now, thinkers and leaders are reconstructing theories of value and creating institutions to embody them" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+    dc:description " Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
 
 usdl4edu:Ideas-of-the-20th-Century-UT201x-objectives a usdl4edu:OverallObjective ;
     dc:description "The last century ushered in significant progress. Philosophers, scientists, artists, and poets overthrew our understanding of the physical world, of human behavior, of thought and its limits, and of art, creativity, and beauty. Scientific progress improved the way we lived across the world.Yet the last century also brought increased levels of war, tyranny, and genocide.  Man pushed boundaries of good and evil, right and wrong, justice and injustice – and people lost faith in values. Now, thinkers and leaders are reconstructing theories of value and creating institutions to embody them.Join this thought-provoking, broad-sweeping course as it draws intriguing connections between philosophy, art, literature, and history, illuminating our world and our place in it." ;
@@ -849,36 +836,36 @@ usdl4edu:Ideas-of-the-20th-Century-UT201x-unit a usdl4edu:CourseUnit ;
 
 usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective1 a usdl4edu:Objective ;
     dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective10 a usdl4edu:Objective ;
+    dc:description "Additionally, for teachers of science, we have forged a collaboration with the National Science Teachers         Association (NSTA) to facilitate understanding of challenging content and help with practical classroom         applications of the courseware" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm8-4-4 .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective11 a usdl4edu:Objective ;
+    dc:description " You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective12 a usdl4edu:Objective ;
     dc:description " As you continue in the course, you will apply an understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
     usdl4edu:hasContext usdl4edu:acm13-2-9-5,
         usdl4edu:acm6-4,
         usdl4edu:acm9-6-4 .
 
-usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective11 a usdl4edu:Objective ;
-    dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
-
-usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective12 a usdl4edu:Objective ;
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective2 a usdl4edu:Objective ;
     dc:description " Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8 .
 
-usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective2 a usdl4edu:Objective ;
-    dc:description " You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
 usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective3 a usdl4edu:Objective ;
-    dc:description " You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
 
 usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective4 a usdl4edu:Objective ;
-    dc:description "Additionally, for teachers of science, we have forged a collaboration with the National Science Teachers         Association (NSTA) to facilitate understanding of challenging content and help with practical classroom         applications of the courseware" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm8-4-4 .
+    dc:description " Each week features a series of lecture sequences that     are supported by interactive video tutorials and interspersed exercises or problems" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
 
 usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective5 a usdl4edu:Objective ;
     dc:description " Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world" ;
@@ -886,20 +873,20 @@ usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective5 a usdl4edu
     usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta .
 
 usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective6 a usdl4edu:Objective ;
-    dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
-
-usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective7 a usdl4edu:Objective ;
     dc:description " The course will conclude with a comprehensive final exam" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
 
-usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective8 a usdl4edu:Objective ;
-    dc:description " Each week features a series of lecture sequences that     are supported by interactive video tutorials and interspersed exercises or problems" ;
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective7 a usdl4edu:Objective ;
+    dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective8 a usdl4edu:Objective ;
+    dc:description " You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objective9 a usdl4edu:Objective ;
     dc:description " There will be four NSTA web seminars and moderated community forums for         discussion related to 7" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Introduction-to-Biology---The-Secret-of-Life-700x-objectives a usdl4edu:OverallObjective ;
     dc:description """7.00x is an introductory level biology course hosted by professor Eric Lander, who was one of the leaders of the Human Genome Project. Although this course has been designed exclusively for edX, the course content reflects the topics taught in the MIT introductory biology courses and many biology courses across the world. As a student, you will first focus on the structure and function of macromolecules such as DNA, RNA and proteins. You will discover how changes in the structure of some of these macromolecules alters their functions and what the implications of such changes have on human health. As you continue in the course, you will apply an understanding of heredity and information flow within cells to human health and disease and will learn about molecular biological techniques and their potential to impact our changing world. After you complete this course, you will have a foundation in biology that will allow you to understand the remarkable medical revolution going on today.Students will complete this course in 12 weeks. Each week features a series of lecture sequences that 
@@ -970,17 +957,17 @@ usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective1 a usdl
     usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
 
 usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective2 a usdl4edu:Objective ;
-    dc:description "00x is an introduction to using computation to solve real problems" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    dc:description " Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
 
 usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective3 a usdl4edu:Objective ;
     dc:description " The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective4 a usdl4edu:Objective ;
-    dc:description " Some of the people taking the course will use it as a stepping stone to more advanced computer science courses, but for many, it will be their first and last computer science course" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm13-1-4-4-2 .
+    dc:description "00x is an introduction to using computation to solve real problems" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-objective5 a usdl4edu:Objective ;
     dc:description " The course is aimed at students with little or no prior programming experience who have a desire (or at least a need) to understand computational approaches to problem solving" ;
@@ -1033,7 +1020,7 @@ usdl4edu:Introduction-to-Computer-Science-and-Programming-600x-unit a usdl4edu:C
 
 usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective1 a usdl4edu:Objective ;
     dc:description " The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm12-3-6,
         usdl4edu:acm14-1-11,
         usdl4edu:acm14-1-12,
@@ -1041,6 +1028,36 @@ usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective1 a usdl4edu:Objec
         usdl4edu:acm8-4-4 .
 
 usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective2 a usdl4edu:Objective ;
+    dc:description " There will be topical coverage of organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm12-3-4 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective3 a usdl4edu:Objective ;
+    dc:description " Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm2-5-2 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective4 a usdl4edu:Objective ;
+    dc:description " The class will cover the relationship between electronic structure, chemical bonding, and atomic order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins)" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm14-1-55 ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective5 a usdl4edu:Objective ;
+    dc:description "091x is a first-year course where chemical principles are explained by examination of the properties of materials" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective6 a usdl4edu:Objective ;
+    dc:description " The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm12-3-6,
+        usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm8-3,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective7 a usdl4edu:Objective ;
     dc:description " The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
     usdl4edu:hasContext usdl4edu:acm12-3-6,
@@ -1049,39 +1066,9 @@ usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective2 a usdl4edu:Objec
         usdl4edu:acm8-3,
         usdl4edu:acm8-4-4 .
 
-usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective3 a usdl4edu:Objective ;
-    dc:description " The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasContext usdl4edu:acm12-3-6,
-        usdl4edu:acm14-1-11,
-        usdl4edu:acm14-1-12,
-        usdl4edu:acm8-3,
-        usdl4edu:acm8-4-4 .
-
-usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective4 a usdl4edu:Objective ;
-    dc:description "091x is a first-year course where chemical principles are explained by examination of the properties of materials" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
-
-usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective5 a usdl4edu:Objective ;
-    dc:description " The class will cover the relationship between electronic structure, chemical bonding, and atomic order, and characterization of atomic arrangements in crystalline and amorphous solids: metals, ceramics, semiconductors, and polymers (including proteins)" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasContext usdl4edu:acm14-1-55 ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual .
-
-usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective6 a usdl4edu:Objective ;
-    dc:description " Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
-    usdl4edu:hasContext usdl4edu:acm2-5-2 .
-
-usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective7 a usdl4edu:Objective ;
-    dc:description " There will be topical coverage of organic chemistry, solution chemistry, acid-base equilibria, electrochemistry, biochemistry, chemical kinetics, diffusion, and phase diagrams" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm12-3-4 .
-
 usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective8 a usdl4edu:Objective ;
     dc:description " The electronic structure and chemical bonding of materials is related to applications and engineering systems throughout the course" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm12-3-6,
         usdl4edu:acm14-1-11,
         usdl4edu:acm14-1-12,
@@ -1090,7 +1077,7 @@ usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective8 a usdl4edu:Objec
 
 usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objective9 a usdl4edu:Objective ;
     dc:description " Examples will be drawn from industrial practice (including the environmental impact of chemical processes), from energy generation and storage (e" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
     usdl4edu:hasContext usdl4edu:acm2-5-2 .
 
 usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-objectives a usdl4edu:OverallObjective ;
@@ -1117,19 +1104,19 @@ usdl4edu:Introduction-to-Solid-State-Chemistry-3091x-unit a usdl4edu:CourseUnit 
 
 usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective1 a usdl4edu:Objective ;
     dc:description " The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective10 a usdl4edu:Objective ;
-    dc:description " The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
-usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective2 a usdl4edu:Objective ;
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective10 a usdl4edu:Objective ;
     dc:description "1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective2 a usdl4edu:Objective ;
+    dc:description " Methods will be illustrated with data from a variety of areas in the sciences and humanities" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
 
 usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective3 a usdl4edu:Objective ;
     dc:description " The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
 
 usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective4 a usdl4edu:Objective ;
     dc:description "Introduction to StatisticsWe are surrounded by information, much of it numerical, and it is important to know how to make sense of it" ;
@@ -1137,20 +1124,20 @@ usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective4 a 
 
 usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective5 a usdl4edu:Objective ;
     dc:description " The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
 
 usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective6 a usdl4edu:Objective ;
-    dc:description " Methods will be illustrated with data from a variety of areas in the sciences and humanities" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+    dc:description " The course will cover graphical as well as numerical summaries of data, starting with a single variable and progressing to the relation between two variables" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective7 a usdl4edu:Objective ;
     dc:description "1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective8 a usdl4edu:Objective ;
     dc:description "1x, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
 
 usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-objective9 a usdl4edu:Objective ;
     dc:description "  The goal of descriptive statistics is to summarize and present numerical information in a manner that is illuminating and useful" ;
@@ -1187,23 +1174,6 @@ usdl4edu:Introduction-to-Statistics-Descriptive-Statistics-Stat21x-unit a usdl4e
     usdl4edu:hasTitle "Introduction to Statistics: Descriptive Statistics" .
 
 usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective1 a usdl4edu:Objective ;
-    dc:description " Then we will step back from all the details and try to identify features of large random samples that will help us approximate probabilities that are hard to compute exactly" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective2 a usdl4edu:Objective ;
-    dc:description "We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective3 a usdl4edu:Objective ;
-    dc:description " We will study sums and averages of large random samples, discuss the factors that affect their accuracy, and use the normal approximation for their probability distributions" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm7-5-5-1 .
-
-usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective4 a usdl4edu:Objective ;
-    dc:description "We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective5 a usdl4edu:Objective ;
     dc:description "",
         " (Unless you're really good at counting cards, in which case you could try blackjack, but perhaps after taking all these edX courses you'll find other ways of earning money",
         " Ever",
@@ -1227,19 +1197,36 @@ usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective5 a usdl4edu:Ob
         "We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
 
-usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective6 a usdl4edu:Objective ;
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective2 a usdl4edu:Objective ;
     dc:description " In addition, you are expected to know the material of Stat2" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
 
-usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective7 a usdl4edu:Objective ;
-    dc:description "2x is on probability theory: exactly what is a random sample, and how does randomness work? If you buy 10 lottery tickets instead of 1, does your chance of winning go up by a factor of 10? What is the law of averages? How can polls make accurate predictions based on data from small fractions of the population? What should you expect to happen \"just by chance\"? These are some of the questions we will address in the course" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_3Procedural .
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective3 a usdl4edu:Objective ;
+    dc:description " Then we will step back from all the details and try to identify features of large random samples that will help us approximate probabilities that are hard to compute exactly" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
-usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective8 a usdl4edu:Objective ;
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective4 a usdl4edu:Objective ;
+    dc:description " We will study sums and averages of large random samples, discuss the factors that affect their accuracy, and use the normal approximation for their probability distributions" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm7-5-5-1 .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective5 a usdl4edu:Objective ;
+    dc:description "We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective6 a usdl4edu:Objective ;
+    dc:description "We will start with exact calculations of chances when the experiments are small enough that exact calculations are feasible and interesting" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective7 a usdl4edu:Objective ;
     dc:description " Throughout the course, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
     usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective8 a usdl4edu:Objective ;
+    dc:description "2x is on probability theory: exactly what is a random sample, and how does randomness work? If you buy 10 lottery tickets instead of 1, does your chance of winning go up by a factor of 10? What is the law of averages? How can polls make accurate predictions based on data from small fractions of the population? What should you expect to happen \"just by chance\"? These are some of the questions we will address in the course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_3Procedural .
 
 usdl4edu:Introduction-to-Statistics-Probability-Stat22x-objective9 a usdl4edu:Objective ;
     dc:description " Throughout the course, the emphasis will be on understanding the reasoning behind the calculations, the assumptions under which they are valid, and the correct interpretation of results" ;
@@ -1331,12 +1318,6 @@ usdl4edu:Judy-Hoffman a foaf:Person ;
       working with """ .
 
 usdl4edu:Justice-ER22x-objective1 a usdl4edu:Objective ;
-    dc:description "Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm8-4-3-3,
-        usdl4edu:acm8-4-4 .
-
-usdl4edu:Justice-ER22x-objective2 a usdl4edu:Objective ;
     dc:description "",
         " Other assigned readings include writings by contemporary philosophers, court cases, and articles about political controversies that raise philosophical questions",
         " The course invites students to subject their own views on these controversies to critical examination",
@@ -1344,6 +1325,12 @@ usdl4edu:Justice-ER22x-objective2 a usdl4edu:Objective ;
         "Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications",
         "The principal readings for the course are texts by Aristotle, John Locke, Immanuel Kant, John Stuart Mill, and John Rawls" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Justice-ER22x-objective2 a usdl4edu:Objective ;
+    dc:description "Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm8-4-3-3,
+        usdl4edu:acm8-4-4 .
 
 usdl4edu:Justice-ER22x-objectives a usdl4edu:OverallObjective ;
     dc:description "Justice is a critical analysis of classical and contemporary theories of justice, including discussion of present-day applications. Topics include affirmative action, income distribution, same-sex marriage, the role of markets, debates about rights (human rights and property rights), arguments for and against equality, dilemmas of loyalty in public and private life. The course invites students to subject their own views on these controversies to critical examination.The principal readings for the course are texts by Aristotle, John Locke, Immanuel Kant, John Stuart Mill, and John Rawls. Other assigned readings include writings by contemporary philosophers, court cases, and articles about political controversies that raise philosophical questions." ;
@@ -1412,33 +1399,33 @@ usdl4edu:Mary-Ellen-Wiltrout a foaf:Person ;
 
 usdl4edu:Mechanics-ReView-8MReV-objective1 a usdl4edu:Objective ;
     dc:description "Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Mechanics-ReView-8MReV-objective2 a usdl4edu:Objective ;
+    dc:description " It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8 .
+
+usdl4edu:Mechanics-ReView-8MReV-objective3 a usdl4edu:Objective ;
+    dc:description " Ourapproachproven effectivenessTeachers in the United States, and especially in Massachusetts, can receive extra benefit from this course" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Mechanics-ReView-8MReV-objective4 a usdl4edu:Objective ;
+    dc:description "Newtonian mechanics is the study of how forces change the motion of objects" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Mechanics-ReView-8MReV-objective5 a usdl4edu:Objective ;
+    dc:description "Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Mechanics-ReView-8MReV-objective6 a usdl4edu:Objective ;
     dc:description "  It will give you a unified overview of mechanics that will dramatically increase your problem-solving ability",
         " The reward is stronger problem-solving ability that carries over to other areas in physics" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
-usdl4edu:Mechanics-ReView-8MReV-objective3 a usdl4edu:Objective ;
-    dc:description "Newtonian mechanics is the study of how forces change the motion of objects" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Mechanics-ReView-8MReV-objective4 a usdl4edu:Objective ;
-    dc:description " Ourapproachproven effectivenessTeachers in the United States, and especially in Massachusetts, can receive extra benefit from this course" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
-
-usdl4edu:Mechanics-ReView-8MReV-objective5 a usdl4edu:Objective ;
-    dc:description " It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
-
-usdl4edu:Mechanics-ReView-8MReV-objective6 a usdl4edu:Objective ;
-    dc:description "Take this course to better organize your mechanics knowledge, to prepare for AP or advanced standing exams, to teach more effectively, or if you enjoy attacking challenging problems!For TeachersIf you are a teacher looking to improve your knowledge of mechanics, or to learn new approaches to teach your students, we encourage you to sign up" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
-
 usdl4edu:Mechanics-ReView-8MReV-objective7 a usdl4edu:Objective ;
     dc:description " It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8 .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
 
 usdl4edu:Mechanics-ReView-8MReV-objectives a usdl4edu:OverallObjective ;
     dc:description """Mechanics ReView is a second look at introductory Newtonian Mechanics.  It will give you a unified overview of mechanics that will dramatically increase your problem-solving ability. It is open to any students who meet the prerequisites (see right), but is especially designed for teachers and those who want to improve their existing understanding of mechanics.Newtonian mechanics is the study of how forces change the motion of objects. This course begins with force, and moves on to straight-line motion, momentum, mechanical energy, rotational motion, and angular momentum. Optional units include oscillations, planetary orbits, and a review of multi-concept problems.Why Take Our Course?Our approach to mechanics is a unique one. Through worked examples and online texts we introduce a strategic overview of core concepts in mechanics. This overview couples with a new approach to problem-solving that will help you break down and solve multi-concept problems. By choosing asystem
@@ -1652,6 +1639,29 @@ usdl4edu:Simona-Socrate a foaf:Person ;
     foaf:status "Simona Socrate is a Senior Lecturer in the Department of Mechanical Engineering and a Principal Research Scientist at MIT/ISN. She earned a Ph.D. in nuclear engineering from the University of Rome, and a Ph.D. in mechanical engineering from MIT. She has been teaching classes in structural mechanics at MIT for over ten years. Her research efforts focus on the mechanical behavior of fabrics, composites, and soft biological tissue. Her areas of interest include measuring and modeling the high strain rate properties of biological tissue to prevent injuries, and investigating the mechanics of pregnancy to reduce the risk of pre-term delivery. " .
 
 usdl4edu:Software-as-a-Service-CS1691x-objective1 a usdl4edu:Objective ;
+    dc:description " They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm5-3-2-1-1 .
+
+usdl4edu:Software-as-a-Service-CS1691x-objective2 a usdl4edu:Objective ;
+    dc:description " Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm10-1-6-2,
+        usdl4edu:acm10-2-1-1,
+        usdl4edu:acm10-2-1-2,
+        usdl4edu:acm5-3-1-4-1,
+        usdl4edu:acm5-3-3,
+        usdl4edu:acm5-3-4-5-2,
+        usdl4edu:acm6-5-10 .
+
+usdl4edu:Software-as-a-Service-CS1691x-objective3 a usdl4edu:Objective ;
+    dc:description " Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta .
+
+usdl4edu:Software-as-a-Service-CS1691x-objective4 a usdl4edu:Objective ;
     dc:description " Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm1-2,
@@ -1664,36 +1674,13 @@ usdl4edu:Software-as-a-Service-CS1691x-objective1 a usdl4edu:Objective ;
         usdl4edu:acm5-3-4-5-2,
         usdl4edu:acm6-5-10 .
 
-usdl4edu:Software-as-a-Service-CS1691x-objective2 a usdl4edu:Objective ;
+usdl4edu:Software-as-a-Service-CS1691x-objective5 a usdl4edu:Objective ;
     dc:description " They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
-usdl4edu:Software-as-a-Service-CS1691x-objective3 a usdl4edu:Objective ;
-    dc:description " Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta .
-
-usdl4edu:Software-as-a-Service-CS1691x-objective4 a usdl4edu:Objective ;
-    dc:description " Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8,
-        usdl4edu:acm10-1-6-2,
-        usdl4edu:acm10-2-1-1,
-        usdl4edu:acm10-2-1-2,
-        usdl4edu:acm5-3-1-4-1,
-        usdl4edu:acm5-3-3,
-        usdl4edu:acm5-3-4-5-2,
-        usdl4edu:acm6-5-10 .
-
-usdl4edu:Software-as-a-Service-CS1691x-objective5 a usdl4edu:Objective ;
+usdl4edu:Software-as-a-Service-CS1691x-objective6 a usdl4edu:Objective ;
     dc:description " Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
-
-usdl4edu:Software-as-a-Service-CS1691x-objective6 a usdl4edu:Objective ;
-    dc:description " They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8,
-        usdl4edu:acm5-3-2-1-1 .
 
 usdl4edu:Software-as-a-Service-CS1691x-objectives a usdl4edu:OverallObjective ;
     dc:description "CS169.1x teaches the fundamentals for engineering long-lasting software using highly-productive Agile techniques to develop Software as a Service (SaaS) using Ruby on Rails. Students will understand the new challenges and opportunities of SaaS versus shrink-wrapped software. They will understand and apply fundamental programming techniques to the design, development, testing, and public cloud deployment of a simple SaaS application. Students will use best-of-breed tools that support modern development techniques including behavior-driven design, user stories, test-driven development, velocity, and pair programming. Students will learn how modern programming language features like metaprogramming and reflection can improve productivity and code maintainability.Students will work individually on weekly coding projects. Those who successfully complete each assignment and earn a passing grade will get an honor code certificate from BerkeleyX." ;
@@ -1716,19 +1703,28 @@ usdl4edu:Software-as-a-Service-CS1691x-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Software as a Service" .
 
 usdl4edu:Software-as-a-Service-CS1692x-objective1 a usdl4edu:Objective ;
-    dc:description "1x, students use Agile development methods to deploy a simple SaaS app in the cloud" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm5-3-2-1,
-        usdl4edu:acm5-3-2-1-2 .
+    dc:description "2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm14-4-116,
+        usdl4edu:acm14-4-40,
+        usdl4edu:acm8-1-1-2 .
 
 usdl4edu:Software-as-a-Service-CS1692x-objective2 a usdl4edu:Objective ;
-    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment",
-        "Note:" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm5-2-1-2-12,
+        usdl4edu:acm5-3-2-1-7,
+        usdl4edu:acm5-3-6-2,
+        usdl4edu:acm9-3-1 .
 
 usdl4edu:Software-as-a-Service-CS1692x-objective3 a usdl4edu:Objective ;
-    dc:description " Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm5-2-1-2-12,
+        usdl4edu:acm5-3-2-1-7,
+        usdl4edu:acm9-3-1 .
 
 usdl4edu:Software-as-a-Service-CS1692x-objective4 a usdl4edu:Objective ;
     dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment",
@@ -1744,28 +1740,19 @@ usdl4edu:Software-as-a-Service-CS1692x-objective5 a usdl4edu:Objective ;
         usdl4edu:acm9-3-1 .
 
 usdl4edu:Software-as-a-Service-CS1692x-objective6 a usdl4edu:Objective ;
-    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8,
-        usdl4edu:acm5-2-1-2-12,
-        usdl4edu:acm5-3-2-1-7,
-        usdl4edu:acm5-3-6-2,
-        usdl4edu:acm9-3-1 .
+    dc:description " Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
 
 usdl4edu:Software-as-a-Service-CS1692x-objective7 a usdl4edu:Objective ;
-    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8,
-        usdl4edu:acm5-2-1-2-12,
-        usdl4edu:acm5-3-2-1-7,
-        usdl4edu:acm9-3-1 .
+    dc:description "1x, students use Agile development methods to deploy a simple SaaS app in the cloud" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm5-3-2-1,
+        usdl4edu:acm5-3-2-1-2 .
 
 usdl4edu:Software-as-a-Service-CS1692x-objective8 a usdl4edu:Objective ;
-    dc:description "2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm14-4-116,
-        usdl4edu:acm14-4-40,
-        usdl4edu:acm8-1-1-2 .
+    dc:description "2x includeHow to form, organize and manage small programming teamsIntroduction to design patterns: what they are and how to recognize opportunities to apply themUsing Rails for more advanced features like third-party authentication and elegantly expressing design patterns that arise frequently in SaaSThere will be three homework assignments: two programming assignments and one assignment about operations/deployment",
+        "Note:" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Software-as-a-Service-CS1692x-objectives a usdl4edu:OverallObjective ;
     dc:description """CS 169.2x is the second half of University of California, Berkeley's semester long course on Software as a Service. In the first half of the course, CS 169.1x, students use Agile development methods to deploy a simple SaaS app in the cloud. In the second half, CS 169.2x, students create more sophisticated apps by adding relationships between models in apps and by enhancing their apps with JavaScript. They also learn about what happens after the apps are deployed to real users, including how to monitor performance, identify and fix common performance problems, and avoid compromising customer data. Finally, students learn how to apply Agile techniques to enhance and refactor legacy code, a critical skill for professional programmers.Other topics covered in CS 169.2x includeHow to form, organize and manage small programming teams
@@ -1797,11 +1784,11 @@ usdl4edu:Software-as-a-Service-CS1692x-unit a usdl4edu:CourseUnit ;
 
 usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-objective1 a usdl4edu:Objective ;
     dc:description " Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-objective2 a usdl4edu:Objective ;
     dc:description " Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
 
 usdl4edu:Take-Your-Medicine---The-Impact-of-Drug-Development-UT401x-objectives a usdl4edu:OverallObjective ;
     dc:description "Everyone gets sick. Thanks to medical innovations in the past 50 years, many diseases and conditions have been either mitigated or even cured through medicine. How does a research innovation turn into a therapeutic medicine that health care providers prescribe to patients? This course explores the process, challenges and issues in developing pharmaceutical products.  Drug development is a dynamic field where innovation and entrepreneurship are necessary to keep up with health care expectations, strict regulations and tightening development budgets.  An overview of drug development, approval, and consumer issues will be presented and discussed in the context of research practices, science, marketing, public welfare and business. Participants from all backgrounds and interest, including scientists, healthcare professionals, entrepreneurs and the general public, are encouraged to participate." ;
@@ -1825,12 +1812,12 @@ usdl4edu:Tania-Khanna a foaf:Person ;
 
 usdl4edu:The-Ancient-Greek-Hero-CB22x-objective1 a usdl4edu:Objective ;
     dc:description " In this course, students analyze Greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual .
 
 usdl4edu:The-Ancient-Greek-Hero-CB22x-objective2 a usdl4edu:Objective ;
     dc:description " In this course, students analyze Greek heroes and anti-heroes in their own historical contexts, in order to gain an understanding of these concepts as they were originally understood while also learning how they can inform our understanding of the human condition in general" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual .
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
 
 usdl4edu:The-Ancient-Greek-Hero-CB22x-objective3 a usdl4edu:Objective ;
     dc:description "About this courseWhat is it to be human, and how can ancient concepts of the heroic and anti-heroic inform our understanding of the human condition? That question is at the core ofThe Ancient Greek HeroThe classical Greeks' concepts of Heroes and the \"heroic\" were very different from the way we understand the term today" ;
@@ -1861,13 +1848,13 @@ usdl4edu:The-Ancient-Greek-Hero-CB22x-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "The Ancient Greek Hero" .
 
 usdl4edu:The-Challenges-of-Global-Poverty-1473x-objective1 a usdl4edu:Objective ;
-    dc:description "This is a course for those who are interested in the challenge posed by massive and persistent world poverty, and are hopeful that economists might have something useful to say about this challenge" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:The-Challenges-of-Global-Poverty-1473x-objective2 a usdl4edu:Objective ;
     dc:description " The questions we will take up include: Is extreme poverty a thing of the past? What is economic life like when living under a dollar per day? Are the poor always hungry?  How do we make schools work for poor citizens? How do we deal with the disease burden? Is microfinance invaluable or overrated? Without property rights, is life destined to be \"nasty, brutish and short\"? Should we leave economic development to the market? Should we leave economic development to non-governmental organizations (NGOs)? Does foreign aid help or hinder? Where is the best place to intervene? And many others" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm14-2 .
+
+usdl4edu:The-Challenges-of-Global-Poverty-1473x-objective2 a usdl4edu:Objective ;
+    dc:description "This is a course for those who are interested in the challenge posed by massive and persistent world poverty, and are hopeful that economists might have something useful to say about this challenge" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:The-Challenges-of-Global-Poverty-1473x-objectives a usdl4edu:OverallObjective ;
     dc:description "This is a course for those who are interested in the challenge posed by massive and persistent world poverty, and are hopeful that economists might have something useful to say about this challenge. The questions we will take up include: Is extreme poverty a thing of the past? What is economic life like when living under a dollar per day? Are the poor always hungry?  How do we make schools work for poor citizens? How do we deal with the disease burden? Is microfinance invaluable or overrated? Without property rights, is life destined to be \"nasty, brutish and short\"? Should we leave economic development to the market? Should we leave economic development to non-governmental organizations (NGOs)? Does foreign aid help or hinder? Where is the best place to intervene? And many others. At the end of this course, you should have a good sense of the key questions asked by scholars interested in poverty today, and hopefully a few answers as well." ;
