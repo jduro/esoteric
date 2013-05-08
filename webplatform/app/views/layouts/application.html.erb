@@ -27,18 +27,18 @@
         <%= flash[:error] %>
     </div>
   <% end %>
-	<div class="row">
-		<div class="span6">
+	<div class="row-fluid">
+		<div class="span5">
         <div class="tabbable tabs-left"> <!-- Only required for left/right tabs -->
           <ul class="nav nav-tabs">
             <% count=1 %>
             <% @organizations.each do |organization| %>
               <% if count==1 %>
-                <li class="active"><a href="#tab<%=count%>" data-toggle="tab" class="btn-large">
+                <li class="active"><a href="#tab<%=count%>" data-toggle="tab" class="btn-large" id="b<%=count%>">
                   <%=organization%>&nbsp;&nbsp;<span class="badge badge-success pull-right"><%= @services.select{|a| a.organization==organization}.size%></span>
                 </a></li>
               <% else %>
-                <li><a href="#tab<%=count%>" data-toggle="tab" class="btn-large" >
+                <li><a href="#tab<%=count%>" data-toggle="tab" class="btn-large" id="b<%=count%>">
                   <%=organization%>&nbsp;&nbsp;<span class="badge badge-success pull-right"><%= @services.select{|a| a.organization==organization}.size%></span>
                 </a></li>
               <% end %>
@@ -79,7 +79,7 @@
           </div>
         </div>
     </div>
-		<div class="span6">
+		<div class="span7">
 			<%= yield %>
 		</div>
 	</div>
@@ -108,3 +108,17 @@
 
 </body>
 </html>
+
+
+<script type="text/javascript">
+$(function() { 
+  $('a[data-toggle="tab"]').on('shown', function (e) {
+    //save the latest tab; use cookies if you like 'em better:
+    localStorage.setItem('lastTab', $(e.target).attr('id'));
+  });
+  var lastTab = localStorage.getItem('lastTab');
+  if (lastTab) {
+    $('#'+lastTab).tab('show')
+  }
+});
+</script>

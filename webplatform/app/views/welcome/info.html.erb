@@ -1,5 +1,35 @@
+<div class="hero-unit" style="padding-top:20px;padding-bottom:20px;padding-left:40px;padding-right:40px;">
+	<h1><%=@serviceSelected.title%></h1>
+	<p><%=@unit["description"]%></p>
+	<% if @unit["teachers"].size>0 %>
+	<p><h5>with 
+		<% @unit["teachers"].each do |t| %>
+			<%= t["name"] %>
+		<% end %>
+	</h5></p>
+	<%end%>
+</div>
+<div class="well">
+	<p><strong>Delivery Mode:</strong> <%=@unit["delivery"]%> </p>
+	<p><strong>Language:</strong> <%=@unit["language"]%> </p>
+</div>
+<div class="well">
+	<p style="margin-bottom:1px"><strong>Objective</strong></p><p><%=@unit["obj"]["description"]%> </p>
+	<p style="margin-bottom:1px"><strong>Bloom's Taxonomy Classification</strong></p><p><%=@unit["obj"]["cogn"]%><br><%=@unit["obj"]["know"]%></p>
 
-<%=@serviceSelected.title%>
-<%=@serviceSelected.url%>
-<%=@serviceGraph%>
-<%=@childs%>
+	<hr><p><strong>Objectives Identified</strong></p>
+	<%@unit["obj"]["parts"].each do |part|%>
+		<p style="margin-bottom:1px"><strong>Phrase:</strong></p><p><%=part["description"]%></p>
+		<p style="margin-bottom:1px"><strong>Bloom's Taxonomy Classification:</strong></p><p><%=part["cogn"]%><br><%=part["know"]%></p>
+		<p style="margin-bottom:1px"><strong>Educational Areas:</strong></p><p>
+		<%if part["context"].size==0 %>
+			None<br>
+		<%else%>
+			<%part["context"].each do |c|%>
+				<%=c["label"]%><br>
+			<%end%>
+		<%end%>
+		</p><hr>
+	<%end%>
+
+</div>

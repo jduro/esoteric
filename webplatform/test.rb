@@ -1,9 +1,10 @@
 NS="http://rdf.genssiz.dei.uc.pt/usdl4edu#"
 DC=RDF::Vocabulary.new "http://purl.org/dc/terms/"
 USDL4EDU = RDF::Vocabulary.new NS
+FOAF=RDF::Vocabulary.new "http://xmlns.com/foaf/spec/"
 
 
-service=Service.find(737)
+service=Service.find(793)
 puts service.path
 
 directory = "public/services/upload"
@@ -38,50 +39,16 @@ graph = RDF::Graph.load(service.path, :format => :ttl)
 # end
 puts "-----"
 
-queryService = RDF::Query.new({
+queryTeacher = RDF::Query.new({
   :q => {
-    RDF.type => USDL4EDU.EducationalService,
-    USDL4EDU.hasCourseUnit => :unit
+    RDF.type => FOAF.Person,
+    FOAF.firstName => :first, 
+    FOAF.lastName => :last
   }
 })
-
-queryUnit = RDF::Query.new({
-  :q => {
-    RDF.type => USDL4EDU.CourseUnit
-  }
-})
-
-# query.execute(graph).each do |solution|
-# 	puts solution.q.to_s
-# 	puts "name=#{solution.unit}"
-# end
-
-# solutionsService=queryService.execute(graph)
-solutionsUnit=queryUnit.execute(graph)
-
-solutionsUnit.each do |s|
-	puts s.q.to_s
+solutionsTeacher=queryTeacher.execute(graph)
+solutionsTeacher.filter(:q => "http://rdf.genssiz.dei.uc.pt/usdl4edu#Peter-Norvig").each do |s|
+	puts s["first"]
 end
-puts "----"
-RDF::Query.new({q: {RDF.type => USDL4EDU.CourseUnit}}).execute(graph).each do |u|
-	puts u.q.to_s
-end
-
-
-
-
-# solutionsService.filter(:q => service.url).each do |solution|
-# 	puts solution.q.to_s
-# 	puts "unit=#{solution.unit}"
-# 	solutionsUnit.filter(:q2 => solution.unit).each do |solutionUnit|
-# 		puts "\t description=#{solutionUnit.description}"
-# 		# puts "\t delivery=#{solutionUnit.delivery}"
-# 		# puts "\t language=#{solutionUnit.language}"
-# 		# puts "\t hasOverallObjective=#{solutionUnit.obj}"
-# 		# puts "\t teacher=#{solutionUnit.teacher}"
-# 	end
-
-# end
-
 
 
