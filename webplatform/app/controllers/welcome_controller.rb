@@ -3,20 +3,12 @@ class WelcomeController < ApplicationController
 	DC=RDF::Vocabulary.new "http://purl.org/dc/terms/"
 	SKOS=RDF::Vocabulary.new "http://www.w3.org/2004/02/skos/core#"
 	FOAF=RDF::Vocabulary.new "http://xmlns.com/foaf/spec/"
+	RDFS=RDF::Vocabulary.new "http://www.w3.org/2000/01/rdf-schema#"
 	USDL4EDU = RDF::Vocabulary.new NS
 
-	# graphContext = RDF::Graph.load("public/services/context.ttl", :format => :ttl)
-
-	# queryContext = RDF::Query.new({
-	#   :q => {
-	#     RDF.type => SKOS.Concept,
-	#     SKOS.prefLabel => :label
-	#   }
-	# })
 
 	def index()
 		@isIndex=true
-
 		@services=Service.all
 		@organizations=Service.select(:organization).map(&:organization).uniq
 	end
@@ -76,7 +68,30 @@ class WelcomeController < ApplicationController
 		@serviceSelected = Service.find(params[:id])
 		
 		graph = RDF::Graph.load(@serviceSelected.path, :format => :ttl)
-		
+
+		graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+		queryUSDL4EDULanguage = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.Language,
+		    RDFS.label => :label
+		  }
+		})
+		queryUSDL4EDUDelivery = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.ModeDelivery,
+		    RDFS.label => :label
+		  }
+		})
+		graphContext = RDF::Graph.load("public/services/context.ttl", :format => :ttl)
+		queryContext = RDF::Query.new({
+		  :q => {
+		    RDF.type => SKOS.Concept,
+		    SKOS.prefLabel => :label
+		  }
+		})
+
+
+
 
 		queryService = RDF::Query.new({
 		  :q => {
@@ -171,10 +186,23 @@ class WelcomeController < ApplicationController
 
 		@unit = Hash.new
 		@unit["teachers"]=[]
+		@unit["url"]=@serviceSelected.urlCourse
 		solutionsUnit.filter(:q => itemServiceUnit).each do |solutionUnit|
 				@unit["description"]=solutionUnit.description.to_s
-				@unit["delivery"]=solutionUnit.delivery
-				@unit["language"]=solutionUnit.language
+
+				
+				solutions=queryUSDL4EDUDelivery.execute(graphUSDL4EDU)
+				solutions.filter(:q => solutionUnit.delivery).each do |solution|
+					@unit["delivery"]=solution.label
+				end
+				
+
+				solutions=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
+				solutions.filter(:q => solutionUnit.language).each do |solution|
+					@unit["language"]=solution.label
+				end
+				# @unit["language"]=getLanguageName(solutionUnit.language)
+
 				obj=Hash.new
 				obj["url"]=solutionUnit.obj
 				@unit["obj"]=obj
@@ -217,7 +245,13 @@ class WelcomeController < ApplicationController
 			solutionsObjectiveContext.filter(:q => part["url"]).each do |solution|
 				context=Hash.new
 				context["url"]=solution.context
-				context["label"]=solution.context
+				# context["label"]=solution.context
+
+				solutions=queryContext.execute(graphContext)
+				solutions.filter(:q => context["url"]).each do |solution|
+					context["label"]= solution.label
+				end
+
 				# context["label"]=getContextName(context["url"])
 				part["context"] << context
 			end
@@ -234,10 +268,17 @@ class WelcomeController < ApplicationController
 		@organizations=Service.select(:organization).map(&:organization).uniq
 	end
 
-	def getContextName(url)
-		solutions=queryContext.execute(graphContext)
-		solutionsObjectiveContext.filter(:q => url).each do |solution|
-			return solution.label
-		end
-	end
+	# def getContextName(url)
+	# 	solutions=queryContext.execute(graphContext)
+	# 	solutions.filter(:q => url).each do |solution|
+	# 		return solution.label
+	# 	end
+	# end
+
+	# def getLanguageName(url)
+	# 	solutions=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
+	# 	solutions.filter(:q => url).each do |solution|
+	# 		return solution.label
+	# 	end
+	# end
 end

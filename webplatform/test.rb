@@ -2,6 +2,7 @@ NS="http://rdf.genssiz.dei.uc.pt/usdl4edu#"
 DC=RDF::Vocabulary.new "http://purl.org/dc/terms/"
 USDL4EDU = RDF::Vocabulary.new NS
 FOAF=RDF::Vocabulary.new "http://xmlns.com/foaf/spec/"
+RDFS=RDF::Vocabulary.new "http://www.w3.org/2000/01/rdf-schema#"
 
 
 service=Service.find(793)
@@ -39,16 +40,18 @@ graph = RDF::Graph.load(service.path, :format => :ttl)
 # end
 puts "-----"
 
-queryTeacher = RDF::Query.new({
+graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+
+queryUSDL4EDULanguage = RDF::Query.new({
   :q => {
-    RDF.type => FOAF.Person,
-    FOAF.firstName => :first, 
-    FOAF.lastName => :last
+    RDF.type => USDL4EDU.Language,
+    RDFS.label => :label
   }
 })
-solutionsTeacher=queryTeacher.execute(graph)
-solutionsTeacher.filter(:q => "http://rdf.genssiz.dei.uc.pt/usdl4edu#Peter-Norvig").each do |s|
-	puts s["first"]
+
+solutionsLanguage=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
+solutionsLanguage.filter(:q => "http://rdf.genssiz.dei.uc.pt/usdl4edu#LanguagePT").each do |s|
+	puts s.label
 end
 
 
