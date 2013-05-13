@@ -9,3 +9,5 @@
 //= require_tree .
 
 //= require bootstrap
+
+//= require highcharts
