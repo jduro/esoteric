@@ -15,7 +15,6 @@
     <%end%>
   </div>
 </div>
-
 <div class="divbody">
   <% if flash[:notice] %>
     <div class="alert alert-success">
@@ -45,29 +44,53 @@
               <% count+=1 %>
             <%end%>
           </ul>
-
+          <% collapse=1 %>
           <div class="tab-content">
 
             <% count=1 %>
             <% @organizations.each do |organization| %>
               <% if count==1 %>
                 <div class="tab-pane active" id="tab<%=count%>">
-
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
-                      <div style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
-                      <i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></div>
+                      <% if service.isCourse==false %>
+                        <div style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                        <i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></div>
+                      <% else %>
+                        <%= "Curso: "+service.title %> <br>
+                        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#collapse<%=collapse%>">
+                          Expand
+                        </button>
+                        <div id="collapse<%=collapse%>" class="collapse">
+                          <%collapse+=1%>
+                          <% service.units.each do |u| %>
+                            <%= u.title %><br>
+                          <% end%><br>
+                        </div>
+                      <% end %>
                     <% end %>
                   <% end %>
 
                 </div>
               <% else %>
                 <div class="tab-pane" id="tab<%=count%>">
-
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
-                      <div style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
-                      <i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></div>
+                      <% if service.isCourse==false %>
+                        <div style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                        <i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></div>
+                      <% else %>
+                        <%= "Curso: "+service.title %> <br>
+                        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#collapse<%=collapse%>">
+                          Expand
+                        </button>
+                        <div id="collapse<%=collapse%>" class="collapse">
+                          <%collapse+=1%>
+                          <% service.units.each do |u| %>
+                            <%= u.title %><br>
+                          <% end%><br>
+                        </div>
+                      <% end %>
                     <% end %>
                   <% end %>
 

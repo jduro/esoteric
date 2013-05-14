@@ -28,32 +28,87 @@ class WelcomeController < ApplicationController
 
 			graph = RDF::Graph.load(path, :format => :ttl)
 
-			puts "----BEGIN----"
-			check=false
-			RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :description, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasURL => :urlCourse}}).execute(graph).each do |s|
-				check=true
-				service=Service.new
-				# puts "URL:"+s.q.to_s
-				service.url=s.q.to_s
-				service.urlCourse=s.urlCourse.to_s
-				if s.organization==USDL4EDU.edx
-					service.organization="Edx"
-				elsif s.organization==USDL4EDU.coursera
-					service.organization="Coursera"
-				elsif s.organization==USDL4EDU.udacity
-					service.organization="Udacity"
-				elsif s.organization=="http://rdf.genssiz.dei.uc.pt/usdl4edu#dei-uc"
-					service.organization="DEI-UC"
+			queryServiceDegree = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.EducationalService,
+			    DC.description => :description,
+			    USDL4EDU.hasOrganization => :organization, 
+			    USDL4EDU.hasURL => :urlCourse,
+			    USDL4EDU.hasDegree => :degree,
+			  }
+			})
+			queryDegree = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.Degree,
+			    USDL4EDU.hasCourseUnit => :unit,
+			  }
+			})
+			queryUnit = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.CourseUnit,
+			    USDL4EDU.hasTitle => :title
+			  }
+			})
+			solutions=queryServiceDegree.execute(graph)
+			solutionsD=queryDegree.execute(graph)
+			solutionsU=queryUnit.execute(graph)
+			if solutions.size>0
+				solutions.each do |s|
+					service=Service.new
+					service.url=s.q.to_s
+					service.urlCourse=s.urlCourse.to_s
+					service.title=s.description.to_s.gsub(/ - .*/,"")
+					service.isCourse=true
+					if s.organization==USDL4EDU.edx
+						service.organization="Edx"
+					elsif s.organization==USDL4EDU.coursera
+						service.organization="Coursera"
+					elsif s.organization==USDL4EDU.udacity
+						service.organization="Udacity"
+					elsif s.organization=="http://rdf.genssiz.dei.uc.pt/usdl4edu#dei-uc"
+						service.organization="DEI-UC"
+					end
+					solutionsD.filter(:q => s.degree).each do |s1|
+						solutionsU.filter(:q => s1.unit).each do |s2|
+							unit=Unit.new
+							unit.url=s2.q.to_s
+							unit.title=s2.title.to_s
+							unit.save
+							service.units << unit
+						end
+						solutionsU=queryUnit.execute(graph)
+					end
+					service.path=path
+					service.save
 				end
-				service.title=s.description.to_s.gsub(/ - .*/,"")
-				# puts "title:"+service.title
-				# puts "description:"+service.description
-				service.path=path
-				service.save
-			end
-			if check==false
-				File.delete(path)
-				raise "File is not a usdl4edu instance"
+			else
+				puts "----BEGIN----"
+				check=false
+				RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :description, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasURL => :urlCourse}}).execute(graph).each do |s|
+					check=true
+					service=Service.new
+					# puts "URL:"+s.q.to_s
+					service.url=s.q.to_s
+					service.urlCourse=s.urlCourse.to_s
+					if s.organization==USDL4EDU.edx
+						service.organization="Edx"
+					elsif s.organization==USDL4EDU.coursera
+						service.organization="Coursera"
+					elsif s.organization==USDL4EDU.udacity
+						service.organization="Udacity"
+					elsif s.organization=="http://rdf.genssiz.dei.uc.pt/usdl4edu#dei-uc"
+						service.organization="DEI-UC"
+					end
+					service.title=s.description.to_s.gsub(/ - .*/,"")
+					# puts "title:"+service.title
+					# puts "description:"+service.description
+					service.path=path
+					service.save
+				end
+				if check==false
+					File.delete(path)
+					raise "File is not a usdl4edu instance"
+				end
 			end
 			puts "----END----"
 			flash[:notice] = "File uploaded successfully!"
@@ -137,6 +192,12 @@ class WelcomeController < ApplicationController
 		    USDL4EDU.hasCourseUnit => :unit
 		  }
 		})
+		queryDegree = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.Degree,
+		    USDL4EDU.hasCourseUnit => :unit
+		  }
+		})
 		queryUnit = RDF::Query.new({
 		  :q => {
 		    RDF.type => USDL4EDU.CourseUnit,
@@ -204,6 +265,7 @@ class WelcomeController < ApplicationController
 		})
 
 		solutionsService=queryService.execute(graph)
+		solutionsDegree=queryDegree.execute(graph)
 		solutionsUnit=queryUnit.execute(graph)
 		solutionsTeacher=queryTeacher.execute(graph)
 		solutionsOB=queryOB.execute(graph)
@@ -216,11 +278,12 @@ class WelcomeController < ApplicationController
 		solutionsObjectiveContext=queryObjectiveContext.execute(graph)
 		
 		itemServiceUnit=""
+		checkCourse=false
 		solutionsService.filter(:q => @serviceSelected.url).each do |solution|
-			puts solution.q.to_s
-			puts "unit=#{solution.unit}"
+			checkCourse=true
 			itemServiceUnit=solution.unit
 		end
+
 
 		@unit = Hash.new
 		@unit["teachers"]=[]

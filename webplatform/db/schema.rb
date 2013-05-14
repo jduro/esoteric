@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130503150644) do
+ActiveRecord::Schema.define(:version => 20130514105953) do
 
   create_table "services", :force => true do |t|
     t.string   "title"
@@ -19,6 +19,15 @@ ActiveRecord::Schema.define(:version => 20130503150644) do
     t.string   "urlCourse"
     t.string   "path"
     t.string   "organization"
+    t.boolean  "isCourse",     :default => false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "units", :force => true do |t|
+    t.string   "title"
+    t.string   "url"
+    t.integer  "service_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

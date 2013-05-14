@@ -22,8 +22,16 @@
 <div class="well">
 	<p style="margin-bottom:1px"><strong>Objective</strong></p><p><%=@unit["obj"]["description"]%> </p>
 	<p style="margin-bottom:1px"><strong>Bloom's Taxonomy Classification</strong></p>
-	<p style="margin-bottom:1px"><strong>Cognitive Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["cogn"] ? "rel='tooltip' title='"+@unit["obj"]["cogn"]["description"]+"'": "" %> ><%=@unit["obj"]["cogn"] ? @unit["obj"]["cogn"]["label"]+"<i class=\"icon-hand-up\"></i>" : "None"%></span></p>
-	<p><strong>Knowledge Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["know"] ? "rel='tooltip' title='"+@unit["obj"]["know"]["description"]+"'": "" %> ><%=@unit["obj"]["know"] ? @unit["obj"]["know"]["label"] : "None"%></p>
+	<p style="margin-bottom:1px"><strong>Cognitive Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["cogn"] ? "rel='tooltip' title='"+@unit["obj"]["cogn"]["description"]+"'": "" %> ><%=@unit["obj"]["cogn"] ? @unit["obj"]["cogn"]["label"] : "None"%>
+		<% if @unit["obj"]["cogn"] %>
+			<i class="icon-hand-up"></i>
+		<% end %>
+	</span></p>
+	<p><strong>Knowledge Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["know"] ? "rel='tooltip' title='"+@unit["obj"]["know"]["description"]+"'": "" %> ><%=@unit["obj"]["know"] ? @unit["obj"]["know"]["label"] : "None"%>
+		<% if @unit["obj"]["know"] %>
+			<i class="icon-hand-up"></i>
+		<% end %>
+	</span></p>
 	<div align="center">
 		<div id="my_id2" ><%= high_chart("my_id2", @graphOverall) %></div>
 	</div>
@@ -40,10 +48,18 @@
 				<span class="badge pull-right"><%=count+1%></span>
 			<p style="margin-bottom:1px"><strong>Phrase:</strong></p><p><%=part["description"]%></p>
 			<p style="margin-bottom:1px"><strong>Bloom's Taxonomy Classification:</strong></p>
-				<p style="margin-bottom:1px"><strong>Cognitive Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=part["cogn"] ? "rel='tooltip' title='"+part["cogn"]["description"]+"'": "" %> >
-					<%=part["cogn"] ? part["cogn"]["label"] : "None"%></span></p>
-				<p><strong>Knowledge Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=part["know"] ? "rel='tooltip' title='"+part["know"]["description"]+"'": "" %> >
-					<%=part["know"] ? part["know"]["label"] : "None"%></p>
+				<p style="margin-bottom:1px"><strong>Cognitive Dimension&nbsp;&nbsp;</strong><span <%=part["cogn"] ? "rel='tooltip' title='"+part["cogn"]["description"]+"'": "" %> >
+					<%=part["cogn"] ? part["cogn"]["label"] : "None"%>
+					<% if part["cogn"] %>
+						<i class="icon-hand-up"></i>
+					<% end %>
+				</span></p>
+				<p><strong>Knowledge Dimension:&nbsp;&nbsp;</strong><span <%=part["know"] ? "rel='tooltip' title='"+part["know"]["description"]+"'": "" %> >
+					<%=part["know"] ? part["know"]["label"] : "None"%>
+					<% if part["know"] %>
+						<i class="icon-hand-up"></i>
+					<% end %>
+				</span></p>
 			<p style="margin-bottom:1px"><strong>Educational Areas:</strong></p><p>
 			<%if part["context"].size==0 %>
 				None<br>
@@ -66,10 +82,18 @@
 				<span class="badge pull-right"><%=count+1%></span>
 			<p style="margin-bottom:1px"><strong>Phrase:</strong></p><p><%=part["description"]%></p>
 			<p style="margin-bottom:1px"><strong>Bloom's Taxonomy Classification:</strong></p>
-				<p style="margin-bottom:1px"><strong>Cognitive Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=part["cogn"] ? "rel='tooltip' title='"+part["cogn"]["description"]+"'": "" %> >
-					<%=part["cogn"] ? part["cogn"]["label"] : "None"%></span></p>
-				<p><strong>Knowledge Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=part["know"] ? "rel='tooltip' title='"+part["know"]["description"]+"'": "" %> >
-					<%=part["know"] ? part["know"]["label"] : "None"%></p>
+				<p style="margin-bottom:1px"><strong>Cognitive Dimension:&nbsp;&nbsp;</strong><span <%=part["cogn"] ? "rel='tooltip' title='"+part["cogn"]["description"]+"'": "" %> >
+					<%=part["cogn"] ? part["cogn"]["label"] : "None"%>
+					<% if part["cogn"] %>
+						<i class="icon-hand-up"></i>
+					<% end %>
+				</span></p>
+				<p><strong>Knowledge Dimension:&nbsp;&nbsp;</strong><span <%=part["know"] ? "rel='tooltip' title='"+part["know"]["description"]+"'": "" %> >
+					<%=part["know"] ? part["know"]["label"] : "None"%>
+					<% if part["know"] %>
+						<i class="icon-hand-up"></i>
+					<% end %>
+				</span></p>
 			<p style="margin-bottom:1px"><strong>Educational Areas:</strong></p><p>
 			<%if part["context"].size==0 %>
 				None<br>
