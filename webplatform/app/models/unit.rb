@@ -1,3 +1,3 @@
 class Unit < ActiveRecord::Base
-	belongs_to :Service
+	belongs_to :service
 end
