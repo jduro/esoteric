@@ -22,7 +22,7 @@
 <div class="well">
 	<p style="margin-bottom:1px"><strong>Objective</strong></p><p><%=@unit["obj"]["description"]%> </p>
 	<p style="margin-bottom:1px"><strong>Bloom's Taxonomy Classification</strong></p>
-	<p style="margin-bottom:1px"><strong>Cognitive Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["cogn"] ? "rel='tooltip' title='"+@unit["obj"]["cogn"]["description"]+"'": "" %> ><%=@unit["obj"]["cogn"] ? @unit["obj"]["cogn"]["label"] : "None"%></span></p>
+	<p style="margin-bottom:1px"><strong>Cognitive Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["cogn"] ? "rel='tooltip' title='"+@unit["obj"]["cogn"]["description"]+"'": "" %> ><%=@unit["obj"]["cogn"] ? @unit["obj"]["cogn"]["label"]+"<i class=\"icon-hand-up\"></i>" : "None"%></span></p>
 	<p><strong>Knowledge Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["know"] ? "rel='tooltip' title='"+@unit["obj"]["know"]["description"]+"'": "" %> ><%=@unit["obj"]["know"] ? @unit["obj"]["know"]["label"] : "None"%></p>
 	<div align="center">
 		<div id="my_id2" ><%= high_chart("my_id2", @graphOverall) %></div>

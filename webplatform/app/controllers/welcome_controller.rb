@@ -306,7 +306,7 @@ class WelcomeController < ApplicationController
 				:width => 500,
 				:height => 200
 			}
-			f.options[:title][:text] = "Objectives"
+			f.options[:title][:text] = "Objectives Trend"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -314,7 +314,8 @@ class WelcomeController < ApplicationController
 				:gridLineWidth => '1',
 				:lineWidth => 1,
         		:tickmarkPlacement => 'on',
-				:max => 6
+				:max => 6,
+				:min => 0
 			}
 			f.options[:yAxis]={
 				:title => {:text => "Knowledge Dimension"},
@@ -323,7 +324,8 @@ class WelcomeController < ApplicationController
 				:gridLineWidth => '1',
 				:lineWidth => 1,
         		:tickmarkPlacement => 'on',
-				:max => 4
+				:max => 4,
+				:min => 0
 			}
 			tmp="Average"
 			f.series(
@@ -347,7 +349,8 @@ class WelcomeController < ApplicationController
 				:gridLineWidth => '1',
 				:lineWidth => 1,
         		:tickmarkPlacement => 'on',
-				:max => 6
+				:max => 6,
+				:min => 0
 			}
 			f.options[:yAxis]={
 				:title => {:text => "Knowledge Dimension"},
@@ -356,7 +359,8 @@ class WelcomeController < ApplicationController
 				:gridLineWidth => '1',
 				:lineWidth => 1,
         		:tickmarkPlacement => 'on',
-				:max => 4
+				:max => 4,
+				:min => 0
 			}
 			aux=1
 			@unit["obj"]["parts"].each do |part|
