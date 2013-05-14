@@ -38,21 +38,21 @@ gr:ProductOrService
       rdfs:comment "Understand category of Cognitive Dimension"^^xsd:string ;
       rdfs:label "Understand category"^^xsd:string ;
       dc:description "Construct meaning from instructional messages, including oral, written,and graphic communication"^^xsd:string ;
-      :hasKeyword "defend"^^xsd:string , "distinguish"^^xsd:string , "paraphrase"^^xsd:string , "rewrite"^^xsd:string , "translate"^^xsd:string , "generalize"^^xsd:string , "execute"^^xsd:string , "predict"^^xsd:string , "convert"^^xsd:string , "interpret"^^xsd:string , "comprehend"^^xsd:string , "summarize"^^xsd:string , "extend"^^xsd:string , "understand"^^xsd:string , "estimate"^^xsd:string , "infer"^^xsd:string ;
+      :hasKeyword "defend"^^xsd:string , "distinguish"^^xsd:string , "paraphrase"^^xsd:string , "rewrite"^^xsd:string , "translate"^^xsd:string , "generalize"^^xsd:string , "predict"^^xsd:string , "execute"^^xsd:string , "convert"^^xsd:string , "interpret"^^xsd:string , "comprehend"^^xsd:string , "summarize"^^xsd:string , "extend"^^xsd:string , "understand"^^xsd:string , "estimate"^^xsd:string , "infer"^^xsd:string ;
       :hasValue 2 .
 
 :CognitiveDimension_3Apply
       rdf:type :CognitiveDimension ;
       rdfs:comment "Apply category of Cognitive Dimension"^^xsd:string ;
-      rdfs:label "Carry out or use a procedure in a given situation"^^xsd:string ;
+      rdfs:label "Apply category"^^xsd:string ;
       dc:description "Recall previous learned information" ;
-      :hasKeyword "calculate"^^xsd:string , "construct"^^xsd:string , "compute"^^xsd:string , "change"^^xsd:string , "show"^^xsd:string , "apply"^^xsd:string , "produce"^^xsd:string , "manipulate"^^xsd:string , "operate"^^xsd:string , "experiment"^^xsd:string , "prepare"^^xsd:string , "relate"^^xsd:string , "classify"^^xsd:string , "use"^^xsd:string , "discover"^^xsd:string , "demonstrate"^^xsd:string , "solve"^^xsd:string , "modify"^^xsd:string ;
+      :hasKeyword "calculate"^^xsd:string , "construct"^^xsd:string , "compute"^^xsd:string , "change"^^xsd:string , "show"^^xsd:string , "produce"^^xsd:string , "apply"^^xsd:string , "manipulate"^^xsd:string , "operate"^^xsd:string , "experiment"^^xsd:string , "prepare"^^xsd:string , "relate"^^xsd:string , "classify"^^xsd:string , "use"^^xsd:string , "discover"^^xsd:string , "demonstrate"^^xsd:string , "solve"^^xsd:string , "modify"^^xsd:string ;
       :hasValue 3 .
 
 :CognitiveDimension_4Analyse
       rdf:type :CognitiveDimension ;
-      rdfs:comment "Analyse category of Cognitive Dimension"^^xsd:string ;
-      rdfs:label "Analyse category"^^xsd:string ;
+      rdfs:comment "Analyze category of Cognitive Dimension"^^xsd:string ;
+      rdfs:label "Analyze category"^^xsd:string ;
       dc:description "Break material into constituent parts and determine how parts relate to one another and to an overall structure or purpose"^^xsd:string ;
       :hasKeyword "discriminate"^^xsd:string , "achieve"^^xsd:string , "distinguish"^^xsd:string , "relate"^^xsd:string , "separate"^^xsd:string , "analyze"^^xsd:string , "diagram"^^xsd:string , "order"^^xsd:string , "outline"^^xsd:string , "illustrate"^^xsd:string , "deconstruct"^^xsd:string , "compare"^^xsd:string , "infer"^^xsd:string , "select"^^xsd:string , "explain"^^xsd:string , "differentiate"^^xsd:string , "contrast"^^xsd:string ;
       :hasValue 4 .
@@ -70,7 +70,7 @@ gr:ProductOrService
       rdfs:comment "Create category of Cognitive Dimension"^^xsd:string ;
       rdfs:label "Create category"^^xsd:string ;
       dc:description "Put elements together to form a coherent or functional whole; reorganize elements into a new pattern or structure"^^xsd:string ;
-      :hasKeyword "generate"^^xsd:string , "write"^^xsd:string , "reconstruct"^^xsd:string , "revise"^^xsd:string , "plan"^^xsd:string , "create"^^xsd:string , "devise"^^xsd:string , "tell"^^xsd:string , "categorize"^^xsd:string , "design"^^xsd:string , "rewrite"^^xsd:string , "organize"^^xsd:string , "reorganize"^^xsd:string , "modify"^^xsd:string , "compose"^^xsd:string , "combine"^^xsd:string , "compile"^^xsd:string , "rearrange"^^xsd:string , "relate"^^xsd:string ;
+      :hasKeyword "generate"^^xsd:string , "write"^^xsd:string , "reconstruct"^^xsd:string , "revise"^^xsd:string , "plan"^^xsd:string , "create"^^xsd:string , "devise"^^xsd:string , "tell"^^xsd:string , "categorize"^^xsd:string , "design"^^xsd:string , "organize"^^xsd:string , "reorganize"^^xsd:string , "rewrite"^^xsd:string , "compose"^^xsd:string , "modify"^^xsd:string , "combine"^^xsd:string , "compile"^^xsd:string , "rearrange"^^xsd:string , "relate"^^xsd:string ;
       :hasValue 6 .
 
 :CourseUnit
@@ -227,7 +227,7 @@ gr:ProductOrService
 
 :hasCognitiveDimension
       rdf:type rdf:Property ;
-      rdfs:domain :OverallObjective , :Objective ;
+      rdfs:domain :Objective , :OverallObjective ;
       rdfs:label "has Cognitive Dimension"^^xsd:string ;
       rdfs:range :CognitiveDimension .
 
@@ -240,7 +240,7 @@ gr:ProductOrService
 
 :hasCourseUnit
       rdf:type rdf:Property ;
-      rdfs:domain :Degree , :EducationalService ;
+      rdfs:domain :EducationalService , :Degree ;
       rdfs:label "has Course Unit"^^xsd:string ;
       rdfs:range :CourseUnit .
 
@@ -271,25 +271,25 @@ gr:ProductOrService
 
 :hasEcts
       rdf:type rdf:Property ;
-      rdfs:domain :CourseUnit , :Degree ;
+      rdfs:domain :Degree , :CourseUnit ;
       rdfs:label "has ects"^^xsd:string ;
       rdfs:range xsd:integer .
 
 :hasKeyword
       rdf:type rdf:Property ;
-      rdfs:domain :CognitiveDimension , :KnowledgeDimension , :SkillDimension ;
+      rdfs:domain :SkillDimension , :KnowledgeDimension , :CognitiveDimension ;
       rdfs:label "has Key Word"^^xsd:string ;
       rdfs:range xsd:string .
 
 :hasKnowledgeDimension
       rdf:type rdf:Property ;
-      rdfs:domain :OverallObjective , :Objective ;
+      rdfs:domain :Objective , :OverallObjective ;
       rdfs:label "has Knowledge Dimension"^^xsd:string ;
       rdfs:range :KnowledgeDimension .
 
 :hasLanguage
       rdf:type rdf:Property ;
-      rdfs:domain :CourseUnit , :Degree ;
+      rdfs:domain :Degree , :CourseUnit ;
       rdfs:label "Language"^^xsd:string ;
       rdfs:range :Language .
 
@@ -334,7 +334,7 @@ gr:ProductOrService
 
 :hasSkillDimension
       rdf:type rdf:Property ;
-      rdfs:domain :OverallObjective , :Objective ;
+      rdfs:domain :Objective , :OverallObjective ;
       rdfs:label "has Skill Dimension"^^xsd:string ;
       rdfs:range :SkillDimension .
 
@@ -346,7 +346,7 @@ gr:ProductOrService
 
 :hasTitle
       rdf:type rdf:Property ;
-      rdfs:domain :CourseUnit , :Degree ;
+      rdfs:domain :Degree , :CourseUnit ;
       rdfs:label "Title"^^xsd:string ;
       rdfs:range xsd:string .
 
@@ -360,7 +360,7 @@ gr:ProductOrService
 :hasValue
       rdf:type rdf:Property ;
       rdfs:comment "Value of this instance of the knowledge dimension"^^xsd:string ;
-      rdfs:domain :CognitiveDimension , :SkillDimension , :KnowledgeDimension ;
+      rdfs:domain :KnowledgeDimension , :SkillDimension , :CognitiveDimension ;
       rdfs:label "value"^^xsd:string ;
       rdfs:range xsd:integer .
 
