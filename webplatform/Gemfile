@@ -5,6 +5,8 @@ gem 'rdf'
 gem "rake", "0.8.7"
 gem "rdf-turtle"
 gem "linkeddata"
+gem 'lazy_high_charts'
+# gem "googlecharts", :require => "gchart"
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
