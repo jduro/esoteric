@@ -385,70 +385,101 @@ class NonioSpider(BaseSpider):
         unitItem['teachers']=str(table[9].select('./text()').extract()[0].encode('utf-8')).strip()
         unitItem['url']=response.url
         table=hxs.select('(//table[@class="zonecontent"])[2]/tr/td')
+        # test=""
+        # for td in table:
+        #     #All the information is inside this td variable
+        #     #However, some is inside <div> or <p> or <br>
+        #     #So we must check if the td has descendants, if not we extract the text
+        #     #if yes we go through the childs and extract the childs text no matter what they are
+        #     #in the end we check if some text was added by the aux variable, if not it means that the
+        #     #<br> is in between
+        #     if len(td.select('./descendant::*'))==0:
+        #         test+=str(td.select('./text()').extract()[0].encode('utf-8')).strip()+" "
+        #     else:
+        #         aux=0
+        #         for des in td.select('./descendant::*'):
+        #             if len(des.select('./text()'))>0:
+        #                 test+=str(des.select('./text()').extract()[0].encode('utf-8')).strip()+" "
+        #                 aux=1
+        #         if aux==0:
+        #             for s in td.select('./text()').extract():
+        #                 test+=str(s.encode('utf-8')).strip()+" "
+        # print "OLD ALGORITHM OBJECTIVE:",test
         test=""
-        for td in table:
-            #All the information is inside this td variable
-            #However, some is inside <div> or <p> or <br>
-            #So we must check if the td has descendants, if not we extract the text
-            #if yes we go through the childs and extract the childs text no matter what they are
-            #in the end we check if some text was added by the aux variable, if not it means that the
-            #<br> is in between
-            if len(td.select('./descendant::*'))==0:
-                test+=str(td.select('./text()').extract()[0].encode('utf-8')).strip()+" "
-            else:
-                aux=0
-                for des in td.select('./descendant::*'):
-                    if len(des.select('./text()'))>0:
-                        test+=str(des.select('./text()').extract()[0].encode('utf-8')).strip()+" "
-                        aux=1
-                if aux==0:
-                    for s in td.select('./text()').extract():
-                        test+=str(s.encode('utf-8')).strip()+" "
+        test+=self.recursiveExtractText(table)
+        # print "NEW ALGORITHM OBJECTIVE:",test2
         unitItem['objectives']=test
+        # if "Bases de Dados" in test2:
+        #     inspect_response(response)        
         table=hxs.select('(//table[@class="zonecontent"])[6]/tr/td')
+        # test=""
+        # for td in table:
+        #     #All the information is inside this td variable
+        #     #However, some is inside <div> or <p> or <br> or nothing
+        #     #So we must check if the td has descendants, if not we extract the text
+        #     #if yes we go through the childs and extract the childs text no matter what they are
+        #     #in the end we check if some text was added by the aux variable, if not it means that the
+        #     #<br> is in between
+        #     if len(td.select('./descendant::*'))==0:
+        #         test+=str(td.select('./text()').extract()[0].encode('utf-8')).strip()+" "
+        #     else:
+        #         aux=0
+        #         for des in td.select('./descendant::*'):
+        #             if len(des.select('./text()'))>0:
+        #                 test+=str(des.select('./text()').extract()[0].encode('utf-8')).strip()+" "
+        #                 aux=1
+        #         if aux==0:
+        #             for s in td.select('./text()').extract():
+        #                 test+=str(s.encode('utf-8')).strip()+" "
         test=""
-        for td in table:
-            #All the information is inside this td variable
-            #However, some is inside <div> or <p> or <br> or nothing
-            #So we must check if the td has descendants, if not we extract the text
-            #if yes we go through the childs and extract the childs text no matter what they are
-            #in the end we check if some text was added by the aux variable, if not it means that the
-            #<br> is in between
-            if len(td.select('./descendant::*'))==0:
-                test+=str(td.select('./text()').extract()[0].encode('utf-8')).strip()+" "
-            else:
-                aux=0
-                for des in td.select('./descendant::*'):
-                    if len(des.select('./text()'))>0:
-                        test+=str(des.select('./text()').extract()[0].encode('utf-8')).strip()+" "
-                        aux=1
-                if aux==0:
-                    for s in td.select('./text()').extract():
-                        test+=str(s.encode('utf-8')).strip()+" "
+        test+=self.recursiveExtractText(table)
         unitItem['prereq']=test
         table=hxs.select('(//table[@class="zonecontent"])[4]/tr/td')
+        # test=""
+        # for td in table:
+        #     #All the information is inside this td variable
+        #     #However, some is inside <div> or <p> or <br> or nothing
+        #     #So we must check if the td has descendants, if not we extract the text
+        #     #if yes we go through the childs and extract the childs text no matter what they are
+        #     #in the end we check if some text was added by the aux variable, if not it means that the
+        #     #<br> is in between
+        #     if len(td.select('./descendant::*'))==0:
+        #         test+=str(td.select('./text()').extract()[0].encode('utf-8')).strip()+" "
+        #     else:
+        #         aux=0
+        #         for des in td.select('./descendant::*'):
+        #             if len(des.select('./text()'))>0:
+        #                 test+=str(des.select('./text()').extract()[0].encode('utf-8')).strip()+" "
+        #                 aux=1
+        #         if aux==0:
+        #             for s in td.select('./text()').extract():
+        #                 test+=str(s.encode('utf-8')).strip()+" "
         test=""
-        for td in table:
-            #All the information is inside this td variable
-            #However, some is inside <div> or <p> or <br> or nothing
-            #So we must check if the td has descendants, if not we extract the text
-            #if yes we go through the childs and extract the childs text no matter what they are
-            #in the end we check if some text was added by the aux variable, if not it means that the
-            #<br> is in between
-            if len(td.select('./descendant::*'))==0:
-                test+=str(td.select('./text()').extract()[0].encode('utf-8')).strip()+" "
-            else:
-                aux=0
-                for des in td.select('./descendant::*'):
-                    if len(des.select('./text()'))>0:
-                        test+=str(des.select('./text()').extract()[0].encode('utf-8')).strip()+" "
-                        aux=1
-                if aux==0:
-                    for s in td.select('./text()').extract():
-                        test+=str(s.encode('utf-8')).strip()+" "
+        test+=self.recursiveExtractText(table)
         unitItem['summary']=test
         item['courseUnits'].append(unitItem)
         return item
+
+    def recursiveExtractText(self, node):
+        if len(node.select("./*"))!=0:
+            aux= node.select("./text()").extract()
+            text=""
+            # if len(aux)!=0:
+            #     # print aux[0].strip()
+            #     text=str(aux[0].encode('utf-8')).strip()
+            pos=0
+            for child in node.select("./*"):
+                if pos<len(aux):
+                    text+=" "+str(aux[pos].encode('utf-8')).strip()
+                text+=" "+self.recursiveExtractText(child)
+                pos+=1
+            for pos in range(pos,len(aux)):
+                text+=" "+str(aux[pos].encode('utf-8')).strip()
+            return text
+        else:
+            if node.select("./text()").extract()!=[]:
+                return node.select("./text()").extract()[0].encode('utf-8').strip()
+            return ""
         
 
 class GenSpider(BaseSpider):

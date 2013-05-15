@@ -4,31 +4,64 @@ https://inforestudante.uc.pt/nonio/security/init.do
 Mestrado em Engenharia de Software
 MES
 ----120
-This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project. 
-TUDO:This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project. 
-Phrase:  This is a project course
-Phrase:   Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project
-Phrase:   
-Sem nada: this is a project course. each team of students works individualy with two or three advisors (each team has his own advisor, including professor for uc and cmu) in a software development project. 
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project. 
-TUDO:This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project. 
-Phrase:  This is a project course
-Phrase:   Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project
-Phrase:   
-Sem nada: this is a project course. each team of students works individualy with two or three advisors (each team has his own advisor, including professor for uc and cmu) in a software development project. 
+  This is a unique course in that it teaches concepts about managing technical people. The course will enable students to immediately apply what you learn in class to their work and to advance the state of practice in their own organization. The teaching model used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures. Reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another. The situations presented in the role-plays will build on top of one another, increasing in complexity as the course progresses.
+TUDO:  This is a unique course in that it teaches concepts about managing technical people. The course will enable students to immediately apply what you learn in class to their work and to advance the state of practice in their own organization. The teaching model used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures. Reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another. The situations presented in the role-plays will build on top of one another, increasing in complexity as the course progresses.
+Phrase:    This is a unique course in that it teaches concepts about managing technical people
+Phrase:   The course will enable students to immediately apply what you learn in class to their work and to advance the state of practice in their own organization
+Phrase:   The teaching model used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures
+Phrase:   Reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another
+Phrase:   The situations presented in the role-plays will build on top of one another, increasing in complexity as the course progresses
+Phrase:  
+verbo:reflect/reflect
+reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another
+KNOWLEDGE DIMENSION:  reflect
+verbo:state/state
+state of practice in their own organization
+verbo:analyze/analyz
+analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures
+verbo:use/use
+used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures
+verbo:apply/appli
+
+5
+[1, 0, 2, 1, 1, 0]
+3
+[0, 0, 0, 1]
+4
+----
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-An Independent Study course is one that is designed by the student to pursue in-depth study in a particular area of interest. A maximum of two independent studies are permitted to apply toward degree completion requirements. 
-TUDO:An Independent Study course is one that is designed by the student to pursue in-depth study in a particular area of interest. A maximum of two independent studies are permitted to apply toward degree completion requirements. 
-Phrase:  An Independent Study course is one that is designed by the student to pursue in-depth study in a particular area of interest
+  This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project.
+TUDO:  This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project.
+Phrase:    This is a project course
+Phrase:   Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project
+Phrase:  
+Sem nada:   this is a project course. each team of students works individualy with two or three advisors (each team has his own advisor, including professor for uc and cmu) in a software development project.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  An Independent Study course is one that is designed by the student to pursue in-depth study in a particular area of interest. A maximum of two independent studies are permitted to apply toward degree completion requirements.
+TUDO:  An Independent Study course is one that is designed by the student to pursue in-depth study in a particular area of interest. A maximum of two independent studies are permitted to apply toward degree completion requirements.
+Phrase:    An Independent Study course is one that is designed by the student to pursue in-depth study in a particular area of interest
 Phrase:   A maximum of two independent studies are permitted to apply toward degree completion requirements
-Phrase:   
+Phrase:  
 verbo:apply/appli
 
 verbo:design/design
@@ -38,85 +71,158 @@ designed by the student to pursue in-depth study in a particular area of interes
 4
 [0, 0, 0, 0]
 ----
-The Seminar in Software Process course is a self-study and discussion course. Discussions center on how to implement effective and efficient software processes. The focus of the seminar is on systematic approaches to building software better, faster, and cheaper. A variety of process improvement and quality management strategies are discussed, including Total Quality Management, Baldrige Award, ISO 9001, ISO 15504 (SPICE), and others, but the course is primarily structured around the staged approach to improvement from the Capability Maturity Model (CMM).  
-TUDO:The Seminar in Software Process course is a self-study and discussion course. Discussions center on how to implement effective and efficient software processes. The focus of the seminar is on systematic approaches to building software better, faster, and cheaper. A variety of process improvement and quality management strategies are discussed, including Total Quality Management, Baldrige Award, ISO 9001, ISO 15504 (SPICE), and others, but the course is primarily structured around the staged approach to improvement from the Capability Maturity Model (CMM).  
-Phrase:  The Seminar in Software Process course is a self-study and discussion course
+  This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project.
+TUDO:  This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project.
+Phrase:    This is a project course
+Phrase:   Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project
+Phrase:  
+Sem nada:   this is a project course. each team of students works individualy with two or three advisors (each team has his own advisor, including professor for uc and cmu) in a software development project.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  The Seminar in Software Process course is a self-study and discussion course. Discussions center on how to implement effective and efficient software processes. The focus of the seminar is on systematic approaches to building software better, faster, and cheaper. A variety of process improvement and quality management strategies are discussed, including Total Quality Management, Baldrige Award, ISO 9001, ISO 15504 (SPICE), and others, but the course is primarily structured around the staged approach to improvement from the Capability Maturity Model (CMM). 
+TUDO:  The Seminar in Software Process course is a self-study and discussion course. Discussions center on how to implement effective and efficient software processes. The focus of the seminar is on systematic approaches to building software better, faster, and cheaper. A variety of process improvement and quality management strategies are discussed, including Total Quality Management, Baldrige Award, ISO 9001, ISO 15504 (SPICE), and others, but the course is primarily structured around the staged approach to improvement from the Capability Maturity Model (CMM). 
+Phrase:    The Seminar in Software Process course is a self-study and discussion course
 Phrase:   Discussions center on how to implement effective and efficient software processes
 Phrase:   The focus of the seminar is on systematic approaches to building software better, faster, and cheaper
 Phrase:   A variety of process improvement and quality management strategies are discussed, including Total Quality Management, Baldrige Award, ISO 9001, ISO 15504 (SPICE), and others, but the course is primarily structured around the staged approach to improvement from the Capability Maturity Model (CMM)
-Phrase:    
-Sem nada: the seminar in software process course is a self-study and discussion course. discussions center on how to implement effective and efficient software processes. the focus of the seminar is on systematic approaches to building software better, faster, and cheaper. a variety of process improvement and quality management strategies are discussed, including total quality management, baldrige award, iso 9001, iso 15504 (spice), and others, but the course is primarily structured around the staged approach to improvement from the capability maturity model (cmm).  
+Phrase:   
+Sem nada:   the seminar in software process course is a self-study and discussion course. discussions center on how to implement effective and efficient software processes. the focus of the seminar is on systematic approaches to building software better, faster, and cheaper. a variety of process improvement and quality management strategies are discussed, including total quality management, baldrige award, iso 9001, iso 15504 (spice), and others, but the course is primarily structured around the staged approach to improvement from the capability maturity model (cmm). 
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.   
-TUDO:Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.   
-Phrase:  Este mestrado enquandar-se no programa CMU/Portugal
+  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+TUDO:  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+Phrase:    Este mestrado enquandar-se no programa CMU/Portugal
 Phrase:   Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra
-Phrase:     
-Sem nada: este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.   
+Phrase:    
+Sem nada:   este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.  
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.   
-TUDO:Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.   
-Phrase:  Este mestrado enquandar-se no programa CMU/Portugal
+  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+TUDO:  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+Phrase:    Este mestrado enquandar-se no programa CMU/Portugal
 Phrase:   Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra
-Phrase:     
-Sem nada: este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.   
+Phrase:    
+Sem nada:   este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.  
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.   
-TUDO:Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.   
-Phrase:  Este mestrado enquandar-se no programa CMU/Portugal
+  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+TUDO:  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+Phrase:    Este mestrado enquandar-se no programa CMU/Portugal
 Phrase:   Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra
-Phrase:     
-Sem nada: este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.   
+Phrase:    
+Sem nada:   este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.  
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.   
-TUDO:Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.   
-Phrase:  Este mestrado enquandar-se no programa CMU/Portugal
+  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+TUDO:  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+Phrase:    Este mestrado enquandar-se no programa CMU/Portugal
 Phrase:   Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra
-Phrase:     
-Sem nada: este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.   
+Phrase:    
+Sem nada:   este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.  
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-Hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio. No entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si. No entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente. Isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus). 
-TUDO:Hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio. No entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si. No entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente. Isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus). 
-Phrase:  Hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  Hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio. No entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si. No entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente. Isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus).
+TUDO:  Hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio. No entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si. No entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente. Isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus).
+Phrase:    Hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio
 Phrase:   No entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si
 Phrase:   No entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente
 Phrase:   Isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem
 Phrase:   Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização
 Phrase:   Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização
 Phrase:   Será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus)
-Phrase:   
-Sem nada: hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio. no entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si. no entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente. isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como soa (service oriented architecture) e esb (enterprise service bus). 
+Phrase:  
+Sem nada:   hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio. no entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si. no entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente. isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como soa (service oriented architecture) e esb (enterprise service bus).
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-Large scale software development requires the ability to manage resources - both human and computational - through control of the development process. This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process. The nature of software development is sufficiently unique to require specialized management techniques, especially in the areas of the estimating and scheduling. 
-TUDO:Large scale software development requires the ability to manage resources - both human and computational - through control of the development process. This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process. The nature of software development is sufficiently unique to require specialized management techniques, especially in the areas of the estimating and scheduling. 
-Phrase:  Large scale software development requires the ability to manage resources - both human and computational - through control of the development process
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  Large scale software development requires the ability to manage resources - both human and computational - through control of the development process. This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process. The nature of software development is sufficiently unique to require specialized management techniques, especially in the areas of the estimating and scheduling.
+TUDO:  Large scale software development requires the ability to manage resources - both human and computational - through control of the development process. This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process. The nature of software development is sufficiently unique to require specialized management techniques, especially in the areas of the estimating and scheduling.
+Phrase:    Large scale software development requires the ability to manage resources - both human and computational - through control of the development process
 Phrase:   This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process
 Phrase:   The nature of software development is sufficiently unique to require specialized management techniques, especially in the areas of the estimating and scheduling
-Phrase:   
-verbo:compute/comput
-computational - through control of the development process
+Phrase:  
 verbo:understand/understand
 understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process
 verbo:estimate/estim
 estimate time and costs, and understand the software process
+verbo:compute/comput
+computational - through control of the development process
 verbo:design/design
 designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process
 4
@@ -124,13 +230,15 @@ designed to help technically-trained software engineers to acquire the knowledge
 3
 [0, 0, 0, 0]
 ----
-Number descriptions:  10
-Number found:  6
+NOT SAVING
+Number descriptions:  20
+Number found:  11
 Number context:  40
-Number without:  8
-Stats:  [8, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-Number descriptions:  10
-Number found:  6
+Number without:  17
+Stats:  [17, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+NOT SAVING
+Number descriptions:  20
+Number found:  11
 Number context:  40
-Number without:  8
-Stats:  [8, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number without:  17
+Stats:  [17, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
