@@ -1,346 +1,16 @@
 Gonna send login
 https://inforestudante.uc.pt/nonio/security/init.do
 ---- PIPELINE ----
-Mestrado em Engenharia Informática
-MEI
-----120
-  Estudar as principais técnicas de computação adaptativa para processar dados quantitativos e qualitativos: configuração e treino de redes neuronais artificiais (em diversas arquiteturas), de lógica difusa, sistemas difusos e neuro-difusos. Desenvolver as competências para conceber sistemas de classificação de grandes conjuntos de dados, de diagnóstico em contextos industriais e médicos (em contextos de incerteza, conhecimento incompleto, imprecisão) de controlo inteligente, de análise sistémica dos problemas complexos e de avaliação crítico dos resultados. Adicionalmente desenvolvem-se competências de trabalho em grupo, de comunicação técnico-científica oral e escrita.
-TUDO:  Estudar as principais técnicas de computação adaptativa para processar dados quantitativos e qualitativos: configuração e treino de redes neuronais artificiais (em diversas arquiteturas), de lógica difusa, sistemas difusos e neuro-difusos. Desenvolver as competências para conceber sistemas de classificação de grandes conjuntos de dados, de diagnóstico em contextos industriais e médicos (em contextos de incerteza, conhecimento incompleto, imprecisão) de controlo inteligente, de análise sistémica dos problemas complexos e de avaliação crítico dos resultados. Adicionalmente desenvolvem-se competências de trabalho em grupo, de comunicação técnico-científica oral e escrita.
-Phrase:    Estudar as principais técnicas de computação adaptativa para processar dados quantitativos e qualitativos: configuração e treino de redes neuronais artificiais (em diversas arquiteturas), de lógica difusa, sistemas difusos e neuro-difusos
-Phrase:   Desenvolver as competências para conceber sistemas de classificação de grandes conjuntos de dados, de diagnóstico em contextos industriais e médicos (em contextos de incerteza, conhecimento incompleto, imprecisão) de controlo inteligente, de análise sistémica dos problemas complexos e de avaliação crítico dos resultados
-Phrase:   Adicionalmente desenvolvem-se competências de trabalho em grupo, de comunicação técnico-científica oral e escrita
+Mestrado em Informática e Projecto de Software
+MIPS
+----90
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
 Phrase:  
-Sem nada:   estudar as principais técnicas de computação adaptativa para processar dados quantitativos e qualitativos: configuração e treino de redes neuronais artificiais (em diversas arquiteturas), de lógica difusa, sistemas difusos e neuro-difusos. desenvolver as competências para conceber sistemas de classificação de grandes conjuntos de dados, de diagnóstico em contextos industriais e médicos (em contextos de incerteza, conhecimento incompleto, imprecisão) de controlo inteligente, de análise sistémica dos problemas complexos e de avaliação crítico dos resultados. adicionalmente desenvolvem-se competências de trabalho em grupo, de comunicação técnico-científica oral e escrita.
+Sem nada: informação não definida.
 0
 [0, 0, 0, 0, 0, 0]
-[0, 0, 0, 0]
-----
-O estudo dos principais métodos quantitativos de gestão de organizações (indústria, serviços), proporcionando ao engenheiro informático a capacidade de desenvolvimento das funcionalidades operativas dos sistemas de informação é o objectivo central desta unidade curricular. A arte de resolução de problemas (nomeadamente por programação linear e não-linear), a previsão, a gestão de inventários, a produção integrada moderna (CIM, MRPII, ERP, etc.) são temas desenvolvidos.
-TUDO:O estudo dos principais métodos quantitativos de gestão de organizações (indústria, serviços), proporcionando ao engenheiro informático a capacidade de desenvolvimento das funcionalidades operativas dos sistemas de informação é o objectivo central desta unidade curricular. A arte de resolução de problemas (nomeadamente por programação linear e não-linear), a previsão, a gestão de inventários, a produção integrada moderna (CIM, MRPII, ERP, etc.) são temas desenvolvidos.
-Phrase:  O estudo dos principais métodos quantitativos de gestão de organizações (indústria, serviços), proporcionando ao engenheiro informático a capacidade de desenvolvimento das funcionalidades operativas dos sistemas de informação é o objectivo central desta unidade curricular
-Phrase:   A arte de resolução de problemas (nomeadamente por programação linear e não-linear), a previsão, a gestão de inventários, a produção integrada moderna (CIM, MRPII, ERP, etc
-Phrase:  ) são temas desenvolvidos
-Phrase:  
-Sem nada: o estudo dos principais métodos quantitativos de gestão de organizações (indústria, serviços), proporcionando ao engenheiro informático a capacidade de desenvolvimento das funcionalidades operativas dos sistemas de informação é o objectivo central desta unidade curricular. a arte de resolução de problemas (nomeadamente por programação linear e não-linear), a previsão, a gestão de inventários, a produção integrada moderna (cim, mrpii, erp, etc.) são temas desenvolvidos.
-0
-[0, 0, 0, 0, 0, 0]
-[0, 0, 0, 0]
-----
-A disciplina de "Sistemas de Gestão de Dados" (SGD) introduz tópicos avançados de DBMS (índices, controlo de concorrência, sistema de recuperação, optimização de desempenho, etc). As questões relacionadads com performance e fiabilidade sao abordadas. Haverá uma enfase também em sistemas de gestão de dados em ambientes paralelos e distribuidos. Stream processing será abordado e estudado. Irão ser analizados outros sistemas avançados de dados para além dos usados em DBMS clássicos. Em particular, será estudado o MapReduce e a BigTable da Google e tecnologia de processamento de eventos (complex event processing), bases de dados orientadas a colunas, etc.
-TUDO:A disciplina de "Sistemas de Gestão de Dados" (SGD) introduz tópicos avançados de DBMS (índices, controlo de concorrência, sistema de recuperação, optimização de desempenho, etc). As questões relacionadads com performance e fiabilidade sao abordadas. Haverá uma enfase também em sistemas de gestão de dados em ambientes paralelos e distribuidos. Stream processing será abordado e estudado. Irão ser analizados outros sistemas avançados de dados para além dos usados em DBMS clássicos. Em particular, será estudado o MapReduce e a BigTable da Google e tecnologia de processamento de eventos (complex event processing), bases de dados orientadas a colunas, etc.
-Phrase:  A disciplina de "Sistemas de Gestão de Dados" (SGD) introduz tópicos avançados de DBMS (índices, controlo de concorrência, sistema de recuperação, optimização de desempenho, etc)
-Phrase:   As questões relacionadads com performance e fiabilidade sao abordadas
-Phrase:   Haverá uma enfase também em sistemas de gestão de dados em ambientes paralelos e distribuidos
-Phrase:   Stream processing será abordado e estudado
-Phrase:   Irão ser analizados outros sistemas avançados de dados para além dos usados em DBMS clássicos
-Phrase:   Em particular, será estudado o MapReduce e a BigTable da Google e tecnologia de processamento de eventos (complex event processing), bases de dados orientadas a colunas, etc
-Phrase:  
-Sem nada: a disciplina de "sistemas de gestão de dados" (sgd) introduz tópicos avançados de dbms (índices, controlo de concorrência, sistema de recuperação, optimização de desempenho, etc). as questões relacionadads com performance e fiabilidade sao abordadas. haverá uma enfase também em sistemas de gestão de dados em ambientes paralelos e distribuidos. stream processing será abordado e estudado. irão ser analizados outros sistemas avançados de dados para além dos usados em dbms clássicos. em particular, será estudado o mapreduce e a bigtable da google e tecnologia de processamento de eventos (complex event processing), bases de dados orientadas a colunas, etc.
-0
-[0, 0, 0, 0, 0, 0]
-[0, 0, 0, 0]
-----
- Português: O objectivo principal da disciplina é o estudo de metodologias para a modelação e avaliação do desempenho de redes de comunicação. A disciplina aborda os fundamentos da teoria das probabilidades e dos processos estocásticos na perspectiva da modelação e análise de desempenho das redes de comunicação. De forma complementar, a disciplina aborda metodologias de simulação para avaliação de desempenho de sistemas de comunicação.  A disciplina pretende que os alunos adquiram conhecimentos sobre os fundamentos de modelação e análise de desempenho de redes de comunicação, obtendo capacidade de análise e concepção de modelos de componentes de sistemas de comunicação. Pretende-se que o aluno adquira capacidade de tomada de decisão na seleção e utilização de metodologias para modelação e avaliação do desempenho de redes de comunicação e que seja capaz de justificar as opções tomadas, assim como expor e fundamentar os resultados da avaliação de desempenho de redes de comunicação.  The main objective of this course is the study of methodologies for modeling and performance evaluation of communication networks. The course addresses fundamentals of probability theory and stochastic processes from the perspective of modeling and performance analysis of communication systems. This course also addresses simulation methodologies for the performance analysis of communication systems. Inglês: The students will acquire knowledge about fundamentals on modeling and network performance analysis, obtaining capabilities for the analysis and design of models of communication systems components. Students will acquire decision making capabilities in the selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained.  
-TUDO: Português: O objectivo principal da disciplina é o estudo de metodologias para a modelação e avaliação do desempenho de redes de comunicação. A disciplina aborda os fundamentos da teoria das probabilidades e dos processos estocásticos na perspectiva da modelação e análise de desempenho das redes de comunicação. De forma complementar, a disciplina aborda metodologias de simulação para avaliação de desempenho de sistemas de comunicação.  A disciplina pretende que os alunos adquiram conhecimentos sobre os fundamentos de modelação e análise de desempenho de redes de comunicação, obtendo capacidade de análise e concepção de modelos de componentes de sistemas de comunicação. Pretende-se que o aluno adquira capacidade de tomada de decisão na seleção e utilização de metodologias para modelação e avaliação do desempenho de redes de comunicação e que seja capaz de justificar as opções tomadas, assim como expor e fundamentar os resultados da avaliação de desempenho de redes de comunicação.  The main objective of this course is the study of methodologies for modeling and performance evaluation of communication networks. The course addresses fundamentals of probability theory and stochastic processes from the perspective of modeling and performance analysis of communication systems. This course also addresses simulation methodologies for the performance analysis of communication systems. Inglês: The students will acquire knowledge about fundamentals on modeling and network performance analysis, obtaining capabilities for the analysis and design of models of communication systems components. Students will acquire decision making capabilities in the selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained.  
-Phrase:   Português: O objectivo principal da disciplina é o estudo de metodologias para a modelação e avaliação do desempenho de redes de comunicação
-Phrase:   A disciplina aborda os fundamentos da teoria das probabilidades e dos processos estocásticos na perspectiva da modelação e análise de desempenho das redes de comunicação
-Phrase:   De forma complementar, a disciplina aborda metodologias de simulação para avaliação de desempenho de sistemas de comunicação
-Phrase:    A disciplina pretende que os alunos adquiram conhecimentos sobre os fundamentos de modelação e análise de desempenho de redes de comunicação, obtendo capacidade de análise e concepção de modelos de componentes de sistemas de comunicação
-Phrase:   Pretende-se que o aluno adquira capacidade de tomada de decisão na seleção e utilização de metodologias para modelação e avaliação do desempenho de redes de comunicação e que seja capaz de justificar as opções tomadas, assim como expor e fundamentar os resultados da avaliação de desempenho de redes de comunicação
-Phrase:    The main objective of this course is the study of methodologies for modeling and performance evaluation of communication networks
-Phrase:   The course addresses fundamentals of probability theory and stochastic processes from the perspective of modeling and performance analysis of communication systems
-Phrase:   This course also addresses simulation methodologies for the performance analysis of communication systems
-Phrase:   Inglês: The students will acquire knowledge about fundamentals on modeling and network performance analysis, obtaining capabilities for the analysis and design of models of communication systems components
-Phrase:   Students will acquire decision making capabilities in the selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained
-Phrase:    
-verbo:explain/explain
-explain the results obtained
-KNOWLEDGE DIMENSION:  explain
-verbo:select/select
-selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained
-verbo:use/use
-use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained
-verbo:select/select
-selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained
-verbo:design/design
-design of models of communication systems components
-verbo:justify/justifi
-justificar as opções tomadas, assim como expor e fundamentar os resultados da avaliação de desempenho de redes de comunicação
-verbo:evaluate/evalu
-evaluation of communication networks
-7
-[1, 0, 1, 2, 2, 1]
-4
-[0, 1, 0, 0]
-2
-----
-  Esta disciplina tem como objectivo principal a sedimentação e integração dos conhecimentos adquiridos nas disciplinas na área de Comunicações e Telemática, tendo o potencial de preparar a realização da dissertação de mestrado na área das Comunicações e Telemática. A disciplina permite ao aluno a aprendizagem de técnicas experimentais na área das Comunicações e Telemática, familiarização com o ambiente de laboratório, e o aprofundamento das técnicas de escrita de documentação e de realização de apresentações científicas.  ---------------------------------------------------------------------------------  The main objective of this course is the sedimentation and integration of the knowledge gained in the courses in the area of communications and telematics, providing the basis for the MsC thesis in this area. This course allows that the student learns experimental techniques in the communication and telematics area, experience in laboratory environment, and the practice of scientific writing and presentations.
-TUDO:  Esta disciplina tem como objectivo principal a sedimentação e integração dos conhecimentos adquiridos nas disciplinas na área de Comunicações e Telemática, tendo o potencial de preparar a realização da dissertação de mestrado na área das Comunicações e Telemática. A disciplina permite ao aluno a aprendizagem de técnicas experimentais na área das Comunicações e Telemática, familiarização com o ambiente de laboratório, e o aprofundamento das técnicas de escrita de documentação e de realização de apresentações científicas.  ---------------------------------------------------------------------------------  The main objective of this course is the sedimentation and integration of the knowledge gained in the courses in the area of communications and telematics, providing the basis for the MsC thesis in this area. This course allows that the student learns experimental techniques in the communication and telematics area, experience in laboratory environment, and the practice of scientific writing and presentations.
-Phrase:    Esta disciplina tem como objectivo principal a sedimentação e integração dos conhecimentos adquiridos nas disciplinas na área de Comunicações e Telemática, tendo o potencial de preparar a realização da dissertação de mestrado na área das Comunicações e Telemática
-Phrase:   A disciplina permite ao aluno a aprendizagem de técnicas experimentais na área das Comunicações e Telemática, familiarização com o ambiente de laboratório, e o aprofundamento das técnicas de escrita de documentação e de realização de apresentações científicas
-Phrase:    ---------------------------------------------------------------------------------  The main objective of this course is the sedimentation and integration of the knowledge gained in the courses in the area of communications and telematics, providing the basis for the MsC thesis in this area
-Phrase:   This course allows that the student learns experimental techniques in the communication and telematics area, experience in laboratory environment, and the practice of scientific writing and presentations
-Phrase:  
-verbo:experiment/experi
-experimentais na área das comunicações e telemática, familiarização com o ambiente de laboratório, e o aprofundamento das técnicas de escrita de documentação e de realização de apresentações científicas
-verbo:write/write
-
-2
-[0, 0, 1, 0, 0, 1]
-4
-[0, 0, 0, 0]
-----
-  A computação ubíqua realiza a visão de Mark Weiser - “a physical world richly and invisibly interwoven with sensors, actuators, displays’ and computational elements, embedded seamlessly in the everyday objects of our lives and connected through a continuous network”.     A computação ubíqua é uma área integradora de várias competências – programação, inteligência artificial, sistemas de informação, redes,  e outras.     Nesta disciplina são adquiridos os conhecimentos necessários à concepção e desenvolvimento de sistemas ubíquos e à sua integração com os sistemas de informação existentes. É dada especial atenção às metodologias de positionamento, representação de lugares e percepção de contexto, privacidade e segurança e avaliação de sistemas ubíquos.   
-TUDO:  A computação ubíqua realiza a visão de Mark Weiser - “a physical world richly and invisibly interwoven with sensors, actuators, displays’ and computational elements, embedded seamlessly in the everyday objects of our lives and connected through a continuous network”.     A computação ubíqua é uma área integradora de várias competências – programação, inteligência artificial, sistemas de informação, redes,  e outras.     Nesta disciplina são adquiridos os conhecimentos necessários à concepção e desenvolvimento de sistemas ubíquos e à sua integração com os sistemas de informação existentes. É dada especial atenção às metodologias de positionamento, representação de lugares e percepção de contexto, privacidade e segurança e avaliação de sistemas ubíquos.   
-Phrase:    A computação ubíqua realiza a visão de Mark Weiser - “a physical world richly and invisibly interwoven with sensors, actuators, displays’ and computational elements, embedded seamlessly in the everyday objects of our lives and connected through a continuous network”
-Phrase:       A computação ubíqua é uma área integradora de várias competências – programação, inteligência artificial, sistemas de informação, redes,  e outras
-Phrase:       Nesta disciplina são adquiridos os conhecimentos necessários à concepção e desenvolvimento de sistemas ubíquos e à sua integração com os sistemas de informação existentes
-Phrase:   É dada especial atenção às metodologias de positionamento, representação de lugares e percepção de contexto, privacidade e segurança e avaliação de sistemas ubíquos
-Phrase:     
-verbo:compute/comput
-computação ubíqua realiza a visão de mark weiser - “a physical world richly and invisibly interwoven with sensors, actuators, displays’ and computational elements, embedded seamlessly in the everyday objects of our lives and connected through a continuous network”
-1
-[0, 0, 1, 0, 0, 0]
-3
-[0, 0, 0, 0]
-----
- Português: O objectivo principal da cadeira é que o aluno adquira um conjunto de competências:  -        Capacidade de representação de conhecimento através de uma linguagem formal (ontologias, casos ou outras formalismos leccionados).  -        Capacidade de gestão de uma base de conhecimento.  -        Capacidade de especificar, fazer o design e desenvolver sistemas para a gestão de conhecimento baseados nas técnicas leccionadas.  -        Capacidade de aplicar as abordagens leccionadas em novas situações.  Com base na aquisição destas competências o aluno adquire necessariamente os seguintes conhecimentos:  -        O que é a Gestão de Conhecimento (GC).  -        Que técnicas é que podem ser usadas para a GC:    Recolha de Informação (Information Retrieval);  Raciocínio Baseado em Casos (RBC);  Text Mining (TM);  Web Mining (WM);  Pesquisa Semântica.  -        O que é uma ontologia.  -        O que é uma base de conhecimento.  -        Questões relacionadas com a gestão de uma base de conhecimento. Inglês: The main goal of this course is that students acquire the following set of competences:  -        Ability to represent knowledge using a formal language (ontologies, cases or other formalisms lectured).  -        Ability to manage a knowledge base.  -        Ability to specify, design and develop systems for knowledge management based on the techniques lectured.  -        Ability to apply the approaches lectured in new situations.  Based on the acquisition of these competences the students acquire the following:  -        What is Knowledge Management.  -        What are the techniques used for Knowledge Management:    Information Retrieval;  Case Based Reasoning (CBR);  Text Mining (TM);  Web Mining (WM);  Semantic Search.  -        What is an ontology.  -        What is a knowledge base.  -        Issues related to the management of a knowledge base.
-TUDO: Português: O objectivo principal da cadeira é que o aluno adquira um conjunto de competências:  -        Capacidade de representação de conhecimento através de uma linguagem formal (ontologias, casos ou outras formalismos leccionados).  -        Capacidade de gestão de uma base de conhecimento.  -        Capacidade de especificar, fazer o design e desenvolver sistemas para a gestão de conhecimento baseados nas técnicas leccionadas.  -        Capacidade de aplicar as abordagens leccionadas em novas situações.  Com base na aquisição destas competências o aluno adquire necessariamente os seguintes conhecimentos:  -        O que é a Gestão de Conhecimento (GC).  -        Que técnicas é que podem ser usadas para a GC:    Recolha de Informação (Information Retrieval);  Raciocínio Baseado em Casos (RBC);  Text Mining (TM);  Web Mining (WM);  Pesquisa Semântica.  -        O que é uma ontologia.  -        O que é uma base de conhecimento.  -        Questões relacionadas com a gestão de uma base de conhecimento. Inglês: The main goal of this course is that students acquire the following set of competences:  -        Ability to represent knowledge using a formal language (ontologies, cases or other formalisms lectured).  -        Ability to manage a knowledge base.  -        Ability to specify, design and develop systems for knowledge management based on the techniques lectured.  -        Ability to apply the approaches lectured in new situations.  Based on the acquisition of these competences the students acquire the following:  -        What is Knowledge Management.  -        What are the techniques used for Knowledge Management:    Information Retrieval;  Case Based Reasoning (CBR);  Text Mining (TM);  Web Mining (WM);  Semantic Search.  -        What is an ontology.  -        What is a knowledge base.  -        Issues related to the management of a knowledge base.
-Phrase:   Português: O objectivo principal da cadeira é que o aluno adquira um conjunto de competências:  -        Capacidade de representação de conhecimento através de uma linguagem formal (ontologias, casos ou outras formalismos leccionados)
-Phrase:    -        Capacidade de gestão de uma base de conhecimento
-Phrase:    -        Capacidade de especificar, fazer o design e desenvolver sistemas para a gestão de conhecimento baseados nas técnicas leccionadas
-Phrase:    -        Capacidade de aplicar as abordagens leccionadas em novas situações
-Phrase:    Com base na aquisição destas competências o aluno adquire necessariamente os seguintes conhecimentos:  -        O que é a Gestão de Conhecimento (GC)
-Phrase:    -        Que técnicas é que podem ser usadas para a GC:    Recolha de Informação (Information Retrieval);  Raciocínio Baseado em Casos (RBC);  Text Mining (TM);  Web Mining (WM);  Pesquisa Semântica
-Phrase:    -        O que é uma ontologia
-Phrase:    -        O que é uma base de conhecimento
-Phrase:    -        Questões relacionadas com a gestão de uma base de conhecimento
-Phrase:   Inglês: The main goal of this course is that students acquire the following set of competences:  -        Ability to represent knowledge using a formal language (ontologies, cases or other formalisms lectured)
-Phrase:    -        Ability to manage a knowledge base
-Phrase:    -        Ability to specify, design and develop systems for knowledge management based on the techniques lectured
-Phrase:    -        Ability to apply the approaches lectured in new situations
-Phrase:    Based on the acquisition of these competences the students acquire the following:  -        What is Knowledge Management
-Phrase:    -        What are the techniques used for Knowledge Management:    Information Retrieval;  Case Based Reasoning (CBR);  Text Mining (TM);  Web Mining (WM);  Semantic Search
-Phrase:    -        What is an ontology
-Phrase:    -        What is a knowledge base
-Phrase:    -        Issues related to the management of a knowledge base
-Phrase:  
-verbo:relate/relat
-related to the management of a knowledge base
-verbo:relate/relat
-related to the management of a knowledge base
-verbo:use/use
-used for knowledge management:    information retrieval;  case based reasoning (cbr);  text mining (tm);  web mining (wm);  semantic search
-verbo:apply/appli
-
-verbo:relate/relat
-related to the management of a knowledge base
-verbo:design/design
-design e desenvolver sistemas para a gestão de conhecimento baseados nas técnicas leccionadas
-verbo:relate/relat
-related to the management of a knowledge base
-7
-[0, 0, 3, 1, 1, 2]
-4
-[0, 0, 0, 0]
-----
-  Através desta unidade curricular os estudantes ficarão a conhecer os conceitos fundamentais para compreender a interacção entre humanos e sistemas computacionais. O estudante adquirirá competências na aplicação de modelos, métodos e técnicas para entender, analisar e projectar para as necessidades dos utilizadores em contexto, e competências para conceber e avaliar propostas de interface tendo em conta a usabilidade, entre outras qualidades da experiência de uso.  Mais especificamente, o estudante deverá compreender o papel dos factores humanos na interacção e interface, compreender e aplicar técnicas de prototipagem para investigação e ensaio de proposta de design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de HCI.  Os estudantes ficarão a conhecer diversos instrumentos metodológicos e aprenderão a combinar as técnicas de uma forma sistemática enquanto abordagem empírica ao design de interacção. 
-TUDO:  Através desta unidade curricular os estudantes ficarão a conhecer os conceitos fundamentais para compreender a interacção entre humanos e sistemas computacionais. O estudante adquirirá competências na aplicação de modelos, métodos e técnicas para entender, analisar e projectar para as necessidades dos utilizadores em contexto, e competências para conceber e avaliar propostas de interface tendo em conta a usabilidade, entre outras qualidades da experiência de uso.  Mais especificamente, o estudante deverá compreender o papel dos factores humanos na interacção e interface, compreender e aplicar técnicas de prototipagem para investigação e ensaio de proposta de design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de HCI.  Os estudantes ficarão a conhecer diversos instrumentos metodológicos e aprenderão a combinar as técnicas de uma forma sistemática enquanto abordagem empírica ao design de interacção. 
-Phrase:    Através desta unidade curricular os estudantes ficarão a conhecer os conceitos fundamentais para compreender a interacção entre humanos e sistemas computacionais
-Phrase:   O estudante adquirirá competências na aplicação de modelos, métodos e técnicas para entender, analisar e projectar para as necessidades dos utilizadores em contexto, e competências para conceber e avaliar propostas de interface tendo em conta a usabilidade, entre outras qualidades da experiência de uso
-Phrase:    Mais especificamente, o estudante deverá compreender o papel dos factores humanos na interacção e interface, compreender e aplicar técnicas de prototipagem para investigação e ensaio de proposta de design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de HCI
-Phrase:    Os estudantes ficarão a conhecer diversos instrumentos metodológicos e aprenderão a combinar as técnicas de uma forma sistemática enquanto abordagem empírica ao design de interacção
-Phrase:   
-verbo:design/design
-design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de hci
-1
-[0, 0, 0, 0, 0, 1]
-6
-[0, 0, 0, 0]
-----
- Português:  A natureza da actividade de desenvolvimento de software é de tal forma única, que requer o conhecimento de técnicas de gestão, dado que exige competências ao nível da gestão de recursos, quer humanos, quer computacionais, para a monitorização e controlo do processo de desenvolvimento.  No final desta cadeira, os estudantes deverão ser capazes de aplicar as principais técnicas de gestão de projecto de software enquanto actividade de engenharia, i.e. com custos e prazos finitos. Ademais, deverão ser capaz de lidar com aspectos de relacionamento pessoal e organizacional, como resultado da necessidade de trabalhar no seio de equipas de razoável dimensão (8 a 12 pessoas), em projectos reais com clientes reais.      In Software Project Management the students will get knowledge through hands-on experience on the main techniques used to manage and execute a software project as an engineering activity, i.e. with constrained deadlines, costs and quality. Interpersonal, social and work management issues will also be focused as the students will have to work integrated in a large development team with real clients. Inglês: 
-TUDO: Português:  A natureza da actividade de desenvolvimento de software é de tal forma única, que requer o conhecimento de técnicas de gestão, dado que exige competências ao nível da gestão de recursos, quer humanos, quer computacionais, para a monitorização e controlo do processo de desenvolvimento.  No final desta cadeira, os estudantes deverão ser capazes de aplicar as principais técnicas de gestão de projecto de software enquanto actividade de engenharia, i.e. com custos e prazos finitos. Ademais, deverão ser capaz de lidar com aspectos de relacionamento pessoal e organizacional, como resultado da necessidade de trabalhar no seio de equipas de razoável dimensão (8 a 12 pessoas), em projectos reais com clientes reais.      In Software Project Management the students will get knowledge through hands-on experience on the main techniques used to manage and execute a software project as an engineering activity, i.e. with constrained deadlines, costs and quality. Interpersonal, social and work management issues will also be focused as the students will have to work integrated in a large development team with real clients. Inglês: 
-Phrase:   Português:  A natureza da actividade de desenvolvimento de software é de tal forma única, que requer o conhecimento de técnicas de gestão, dado que exige competências ao nível da gestão de recursos, quer humanos, quer computacionais, para a monitorização e controlo do processo de desenvolvimento
-Phrase:    No final desta cadeira, os estudantes deverão ser capazes de aplicar as principais técnicas de gestão de projecto de software enquanto actividade de engenharia, i
-Phrase:  e
-Phrase:   com custos e prazos finitos
-Phrase:   Ademais, deverão ser capaz de lidar com aspectos de relacionamento pessoal e organizacional, como resultado da necessidade de trabalhar no seio de equipas de razoável dimensão (8 a 12 pessoas), em projectos reais com clientes reais
-Phrase:        In Software Project Management the students will get knowledge through hands-on experience on the main techniques used to manage and execute a software project as an engineering activity, i
-Phrase:  e
-Phrase:   with constrained deadlines, costs and quality
-Phrase:   Interpersonal, social and work management issues will also be focused as the students will have to work integrated in a large development team with real clients
-Phrase:   Inglês: 
-verbo:execute/execut
-execute a software project as an engineering activity, i
-verbo:use/use
-used to manage and execute a software project as an engineering activity, i
-verbo:experiment/experi
-experience on the main techniques used to manage and execute a software project as an engineering activity, i
-3
-[0, 1, 2, 0, 0, 0]
-2
-[0, 0, 0, 0]
-----
- Português:     Trata-se de uma disciplina em que se pretende dar uma visão genérica do que é uma empresa, das suas principais componentes e de quais as suas interacções com o meio envolvente.        •  Objectivos      – Conhecer as etapas de constituição de uma empresa        – Conhecer as principais unidades funcionais de uma empresa e suas interdependências        – Conhecer as componentes de um Plano de Negócios e ser capaz de elaborar o respectivo documento      –  Ser capaz de gerir uma empresa em todas as suas vertentes (produção, marketing e finanças) num ambiente internacional e competitivo.   Inglês: 
-TUDO: Português:     Trata-se de uma disciplina em que se pretende dar uma visão genérica do que é uma empresa, das suas principais componentes e de quais as suas interacções com o meio envolvente.        •  Objectivos      – Conhecer as etapas de constituição de uma empresa        – Conhecer as principais unidades funcionais de uma empresa e suas interdependências        – Conhecer as componentes de um Plano de Negócios e ser capaz de elaborar o respectivo documento      –  Ser capaz de gerir uma empresa em todas as suas vertentes (produção, marketing e finanças) num ambiente internacional e competitivo.   Inglês: 
-Phrase:   Português:     Trata-se de uma disciplina em que se pretende dar uma visão genérica do que é uma empresa, das suas principais componentes e de quais as suas interacções com o meio envolvente
-Phrase:          •  Objectivos      – Conhecer as etapas de constituição de uma empresa        – Conhecer as principais unidades funcionais de uma empresa e suas interdependências        – Conhecer as componentes de um Plano de Negócios e ser capaz de elaborar o respectivo documento      –  Ser capaz de gerir uma empresa em todas as suas vertentes (produção, marketing e finanças) num ambiente internacional e competitivo
-Phrase:     Inglês: 
-Sem nada:  português:     trata-se de uma disciplina em que se pretende dar uma visão genérica do que é uma empresa, das suas principais componentes e de quais as suas interacções com o meio envolvente.        •  objectivos      – conhecer as etapas de constituição de uma empresa        – conhecer as principais unidades funcionais de uma empresa e suas interdependências        – conhecer as componentes de um plano de negócios e ser capaz de elaborar o respectivo documento      –  ser capaz de gerir uma empresa em todas as suas vertentes (produção, marketing e finanças) num ambiente internacional e competitivo.   inglês: 
-0
-[0, 0, 0, 0, 0, 0]
-[0, 0, 0, 0]
-----
-  Com esta unidade curricular pretende-se o desenvolvimento das competências necessárias para a análise critica, concepção e produção de Jogos de Computador originais. Através desta unidade o estudante deverá ser capaz de compreender as características dos jogos enquanto objectos técnicos e actividades humanas, sociais e de aprendizagem, desenvolver capacidades críticas e de síntese de propostas de jogos enquanto produtos de media digital interactivo, adquirir competências na aplicação das técnicas de análise, concepção, construção e avaliação de jogos e experiências de jogo, desenvolver capacidades de criatividade, comunicação e organização do processo de produção em equipa, preparando o aluno para a indústria ou para a investigação com a capacidade de aprendizagem autónoma na área. 
-TUDO:  Com esta unidade curricular pretende-se o desenvolvimento das competências necessárias para a análise critica, concepção e produção de Jogos de Computador originais. Através desta unidade o estudante deverá ser capaz de compreender as características dos jogos enquanto objectos técnicos e actividades humanas, sociais e de aprendizagem, desenvolver capacidades críticas e de síntese de propostas de jogos enquanto produtos de media digital interactivo, adquirir competências na aplicação das técnicas de análise, concepção, construção e avaliação de jogos e experiências de jogo, desenvolver capacidades de criatividade, comunicação e organização do processo de produção em equipa, preparando o aluno para a indústria ou para a investigação com a capacidade de aprendizagem autónoma na área. 
-Phrase:    Com esta unidade curricular pretende-se o desenvolvimento das competências necessárias para a análise critica, concepção e produção de Jogos de Computador originais
-Phrase:   Através desta unidade o estudante deverá ser capaz de compreender as características dos jogos enquanto objectos técnicos e actividades humanas, sociais e de aprendizagem, desenvolver capacidades críticas e de síntese de propostas de jogos enquanto produtos de media digital interactivo, adquirir competências na aplicação das técnicas de análise, concepção, construção e avaliação de jogos e experiências de jogo, desenvolver capacidades de criatividade, comunicação e organização do processo de produção em equipa, preparando o aluno para a indústria ou para a investigação com a capacidade de aprendizagem autónoma na área
-Phrase:   
-Sem nada:   com esta unidade curricular pretende-se o desenvolvimento das competências necessárias para a análise critica, concepção e produção de jogos de computador originais. através desta unidade o estudante deverá ser capaz de compreender as características dos jogos enquanto objectos técnicos e actividades humanas, sociais e de aprendizagem, desenvolver capacidades críticas e de síntese de propostas de jogos enquanto produtos de media digital interactivo, adquirir competências na aplicação das técnicas de análise, concepção, construção e avaliação de jogos e experiências de jogo, desenvolver capacidades de criatividade, comunicação e organização do processo de produção em equipa, preparando o aluno para a indústria ou para a investigação com a capacidade de aprendizagem autónoma na área. 
-0
-[0, 0, 0, 0, 0, 0]
-[0, 0, 0, 0]
-----
- Português:  Esta disciplina tem por objectivos estudar as principais metodologias de desenvolvimento de soluções de Business Intelligence e mostrar como as técnicas de Data Warehouses (DW), de OLAP e de Data Mining (DM) podem ser conjugadas na construção de soluções informáticas de apoio à decisão.  Pretende-se potenciar o desenvolvimento das seguintes competências:  - Aplicar na prática os conhecimentos: aplicar os conhecimentos adquiridos no desenvolvimento de sistemas de suporte à decisão em ambientes reais  - Aprendizagem autónoma, resolução de problemas e capacidade de decisão: identificar fontes de conhecimento, encontrar soluções para o desenvolvimento de aplicações para a análise de dados tendo em conta as necessidades organizativas, usando as metodologias de DW, OLAP e DM  - Comunicação oral e escrita, entender a linguagem de outros especialistas e não são especialistas na área: comunicar e justificar as opções técnicas numa linguagem compreensível quer a especialistas quer a não especialistas.   The objectives of this course are to study the main methodologies for developing business intelligence solutions and show how the techniques of Data Warehouses (DW), OLAP and Data Mining (DM) can be combined in building software solutions for decision support.  This course aims to boost the development of the following skills:  - Apply knowledge in practice: applying knowledge in the development of decision support systems in real environments  - Autonomous learning, problem solving and decision-making: ability to identify sources of knowledge, finding solutions to the development of applications for data analysis taking into account the organizational needs, using the methodologies of DW, OLAP and DM  - Oral and written communication, understanding the language of experts and non experts in the field: to communicate and justify the technical options in understandable language either for specialists or non specialists. Inglês: 
-TUDO: Português:  Esta disciplina tem por objectivos estudar as principais metodologias de desenvolvimento de soluções de Business Intelligence e mostrar como as técnicas de Data Warehouses (DW), de OLAP e de Data Mining (DM) podem ser conjugadas na construção de soluções informáticas de apoio à decisão.  Pretende-se potenciar o desenvolvimento das seguintes competências:  - Aplicar na prática os conhecimentos: aplicar os conhecimentos adquiridos no desenvolvimento de sistemas de suporte à decisão em ambientes reais  - Aprendizagem autónoma, resolução de problemas e capacidade de decisão: identificar fontes de conhecimento, encontrar soluções para o desenvolvimento de aplicações para a análise de dados tendo em conta as necessidades organizativas, usando as metodologias de DW, OLAP e DM  - Comunicação oral e escrita, entender a linguagem de outros especialistas e não são especialistas na área: comunicar e justificar as opções técnicas numa linguagem compreensível quer a especialistas quer a não especialistas.   The objectives of this course are to study the main methodologies for developing business intelligence solutions and show how the techniques of Data Warehouses (DW), OLAP and Data Mining (DM) can be combined in building software solutions for decision support.  This course aims to boost the development of the following skills:  - Apply knowledge in practice: applying knowledge in the development of decision support systems in real environments  - Autonomous learning, problem solving and decision-making: ability to identify sources of knowledge, finding solutions to the development of applications for data analysis taking into account the organizational needs, using the methodologies of DW, OLAP and DM  - Oral and written communication, understanding the language of experts and non experts in the field: to communicate and justify the technical options in understandable language either for specialists or non specialists. Inglês: 
-Phrase:   Português:  Esta disciplina tem por objectivos estudar as principais metodologias de desenvolvimento de soluções de Business Intelligence e mostrar como as técnicas de Data Warehouses (DW), de OLAP e de Data Mining (DM) podem ser conjugadas na construção de soluções informáticas de apoio à decisão
-Phrase:    Pretende-se potenciar o desenvolvimento das seguintes competências:  - Aplicar na prática os conhecimentos: aplicar os conhecimentos adquiridos no desenvolvimento de sistemas de suporte à decisão em ambientes reais  - Aprendizagem autónoma, resolução de problemas e capacidade de decisão: identificar fontes de conhecimento, encontrar soluções para o desenvolvimento de aplicações para a análise de dados tendo em conta as necessidades organizativas, usando as metodologias de DW, OLAP e DM  - Comunicação oral e escrita, entender a linguagem de outros especialistas e não são especialistas na área: comunicar e justificar as opções técnicas numa linguagem compreensível quer a especialistas quer a não especialistas
-Phrase:     The objectives of this course are to study the main methodologies for developing business intelligence solutions and show how the techniques of Data Warehouses (DW), OLAP and Data Mining (DM) can be combined in building software solutions for decision support
-Phrase:    This course aims to boost the development of the following skills:  - Apply knowledge in practice: applying knowledge in the development of decision support systems in real environments  - Autonomous learning, problem solving and decision-making: ability to identify sources of knowledge, finding solutions to the development of applications for data analysis taking into account the organizational needs, using the methodologies of DW, OLAP and DM  - Oral and written communication, understanding the language of experts and non experts in the field: to communicate and justify the technical options in understandable language either for specialists or non specialists
-Phrase:   Inglês: 
-verbo:understand/understand
-understanding the language of experts and non experts in the field: to communicate and justify the technical options in understandable language either for specialists or non specialists
-verbo:show/show
-show how the techniques of data warehouses (dw), olap and data mining (dm) can be combined in building software solutions for decision support
-verbo:use/use
-uses (dw), de olap e de data mining (dm) podem ser conjugadas na construção de soluções informáticas de apoio à decisão
-verbo:solve/solv
-solving and decision-making: ability to identify sources of knowledge, finding solutions to the development of applications for data analysis taking into account the organizational needs, using the methodologies of dw, olap and dm  - oral and written communication, understanding the language of experts and non experts in the field: to communicate and justify the technical options in understandable language either for specialists or non specialists
-verbo:apply/appli
-applications for data analysis taking into account the organizational needs, using the methodologies of dw, olap and dm  - oral and written communication, understanding the language of experts and non experts in the field: to communicate and justify the technical options in understandable language either for specialists or non specialists
-verbo:identify/identifi
-identificar fontes de conhecimento, encontrar soluções para o desenvolvimento de aplicações para a análise de dados tendo em conta as necessidades organizativas, usando as metodologias de dw, olap e dm  - comunicação oral e escrita, entender a linguagem de outros especialistas e não são especialistas na área: comunicar e justificar as opções técnicas numa linguagem compreensível quer a especialistas quer a não especialistas
-verbo:combine/combin
-combined in building software solutions for decision support
-verbo:justify/justifi
-justificar as opções técnicas numa linguagem compreensível quer a especialistas quer a não especialistas
-verbo:support/support
-support
-9
-[1, 1, 4, 0, 2, 1]
-3
-[0, 0, 0, 0]
-----
- Português: O objectivo principal da cadeira de Web Semântica é que o aluno adquira um conjunto de competências:  -        Capacidade de construção e gestão de ontologias.  -        Capacidade de representar uma ontologia numa linguagem da Web Semântica (RDF, RDFa, RDFs e OWL).   -        Capacidade para utilizar triple stores , SPARQL, Pesquisa Semântica e os mecanismos de raciocínio.  -        Capacidade de aplicação e uso de ontologias representadas através de linguagens da Web Semântica, em aplicações para a Internet ou Intranets.  -        Capacidade de especificação, design e desenvolvimento de sistemas/aplicações para a Web Semântica.  -        Capacidade de reutilização de ontologias disponibilizadas na Internet.  Com base na aquisição destas competências o aluno adquire os seguintes conhecimentos:  -        O que é a Web Semântica.  -        O que é uma Ontologia.  -        O que são as linguagens RDF, RDFa, RDFs e OWL.   -        O que é um triple store .  -        O que é SPARQL.  -        O que são ferramentas de criação e gestão de ontologias.  -        O que são aplicações para a Web Semântica.  The main objective of the Semantic Web course is to teach the following competences to students: Inglês: -        Ability to create and manage ontologies.  -        Ability to represent an ontology using Semantic Web specific languages (RDF, RDFa, RDFs and OWL).  -        Ability to use triple stores, SPARQL, Semantic Search and reasoning mechanisms.  -        Ability to apply and use ontologies represented using Semantic Web specific languages in applications for Intranets and Internet.  -        Ability to specify, design and develop systems/applications for the Semantic Web.  -        Ability to reuse ontologies available in the Internet.  Having acquired the previous competences, the students automatically acquire the following knowledge:  -        What is the Semantic Web.  -        What is an ontology.  -        What are the languages RDF, RDFa, RDFs and OWL.  -        What is a triple store.  -        What is SPARQL.  -        What is a tool for Ontology creation and maintenance.  -        What is an application for the Semantic Web.  
-TUDO: Português: O objectivo principal da cadeira de Web Semântica é que o aluno adquira um conjunto de competências:  -        Capacidade de construção e gestão de ontologias.  -        Capacidade de representar uma ontologia numa linguagem da Web Semântica (RDF, RDFa, RDFs e OWL).   -        Capacidade para utilizar triple stores , SPARQL, Pesquisa Semântica e os mecanismos de raciocínio.  -        Capacidade de aplicação e uso de ontologias representadas através de linguagens da Web Semântica, em aplicações para a Internet ou Intranets.  -        Capacidade de especificação, design e desenvolvimento de sistemas/aplicações para a Web Semântica.  -        Capacidade de reutilização de ontologias disponibilizadas na Internet.  Com base na aquisição destas competências o aluno adquire os seguintes conhecimentos:  -        O que é a Web Semântica.  -        O que é uma Ontologia.  -        O que são as linguagens RDF, RDFa, RDFs e OWL.   -        O que é um triple store .  -        O que é SPARQL.  -        O que são ferramentas de criação e gestão de ontologias.  -        O que são aplicações para a Web Semântica.  The main objective of the Semantic Web course is to teach the following competences to students: Inglês: -        Ability to create and manage ontologies.  -        Ability to represent an ontology using Semantic Web specific languages (RDF, RDFa, RDFs and OWL).  -        Ability to use triple stores, SPARQL, Semantic Search and reasoning mechanisms.  -        Ability to apply and use ontologies represented using Semantic Web specific languages in applications for Intranets and Internet.  -        Ability to specify, design and develop systems/applications for the Semantic Web.  -        Ability to reuse ontologies available in the Internet.  Having acquired the previous competences, the students automatically acquire the following knowledge:  -        What is the Semantic Web.  -        What is an ontology.  -        What are the languages RDF, RDFa, RDFs and OWL.  -        What is a triple store.  -        What is SPARQL.  -        What is a tool for Ontology creation and maintenance.  -        What is an application for the Semantic Web.  
-Phrase:   Português: O objectivo principal da cadeira de Web Semântica é que o aluno adquira um conjunto de competências:  -        Capacidade de construção e gestão de ontologias
-Phrase:    -        Capacidade de representar uma ontologia numa linguagem da Web Semântica (RDF, RDFa, RDFs e OWL)
-Phrase:     -        Capacidade para utilizar triple stores , SPARQL, Pesquisa Semântica e os mecanismos de raciocínio
-Phrase:    -        Capacidade de aplicação e uso de ontologias representadas através de linguagens da Web Semântica, em aplicações para a Internet ou Intranets
-Phrase:    -        Capacidade de especificação, design e desenvolvimento de sistemas/aplicações para a Web Semântica
-Phrase:    -        Capacidade de reutilização de ontologias disponibilizadas na Internet
-Phrase:    Com base na aquisição destas competências o aluno adquire os seguintes conhecimentos:  -        O que é a Web Semântica
-Phrase:    -        O que é uma Ontologia
-Phrase:    -        O que são as linguagens RDF, RDFa, RDFs e OWL
-Phrase:     -        O que é um triple store 
-Phrase:    -        O que é SPARQL
-Phrase:    -        O que são ferramentas de criação e gestão de ontologias
-Phrase:    -        O que são aplicações para a Web Semântica
-Phrase:    The main objective of the Semantic Web course is to teach the following competences to students: Inglês: -        Ability to create and manage ontologies
-Phrase:    -        Ability to represent an ontology using Semantic Web specific languages (RDF, RDFa, RDFs and OWL)
-Phrase:    -        Ability to use triple stores, SPARQL, Semantic Search and reasoning mechanisms
-Phrase:    -        Ability to apply and use ontologies represented using Semantic Web specific languages in applications for Intranets and Internet
-Phrase:    -        Ability to specify, design and develop systems/applications for the Semantic Web
-Phrase:    -        Ability to reuse ontologies available in the Internet
-Phrase:    Having acquired the previous competences, the students automatically acquire the following knowledge:  -        What is the Semantic Web
-Phrase:    -        What is an ontology
-Phrase:    -        What are the languages RDF, RDFa, RDFs and OWL
-Phrase:    -        What is a triple store
-Phrase:    -        What is SPARQL
-Phrase:    -        What is a tool for Ontology creation and maintenance
-Phrase:    -        What is an application for the Semantic Web
-Phrase:    
-verbo:use/use
-use triple stores, sparql, semantic search and reasoning mechanisms
-verbo:apply/appli
-applications for intranets and internet
-verbo:create/creat
-create and manage ontologies
-verbo:design/design
-design e desenvolvimento de sistemas/aplicações para a web semântica
-4
-[0, 0, 2, 0, 0, 2]
-4
-[0, 0, 0, 0]
-----
-  The main goals of this course are the following:    Project techniques and development of software and information and communication systems  Development of technological projects  Experience of project development in enterprise environment  Experience with basic and applied research  Integration in the working world  Writing of a document with the results of the internship / thesis including the following topics:                    - Analysis of the state of the art                    - Justified selection of tools and methodologies to be used                    - Requirements analysis related with the topic to be developed                    - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - Detailed specification of the system to be developed / work to be performed                    - Critical description of the development phases                   - Results presentation, discussion and analysis
-TUDO:  The main goals of this course are the following:    Project techniques and development of software and information and communication systems  Development of technological projects  Experience of project development in enterprise environment  Experience with basic and applied research  Integration in the working world  Writing of a document with the results of the internship / thesis including the following topics:                    - Analysis of the state of the art                    - Justified selection of tools and methodologies to be used                    - Requirements analysis related with the topic to be developed                    - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - Detailed specification of the system to be developed / work to be performed                    - Critical description of the development phases                   - Results presentation, discussion and analysis
-Phrase:    The main goals of this course are the following:    Project techniques and development of software and information and communication systems  Development of technological projects  Experience of project development in enterprise environment  Experience with basic and applied research  Integration in the working world  Writing of a document with the results of the internship / thesis including the following topics:                    - Analysis of the state of the art                    - Justified selection of tools and methodologies to be used                    - Requirements analysis related with the topic to be developed                    - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - Detailed specification of the system to be developed / work to be performed                    - Critical description of the development phases                   - Results presentation, discussion and analysis
-verbo:relate/relat
-related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:select/select
-selection of tools and methodologies to be used                    - requirements analysis related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:relate/relat
-related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:use/use
-used                    - requirements analysis related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:experiment/experi
-experience of project development in enterprise environment  experience with basic and applied research  integration in the working world  writing of a document with the results of the internship / thesis including the following topics:                    - analysis of the state of the art                    - justified selection of tools and methodologies to be used                    - requirements analysis related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:apply/appli
-applied research  integration in the working world  writing of a document with the results of the internship / thesis including the following topics:                    - analysis of the state of the art                    - justified selection of tools and methodologies to be used                    - requirements analysis related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:state/state
-state of the art                    - justified selection of tools and methodologies to be used                    - requirements analysis related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:select/select
-selection of tools and methodologies to be used                    - requirements analysis related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:relate/relat
-related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:write/write
-s
-verbo:criticize/critic
-critical description of the development phases                   - results presentation, discussion and analysis
-verbo:justify/justifi
-justified selection of tools and methodologies to be used                    - requirements analysis related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-verbo:relate/relat
-related with the topic to be developed                    - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                    - detailed specification of the system to be developed / work to be performed                    - critical description of the development phases                   - results presentation, discussion and analysis
-13
-[2, 0, 4, 2, 3, 2]
-3
-[0, 0, 0, 0]
-----
-  Os objectivos centrais da disciplina são o conhecimento das tecnologias de rede que, atualmente, possibilitam elevados débitos, e a abordagem e estudo de soluções para garantia de qualidade de serviço e suporte de aplicações emergentes. O aluno deve ficar a conhecer o estado da arte em termos de tecnologias, mecanismos e protocolos para a implementação e gestão de redes e serviços de última geração, incluindo os aspectos relativos a eficiência energética. Este conhecimento deverá permitir a realização de processos de decisão na definição de estratégias relativas aos sistemas de comunicação e a integração no mundo IP.  A disciplina abordará tecnologias de redes de muito alto débito, identificando o seu papel e possíveis linhas de evolução no contexto das atuais redes IP, incluindo também a vertente das tecnologias de comunicação sem fios de banda larga.  Serão também abordados os conceitos base associados aos mecanismos de qualidade de serviço, com ênfase em soluções, arquiteturas e protocolos para redes com e sem fios.  Os aspectos relativos à eficiência energética nos sistemas de comunicação serão também abordados, abrangendo mecanismos específicos das tecnologias, protocolos e soluções multi-camada.  ==============English translation============================  The main objectives of this course are the knowledge about network technologies that support high throughput and the study of solutions that guarantee quality of service and the support of emerging applications. The student must obtain knowledge on the state of the art of communication technologies, mechanisms and protocols for the implementation and management of networks and services of the new generation, including issues on energy efficiency. This knowledge will support decision processes on the definition of strategies related to the communication systems and integration in the all-IP world.  This course will address high-speed technologies within the context of IP networks, including also wireless broadband technologies.  Basic concepts on quality of service with emphasis on solutions, architectures and protocols for wired and wireless networks will also be covered.  Energy efficiency in communication systems will be addressed, covering technology dependent mechanisms, protocols and cross-layer solutions.
-TUDO:  Os objectivos centrais da disciplina são o conhecimento das tecnologias de rede que, atualmente, possibilitam elevados débitos, e a abordagem e estudo de soluções para garantia de qualidade de serviço e suporte de aplicações emergentes. O aluno deve ficar a conhecer o estado da arte em termos de tecnologias, mecanismos e protocolos para a implementação e gestão de redes e serviços de última geração, incluindo os aspectos relativos a eficiência energética. Este conhecimento deverá permitir a realização de processos de decisão na definição de estratégias relativas aos sistemas de comunicação e a integração no mundo IP.  A disciplina abordará tecnologias de redes de muito alto débito, identificando o seu papel e possíveis linhas de evolução no contexto das atuais redes IP, incluindo também a vertente das tecnologias de comunicação sem fios de banda larga.  Serão também abordados os conceitos base associados aos mecanismos de qualidade de serviço, com ênfase em soluções, arquiteturas e protocolos para redes com e sem fios.  Os aspectos relativos à eficiência energética nos sistemas de comunicação serão também abordados, abrangendo mecanismos específicos das tecnologias, protocolos e soluções multi-camada.  ==============English translation============================  The main objectives of this course are the knowledge about network technologies that support high throughput and the study of solutions that guarantee quality of service and the support of emerging applications. The student must obtain knowledge on the state of the art of communication technologies, mechanisms and protocols for the implementation and management of networks and services of the new generation, including issues on energy efficiency. This knowledge will support decision processes on the definition of strategies related to the communication systems and integration in the all-IP world.  This course will address high-speed technologies within the context of IP networks, including also wireless broadband technologies.  Basic concepts on quality of service with emphasis on solutions, architectures and protocols for wired and wireless networks will also be covered.  Energy efficiency in communication systems will be addressed, covering technology dependent mechanisms, protocols and cross-layer solutions.
-Phrase:    Os objectivos centrais da disciplina são o conhecimento das tecnologias de rede que, atualmente, possibilitam elevados débitos, e a abordagem e estudo de soluções para garantia de qualidade de serviço e suporte de aplicações emergentes
-Phrase:   O aluno deve ficar a conhecer o estado da arte em termos de tecnologias, mecanismos e protocolos para a implementação e gestão de redes e serviços de última geração, incluindo os aspectos relativos a eficiência energética
-Phrase:   Este conhecimento deverá permitir a realização de processos de decisão na definição de estratégias relativas aos sistemas de comunicação e a integração no mundo IP
-Phrase:    A disciplina abordará tecnologias de redes de muito alto débito, identificando o seu papel e possíveis linhas de evolução no contexto das atuais redes IP, incluindo também a vertente das tecnologias de comunicação sem fios de banda larga
-Phrase:    Serão também abordados os conceitos base associados aos mecanismos de qualidade de serviço, com ênfase em soluções, arquiteturas e protocolos para redes com e sem fios
-Phrase:    Os aspectos relativos à eficiência energética nos sistemas de comunicação serão também abordados, abrangendo mecanismos específicos das tecnologias, protocolos e soluções multi-camada
-Phrase:    ==============English translation============================  The main objectives of this course are the knowledge about network technologies that support high throughput and the study of solutions that guarantee quality of service and the support of emerging applications
-Phrase:   The student must obtain knowledge on the state of the art of communication technologies, mechanisms and protocols for the implementation and management of networks and services of the new generation, including issues on energy efficiency
-Phrase:   This knowledge will support decision processes on the definition of strategies related to the communication systems and integration in the all-IP world
-Phrase:    This course will address high-speed technologies within the context of IP networks, including also wireless broadband technologies
-Phrase:    Basic concepts on quality of service with emphasis on solutions, architectures and protocols for wired and wireless networks will also be covered
-Phrase:    Energy efficiency in communication systems will be addressed, covering technology dependent mechanisms, protocols and cross-layer solutions
-Phrase:  
-verbo:relate/relat
-relativos a eficiência energética
-verbo:generalize/gener
-generation, including issues on energy efficiency
-verbo:relate/relat
-relativos a eficiência energética
-verbo:state/state
-state of the art of communication technologies, mechanisms and protocols for the implementation and management of networks and services of the new generation, including issues on energy efficiency
-verbo:relate/relat
-relativos a eficiência energética
-verbo:generate/gener
-generation, including issues on energy efficiency
-verbo:relate/relat
-relativos a eficiência energética
-verbo:support/support
-support high throughput and the study of solutions that guarantee quality of service and the support of emerging applications
-8
-[1, 1, 1, 1, 2, 2]
-4
 [0, 0, 0, 0]
 ----
 Informação não definida.
@@ -352,337 +22,178 @@ Sem nada: informação não definida.
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
- Pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das Tecnologias da Informação e da Comunicação na Educação e na Formação Profissional. Inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning.  
-TUDO: Pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das Tecnologias da Informação e da Comunicação na Educação e na Formação Profissional. Inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning.  
-Phrase:   Pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das Tecnologias da Informação e da Comunicação na Educação e na Formação Profissional
-Phrase:   Inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning
-Phrase:    
-Sem nada:  pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das tecnologias da informação e da comunicação na educação e na formação profissional. inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning.  
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-  The objectives of this course are the knowledge about telematics applications fundamentals and emerging services. The paradigms, technologies and protocols for the support of multimedia applications in the Internet will also be addressed. The students should develop competencies in the critical analysis and exposition of existing solutions and future challenges in the areas of telematics applications.  The application of the knowledge will include the development of telematics applications, equipment configuration and multimedia networks project.  Self-learning should include the study, understanding, specification and development of new services, communication system project for the new services and the follow-up of new challenges and paradigms.
-TUDO:  The objectives of this course are the knowledge about telematics applications fundamentals and emerging services. The paradigms, technologies and protocols for the support of multimedia applications in the Internet will also be addressed. The students should develop competencies in the critical analysis and exposition of existing solutions and future challenges in the areas of telematics applications.  The application of the knowledge will include the development of telematics applications, equipment configuration and multimedia networks project.  Self-learning should include the study, understanding, specification and development of new services, communication system project for the new services and the follow-up of new challenges and paradigms.
-Phrase:    The objectives of this course are the knowledge about telematics applications fundamentals and emerging services
-Phrase:   The paradigms, technologies and protocols for the support of multimedia applications in the Internet will also be addressed
-Phrase:   The students should develop competencies in the critical analysis and exposition of existing solutions and future challenges in the areas of telematics applications
-Phrase:    The application of the knowledge will include the development of telematics applications, equipment configuration and multimedia networks project
-Phrase:    Self-learning should include the study, understanding, specification and development of new services, communication system project for the new services and the follow-up of new challenges and paradigms
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
 Phrase:  
-verbo:understand/understand
-understanding, specification and development of new services, communication system project for the new services and the follow-up of new challenges and paradigms
-verbo:criticize/critic
-critical analysis and exposition of existing solutions and future challenges in the areas of telematics applications
-verbo:support/support
-support of multimedia applications in the internet will also be addressed
-3
-[0, 1, 0, 0, 2, 0]
-4
-[0, 0, 0, 0]
-----
- Português: Hoje em dia, os Sistemas de Informação (SI) desempenham um papel importante ao apoio dos objectivos estratégicos e operacionais das organizações. Neste contexto, a sua implementação e gestão são de importância capital. Esta unidade curricular explica aos alunos os principais conceitos, princípios e metodologias necessárias para gerir SI em organizações. A unidade também fornece competências necessárias em síntese, comunicação escrita, resolução de problemas, raciocínio crítico e aplicação prática de conhecimento em áreas como fluxo de trabalho, gestão de processos de negócio e metodologias de gestão, tais como o ITIL, o COBIT e o TOGAF.  Nowadays, Information Systems (IS) play an important role to support strategic and operational objectives in organizations. In this context, their implementation and management are of capital importance. This course explains to students the main concepts, principles, and methodologies required to manage IS in organizations. It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as ITIL, COBIT and TOGAF. Inglês: 
-TUDO: Português: Hoje em dia, os Sistemas de Informação (SI) desempenham um papel importante ao apoio dos objectivos estratégicos e operacionais das organizações. Neste contexto, a sua implementação e gestão são de importância capital. Esta unidade curricular explica aos alunos os principais conceitos, princípios e metodologias necessárias para gerir SI em organizações. A unidade também fornece competências necessárias em síntese, comunicação escrita, resolução de problemas, raciocínio crítico e aplicação prática de conhecimento em áreas como fluxo de trabalho, gestão de processos de negócio e metodologias de gestão, tais como o ITIL, o COBIT e o TOGAF.  Nowadays, Information Systems (IS) play an important role to support strategic and operational objectives in organizations. In this context, their implementation and management are of capital importance. This course explains to students the main concepts, principles, and methodologies required to manage IS in organizations. It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as ITIL, COBIT and TOGAF. Inglês: 
-Phrase:   Português: Hoje em dia, os Sistemas de Informação (SI) desempenham um papel importante ao apoio dos objectivos estratégicos e operacionais das organizações
-Phrase:   Neste contexto, a sua implementação e gestão são de importância capital
-Phrase:   Esta unidade curricular explica aos alunos os principais conceitos, princípios e metodologias necessárias para gerir SI em organizações
-Phrase:   A unidade também fornece competências necessárias em síntese, comunicação escrita, resolução de problemas, raciocínio crítico e aplicação prática de conhecimento em áreas como fluxo de trabalho, gestão de processos de negócio e metodologias de gestão, tais como o ITIL, o COBIT e o TOGAF
-Phrase:    Nowadays, Information Systems (IS) play an important role to support strategic and operational objectives in organizations
-Phrase:   In this context, their implementation and management are of capital importance
-Phrase:   This course explains to students the main concepts, principles, and methodologies required to manage IS in organizations
-Phrase:   It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as ITIL, COBIT and TOGAF
-Phrase:   Inglês: 
-verbo:explain/explain
-explains to students the main concepts, principles, and methodologies required to manage is in organizations
-KNOWLEDGE DIMENSION:  explain
-verbo:solve/solv
-solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as itil, cobit and togaf
-verbo:operate/oper
-operacionais das organizações
-verbo:criticize/critic
-critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as itil, cobit and togaf
-verbo:support/support
-support strategic and operational objectives in organizations
-5
-[0, 0, 2, 1, 2, 0]
-4
-[0, 1, 0, 0]
-2
-----
- Português:       Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task.      is the scientifc discipline  that studies the operation and design of systems that  Pattern Recognition (PR) . Important application areas in Computer Science are: recognize patterns in data       Person Identification;  Facial Expression Detection;  Vehicle Trajectory Recognition;   Object Recognition (ex: Car License Plate Recognition);  Mouse Recognition;  Handwriting Character Recognition;   Speech Analysis;  Strategic Games;  Pattern Mining in the WEB (WWW, DataWarehouses, Business Intelligence, etc.);  Stream Data Mining.   The course will give techniques able to explore many of the above applications.     Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task. Inglês:    is the scientifc discipline  that studies the operation and design of systems that Pattern Recognition (PR) . Important application areas in Computer Science are: recognize patterns in data       Person Identification;  Facial Expression Detection;  Vehicle Trajectory Recognition;   Object Recognition (ex: Car License Plate Recognition);  Mouse Recognition;  Handwriting Character Recognition;   Speech Analysis;  Strategic Games;  Pattern Mining in the WEB (WWW, DataWarehouses, Business Intelligence, etc.);  Stream Data Mining.   The course will give techniques able to explore many of the above applications.  
-TUDO: Português:       Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task.      is the scientifc discipline  that studies the operation and design of systems that  Pattern Recognition (PR) . Important application areas in Computer Science are: recognize patterns in data       Person Identification;  Facial Expression Detection;  Vehicle Trajectory Recognition;   Object Recognition (ex: Car License Plate Recognition);  Mouse Recognition;  Handwriting Character Recognition;   Speech Analysis;  Strategic Games;  Pattern Mining in the WEB (WWW, DataWarehouses, Business Intelligence, etc.);  Stream Data Mining.   The course will give techniques able to explore many of the above applications.     Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task. Inglês:    is the scientifc discipline  that studies the operation and design of systems that Pattern Recognition (PR) . Important application areas in Computer Science are: recognize patterns in data       Person Identification;  Facial Expression Detection;  Vehicle Trajectory Recognition;   Object Recognition (ex: Car License Plate Recognition);  Mouse Recognition;  Handwriting Character Recognition;   Speech Analysis;  Strategic Games;  Pattern Mining in the WEB (WWW, DataWarehouses, Business Intelligence, etc.);  Stream Data Mining.   The course will give techniques able to explore many of the above applications.  
-Phrase:   Português:       Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task
-Phrase:        is the scientifc discipline  that studies the operation and design of systems that  Pattern Recognition (PR) 
-Phrase:   Important application areas in Computer Science are: recognize patterns in data       Person Identification;  Facial Expression Detection;  Vehicle Trajectory Recognition;   Object Recognition (ex: Car License Plate Recognition);  Mouse Recognition;  Handwriting Character Recognition;   Speech Analysis;  Strategic Games;  Pattern Mining in the WEB (WWW, DataWarehouses, Business Intelligence, etc
-Phrase:  );  Stream Data Mining
-Phrase:     The course will give techniques able to explore many of the above applications
-Phrase:       Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task
-Phrase:   Inglês:    is the scientifc discipline  that studies the operation and design of systems that Pattern Recognition (PR) 
-Phrase:   Important application areas in Computer Science are: recognize patterns in data       Person Identification;  Facial Expression Detection;  Vehicle Trajectory Recognition;   Object Recognition (ex: Car License Plate Recognition);  Mouse Recognition;  Handwriting Character Recognition;   Speech Analysis;  Strategic Games;  Pattern Mining in the WEB (WWW, DataWarehouses, Business Intelligence, etc
-Phrase:  );  Stream Data Mining
-Phrase:     The course will give techniques able to explore many of the above applications
-Phrase:    
-verbo:operate/oper
-operation and design of systems that  pattern recognition (pr) 
-verbo:compute/comput
-computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task
-verbo:recognize/recogn
-recognize patterns has been found a most intriguing and challenging task
-verbo:design/design
-design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task
-4
-[1, 0, 2, 0, 0, 1]
-3
-[0, 0, 0, 0]
-----
- Português: A unidade curricular de Engenharia de Redes tem por objectivo transmitir aos alunos uma perspectiva integradora das várias matérias necessárias ao planeamento, projeto e instalação de infraestruturas de comunicação para suporte de aplicações telemáticas. Trata-se de uma disciplina com um forte carácter de engenharia, de modo a proporcionar aos alunos a aquisição dos conhecimentos e das competências necessárias ao projeto de redes informáticas, tendo em conta todas as suas fases e vertentes.  Neste contexto, a disciplina de Engenharia de Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção, implementação e operação de Redes Informáticas:    Aplicações de comunicação;  Arquiteturas protocolares;  Sistemas de cablagem;  Tecnologias de comunicação;  Equipamentos de comunicação;  E metodologias de planeamento e projeto.  The main objective of this course is to transmit to the students an integrating perspective of the various topics that are necessary for planning, designing and deploying communication infrastructures for the support of telematics applications. This is a course with a strong emphasis on an engineering perspective, in order to allow students to acquire all the knowledge and skills they will need to design communications networks, taking into account all the design phases and components. Inglês: In this context, the key motivation of this course it to prepare the students in the areas which are required to plan, design, implement and operate data networks:    Communication applications;  Network architectures;  Cabling systems;  Communication technologies;  Network equipment;  And planning and design methodologies.  
-TUDO: Português: A unidade curricular de Engenharia de Redes tem por objectivo transmitir aos alunos uma perspectiva integradora das várias matérias necessárias ao planeamento, projeto e instalação de infraestruturas de comunicação para suporte de aplicações telemáticas. Trata-se de uma disciplina com um forte carácter de engenharia, de modo a proporcionar aos alunos a aquisição dos conhecimentos e das competências necessárias ao projeto de redes informáticas, tendo em conta todas as suas fases e vertentes.  Neste contexto, a disciplina de Engenharia de Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção, implementação e operação de Redes Informáticas:    Aplicações de comunicação;  Arquiteturas protocolares;  Sistemas de cablagem;  Tecnologias de comunicação;  Equipamentos de comunicação;  E metodologias de planeamento e projeto.  The main objective of this course is to transmit to the students an integrating perspective of the various topics that are necessary for planning, designing and deploying communication infrastructures for the support of telematics applications. This is a course with a strong emphasis on an engineering perspective, in order to allow students to acquire all the knowledge and skills they will need to design communications networks, taking into account all the design phases and components. Inglês: In this context, the key motivation of this course it to prepare the students in the areas which are required to plan, design, implement and operate data networks:    Communication applications;  Network architectures;  Cabling systems;  Communication technologies;  Network equipment;  And planning and design methodologies.  
-Phrase:   Português: A unidade curricular de Engenharia de Redes tem por objectivo transmitir aos alunos uma perspectiva integradora das várias matérias necessárias ao planeamento, projeto e instalação de infraestruturas de comunicação para suporte de aplicações telemáticas
-Phrase:   Trata-se de uma disciplina com um forte carácter de engenharia, de modo a proporcionar aos alunos a aquisição dos conhecimentos e das competências necessárias ao projeto de redes informáticas, tendo em conta todas as suas fases e vertentes
-Phrase:    Neste contexto, a disciplina de Engenharia de Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção, implementação e operação de Redes Informáticas:    Aplicações de comunicação;  Arquiteturas protocolares;  Sistemas de cablagem;  Tecnologias de comunicação;  Equipamentos de comunicação;  E metodologias de planeamento e projeto
-Phrase:    The main objective of this course is to transmit to the students an integrating perspective of the various topics that are necessary for planning, designing and deploying communication infrastructures for the support of telematics applications
-Phrase:   This is a course with a strong emphasis on an engineering perspective, in order to allow students to acquire all the knowledge and skills they will need to design communications networks, taking into account all the design phases and components
-Phrase:   Inglês: In this context, the key motivation of this course it to prepare the students in the areas which are required to plan, design, implement and operate data networks:    Communication applications;  Network architectures;  Cabling systems;  Communication technologies;  Network equipment;  And planning and design methodologies
-Phrase:    
-verbo:order/order
-order to allow students to acquire all the knowledge and skills they will need to design communications networks, taking into account all the design phases and components
-KNOWLEDGE DIMENSION:  order
-verbo:prepare/prepar
-preparação do aluno nas diversas áreas necessárias à concepção, implementação e operação de redes informáticas:    aplicações de comunicação;  arquiteturas protocolares;  sistemas de cablagem;  tecnologias de comunicação;  equipamentos de comunicação;  e metodologias de planeamento e projeto
-verbo:operate/oper
-operação de redes informáticas:    aplicações de comunicação;  arquiteturas protocolares;  sistemas de cablagem;  tecnologias de comunicação;  equipamentos de comunicação;  e metodologias de planeamento e projeto
-verbo:plan/plan
-planeamento, projeto e instalação de infraestruturas de comunicação para suporte de aplicações telemáticas
-KNOWLEDGE DIMENSION:  plan
-verbo:design/design
-designing and deploying communication infrastructures for the support of telematics applications
-verbo:support/support
-support of telematics applications
-6
-[0, 0, 2, 1, 1, 2]
-4
-[1, 1, 0, 0]
-1
-----
- A disciplina de Protocolos de Comunicação II tem por objectivo o estudo de tecnologias recentes nas áreas das redes de comunicação. Apresenta-se como uma disciplina que integra a iniciação à investigação e a aplicação aos processos de engenharia das Redes de Sensores Sem Fios (RSSFs) e do Multicast.  As RSSFs permitem um conjunto muito vasto de serviços em áreas de importância vital como a monitorização industrial, segurança, saúde e ambiente. A Business Week seleccionou as RSSFs como uma das 21 tecnologias mais importantes no século XXI, enquanto a Technology Review colocou as no ranking das 10 mais importantes tecnologias emergentes. No entanto, são ainda escassos os mecanismos que suportem ambientes de desempenho controlado e com níveis de qualidade de serviço. O suporte a ambientes deste tipo permitirá às RSSFs substituir os sistemas tradicionais de monitorização, oferecendo assim soluções mais económicas e flexíveis.  Por outro lado, tem sido crescente o número de aplicações que requerem suporte multicast. A vídeo-conferência, a tele-medicina ou o ensino à distância são exemplos de aplicações que vão ganhando popularidade, e que ainda não encontram o suporte multicast desejado nas redes existentes.  A utilização de redes multiponto virtuais, implementadas sobre estruturas uniponto, é limitadora e pouco eficiente, nomeadamente quando o número de participantes no grupo multicast é muito elevado. Um dos desafios da futura Internet será o de encontrar soluções eficientes para suportar, de forma nativa, as ligações multicast.  
-TUDO: A disciplina de Protocolos de Comunicação II tem por objectivo o estudo de tecnologias recentes nas áreas das redes de comunicação. Apresenta-se como uma disciplina que integra a iniciação à investigação e a aplicação aos processos de engenharia das Redes de Sensores Sem Fios (RSSFs) e do Multicast.  As RSSFs permitem um conjunto muito vasto de serviços em áreas de importância vital como a monitorização industrial, segurança, saúde e ambiente. A Business Week seleccionou as RSSFs como uma das 21 tecnologias mais importantes no século XXI, enquanto a Technology Review colocou as no ranking das 10 mais importantes tecnologias emergentes. No entanto, são ainda escassos os mecanismos que suportem ambientes de desempenho controlado e com níveis de qualidade de serviço. O suporte a ambientes deste tipo permitirá às RSSFs substituir os sistemas tradicionais de monitorização, oferecendo assim soluções mais económicas e flexíveis.  Por outro lado, tem sido crescente o número de aplicações que requerem suporte multicast. A vídeo-conferência, a tele-medicina ou o ensino à distância são exemplos de aplicações que vão ganhando popularidade, e que ainda não encontram o suporte multicast desejado nas redes existentes.  A utilização de redes multiponto virtuais, implementadas sobre estruturas uniponto, é limitadora e pouco eficiente, nomeadamente quando o número de participantes no grupo multicast é muito elevado. Um dos desafios da futura Internet será o de encontrar soluções eficientes para suportar, de forma nativa, as ligações multicast.  
-Phrase:   A disciplina de Protocolos de Comunicação II tem por objectivo o estudo de tecnologias recentes nas áreas das redes de comunicação
-Phrase:   Apresenta-se como uma disciplina que integra a iniciação à investigação e a aplicação aos processos de engenharia das Redes de Sensores Sem Fios (RSSFs) e do Multicast
-Phrase:    As RSSFs permitem um conjunto muito vasto de serviços em áreas de importância vital como a monitorização industrial, segurança, saúde e ambiente
-Phrase:   A Business Week seleccionou as RSSFs como uma das 21 tecnologias mais importantes no século XXI, enquanto a Technology Review colocou as no ranking das 10 mais importantes tecnologias emergentes
-Phrase:   No entanto, são ainda escassos os mecanismos que suportem ambientes de desempenho controlado e com níveis de qualidade de serviço
-Phrase:   O suporte a ambientes deste tipo permitirá às RSSFs substituir os sistemas tradicionais de monitorização, oferecendo assim soluções mais económicas e flexíveis
-Phrase:    Por outro lado, tem sido crescente o número de aplicações que requerem suporte multicast
-Phrase:   A vídeo-conferência, a tele-medicina ou o ensino à distância são exemplos de aplicações que vão ganhando popularidade, e que ainda não encontram o suporte multicast desejado nas redes existentes
-Phrase:    A utilização de redes multiponto virtuais, implementadas sobre estruturas uniponto, é limitadora e pouco eficiente, nomeadamente quando o número de participantes no grupo multicast é muito elevado
-Phrase:   Um dos desafios da futura Internet será o de encontrar soluções eficientes para suportar, de forma nativa, as ligações multicast
-Phrase:    
-verbo:rank/rank
-ranking das 10 mais importantes tecnologias emergentes
-KNOWLEDGE DIMENSION:  rank
-1
-[0, 0, 0, 0, 1, 0]
-5
-[1, 0, 0, 0]
-1
-----
- Português: O objectivo desta unidade curricular é ajudar os alunos a entender de que forma os indivíduos e as organizações funcionam como um sistema complexo. A unidade abrange o comportamento individual nas organizações, o comportamento de grupo, e estuda a forma como o comportamento afecta o desempenho global das organizações. A unidade também fornece uma visão geral dos métodos de inovação. Os tópicos abordados incluem motivação, satisfação no trabalho, comunicação, liderança, mudança e cultura organizacional. A unidade fornece também competências fundamentais em síntese, comunicação escrita, resolução de problemas, raciocínio crítico, aplicação prática de conhecimento em gestão de organizações e auxilia os alunos a desenvolver capacidades de análise e diagnóstico no contexto organizacional.  The objective of this course is to help students to understand how people and organizations operate as a complex system. The course covers individual behavior in organizations, group behavior, and how behavior affects the overall performance of organizations. The course also provides an overview of innovation methods. Covered topics include motivation, job satisfaction, communication, leadership, change, and organizational culture. It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context. Inglês: 
-TUDO: Português: O objectivo desta unidade curricular é ajudar os alunos a entender de que forma os indivíduos e as organizações funcionam como um sistema complexo. A unidade abrange o comportamento individual nas organizações, o comportamento de grupo, e estuda a forma como o comportamento afecta o desempenho global das organizações. A unidade também fornece uma visão geral dos métodos de inovação. Os tópicos abordados incluem motivação, satisfação no trabalho, comunicação, liderança, mudança e cultura organizacional. A unidade fornece também competências fundamentais em síntese, comunicação escrita, resolução de problemas, raciocínio crítico, aplicação prática de conhecimento em gestão de organizações e auxilia os alunos a desenvolver capacidades de análise e diagnóstico no contexto organizacional.  The objective of this course is to help students to understand how people and organizations operate as a complex system. The course covers individual behavior in organizations, group behavior, and how behavior affects the overall performance of organizations. The course also provides an overview of innovation methods. Covered topics include motivation, job satisfaction, communication, leadership, change, and organizational culture. It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context. Inglês: 
-Phrase:   Português: O objectivo desta unidade curricular é ajudar os alunos a entender de que forma os indivíduos e as organizações funcionam como um sistema complexo
-Phrase:   A unidade abrange o comportamento individual nas organizações, o comportamento de grupo, e estuda a forma como o comportamento afecta o desempenho global das organizações
-Phrase:   A unidade também fornece uma visão geral dos métodos de inovação
-Phrase:   Os tópicos abordados incluem motivação, satisfação no trabalho, comunicação, liderança, mudança e cultura organizacional
-Phrase:   A unidade fornece também competências fundamentais em síntese, comunicação escrita, resolução de problemas, raciocínio crítico, aplicação prática de conhecimento em gestão de organizações e auxilia os alunos a desenvolver capacidades de análise e diagnóstico no contexto organizacional
-Phrase:    The objective of this course is to help students to understand how people and organizations operate as a complex system
-Phrase:   The course covers individual behavior in organizations, group behavior, and how behavior affects the overall performance of organizations
-Phrase:   The course also provides an overview of innovation methods
-Phrase:   Covered topics include motivation, job satisfaction, communication, leadership, change, and organizational culture
-Phrase:   It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context
-Phrase:   Inglês: 
-verbo:understand/understand
-understand how people and organizations operate as a complex system
-verbo:solve/solv
-solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context
-verbo:operate/oper
-operate as a complex system
-verbo:change/chang
-change, and organizational culture
-verbo:organize/organ
-organizações funcionam como um sistema complexo
-verbo:criticize/critic
-critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context
-6
-[0, 1, 3, 0, 1, 1]
-3
-[0, 0, 0, 0]
-----
-  Apresentar, discutir e desenvolver soluções de engenharia de inspiração natural (i.e., biológica, social, física) para problemas de elevada complexidade que, ou não têm solução analítica, ou são computacionalmente intratáveis. Aprender a avaliar de modo rigoroso, i.e., por recurso à estatística, soluções alternativas para os problemas.
-TUDO:  Apresentar, discutir e desenvolver soluções de engenharia de inspiração natural (i.e., biológica, social, física) para problemas de elevada complexidade que, ou não têm solução analítica, ou são computacionalmente intratáveis. Aprender a avaliar de modo rigoroso, i.e., por recurso à estatística, soluções alternativas para os problemas.
-Phrase:    Apresentar, discutir e desenvolver soluções de engenharia de inspiração natural (i
-Phrase:  e
-Phrase:  , biológica, social, física) para problemas de elevada complexidade que, ou não têm solução analítica, ou são computacionalmente intratáveis
-Phrase:   Aprender a avaliar de modo rigoroso, i
-Phrase:  e
-Phrase:  , por recurso à estatística, soluções alternativas para os problemas
-Phrase:  
-Sem nada:   apresentar, discutir e desenvolver soluções de engenharia de inspiração natural (i.e., biológica, social, física) para problemas de elevada complexidade que, ou não têm solução analítica, ou são computacionalmente intratáveis. aprender a avaliar de modo rigoroso, i.e., por recurso à estatística, soluções alternativas para os problemas.
+Sem nada: informação não definida.
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-  Actualmente, a utilização de máquinas paralelas, sejam estas máquinas multi-processador ou clusters é omipresente na indústria. Estes sistemas são utilizados para processar a lógica de negócio dos sistemas de informação actuais, para mastigar os dados existentes nas datawarehouses e bases-de-dados operacionais, ou para realizar simulações essenciais ao negócio das companhias (e.g. pesquisa de drogas, operações bolsistas, etc.). A Lei de Moore indica que a capacidade computacional dos computadores duplica aproximadamente todos os 18 meses. No entanto, apesar de vertiginoso aumento de performance das máquinas que temos disponíveis, tal não   significa que os utilizadores ou a indústria estejam satisfeitos. De facto, tal aumento de performance apenas faz com que se tentem resolver problemas de maior dimensão, tanto em termos computacionais como em termos de armazenamento.   Cada vez mais, a computação de elevado desempenho é essencial ao funcionamento das organizações. Nesta disciplina serão abordadas as tecnologias necessárias à criação de sistemas de elevado desempenho, tanto a nível de hardware como de software. 
-TUDO:  Actualmente, a utilização de máquinas paralelas, sejam estas máquinas multi-processador ou clusters é omipresente na indústria. Estes sistemas são utilizados para processar a lógica de negócio dos sistemas de informação actuais, para mastigar os dados existentes nas datawarehouses e bases-de-dados operacionais, ou para realizar simulações essenciais ao negócio das companhias (e.g. pesquisa de drogas, operações bolsistas, etc.). A Lei de Moore indica que a capacidade computacional dos computadores duplica aproximadamente todos os 18 meses. No entanto, apesar de vertiginoso aumento de performance das máquinas que temos disponíveis, tal não   significa que os utilizadores ou a indústria estejam satisfeitos. De facto, tal aumento de performance apenas faz com que se tentem resolver problemas de maior dimensão, tanto em termos computacionais como em termos de armazenamento.   Cada vez mais, a computação de elevado desempenho é essencial ao funcionamento das organizações. Nesta disciplina serão abordadas as tecnologias necessárias à criação de sistemas de elevado desempenho, tanto a nível de hardware como de software. 
-Phrase:    Actualmente, a utilização de máquinas paralelas, sejam estas máquinas multi-processador ou clusters é omipresente na indústria
-Phrase:   Estes sistemas são utilizados para processar a lógica de negócio dos sistemas de informação actuais, para mastigar os dados existentes nas datawarehouses e bases-de-dados operacionais, ou para realizar simulações essenciais ao negócio das companhias (e
-Phrase:  g
-Phrase:   pesquisa de drogas, operações bolsistas, etc
-Phrase:  )
-Phrase:   A Lei de Moore indica que a capacidade computacional dos computadores duplica aproximadamente todos os 18 meses
-Phrase:   No entanto, apesar de vertiginoso aumento de performance das máquinas que temos disponíveis, tal não   significa que os utilizadores ou a indústria estejam satisfeitos
-Phrase:   De facto, tal aumento de performance apenas faz com que se tentem resolver problemas de maior dimensão, tanto em termos computacionais como em termos de armazenamento
-Phrase:     Cada vez mais, a computação de elevado desempenho é essencial ao funcionamento das organizações
-Phrase:   Nesta disciplina serão abordadas as tecnologias necessárias à criação de sistemas de elevado desempenho, tanto a nível de hardware como de software
-Phrase:   
-Sem nada:   actualmente, a utilização de máquinas paralelas, sejam estas máquinas multi-processador ou clusters é omipresente na indústria. estes sistemas são utilizados para processar a lógica de negócio dos sistemas de informação actuais, para mastigar os dados existentes nas datawarehouses e bases-de-dados operacionais, ou para realizar simulações essenciais ao negócio das companhias (e.g. pesquisa de drogas, operações bolsistas, etc.). a lei de moore indica que a capacidade computacional dos computadores duplica aproximadamente todos os 18 meses. no entanto, apesar de vertiginoso aumento de performance das máquinas que temos disponíveis, tal não   significa que os utilizadores ou a indústria estejam satisfeitos. de facto, tal aumento de performance apenas faz com que se tentem resolver problemas de maior dimensão, tanto em termos computacionais como em termos de armazenamento.   cada vez mais, a computação de elevado desempenho é essencial ao funcionamento das organizações. nesta disciplina serão abordadas as tecnologias necessárias à criação de sistemas de elevado desempenho, tanto a nível de hardware como de software. 
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-  The aim of this course is providing knowledge and developing competences in the areas of applications, technologies and protocols for the Internet. It is expected that students completely understand the operation of the HTTP protocol, the operation of Internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of Internet applications, the operation of search engines, and of the VoIP, SIP and multimedia transmission protocols. Beyond acquiring knowledge on the fundamentals of this area, students are expected to develop their technological creativity through the analysis of real-world applications and services, such as Google, Skype, YouTube, eBay, BitTorrent, RealNetworks, and others.
-TUDO:  The aim of this course is providing knowledge and developing competences in the areas of applications, technologies and protocols for the Internet. It is expected that students completely understand the operation of the HTTP protocol, the operation of Internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of Internet applications, the operation of search engines, and of the VoIP, SIP and multimedia transmission protocols. Beyond acquiring knowledge on the fundamentals of this area, students are expected to develop their technological creativity through the analysis of real-world applications and services, such as Google, Skype, YouTube, eBay, BitTorrent, RealNetworks, and others.
-Phrase:    The aim of this course is providing knowledge and developing competences in the areas of applications, technologies and protocols for the Internet
-Phrase:   It is expected that students completely understand the operation of the HTTP protocol, the operation of Internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of Internet applications, the operation of search engines, and of the VoIP, SIP and multimedia transmission protocols
-Phrase:   Beyond acquiring knowledge on the fundamentals of this area, students are expected to develop their technological creativity through the analysis of real-world applications and services, such as Google, Skype, YouTube, eBay, BitTorrent, RealNetworks, and others
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
 Phrase:  
-verbo:understand/understand
-understand the operation of the http protocol, the operation of internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of internet applications, the operation of search engines, and of the voip, sip and multimedia transmission protocols
-verbo:operate/oper
-operation of the http protocol, the operation of internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of internet applications, the operation of search engines, and of the voip, sip and multimedia transmission protocols
-verbo:name/name
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
+Phrase:  
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  Hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio. No entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si. No entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente. Isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus).
+TUDO:  Hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio. No entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si. No entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente. Isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. Será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus).
+Phrase:    Hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio
+Phrase:   No entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si
+Phrase:   No entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente
+Phrase:   Isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem
+Phrase:   Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização
+Phrase:   Nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização
+Phrase:   Será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus)
+Phrase:  
+Sem nada:   hoje em dia vivemos numa era em que grande parte das organizações já se encontram informatizadas, dispondo das mais variadas aplicações que apoiam as diferentes fases do seu modelo de negócio. no entanto, no sentido de optimizar o ciclo de vida dos produtos, as funcionalidades oferecidas aos utilizadores, e a informação disponível aos gestores, cada vez mais se exige que todos os sistemas consigam comunicar e interagir entre si. no entanto, na maior parte das vezes, as aplicações a que agora se exige que falem entre si nunca foram pensadas com tal funcionalidade em mente. isso levanta graves problemas uma vez que tipicamente os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. nesta disciplina será abordado um vasto leque de formas através do qual é possível fazer integração de aplicações a nível de uma organização e extra organização. será dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como soa (service oriented architecture) e esb (enterprise service bus).
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  This is a unique course in that it teaches concepts about managing technical people. The course will enable students to immediately apply what you learn in class to their work and to advance the state of practice in their own organization. The teaching model used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures. Reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another. The situations presented in the role-plays will build on top of one another, increasing in complexity as the course progresses.
+TUDO:  This is a unique course in that it teaches concepts about managing technical people. The course will enable students to immediately apply what you learn in class to their work and to advance the state of practice in their own organization. The teaching model used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures. Reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another. The situations presented in the role-plays will build on top of one another, increasing in complexity as the course progresses.
+Phrase:    This is a unique course in that it teaches concepts about managing technical people
+Phrase:   The course will enable students to immediately apply what you learn in class to their work and to advance the state of practice in their own organization
+Phrase:   The teaching model used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures
+Phrase:   Reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another
+Phrase:   The situations presented in the role-plays will build on top of one another, increasing in complexity as the course progresses
+Phrase:  
+verbo:apply/appli
 
-3
-[1, 1, 1, 0, 0, 0]
-2
-[0, 0, 0, 0]
-----
-  The main objectives of this course are the following:    Informatics security  Network security  Security of informatics systems
-TUDO:  The main objectives of this course are the following:    Informatics security  Network security  Security of informatics systems
-Phrase:    The main objectives of this course are the following:    Informatics security  Network security  Security of informatics systems
-Sem nada:   the main objectives of this course are the following:    informatics security  network security  security of informatics systems
-0
-[0, 0, 0, 0, 0, 0]
-[0, 0, 0, 0]
-----
-  A mobilidade de utilizadores e redes é, cada vez mais, uma característica da Internet, indissociável de um número crescente de formas de utilização desta rede. Os objectivos centrais da disciplina são a abordagem e estudo, teórico e prático, dos principais aspectos relacionados com a mobilidade. A disciplina endereça, analisa e discute tópicos chave nesta área, nomeadamente:            fundamentos e evolução das redes sem fios  redes locais sem fios  sistemas 3G e 4G  mobilidade em ambiente IP  segurança em redes sem fios  qualidade de serviço em redes sem fios  mobilidade de redes  
-TUDO:  A mobilidade de utilizadores e redes é, cada vez mais, uma característica da Internet, indissociável de um número crescente de formas de utilização desta rede. Os objectivos centrais da disciplina são a abordagem e estudo, teórico e prático, dos principais aspectos relacionados com a mobilidade. A disciplina endereça, analisa e discute tópicos chave nesta área, nomeadamente:            fundamentos e evolução das redes sem fios  redes locais sem fios  sistemas 3G e 4G  mobilidade em ambiente IP  segurança em redes sem fios  qualidade de serviço em redes sem fios  mobilidade de redes  
-Phrase:    A mobilidade de utilizadores e redes é, cada vez mais, uma característica da Internet, indissociável de um número crescente de formas de utilização desta rede
-Phrase:   Os objectivos centrais da disciplina são a abordagem e estudo, teórico e prático, dos principais aspectos relacionados com a mobilidade
-Phrase:   A disciplina endereça, analisa e discute tópicos chave nesta área, nomeadamente:            fundamentos e evolução das redes sem fios  redes locais sem fios  sistemas 3G e 4G  mobilidade em ambiente IP  segurança em redes sem fios  qualidade de serviço em redes sem fios  mobilidade de redes  
-Sem nada:   a mobilidade de utilizadores e redes é, cada vez mais, uma característica da internet, indissociável de um número crescente de formas de utilização desta rede. os objectivos centrais da disciplina são a abordagem e estudo, teórico e prático, dos principais aspectos relacionados com a mobilidade. a disciplina endereça, analisa e discute tópicos chave nesta área, nomeadamente:            fundamentos e evolução das redes sem fios  redes locais sem fios  sistemas 3g e 4g  mobilidade em ambiente ip  segurança em redes sem fios  qualidade de serviço em redes sem fios  mobilidade de redes  
-0
-[0, 0, 0, 0, 0, 0]
-[0, 0, 0, 0]
-----
-  Fornecer de uma forma sistemática as tecnologias e os fundamentos para a integração e desenvolvimento de sistemas de informação e de apoio à decisão em aplicações clínicas. Em particular, é objectivo exporem-se os protocolos e abordagens mais significativas em sistemas de informação clínicos, as arquiteturas e tecnologias utilizadas para a construção de sistemas telemédicos (nomeadamente de sistemas pHealth), e ainda algoritmos de análise de informação clínica para apoio ao diagnóstico. 
-TUDO:  Fornecer de uma forma sistemática as tecnologias e os fundamentos para a integração e desenvolvimento de sistemas de informação e de apoio à decisão em aplicações clínicas. Em particular, é objectivo exporem-se os protocolos e abordagens mais significativas em sistemas de informação clínicos, as arquiteturas e tecnologias utilizadas para a construção de sistemas telemédicos (nomeadamente de sistemas pHealth), e ainda algoritmos de análise de informação clínica para apoio ao diagnóstico. 
-Phrase:    Fornecer de uma forma sistemática as tecnologias e os fundamentos para a integração e desenvolvimento de sistemas de informação e de apoio à decisão em aplicações clínicas
-Phrase:   Em particular, é objectivo exporem-se os protocolos e abordagens mais significativas em sistemas de informação clínicos, as arquiteturas e tecnologias utilizadas para a construção de sistemas telemédicos (nomeadamente de sistemas pHealth), e ainda algoritmos de análise de informação clínica para apoio ao diagnóstico
-Phrase:   
-Sem nada:   fornecer de uma forma sistemática as tecnologias e os fundamentos para a integração e desenvolvimento de sistemas de informação e de apoio à decisão em aplicações clínicas. em particular, é objectivo exporem-se os protocolos e abordagens mais significativas em sistemas de informação clínicos, as arquiteturas e tecnologias utilizadas para a construção de sistemas telemédicos (nomeadamente de sistemas phealth), e ainda algoritmos de análise de informação clínica para apoio ao diagnóstico. 
-0
-[0, 0, 0, 0, 0, 0]
-[0, 0, 0, 0]
-----
- Português:   Fornecer aos estudantes conceitos, principios e teorias avançadas necessárias para o desenvolvimento de aplicações reais envolvendo agentes ou sistemas com capacidades de raciocínio, comportamento e interação com os seus ambientes de forma inteligente.  Aquisição de competências em análise e síntese, organização e planificação, comunicação escrita, resolução de problemas, decisão, trabalho em grupo, raciocínio crítico, aprendizagem autónoma, aplicação prática dos conhecimentos, e investigação.    To provide the students with advanced concepts, principles and theories required for building real world applications with agents or systems that can reason, behave or interact with their environment in an intelligent way by learning and reasoning about the real world.  Acquiring competencies in synthesis and analysis, organization and planning, written communication, problem solving, decision-making, team work, critical reasoning, autonomous learning, practical application of theoretical knowledge, and research. Inglês: 
-TUDO: Português:   Fornecer aos estudantes conceitos, principios e teorias avançadas necessárias para o desenvolvimento de aplicações reais envolvendo agentes ou sistemas com capacidades de raciocínio, comportamento e interação com os seus ambientes de forma inteligente.  Aquisição de competências em análise e síntese, organização e planificação, comunicação escrita, resolução de problemas, decisão, trabalho em grupo, raciocínio crítico, aprendizagem autónoma, aplicação prática dos conhecimentos, e investigação.    To provide the students with advanced concepts, principles and theories required for building real world applications with agents or systems that can reason, behave or interact with their environment in an intelligent way by learning and reasoning about the real world.  Acquiring competencies in synthesis and analysis, organization and planning, written communication, problem solving, decision-making, team work, critical reasoning, autonomous learning, practical application of theoretical knowledge, and research. Inglês: 
-Phrase:   Português:   Fornecer aos estudantes conceitos, principios e teorias avançadas necessárias para o desenvolvimento de aplicações reais envolvendo agentes ou sistemas com capacidades de raciocínio, comportamento e interação com os seus ambientes de forma inteligente
-Phrase:    Aquisição de competências em análise e síntese, organização e planificação, comunicação escrita, resolução de problemas, decisão, trabalho em grupo, raciocínio crítico, aprendizagem autónoma, aplicação prática dos conhecimentos, e investigação
-Phrase:      To provide the students with advanced concepts, principles and theories required for building real world applications with agents or systems that can reason, behave or interact with their environment in an intelligent way by learning and reasoning about the real world
-Phrase:    Acquiring competencies in synthesis and analysis, organization and planning, written communication, problem solving, decision-making, team work, critical reasoning, autonomous learning, practical application of theoretical knowledge, and research
-Phrase:   Inglês: 
-verbo:solve/solv
-solving, decision-making, team work, critical reasoning, autonomous learning, practical application of theoretical knowledge, and research
-verbo:organize/organ
-organização e planificação, comunicação escrita, resolução de problemas, decisão, trabalho em grupo, raciocínio crítico, aprendizagem autónoma, aplicação prática dos conhecimentos, e investigação
-verbo:plan/plan
-planificação, comunicação escrita, resolução de problemas, decisão, trabalho em grupo, raciocínio crítico, aprendizagem autónoma, aplicação prática dos conhecimentos, e investigação
-KNOWLEDGE DIMENSION:  plan
-verbo:criticize/critic
-critical reasoning, autonomous learning, practical application of theoretical knowledge, and research
-4
-[0, 0, 1, 0, 1, 2]
+verbo:use/use
+used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures
+verbo:analyze/analyz
+analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures
+verbo:reflect/reflect
+reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another
+KNOWLEDGE DIMENSION:  reflect
+verbo:state/state
+state of practice in their own organization
 5
-[0, 1, 0, 0]
-2
+[1, 0, 2, 1, 1, 0]
+3
+[0, 0, 0, 1]
+4
 ----
- Português: Com vista o otimizar a gestão das organizações, as suas múltiplas aplicações informáticas devem ser capazes de interagir entre si. Infelizmente, os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. Nesta disciplina abordamos múltiplas formas estruturadas de integrar aplicações, não só ao nível de uma organização, mas para além dela. É dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus).   É também objectivo a aquisição das seguintes 5 competências principais (segundo os descritores de Dublin):  - trabalho em grupo, resolução de problemas, raciocínio crítico, aprendizagem autónoma e aplicação prática de conhecimentos teóricos;  e das seguintes 5 competências secundárias:  - análise e síntese, criatividade, iniciativa e espírito empreendedor, preocupação com a qualidade e planear e agir.     Inglês: 
-TUDO: Português: Com vista o otimizar a gestão das organizações, as suas múltiplas aplicações informáticas devem ser capazes de interagir entre si. Infelizmente, os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. Nesta disciplina abordamos múltiplas formas estruturadas de integrar aplicações, não só ao nível de uma organização, mas para além dela. É dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus).   É também objectivo a aquisição das seguintes 5 competências principais (segundo os descritores de Dublin):  - trabalho em grupo, resolução de problemas, raciocínio crítico, aprendizagem autónoma e aplicação prática de conhecimentos teóricos;  e das seguintes 5 competências secundárias:  - análise e síntese, criatividade, iniciativa e espírito empreendedor, preocupação com a qualidade e planear e agir.     Inglês: 
-Phrase:   Português: Com vista o otimizar a gestão das organizações, as suas múltiplas aplicações informáticas devem ser capazes de interagir entre si
-Phrase:   Infelizmente, os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem
-Phrase:   Nesta disciplina abordamos múltiplas formas estruturadas de integrar aplicações, não só ao nível de uma organização, mas para além dela
-Phrase:   É dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como SOA (Service Oriented Architecture) e ESB (Enterprise Service Bus)
-Phrase:     É também objectivo a aquisição das seguintes 5 competências principais (segundo os descritores de Dublin):  - trabalho em grupo, resolução de problemas, raciocínio crítico, aprendizagem autónoma e aplicação prática de conhecimentos teóricos;  e das seguintes 5 competências secundárias:  - análise e síntese, criatividade, iniciativa e espírito empreendedor, preocupação com a qualidade e planear e agir
-Phrase:       Inglês: 
-Sem nada:  português: com vista o otimizar a gestão das organizações, as suas múltiplas aplicações informáticas devem ser capazes de interagir entre si. infelizmente, os programadores tendem a interligá-las de formas ad hoc, extremamente frágeis e pouco preparadas para evoluírem. nesta disciplina abordamos múltiplas formas estruturadas de integrar aplicações, não só ao nível de uma organização, mas para além dela. É dada uma forte ênfase à integração utilizando middleware, em particular, utilizando abordagens como soa (service oriented architecture) e esb (enterprise service bus).   É também objectivo a aquisição das seguintes 5 competências principais (segundo os descritores de dublin):  - trabalho em grupo, resolução de problemas, raciocínio crítico, aprendizagem autónoma e aplicação prática de conhecimentos teóricos;  e das seguintes 5 competências secundárias:  - análise e síntese, criatividade, iniciativa e espírito empreendedor, preocupação com a qualidade e planear e agir.     inglês: 
+  Large scale software development requires the ability to manage resources - both human and computational - through control of the development process. This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process. The nature of software development is sufficiently unique to require specialized management techniques, especially in the areas of the estimating and scheduling.
+TUDO:  Large scale software development requires the ability to manage resources - both human and computational - through control of the development process. This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process. The nature of software development is sufficiently unique to require specialized management techniques, especially in the areas of the estimating and scheduling.
+Phrase:    Large scale software development requires the ability to manage resources - both human and computational - through control of the development process
+Phrase:   This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process
+Phrase:   The nature of software development is sufficiently unique to require specialized management techniques, especially in the areas of the estimating and scheduling
+Phrase:  
+verbo:understand/understand
+understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process
+verbo:estimate/estim
+estimate time and costs, and understand the software process
+verbo:compute/comput
+computational - through control of the development process
+verbo:design/design
+designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process
+4
+[0, 2, 1, 0, 0, 1]
+3
+[0, 0, 0, 0]
+----
+  The Seminar in Software Process course is a self-study and discussion course. Discussions center on how to implement effective and efficient software processes. The focus of the seminar is on systematic approaches to building software better, faster, and cheaper. A variety of process improvement and quality management strategies are discussed, including Total Quality Management, Baldrige Award, ISO 9001, ISO 15504 (SPICE), and others, but the course is primarily structured around the staged approach to improvement from the Capability Maturity Model (CMM). 
+TUDO:  The Seminar in Software Process course is a self-study and discussion course. Discussions center on how to implement effective and efficient software processes. The focus of the seminar is on systematic approaches to building software better, faster, and cheaper. A variety of process improvement and quality management strategies are discussed, including Total Quality Management, Baldrige Award, ISO 9001, ISO 15504 (SPICE), and others, but the course is primarily structured around the staged approach to improvement from the Capability Maturity Model (CMM). 
+Phrase:    The Seminar in Software Process course is a self-study and discussion course
+Phrase:   Discussions center on how to implement effective and efficient software processes
+Phrase:   The focus of the seminar is on systematic approaches to building software better, faster, and cheaper
+Phrase:   A variety of process improvement and quality management strategies are discussed, including Total Quality Management, Baldrige Award, ISO 9001, ISO 15504 (SPICE), and others, but the course is primarily structured around the staged approach to improvement from the Capability Maturity Model (CMM)
+Phrase:   
+Sem nada:   the seminar in software process course is a self-study and discussion course. discussions center on how to implement effective and efficient software processes. the focus of the seminar is on systematic approaches to building software better, faster, and cheaper. a variety of process improvement and quality management strategies are discussed, including total quality management, baldrige award, iso 9001, iso 15504 (spice), and others, but the course is primarily structured around the staged approach to improvement from the capability maturity model (cmm). 
 0
 [0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
- Português: O objetivo da unidade curricular de Gestão de Sistemas e Redes é preparar os alunos para as funções de administrador de sistemas e redes e de gestor de infraestruturas informáticas em geral, por meio de uma abordagem aos principais problemas que se colocam a um gestor de infraestruturas informáticas.  Neste contexto, a disciplina de Gestão de Sistemas e Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção e operação de infraestruturas informáticas, incluindo administração de sistemas; administração de serviços de rede; e gestão de redes e plataformas informáticas.  The main objective of this course is to prepare students for the tasks of systems and network administration and management of networking and computing infrastructures in general. To achieve this goal, this course will address the main problems faced by managers of computing and networking infrastructures.  Inglês: In this context, this course will allow students to acquire the knowledge and skills necessary to design and operate such infrastructures, including systems administration, administration of network services, and network management in general.  
-TUDO: Português: O objetivo da unidade curricular de Gestão de Sistemas e Redes é preparar os alunos para as funções de administrador de sistemas e redes e de gestor de infraestruturas informáticas em geral, por meio de uma abordagem aos principais problemas que se colocam a um gestor de infraestruturas informáticas.  Neste contexto, a disciplina de Gestão de Sistemas e Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção e operação de infraestruturas informáticas, incluindo administração de sistemas; administração de serviços de rede; e gestão de redes e plataformas informáticas.  The main objective of this course is to prepare students for the tasks of systems and network administration and management of networking and computing infrastructures in general. To achieve this goal, this course will address the main problems faced by managers of computing and networking infrastructures.  Inglês: In this context, this course will allow students to acquire the knowledge and skills necessary to design and operate such infrastructures, including systems administration, administration of network services, and network management in general.  
-Phrase:   Português: O objetivo da unidade curricular de Gestão de Sistemas e Redes é preparar os alunos para as funções de administrador de sistemas e redes e de gestor de infraestruturas informáticas em geral, por meio de uma abordagem aos principais problemas que se colocam a um gestor de infraestruturas informáticas
-Phrase:    Neste contexto, a disciplina de Gestão de Sistemas e Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção e operação de infraestruturas informáticas, incluindo administração de sistemas; administração de serviços de rede; e gestão de redes e plataformas informáticas
-Phrase:    The main objective of this course is to prepare students for the tasks of systems and network administration and management of networking and computing infrastructures in general
-Phrase:   To achieve this goal, this course will address the main problems faced by managers of computing and networking infrastructures
-Phrase:    Inglês: In this context, this course will allow students to acquire the knowledge and skills necessary to design and operate such infrastructures, including systems administration, administration of network services, and network management in general
-Phrase:    
-verbo:achieve/achiev
-achieve this goal, this course will address the main problems faced by managers of computing and networking infrastructures
-verbo:generalize/gener
-general
-verbo:prepare/prepar
-preparar os alunos para as funções de administrador de sistemas e redes e de gestor de infraestruturas informáticas em geral, por meio de uma abordagem aos principais problemas que se colocam a um gestor de infraestruturas informáticas
-verbo:operate/oper
-operação de infraestruturas informáticas, incluindo administração de sistemas; administração de serviços de rede; e gestão de redes e plataformas informáticas
-verbo:compute/comput
-computing infrastructures in general
-verbo:generate/gener
-general
-verbo:design/design
-design and operate such infrastructures, including systems administration, administration of network services, and network management in general
-7
-[0, 1, 3, 1, 0, 2]
-3
-[0, 0, 0, 0]
-----
-   - The key objectives of this course are the study of the foundations of transmission and switching systems  - Topics to be covered include modulation and transmission of signals, transmission and switching systems, and also aspects of signaling in digital systems.  - This course also discusses system aspects related with fixed or mobile networks and satellite, and with the transmission of voice and video signals.  - The course also covers the fundamentals of communications protocols like error control, flow control and protocol specification.
-TUDO:   - The key objectives of this course are the study of the foundations of transmission and switching systems  - Topics to be covered include modulation and transmission of signals, transmission and switching systems, and also aspects of signaling in digital systems.  - This course also discusses system aspects related with fixed or mobile networks and satellite, and with the transmission of voice and video signals.  - The course also covers the fundamentals of communications protocols like error control, flow control and protocol specification.
-Phrase:     - The key objectives of this course are the study of the foundations of transmission and switching systems  - Topics to be covered include modulation and transmission of signals, transmission and switching systems, and also aspects of signaling in digital systems
-Phrase:    - This course also discusses system aspects related with fixed or mobile networks and satellite, and with the transmission of voice and video signals
-Phrase:    - The course also covers the fundamentals of communications protocols like error control, flow control and protocol specification
+Informação não definida.
+TUDO:Informação não definida.
+Phrase:  Informação não definida
 Phrase:  
-verbo:relate/relat
-related with fixed or mobile networks and satellite, and with the transmission of voice and video signals
-verbo:relate/relat
-related with fixed or mobile networks and satellite, and with the transmission of voice and video signals
-verbo:relate/relat
-related with fixed or mobile networks and satellite, and with the transmission of voice and video signals
-verbo:relate/relat
-related with fixed or mobile networks and satellite, and with the transmission of voice and video signals
-4
-[0, 0, 1, 1, 1, 1]
-4
+Sem nada: informação não definida.
+0
+[0, 0, 0, 0, 0, 0]
 [0, 0, 0, 0]
 ----
-NOT SAVING
-Number descriptions:  33
-Number found:  98
-Number context:  413
-Number without:  13
-Stats:  [13, 3, 1, 3, 4, 1, 2, 3, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
-NOT SAVING
-Number descriptions:  33
-Number found:  98
-Number context:  413
-Number without:  13
-Stats:  [13, 3, 1, 3, 4, 1, 2, 3, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+  This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project.
+TUDO:  This is a project course. Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project.
+Phrase:    This is a project course
+Phrase:   Each team of students works individualy with two or three advisors (each team has his own advisor, including professor for UC and CMU) in a software development project
+Phrase:  
+Sem nada:   this is a project course. each team of students works individualy with two or three advisors (each team has his own advisor, including professor for uc and cmu) in a software development project.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+TUDO:  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+Phrase:    Este mestrado enquandar-se no programa CMU/Portugal
+Phrase:   Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra
+Phrase:    
+Sem nada:   este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.  
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+TUDO:  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+Phrase:    Este mestrado enquandar-se no programa CMU/Portugal
+Phrase:   Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra
+Phrase:    
+Sem nada:   este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.  
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+TUDO:  Este mestrado enquandar-se no programa CMU/Portugal. Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra.  
+Phrase:    Este mestrado enquandar-se no programa CMU/Portugal
+Phrase:   Esta disciplina é leccionada pela CMU, no segundo semestre do curso, no qual os alunos se encontram nos EUA, não havendo por isso uma edição na Universidade de Coimbra
+Phrase:    
+Sem nada:   este mestrado enquandar-se no programa cmu/portugal. esta disciplina é leccionada pela cmu, no segundo semestre do curso, no qual os alunos se encontram nos eua, não havendo por isso uma edição na universidade de coimbra.  
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Number descriptions:  16
+Number found:  9
+Number context:  39
+Number without:  14
+Stats:  [14, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number descriptions:  16
+Number found:  9
+Number context:  39
+Number without:  14
+Stats:  [14, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

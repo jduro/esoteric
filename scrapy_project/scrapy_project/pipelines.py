@@ -602,13 +602,13 @@ class ScrapyProjectPipeline(object):
 			print "Stats: ",self.stats
 			self.graph.serialize("commondata\exported\edx.ttl",format='n3')
 		elif spider.name=="nonio":
-			print "NOT SAVING"
+			# print "NOT SAVING"
 			print "Number descriptions: ",self.number_descriptions
 			print "Number found: ",self.number_found
 			print "Number context: ",self.number_context
 			print "Number without: ",self.number_wihout
 			print "Stats: ",self.stats
-			# self.graph.serialize("commondata\exported\\nonio_"+self.acronym+".ttl",format='n3')
+			self.graph.serialize("commondata\exported\\nonio_"+self.acronym+".ttl",format='n3')
 			# self.graphPersons.serialize("commondata\exported\\nonio_persons.ttl",format='n3')
 		return
 
