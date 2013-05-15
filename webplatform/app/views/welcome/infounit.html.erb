@@ -1,5 +1,5 @@
 <div class="hero-unit" style="padding-top:20px;padding-bottom:20px;padding-left:40px;padding-right:40px;">
-	<h1><%=@serviceSelected.title%> 
+	<h1><%=@unitDB.title%> 
 		<% if @unit["url"] %>
 			<%=link_to "Link", @unit["url"], target: "_blank", class: "btn btn-primary"%>
 		<% end %>
@@ -15,9 +15,15 @@
 </div>
 <div class="well">
 	<div style="clear:both;">
-		<p style="float: left;"><strong>Language:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["language"]%></p>
-		<p style="float: right;"><strong>Delivery Mode:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["delivery"]%> </p>
-	</div>
+		<p style="float: left;">
+			<strong>Language:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["language"]%><br>
+			<strong>ECTS:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["ects"]%>
+		</p>
+		<p style="float: right;">
+			<strong>Delivery Mode:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["delivery"]%> <br>
+			<strong>Semester:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["semester"]%> 
+		</p>
+	</div><br>
 </div>
 <div class="well">
 	<p style="margin-bottom:1px"><strong>Objective</strong></p><p><%=@unit["obj"]["description"]%> </p>

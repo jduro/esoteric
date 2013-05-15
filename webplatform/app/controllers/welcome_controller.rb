@@ -470,8 +470,8 @@ class WelcomeController < ApplicationController
 
 
 	def infounit()
-		@unit = Unit.find(params[:id])
-		@serviceSelected=@unit.service
+		@unitDB = Unit.find(params[:id])
+		@serviceSelected=@unitDB.service
 
 		graph = RDF::Graph.load(@serviceSelected.path, :format => :ttl)
 
@@ -551,7 +551,9 @@ class WelcomeController < ApplicationController
 		    USDL4EDU.hasDeliveryMode => :delivery, 
 		    USDL4EDU.hasLanguage => :language, 
 		    USDL4EDU.hasOverallObjective => :obj,
-		    USDL4EDU.hasTeacher => :teacher
+		    USDL4EDU.hasTeacher => :teacher,
+		    USDL4EDU.hasEcts => :ects,
+		    USDL4EDU.hasSemester => :semester
 		  }
 		})
 		queryOB = RDF::Query.new({
@@ -628,10 +630,12 @@ class WelcomeController < ApplicationController
 		@unit = Hash.new
 		@unit["teachers"]=[]
 		@unit["url"]=@serviceSelected.urlCourse
-		solutionsUnit.filter(:q => @unit.url).each do |solutionUnit|
+		solutionsUnit.filter(:q => @unitDB.url).each do |solutionUnit|
 				@unit["description"]=solutionUnit.description.to_s
 
-				
+				@unit["ects"]=solutionUnit.ects
+				@unit["semester"]=solutionUnit.semester
+
 				solutions=queryUSDL4EDUDelivery.execute(graphUSDL4EDU)
 				solutions.filter(:q => solutionUnit.delivery).each do |solution|
 					@unit["delivery"]=solution.label
