@@ -5,7 +5,8 @@ class CreateServices < ActiveRecord::Migration
       t.string :url
       t.string :urlCourse
       t.string :path
-      t.string :organization	
+      t.string :organization
+      t.boolean :isCourse, :default => false
       t.timestamps
     end
   end
