@@ -283,7 +283,7 @@ class NonioSpider(BaseSpider):
         print "Gonna send login"
         print response.url
         return [FormRequest.from_response(response,
-                    formdata={'method' : 'submeter' ,'username': 'x', 'password': 'x'},
+                    formdata={'method' : 'submeter' ,'username': 'uc2007103732@student.uc.pt', 'password': 'wordPASS0'},
                     callback=self.after_login, dont_filter=True)]
         #dont_filter=True because the login page of NONIO redirects 3 times
 
@@ -313,7 +313,7 @@ class NonioSpider(BaseSpider):
         #     print self.cursos_domain+str(cell.select("./a/@href").extract()[0])
         #     print "**CALLING**"
         #     yield Request(self.cursos_domain+str(cell.select("./a/@href").extract()[0]),callback=self.parse_course)
-        return Request(self.cursos_domain+str(table[7].select("./a/@href").extract()[0]),callback=self.parse_course)
+        return Request(self.cursos_domain+str(table[6].select("./a/@href").extract()[0]),callback=self.parse_course)
 
     def parse_course(self, response):
         # open_in_browser(response)

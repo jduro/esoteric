@@ -1,0 +1,372 @@
+Gonna send login
+https://inforestudante.uc.pt/nonio/security/init.do
+---- PIPELINE ----
+Licenciatura em Engenharia Informática
+LEI
+----180
+ O objectivo desta cadeira é de passar conhecimentos aos alunos sobre o funcionamento dos sistemas operativos modernos e ao mesmo tempo dotar os alunos das devidas capacidades para desenvolverem aplicações de sistema que façam uso directo do interface de programação do sistema operativo e que explorem as capacidades de concorrência e multi-programa. -Saber como funciona um sistema operativo; -Saber utilizar e programar utilizando as funções fornecidas pelos sistemas operativos, tirando partido das suas potencialidades -Conhecimentos práticos sobre programação de sistema e programação concorrente. 
+TUDO: O objectivo desta cadeira é de passar conhecimentos aos alunos sobre o funcionamento dos sistemas operativos modernos e ao mesmo tempo dotar os alunos das devidas capacidades para desenvolverem aplicações de sistema que façam uso directo do interface de programação do sistema operativo e que explorem as capacidades de concorrência e multi-programa. -Saber como funciona um sistema operativo; -Saber utilizar e programar utilizando as funções fornecidas pelos sistemas operativos, tirando partido das suas potencialidades -Conhecimentos práticos sobre programação de sistema e programação concorrente. 
+Phrase:   O objectivo desta cadeira é de passar conhecimentos aos alunos sobre o funcionamento dos sistemas operativos modernos e ao mesmo tempo dotar os alunos das devidas capacidades para desenvolverem aplicações de sistema que façam uso directo do interface de programação do sistema operativo e que explorem as capacidades de concorrência e multi-programa
+Phrase:   -Saber como funciona um sistema operativo; -Saber utilizar e programar utilizando as funções fornecidas pelos sistemas operativos, tirando partido das suas potencialidades -Conhecimentos práticos sobre programação de sistema e programação concorrente
+Phrase:   
+Sem nada:  o objectivo desta cadeira é de passar conhecimentos aos alunos sobre o funcionamento dos sistemas operativos modernos e ao mesmo tempo dotar os alunos das devidas capacidades para desenvolverem aplicações de sistema que façam uso directo do interface de programação do sistema operativo e que explorem as capacidades de concorrência e multi-programa. -saber como funciona um sistema operativo; -saber utilizar e programar utilizando as funções fornecidas pelos sistemas operativos, tirando partido das suas potencialidades -conhecimentos práticos sobre programação de sistema e programação concorrente. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Em 1948, Claude E. Shannon, na altura a trabalhar na Bell Telephone Laboratories A Mathematical Theory of Communication A disciplina pretende fornecer de uma forma sistemática as noções fundamentais da teoria da informação e a sua aplicação em contextos de aprendizagem computacional, análise de dados e, sobretudo, aos princípios da codificação nos contextos da codificação de fontes e de canal e na criptografia. É objectivo exporem-se os fundamentos algébricos por forma a permitir uma aprendizagem dos princípios abstractos da teoria da informação e a matemática sofisticada da codificação. 
+TUDO:Em 1948, Claude E. Shannon, na altura a trabalhar na Bell Telephone Laboratories A Mathematical Theory of Communication A disciplina pretende fornecer de uma forma sistemática as noções fundamentais da teoria da informação e a sua aplicação em contextos de aprendizagem computacional, análise de dados e, sobretudo, aos princípios da codificação nos contextos da codificação de fontes e de canal e na criptografia. É objectivo exporem-se os fundamentos algébricos por forma a permitir uma aprendizagem dos princípios abstractos da teoria da informação e a matemática sofisticada da codificação. 
+Phrase:  Em 1948, Claude E
+Phrase:   Shannon, na altura a trabalhar na Bell Telephone Laboratories A Mathematical Theory of Communication A disciplina pretende fornecer de uma forma sistemática as noções fundamentais da teoria da informação e a sua aplicação em contextos de aprendizagem computacional, análise de dados e, sobretudo, aos princípios da codificação nos contextos da codificação de fontes e de canal e na criptografia
+Phrase:   É objectivo exporem-se os fundamentos algébricos por forma a permitir uma aprendizagem dos princípios abstractos da teoria da informação e a matemática sofisticada da codificação
+Phrase:   
+Sem nada: em 1948, claude e. shannon, na altura a trabalhar na bell telephone laboratories a mathematical theory of communication a disciplina pretende fornecer de uma forma sistemática as noções fundamentais da teoria da informação e a sua aplicação em contextos de aprendizagem computacional, análise de dados e, sobretudo, aos princípios da codificação nos contextos da codificação de fontes e de canal e na criptografia. É objectivo exporem-se os fundamentos algébricos por forma a permitir uma aprendizagem dos princípios abstractos da teoria da informação e a matemática sofisticada da codificação. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Português: Após a conclusão da unidade curricular, o estudante deve demonstrar ao conhecimento e capacidade de compreensão nos seguintes aspectos: análise de complexidade; técnicas gerais de projecto de algoritmos; estruturas de dados e algoritmos de ordenamento (características, memória ocupada, velocidade de execução). Aplicação de conhecimentos e compreensão: aplicação dos conhecimentos sobre análise de complexidade no estudo de estruturas de dados e algoritmos; reconhecimento e compreensão do carácter recursivo das várias estruturas de dados e algoritmos estudados; capacidade de análise comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção. Realização de julgamento/tomada de decisão: capacidade de decisão sobre as estruturas de dados, algoritmos de ordenamento e técnicas de programação mais adequadas em contexto de novos problemas; capacidade de decisão sobre quando recorrer a técnicas de programação avançada - “divide and conquer” e programação dinâmica. Inglês: After conclusion of this unit, the student should exhibit knowledge and understanding on the following topics: complexity analysis; general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity). Application of knowledge and understanding: complexity analysis of data structures and algorithms; understanding on the recursive nature of the various data structures and algorithms studied in the unit; comparative analysis of the various data structures and sorting algorithms; reinforcement of the abstraction skills. Judgement and decision making: capability to decide on data structures, sorting algorithms and algorithm design in presence of a concrete problem; decision skills on when to adopt an advanced design approach – divide an conquer; dynamic programming. 
+TUDO:Português: Após a conclusão da unidade curricular, o estudante deve demonstrar ao conhecimento e capacidade de compreensão nos seguintes aspectos: análise de complexidade; técnicas gerais de projecto de algoritmos; estruturas de dados e algoritmos de ordenamento (características, memória ocupada, velocidade de execução). Aplicação de conhecimentos e compreensão: aplicação dos conhecimentos sobre análise de complexidade no estudo de estruturas de dados e algoritmos; reconhecimento e compreensão do carácter recursivo das várias estruturas de dados e algoritmos estudados; capacidade de análise comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção. Realização de julgamento/tomada de decisão: capacidade de decisão sobre as estruturas de dados, algoritmos de ordenamento e técnicas de programação mais adequadas em contexto de novos problemas; capacidade de decisão sobre quando recorrer a técnicas de programação avançada - “divide and conquer” e programação dinâmica. Inglês: After conclusion of this unit, the student should exhibit knowledge and understanding on the following topics: complexity analysis; general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity). Application of knowledge and understanding: complexity analysis of data structures and algorithms; understanding on the recursive nature of the various data structures and algorithms studied in the unit; comparative analysis of the various data structures and sorting algorithms; reinforcement of the abstraction skills. Judgement and decision making: capability to decide on data structures, sorting algorithms and algorithm design in presence of a concrete problem; decision skills on when to adopt an advanced design approach – divide an conquer; dynamic programming. 
+Phrase:  Português: Após a conclusão da unidade curricular, o estudante deve demonstrar ao conhecimento e capacidade de compreensão nos seguintes aspectos: análise de complexidade; técnicas gerais de projecto de algoritmos; estruturas de dados e algoritmos de ordenamento (características, memória ocupada, velocidade de execução)
+Phrase:   Aplicação de conhecimentos e compreensão: aplicação dos conhecimentos sobre análise de complexidade no estudo de estruturas de dados e algoritmos; reconhecimento e compreensão do carácter recursivo das várias estruturas de dados e algoritmos estudados; capacidade de análise comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção
+Phrase:   Realização de julgamento/tomada de decisão: capacidade de decisão sobre as estruturas de dados, algoritmos de ordenamento e técnicas de programação mais adequadas em contexto de novos problemas; capacidade de decisão sobre quando recorrer a técnicas de programação avançada - “divide and conquer” e programação dinâmica
+Phrase:   Inglês: After conclusion of this unit, the student should exhibit knowledge and understanding on the following topics: complexity analysis; general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity)
+Phrase:   Application of knowledge and understanding: complexity analysis of data structures and algorithms; understanding on the recursive nature of the various data structures and algorithms studied in the unit; comparative analysis of the various data structures and sorting algorithms; reinforcement of the abstraction skills
+Phrase:   Judgement and decision making: capability to decide on data structures, sorting algorithms and algorithm design in presence of a concrete problem; decision skills on when to adopt an advanced design approach – divide an conquer; dynamic programming
+Phrase:   
+verbo:compute/comput
+computational complexity)
+verbo:compare/compar
+comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção
+verbo:generalize/gener
+general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity)
+verbo:understand/understand
+understanding on the following topics: complexity analysis; general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity)
+verbo:compare/compar
+comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção
+verbo:design/design
+design; data structures and sorting (characterization; spatial and computational complexity)
+verbo:generate/gener
+general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity)
+7
+[0, 2, 1, 1, 1, 2]
+4
+[0, 0, 0, 0]
+----
+A disciplina de Redes de Comunicações pretende dotar os estudantes de um largo espectro de conhecimento nas áreas das comunicações e de capacidades para projectarem soluções técnicas de elevado potencial. O programa da disciplina começa por fazer uma análise às soluções subjacentes à arquitectura da actual Internet. Analisa, em detalhe, as principais tecnologias e os protocolos das diferentes camadas da arquitectura TCP/IP, avalia as limitações e os novos desafios. Paralelamente, o programa da cadeira pretende ensinar aos estudantes os fundamentos gerais da simulação de redes na avaliação de alternativas protocolares e tecnológicas. A programação para ambientes em rede é ainda estudada através da linguagem C e dos sockets. Nas aulas práticas os alunos irão desenvolver ainda várias actividades de configuração de switches e routers. 
+TUDO:A disciplina de Redes de Comunicações pretende dotar os estudantes de um largo espectro de conhecimento nas áreas das comunicações e de capacidades para projectarem soluções técnicas de elevado potencial. O programa da disciplina começa por fazer uma análise às soluções subjacentes à arquitectura da actual Internet. Analisa, em detalhe, as principais tecnologias e os protocolos das diferentes camadas da arquitectura TCP/IP, avalia as limitações e os novos desafios. Paralelamente, o programa da cadeira pretende ensinar aos estudantes os fundamentos gerais da simulação de redes na avaliação de alternativas protocolares e tecnológicas. A programação para ambientes em rede é ainda estudada através da linguagem C e dos sockets. Nas aulas práticas os alunos irão desenvolver ainda várias actividades de configuração de switches e routers. 
+Phrase:  A disciplina de Redes de Comunicações pretende dotar os estudantes de um largo espectro de conhecimento nas áreas das comunicações e de capacidades para projectarem soluções técnicas de elevado potencial
+Phrase:   O programa da disciplina começa por fazer uma análise às soluções subjacentes à arquitectura da actual Internet
+Phrase:   Analisa, em detalhe, as principais tecnologias e os protocolos das diferentes camadas da arquitectura TCP/IP, avalia as limitações e os novos desafios
+Phrase:   Paralelamente, o programa da cadeira pretende ensinar aos estudantes os fundamentos gerais da simulação de redes na avaliação de alternativas protocolares e tecnológicas
+Phrase:   A programação para ambientes em rede é ainda estudada através da linguagem C e dos sockets
+Phrase:   Nas aulas práticas os alunos irão desenvolver ainda várias actividades de configuração de switches e routers
+Phrase:   
+Sem nada: a disciplina de redes de comunicações pretende dotar os estudantes de um largo espectro de conhecimento nas áreas das comunicações e de capacidades para projectarem soluções técnicas de elevado potencial. o programa da disciplina começa por fazer uma análise às soluções subjacentes à arquitectura da actual internet. analisa, em detalhe, as principais tecnologias e os protocolos das diferentes camadas da arquitectura tcp/ip, avalia as limitações e os novos desafios. paralelamente, o programa da cadeira pretende ensinar aos estudantes os fundamentos gerais da simulação de redes na avaliação de alternativas protocolares e tecnológicas. a programação para ambientes em rede é ainda estudada através da linguagem c e dos sockets. nas aulas práticas os alunos irão desenvolver ainda várias actividades de configuração de switches e routers. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Português: Após a conclusão da unidade curricular, o estudante deve demonstrar ao conhecimento e capacidade de compreensão nos seguintes aspectos: análise de complexidade; técnicas gerais de projecto de algoritmos; estruturas de dados e algoritmos de ordenamento (características, memória ocupada, velocidade de execução). Aplicação de conhecimentos e compreensão: aplicação dos conhecimentos sobre análise de complexidade no estudo de estruturas de dados e algoritmos; reconhecimento e compreensão do carácter recursivo das várias estruturas de dados e algoritmos estudados; capacidade de análise comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção. Realização de julgamento/tomada de decisão: capacidade de decisão sobre as estruturas de dados, algoritmos de ordenamento e técnicas de programação mais adequadas em contexto de novos problemas; capacidade de decisão sobre quando recorrer a técnicas de programação avançada - “divide and conquer” e programação dinâmica. Inglês: After conclusion of this unit, the student should exhibit knowledge and understanding on the following topics: complexity analysis; general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity). Application of knowledge and understanding: complexity analysis of data structures and algorithms; understanding on the recursive nature of the various data structures and algorithms studied in the unit; comparative analysis of the various data structures and sorting algorithms; reinforcement of the abstraction skills. Judgement and decision making: capability to decide on data structures, sorting algorithms and algorithm design in presence of a concrete problem; decision skills on when to adopt an advanced design approach – divide an conquer; dynamic programming. 
+TUDO:Português: Após a conclusão da unidade curricular, o estudante deve demonstrar ao conhecimento e capacidade de compreensão nos seguintes aspectos: análise de complexidade; técnicas gerais de projecto de algoritmos; estruturas de dados e algoritmos de ordenamento (características, memória ocupada, velocidade de execução). Aplicação de conhecimentos e compreensão: aplicação dos conhecimentos sobre análise de complexidade no estudo de estruturas de dados e algoritmos; reconhecimento e compreensão do carácter recursivo das várias estruturas de dados e algoritmos estudados; capacidade de análise comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção. Realização de julgamento/tomada de decisão: capacidade de decisão sobre as estruturas de dados, algoritmos de ordenamento e técnicas de programação mais adequadas em contexto de novos problemas; capacidade de decisão sobre quando recorrer a técnicas de programação avançada - “divide and conquer” e programação dinâmica. Inglês: After conclusion of this unit, the student should exhibit knowledge and understanding on the following topics: complexity analysis; general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity). Application of knowledge and understanding: complexity analysis of data structures and algorithms; understanding on the recursive nature of the various data structures and algorithms studied in the unit; comparative analysis of the various data structures and sorting algorithms; reinforcement of the abstraction skills. Judgement and decision making: capability to decide on data structures, sorting algorithms and algorithm design in presence of a concrete problem; decision skills on when to adopt an advanced design approach – divide an conquer; dynamic programming. 
+Phrase:  Português: Após a conclusão da unidade curricular, o estudante deve demonstrar ao conhecimento e capacidade de compreensão nos seguintes aspectos: análise de complexidade; técnicas gerais de projecto de algoritmos; estruturas de dados e algoritmos de ordenamento (características, memória ocupada, velocidade de execução)
+Phrase:   Aplicação de conhecimentos e compreensão: aplicação dos conhecimentos sobre análise de complexidade no estudo de estruturas de dados e algoritmos; reconhecimento e compreensão do carácter recursivo das várias estruturas de dados e algoritmos estudados; capacidade de análise comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção
+Phrase:   Realização de julgamento/tomada de decisão: capacidade de decisão sobre as estruturas de dados, algoritmos de ordenamento e técnicas de programação mais adequadas em contexto de novos problemas; capacidade de decisão sobre quando recorrer a técnicas de programação avançada - “divide and conquer” e programação dinâmica
+Phrase:   Inglês: After conclusion of this unit, the student should exhibit knowledge and understanding on the following topics: complexity analysis; general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity)
+Phrase:   Application of knowledge and understanding: complexity analysis of data structures and algorithms; understanding on the recursive nature of the various data structures and algorithms studied in the unit; comparative analysis of the various data structures and sorting algorithms; reinforcement of the abstraction skills
+Phrase:   Judgement and decision making: capability to decide on data structures, sorting algorithms and algorithm design in presence of a concrete problem; decision skills on when to adopt an advanced design approach – divide an conquer; dynamic programming
+Phrase:   
+verbo:compute/comput
+computational complexity)
+verbo:compare/compar
+comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção
+verbo:generalize/gener
+general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity)
+verbo:understand/understand
+understanding on the following topics: complexity analysis; general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity)
+verbo:compare/compar
+comparativa das várias estruturas de dados e algoritmos; reforço da capacidade de abstracção
+verbo:design/design
+design; data structures and sorting (characterization; spatial and computational complexity)
+verbo:generate/gener
+general techniques for algorithm design; data structures and sorting (characterization; spatial and computational complexity)
+7
+[0, 2, 1, 1, 1, 2]
+4
+[0, 0, 0, 0]
+----
+Esta cadeira introduz três aspectos fundamentais em teoria da computação: 1- Linguagens formais, gramáticas e autómatos; 2- Modelos de Computação 3- Teoria da Complexidade Em Material de Apoio, ficheiro Apresentação, está informação mais detalhada. 
+TUDO:Esta cadeira introduz três aspectos fundamentais em teoria da computação: 1- Linguagens formais, gramáticas e autómatos; 2- Modelos de Computação 3- Teoria da Complexidade Em Material de Apoio, ficheiro Apresentação, está informação mais detalhada. 
+Phrase:  Esta cadeira introduz três aspectos fundamentais em teoria da computação: 1- Linguagens formais, gramáticas e autómatos; 2- Modelos de Computação 3- Teoria da Complexidade Em Material de Apoio, ficheiro Apresentação, está informação mais detalhada
+Phrase:   
+Sem nada: esta cadeira introduz três aspectos fundamentais em teoria da computação: 1- linguagens formais, gramáticas e autómatos; 2- modelos de computação 3- teoria da complexidade em material de apoio, ficheiro apresentação, está informação mais detalhada. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Transmitir aos alunos conceitos básicos e ferramentas de trabalho que permitem explicar, compreender e prever fenómenos em Física Clássica e em Física Quântica e a sua relação com Computação Quântica. Aquisição de competências em análise e síntese, comunicação escrita, resolução de problemas, raciocínio crítico, aprendizagem autónoma, trabalho de grupo e aplicação prática de conhecimentos teóricos. 
+TUDO:Transmitir aos alunos conceitos básicos e ferramentas de trabalho que permitem explicar, compreender e prever fenómenos em Física Clássica e em Física Quântica e a sua relação com Computação Quântica. Aquisição de competências em análise e síntese, comunicação escrita, resolução de problemas, raciocínio crítico, aprendizagem autónoma, trabalho de grupo e aplicação prática de conhecimentos teóricos. 
+Phrase:  Transmitir aos alunos conceitos básicos e ferramentas de trabalho que permitem explicar, compreender e prever fenómenos em Física Clássica e em Física Quântica e a sua relação com Computação Quântica
+Phrase:   Aquisição de competências em análise e síntese, comunicação escrita, resolução de problemas, raciocínio crítico, aprendizagem autónoma, trabalho de grupo e aplicação prática de conhecimentos teóricos
+Phrase:   
+Sem nada: transmitir aos alunos conceitos básicos e ferramentas de trabalho que permitem explicar, compreender e prever fenómenos em física clássica e em física quântica e a sua relação com computação quântica. aquisição de competências em análise e síntese, comunicação escrita, resolução de problemas, raciocínio crítico, aprendizagem autónoma, trabalho de grupo e aplicação prática de conhecimentos teóricos. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+É objectivo desta unidade curricular introduzir conhecimentos matemáticos básicos que preparem o aluno para modelar comportamentos padrão de fenómenos aleatórios que surgem em contextos de Engenharia ou Ciência, contribuindo para uma formação matemática capaz de descrever, analisar e interpretar situações reais através de modelos matemáticos não deterministas. A correcta utilização de métodos estatísticos, em casos concretos, bem como a interpretação rigorosa dos resultados necessitam de uma formação teórica de base, quer em Probabilidades quer em Estatística, para a qual esta unidade contribui. É também objectivo preparar os estudantes para a aplicação prática dos métodos e conceitos a situações reais da Engenharia ou Ciência e que envolvam a estimação de parâmetros de um modelo, testar a sua adequação e obter explicações que permitam interpretar, prever e decidir sobre os fenómenos em estudo. 
+TUDO:É objectivo desta unidade curricular introduzir conhecimentos matemáticos básicos que preparem o aluno para modelar comportamentos padrão de fenómenos aleatórios que surgem em contextos de Engenharia ou Ciência, contribuindo para uma formação matemática capaz de descrever, analisar e interpretar situações reais através de modelos matemáticos não deterministas. A correcta utilização de métodos estatísticos, em casos concretos, bem como a interpretação rigorosa dos resultados necessitam de uma formação teórica de base, quer em Probabilidades quer em Estatística, para a qual esta unidade contribui. É também objectivo preparar os estudantes para a aplicação prática dos métodos e conceitos a situações reais da Engenharia ou Ciência e que envolvam a estimação de parâmetros de um modelo, testar a sua adequação e obter explicações que permitam interpretar, prever e decidir sobre os fenómenos em estudo. 
+Phrase:  É objectivo desta unidade curricular introduzir conhecimentos matemáticos básicos que preparem o aluno para modelar comportamentos padrão de fenómenos aleatórios que surgem em contextos de Engenharia ou Ciência, contribuindo para uma formação matemática capaz de descrever, analisar e interpretar situações reais através de modelos matemáticos não deterministas
+Phrase:   A correcta utilização de métodos estatísticos, em casos concretos, bem como a interpretação rigorosa dos resultados necessitam de uma formação teórica de base, quer em Probabilidades quer em Estatística, para a qual esta unidade contribui
+Phrase:   É também objectivo preparar os estudantes para a aplicação prática dos métodos e conceitos a situações reais da Engenharia ou Ciência e que envolvam a estimação de parâmetros de um modelo, testar a sua adequação e obter explicações que permitam interpretar, prever e decidir sobre os fenómenos em estudo
+Phrase:   
+Sem nada: É objectivo desta unidade curricular introduzir conhecimentos matemáticos básicos que preparem o aluno para modelar comportamentos padrão de fenómenos aleatórios que surgem em contextos de engenharia ou ciência, contribuindo para uma formação matemática capaz de descrever, analisar e interpretar situações reais através de modelos matemáticos não deterministas. a correcta utilização de métodos estatísticos, em casos concretos, bem como a interpretação rigorosa dos resultados necessitam de uma formação teórica de base, quer em probabilidades quer em estatística, para a qual esta unidade contribui. É também objectivo preparar os estudantes para a aplicação prática dos métodos e conceitos a situações reais da engenharia ou ciência e que envolvam a estimação de parâmetros de um modelo, testar a sua adequação e obter explicações que permitam interpretar, prever e decidir sobre os fenómenos em estudo. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+É objectivo desta unidade curricular introduzir conhecimentos matemáticos básicos que preparem o aluno para modelar comportamentos padrão de fenómenos aleatórios que surgem em contextos de Engenharia ou Ciência, contribuindo para uma formação matemática capaz de descrever, analisar e interpretar situações reais através de modelos matemáticos não deterministas. A correcta utilização de métodos estatísticos, em casos concretos, bem como a interpretação rigorosa dos resultados necessitam de uma formação teórica de base, quer em Probabilidades quer em Estatística, para a qual esta unidade contribui. É também objectivo preparar os estudantes para a aplicação prática dos métodos e conceitos a situações reais da Engenharia ou Ciência e que envolvam a estimação de parâmetros de um modelo, testar a sua adequação e obter explicações que permitam interpretar, prever e decidir sobre os fenómenos em estudo. 
+TUDO:É objectivo desta unidade curricular introduzir conhecimentos matemáticos básicos que preparem o aluno para modelar comportamentos padrão de fenómenos aleatórios que surgem em contextos de Engenharia ou Ciência, contribuindo para uma formação matemática capaz de descrever, analisar e interpretar situações reais através de modelos matemáticos não deterministas. A correcta utilização de métodos estatísticos, em casos concretos, bem como a interpretação rigorosa dos resultados necessitam de uma formação teórica de base, quer em Probabilidades quer em Estatística, para a qual esta unidade contribui. É também objectivo preparar os estudantes para a aplicação prática dos métodos e conceitos a situações reais da Engenharia ou Ciência e que envolvam a estimação de parâmetros de um modelo, testar a sua adequação e obter explicações que permitam interpretar, prever e decidir sobre os fenómenos em estudo. 
+Phrase:  É objectivo desta unidade curricular introduzir conhecimentos matemáticos básicos que preparem o aluno para modelar comportamentos padrão de fenómenos aleatórios que surgem em contextos de Engenharia ou Ciência, contribuindo para uma formação matemática capaz de descrever, analisar e interpretar situações reais através de modelos matemáticos não deterministas
+Phrase:   A correcta utilização de métodos estatísticos, em casos concretos, bem como a interpretação rigorosa dos resultados necessitam de uma formação teórica de base, quer em Probabilidades quer em Estatística, para a qual esta unidade contribui
+Phrase:   É também objectivo preparar os estudantes para a aplicação prática dos métodos e conceitos a situações reais da Engenharia ou Ciência e que envolvam a estimação de parâmetros de um modelo, testar a sua adequação e obter explicações que permitam interpretar, prever e decidir sobre os fenómenos em estudo
+Phrase:   
+Sem nada: É objectivo desta unidade curricular introduzir conhecimentos matemáticos básicos que preparem o aluno para modelar comportamentos padrão de fenómenos aleatórios que surgem em contextos de engenharia ou ciência, contribuindo para uma formação matemática capaz de descrever, analisar e interpretar situações reais através de modelos matemáticos não deterministas. a correcta utilização de métodos estatísticos, em casos concretos, bem como a interpretação rigorosa dos resultados necessitam de uma formação teórica de base, quer em probabilidades quer em estatística, para a qual esta unidade contribui. É também objectivo preparar os estudantes para a aplicação prática dos métodos e conceitos a situações reais da engenharia ou ciência e que envolvam a estimação de parâmetros de um modelo, testar a sua adequação e obter explicações que permitam interpretar, prever e decidir sobre os fenómenos em estudo. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+A unidade curricular de Tecnologia dos Computadores tem como principais objetivos dar uma perspetiva geral das diversas áreas da informática moderna, desde noções básicas de arquiteturas de computadores, à inteligência artificial, passando pela representação de informação, sistemas operativos, computação gráfica e bases de dados. A componente prática concentra-se sobretudo na aplicação de conceitos básicos de eletrónica digital utilizado no desenho de computadores. ---------- This course has the main objectives to give a general perspective of the diverse areas of the modern informatics, since basic notions of computer architectures to artificial intelligence, passing through the information representation, operating systems, computer graphics and databases. The practical component of the course is mainly about basic concepts of digital electronics used in the design of computers.   
+TUDO:A unidade curricular de Tecnologia dos Computadores tem como principais objetivos dar uma perspetiva geral das diversas áreas da informática moderna, desde noções básicas de arquiteturas de computadores, à inteligência artificial, passando pela representação de informação, sistemas operativos, computação gráfica e bases de dados. A componente prática concentra-se sobretudo na aplicação de conceitos básicos de eletrónica digital utilizado no desenho de computadores. ---------- This course has the main objectives to give a general perspective of the diverse areas of the modern informatics, since basic notions of computer architectures to artificial intelligence, passing through the information representation, operating systems, computer graphics and databases. The practical component of the course is mainly about basic concepts of digital electronics used in the design of computers.   
+Phrase:  A unidade curricular de Tecnologia dos Computadores tem como principais objetivos dar uma perspetiva geral das diversas áreas da informática moderna, desde noções básicas de arquiteturas de computadores, à inteligência artificial, passando pela representação de informação, sistemas operativos, computação gráfica e bases de dados
+Phrase:   A componente prática concentra-se sobretudo na aplicação de conceitos básicos de eletrónica digital utilizado no desenho de computadores
+Phrase:   ---------- This course has the main objectives to give a general perspective of the diverse areas of the modern informatics, since basic notions of computer architectures to artificial intelligence, passing through the information representation, operating systems, computer graphics and databases
+Phrase:   The practical component of the course is mainly about basic concepts of digital electronics used in the design of computers
+Phrase:     
+verbo:use/use
+used in the design of computers
+verbo:compute/comput
+computadores tem como principais objetivos dar uma perspetiva geral das diversas áreas da informática moderna, desde noções básicas de arquiteturas de computadores, à inteligência artificial, passando pela representação de informação, sistemas operativos, computação gráfica e bases de dados
+verbo:operate/oper
+operativos, computação gráfica e bases de dados
+verbo:generalize/gener
+general perspective of the diverse areas of the modern informatics, since basic notions of computer architectures to artificial intelligence, passing through the information representation, operating systems, computer graphics and databases
+verbo:design/design
+design of computers
+verbo:generate/gener
+general perspective of the diverse areas of the modern informatics, since basic notions of computer architectures to artificial intelligence, passing through the information representation, operating systems, computer graphics and databases
+6
+[0, 1, 3, 0, 0, 2]
+3
+[0, 0, 0, 0]
+----
+Proporcionar ao aluno uma noção global do funcionamento de um sistema computacional, na perspetiva do programador e do projetista de sistemas digitais, com especial enfoque em: (i) conhecimentos sobre arquiteturas de computadores atuais e compromissos que devem ser tidos em consideração no desenvolvimento de um sistema computacional; (ii) programação em linguagem Assembly; e (iii) compreensão da forma como o software interage com o hardware e consequente consolidação das competências de programação em linguagem C. De uma forma geral, aquisição de competências em análise e síntese, resolução de problemas, trabalho de grupo, raciocínio crítico, entendimento da linguagem de outros, aprendizagem autónoma,  adaptabilidade a novas situações, e adaptação prática dos conhecimentos teóricos. 
+TUDO:Proporcionar ao aluno uma noção global do funcionamento de um sistema computacional, na perspetiva do programador e do projetista de sistemas digitais, com especial enfoque em: (i) conhecimentos sobre arquiteturas de computadores atuais e compromissos que devem ser tidos em consideração no desenvolvimento de um sistema computacional; (ii) programação em linguagem Assembly; e (iii) compreensão da forma como o software interage com o hardware e consequente consolidação das competências de programação em linguagem C. De uma forma geral, aquisição de competências em análise e síntese, resolução de problemas, trabalho de grupo, raciocínio crítico, entendimento da linguagem de outros, aprendizagem autónoma,  adaptabilidade a novas situações, e adaptação prática dos conhecimentos teóricos. 
+Phrase:  Proporcionar ao aluno uma noção global do funcionamento de um sistema computacional, na perspetiva do programador e do projetista de sistemas digitais, com especial enfoque em: (i) conhecimentos sobre arquiteturas de computadores atuais e compromissos que devem ser tidos em consideração no desenvolvimento de um sistema computacional; (ii) programação em linguagem Assembly; e (iii) compreensão da forma como o software interage com o hardware e consequente consolidação das competências de programação em linguagem C
+Phrase:   De uma forma geral, aquisição de competências em análise e síntese, resolução de problemas, trabalho de grupo, raciocínio crítico, entendimento da linguagem de outros, aprendizagem autónoma,  adaptabilidade a novas situações, e adaptação prática dos conhecimentos teóricos
+Phrase:   
+Sem nada: proporcionar ao aluno uma noção global do funcionamento de um sistema computacional, na perspetiva do programador e do projetista de sistemas digitais, com especial enfoque em: (i) conhecimentos sobre arquiteturas de computadores atuais e compromissos que devem ser tidos em consideração no desenvolvimento de um sistema computacional; (ii) programação em linguagem assembly; e (iii) compreensão da forma como o software interage com o hardware e consequente consolidação das competências de programação em linguagem c. de uma forma geral, aquisição de competências em análise e síntese, resolução de problemas, trabalho de grupo, raciocínio crítico, entendimento da linguagem de outros, aprendizagem autónoma,  adaptabilidade a novas situações, e adaptação prática dos conhecimentos teóricos. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Proporcionar ao aluno uma noção global do funcionamento de um sistema computacional, na perspetiva do programador e do projetista de sistemas digitais, com especial enfoque em: (i) conhecimentos sobre arquiteturas de computadores atuais e compromissos que devem ser tidos em consideração no desenvolvimento de um sistema computacional; (ii) programação em linguagem Assembly; e (iii) compreensão da forma como o software interage com o hardware e consequente consolidação das competências de programação em linguagem C. De uma forma geral, aquisição de competências em análise e síntese, resolução de problemas, trabalho de grupo, raciocínio crítico, entendimento da linguagem de outros, aprendizagem autónoma,  adaptabilidade a novas situações, e adaptação prática dos conhecimentos teóricos. 
+TUDO:Proporcionar ao aluno uma noção global do funcionamento de um sistema computacional, na perspetiva do programador e do projetista de sistemas digitais, com especial enfoque em: (i) conhecimentos sobre arquiteturas de computadores atuais e compromissos que devem ser tidos em consideração no desenvolvimento de um sistema computacional; (ii) programação em linguagem Assembly; e (iii) compreensão da forma como o software interage com o hardware e consequente consolidação das competências de programação em linguagem C. De uma forma geral, aquisição de competências em análise e síntese, resolução de problemas, trabalho de grupo, raciocínio crítico, entendimento da linguagem de outros, aprendizagem autónoma,  adaptabilidade a novas situações, e adaptação prática dos conhecimentos teóricos. 
+Phrase:  Proporcionar ao aluno uma noção global do funcionamento de um sistema computacional, na perspetiva do programador e do projetista de sistemas digitais, com especial enfoque em: (i) conhecimentos sobre arquiteturas de computadores atuais e compromissos que devem ser tidos em consideração no desenvolvimento de um sistema computacional; (ii) programação em linguagem Assembly; e (iii) compreensão da forma como o software interage com o hardware e consequente consolidação das competências de programação em linguagem C
+Phrase:   De uma forma geral, aquisição de competências em análise e síntese, resolução de problemas, trabalho de grupo, raciocínio crítico, entendimento da linguagem de outros, aprendizagem autónoma,  adaptabilidade a novas situações, e adaptação prática dos conhecimentos teóricos
+Phrase:   
+Sem nada: proporcionar ao aluno uma noção global do funcionamento de um sistema computacional, na perspetiva do programador e do projetista de sistemas digitais, com especial enfoque em: (i) conhecimentos sobre arquiteturas de computadores atuais e compromissos que devem ser tidos em consideração no desenvolvimento de um sistema computacional; (ii) programação em linguagem assembly; e (iii) compreensão da forma como o software interage com o hardware e consequente consolidação das competências de programação em linguagem c. de uma forma geral, aquisição de competências em análise e síntese, resolução de problemas, trabalho de grupo, raciocínio crítico, entendimento da linguagem de outros, aprendizagem autónoma,  adaptabilidade a novas situações, e adaptação prática dos conhecimentos teóricos. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+ Esta cadeira tem dois Python 
+TUDO: Esta cadeira tem dois Python 
+Phrase:   Esta cadeira tem dois Python 
+Sem nada:  esta cadeira tem dois python 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+O objectivo desta disciplina é dar ao aluno um conjunto de conhecimentos sólidos em termos de programação procedimental. A disciplina também enfatizará a relação entre a forma como o código é escrito e a forma como é executado num computador moderno, dando portanto um forte relevo a aspectos como gestão de memória e ponteiros. Finalmente, a disciplina cobrirá um conjunto de algoritmos e estruturas de dados fundamentais a qualquer programa de computador comum. Tendo em vista estes objectivos, a disciplina será leccionada usando ANSI-C (standard de 1999). A primeira parte da cadeira será centrada na programação em C. A segunda parte dará especial atenção a algoritmos e estruturas de dados. 
+TUDO:O objectivo desta disciplina é dar ao aluno um conjunto de conhecimentos sólidos em termos de programação procedimental. A disciplina também enfatizará a relação entre a forma como o código é escrito e a forma como é executado num computador moderno, dando portanto um forte relevo a aspectos como gestão de memória e ponteiros. Finalmente, a disciplina cobrirá um conjunto de algoritmos e estruturas de dados fundamentais a qualquer programa de computador comum. Tendo em vista estes objectivos, a disciplina será leccionada usando ANSI-C (standard de 1999). A primeira parte da cadeira será centrada na programação em C. A segunda parte dará especial atenção a algoritmos e estruturas de dados. 
+Phrase:  O objectivo desta disciplina é dar ao aluno um conjunto de conhecimentos sólidos em termos de programação procedimental
+Phrase:   A disciplina também enfatizará a relação entre a forma como o código é escrito e a forma como é executado num computador moderno, dando portanto um forte relevo a aspectos como gestão de memória e ponteiros
+Phrase:   Finalmente, a disciplina cobrirá um conjunto de algoritmos e estruturas de dados fundamentais a qualquer programa de computador comum
+Phrase:   Tendo em vista estes objectivos, a disciplina será leccionada usando ANSI-C (standard de 1999)
+Phrase:   A primeira parte da cadeira será centrada na programação em C
+Phrase:   A segunda parte dará especial atenção a algoritmos e estruturas de dados
+Phrase:   
+Sem nada: o objectivo desta disciplina é dar ao aluno um conjunto de conhecimentos sólidos em termos de programação procedimental. a disciplina também enfatizará a relação entre a forma como o código é escrito e a forma como é executado num computador moderno, dando portanto um forte relevo a aspectos como gestão de memória e ponteiros. finalmente, a disciplina cobrirá um conjunto de algoritmos e estruturas de dados fundamentais a qualquer programa de computador comum. tendo em vista estes objectivos, a disciplina será leccionada usando ansi-c (standard de 1999). a primeira parte da cadeira será centrada na programação em c. a segunda parte dará especial atenção a algoritmos e estruturas de dados. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+ In English: This course provides IT students with the skills and tools to discuss information systems design and evolution with business managers.   The students will learn how to perform a strategic analysis, how to evaluate a business model, and how to address key aspects of enterprise architecture such as business process modeling and reengineering. In doing so, they will discover how to identify opportunities for the use of IT supported on solid business cases and how to prioritize them. They will realize why the information system is a portfolio of old legacy and new applications and what are the reasons to use a mix of acquisition, internal development, outsourcing, and software-as-a-service for its diverse components. They will understand the relevance of large Enterprise Systems (such as SAP), the main challenges in deploying those systems, and how service-oriented architectures may fit into the evolution roadmap.   The students completing this course will understand the distinct and often conflicting perspectives of business managers and IT staff, thus becoming privileged actors in helping those parties in planning the information system.     Em Português: Este curso proporciona aos estudantes as competências e ferramentas que lhes permitem discutir o projecto e evolução de sistemas de informação com responsáveis de negócio.   Os estudantes aprenderão a realizar uma análise estratégica, a avaliar um modelo de negócio, e a abordar aspectos chave da arquitectura empresarial, tais como modelação de processos de negócio e sua reengenharia. Ao fazê-lo, descobrirão como identificar oportunidades para o uso de TIC suportadas em sólidos business cases e como as priorizar. Perceberão que o sistema de informação é uma carteira de soluções legadas e recentes e as razões para usar diferentes estratégias de obtenção – aquisição, desenvolvimento interno, outsourcing, SaaS - para os seus distintos componentes. Compreenderão a relevância dos grandes sistemas empresariais integrados (como o SAP), os principiais desafios e implantar tais aplicações e também como as arquitecturas orientadas a serviços encaixam no mapa de evolução.   Ao completar o curso, os estudantes compreenderão as diferentes e frequentemente contraditórias perspectivas dos responsáveis de negócio e dos informáticos, tornando-se assim interlocutores privilegiados para ajudar ambas as partes a planear o sistema de informação da organização.   
+TUDO: In English: This course provides IT students with the skills and tools to discuss information systems design and evolution with business managers.   The students will learn how to perform a strategic analysis, how to evaluate a business model, and how to address key aspects of enterprise architecture such as business process modeling and reengineering. In doing so, they will discover how to identify opportunities for the use of IT supported on solid business cases and how to prioritize them. They will realize why the information system is a portfolio of old legacy and new applications and what are the reasons to use a mix of acquisition, internal development, outsourcing, and software-as-a-service for its diverse components. They will understand the relevance of large Enterprise Systems (such as SAP), the main challenges in deploying those systems, and how service-oriented architectures may fit into the evolution roadmap.   The students completing this course will understand the distinct and often conflicting perspectives of business managers and IT staff, thus becoming privileged actors in helping those parties in planning the information system.     Em Português: Este curso proporciona aos estudantes as competências e ferramentas que lhes permitem discutir o projecto e evolução de sistemas de informação com responsáveis de negócio.   Os estudantes aprenderão a realizar uma análise estratégica, a avaliar um modelo de negócio, e a abordar aspectos chave da arquitectura empresarial, tais como modelação de processos de negócio e sua reengenharia. Ao fazê-lo, descobrirão como identificar oportunidades para o uso de TIC suportadas em sólidos business cases e como as priorizar. Perceberão que o sistema de informação é uma carteira de soluções legadas e recentes e as razões para usar diferentes estratégias de obtenção – aquisição, desenvolvimento interno, outsourcing, SaaS - para os seus distintos componentes. Compreenderão a relevância dos grandes sistemas empresariais integrados (como o SAP), os principiais desafios e implantar tais aplicações e também como as arquitecturas orientadas a serviços encaixam no mapa de evolução.   Ao completar o curso, os estudantes compreenderão as diferentes e frequentemente contraditórias perspectivas dos responsáveis de negócio e dos informáticos, tornando-se assim interlocutores privilegiados para ajudar ambas as partes a planear o sistema de informação da organização.   
+Phrase:   In English: This course provides IT students with the skills and tools to discuss information systems design and evolution with business managers
+Phrase:     The students will learn how to perform a strategic analysis, how to evaluate a business model, and how to address key aspects of enterprise architecture such as business process modeling and reengineering
+Phrase:   In doing so, they will discover how to identify opportunities for the use of IT supported on solid business cases and how to prioritize them
+Phrase:   They will realize why the information system is a portfolio of old legacy and new applications and what are the reasons to use a mix of acquisition, internal development, outsourcing, and software-as-a-service for its diverse components
+Phrase:   They will understand the relevance of large Enterprise Systems (such as SAP), the main challenges in deploying those systems, and how service-oriented architectures may fit into the evolution roadmap
+Phrase:     The students completing this course will understand the distinct and often conflicting perspectives of business managers and IT staff, thus becoming privileged actors in helping those parties in planning the information system
+Phrase:       Em Português: Este curso proporciona aos estudantes as competências e ferramentas que lhes permitem discutir o projecto e evolução de sistemas de informação com responsáveis de negócio
+Phrase:     Os estudantes aprenderão a realizar uma análise estratégica, a avaliar um modelo de negócio, e a abordar aspectos chave da arquitectura empresarial, tais como modelação de processos de negócio e sua reengenharia
+Phrase:   Ao fazê-lo, descobrirão como identificar oportunidades para o uso de TIC suportadas em sólidos business cases e como as priorizar
+Phrase:   Perceberão que o sistema de informação é uma carteira de soluções legadas e recentes e as razões para usar diferentes estratégias de obtenção – aquisição, desenvolvimento interno, outsourcing, SaaS - para os seus distintos componentes
+Phrase:   Compreenderão a relevância dos grandes sistemas empresariais integrados (como o SAP), os principiais desafios e implantar tais aplicações e também como as arquitecturas orientadas a serviços encaixam no mapa de evolução
+Phrase:     Ao completar o curso, os estudantes compreenderão as diferentes e frequentemente contraditórias perspectivas dos responsáveis de negócio e dos informáticos, tornando-se assim interlocutores privilegiados para ajudar ambas as partes a planear o sistema de informação da organização
+Phrase:     
+verbo:identify/identifi
+identificar oportunidades para o uso de tic suportadas em sólidos business cases e como as priorizar
+verbo:use/use
+use of it supported on solid business cases and how to prioritize them
+verbo:discover/discov
+discover how to identify opportunities for the use of it supported on solid business cases and how to prioritize them
+verbo:understand/understand
+understand the relevance of large enterprise systems (such as sap), the main challenges in deploying those systems, and how service-oriented architectures may fit into the evolution roadmap
+verbo:support/support
+supported on solid business cases and how to prioritize them
+verbo:evaluate/evalu
+evaluate a business model, and how to address key aspects of enterprise architecture such as business process modeling and reengineering
+verbo:design/design
+design and evolution with business managers
+verbo:plan/plan
+planning the information system
+KNOWLEDGE DIMENSION:  plan
+8
+[1, 1, 2, 0, 2, 2]
+3
+[0, 1, 0, 0]
+2
+----
+Pretende-se que os estudantes adquiram e sejam capazes de aplicar conhecimentos básicos de Cálculo de várias variáveis e de Análise Complexa, bem como fomentar o desenvolvimento da capacidade de raciocínio. 
+TUDO:Pretende-se que os estudantes adquiram e sejam capazes de aplicar conhecimentos básicos de Cálculo de várias variáveis e de Análise Complexa, bem como fomentar o desenvolvimento da capacidade de raciocínio. 
+Phrase:  Pretende-se que os estudantes adquiram e sejam capazes de aplicar conhecimentos básicos de Cálculo de várias variáveis e de Análise Complexa, bem como fomentar o desenvolvimento da capacidade de raciocínio
+Phrase:   
+Sem nada: pretende-se que os estudantes adquiram e sejam capazes de aplicar conhecimentos básicos de cálculo de várias variáveis e de análise complexa, bem como fomentar o desenvolvimento da capacidade de raciocínio. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+ Compreender o problema e relacioná-lo com outros problemas já conhecidos Identificar paradigmas algorítmicos adequados à sua resolução Conceber algoritmos específicos para a resolução do problema em questão, tendo por base os paradigmas estudados Implementar as soluções algorítmicas encontradas de forma modular, recorrendo a estruturas de dados adequadas Compreender os limites inerentes à complexidade dos algoritmos implementados Explicar e justificar as opções tomadas durante todo o processo de resolução do problema 
+TUDO: Compreender o problema e relacioná-lo com outros problemas já conhecidos Identificar paradigmas algorítmicos adequados à sua resolução Conceber algoritmos específicos para a resolução do problema em questão, tendo por base os paradigmas estudados Implementar as soluções algorítmicas encontradas de forma modular, recorrendo a estruturas de dados adequadas Compreender os limites inerentes à complexidade dos algoritmos implementados Explicar e justificar as opções tomadas durante todo o processo de resolução do problema 
+Phrase:   Compreender o problema e relacioná-lo com outros problemas já conhecidos Identificar paradigmas algorítmicos adequados à sua resolução Conceber algoritmos específicos para a resolução do problema em questão, tendo por base os paradigmas estudados Implementar as soluções algorítmicas encontradas de forma modular, recorrendo a estruturas de dados adequadas Compreender os limites inerentes à complexidade dos algoritmos implementados Explicar e justificar as opções tomadas durante todo o processo de resolução do problema 
+Sem nada:  compreender o problema e relacioná-lo com outros problemas já conhecidos identificar paradigmas algorítmicos adequados à sua resolução conceber algoritmos específicos para a resolução do problema em questão, tendo por base os paradigmas estudados implementar as soluções algorítmicas encontradas de forma modular, recorrendo a estruturas de dados adequadas compreender os limites inerentes à complexidade dos algoritmos implementados explicar e justificar as opções tomadas durante todo o processo de resolução do problema 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+seres artificiais Introdução à Inteligência Artificial 
+TUDO:seres artificiais Introdução à Inteligência Artificial 
+Phrase:  seres artificiais Introdução à Inteligência Artificial 
+Sem nada: seres artificiais introdução à inteligência artificial 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Nesta unidade curricular pretende-se que o aluno adquira conhecimentos sobre temas centrais à Computação Gráfica, tanto a nível de fundamentos como a nível de utilização de ferramentas gráficas. Dar-se-á no entanto especial atenção aos fundamentos, ou seja, ao estudo de técnicas e metodologias utilizadas na geração de imagens e animações 
+TUDO:Nesta unidade curricular pretende-se que o aluno adquira conhecimentos sobre temas centrais à Computação Gráfica, tanto a nível de fundamentos como a nível de utilização de ferramentas gráficas. Dar-se-á no entanto especial atenção aos fundamentos, ou seja, ao estudo de técnicas e metodologias utilizadas na geração de imagens e animações 
+Phrase:  Nesta unidade curricular pretende-se que o aluno adquira conhecimentos sobre temas centrais à Computação Gráfica, tanto a nível de fundamentos como a nível de utilização de ferramentas gráficas
+Phrase:   Dar-se-á no entanto especial atenção aos fundamentos, ou seja, ao estudo de técnicas e metodologias utilizadas na geração de imagens e animações 
+Sem nada: nesta unidade curricular pretende-se que o aluno adquira conhecimentos sobre temas centrais à computação gráfica, tanto a nível de fundamentos como a nível de utilização de ferramentas gráficas. dar-se-á no entanto especial atenção aos fundamentos, ou seja, ao estudo de técnicas e metodologias utilizadas na geração de imagens e animações 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  Como a competitividade das organizações depende cada vez mais da sua capacidade para serem simultaneamente eficientes e inovadoras, o papel e as competências do gestor são fulcrais. Estabelecer uma visão comum, saber comunicá-la e gerir o conhecimento no seio das equipas de trabalho é frequentemente a chave do sucesso. Nesta disciplina, os estudantes serão sensibilizados para a importância de determinados conceitos, princípios e práticas de gestão, ao mesmo tempo que se irão familiarizar com algumas metodologias e ferramentas que permitem a sua operacionalização e que constituem a face visível da sua implementação nas organizações.   Neste contexto, será dada especial ênfase aos seguintes tópicos: - A gestão da inovação, reconhecida como essencial para a competitividade das organizações (e empresas de base tecnológica em particular); - O desenvolvimento de competências de planeamento, organização e trabalho em equipa, a aplicar na componente prática da disciplina, onde os alunos organizarão uma actividade associada às temáticas de PGI. 
+TUDO:  Como a competitividade das organizações depende cada vez mais da sua capacidade para serem simultaneamente eficientes e inovadoras, o papel e as competências do gestor são fulcrais. Estabelecer uma visão comum, saber comunicá-la e gerir o conhecimento no seio das equipas de trabalho é frequentemente a chave do sucesso. Nesta disciplina, os estudantes serão sensibilizados para a importância de determinados conceitos, princípios e práticas de gestão, ao mesmo tempo que se irão familiarizar com algumas metodologias e ferramentas que permitem a sua operacionalização e que constituem a face visível da sua implementação nas organizações.   Neste contexto, será dada especial ênfase aos seguintes tópicos: - A gestão da inovação, reconhecida como essencial para a competitividade das organizações (e empresas de base tecnológica em particular); - O desenvolvimento de competências de planeamento, organização e trabalho em equipa, a aplicar na componente prática da disciplina, onde os alunos organizarão uma actividade associada às temáticas de PGI. 
+Phrase:    Como a competitividade das organizações depende cada vez mais da sua capacidade para serem simultaneamente eficientes e inovadoras, o papel e as competências do gestor são fulcrais
+Phrase:   Estabelecer uma visão comum, saber comunicá-la e gerir o conhecimento no seio das equipas de trabalho é frequentemente a chave do sucesso
+Phrase:   Nesta disciplina, os estudantes serão sensibilizados para a importância de determinados conceitos, princípios e práticas de gestão, ao mesmo tempo que se irão familiarizar com algumas metodologias e ferramentas que permitem a sua operacionalização e que constituem a face visível da sua implementação nas organizações
+Phrase:     Neste contexto, será dada especial ênfase aos seguintes tópicos: - A gestão da inovação, reconhecida como essencial para a competitividade das organizações (e empresas de base tecnológica em particular); - O desenvolvimento de competências de planeamento, organização e trabalho em equipa, a aplicar na componente prática da disciplina, onde os alunos organizarão uma actividade associada às temáticas de PGI
+Phrase:   
+Sem nada:   como a competitividade das organizações depende cada vez mais da sua capacidade para serem simultaneamente eficientes e inovadoras, o papel e as competências do gestor são fulcrais. estabelecer uma visão comum, saber comunicá-la e gerir o conhecimento no seio das equipas de trabalho é frequentemente a chave do sucesso. nesta disciplina, os estudantes serão sensibilizados para a importância de determinados conceitos, princípios e práticas de gestão, ao mesmo tempo que se irão familiarizar com algumas metodologias e ferramentas que permitem a sua operacionalização e que constituem a face visível da sua implementação nas organizações.   neste contexto, será dada especial ênfase aos seguintes tópicos: - a gestão da inovação, reconhecida como essencial para a competitividade das organizações (e empresas de base tecnológica em particular); - o desenvolvimento de competências de planeamento, organização e trabalho em equipa, a aplicar na componente prática da disciplina, onde os alunos organizarão uma actividade associada às temáticas de pgi. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+ Compreender os objectivos e a arquitectura de um compilador Compreender os princípios da análise lexical e saber implementar analisadores lexicais, quer de raiz, quer usando ferramentas adequadas Compreender os princípios da análise sintáctica e saber implementar analisadores sintácticos descendentes e ascendentes, quer de raiz, quer usando ferramentas adequadas Compreender os princípios da análise semântica e saber implementar esse tipo de análise Compreender alguns princípios da geração do código final. 
+TUDO: Compreender os objectivos e a arquitectura de um compilador Compreender os princípios da análise lexical e saber implementar analisadores lexicais, quer de raiz, quer usando ferramentas adequadas Compreender os princípios da análise sintáctica e saber implementar analisadores sintácticos descendentes e ascendentes, quer de raiz, quer usando ferramentas adequadas Compreender os princípios da análise semântica e saber implementar esse tipo de análise Compreender alguns princípios da geração do código final. 
+Phrase:   Compreender os objectivos e a arquitectura de um compilador Compreender os princípios da análise lexical e saber implementar analisadores lexicais, quer de raiz, quer usando ferramentas adequadas Compreender os princípios da análise sintáctica e saber implementar analisadores sintácticos descendentes e ascendentes, quer de raiz, quer usando ferramentas adequadas Compreender os princípios da análise semântica e saber implementar esse tipo de análise Compreender alguns princípios da geração do código final
+Phrase:   
+Sem nada:  compreender os objectivos e a arquitectura de um compilador compreender os princípios da análise lexical e saber implementar analisadores lexicais, quer de raiz, quer usando ferramentas adequadas compreender os princípios da análise sintáctica e saber implementar analisadores sintácticos descendentes e ascendentes, quer de raiz, quer usando ferramentas adequadas compreender os princípios da análise semântica e saber implementar esse tipo de análise compreender alguns princípios da geração do código final. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+A disciplina de Sistemas Distribuídos proporciona aos alunos uma abordagem abrangente sobre os algoritmos, protocolos e fundamentos dos sistemas distribuídos modernos. Os alunos deverão adquirir competências no desenvolvimento de aplicações distribuídas usando várias tecnologias, deverão ser capazes de perceber e interligar conhecimentos sobre técnicas fundamentais para o desenho de aplicações distribuídas em ambiente empresarial e para a Internet.  
+TUDO:A disciplina de Sistemas Distribuídos proporciona aos alunos uma abordagem abrangente sobre os algoritmos, protocolos e fundamentos dos sistemas distribuídos modernos. Os alunos deverão adquirir competências no desenvolvimento de aplicações distribuídas usando várias tecnologias, deverão ser capazes de perceber e interligar conhecimentos sobre técnicas fundamentais para o desenho de aplicações distribuídas em ambiente empresarial e para a Internet.  
+Phrase:  A disciplina de Sistemas Distribuídos proporciona aos alunos uma abordagem abrangente sobre os algoritmos, protocolos e fundamentos dos sistemas distribuídos modernos
+Phrase:   Os alunos deverão adquirir competências no desenvolvimento de aplicações distribuídas usando várias tecnologias, deverão ser capazes de perceber e interligar conhecimentos sobre técnicas fundamentais para o desenho de aplicações distribuídas em ambiente empresarial e para a Internet
+Phrase:    
+Sem nada: a disciplina de sistemas distribuídos proporciona aos alunos uma abordagem abrangente sobre os algoritmos, protocolos e fundamentos dos sistemas distribuídos modernos. os alunos deverão adquirir competências no desenvolvimento de aplicações distribuídas usando várias tecnologias, deverão ser capazes de perceber e interligar conhecimentos sobre técnicas fundamentais para o desenho de aplicações distribuídas em ambiente empresarial e para a internet.  
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+No final do semestre, pretende-se que os estudantes sejam capazes de:  Exprimir-se adequadamente, utilizando diferentes formas de comunicação, em contextos académicos e profissionais. Argumentar, utilizando códigos distintos, em questões de natureza  social associadas ao exercício da profissão. Adequar as suas formas de comunicação aos públicos-alvo. 
+TUDO:No final do semestre, pretende-se que os estudantes sejam capazes de:  Exprimir-se adequadamente, utilizando diferentes formas de comunicação, em contextos académicos e profissionais. Argumentar, utilizando códigos distintos, em questões de natureza  social associadas ao exercício da profissão. Adequar as suas formas de comunicação aos públicos-alvo. 
+Phrase:  No final do semestre, pretende-se que os estudantes sejam capazes de:  Exprimir-se adequadamente, utilizando diferentes formas de comunicação, em contextos académicos e profissionais
+Phrase:   Argumentar, utilizando códigos distintos, em questões de natureza  social associadas ao exercício da profissão
+Phrase:   Adequar as suas formas de comunicação aos públicos-alvo
+Phrase:   
+Sem nada: no final do semestre, pretende-se que os estudantes sejam capazes de:  exprimir-se adequadamente, utilizando diferentes formas de comunicação, em contextos académicos e profissionais. argumentar, utilizando códigos distintos, em questões de natureza  social associadas ao exercício da profissão. adequar as suas formas de comunicação aos públicos-alvo. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Bases de Dados  
+TUDO:Bases de Dados  
+Phrase:  Bases de Dados  
+Sem nada: bases de dados  
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+A Simulação é uma disciplina transversal, de vastíssimo campo de aplicação.  O objectivo fundamental da disciplina é a aquisição de um conjunto de conhecimentos e competências que permitam, perante uma situação específica, desenvolver um modelo de simulação, implementá-lo, validá-lo e utilizá-lo de forma correcta, tomando em consideração as vantagens e limitações do uso da simulação. Pretende-se, no contexto de um curso de Engenharia Informática, que constitua uma mais valia para os futuros engenheiros, fornecendo-lhes conhecimentos e competências que lhes permitam conhecer, comparar e seleccionar as linguagens/ambientes de desenvolvimento adequadas, permitindo-lhes  implementar/adaptar/customizar modelos de simulação complexos, para os quais o recurso a ambientes ou linguagens específicas existentes não seja satisfatório. 
+TUDO:A Simulação é uma disciplina transversal, de vastíssimo campo de aplicação.  O objectivo fundamental da disciplina é a aquisição de um conjunto de conhecimentos e competências que permitam, perante uma situação específica, desenvolver um modelo de simulação, implementá-lo, validá-lo e utilizá-lo de forma correcta, tomando em consideração as vantagens e limitações do uso da simulação. Pretende-se, no contexto de um curso de Engenharia Informática, que constitua uma mais valia para os futuros engenheiros, fornecendo-lhes conhecimentos e competências que lhes permitam conhecer, comparar e seleccionar as linguagens/ambientes de desenvolvimento adequadas, permitindo-lhes  implementar/adaptar/customizar modelos de simulação complexos, para os quais o recurso a ambientes ou linguagens específicas existentes não seja satisfatório. 
+Phrase:  A Simulação é uma disciplina transversal, de vastíssimo campo de aplicação
+Phrase:    O objectivo fundamental da disciplina é a aquisição de um conjunto de conhecimentos e competências que permitam, perante uma situação específica, desenvolver um modelo de simulação, implementá-lo, validá-lo e utilizá-lo de forma correcta, tomando em consideração as vantagens e limitações do uso da simulação
+Phrase:   Pretende-se, no contexto de um curso de Engenharia Informática, que constitua uma mais valia para os futuros engenheiros, fornecendo-lhes conhecimentos e competências que lhes permitam conhecer, comparar e seleccionar as linguagens/ambientes de desenvolvimento adequadas, permitindo-lhes  implementar/adaptar/customizar modelos de simulação complexos, para os quais o recurso a ambientes ou linguagens específicas existentes não seja satisfatório
+Phrase:   
+Sem nada: a simulação é uma disciplina transversal, de vastíssimo campo de aplicação.  o objectivo fundamental da disciplina é a aquisição de um conjunto de conhecimentos e competências que permitam, perante uma situação específica, desenvolver um modelo de simulação, implementá-lo, validá-lo e utilizá-lo de forma correcta, tomando em consideração as vantagens e limitações do uso da simulação. pretende-se, no contexto de um curso de engenharia informática, que constitua uma mais valia para os futuros engenheiros, fornecendo-lhes conhecimentos e competências que lhes permitam conhecer, comparar e seleccionar as linguagens/ambientes de desenvolvimento adequadas, permitindo-lhes  implementar/adaptar/customizar modelos de simulação complexos, para os quais o recurso a ambientes ou linguagens específicas existentes não seja satisfatório. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+  
+TUDO:  
+Phrase:    
+Sem nada:   
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Caracterizar/solucionar sistemas de equações lineares; 
+TUDO:Caracterizar/solucionar sistemas de equações lineares; 
+Phrase:  Caracterizar/solucionar sistemas de equações lineares; 
+Sem nada: caracterizar/solucionar sistemas de equações lineares; 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Introdução de conceitos e técnicas fundamentais de Cálculo Diferencial e Cálculo Integral, para uso posterior nas restantes disciplinas.   
+TUDO:Introdução de conceitos e técnicas fundamentais de Cálculo Diferencial e Cálculo Integral, para uso posterior nas restantes disciplinas.   
+Phrase:  Introdução de conceitos e técnicas fundamentais de Cálculo Diferencial e Cálculo Integral, para uso posterior nas restantes disciplinas
+Phrase:     
+Sem nada: introdução de conceitos e técnicas fundamentais de cálculo diferencial e cálculo integral, para uso posterior nas restantes disciplinas.   
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Number descriptions:  28
+Number found:  28
+Number context:  181
+Number without:  24
+Stats:  [24, 0, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number descriptions:  28
+Number found:  28
+Number context:  181
+Number without:  24
+Stats:  [24, 0, 0, 0, 0, 0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

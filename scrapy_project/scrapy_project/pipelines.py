@@ -241,10 +241,10 @@ class ScrapyProjectPipeline(object):
 
 				if unitItem["teachers"]:
 					teacher=URIRef(self.USDL4EDU+str(unitItem["teachers"].decode('utf-8').encode("ascii","ignore").replace(" ","-")))
-					self.graphPersons.add((teacher,RDF.type,self.person))
+					self.graph.add((teacher,RDF.type,self.person))
 					name=unitItem["teachers"].split(" ")
-					self.graphPersons.add((teacher,self.FOAF["firstName"],Literal(name[0])))
-					self.graphPersons.add((teacher,self.FOAF["lastName"],Literal(name[len(name)-1])))
+					self.graph.add((teacher,self.FOAF["firstName"],Literal(name[0])))
+					self.graph.add((teacher,self.FOAF["lastName"],Literal(name[len(name)-1])))
 
 					self.graph.add((unit,self.USDL4EDU["hasTeacher"],teacher))
 		return item
@@ -540,8 +540,8 @@ class ScrapyProjectPipeline(object):
 		elif spider.name=="nonio":
 			self.stats=[0 for i in range(20)]
 			self.graph=Graph()
-			self.graphPersons=Graph()
-			self.graphPersons.parse("commondata\exported\\nonio_persons.ttl",format='n3')
+			# self.graphPersons=Graph()
+			# self.graphPersons.parse("commondata\exported\\nonio_persons.ttl",format='n3')
 			self.graphConcepts=Graph()
 			self.graphUSDL4EDU=Graph()
 			self.initialize_uris_usdl4edu()
@@ -603,13 +603,13 @@ class ScrapyProjectPipeline(object):
 			self.graph.serialize("commondata\exported\edx.ttl",format='n3')
 		elif spider.name=="nonio":
 			# print "NOT SAVING"
-			print self.number_descriptions
-			print self.number_found
-			print self.number_context
-			print self.number_wihout
-			print self.stats
-			self.graph.serialize("commondata\exported\\nonio_"+self.acronym+"2.ttl",format='n3')
-			self.graphPersons.serialize("commondata\exported\\nonio_persons.ttl",format='n3')
+			print "Number descriptions: ",self.number_descriptions
+			print "Number found: ",self.number_found
+			print "Number context: ",self.number_context
+			print "Number without: ",self.number_wihout
+			print "Stats: ",self.stats
+			self.graph.serialize("commondata\exported\\nonio_"+self.acronym+".ttl",format='n3')
+			# self.graphPersons.serialize("commondata\exported\\nonio_persons.ttl",format='n3')
 		return
 
 
@@ -632,10 +632,10 @@ class ScrapyProjectPipeline(object):
 		self.graph.bind('foaf','http://xmlns.com/foaf/spec/')
 		self.graph.bind('dc','http://purl.org/dc/terms/')
 
-		self.graphPersons.bind('usdl4edu','http://rdf.genssiz.dei.uc.pt/usdl4edu#')
-		self.graphPersons.bind('skos','http://www.w3.org/2004/02/skos/core#')
-		self.graphPersons.bind('foaf','http://xmlns.com/foaf/spec/')
-		self.graphPersons.bind('dc','http://purl.org/dc/terms/')
+		# self.graphPersons.bind('usdl4edu','http://rdf.genssiz.dei.uc.pt/usdl4edu#')
+		# self.graphPersons.bind('skos','http://www.w3.org/2004/02/skos/core#')
+		# self.graphPersons.bind('foaf','http://xmlns.com/foaf/spec/')
+		# self.graphPersons.bind('dc','http://purl.org/dc/terms/')
 
 		self.USDL4EDU = Namespace("http://rdf.genssiz.dei.uc.pt/usdl4edu#")
 		self.FOAF = Namespace("http://xmlns.com/foaf/spec/")

@@ -8,6 +8,10 @@ usdl4edu:Mestrado-em-Design-e-Multimdia-service a usdl4edu:EducationalService ;
     usdl4edu:hasOrganization usdl4edu:dei-uc ;
     usdl4edu:hasURL "http://www.uc.pt/en/fctuc/dei" .
 
+usdl4edu:Antnio-Jos-Nunes-Mendes a foaf:Person ;
+    foaf:firstName "António" ;
+    foaf:lastName "Mendes" .
+
 usdl4edu:Aprendizagem-e-Multimdia-objective a usdl4edu:Objective ;
     dc:description "pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das tecnologias da informação e da comunicação na educação e na formação profissional. inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning. " ;
     usdl4edu:hasContext usdl4edu:acm12-10-7 .
@@ -33,7 +37,7 @@ usdl4edu:Aprendizagem-e-Multimdia-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Aprendizagem e Multimédia" .
 
 usdl4edu:Arquitecturas-Virtuais-objective1 a usdl4edu:Objective ;
-    dc:description "design e multimédia, arquitecturas virtuais (mdm)" ;
+    dc:description "Esta informação refere-se à edição da disciplina para o Mestrado em Design e Multimédia, Arquitecturas Virtuais (MDM)" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8 .
 
@@ -56,29 +60,9 @@ usdl4edu:Arquitecturas-Virtuais-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Miguel-Pedro-Cerqueira-Soares ;
     usdl4edu:hasTitle "Arquitecturas Virtuais" .
 
-usdl4edu:Arte-Computacional-objective1 a usdl4edu:Objective ;
-    dc:description "design" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8 .
-
-usdl4edu:Arte-Computacional-objectives a usdl4edu:OverallObjective ;
-    dc:description "Ao longo dos últimos anos os computadores têm vindo a ganhar importância  no domínio da arte e do design. Desta forma, os designers e artistas  têm-se tornado gradualmente dependentes do software, ferramentas que  moldam tanto o processo como, eventualmente, o resultado final,  tornando-se assim uma limitação.   Nesta unidade curricular  explora-se uma nova abordagem: a de entender a programação como uma  forma de expressão artística. Desta forma, compreendendo que a  verdadeira literacia resulta da capacidade de “ler” e de “escrever”, o  criador é posicionado como designer de processos computacionais.  Tornando-se assim capaz de questionar os modelos existentes e de  explorar inteiramente as possibilidades dos meios electrónicos. O  funcionamento desta unidade curricular passa por duas vertentes: a) a  análise e discussão de artigos/trabalhos influentes no domínio em  questão; b) O desenvolvimento de projectos de programação desenhados  para promover  competências técnicas específicas e a exploração  conceptual no domínio da arte computacional e design " ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasPartObjective usdl4edu:Arte-Computacional-objective1 .
-
-usdl4edu:Arte-Computacional-prerequisites a usdl4edu:OverallPrerequisite ;
-    dc:description " algoritmia programação multimédia " .
-
-usdl4edu:Arte-Computacional-unit a usdl4edu:CourseUnit ;
-    dc:description "Competência em análise e síntese Instrumentais Competência em raciocínio crítico Pessoais Competência em autocrítica e auto-avaliação Sistémicas " ;
-    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
-    usdl4edu:hasEcts "4" ;
-    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasOverallObjective usdl4edu:Arte-Computacional-objectives ;
-    usdl4edu:hasOverallPrerequisite usdl4edu:Arte-Computacional-prerequisites ;
-    usdl4edu:hasSemester 1 ;
-    usdl4edu:hasTeacher usdl4edu:Fernando-Jorge-Penousal-Martins-Machado ;
-    usdl4edu:hasTitle "Arte Computacional" .
+usdl4edu:Artur-Lus-Gonalves-de-Azevedo-Rebelo-Alves a foaf:Person ;
+    foaf:firstName "Artur" ;
+    foaf:lastName "Alves" .
 
 usdl4edu:Conceitos-e-Prtica-da-Arte-Contempornea-objective a usdl4edu:Objective ;
     dc:description "tendo a obra de marcel duchamp como ponto de partida, para um percurso pela arte dos nossos dias, nesta disciplina a abordagem da arte contemporânea é feita na perspectiva da relação entre as ideias e as formas. os principais objectos de estudo serão as manifestações artísticas actuais, numa abordagem da arte que sublinha a relação entre o seu carácter objectual e o campo das ideias. " ;
@@ -144,15 +128,19 @@ usdl4edu:Desenho-e-Representao-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Maria-Alice-Barriga-Geirinhas-dos-Santos ;
     usdl4edu:hasTitle "Desenho e Representação" .
 
-usdl4edu:EstgioDissertao-objective1 a usdl4edu:Objective ;
-    dc:description "designer como autor e como actor social" ;
+usdl4edu:Eduardo-Miguel-Morgado-Nunes a foaf:Person ;
+    foaf:firstName "Eduardo" ;
+    foaf:lastName "Nunes" .
+
+usdl4edu:Estgio-Dissertao-objective1 a usdl4edu:Objective ;
+    dc:description " Valoriza-se a noção de designer como autor e como actor social" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8 .
 
 usdl4edu:EstgioDissertao-objectives a usdl4edu:OverallObjective ;
     dc:description "Nesta UC, os alunos devem desenvolver um projecto com a contribuição de decisões conceptuais, técnicas e formais a partir de requisitos de programa por si formulados. Valoriza-se a noção de designer como autor e como actor social. Dá-se especial importância aos aspectos de autoria e de inovação, à pertinência das soluções metodológicas e à relevância social e cultural das propostas. Introduz-se a prática de gestão de projecto.  " ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasPartObjective usdl4edu:EstgioDissertao-objective1 .
+    usdl4edu:hasPartObjective usdl4edu:Estgio-Dissertao-objective1 .
 
 usdl4edu:EstgioDissertao-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "Nada a assinalar. " .
@@ -198,12 +186,16 @@ usdl4edu:Estudos-de-Composio-objectives a usdl4edu:OverallObjective ;
     dc:description "Esta disciplina tem como objectivo o desenvolvimento da capacidade de articular as relações formais dos elementos da imagem. " ;
     usdl4edu:hasPartObjective usdl4edu:Estudos-de-Composio-objective .
 
+usdl4edu:Estudos-de-Composio-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Sem pré-requisitos   " .
+
 usdl4edu:Estudos-de-Composio-unit a usdl4edu:CourseUnit ;
     dc:description "Competência em análise e síntese Conhecimentos de informática relativos ao âmbito do estudo Uso da internet como meio de comunicação e fonte de informação Competência em aprendizagem autónoma Adaptabilidade a novas situações Criatividade Iniciativa e espírito empreendedor Preocupação com a qualidade Competência em investigar " ;
     usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
     usdl4edu:hasEcts "4" ;
     usdl4edu:hasLanguage usdl4edu:LanguagePT ;
     usdl4edu:hasOverallObjective usdl4edu:Estudos-de-Composio-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Estudos-de-Composio-prerequisites ;
     usdl4edu:hasSemester 1 ;
     usdl4edu:hasTeacher usdl4edu:Antnio-Jos-Olaio-Correia-de-Carvalho ;
     usdl4edu:hasTitle "Estudos de Composição" .
@@ -215,6 +207,14 @@ usdl4edu:Expresso-Plstica-e-Multimdia-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTeacher usdl4edu:Miguel-Pedro-Cerqueira-Soares ;
     usdl4edu:hasTitle "Expressão Plástica e Multimédia" .
+
+usdl4edu:Fernando-Amlcar-Bandeira-Cardoso a foaf:Person ;
+    foaf:firstName "Fernando" ;
+    foaf:lastName "Cardoso" .
+
+usdl4edu:Fernando-Jorge-Penousal-Martins-Machado a foaf:Person ;
+    foaf:firstName "Fernando" ;
+    foaf:lastName "Machado" .
 
 usdl4edu:Fotografia-Cinema-e-Vdeo-Prticas-Interdisciplinares-objective a usdl4edu:Objective ;
     dc:description "esta disciplina tem como objetivo estudar os cruzamentos interdisciplinares nas práticas artísticas contemporâneas, com enfoque na fotografia, cinema e vídeo. apresentar-se-á uma visão panorâmica da expansão da fotografia no cinema e no vídeo; o cinema de autor/experimental (longas-metragens, curtas e animação) como sismógrafo do advento do vídeo enquanto tecnologia e dispositivo;  a vídeo -instalação como forma de expressão artística e prática transformadora do espaço expositivo; as interações destes três media a disciplina dará enfoque à experimentação e prática, nos campos da fotografia e vídeo, através de projetos individuais a realizar pelos alunos. " .
@@ -255,7 +255,7 @@ usdl4edu:Inteligncia-Ambiente-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Inteligência Ambiente" .
 
 usdl4edu:Interaco-Humano-Computador-objective1 a usdl4edu:Objective ;
-    dc:description "design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de hci" ;
+    dc:description " Mais especificamente, o estudante deverá compreender o papel dos factores humanos na interacção e interface, compreender e aplicar técnicas de prototipagem para investigação e ensaio de proposta de design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de HCI" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8,
         usdl4edu:acm10-2-1-1,
@@ -281,6 +281,30 @@ usdl4edu:Interaco-Humano-Computador-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Licnio-Gomes-Roque ;
     usdl4edu:hasTitle "Interacção Humano-Computador" .
 
+usdl4edu:Joo-Manuel-Frade-Belo-Bicker a foaf:Person ;
+    foaf:firstName "João" ;
+    foaf:lastName "Bicker" .
+
+usdl4edu:Jos-Augusto-Mas-da-Silva-Carvalho a foaf:Person ;
+    foaf:firstName "José" ;
+    foaf:lastName "Carvalho" .
+
+usdl4edu:Liz-Marie-Defossez-Ramalho a foaf:Person ;
+    foaf:firstName "Lizá" ;
+    foaf:lastName "Ramalho" .
+
+usdl4edu:Lus-Fernando-Gomes-da-Silva-Quintais a foaf:Person ;
+    foaf:firstName "Luís" ;
+    foaf:lastName "Quintais" .
+
+usdl4edu:Maria-Jos-Patrcio-Marcelino a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Marcelino" .
+
+usdl4edu:Maria-Teresa-Ferreira-Soares-Mendes a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Mendes" .
+
 usdl4edu:Mestrado-em-Design-e-Multimdia-degree a usdl4edu:Degree ;
     dc:description """O Mestrado em Design e Multimédia privilegia uma sólida formação interdisciplinar contemplando os conhecimentos, capacidades e competências de base que permita aos futuros mestres intervir de forma criativa e inovadora nos diversos domínios de exploração dos novos média digitais.\r
 O curso orienta-se para a preparação de profissionais especializados na conceção de produtos e serviços para os novos média, combinando uma formação em design com componentes de tecnologias de informação. Deste modo, preparam-se os novos Mestres para o trabalho em equipas multidisciplinares, onde serão capazes de traduzir as diversas linguagens envolvidas e mobilizar eficazmente as tecnologias de informação, adequando-as à forma como comunicamos, percecionamos, pensamos ou interagimos com o mundo que nos rodeia. De particular relevância afigura-se neste curso a formação em áreas relacionadas com o design de interação, o design de interfaces, o design web, e a produção digital.\r
@@ -288,7 +312,6 @@ A estrutura curricular do Mestrado em Design e Multimédia encontra-se organizad
 No plano metodológico privilegia-se uma abordagem pedagógica centrada nas competências, identificando nas diferentes unidades curriculares as competências genéricas e específicas relevantes para o 2º ciclo em Design e Multimédia. As opções metodológicas articulam-se naturalmente com as decisões curriculares subjacentes à definição da organização do curso, de forma a garantir o equilíbrio entre as competências instrumentais, sistémicas e interpessoais. Procurou-se também refletir estes três tipos de competências no seio de cada unidade curricular, à luz dos objetivos da unidade curricular.""" ;
     usdl4edu:hasCourseUnit usdl4edu:Aprendizagem-e-Multimdia-unit,
         usdl4edu:Arquitecturas-Virtuais-unit,
-        usdl4edu:Arte-Computacional-unit,
         usdl4edu:Conceitos-e-Prtica-da-Arte-Contempornea-unit,
         usdl4edu:Culturas-Visuais-unit,
         usdl4edu:Desenho-e-Representao-unit,
@@ -308,8 +331,6 @@ No plano metodológico privilegia-se uma abordagem pedagógica centrada nas comp
         usdl4edu:Redes-Sociais-e-de-Valor-unit,
         usdl4edu:Tecnologias-da-Internet-unit,
         usdl4edu:Tecnologias-de-Interface-unit,
-        usdl4edu:Teoria-e-Histria-do-Design-unit,
-        usdl4edu:Tipografia-Avanada-unit,
         usdl4edu:Tipografia-unit ;
     usdl4edu:hasCycle usdl4edu:HighEducationCycle_2nd ;
     usdl4edu:hasEcts "120" ;
@@ -338,7 +359,7 @@ usdl4edu:Modelao-e-Animao-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Modelação e Animação" .
 
 usdl4edu:Multimdia-objective1 a usdl4edu:Objective ;
-    dc:description "design, desenvolvimento e gestão de projectos multimédia em equipa - tópicos de usabilidade e sua aplicação em projectos multimédia - imagem, áudio e vídeo digital, com enfoque nos aspectos fisiológicos e perceptuais envolvidos e na representação e compressão desses tipo de dados multimédia" ;
+    dc:description " Nomeadamente: - planeamento, design, desenvolvimento e gestão de projectos multimédia em equipa - tópicos de usabilidade e sua aplicação em projectos multimédia - imagem, áudio e vídeo digital, com enfoque nos aspectos fisiológicos e perceptuais envolvidos e na representação e compressão desses tipo de dados multimédia" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8 .
 
@@ -362,7 +383,7 @@ usdl4edu:Multimdia-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Multimédia" .
 
 usdl4edu:Oficina-de-Design-I-objective1 a usdl4edu:Objective ;
-    dc:description "design de comunicação; -       explorar as potencialidades do design generativo; -       explorar as potencialidades do design participativo; -       integrar conhecimentos de diferentes áreas, privilegiando-se a interdisciplinaridade dos projetos" ;
+    dc:description "-       Aprofundar as capacidades de investigação, com recurso aos processos próprios da disciplina; -       Adquirir competências técnicas no domínio específico do design de comunicação; -       Explorar as potencialidades do design generativo; -       Explorar as potencialidades do design participativo; -       Integrar conhecimentos de diferentes áreas, privilegiando-se a interdisciplinaridade dos projetos" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8 .
 
@@ -392,6 +413,14 @@ usdl4edu:Oficina-de-Design-II-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTeacher usdl4edu:Artur-Lus-Gonalves-de-Azevedo-Rebelo-Alves ;
     usdl4edu:hasTitle "Oficina de Design II" .
+
+usdl4edu:Paulo-Fernando-Pereira-de-Carvalho a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Carvalho" .
+
+usdl4edu:Paulo-Jos-Osrio-Rupino-da-Cunha a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Cunha" .
 
 usdl4edu:Programao-objective a usdl4edu:Objective ;
     dc:description "o objectivo principal desta disciplina é permitir aos alunos dominar os conceitos base de programação e torná-los capazes de compreender e criar programas de pequena e média complexidade. a aprendizagem será contextualizada, pelo que serão utilizados exemplos concretos da área gráfica como base de trabalho. a linguagem de programação utilizada na cadeira será o processing, uma vez que se trata de uma linguagem com elevadas capacidades gráficas criada com objectivos semelhantes aos desta disciplina. " .
@@ -442,25 +471,10 @@ usdl4edu:Redes-Sociais-e-de-Valor-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Paulo-Jos-Osrio-Rupino-da-Cunha ;
     usdl4edu:hasTitle "Redes Sociais e de Valor" .
 
-usdl4edu:Tecnologias-da-Internet-objective a usdl4edu:Objective ;
-    dc:description "esta disciplina tem como objectivo a aquisição de conhecimento e de competências na área das aplicações, tecnologias e protocolos da internet. no final da disciplina os alunos irão ter conhecimentos adequados sobre os principais protocolos e serviços da internet, e sobre as tecnologias actuais para o desenvolvimento de aplicações para a internet. " .
-
-usdl4edu:Tecnologias-da-Internet-objectives a usdl4edu:OverallObjective ;
-    dc:description "Esta disciplina tem como objectivo a aquisição de conhecimento e de competências na área das aplicações, tecnologias e protocolos da Internet. No final da disciplina os alunos irão ter conhecimentos adequados sobre os principais protocolos e serviços da Internet, e sobre as tecnologias actuais para o desenvolvimento de aplicações para a Internet. " ;
-    usdl4edu:hasPartObjective usdl4edu:Tecnologias-da-Internet-objective .
-
-usdl4edu:Tecnologias-da-Internet-prerequisites a usdl4edu:OverallPrerequisite ;
-    dc:description "Noções de programação. " .
-
 usdl4edu:Tecnologias-da-Internet-unit a usdl4edu:CourseUnit ;
-    dc:description "Desenvolver competências em:  análise e síntese organização e planificação comunicação oral e escrita resolução de problemas trabalho em grupo raciocínio crítico entender a linguagem de outros especialistas aprendizagem autónoma criatividade aplicar na prática os conhecimentos teóricos  " ;
-    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
     usdl4edu:hasEcts "4" ;
     usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasOverallObjective usdl4edu:Tecnologias-da-Internet-objectives ;
-    usdl4edu:hasOverallPrerequisite usdl4edu:Tecnologias-da-Internet-prerequisites ;
     usdl4edu:hasSemester 1 ;
-    usdl4edu:hasTeacher usdl4edu:Lus-Miguel-Machado-Lopes-Macedo ;
     usdl4edu:hasTitle "Tecnologias da Internet" .
 
 usdl4edu:Tecnologias-de-Interface-objective a usdl4edu:Objective ;
@@ -484,46 +498,6 @@ usdl4edu:Tecnologias-de-Interface-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Eduardo-Miguel-Morgado-Nunes ;
     usdl4edu:hasTitle "Tecnologias de Interface" .
 
-usdl4edu:Teoria-e-Histria-do-Design-objective1 a usdl4edu:Objective ;
-    dc:description "design de comunicação, aos seus fundamentos e principios básicos, às suas metodologias e à evolução histórica dos seus processos" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8 .
-
-usdl4edu:Teoria-e-Histria-do-Design-objectives a usdl4edu:OverallObjective ;
-    dc:description "O curso é uma introdução à disciplina do design de comunicação, aos seus fundamentos e principios básicos, às suas metodologias e à evolução histórica dos seus processos. " ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasPartObjective usdl4edu:Teoria-e-Histria-do-Design-objective1 .
-
-usdl4edu:Teoria-e-Histria-do-Design-prerequisites a usdl4edu:OverallPrerequisite ;
-    dc:description "Unidade curricular de introdução à disciplina, à sua história e fundamentos teóricos. " .
-
-usdl4edu:Teoria-e-Histria-do-Design-unit a usdl4edu:CourseUnit ;
-    dc:description "Identificar os grandes períodos da história do design, a sua evolução e sua influência no design contemporâneo. " ;
-    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
-    usdl4edu:hasEcts "4" ;
-    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasOverallObjective usdl4edu:Teoria-e-Histria-do-Design-objectives ;
-    usdl4edu:hasOverallPrerequisite usdl4edu:Teoria-e-Histria-do-Design-prerequisites ;
-    usdl4edu:hasSemester 1 ;
-    usdl4edu:hasTeacher usdl4edu:Joo-Manuel-Frade-Belo-Bicker ;
-    usdl4edu:hasTitle "Teoria e História do Design" .
-
-usdl4edu:Tipografia-Avanada-objective a usdl4edu:Objective ;
-    dc:description "1. " .
-
-usdl4edu:Tipografia-Avanada-objectives a usdl4edu:OverallObjective ;
-    dc:description "1. " ;
-    usdl4edu:hasPartObjective usdl4edu:Tipografia-Avanada-objective .
-
-usdl4edu:Tipografia-Avanada-unit a usdl4edu:CourseUnit ;
-    dc:description "Desenvolver conhecimentos profundos sobre as possibilidades de utilização de tipos de letra, assim como de composição; " ;
-    usdl4edu:hasEcts "6" ;
-    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasOverallObjective usdl4edu:Tipografia-Avanada-objectives ;
-    usdl4edu:hasSemester 1 ;
-    usdl4edu:hasTeacher usdl4edu:Artur-Lus-Gonalves-de-Azevedo-Rebelo-Alves ;
-    usdl4edu:hasTitle "Tipografia Avançada" .
-
 usdl4edu:Tipografia-objective a usdl4edu:Objective ;
     dc:description "o curso organiza-se em torno da compreenção do papel das palavras e do  texto enquanto instrumento de produção de comunicação visual. através da  aprendizagem dos princípios tipográficos fundamentais, o curso procura  dotar o aluno de competências ao nível do reconhecimento e da selecção  das diferentes famílias tipográficas, bem como da sua adequação em  diferentes meios e contextos de uso. " ;
     usdl4edu:hasContext usdl4edu:acm14-4-15 .
@@ -544,4 +518,20 @@ usdl4edu:Tipografia-unit a usdl4edu:CourseUnit ;
 
 usdl4edu:dei-uc a foaf:Organization ;
     dc:description "Department of Informatics Engineering - University of Coimbra" .
+
+usdl4edu:Antnio-Jos-Olaio-Correia-de-Carvalho a foaf:Person ;
+    foaf:firstName "António" ;
+    foaf:lastName "Carvalho" .
+
+usdl4edu:Licnio-Gomes-Roque a foaf:Person ;
+    foaf:firstName "Licínio" ;
+    foaf:lastName "Roque" .
+
+usdl4edu:Maria-Alice-Barriga-Geirinhas-dos-Santos a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Santos" .
+
+usdl4edu:Miguel-Pedro-Cerqueira-Soares a foaf:Person ;
+    foaf:firstName "Miguel" ;
+    foaf:lastName "Soares" .
 

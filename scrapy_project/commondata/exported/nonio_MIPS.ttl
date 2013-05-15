@@ -71,24 +71,33 @@ usdl4edu:Engenharia-de-Aplicaes-para-a-Internet-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Lus-Alexandre-Serras-de-Moura-e-Silva ;
     usdl4edu:hasTitle "Engenharia de Aplicações para a Internet" .
 
+usdl4edu:Filipe-Joo-Boavida-Mendona-Machado-de-Arajo a foaf:Person ;
+    foaf:firstName "Filipe" ;
+    foaf:lastName "Araújo" .
+
 usdl4edu:Gesto-de-Pessoas-Tcnicas-objective1 a usdl4edu:Objective ;
-    dc:description "state of practice in their own organization" ;
+    dc:description " The course will enable students to immediately apply what you learn in class to their work and to advance the state of practice in their own organization" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
 
 usdl4edu:Gesto-de-Pessoas-Tcnicas-objective2 a usdl4edu:Objective ;
-    dc:description "analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+    dc:description " The teaching model used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Gesto-de-Pessoas-Tcnicas-objective3 a usdl4edu:Objective ;
-    dc:description "" ;
+    dc:description " ",
+        " Reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another",
+        " The course will enable students to immediately apply what you learn in class to their work and to advance the state of practice in their own organization",
+        " The situations presented in the role-plays will build on top of one another, increasing in complexity as the course progresses",
+        " The teaching model used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures",
+        "This is a unique course in that it teaches concepts about managing technical people" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Gesto-de-Pessoas-Tcnicas-objective4 a usdl4edu:Objective ;
-    dc:description "used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    dc:description " The teaching model used follows a three step approach: a lecture that covers theoretical concepts, a lecture to analyze situations using the concepts learned, and a lecture to role play situations where you make decisions based on the material covered in the previous two lectures" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
 
 usdl4edu:Gesto-de-Pessoas-Tcnicas-objective5 a usdl4edu:Objective ;
-    dc:description "reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another" ;
+    dc:description " Reflective practice will allow students to debrief and analyze what has happened in the role-play so that they may improve from one role-play to another" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
     usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta .
 
@@ -113,7 +122,13 @@ usdl4edu:Gesto-de-Pessoas-Tcnicas-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Gestão de Pessoas Técnicas" .
 
 usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective1 a usdl4edu:Objective ;
-    dc:description "designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
+    dc:description "Large scale software development requires the ability to manage resources - both human and computational - through control of the development process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm11-3-5-2,
+        usdl4edu:acm8-3-6 .
+
+usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective2 a usdl4edu:Objective ;
+    dc:description " This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8,
         usdl4edu:acm12-3-6,
@@ -134,12 +149,8 @@ usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective1 a usdl4edu:Objective ;
         usdl4edu:acm9-9-1,
         usdl4edu:acm9-9-5 .
 
-usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective2 a usdl4edu:Objective ;
-    dc:description "estimate time and costs, and understand the software process" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
-
 usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective3 a usdl4edu:Objective ;
-    dc:description "understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
+    dc:description " This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
     usdl4edu:hasContext usdl4edu:acm12-3-6,
         usdl4edu:acm13-1-4-4-7,
@@ -158,10 +169,8 @@ usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective3 a usdl4edu:Objective ;
         usdl4edu:acm9-9-5 .
 
 usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective4 a usdl4edu:Objective ;
-    dc:description "computational - through control of the development process" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm11-3-5-2,
-        usdl4edu:acm8-3-6 .
+    dc:description " This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
 
 usdl4edu:Gesto-do-Desenvolvimento-de-Software-objectives a usdl4edu:OverallObjective ;
     dc:description "Large scale software development requires the ability to manage resources - both human and computational - through control of the development process. This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process. The nature of software development is sufficiently unique to require specialized management techniques, especially in the areas of the estimating and scheduling. " ;
@@ -213,6 +222,14 @@ usdl4edu:Integrao-de-Sistemas-de-Larga-Escala-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Filipe-Joo-Boavida-Mendona-Machado-de-Arajo ;
     usdl4edu:hasTitle "Integração de Sistemas de Larga Escala" .
 
+usdl4edu:Licnio-Gomes-Roque a foaf:Person ;
+    foaf:firstName "Licínio" ;
+    foaf:lastName "Roque" .
+
+usdl4edu:Lus-Alexandre-Serras-de-Moura-e-Silva a foaf:Person ;
+    foaf:firstName "Luís" ;
+    foaf:lastName "Silva" .
+
 usdl4edu:Medio-de-Software-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasEcts "5" ;
     usdl4edu:hasLanguage usdl4edu:LanguagePT ;
@@ -257,6 +274,14 @@ usdl4edu:Mtodos-Decidir-o-que-Projectar-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 1 ;
     usdl4edu:hasTeacher usdl4edu:Mrio-Alberto-da-Costa-Zenha-Rela ;
     usdl4edu:hasTitle "Métodos: Decidir o que Projectar" .
+
+usdl4edu:Paulo-Jos-Osrio-Rupino-da-Cunha a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Cunha" .
+
+usdl4edu:Pedro-Gustavo-Santos-Rodrigues-Bizarro a foaf:Person ;
+    foaf:firstName "Pedro" ;
+    foaf:lastName "Bizarro" .
 
 usdl4edu:Processo-Individual-de-Software-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasEcts "8" ;
@@ -311,4 +336,12 @@ usdl4edu:Seminrio-sobre-Processos-de-Software-unit a usdl4edu:CourseUnit ;
 
 usdl4edu:dei-uc a foaf:Organization ;
     dc:description "Department of Informatics Engineering - University of Coimbra" .
+
+usdl4edu:Mrio-Alberto-da-Costa-Zenha-Rela a foaf:Person ;
+    foaf:firstName "Mário" ;
+    foaf:lastName "Rela" .
+
+usdl4edu:Marco-Paulo-Amorim-Vieira a foaf:Person ;
+    foaf:firstName "Marco" ;
+    foaf:lastName "Vieira" .
 

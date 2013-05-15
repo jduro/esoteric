@@ -1,0 +1,215 @@
+Gonna send login
+https://inforestudante.uc.pt/nonio/security/init.do
+---- PIPELINE ----
+Mestrado em Design e Multimédia
+MDM
+----120
+-       Aprofundar as capacidades de investigação, com recurso aos processos próprios da disciplina; -       Adquirir competências técnicas no domínio específico do design de comunicação; -       Explorar as potencialidades do design generativo; -       Explorar as potencialidades do design participativo; -       Integrar conhecimentos de diferentes áreas, privilegiando-se a interdisciplinaridade dos projetos. -       Explorar as estruturas de organização e de apresentação de conteúdos, através da simulação de situações reais com espaço para a experimentação; -       Explorar formas de tornar o virtual mais físico; 
+TUDO:-       Aprofundar as capacidades de investigação, com recurso aos processos próprios da disciplina; -       Adquirir competências técnicas no domínio específico do design de comunicação; -       Explorar as potencialidades do design generativo; -       Explorar as potencialidades do design participativo; -       Integrar conhecimentos de diferentes áreas, privilegiando-se a interdisciplinaridade dos projetos. -       Explorar as estruturas de organização e de apresentação de conteúdos, através da simulação de situações reais com espaço para a experimentação; -       Explorar formas de tornar o virtual mais físico; 
+Phrase:  -       Aprofundar as capacidades de investigação, com recurso aos processos próprios da disciplina; -       Adquirir competências técnicas no domínio específico do design de comunicação; -       Explorar as potencialidades do design generativo; -       Explorar as potencialidades do design participativo; -       Integrar conhecimentos de diferentes áreas, privilegiando-se a interdisciplinaridade dos projetos
+Phrase:   -       Explorar as estruturas de organização e de apresentação de conteúdos, através da simulação de situações reais com espaço para a experimentação; -       Explorar formas de tornar o virtual mais físico; 
+verbo:design/design
+design de comunicação; -       explorar as potencialidades do design generativo; -       explorar as potencialidades do design participativo; -       integrar conhecimentos de diferentes áreas, privilegiando-se a interdisciplinaridade dos projetos
+1
+[0, 0, 0, 0, 0, 1]
+6
+[0, 0, 0, 0]
+----
+Com esta unidade curricular pretende-se o desenvolvimento das competências necessárias para a análise critica, concepção e produção de Jogos de Computador originais. Através desta unidade o estudante deverá ser capaz de compreender as características dos jogos enquanto objectos técnicos e actividades humanas, sociais e de aprendizagem, desenvolver capacidades críticas e de síntese de propostas de jogos enquanto produtos de media digital interactivo, adquirir competências na aplicação das técnicas de análise, concepção, construção e avaliação de jogos e experiências de jogo, desenvolver capacidades de criatividade, comunicação e organização do processo de produção em equipa, preparando o aluno para a indústria ou para a investigação com a capacidade de aprendizagem autónoma na área.  
+TUDO:Com esta unidade curricular pretende-se o desenvolvimento das competências necessárias para a análise critica, concepção e produção de Jogos de Computador originais. Através desta unidade o estudante deverá ser capaz de compreender as características dos jogos enquanto objectos técnicos e actividades humanas, sociais e de aprendizagem, desenvolver capacidades críticas e de síntese de propostas de jogos enquanto produtos de media digital interactivo, adquirir competências na aplicação das técnicas de análise, concepção, construção e avaliação de jogos e experiências de jogo, desenvolver capacidades de criatividade, comunicação e organização do processo de produção em equipa, preparando o aluno para a indústria ou para a investigação com a capacidade de aprendizagem autónoma na área.  
+Phrase:  Com esta unidade curricular pretende-se o desenvolvimento das competências necessárias para a análise critica, concepção e produção de Jogos de Computador originais
+Phrase:   Através desta unidade o estudante deverá ser capaz de compreender as características dos jogos enquanto objectos técnicos e actividades humanas, sociais e de aprendizagem, desenvolver capacidades críticas e de síntese de propostas de jogos enquanto produtos de media digital interactivo, adquirir competências na aplicação das técnicas de análise, concepção, construção e avaliação de jogos e experiências de jogo, desenvolver capacidades de criatividade, comunicação e organização do processo de produção em equipa, preparando o aluno para a indústria ou para a investigação com a capacidade de aprendizagem autónoma na área
+Phrase:    
+Sem nada: com esta unidade curricular pretende-se o desenvolvimento das competências necessárias para a análise critica, concepção e produção de jogos de computador originais. através desta unidade o estudante deverá ser capaz de compreender as características dos jogos enquanto objectos técnicos e actividades humanas, sociais e de aprendizagem, desenvolver capacidades críticas e de síntese de propostas de jogos enquanto produtos de media digital interactivo, adquirir competências na aplicação das técnicas de análise, concepção, construção e avaliação de jogos e experiências de jogo, desenvolver capacidades de criatividade, comunicação e organização do processo de produção em equipa, preparando o aluno para a indústria ou para a investigação com a capacidade de aprendizagem autónoma na área.  
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Esta disciplina tem como objetivo estudar os cruzamentos interdisciplinares nas práticas artísticas contemporâneas, com enfoque na Fotografia, Cinema e Vídeo. Apresentar-se-á uma visão panorâmica da expansão da Fotografia no Cinema e no Vídeo; o Cinema de autor/experimental (longas-metragens, curtas e animação) como sismógrafo do advento do vídeo enquanto tecnologia e dispositivo;  a Vídeo -Instalação como forma de expressão artística e prática transformadora do espaço expositivo; as interações destes três media A disciplina dará enfoque à experimentação e prática, nos campos da Fotografia e Vídeo, através de projetos individuais a realizar pelos alunos. 
+TUDO:Esta disciplina tem como objetivo estudar os cruzamentos interdisciplinares nas práticas artísticas contemporâneas, com enfoque na Fotografia, Cinema e Vídeo. Apresentar-se-á uma visão panorâmica da expansão da Fotografia no Cinema e no Vídeo; o Cinema de autor/experimental (longas-metragens, curtas e animação) como sismógrafo do advento do vídeo enquanto tecnologia e dispositivo;  a Vídeo -Instalação como forma de expressão artística e prática transformadora do espaço expositivo; as interações destes três media A disciplina dará enfoque à experimentação e prática, nos campos da Fotografia e Vídeo, através de projetos individuais a realizar pelos alunos. 
+Phrase:  Esta disciplina tem como objetivo estudar os cruzamentos interdisciplinares nas práticas artísticas contemporâneas, com enfoque na Fotografia, Cinema e Vídeo
+Phrase:   Apresentar-se-á uma visão panorâmica da expansão da Fotografia no Cinema e no Vídeo; o Cinema de autor/experimental (longas-metragens, curtas e animação) como sismógrafo do advento do vídeo enquanto tecnologia e dispositivo;  a Vídeo -Instalação como forma de expressão artística e prática transformadora do espaço expositivo; as interações destes três media A disciplina dará enfoque à experimentação e prática, nos campos da Fotografia e Vídeo, através de projetos individuais a realizar pelos alunos
+Phrase:   
+Sem nada: esta disciplina tem como objetivo estudar os cruzamentos interdisciplinares nas práticas artísticas contemporâneas, com enfoque na fotografia, cinema e vídeo. apresentar-se-á uma visão panorâmica da expansão da fotografia no cinema e no vídeo; o cinema de autor/experimental (longas-metragens, curtas e animação) como sismógrafo do advento do vídeo enquanto tecnologia e dispositivo;  a vídeo -instalação como forma de expressão artística e prática transformadora do espaço expositivo; as interações destes três media a disciplina dará enfoque à experimentação e prática, nos campos da fotografia e vídeo, através de projetos individuais a realizar pelos alunos. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+O objectivo principal desta disciplina é permitir aos alunos dominar os conceitos base de programação e torná-los capazes de compreender e criar programas de pequena e média complexidade. A aprendizagem será contextualizada, pelo que serão utilizados exemplos concretos da área gráfica como base de trabalho. A linguagem de programação utilizada na cadeira será o Processing, uma vez que se trata de uma linguagem com elevadas capacidades gráficas criada com objectivos semelhantes aos desta disciplina. 
+TUDO:O objectivo principal desta disciplina é permitir aos alunos dominar os conceitos base de programação e torná-los capazes de compreender e criar programas de pequena e média complexidade. A aprendizagem será contextualizada, pelo que serão utilizados exemplos concretos da área gráfica como base de trabalho. A linguagem de programação utilizada na cadeira será o Processing, uma vez que se trata de uma linguagem com elevadas capacidades gráficas criada com objectivos semelhantes aos desta disciplina. 
+Phrase:  O objectivo principal desta disciplina é permitir aos alunos dominar os conceitos base de programação e torná-los capazes de compreender e criar programas de pequena e média complexidade
+Phrase:   A aprendizagem será contextualizada, pelo que serão utilizados exemplos concretos da área gráfica como base de trabalho
+Phrase:   A linguagem de programação utilizada na cadeira será o Processing, uma vez que se trata de uma linguagem com elevadas capacidades gráficas criada com objectivos semelhantes aos desta disciplina
+Phrase:   
+Sem nada: o objectivo principal desta disciplina é permitir aos alunos dominar os conceitos base de programação e torná-los capazes de compreender e criar programas de pequena e média complexidade. a aprendizagem será contextualizada, pelo que serão utilizados exemplos concretos da área gráfica como base de trabalho. a linguagem de programação utilizada na cadeira será o processing, uma vez que se trata de uma linguagem com elevadas capacidades gráficas criada com objectivos semelhantes aos desta disciplina. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Blogue informal da disciplina: fctuc3d.blogspot.pt 
+TUDO:Blogue informal da disciplina: fctuc3d.blogspot.pt 
+Phrase:  Blogue informal da disciplina: fctuc3d
+Phrase:  blogspot
+Phrase:  pt 
+Sem nada: blogue informal da disciplina: fctuc3d.blogspot.pt 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Esta disciplina tem como objectivo o desenvolvimento da capacidade de articular as relações formais dos elementos da imagem. 
+TUDO:Esta disciplina tem como objectivo o desenvolvimento da capacidade de articular as relações formais dos elementos da imagem. 
+Phrase:  Esta disciplina tem como objectivo o desenvolvimento da capacidade de articular as relações formais dos elementos da imagem
+Phrase:   
+Sem nada: esta disciplina tem como objectivo o desenvolvimento da capacidade de articular as relações formais dos elementos da imagem. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Esta disciplina tem como objectivo o desenvolvimento da capacidade de articular as relações formais dos elementos da imagem. 
+TUDO:Esta disciplina tem como objectivo o desenvolvimento da capacidade de articular as relações formais dos elementos da imagem. 
+Phrase:  Esta disciplina tem como objectivo o desenvolvimento da capacidade de articular as relações formais dos elementos da imagem
+Phrase:   
+Sem nada: esta disciplina tem como objectivo o desenvolvimento da capacidade de articular as relações formais dos elementos da imagem. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das Tecnologias da Informação e da Comunicação na Educação e na Formação Profissional. Inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning. 
+TUDO:Pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das Tecnologias da Informação e da Comunicação na Educação e na Formação Profissional. Inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning. 
+Phrase:  Pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das Tecnologias da Informação e da Comunicação na Educação e na Formação Profissional
+Phrase:   Inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning
+Phrase:   
+Sem nada: pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das tecnologias da informação e da comunicação na educação e na formação profissional. inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Tendo a obra de Marcel Duchamp como ponto de partida, para um percurso pela arte dos nossos dias, nesta disciplina a abordagem da arte contemporânea é feita na perspectiva da relação entre as ideias e as formas. Os principais objectos de estudo serão as manifestações artísticas actuais, numa abordagem da arte que sublinha a relação entre o seu carácter objectual e o campo das ideias. 
+TUDO:Tendo a obra de Marcel Duchamp como ponto de partida, para um percurso pela arte dos nossos dias, nesta disciplina a abordagem da arte contemporânea é feita na perspectiva da relação entre as ideias e as formas. Os principais objectos de estudo serão as manifestações artísticas actuais, numa abordagem da arte que sublinha a relação entre o seu carácter objectual e o campo das ideias. 
+Phrase:  Tendo a obra de Marcel Duchamp como ponto de partida, para um percurso pela arte dos nossos dias, nesta disciplina a abordagem da arte contemporânea é feita na perspectiva da relação entre as ideias e as formas
+Phrase:   Os principais objectos de estudo serão as manifestações artísticas actuais, numa abordagem da arte que sublinha a relação entre o seu carácter objectual e o campo das ideias
+Phrase:   
+Sem nada: tendo a obra de marcel duchamp como ponto de partida, para um percurso pela arte dos nossos dias, nesta disciplina a abordagem da arte contemporânea é feita na perspectiva da relação entre as ideias e as formas. os principais objectos de estudo serão as manifestações artísticas actuais, numa abordagem da arte que sublinha a relação entre o seu carácter objectual e o campo das ideias. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Esta disciplina tem como objectivo desenvolver a capacidade de observação pelo desenho, explorando as suas capacidades expressivas e potenciando uma relação operativa com o desenho. 
+TUDO:Esta disciplina tem como objectivo desenvolver a capacidade de observação pelo desenho, explorando as suas capacidades expressivas e potenciando uma relação operativa com o desenho. 
+Phrase:  Esta disciplina tem como objectivo desenvolver a capacidade de observação pelo desenho, explorando as suas capacidades expressivas e potenciando uma relação operativa com o desenho
+Phrase:   
+Sem nada: esta disciplina tem como objectivo desenvolver a capacidade de observação pelo desenho, explorando as suas capacidades expressivas e potenciando uma relação operativa com o desenho. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Esta disciplina tem como objetivos o desenvolvimento do desenho da ilustração a partir da função narrativa, explorar as possibilidades de articulação entre imagem a narração e o relato, análise e compreensão da estrutura narrativa no geral e do desenho em particular. Compreender as diferentes definições de ilustração e os seus diferentes campos de ação e explorar diversas gramáticas visuais . 
+TUDO:Esta disciplina tem como objetivos o desenvolvimento do desenho da ilustração a partir da função narrativa, explorar as possibilidades de articulação entre imagem a narração e o relato, análise e compreensão da estrutura narrativa no geral e do desenho em particular. Compreender as diferentes definições de ilustração e os seus diferentes campos de ação e explorar diversas gramáticas visuais . 
+Phrase:  Esta disciplina tem como objetivos o desenvolvimento do desenho da ilustração a partir da função narrativa, explorar as possibilidades de articulação entre imagem a narração e o relato, análise e compreensão da estrutura narrativa no geral e do desenho em particular
+Phrase:   Compreender as diferentes definições de ilustração e os seus diferentes campos de ação e explorar diversas gramáticas visuais 
+Phrase:   
+Sem nada: esta disciplina tem como objetivos o desenvolvimento do desenho da ilustração a partir da função narrativa, explorar as possibilidades de articulação entre imagem a narração e o relato, análise e compreensão da estrutura narrativa no geral e do desenho em particular. compreender as diferentes definições de ilustração e os seus diferentes campos de ação e explorar diversas gramáticas visuais . 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+O módulo de Tecnologias de Interface visa um conhecimento aprofundado dos objectivos e dos processos inerentes à concepção de interfaces from the ground up 
+TUDO:O módulo de Tecnologias de Interface visa um conhecimento aprofundado dos objectivos e dos processos inerentes à concepção de interfaces from the ground up 
+Phrase:  O módulo de Tecnologias de Interface visa um conhecimento aprofundado dos objectivos e dos processos inerentes à concepção de interfaces from the ground up 
+Sem nada: o módulo de tecnologias de interface visa um conhecimento aprofundado dos objectivos e dos processos inerentes à concepção de interfaces from the ground up 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Nesta UC, os alunos devem desenvolver um projecto com a contribuição de decisões conceptuais, técnicas e formais a partir de requisitos de programa por si formulados. Valoriza-se a noção de designer como autor e como actor social. Dá-se especial importância aos aspectos de autoria e de inovação, à pertinência das soluções metodológicas e à relevância social e cultural das propostas. Introduz-se a prática de gestão de projecto.  
+TUDO:Nesta UC, os alunos devem desenvolver um projecto com a contribuição de decisões conceptuais, técnicas e formais a partir de requisitos de programa por si formulados. Valoriza-se a noção de designer como autor e como actor social. Dá-se especial importância aos aspectos de autoria e de inovação, à pertinência das soluções metodológicas e à relevância social e cultural das propostas. Introduz-se a prática de gestão de projecto.  
+Phrase:  Nesta UC, os alunos devem desenvolver um projecto com a contribuição de decisões conceptuais, técnicas e formais a partir de requisitos de programa por si formulados
+Phrase:   Valoriza-se a noção de designer como autor e como actor social
+Phrase:   Dá-se especial importância aos aspectos de autoria e de inovação, à pertinência das soluções metodológicas e à relevância social e cultural das propostas
+Phrase:   Introduz-se a prática de gestão de projecto
+Phrase:    
+verbo:design/design
+designer como autor e como actor social
+1
+[0, 0, 0, 0, 0, 1]
+6
+[0, 0, 0, 0]
+----
+O curso organiza-se em torno da compreenção do papel das palavras e do  texto enquanto instrumento de produção de comunicação visual. Através da  aprendizagem dos princípios tipográficos fundamentais, o curso procura  dotar o aluno de competências ao nível do reconhecimento e da selecção  das diferentes famílias tipográficas, bem como da sua adequação em  diferentes meios e contextos de uso. 
+TUDO:O curso organiza-se em torno da compreenção do papel das palavras e do  texto enquanto instrumento de produção de comunicação visual. Através da  aprendizagem dos princípios tipográficos fundamentais, o curso procura  dotar o aluno de competências ao nível do reconhecimento e da selecção  das diferentes famílias tipográficas, bem como da sua adequação em  diferentes meios e contextos de uso. 
+Phrase:  O curso organiza-se em torno da compreenção do papel das palavras e do  texto enquanto instrumento de produção de comunicação visual
+Phrase:   Através da  aprendizagem dos princípios tipográficos fundamentais, o curso procura  dotar o aluno de competências ao nível do reconhecimento e da selecção  das diferentes famílias tipográficas, bem como da sua adequação em  diferentes meios e contextos de uso
+Phrase:   
+Sem nada: o curso organiza-se em torno da compreenção do papel das palavras e do  texto enquanto instrumento de produção de comunicação visual. através da  aprendizagem dos princípios tipográficos fundamentais, o curso procura  dotar o aluno de competências ao nível do reconhecimento e da selecção  das diferentes famílias tipográficas, bem como da sua adequação em  diferentes meios e contextos de uso. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+O programa de Culturas Visuais procura fornecer aos alunos todo um conjunto de instrumentos metodológicos úteis destinados à investigação de imagens e seus contextos. Produção composição efeitos sociais, apropriações consumo 
+TUDO:O programa de Culturas Visuais procura fornecer aos alunos todo um conjunto de instrumentos metodológicos úteis destinados à investigação de imagens e seus contextos. Produção composição efeitos sociais, apropriações consumo 
+Phrase:  O programa de Culturas Visuais procura fornecer aos alunos todo um conjunto de instrumentos metodológicos úteis destinados à investigação de imagens e seus contextos
+Phrase:   Produção composição efeitos sociais, apropriações consumo 
+Sem nada: o programa de culturas visuais procura fornecer aos alunos todo um conjunto de instrumentos metodológicos úteis destinados à investigação de imagens e seus contextos. produção composição efeitos sociais, apropriações consumo 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Esta informação refere-se à edição da disciplina para o Mestrado em Design e Multimédia, Arquitecturas Virtuais (MDM). https://infordocente.uc.pt/nonio/ensino/detalhes.do?feId=107259 
+TUDO:Esta informação refere-se à edição da disciplina para o Mestrado em Design e Multimédia, Arquitecturas Virtuais (MDM). https://infordocente.uc.pt/nonio/ensino/detalhes.do?feId=107259 
+Phrase:  Esta informação refere-se à edição da disciplina para o Mestrado em Design e Multimédia, Arquitecturas Virtuais (MDM)
+Phrase:   https://infordocente
+Phrase:  uc
+Phrase:  pt/nonio/ensino/detalhes
+Phrase:  do?feId=107259 
+verbo:design/design
+design e multimédia, arquitecturas virtuais (mdm)
+1
+[0, 0, 0, 0, 0, 1]
+6
+[0, 0, 0, 0]
+----
+Após a conclusão da unidade curricular, o estudante deve demonstrar ter adquirido, ter compreendido e saber aplicar os conhecimentos e competências em: i) projecto multimédia e ii) fundamentos de multimédia. Nomeadamente: - planeamento, design, desenvolvimento e gestão de projectos multimédia em equipa - tópicos de usabilidade e sua aplicação em projectos multimédia - imagem, áudio e vídeo digital, com enfoque nos aspectos fisiológicos e perceptuais envolvidos e na representação e compressão desses tipo de dados multimédia.   É também objectivo a aquisição/desenvolvimento das seguintes 5 competências principais (segundo os descritores de Dublin): - análise e síntese, resolução de problemas, raciocínio crítico, aprendizagem autónoma e aplicação prática de conhecimentos teóricos; e das seguintes 5 competências secundárias: - trabalho em grupo, criatividade, iniciativa e espírito empreendedor, preocupação com a qualidade e capacidade de planear e agir. 
+TUDO:Após a conclusão da unidade curricular, o estudante deve demonstrar ter adquirido, ter compreendido e saber aplicar os conhecimentos e competências em: i) projecto multimédia e ii) fundamentos de multimédia. Nomeadamente: - planeamento, design, desenvolvimento e gestão de projectos multimédia em equipa - tópicos de usabilidade e sua aplicação em projectos multimédia - imagem, áudio e vídeo digital, com enfoque nos aspectos fisiológicos e perceptuais envolvidos e na representação e compressão desses tipo de dados multimédia.   É também objectivo a aquisição/desenvolvimento das seguintes 5 competências principais (segundo os descritores de Dublin): - análise e síntese, resolução de problemas, raciocínio crítico, aprendizagem autónoma e aplicação prática de conhecimentos teóricos; e das seguintes 5 competências secundárias: - trabalho em grupo, criatividade, iniciativa e espírito empreendedor, preocupação com a qualidade e capacidade de planear e agir. 
+Phrase:  Após a conclusão da unidade curricular, o estudante deve demonstrar ter adquirido, ter compreendido e saber aplicar os conhecimentos e competências em: i) projecto multimédia e ii) fundamentos de multimédia
+Phrase:   Nomeadamente: - planeamento, design, desenvolvimento e gestão de projectos multimédia em equipa - tópicos de usabilidade e sua aplicação em projectos multimédia - imagem, áudio e vídeo digital, com enfoque nos aspectos fisiológicos e perceptuais envolvidos e na representação e compressão desses tipo de dados multimédia
+Phrase:     É também objectivo a aquisição/desenvolvimento das seguintes 5 competências principais (segundo os descritores de Dublin): - análise e síntese, resolução de problemas, raciocínio crítico, aprendizagem autónoma e aplicação prática de conhecimentos teóricos; e das seguintes 5 competências secundárias: - trabalho em grupo, criatividade, iniciativa e espírito empreendedor, preocupação com a qualidade e capacidade de planear e agir
+Phrase:   
+verbo:design/design
+design, desenvolvimento e gestão de projectos multimédia em equipa - tópicos de usabilidade e sua aplicação em projectos multimédia - imagem, áudio e vídeo digital, com enfoque nos aspectos fisiológicos e perceptuais envolvidos e na representação e compressão desses tipo de dados multimédia
+1
+[0, 0, 0, 0, 0, 1]
+6
+[0, 0, 0, 0]
+----
+Através desta unidade curricular os estudantes ficarão a conhecer os conceitos fundamentais para compreender a interacção entre humanos e sistemas computacionais. O estudante adquirirá competências na aplicação de modelos, métodos e técnicas para entender, analisar e projectar para as necessidades dos utilizadores em contexto, e competências para conceber e avaliar propostas de interface tendo em conta a usabilidade, entre outras qualidades da experiência de uso. Mais especificamente, o estudante deverá compreender o papel dos factores humanos na interacção e interface, compreender e aplicar técnicas de prototipagem para investigação e ensaio de proposta de design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de HCI. Os estudantes ficarão a conhecer diversos instrumentos metodológicos e aprenderão a combinar as técnicas de uma forma sistemática enquanto abordagem empírica ao design de interacção.  
+TUDO:Através desta unidade curricular os estudantes ficarão a conhecer os conceitos fundamentais para compreender a interacção entre humanos e sistemas computacionais. O estudante adquirirá competências na aplicação de modelos, métodos e técnicas para entender, analisar e projectar para as necessidades dos utilizadores em contexto, e competências para conceber e avaliar propostas de interface tendo em conta a usabilidade, entre outras qualidades da experiência de uso. Mais especificamente, o estudante deverá compreender o papel dos factores humanos na interacção e interface, compreender e aplicar técnicas de prototipagem para investigação e ensaio de proposta de design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de HCI. Os estudantes ficarão a conhecer diversos instrumentos metodológicos e aprenderão a combinar as técnicas de uma forma sistemática enquanto abordagem empírica ao design de interacção.  
+Phrase:  Através desta unidade curricular os estudantes ficarão a conhecer os conceitos fundamentais para compreender a interacção entre humanos e sistemas computacionais
+Phrase:   O estudante adquirirá competências na aplicação de modelos, métodos e técnicas para entender, analisar e projectar para as necessidades dos utilizadores em contexto, e competências para conceber e avaliar propostas de interface tendo em conta a usabilidade, entre outras qualidades da experiência de uso
+Phrase:   Mais especificamente, o estudante deverá compreender o papel dos factores humanos na interacção e interface, compreender e aplicar técnicas de prototipagem para investigação e ensaio de proposta de design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de HCI
+Phrase:   Os estudantes ficarão a conhecer diversos instrumentos metodológicos e aprenderão a combinar as técnicas de uma forma sistemática enquanto abordagem empírica ao design de interacção
+Phrase:    
+verbo:design/design
+design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de hci
+1
+[0, 0, 0, 0, 0, 1]
+6
+[0, 0, 0, 0]
+----
+A capacidade computacional está hoje presente em telemóveis, Personal 
+TUDO:A capacidade computacional está hoje presente em telemóveis, Personal 
+Phrase:  A capacidade computacional está hoje presente em telemóveis, Personal 
+Sem nada: a capacidade computacional está hoje presente em telemóveis, personal 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Number descriptions:  19
+Number found:  5
+Number context:  15
+Number without:  14
+Stats:  [14, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number descriptions:  19
+Number found:  5
+Number context:  15
+Number without:  14
+Stats:  [14, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

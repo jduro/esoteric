@@ -1,0 +1,386 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/spec/> .
+@prefix usdl4edu: <http://rdf.genssiz.dei.uc.pt/usdl4edu#> .
+
+usdl4edu:Programa-de-Doutoramento-em-Cincias-e-Tecnologias-da-Informao-service a usdl4edu:EducationalService ;
+    dc:description "Programa de Doutoramento em Ciências e Tecnologias da Informação - Educational service from Department of Informatics Engineering - University of Coimbra" ;
+    usdl4edu:hasDegree usdl4edu:Programa-de-Doutoramento-em-Cincias-e-Tecnologias-da-Informao-degree ;
+    usdl4edu:hasOrganization usdl4edu:dei-uc ;
+    usdl4edu:hasURL "http://www.uc.pt/en/fctuc/dei" .
+
+usdl4edu:Anlise-de-Dados-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Marco-Paulo-Amorim-Vieira ;
+    usdl4edu:hasTitle "Análise de Dados" .
+
+usdl4edu:Anlise-e-Processamento-de-Biosinais-objectives a usdl4edu:OverallObjective ;
+    dc:description "Este curso foi concebido para proporcionar aos alunos uma compreensão abrangente das técnicas avançadas e algoritmos para análise de bio-sinais. O curso aborda tanto os aspectos teóricos fundamentais que envolvem a extração de informação útil a partir de sinais biológicos para diagnóstico e terapêutica, bem como aplicações específicas, utilizando alguns biosignais relevantes. A disciplina contribui para a aquisição das seguintes competências: Instrumentais:  Capacidade de análise e de síntese em problemas complexos; Aprofundamento do raciocínio matemático; Capacidade de abstração e de generalização; . Pessoais:  Raciocínio critico. Sistémicas:  Autoaprendizagem; Investigação. " .
+
+usdl4edu:Anlise-e-Processamento-de-Biosinais-unit a usdl4edu:CourseUnit ;
+    dc:description "A disciplina contribui para a aquisição das seguintes competências: Instrumentais:  Capacidade de análise e de síntese em problemas complexos; Aprofundamento do raciocínio matemático; Capacidade de abstração e de generalização; . Pessoais:  Raciocínio critico. Sistémicas:  Autoaprendizagem; Investigação. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Anlise-e-Processamento-de-Biosinais-objectives ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTeacher usdl4edu:Paulo-Fernando-Pereira-de-Carvalho ;
+    usdl4edu:hasTitle "Análise e Processamento de Biosinais" .
+
+usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-objectives a usdl4edu:OverallObjective ;
+    dc:description "Estudar as teorias e cultivar as capacidade de desenvolver modelos computacionais em tempo real a partir de dados segundo os dois paradigmas: dados quantitativos (casos linear e não linear), dados qualitativos. Os parâmetros destes modelos são treinados em tempo real, de modo recursivo, usando redes neuronais e máquinas de vetores de suporte para o caso quantitativo e sistemas difusos para o caso qualitativo.   " .
+
+usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Mestrado em Engenharia Informática ou equivalente " .
+
+usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-unit a usdl4edu:CourseUnit ;
+    dc:description "Competências genéricas em análise e síntese, comunicação escrita e oral, conhecimentos de informática relativos ao âmbito do estudo, resolução de problemas, raciocínio crítico, capacidade de decisão, aprendizagem autónoma, investigar, aplicação prática de conhecimentos teóricos, criatividade, autocrítica e auto-avaliação, preocupação com a qualidade. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-prerequisites ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Antnio-Dourado-Pereira-Correia ;
+    usdl4edu:hasTitle "Aprendizagem em Tempo Real em Sistemas Inteligentes" .
+
+usdl4edu:Arte-Msica-Criatividade-e-Inteligncia-Artificial-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTitle "Arte, Música, Criatividade e Inteligência Artificial" .
+
+usdl4edu:Biologia-Molecular-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTitle "Biologia Molecular" .
+
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objectives a usdl4edu:OverallObjective ;
+    dc:description " After completion of the course students will be able to: - Understand the essential concepts of a pattern recognition system; - Understand the nature and inherent difficulties of the pattern classification problem; - Understand concepts such as trade-offs and appropriateness of classification techniques such as Bayesian, maximum-likelihood, principal components, nonparametric, linear discriminant, multi-layer neural networks, and so on; - Understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as Isomap and Local Linear Embedding (LLE); - Demonstrate the programming skills to correctly implement the chosen algorithm in Matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - Deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake. " .
+
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Elementar Mathematics: Linear Algebra and Discrete Structures Mathematical Analysis and Statistics Programming Proficiency " .
+
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-unit a usdl4edu:CourseUnit ;
+    dc:description "The student is expected to be reasonably comfortable (but not necessarily an expert) with certain foundational topics such as linear algebra, probability and statistics, computational complexity, and programming in Matlab. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Conectividade-e-Reconhecimento-de-Padres-prerequisites ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Bernardete-Martins-Ribeiro ;
+    usdl4edu:hasTitle "Conectividade e Reconhecimento de Padrões" .
+
+usdl4edu:Confiabilidade-de-Sistemas-unit a usdl4edu:CourseUnit ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTeacher usdl4edu:Lus-Alexandre-Serras-de-Moura-e-Silva ;
+    usdl4edu:hasTitle "Confiabilidade de Sistemas" .
+
+usdl4edu:Contextos-Ldicos-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTitle "Contextos Lúdicos" .
+
+usdl4edu:Contextos-de-Aprendizagem-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTitle "Contextos de Aprendizagem" .
+
+usdl4edu:Desenvolvimentos-de-Sistemas-Scio-Tcnicos-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTitle "Desenvolvimentos de Sistemas Sócio-Técnicos" .
+
+usdl4edu:Estatstica-objectives a usdl4edu:OverallObjective ;
+    dc:description "Goals:  The aim of this course is to give to the studen the basic skills  that may be expected for any scientist in the use of statistics, like: - 	the ability of dealing with statistical methods for collecting,  organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data. " .
+
+usdl4edu:Estatstica-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "- " .
+
+usdl4edu:Estatstica-unit a usdl4edu:CourseUnit ;
+    dc:description "This unit allows developing the following instrumental skills: analysis and synthesis, problem solving and decision-making capacity. On a personal level enables the development of critical thinking, work in interdisciplinary teams, autonomous learning, adaptability to new situations and application of theoretical knowledge. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Estatstica-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Estatstica-prerequisites ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTeacher usdl4edu:Maria-Emlia-de-Mesquita-Nogueira ;
+    usdl4edu:hasTitle "Estatística" .
+
+usdl4edu:Modelos-de-Percepo-Computacional-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTitle "Modelos de Percepção Computacional" .
+
+usdl4edu:Mtodos-de-Investigao-objectives a usdl4edu:OverallObjective ;
+    dc:description "The goal of this course is to introduce the students principles of empirical research based on quantitative methods as well as to improve their research communication skills, both orally and in writing. The course is split into two modules: Quantitative Methods (QM) and Scientific Communication (SC). QM: The goal of this course is to introduce the students to a wide range of tools and techniques that will help them to conduct sound empirical and quantitative research. It will cover topics of exploratory data analysis, inferential statistics, and experimental design. Special emphasis will be given to techniques that allow a comprehensive interpretation of data, generalization from sampled data and sound ways of designing experiments. SC: This course aims to develop students’ skills in scientific communication, oral and written, and will include both active and passive components. The focus will be on achieving clarity, concision, coherence/cohesion and an appropriate style in specific academic/scientific text types. " .
+
+usdl4edu:Mtodos-de-Investigao-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "None. " .
+
+usdl4edu:Mtodos-de-Investigao-unit a usdl4edu:CourseUnit ;
+    dc:description "Appropriate use of empirical and quantitative research tools and improvement of research communication skills, both orally and in writing. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Mtodos-de-Investigao-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Mtodos-de-Investigao-prerequisites ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTeacher usdl4edu:Luis-Filipe-dos-Santos-Coelho-Paquete ;
+    usdl4edu:hasTitle "Métodos de Investigação" .
+
+usdl4edu:Programa-de-Doutoramento-em-Cincias-e-Tecnologias-da-Informao-degree a usdl4edu:Degree ;
+    dc:description """Este programa doutoral pretende conferir aos estudantes formação científica avançada em métodos de investigação e em Ciências e das Tecnologias da Informação, de modo a prepará-los para a realização de investigação científica de forma autónoma.\r
+\r
+O programa tem uma duração de três a cinco anos. É constituído por uma parte curricular, designada “Curso de Doutoramento,” e por uma segunda parte destinada à elaboração de uma tese original. O Curso de Doutoramento tem a duração normal de um ano e consiste na frequência de quatro unidades curriculares optativas e na elaboração e defesa de uma Proposta de Tese. Os anos seguintes devem ser totalmente dedicados a trabalho de investigação conducente à elaboração da dissertação final.""" ;
+    usdl4edu:hasCourseUnit usdl4edu:Anlise-de-Dados-unit,
+        usdl4edu:Anlise-e-Processamento-de-Biosinais-unit,
+        usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-unit,
+        usdl4edu:Arte-Msica-Criatividade-e-Inteligncia-Artificial-unit,
+        usdl4edu:Biologia-Molecular-unit,
+        usdl4edu:Conectividade-e-Reconhecimento-de-Padres-unit,
+        usdl4edu:Confiabilidade-de-Sistemas-unit,
+        usdl4edu:Contextos-Ldicos-unit,
+        usdl4edu:Contextos-de-Aprendizagem-unit,
+        usdl4edu:Desenvolvimentos-de-Sistemas-Scio-Tcnicos-unit,
+        usdl4edu:Estatstica-unit,
+        usdl4edu:Modelos-de-Percepo-Computacional-unit,
+        usdl4edu:Mtodos-de-Investigao-unit,
+        usdl4edu:Proposta-de-Tese-unit,
+        usdl4edu:Reutilizao-de-Software-e-Padres-de-Projecto-unit,
+        usdl4edu:Simulao-unit,
+        usdl4edu:Sistemas-Concorrentes-de-Larga-Escala-unit,
+        usdl4edu:Sistemas-Evolutivos-e-Complexos-unit,
+        usdl4edu:Sociologia-unit,
+        usdl4edu:Tecnologias-e-Aprendizagem-unit,
+        usdl4edu:Teoria-da-Informao-e-Codificao-unit,
+        usdl4edu:Teoria-da-Modelao-e-Simulao-unit,
+        usdl4edu:Tese-unit,
+        usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-unit,
+        usdl4edu:Tpicos-Avanados-em-Bases-de-Dados-unit,
+        usdl4edu:Tpicos-Avanados-em-Comunicaes-unit,
+        usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-unit,
+        usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-unit,
+        usdl4edu:Tpicos-Avanados-em-Sistemas-Distribudos-unit,
+        usdl4edu:Tpicos-Avanados-em-Sistemas-de-Informao-unit,
+        usdl4edu:Tpicos-de-Investigao-em-Computao-Ubqua-unit ;
+    usdl4edu:hasCycle usdl4edu:HighEducationCycle_3rd ;
+    usdl4edu:hasEcts "180" ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN,
+        usdl4edu:LanguagePT ;
+    usdl4edu:hasTitle "Programa de Doutoramento em Ciências e Tecnologias da Informação" .
+
+usdl4edu:Proposta-de-Tese-objectives a usdl4edu:OverallObjective ;
+    dc:description "Levar os alunos a aprofundar o seu conhecimento de um tema de investigação em particular, a identificar os problemas a considerar e possíveis métodos para os resolver, e a preparar um plano de trabalho a desenvolver durante a unidade curricular de Tese. " .
+
+usdl4edu:Proposta-de-Tese-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Não tem. " .
+
+usdl4edu:Proposta-de-Tese-unit a usdl4edu:CourseUnit ;
+    dc:description "",
+        "Instrumentais:  Análise e síntese Organização e planificação Comunicação oral e escrita Conhecimentos relativos ao âmbito do estudo Capacidade de decisão Pessoais:  Trabalho num contexto internacional Entender a linguagem de outros especialistas Raciocínio crítico Sistémicas:  Aprendizagem autónoma Criatividade Preocupação com a qualidade Autocrítica e autoavaliação Investigar " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "36" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Proposta-de-Tese-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Proposta-de-Tese-prerequisites ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Carlos-Manuel-Mira-da-Fonseca,
+        usdl4edu:Lus-Alexandre-Serras-de-Moura-e-Silva ;
+    usdl4edu:hasTitle "Proposta de Tese" .
+
+usdl4edu:Reutilizao-de-Software-e-Padres-de-Projecto-unit a usdl4edu:CourseUnit ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTeacher usdl4edu:Fernando-Jos-Barros-Rodrigues-da-Silva ;
+    usdl4edu:hasTitle "Reutilização de Software e Padrões de Projecto" .
+
+usdl4edu:Simulao-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTitle "Simulação" .
+
+usdl4edu:Sistemas-Concorrentes-de-Larga-Escala-unit a usdl4edu:CourseUnit ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Pedro-Gustavo-Santos-Rodrigues-Bizarro ;
+    usdl4edu:hasTitle "Sistemas Concorrentes de Larga Escala" .
+
+usdl4edu:Sistemas-Evolutivos-e-Complexos-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTitle "Sistemas Evolutivos e Complexos" .
+
+usdl4edu:Sociologia-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTitle "Sociologia" .
+
+usdl4edu:Tecnologias-e-Aprendizagem-objectives a usdl4edu:OverallObjective ;
+    dc:description "Information and communication technologies (ICT) role in education and training has increased in the last few years. Education methodologies and materials have also been influenced by technology. Terms like e-learning, b-learning and m-learning are common today. Technology has been used to support learning in many areas and in all levels of education. The group of professors responsible for this course has been developing research in several sub-areas, such as the utilization of computer based systems to support computer-science learning, the design and development of educational simulations and the utilization of mobile devices to support learning. Some of this research was developed in collaboration with researchers from other areas, namely Education, and from other institutions from Portugal and abroad. In this perspective it is possible the participation of researchers from other institutions in some course modules. Technology and Learning main objective is to allow students to deepen their knowledge in the field of ICT applied to Education and Training, preparing them to do research in this area. " .
+
+usdl4edu:Tecnologias-e-Aprendizagem-unit a usdl4edu:CourseUnit ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Tecnologias-e-Aprendizagem-objectives ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTeacher usdl4edu:Antnio-Jos-Nunes-Mendes ;
+    usdl4edu:hasTitle "Tecnologias e Aprendizagem" .
+
+usdl4edu:Teoria-da-Informao-e-Codificao-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTitle "Teoria da Informação e Codificação" .
+
+usdl4edu:Teoria-da-Modelao-e-Simulao-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTitle "Teoria da Modelação e Simulação" .
+
+usdl4edu:Tese-objectives a usdl4edu:OverallObjective ;
+    dc:description "Elaboração de uma tese original e especialmente preparada para este fim, adequada à natureza do ramo de conhecimento ou da especialidade. " .
+
+usdl4edu:Tese-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "A inscrição em tese fica condicionada à realização do Projecto de Tese e pressupõe a inscrição em todas as unidades curriculares que o estudante não tenha ainda realizado e que sejam necessárias para completar o Curso de Doutoramento. " .
+
+usdl4edu:Tese-unit a usdl4edu:CourseUnit ;
+    dc:description "Instrumentais:  Análise e síntese Organização e planificação Comunicação oral e escrita Conhecimentos relativos ao âmbito do estudo Capacidade de decisão Pessoais:  Trabalho num contexto internacional Entender a linguagem de outros especialistas Raciocínio crítico Sistémicas:  Aprendizagem autónoma Criatividade Preocupação com a qualidade Autocrítica e autoavaliação Investigar " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "120" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Tese-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Tese-prerequisites ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Carlos-Manuel-Mira-da-Fonseca ;
+    usdl4edu:hasTitle "Tese" .
+
+usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-objectives a usdl4edu:OverallObjective ;
+    dc:description "This course intends to provide to the student a context for learning a set of advanced research topics on Cognitive Modeling in depth, with a solid theoretical contextualization and corresponding empirical support. It is organized in a set of Options Modules with a workload of 2 ECTS each, covering a wide area of advanced topics. Each individual learning plan will comprise 2 of those modules and will be defined by the student’s supervisor, in accordance to the specific needs of the student’s PhD plan, in collaboration with the student and the course’s coordinator. " .
+
+usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "No specific pre-requirements " .
+
+usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-unit a usdl4edu:CourseUnit ;
+    dc:description "Upon completion of the course the students will be able to: - Have a clear understanding about the state-of-the-art in the main topics of Cogitive Modeling; - Have a deep and clear understanding, with solid theoretical contextualization and corresponding empirical support, about the main challenges of a selected set of CM topics, chosen according with the specific needs of their thesis; - Be able to design CM solutions for challenging problems. - Have their skills for scientific writing and argumentation improved. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-prerequisites ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Fernando-Amlcar-Bandeira-Cardoso ;
+    usdl4edu:hasTitle "Tópicos Avançados de Modelação Cognitiva" .
+
+usdl4edu:Tpicos-Avanados-em-Bases-de-Dados-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTitle "Tópicos Avançados em Bases de Dados" .
+
+usdl4edu:Tpicos-Avanados-em-Comunicaes-objectives a usdl4edu:OverallObjective ;
+    dc:description "To discuss and explore several networking research topics related to next generation networking. These include, but are not restricted to, user and network mobility, routing, signalling, sensor networks, network management, quality of service and quality of experience. " .
+
+usdl4edu:Tpicos-Avanados-em-Comunicaes-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Background on Communication Networks and Services. " .
+
+usdl4edu:Tpicos-Avanados-em-Comunicaes-unit a usdl4edu:CourseUnit ;
+    dc:description "1 - Knowledge of fundamentals and current techniques and approaches to next generation networking challenges. 2 - Ability to analyse and discuss limitations of the current Internet and to propose new solutions. 3 - Ability to autonomously research a topic and explain problems, existing solutions and their limitations. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Tpicos-Avanados-em-Comunicaes-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Tpicos-Avanados-em-Comunicaes-prerequisites ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTeacher usdl4edu:Fernando-Pedro-Lopes-Boavida-Fernandes ;
+    usdl4edu:hasTitle "Tópicos Avançados em Comunicações" .
+
+usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-objectives a usdl4edu:OverallObjective ;
+    dc:description "The goal of this course is to provide context for learning a set of advanced AI research topics in depth, with a solid theoretical scaffolding and adequate empirical support   " .
+
+usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Basic AI background. " .
+
+usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-unit a usdl4edu:CourseUnit ;
+    dc:description "Appropriate use of AI research methods and tools. " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-prerequisites ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTeacher usdl4edu:Lus-Miguel-Machado-Lopes-Macedo ;
+    usdl4edu:hasTitle "Tópicos Avançados em Inteligência Artificial" .
+
+usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-objectives a usdl4edu:OverallObjective ;
+    dc:description "2 -Enduring Principles Knowledge about the state-of-the-art of data quality management, sensor data models, processing engines for warehousing and mining, large graph data  processing, information networks analysis, stream data management and event detection on stream data. At the end of the course the students will be able to design applications with challenging requirements like: –        data quality and business intelligence quality –        efficient algorithms for processing engines –        robust ranking algorithms  for information networks   –        Efficient algorithms for anomalies detection on streaming data –        high-performance and scalability " .
+
+usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-prerequisites a usdl4edu:OverallPrerequisite ;
+    dc:description "Mathematics  Programming Skills " .
+
+usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-unit a usdl4edu:CourseUnit ;
+    dc:description "Data Quality Data Processing Engines Graph Mining  Graph Social Network Analysis " ;
+    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasOverallObjective usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-objectives ;
+    usdl4edu:hasOverallPrerequisite usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-prerequisites ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Bernardete-Martins-Ribeiro ;
+    usdl4edu:hasTitle "Tópicos Avançados em Processamento e Análise de Dados" .
+
+usdl4edu:Tpicos-Avanados-em-Sistemas-Distribudos-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 1 ;
+    usdl4edu:hasTitle "Tópicos Avançados em Sistemas Distribuídos" .
+
+usdl4edu:Tpicos-Avanados-em-Sistemas-de-Informao-unit a usdl4edu:CourseUnit ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Paulo-Jos-Osrio-Rupino-da-Cunha ;
+    usdl4edu:hasTitle "Tópicos Avançados em Sistemas de Informação" .
+
+usdl4edu:Tpicos-de-Investigao-em-Computao-Ubqua-unit a usdl4edu:CourseUnit ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTitle "Tópicos de Investigação em Computação Ubíqua" .
+
+usdl4edu:dei-uc a foaf:Organization ;
+    dc:description "Department of Informatics Engineering - University of Coimbra" .
+

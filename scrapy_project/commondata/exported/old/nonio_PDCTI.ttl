@@ -16,8 +16,12 @@ usdl4edu:Anlise-de-Dados-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Marco-Paulo-Amorim-Vieira ;
     usdl4edu:hasTitle "Análise de Dados" .
 
+usdl4edu:Anlise-e-Processamento-de-Biosinais-objective a usdl4edu:Objective ;
+    dc:description "este curso foi concebido para proporcionar aos alunos uma compreensão abrangente das técnicas avançadas e algoritmos para análise de bio-sinais. o curso aborda tanto os aspectos teóricos fundamentais que envolvem a extração de informação útil a partir de sinais biológicos para diagnóstico e terapêutica, bem como aplicações específicas, utilizando alguns biosignais relevantes. a disciplina contribui para a aquisição das seguintes competências: instrumentais:  capacidade de análise e de síntese em problemas complexos; aprofundamento do raciocínio matemático; capacidade de abstração e de generalização; . pessoais:  raciocínio critico. sistémicas:  autoaprendizagem; investigação. " .
+
 usdl4edu:Anlise-e-Processamento-de-Biosinais-objectives a usdl4edu:OverallObjective ;
-    dc:description "Este curso foi concebido para proporcionar aos alunos uma compreensão abrangente das técnicas avançadas e algoritmos para análise de bio-sinais. O curso aborda tanto os aspectos teóricos fundamentais que envolvem a extração de informação útil a partir de sinais biológicos para diagnóstico e terapêutica, bem como aplicações específicas, utilizando alguns biosignais relevantes. A disciplina contribui para a aquisição das seguintes competências: Instrumentais:  Capacidade de análise e de síntese em problemas complexos; Aprofundamento do raciocínio matemático; Capacidade de abstração e de generalização; . Pessoais:  Raciocínio critico. Sistémicas:  Autoaprendizagem; Investigação. " .
+    dc:description "Este curso foi concebido para proporcionar aos alunos uma compreensão abrangente das técnicas avançadas e algoritmos para análise de bio-sinais. O curso aborda tanto os aspectos teóricos fundamentais que envolvem a extração de informação útil a partir de sinais biológicos para diagnóstico e terapêutica, bem como aplicações específicas, utilizando alguns biosignais relevantes. A disciplina contribui para a aquisição das seguintes competências: Instrumentais:  Capacidade de análise e de síntese em problemas complexos; Aprofundamento do raciocínio matemático; Capacidade de abstração e de generalização; . Pessoais:  Raciocínio critico. Sistémicas:  Autoaprendizagem; Investigação. " ;
+    usdl4edu:hasPartObjective usdl4edu:Anlise-e-Processamento-de-Biosinais-objective .
 
 usdl4edu:Anlise-e-Processamento-de-Biosinais-unit a usdl4edu:CourseUnit ;
     dc:description "A disciplina contribui para a aquisição das seguintes competências: Instrumentais:  Capacidade de análise e de síntese em problemas complexos; Aprofundamento do raciocínio matemático; Capacidade de abstração e de generalização; . Pessoais:  Raciocínio critico. Sistémicas:  Autoaprendizagem; Investigação. " ;
@@ -29,8 +33,12 @@ usdl4edu:Anlise-e-Processamento-de-Biosinais-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Paulo-Fernando-Pereira-de-Carvalho ;
     usdl4edu:hasTitle "Análise e Processamento de Biosinais" .
 
+usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-objective a usdl4edu:Objective ;
+    dc:description "estudar as teorias e cultivar as capacidade de desenvolver modelos computacionais em tempo real a partir de dados segundo os dois paradigmas: dados quantitativos (casos linear e não linear), dados qualitativos. os parâmetros destes modelos são treinados em tempo real, de modo recursivo, usando redes neuronais e máquinas de vetores de suporte para o caso quantitativo e sistemas difusos para o caso qualitativo.   " .
+
 usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-objectives a usdl4edu:OverallObjective ;
-    dc:description "Estudar as teorias e cultivar as capacidade de desenvolver modelos computacionais em tempo real a partir de dados segundo os dois paradigmas: dados quantitativos (casos linear e não linear), dados qualitativos. Os parâmetros destes modelos são treinados em tempo real, de modo recursivo, usando redes neuronais e máquinas de vetores de suporte para o caso quantitativo e sistemas difusos para o caso qualitativo.   " .
+    dc:description "Estudar as teorias e cultivar as capacidade de desenvolver modelos computacionais em tempo real a partir de dados segundo os dois paradigmas: dados quantitativos (casos linear e não linear), dados qualitativos. Os parâmetros destes modelos são treinados em tempo real, de modo recursivo, usando redes neuronais e máquinas de vetores de suporte para o caso quantitativo e sistemas difusos para o caso qualitativo.   " ;
+    usdl4edu:hasPartObjective usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-objective .
 
 usdl4edu:Aprendizagem-em-Tempo-Real-em-Sistemas-Inteligentes-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "Mestrado em Engenharia Informática ou equivalente " .
@@ -60,8 +68,129 @@ usdl4edu:Biologia-Molecular-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTitle "Biologia Molecular" .
 
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective1 a usdl4edu:Objective ;
+    dc:description "understand the essential concepts of a pattern recognition system; - understand the nature and inherent difficulties of the pattern classification problem; - understand concepts such as trade-offs and appropriateness of classification techniques such as bayesian, maximum-likelihood, principal components, nonparametric, linear discriminant, multi-layer neural networks, and so on; - understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as isomap and local linear embedding (lle); - demonstrate the programming skills to correctly implement the chosen algorithm in matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm1-2-5,
+        usdl4edu:acm10-1-1,
+        usdl4edu:acm11-1-1-10,
+        usdl4edu:acm11-4-1-1-3,
+        usdl4edu:acm11-4-1-2-7,
+        usdl4edu:acm11-4-3-3,
+        usdl4edu:acm11-4-3-5-1,
+        usdl4edu:acm11-4-3-5-6,
+        usdl4edu:acm11-4-3-6,
+        usdl4edu:acm11-4-3-7-3,
+        usdl4edu:acm11-4-4,
+        usdl4edu:acm14-4-49,
+        usdl4edu:acm2-10-3-3,
+        usdl4edu:acm3-1-4-1,
+        usdl4edu:acm4,
+        usdl4edu:acm4-2-4,
+        usdl4edu:acm4-3,
+        usdl4edu:acm4-4,
+        usdl4edu:acm4-4-2-2,
+        usdl4edu:acm4-5,
+        usdl4edu:acm4-6-2-2,
+        usdl4edu:acm4-6-3-4-2,
+        usdl4edu:acm4-8-10,
+        usdl4edu:acm6-5-10,
+        usdl4edu:acm6-5-3-2-1,
+        usdl4edu:acm6-5-5-1,
+        usdl4edu:acm7-2-1-1,
+        usdl4edu:acm7-2-1-8-3,
+        usdl4edu:acm7-2-2-1,
+        usdl4edu:acm7-5-2-2-1,
+        usdl4edu:acm8-5-6 .
+
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective2 a usdl4edu:Objective ;
+    dc:description "interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm1-2-5,
+        usdl4edu:acm8-5-6 ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective3 a usdl4edu:Objective ;
+    dc:description "evaluation aspects are at stake" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm1-2-5 .
+
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective4 a usdl4edu:Objective ;
+    dc:description "discriminant, multi-layer neural networks, and so on; - understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as isomap and local linear embedding (lle); - demonstrate the programming skills to correctly implement the chosen algorithm in matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm1-2-5,
+        usdl4edu:acm10-1-1,
+        usdl4edu:acm11-1-1-10,
+        usdl4edu:acm11-4-1-2-7,
+        usdl4edu:acm11-4-3-3,
+        usdl4edu:acm11-4-3-6,
+        usdl4edu:acm11-4-4,
+        usdl4edu:acm14-4-49,
+        usdl4edu:acm2-10-3-3,
+        usdl4edu:acm3-1-4-1,
+        usdl4edu:acm4,
+        usdl4edu:acm4-2-4,
+        usdl4edu:acm4-4,
+        usdl4edu:acm4-4-2-2,
+        usdl4edu:acm4-5,
+        usdl4edu:acm4-6-2-2,
+        usdl4edu:acm4-6-3-4-2,
+        usdl4edu:acm4-8-10,
+        usdl4edu:acm6-5-3-2-1,
+        usdl4edu:acm6-5-5-1,
+        usdl4edu:acm7-5-2-2-1,
+        usdl4edu:acm8-5-6 .
+
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective5 a usdl4edu:Objective ;
+    dc:description "discriminant, multi-layer neural networks, and so on; - understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as isomap and local linear embedding (lle); - demonstrate the programming skills to correctly implement the chosen algorithm in matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm1-2-5,
+        usdl4edu:acm10-1-1,
+        usdl4edu:acm11-1-1-10,
+        usdl4edu:acm11-4-1-2-7,
+        usdl4edu:acm11-4-3-3,
+        usdl4edu:acm11-4-3-6,
+        usdl4edu:acm11-4-4,
+        usdl4edu:acm14-4-49,
+        usdl4edu:acm2-10-3-3,
+        usdl4edu:acm3-1-4-1,
+        usdl4edu:acm4,
+        usdl4edu:acm4-2-4,
+        usdl4edu:acm4-4,
+        usdl4edu:acm4-4-2-2,
+        usdl4edu:acm4-5,
+        usdl4edu:acm4-6-2-2,
+        usdl4edu:acm4-6-3-4-2,
+        usdl4edu:acm4-8-10,
+        usdl4edu:acm6-5-3-2-1,
+        usdl4edu:acm6-5-5-1,
+        usdl4edu:acm7-5-2-2-1,
+        usdl4edu:acm8-5-6 .
+
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective6 a usdl4edu:Objective ;
+    dc:description "demonstrate the programming skills to correctly implement the chosen algorithm in matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm1-2-5,
+        usdl4edu:acm14-4-49,
+        usdl4edu:acm8-5-6 .
+
+usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective7 a usdl4edu:Objective ;
+    dc:description "use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm1-2-5,
+        usdl4edu:acm8-5-6 .
+
 usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objectives a usdl4edu:OverallObjective ;
-    dc:description " After completion of the course students will be able to: - Understand the essential concepts of a pattern recognition system; - Understand the nature and inherent difficulties of the pattern classification problem; - Understand concepts such as trade-offs and appropriateness of classification techniques such as Bayesian, maximum-likelihood, principal components, nonparametric, linear discriminant, multi-layer neural networks, and so on; - Understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as Isomap and Local Linear Embedding (LLE); - Demonstrate the programming skills to correctly implement the chosen algorithm in Matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - Deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake. " .
+    dc:description " After completion of the course students will be able to: - Understand the essential concepts of a pattern recognition system; - Understand the nature and inherent difficulties of the pattern classification problem; - Understand concepts such as trade-offs and appropriateness of classification techniques such as Bayesian, maximum-likelihood, principal components, nonparametric, linear discriminant, multi-layer neural networks, and so on; - Understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as Isomap and Local Linear Embedding (LLE); - Demonstrate the programming skills to correctly implement the chosen algorithm in Matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - Deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake. " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
+    usdl4edu:hasPartObjective usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective1,
+        usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective2,
+        usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective3,
+        usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective4,
+        usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective5,
+        usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective6,
+        usdl4edu:Conectividade-e-Reconhecimento-de-Padres-objective7 .
 
 usdl4edu:Conectividade-e-Reconhecimento-de-Padres-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "Elementar Mathematics: Linear Algebra and Discrete Structures Mathematical Analysis and Statistics Programming Proficiency " .
@@ -106,8 +235,42 @@ usdl4edu:Desenvolvimentos-de-Sistemas-Scio-Tcnicos-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTitle "Desenvolvimentos de Sistemas Sócio-Técnicos" .
 
+usdl4edu:Estatstica-objective1 a usdl4edu:Objective ;
+    dc:description "inference for drawing conclusions  from properly produced data" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Estatstica-objective2 a usdl4edu:Objective ;
+    dc:description "describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
+    usdl4edu:hasContext usdl4edu:acm8-1-2-1 .
+
+usdl4edu:Estatstica-objective3 a usdl4edu:Objective ;
+    dc:description "inference for drawing conclusions  from properly produced data" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Estatstica-objective4 a usdl4edu:Objective ;
+    dc:description "use of statistics, like: - 	the ability of dealing with statistical methods for collecting,  organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm8-1-2-1 .
+
+usdl4edu:Estatstica-objective5 a usdl4edu:Objective ;
+    dc:description "produced data" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Estatstica-objective6 a usdl4edu:Objective ;
+    dc:description "organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm8-1-2-1 .
+
 usdl4edu:Estatstica-objectives a usdl4edu:OverallObjective ;
-    dc:description "Goals:  The aim of this course is to give to the studen the basic skills  that may be expected for any scientist in the use of statistics, like: - 	the ability of dealing with statistical methods for collecting,  organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data. " .
+    dc:description "Goals:  The aim of this course is to give to the studen the basic skills  that may be expected for any scientist in the use of statistics, like: - 	the ability of dealing with statistical methods for collecting,  organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data. " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Estatstica-objective1,
+        usdl4edu:Estatstica-objective2,
+        usdl4edu:Estatstica-objective3,
+        usdl4edu:Estatstica-objective4,
+        usdl4edu:Estatstica-objective5,
+        usdl4edu:Estatstica-objective6 .
 
 usdl4edu:Estatstica-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "- " .
@@ -130,8 +293,40 @@ usdl4edu:Modelos-de-Percepo-Computacional-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTitle "Modelos de Percepção Computacional" .
 
+usdl4edu:Mtodos-de-Investigao-objective1 a usdl4edu:Objective ;
+    dc:description "interpretation of data, generalization from sampled data and sound ways of designing experiments" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8 ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Mtodos-de-Investigao-objective2 a usdl4edu:Objective ;
+    dc:description "generalization from sampled data and sound ways of designing experiments" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8 .
+
+usdl4edu:Mtodos-de-Investigao-objective3 a usdl4edu:Objective ;
+    dc:description "achieving clarity, concision, coherence/cohesion and an appropriate style in specific academic/scientific text types" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
+
+usdl4edu:Mtodos-de-Investigao-objective4 a usdl4edu:Objective ;
+    dc:description "generalization from sampled data and sound ways of designing experiments" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8 .
+
+usdl4edu:Mtodos-de-Investigao-objective5 a usdl4edu:Objective ;
+    dc:description "design" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8 .
+
 usdl4edu:Mtodos-de-Investigao-objectives a usdl4edu:OverallObjective ;
-    dc:description "The goal of this course is to introduce the students principles of empirical research based on quantitative methods as well as to improve their research communication skills, both orally and in writing. The course is split into two modules: Quantitative Methods (QM) and Scientific Communication (SC). QM: The goal of this course is to introduce the students to a wide range of tools and techniques that will help them to conduct sound empirical and quantitative research. It will cover topics of exploratory data analysis, inferential statistics, and experimental design. Special emphasis will be given to techniques that allow a comprehensive interpretation of data, generalization from sampled data and sound ways of designing experiments. SC: This course aims to develop students’ skills in scientific communication, oral and written, and will include both active and passive components. The focus will be on achieving clarity, concision, coherence/cohesion and an appropriate style in specific academic/scientific text types. " .
+    dc:description "The goal of this course is to introduce the students principles of empirical research based on quantitative methods as well as to improve their research communication skills, both orally and in writing. The course is split into two modules: Quantitative Methods (QM) and Scientific Communication (SC). QM: The goal of this course is to introduce the students to a wide range of tools and techniques that will help them to conduct sound empirical and quantitative research. It will cover topics of exploratory data analysis, inferential statistics, and experimental design. Special emphasis will be given to techniques that allow a comprehensive interpretation of data, generalization from sampled data and sound ways of designing experiments. SC: This course aims to develop students’ skills in scientific communication, oral and written, and will include both active and passive components. The focus will be on achieving clarity, concision, coherence/cohesion and an appropriate style in specific academic/scientific text types. " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
+    usdl4edu:hasPartObjective usdl4edu:Mtodos-de-Investigao-objective1,
+        usdl4edu:Mtodos-de-Investigao-objective2,
+        usdl4edu:Mtodos-de-Investigao-objective3,
+        usdl4edu:Mtodos-de-Investigao-objective4,
+        usdl4edu:Mtodos-de-Investigao-objective5 .
 
 usdl4edu:Mtodos-de-Investigao-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "None. " .
@@ -167,7 +362,6 @@ O programa tem uma duração de três a cinco anos. É constituído por uma part
         usdl4edu:Proposta-de-Tese-unit,
         usdl4edu:Reutilizao-de-Software-e-Padres-de-Projecto-unit,
         usdl4edu:Simulao-unit,
-        usdl4edu:Sistemas-Concorrentes-de-Larga-Escala-unit,
         usdl4edu:Sistemas-Evolutivos-e-Complexos-unit,
         usdl4edu:Sociologia-unit,
         usdl4edu:Tecnologias-e-Aprendizagem-unit,
@@ -176,7 +370,6 @@ O programa tem uma duração de três a cinco anos. É constituído por uma part
         usdl4edu:Tese-unit,
         usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-unit,
         usdl4edu:Tpicos-Avanados-em-Bases-de-Dados-unit,
-        usdl4edu:Tpicos-Avanados-em-Comunicaes-unit,
         usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-unit,
         usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-unit,
         usdl4edu:Tpicos-Avanados-em-Sistemas-Distribudos-unit,
@@ -188,8 +381,12 @@ O programa tem uma duração de três a cinco anos. É constituído por uma part
         usdl4edu:LanguagePT ;
     usdl4edu:hasTitle "Programa de Doutoramento em Ciências e Tecnologias da Informação" .
 
+usdl4edu:Proposta-de-Tese-objective a usdl4edu:Objective ;
+    dc:description "levar os alunos a aprofundar o seu conhecimento de um tema de investigação em particular, a identificar os problemas a considerar e possíveis métodos para os resolver, e a preparar um plano de trabalho a desenvolver durante a unidade curricular de tese. " .
+
 usdl4edu:Proposta-de-Tese-objectives a usdl4edu:OverallObjective ;
-    dc:description "Levar os alunos a aprofundar o seu conhecimento de um tema de investigação em particular, a identificar os problemas a considerar e possíveis métodos para os resolver, e a preparar um plano de trabalho a desenvolver durante a unidade curricular de Tese. " .
+    dc:description "Levar os alunos a aprofundar o seu conhecimento de um tema de investigação em particular, a identificar os problemas a considerar e possíveis métodos para os resolver, e a preparar um plano de trabalho a desenvolver durante a unidade curricular de Tese. " ;
+    usdl4edu:hasPartObjective usdl4edu:Proposta-de-Tese-objective .
 
 usdl4edu:Proposta-de-Tese-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "Não tem. " .
@@ -222,13 +419,6 @@ usdl4edu:Simulao-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 1 ;
     usdl4edu:hasTitle "Simulação" .
 
-usdl4edu:Sistemas-Concorrentes-de-Larga-Escala-unit a usdl4edu:CourseUnit ;
-    usdl4edu:hasEcts "6" ;
-    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasSemester 2 ;
-    usdl4edu:hasTeacher usdl4edu:Pedro-Gustavo-Santos-Rodrigues-Bizarro ;
-    usdl4edu:hasTitle "Sistemas Concorrentes de Larga Escala" .
-
 usdl4edu:Sistemas-Evolutivos-e-Complexos-unit a usdl4edu:CourseUnit ;
     dc:description "" ;
     usdl4edu:hasEcts "6" ;
@@ -243,8 +433,76 @@ usdl4edu:Sociologia-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTitle "Sociologia" .
 
+usdl4edu:Tecnologias-e-Aprendizagem-objective1 a usdl4edu:Objective ;
+    dc:description "namely education, and from other institutions from portugal and abroad" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
+    usdl4edu:hasContext usdl4edu:acm12-10 .
+
+usdl4edu:Tecnologias-e-Aprendizagem-objective2 a usdl4edu:Objective ;
+    dc:description "support learning in many areas and in all levels of education" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm12-10 .
+
+usdl4edu:Tecnologias-e-Aprendizagem-objective3 a usdl4edu:Objective ;
+    dc:description "preparing them to do research in this area" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Tecnologias-e-Aprendizagem-objective4 a usdl4edu:Objective ;
+    dc:description "computer based systems to support computer-science learning, the design and development of educational simulations and the utilization of mobile devices to support learning" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm10-4-3,
+        usdl4edu:acm10-4-3-4,
+        usdl4edu:acm11-1-2,
+        usdl4edu:acm11-5-4,
+        usdl4edu:acm12-10,
+        usdl4edu:acm12-10-5,
+        usdl4edu:acm13-1-2-1-4,
+        usdl4edu:acm13-1-2-1-5,
+        usdl4edu:acm13-1-4-4-1,
+        usdl4edu:acm13-1-4-4-2,
+        usdl4edu:acm13-1-4-4-3,
+        usdl4edu:acm13-1-4-4-5,
+        usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm14-1-18,
+        usdl4edu:acm14-4-50,
+        usdl4edu:acm2-10-1,
+        usdl4edu:acm3,
+        usdl4edu:acm8-3-4,
+        usdl4edu:acm8-5-7-5 .
+
+usdl4edu:Tecnologias-e-Aprendizagem-objective5 a usdl4edu:Objective ;
+    dc:description "used to support learning in many areas and in all levels of education" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm12-10 .
+
+usdl4edu:Tecnologias-e-Aprendizagem-objective6 a usdl4edu:Objective ;
+    dc:description "applied to education and training, preparing them to do research in this area" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm12-10 .
+
+usdl4edu:Tecnologias-e-Aprendizagem-objective7 a usdl4edu:Objective ;
+    dc:description "design and development of educational simulations and the utilization of mobile devices to support learning" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm10-4-3,
+        usdl4edu:acm10-4-3-4,
+        usdl4edu:acm11-5-4,
+        usdl4edu:acm12-10,
+        usdl4edu:acm14-4-50,
+        usdl4edu:acm8-5-7-5 .
+
 usdl4edu:Tecnologias-e-Aprendizagem-objectives a usdl4edu:OverallObjective ;
-    dc:description "Information and communication technologies (ICT) role in education and training has increased in the last few years. Education methodologies and materials have also been influenced by technology. Terms like e-learning, b-learning and m-learning are common today. Technology has been used to support learning in many areas and in all levels of education. The group of professors responsible for this course has been developing research in several sub-areas, such as the utilization of computer based systems to support computer-science learning, the design and development of educational simulations and the utilization of mobile devices to support learning. Some of this research was developed in collaboration with researchers from other areas, namely Education, and from other institutions from Portugal and abroad. In this perspective it is possible the participation of researchers from other institutions in some course modules. Technology and Learning main objective is to allow students to deepen their knowledge in the field of ICT applied to Education and Training, preparing them to do research in this area. " .
+    dc:description "Information and communication technologies (ICT) role in education and training has increased in the last few years. Education methodologies and materials have also been influenced by technology. Terms like e-learning, b-learning and m-learning are common today. Technology has been used to support learning in many areas and in all levels of education. The group of professors responsible for this course has been developing research in several sub-areas, such as the utilization of computer based systems to support computer-science learning, the design and development of educational simulations and the utilization of mobile devices to support learning. Some of this research was developed in collaboration with researchers from other areas, namely Education, and from other institutions from Portugal and abroad. In this perspective it is possible the participation of researchers from other institutions in some course modules. Technology and Learning main objective is to allow students to deepen their knowledge in the field of ICT applied to Education and Training, preparing them to do research in this area. " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasPartObjective usdl4edu:Tecnologias-e-Aprendizagem-objective1,
+        usdl4edu:Tecnologias-e-Aprendizagem-objective2,
+        usdl4edu:Tecnologias-e-Aprendizagem-objective3,
+        usdl4edu:Tecnologias-e-Aprendizagem-objective4,
+        usdl4edu:Tecnologias-e-Aprendizagem-objective5,
+        usdl4edu:Tecnologias-e-Aprendizagem-objective6,
+        usdl4edu:Tecnologias-e-Aprendizagem-objective7 .
 
 usdl4edu:Tecnologias-e-Aprendizagem-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
@@ -269,8 +527,12 @@ usdl4edu:Teoria-da-Modelao-e-Simulao-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTitle "Teoria da Modelação e Simulação" .
 
+usdl4edu:Tese-objective a usdl4edu:Objective ;
+    dc:description "elaboração de uma tese original e especialmente preparada para este fim, adequada à natureza do ramo de conhecimento ou da especialidade. " .
+
 usdl4edu:Tese-objectives a usdl4edu:OverallObjective ;
-    dc:description "Elaboração de uma tese original e especialmente preparada para este fim, adequada à natureza do ramo de conhecimento ou da especialidade. " .
+    dc:description "Elaboração de uma tese original e especialmente preparada para este fim, adequada à natureza do ramo de conhecimento ou da especialidade. " ;
+    usdl4edu:hasPartObjective usdl4edu:Tese-objective .
 
 usdl4edu:Tese-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "A inscrição em tese fica condicionada à realização do Projecto de Tese e pressupõe a inscrição em todas as unidades curriculares que o estudante não tenha ainda realizado e que sejam necessárias para completar o Curso de Doutoramento. " .
@@ -286,8 +548,27 @@ usdl4edu:Tese-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Carlos-Manuel-Mira-da-Fonseca ;
     usdl4edu:hasTitle "Tese" .
 
+usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-objective1 a usdl4edu:Objective ;
+    dc:description "defined by the student’s supervisor, in accordance to the specific needs of the student’s phd plan, in collaboration with the student and the course’s coordinator" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
+
+usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-objective2 a usdl4edu:Objective ;
+    dc:description "plan will comprise 2 of those modules and will be defined by the student’s supervisor, in accordance to the specific needs of the student’s phd plan, in collaboration with the student and the course’s coordinator" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-objective3 a usdl4edu:Objective ;
+    dc:description "organized in a set of options modules with a workload of 2 ects each, covering a wide area of advanced topics" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm4-6-2-4 .
+
 usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-objectives a usdl4edu:OverallObjective ;
-    dc:description "This course intends to provide to the student a context for learning a set of advanced research topics on Cognitive Modeling in depth, with a solid theoretical contextualization and corresponding empirical support. It is organized in a set of Options Modules with a workload of 2 ECTS each, covering a wide area of advanced topics. Each individual learning plan will comprise 2 of those modules and will be defined by the student’s supervisor, in accordance to the specific needs of the student’s PhD plan, in collaboration with the student and the course’s coordinator. " .
+    dc:description "This course intends to provide to the student a context for learning a set of advanced research topics on Cognitive Modeling in depth, with a solid theoretical contextualization and corresponding empirical support. It is organized in a set of Options Modules with a workload of 2 ECTS each, covering a wide area of advanced topics. Each individual learning plan will comprise 2 of those modules and will be defined by the student’s supervisor, in accordance to the specific needs of the student’s PhD plan, in collaboration with the student and the course’s coordinator. " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
+    usdl4edu:hasPartObjective usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-objective1,
+        usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-objective2,
+        usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-objective3 .
 
 usdl4edu:Tpicos-Avanados-de-Modelao-Cognitiva-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "No specific pre-requirements " .
@@ -310,25 +591,14 @@ usdl4edu:Tpicos-Avanados-em-Bases-de-Dados-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 1 ;
     usdl4edu:hasTitle "Tópicos Avançados em Bases de Dados" .
 
-usdl4edu:Tpicos-Avanados-em-Comunicaes-objectives a usdl4edu:OverallObjective ;
-    dc:description "To discuss and explore several networking research topics related to next generation networking. These include, but are not restricted to, user and network mobility, routing, signalling, sensor networks, network management, quality of service and quality of experience. " .
-
-usdl4edu:Tpicos-Avanados-em-Comunicaes-prerequisites a usdl4edu:OverallPrerequisite ;
-    dc:description "Background on Communication Networks and Services. " .
-
-usdl4edu:Tpicos-Avanados-em-Comunicaes-unit a usdl4edu:CourseUnit ;
-    dc:description "1 - Knowledge of fundamentals and current techniques and approaches to next generation networking challenges. 2 - Ability to analyse and discuss limitations of the current Internet and to propose new solutions. 3 - Ability to autonomously research a topic and explain problems, existing solutions and their limitations. " ;
-    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
-    usdl4edu:hasEcts "6" ;
-    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasOverallObjective usdl4edu:Tpicos-Avanados-em-Comunicaes-objectives ;
-    usdl4edu:hasOverallPrerequisite usdl4edu:Tpicos-Avanados-em-Comunicaes-prerequisites ;
-    usdl4edu:hasSemester 1 ;
-    usdl4edu:hasTeacher usdl4edu:Fernando-Pedro-Lopes-Boavida-Fernandes ;
-    usdl4edu:hasTitle "Tópicos Avançados em Comunicações" .
+usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-objective1 a usdl4edu:Objective ;
+    dc:description "support  " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
 
 usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-objectives a usdl4edu:OverallObjective ;
-    dc:description "The goal of this course is to provide context for learning a set of advanced AI research topics in depth, with a solid theoretical scaffolding and adequate empirical support   " .
+    dc:description "The goal of this course is to provide context for learning a set of advanced AI research topics in depth, with a solid theoretical scaffolding and adequate empirical support   " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasPartObjective usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-objective1 .
 
 usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "Basic AI background. " .
@@ -344,8 +614,73 @@ usdl4edu:Tpicos-Avanados-em-Inteligncia-Artificial-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Lus-Miguel-Machado-Lopes-Macedo ;
     usdl4edu:hasTitle "Tópicos Avançados em Inteligência Artificial" .
 
+usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-objective1 a usdl4edu:Objective ;
+    dc:description "ranking algorithms  for information networks   –        efficient algorithms for anomalies detection on streaming data –        high-performance and scalability" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm1-2-9,
+        usdl4edu:acm11-2-1-4,
+        usdl4edu:acm11-4-1-1-1,
+        usdl4edu:acm4,
+        usdl4edu:acm4-4,
+        usdl4edu:acm4-4-1,
+        usdl4edu:acm4-4-2-2,
+        usdl4edu:acm4-5,
+        usdl4edu:acm4-5-1,
+        usdl4edu:acm4-5-4,
+        usdl4edu:acm4-6-3-4-2,
+        usdl4edu:acm4-8-10,
+        usdl4edu:acm4-8-4,
+        usdl4edu:acm6-5-8-4,
+        usdl4edu:acm6-7-2-12,
+        usdl4edu:acm6-7-3-7,
+        usdl4edu:acm8-1-1-3-2,
+        usdl4edu:acm8-3-3-4,
+        usdl4edu:acm8-3-8-6 ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual .
+
+usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-objective2 a usdl4edu:Objective ;
+    dc:description "design applications with challenging requirements like: –        data quality and business intelligence quality –        efficient algorithms for processing engines –        robust ranking algorithms  for information networks   –        efficient algorithms for anomalies detection on streaming data –        high-performance and scalability" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm1-2-9,
+        usdl4edu:acm11-2-1-4,
+        usdl4edu:acm11-4-1-1-1,
+        usdl4edu:acm12-2-2,
+        usdl4edu:acm12-2-2-1,
+        usdl4edu:acm12-2-2-3,
+        usdl4edu:acm12-2-2-5,
+        usdl4edu:acm2-10-2,
+        usdl4edu:acm4,
+        usdl4edu:acm4-1-1,
+        usdl4edu:acm4-2-1,
+        usdl4edu:acm4-4,
+        usdl4edu:acm4-4-1,
+        usdl4edu:acm4-4-2-2,
+        usdl4edu:acm4-4-2-4,
+        usdl4edu:acm4-5,
+        usdl4edu:acm4-5-1,
+        usdl4edu:acm4-5-4,
+        usdl4edu:acm4-6-3-4-2,
+        usdl4edu:acm4-8-10,
+        usdl4edu:acm4-8-4,
+        usdl4edu:acm6-5,
+        usdl4edu:acm6-5-10,
+        usdl4edu:acm6-5-8-4,
+        usdl4edu:acm6-7-2-12,
+        usdl4edu:acm6-7-3-7,
+        usdl4edu:acm8-1-1-3-2,
+        usdl4edu:acm8-3,
+        usdl4edu:acm8-3-3-4,
+        usdl4edu:acm8-3-8-6,
+        usdl4edu:acm8-4-4,
+        usdl4edu:acm8-5-5-10 .
+
 usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-objectives a usdl4edu:OverallObjective ;
-    dc:description "2 -Enduring Principles Knowledge about the state-of-the-art of data quality management, sensor data models, processing engines for warehousing and mining, large graph data  processing, information networks analysis, stream data management and event detection on stream data. At the end of the course the students will be able to design applications with challenging requirements like: –        data quality and business intelligence quality –        efficient algorithms for processing engines –        robust ranking algorithms  for information networks   –        Efficient algorithms for anomalies detection on streaming data –        high-performance and scalability " .
+    dc:description "2 -Enduring Principles Knowledge about the state-of-the-art of data quality management, sensor data models, processing engines for warehousing and mining, large graph data  processing, information networks analysis, stream data management and event detection on stream data. At the end of the course the students will be able to design applications with challenging requirements like: –        data quality and business intelligence quality –        efficient algorithms for processing engines –        robust ranking algorithms  for information networks   –        Efficient algorithms for anomalies detection on streaming data –        high-performance and scalability " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual ;
+    usdl4edu:hasPartObjective usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-objective1,
+        usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-objective2 .
 
 usdl4edu:Tpicos-Avanados-em-Processamento-e-Anlise-de-Dados-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "Mathematics  Programming Skills " .

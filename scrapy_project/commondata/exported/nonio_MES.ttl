@@ -64,17 +64,10 @@ usdl4edu:Comunicao-para-Engenheiros-de-Software-II-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Marco-Paulo-Amorim-Vieira ;
     usdl4edu:hasTitle "Comunicação para Engenheiros de Software II" .
 
-usdl4edu:Desenvolvimento-Global-de-Software-unit a usdl4edu:CourseUnit ;
-    dc:description "" ;
-    usdl4edu:hasEcts "5" ;
-    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasSemester 1 ;
-    usdl4edu:hasTitle "Desenvolvimento Global de Software" .
-
 usdl4edu:Engenharia-de-Aplicaes-para-a-Internet-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasEcts "7" ;
     usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasSemester 1 ;
     usdl4edu:hasTeacher usdl4edu:Lus-Alexandre-Serras-de-Moura-e-Silva ;
     usdl4edu:hasTitle "Engenharia de Aplicações para a Internet" .
 
@@ -94,9 +87,11 @@ usdl4edu:Estdio-de-Desenvolvimento-de-Software-II-objectives a usdl4edu:OverallO
     usdl4edu:hasPartObjective usdl4edu:Estdio-de-Desenvolvimento-de-Software-II-objective .
 
 usdl4edu:Estdio-de-Desenvolvimento-de-Software-II-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
     usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
     usdl4edu:hasEcts "7" ;
-    usdl4edu:hasLanguage usdl4edu:LanguageEN ;
+    usdl4edu:hasLanguage usdl4edu:LanguageEN,
+        usdl4edu:LanguagePT ;
     usdl4edu:hasOverallObjective usdl4edu:Estdio-de-Desenvolvimento-de-Software-II-objectives ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTeacher usdl4edu:Marco-Paulo-Amorim-Vieira ;
@@ -119,11 +114,13 @@ usdl4edu:Estdio-de-Desenvolvimento-de-Software-III-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Estúdio de Desenvolvimento de Software III" .
 
 usdl4edu:Estudos-Independentes-objective1 a usdl4edu:Objective ;
-    dc:description "" ;
+    dc:description " ",
+        " A maximum of two independent studies are permitted to apply toward degree completion requirements",
+        "An Independent Study course is one that is designed by the student to pursue in-depth study in a particular area of interest" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Estudos-Independentes-objective2 a usdl4edu:Objective ;
-    dc:description "designed by the student to pursue in-depth study in a particular area of interest" ;
+    dc:description "An Independent Study course is one that is designed by the student to pursue in-depth study in a particular area of interest" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8 .
 
@@ -147,6 +144,10 @@ usdl4edu:Estudos-Independentes-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Marco-Paulo-Amorim-Vieira ;
     usdl4edu:hasTitle "Estudos Independentes" .
 
+usdl4edu:Filipe-Joo-Boavida-Mendona-Machado-de-Arajo a foaf:Person ;
+    foaf:firstName "Filipe" ;
+    foaf:lastName "Araújo" .
+
 usdl4edu:Gesto-de-Risco-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasEcts "7" ;
     usdl4edu:hasLanguage usdl4edu:LanguagePT ;
@@ -155,11 +156,13 @@ usdl4edu:Gesto-de-Risco-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Gestão de Risco" .
 
 usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective1 a usdl4edu:Objective ;
-    dc:description "estimate time and costs, and understand the software process" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+    dc:description "Large scale software development requires the ability to manage resources - both human and computational - through control of the development process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm11-3-5-2,
+        usdl4edu:acm8-3-6 .
 
 usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective2 a usdl4edu:Objective ;
-    dc:description "understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
+    dc:description " This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
     usdl4edu:hasContext usdl4edu:acm12-3-6,
         usdl4edu:acm13-1-4-4-7,
@@ -178,13 +181,11 @@ usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective2 a usdl4edu:Objective ;
         usdl4edu:acm9-9-5 .
 
 usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective3 a usdl4edu:Objective ;
-    dc:description "computational - through control of the development process" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm11-3-5-2,
-        usdl4edu:acm8-3-6 .
+    dc:description " This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
 
 usdl4edu:Gesto-do-Desenvolvimento-de-Software-objective4 a usdl4edu:Objective ;
-    dc:description "designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
+    dc:description " This course is a breadth oriented course, designed to help technically-trained software engineers to acquire the knowledge and skills necessary to lead a project team, understand the relationship of software development to overall project engineering, estimate time and costs, and understand the software process" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8,
         usdl4edu:acm12-3-6,
@@ -255,11 +256,13 @@ usdl4edu:Integrao-de-Sistemas-de-Larga-Escala-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Filipe-Joo-Boavida-Mendona-Machado-de-Arajo ;
     usdl4edu:hasTitle "Integração de Sistemas de Larga Escala" .
 
-usdl4edu:Medio-de-Software-unit a usdl4edu:CourseUnit ;
-    usdl4edu:hasEcts "5" ;
-    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasSemester 2 ;
-    usdl4edu:hasTitle "Medição de Software" .
+usdl4edu:Licnio-Gomes-Roque a foaf:Person ;
+    foaf:firstName "Licínio" ;
+    foaf:lastName "Roque" .
+
+usdl4edu:Lus-Alexandre-Serras-de-Moura-e-Silva a foaf:Person ;
+    foaf:firstName "Luís" ;
+    foaf:lastName "Silva" .
 
 usdl4edu:Mestrado-em-Engenharia-de-Software-degree a usdl4edu:Degree ;
     dc:description "O CMU-UC MSE é um grau duplo oferecido pela Carnegie Mellon em conjunto com a Universidade de Coimbra em Portugal. Os alunos inscrevem-se na Universidade de Coimbra e fazem três semestres no campus da UC (no Departamento de Engenharia Informática) e um semestre no campus da CMU. Todos os cursos e materiais dos cursos foram concebidos pela Escola de Ciências da Computação (SCS) da CMU, que é tida em alta consideração, pelo Instituto de Investigação de Software (ISR), e pelo Software Engineering Institute (SEI). O objectivo do programa é desenvolver líderes da prática industrial de engenharia de software - os chefes engenheiros do futuro, directores de concepção e directores oficiais técnicos das suas empresas. Graduados dessa articulação Programa MSE CMU-UC vão dar o seu melhor na sua prática profissional corrente, e serão agentes de mudança na melhoria dessa prática à medida que o campo evolui. O programa é oferecido como um duplo diploma. Os alunos irão receber um diploma da Universidade de Coimbra, bem como o diploma correspondente da Carnegie Mellon University. Isto é possível porque ambos os cursos são oferecidos em conjunto de forma síncrona, com os critérios de mesma qualidade e requisitos de admissão. Informação detalhada sobre a estrutura curricular pode ser encontrada em: http://mse.dei.uc.pt" ;
@@ -267,7 +270,6 @@ usdl4edu:Mestrado-em-Engenharia-de-Software-degree a usdl4edu:Degree ;
         usdl4edu:Arquitecturas-para-Sistemas-de-Software-unit,
         usdl4edu:Comunicao-para-Engenheiros-de-Software-I-unit,
         usdl4edu:Comunicao-para-Engenheiros-de-Software-II-unit,
-        usdl4edu:Desenvolvimento-Global-de-Software-unit,
         usdl4edu:Engenharia-de-Aplicaes-para-a-Internet-unit,
         usdl4edu:Estdio-de-Desenvolvimento-de-Software-I-unit,
         usdl4edu:Estdio-de-Desenvolvimento-de-Software-II-unit,
@@ -277,7 +279,6 @@ usdl4edu:Mestrado-em-Engenharia-de-Software-degree a usdl4edu:Degree ;
         usdl4edu:Gesto-do-Desenvolvimento-de-Software-unit,
         usdl4edu:Iniciao-ao-Projecto-de-Software-unit,
         usdl4edu:Integrao-de-Sistemas-de-Larga-Escala-unit,
-        usdl4edu:Medio-de-Software-unit,
         usdl4edu:Modelos-de-Sistemas-de-Software-unit,
         usdl4edu:Mtodos-Decidir-o-que-Projectar-unit,
         usdl4edu:Processo-Individual-de-Software-unit,
@@ -303,6 +304,14 @@ usdl4edu:Mtodos-Decidir-o-que-Projectar-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 1 ;
     usdl4edu:hasTeacher usdl4edu:Mrio-Alberto-da-Costa-Zenha-Rela ;
     usdl4edu:hasTitle "Métodos: Decidir o que Projectar" .
+
+usdl4edu:Paulo-Jorge-Pimenta-Marques a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Marques" .
+
+usdl4edu:Paulo-Jos-Osrio-Rupino-da-Cunha a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Cunha" .
 
 usdl4edu:Processo-Individual-de-Software-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasEcts "8" ;
@@ -351,4 +360,16 @@ usdl4edu:Seminrio-sobre-Processos-de-Software-unit a usdl4edu:CourseUnit ;
 
 usdl4edu:dei-uc a foaf:Organization ;
     dc:description "Department of Informatics Engineering - University of Coimbra" .
+
+usdl4edu:Mrio-Alberto-da-Costa-Zenha-Rela a foaf:Person ;
+    foaf:firstName "Mário" ;
+    foaf:lastName "Rela" .
+
+usdl4edu:Pedro-Gustavo-Santos-Rodrigues-Bizarro a foaf:Person ;
+    foaf:firstName "Pedro" ;
+    foaf:lastName "Bizarro" .
+
+usdl4edu:Marco-Paulo-Amorim-Vieira a foaf:Person ;
+    foaf:firstName "Marco" ;
+    foaf:lastName "Vieira" .
 

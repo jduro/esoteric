@@ -8,20 +8,24 @@ usdl4edu:Mestrado-em-Engenharia-Informtica-service a usdl4edu:EducationalService
     usdl4edu:hasOrganization usdl4edu:dei-uc ;
     usdl4edu:hasURL "http://www.uc.pt/en/fctuc/dei" .
 
+usdl4edu:Alberto-Jorge-Lebre-Cardoso a foaf:Person ;
+    foaf:firstName "Alberto" ;
+    foaf:lastName "Cardoso" .
+
 usdl4edu:Aplicaes-Telemticas-objective1 a usdl4edu:Objective ;
-    dc:description "support of multimedia applications in the internet will also be addressed" ;
+    dc:description " The paradigms, technologies and protocols for the support of multimedia applications in the Internet will also be addressed" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
     usdl4edu:hasContext usdl4edu:acm14-2-70-1,
         usdl4edu:acm8-4-4 .
 
 usdl4edu:Aplicaes-Telemticas-objective2 a usdl4edu:Objective ;
-    dc:description "critical analysis and exposition of existing solutions and future challenges in the areas of telematics applications" ;
+    dc:description " The students should develop competencies in the critical analysis and exposition of existing solutions and future challenges in the areas of telematics applications" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
     usdl4edu:hasContext usdl4edu:acm8-4-3-3,
         usdl4edu:acm8-4-4 .
 
 usdl4edu:Aplicaes-Telemticas-objective3 a usdl4edu:Objective ;
-    dc:description "understanding, specification and development of new services, communication system project for the new services and the follow-up of new challenges and paradigms" ;
+    dc:description " Self-learning should include the study, understanding, specification and development of new services, communication system project for the new services and the follow-up of new challenges and paradigms" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
     usdl4edu:hasContext usdl4edu:acm3-3-3,
         usdl4edu:acm8-4-6 .
@@ -48,11 +52,7 @@ usdl4edu:Aplicaes-Telemticas-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Aplicações Telemáticas" .
 
 usdl4edu:Aplicaes-para-Internet-objective1 a usdl4edu:Objective ;
-    dc:description "" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
-
-usdl4edu:Aplicaes-para-Internet-objective2 a usdl4edu:Objective ;
-    dc:description "operation of the http protocol, the operation of internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of internet applications, the operation of search engines, and of the voip, sip and multimedia transmission protocols" ;
+    dc:description " It is expected that students completely understand the operation of the HTTP protocol, the operation of Internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of Internet applications, the operation of search engines, and of the VoIP, SIP and multimedia transmission protocols" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm14-1-16,
         usdl4edu:acm14-2-70-1,
@@ -68,8 +68,8 @@ usdl4edu:Aplicaes-para-Internet-objective2 a usdl4edu:Objective ;
         usdl4edu:acm8-5-7-1,
         usdl4edu:acm8-5-8-3-3 .
 
-usdl4edu:Aplicaes-para-Internet-objective3 a usdl4edu:Objective ;
-    dc:description "understand the operation of the http protocol, the operation of internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of internet applications, the operation of search engines, and of the voip, sip and multimedia transmission protocols" ;
+usdl4edu:Aplicaes-para-Internet-objective2 a usdl4edu:Objective ;
+    dc:description " It is expected that students completely understand the operation of the HTTP protocol, the operation of Internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of Internet applications, the operation of search engines, and of the VoIP, SIP and multimedia transmission protocols" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
     usdl4edu:hasContext usdl4edu:acm14-1-16,
         usdl4edu:acm14-2-70-1,
@@ -84,6 +84,13 @@ usdl4edu:Aplicaes-para-Internet-objective3 a usdl4edu:Objective ;
         usdl4edu:acm8-4-6,
         usdl4edu:acm8-5-7-1,
         usdl4edu:acm8-5-8-3-3 .
+
+usdl4edu:Aplicaes-para-Internet-objective3 a usdl4edu:Objective ;
+    dc:description " ",
+        " Beyond acquiring knowledge on the fundamentals of this area, students are expected to develop their technological creativity through the analysis of real-world applications and services, such as Google, Skype, YouTube, eBay, BitTorrent, RealNetworks, and others",
+        " It is expected that students completely understand the operation of the HTTP protocol, the operation of Internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of Internet applications, the operation of search engines, and of the VoIP, SIP and multimedia transmission protocols",
+        "The aim of this course is providing knowledge and developing competences in the areas of applications, technologies and protocols for the Internet" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember .
 
 usdl4edu:Aplicaes-para-Internet-objectives a usdl4edu:OverallObjective ;
     dc:description "The aim of this course is providing knowledge and developing competences in the areas of applications, technologies and protocols for the Internet. It is expected that students completely understand the operation of the HTTP protocol, the operation of Internet services, and mechanisms for caching, naming, and transmission of content, the technologies for development of Internet applications, the operation of search engines, and of the VoIP, SIP and multimedia transmission protocols. Beyond acquiring knowledge on the fundamentals of this area, students are expected to develop their technological creativity through the analysis of real-world applications and services, such as Google, Skype, YouTube, eBay, BitTorrent, RealNetworks, and others. " ;
@@ -105,6 +112,26 @@ usdl4edu:Aplicaes-para-Internet-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTeacher usdl4edu:Joo-Paulo-da-Silva-Machado-Garcia-Vilela ;
     usdl4edu:hasTitle "Aplicações para Internet" .
+
+usdl4edu:Bernardete-Martins-Ribeiro a foaf:Person ;
+    foaf:firstName "Bernardete" ;
+    foaf:lastName "Ribeiro" .
+
+usdl4edu:Bruno-Miguel-Brs-Cabral a foaf:Person ;
+    foaf:firstName "Bruno" ;
+    foaf:lastName "Cabral" .
+
+usdl4edu:Carlos-Alberto-Henggeler-de-Carvalho-Antunes a foaf:Person ;
+    foaf:firstName "Carlos" ;
+    foaf:lastName "Antunes" .
+
+usdl4edu:Carlos-Manuel-Mira-da-Fonseca a foaf:Person ;
+    foaf:firstName "Carlos" ;
+    foaf:lastName "Fonseca" .
+
+usdl4edu:Carlos-Manuel-Robalo-Lisboa-Bento a foaf:Person ;
+    foaf:firstName "Carlos" ;
+    foaf:lastName "Bento" .
 
 usdl4edu:Computao-Adaptativa-objective a usdl4edu:Objective ;
     dc:description "estudar as principais técnicas de computação adaptativa para processar dados quantitativos e qualitativos: configuração e treino de redes neuronais artificiais (em diversas arquiteturas), de lógica difusa, sistemas difusos e neuro-difusos. desenvolver as competências para conceber sistemas de classificação de grandes conjuntos de dados, de diagnóstico em contextos industriais e médicos (em contextos de incerteza, conhecimento incompleto, imprecisão) de controlo inteligente, de análise sistémica dos problemas complexos e de avaliação crítico dos resultados. adicionalmente desenvolvem-se competências de trabalho em grupo, de comunicação técnico-científica oral e escrita. " ;
@@ -149,58 +176,21 @@ usdl4edu:Computao-Evolucionria-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Carlos-Manuel-Mira-da-Fonseca ;
     usdl4edu:hasTitle "Computação Evolucionária" .
 
-usdl4edu:Computao-de-Alto-Desempenho-objective1 a usdl4edu:Objective ;
-    dc:description "solving, critical thinking, independent learning and practical application of theoretical knowledge; and the following 5 secondary competencies: -analysis and synthesis, creativity, initiative and entrepreneurial spirit, concern for quality and planning and acting skills" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm8-4-3-3 .
-
-usdl4edu:Computao-de-Alto-Desempenho-objective2 a usdl4edu:Objective ;
-    dc:description "critical thinking, independent learning and practical application of theoretical knowledge; and the following 5 secondary competencies: -analysis and synthesis, creativity, initiative and entrepreneurial spirit, concern for quality and planning and acting skills" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm8-4-3-3 .
-
-usdl4edu:Computao-de-Alto-Desempenho-objective3 a usdl4edu:Objective ;
-    dc:description "predicts that the number of transistors per integrated circuit doubles approximately every 18 months" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
-    usdl4edu:hasContext usdl4edu:acm14-4-108,
-        usdl4edu:acm2-3-4-1 ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_3Procedural .
-
-usdl4edu:Computao-de-Alto-Desempenho-objective4 a usdl4edu:Objective ;
-    dc:description "create high performance systems, not just hardware, but especially software" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+usdl4edu:Computao-de-Alto-Desempenho-objective a usdl4edu:Objective ;
+    dc:description "actualmente, a utilização de máquinas paralelas, sejam estas máquinas multi-processador ou clusters é omipresente na indústria. estes sistemas são utilizados para processar a lógica de negócio dos sistemas de informação actuais, para mastigar os dados existentes nas datawarehouses e bases-de-dados operacionais, ou para realizar simulações essenciais ao negócio das companhias (e.g. pesquisa de drogas, operações bolsistas, etc.). a lei de moore indica que a capacidade computacional dos computadores duplica aproximadamente todos os 18 meses. no entanto, apesar de vertiginoso aumento de performance das máquinas que temos disponíveis, tal não  significa que os utilizadores ou a indústria estejam satisfeitos. de facto, tal aumento de performance apenas faz com que se tentem resolver problemas de maior dimensão, tanto em termos computacionais como em termos de armazenamento.  cada vez mais, a computação de elevado desempenho é essencial ao funcionamento das organizações. nesta disciplina serão abordadas as tecnologias necessárias à criação de sistemas de elevado desempenho, tanto a nível de hardware como de software.  " ;
     usdl4edu:hasContext usdl4edu:acm1-2-9,
-        usdl4edu:acm14-1-11,
-        usdl4edu:acm14-1-12,
-        usdl4edu:acm2,
-        usdl4edu:acm2-4-4-4,
-        usdl4edu:acm3-1-4-11,
-        usdl4edu:acm5-1-2,
-        usdl4edu:acm5-1-2-3,
-        usdl4edu:acm5-1-2-6,
-        usdl4edu:acm5-1-4-2,
-        usdl4edu:acm7-3-3 .
-
-usdl4edu:Computao-de-Alto-Desempenho-objective5 a usdl4edu:Objective ;
-    dc:description "planear e agir" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+        usdl4edu:acm14-4-15,
+        usdl4edu:acm2 .
 
 usdl4edu:Computao-de-Alto-Desempenho-objectives a usdl4edu:OverallObjective ;
-    dc:description "Português: A Lei de Moore prevê uma duplicação do número de transístores dos circuitos integrados aproximadamente a todos os 18 meses. No entanto, na última década, o aumento de desempenho sequencial tem sido modesto. O futuro aponta para que os ganhos de desempenho sejam cada vez mais provenientes da paralelização dos programas. Nesta disciplina serão abordadas as tecnologias necessárias à criação de sistemas de elevado desempenho, não só a nível de hardware, mas especialmente de software. Os alunos deverão ser capazes de programar sistemas paralelos de memória partilhada e de troca de mensagens.   É também objectivo a aquisição das seguintes 5 competências principais (segundo os descritores de Dublin): - trabalho em grupo, resolução de problemas, raciocínio crítico, aprendizagem autónoma e aplicação prática de conhecimentos teóricos; e das seguintes 5 competências secundárias: - análise e síntese, criatividade, iniciativa e espírito empreendedor, preocupação com a qualidade e planear e agir. Inglês: Moore's Law predicts that the number of transistors per integrated circuit doubles approximately every 18 months. However, in the last decade, the increase in sequential performance has been modest. Future performance gains seem to depend increasingly on the parallelization of programs. This course will discuss the technologies needed to create high performance systems, not just hardware, but especially software. Students should be able to program parallel systems of shared memory and message passing.   It is also intended that the student acquires/develops the following 5 core competencies (according to the Dublin descriptors): - Teamwork, problem solving, critical thinking, independent learning and practical application of theoretical knowledge; and the following 5 secondary competencies: -Analysis and synthesis, creativity, initiative and entrepreneurial spirit, concern for quality and planning and acting skills. " ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual ;
-    usdl4edu:hasPartObjective usdl4edu:Computao-de-Alto-Desempenho-objective1,
-        usdl4edu:Computao-de-Alto-Desempenho-objective2,
-        usdl4edu:Computao-de-Alto-Desempenho-objective3,
-        usdl4edu:Computao-de-Alto-Desempenho-objective4,
-        usdl4edu:Computao-de-Alto-Desempenho-objective5 .
+    dc:description "Actualmente, a utilização de máquinas paralelas, sejam estas máquinas multi-processador ou clusters é omipresente na indústria. Estes sistemas são utilizados para processar a lógica de negócio dos sistemas de informação actuais, para mastigar os dados existentes nas datawarehouses e bases-de-dados operacionais, ou para realizar simulações essenciais ao negócio das companhias (e.g. pesquisa de drogas, operações bolsistas, etc.). A Lei de Moore indica que a capacidade computacional dos computadores duplica aproximadamente todos os 18 meses. No entanto, apesar de vertiginoso aumento de performance das máquinas que temos disponíveis, tal não  significa que os utilizadores ou a indústria estejam satisfeitos. De facto, tal aumento de performance apenas faz com que se tentem resolver problemas de maior dimensão, tanto em termos computacionais como em termos de armazenamento.  Cada vez mais, a computação de elevado desempenho é essencial ao funcionamento das organizações. Nesta disciplina serão abordadas as tecnologias necessárias à criação de sistemas de elevado desempenho, tanto a nível de hardware como de software.  " ;
+    usdl4edu:hasPartObjective usdl4edu:Computao-de-Alto-Desempenho-objective .
 
 usdl4edu:Computao-de-Alto-Desempenho-prerequisites a usdl4edu:OverallPrerequisite ;
-    dc:description "Português:  Sistemas Distribuídos Sistemas Operativos Arquitectura de Computadores Disciplinas de Programação precedentes  Inglês: Distributed Systems Operating Systems Computer Architecture Previous Programming Courses " .
+    dc:description " Sistemas Distribuídos Sistemas Operativos Arquitectura de Computadores Disciplinas de Programação precedentes  " .
 
 usdl4edu:Computao-de-Alto-Desempenho-unit a usdl4edu:CourseUnit ;
-    dc:description "Português: - Programação eficiente em arquiteturas paralelas de memória partilhada. Por exemplo: CPUs multi-core e GPUs.    - Programação eficiente em arquiteturas paralelas de memória distribuída. Por exemplo: clusters.     Inglês: - Efficient programming in shared memory parallel architectures. For example: multi-core CPUs and GPUs   - Efficient programming in distributed memory parallel architectures. For example: clusters. " ;
+    dc:description "- Programação eficiente em arquiteturas paralelas de memória partilhada. Por exemplo: CPUs multi-core e GPUs.  - Programação eficiente em arquiteturas paralelas de memória distribuída. Por exemplo: clusters. " ;
     usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
     usdl4edu:hasEcts "6" ;
     usdl4edu:hasLanguage usdl4edu:LanguagePT ;
@@ -218,8 +208,19 @@ usdl4edu:Design-Multimdia-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Joo-Manuel-Frade-Belo-Bicker ;
     usdl4edu:hasTitle "Design Multimédia" .
 
-usdl4edu:Dissertao--Estgio-objective1 a usdl4edu:Objective ;
-    dc:description "state of the art                   - justified selection of tools and methodologies to be used                   - requirements analysis related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
+usdl4edu:Dissertao---Estgio-objective1 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm11-5-1,
+        usdl4edu:acm3-3-3,
+        usdl4edu:acm5-1-1-3-3-1,
+        usdl4edu:acm5-2-5,
+        usdl4edu:acm5-3-3-2,
+        usdl4edu:acm8-4-3-3,
+        usdl4edu:acm8-5-6-5 .
+
+usdl4edu:Dissertao---Estgio-objective10 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
     usdl4edu:hasContext usdl4edu:acm11-5-1,
         usdl4edu:acm2-10-1-4,
@@ -232,41 +233,8 @@ usdl4edu:Dissertao--Estgio-objective1 a usdl4edu:Objective ;
         usdl4edu:acm8-4-3-3,
         usdl4edu:acm8-5-6-5 .
 
-usdl4edu:Dissertao--Estgio-objective10 a usdl4edu:Objective ;
-    dc:description "related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm11-5-1,
-        usdl4edu:acm3-3-3,
-        usdl4edu:acm5-1-1-3-3-1,
-        usdl4edu:acm5-2-5,
-        usdl4edu:acm5-3-3-2,
-        usdl4edu:acm8-4-3-3,
-        usdl4edu:acm8-5-6-5 .
-
-usdl4edu:Dissertao--Estgio-objective11 a usdl4edu:Objective ;
-    dc:description "critical description of the development phases                   - results presentation, discussion and analysis" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm11-5-1,
-        usdl4edu:acm8-4-3-3,
-        usdl4edu:acm8-5-6-5 .
-
-usdl4edu:Dissertao--Estgio-objective12 a usdl4edu:Objective ;
-    dc:description "" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
-
-usdl4edu:Dissertao--Estgio-objective13 a usdl4edu:Objective ;
-    dc:description "related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm11-5-1,
-        usdl4edu:acm3-3-3,
-        usdl4edu:acm5-1-1-3-3-1,
-        usdl4edu:acm5-2-5,
-        usdl4edu:acm5-3-3-2,
-        usdl4edu:acm8-4-3-3,
-        usdl4edu:acm8-5-6-5 .
-
-usdl4edu:Dissertao--Estgio-objective2 a usdl4edu:Objective ;
-    dc:description "selection of tools and methodologies to be used                   - requirements analysis related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
+usdl4edu:Dissertao---Estgio-objective11 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
     usdl4edu:hasContext usdl4edu:acm11-5-1,
         usdl4edu:acm2-10-1-4,
@@ -279,24 +247,21 @@ usdl4edu:Dissertao--Estgio-objective2 a usdl4edu:Objective ;
         usdl4edu:acm8-4-3-3,
         usdl4edu:acm8-5-6-5 .
 
-usdl4edu:Dissertao--Estgio-objective3 a usdl4edu:Objective ;
-    dc:description "used                   - requirements analysis related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+usdl4edu:Dissertao---Estgio-objective12 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
     usdl4edu:hasContext usdl4edu:acm11-5-1,
         usdl4edu:acm3-3-3,
         usdl4edu:acm5-1-1-3-3-1,
         usdl4edu:acm5-2-5,
-        usdl4edu:acm5-3-1-1,
         usdl4edu:acm5-3-3-2,
         usdl4edu:acm8-4-3-3,
         usdl4edu:acm8-5-6-5 .
 
-usdl4edu:Dissertao--Estgio-objective4 a usdl4edu:Objective ;
-    dc:description "applied research integration in the working world writing of a document with the results of the internship / thesis including the following topics:                   - analysis of the state of the art                   - justified selection of tools and methodologies to be used                   - requirements analysis related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm11-3-4,
-        usdl4edu:acm11-5-1,
-        usdl4edu:acm12-11-3-1,
+usdl4edu:Dissertao---Estgio-objective13 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm11-5-1,
         usdl4edu:acm2-10-1-4,
         usdl4edu:acm2-6-7,
         usdl4edu:acm3-3-3,
@@ -304,13 +269,32 @@ usdl4edu:Dissertao--Estgio-objective4 a usdl4edu:Objective ;
         usdl4edu:acm5-2-5,
         usdl4edu:acm5-3-1-1,
         usdl4edu:acm5-3-3-2,
-        usdl4edu:acm8-4-3-2-3,
         usdl4edu:acm8-4-3-3,
-        usdl4edu:acm8-5-1-2,
         usdl4edu:acm8-5-6-5 .
 
-usdl4edu:Dissertao--Estgio-objective5 a usdl4edu:Objective ;
-    dc:description "related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
+usdl4edu:Dissertao---Estgio-objective2 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm11-5-1,
+        usdl4edu:acm8-4-3-3,
+        usdl4edu:acm8-5-6-5 .
+
+usdl4edu:Dissertao---Estgio-objective3 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm11-5-1,
+        usdl4edu:acm2-10-1-4,
+        usdl4edu:acm2-6-7,
+        usdl4edu:acm3-3-3,
+        usdl4edu:acm5-1-1-3-3-1,
+        usdl4edu:acm5-2-5,
+        usdl4edu:acm5-3-1-1,
+        usdl4edu:acm5-3-3-2,
+        usdl4edu:acm8-4-3-3,
+        usdl4edu:acm8-5-6-5 .
+
+usdl4edu:Dissertao---Estgio-objective4 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm11-5-1,
         usdl4edu:acm3-3-3,
@@ -320,8 +304,20 @@ usdl4edu:Dissertao--Estgio-objective5 a usdl4edu:Objective ;
         usdl4edu:acm8-4-3-3,
         usdl4edu:acm8-5-6-5 .
 
-usdl4edu:Dissertao--Estgio-objective6 a usdl4edu:Objective ;
-    dc:description "experience of project development in enterprise environment experience with basic and applied research integration in the working world writing of a document with the results of the internship / thesis including the following topics:                   - analysis of the state of the art                   - justified selection of tools and methodologies to be used                   - requirements analysis related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
+usdl4edu:Dissertao---Estgio-objective5 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm11-5-1,
+        usdl4edu:acm3-3-3,
+        usdl4edu:acm5-1-1-3-3-1,
+        usdl4edu:acm5-2-5,
+        usdl4edu:acm5-3-1-1,
+        usdl4edu:acm5-3-3-2,
+        usdl4edu:acm8-4-3-3,
+        usdl4edu:acm8-5-6-5 .
+
+usdl4edu:Dissertao---Estgio-objective6 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm11-3-4,
         usdl4edu:acm11-5-1,
@@ -342,9 +338,27 @@ usdl4edu:Dissertao--Estgio-objective6 a usdl4edu:Objective ;
         usdl4edu:acm8-5-6-5,
         usdl4edu:acm8-5-8-3-1 .
 
-usdl4edu:Dissertao--Estgio-objective7 a usdl4edu:Objective ;
-    dc:description "related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+usdl4edu:Dissertao---Estgio-objective7 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm11-3-4,
+        usdl4edu:acm11-5-1,
+        usdl4edu:acm12-11-3-1,
+        usdl4edu:acm2-10-1-4,
+        usdl4edu:acm2-6-7,
+        usdl4edu:acm3-3-3,
+        usdl4edu:acm5-1-1-3-3-1,
+        usdl4edu:acm5-2-5,
+        usdl4edu:acm5-3-1-1,
+        usdl4edu:acm5-3-3-2,
+        usdl4edu:acm8-4-3-2-3,
+        usdl4edu:acm8-4-3-3,
+        usdl4edu:acm8-5-1-2,
+        usdl4edu:acm8-5-6-5 .
+
+usdl4edu:Dissertao---Estgio-objective8 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm11-5-1,
         usdl4edu:acm3-3-3,
         usdl4edu:acm5-1-1-3-3-1,
@@ -353,50 +367,26 @@ usdl4edu:Dissertao--Estgio-objective7 a usdl4edu:Objective ;
         usdl4edu:acm8-4-3-3,
         usdl4edu:acm8-5-6-5 .
 
-usdl4edu:Dissertao--Estgio-objective8 a usdl4edu:Objective ;
-    dc:description "selection of tools and methodologies to be used                   - requirements analysis related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasContext usdl4edu:acm11-5-1,
-        usdl4edu:acm2-10-1-4,
-        usdl4edu:acm2-6-7,
-        usdl4edu:acm3-3-3,
-        usdl4edu:acm5-1-1-3-3-1,
-        usdl4edu:acm5-2-5,
-        usdl4edu:acm5-3-1-1,
-        usdl4edu:acm5-3-3-2,
-        usdl4edu:acm8-4-3-3,
-        usdl4edu:acm8-5-6-5 .
-
-usdl4edu:Dissertao--Estgio-objective9 a usdl4edu:Objective ;
-    dc:description "justified selection of tools and methodologies to be used                   - requirements analysis related with the topic to be developed                   - high level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - detailed specification of the system to be developed / work to be performed                   - critical description of the development phases                   - results presentation, discussion and analysis" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm11-5-1,
-        usdl4edu:acm2-10-1-4,
-        usdl4edu:acm2-6-7,
-        usdl4edu:acm3-3-3,
-        usdl4edu:acm5-1-1-3-3-1,
-        usdl4edu:acm5-2-5,
-        usdl4edu:acm5-3-1-1,
-        usdl4edu:acm5-3-3-2,
-        usdl4edu:acm8-4-3-3,
-        usdl4edu:acm8-5-6-5 .
+usdl4edu:Dissertao---Estgio-objective9 a usdl4edu:Objective ;
+    dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Dissertao--Estgio-objectives a usdl4edu:OverallObjective ;
     dc:description "The main goals of this course are the following:  Project techniques and development of software and information and communication systems Development of technological projects Experience of project development in enterprise environment Experience with basic and applied research Integration in the working world Writing of a document with the results of the internship / thesis including the following topics:                   - Analysis of the state of the art                   - Justified selection of tools and methodologies to be used                   - Requirements analysis related with the topic to be developed                   - High level specification of the system to be developed / work to be performed including specific objectives and scheduling for the second semester                   - Detailed specification of the system to be developed / work to be performed                   - Critical description of the development phases                   - Results presentation, discussion and analysis " ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasPartObjective usdl4edu:Dissertao--Estgio-objective1,
-        usdl4edu:Dissertao--Estgio-objective10,
-        usdl4edu:Dissertao--Estgio-objective11,
-        usdl4edu:Dissertao--Estgio-objective12,
-        usdl4edu:Dissertao--Estgio-objective13,
-        usdl4edu:Dissertao--Estgio-objective2,
-        usdl4edu:Dissertao--Estgio-objective3,
-        usdl4edu:Dissertao--Estgio-objective4,
-        usdl4edu:Dissertao--Estgio-objective5,
-        usdl4edu:Dissertao--Estgio-objective6,
-        usdl4edu:Dissertao--Estgio-objective7,
-        usdl4edu:Dissertao--Estgio-objective8,
-        usdl4edu:Dissertao--Estgio-objective9 .
+    usdl4edu:hasPartObjective usdl4edu:Dissertao---Estgio-objective1,
+        usdl4edu:Dissertao---Estgio-objective10,
+        usdl4edu:Dissertao---Estgio-objective11,
+        usdl4edu:Dissertao---Estgio-objective12,
+        usdl4edu:Dissertao---Estgio-objective13,
+        usdl4edu:Dissertao---Estgio-objective2,
+        usdl4edu:Dissertao---Estgio-objective3,
+        usdl4edu:Dissertao---Estgio-objective4,
+        usdl4edu:Dissertao---Estgio-objective5,
+        usdl4edu:Dissertao---Estgio-objective6,
+        usdl4edu:Dissertao---Estgio-objective7,
+        usdl4edu:Dissertao---Estgio-objective8,
+        usdl4edu:Dissertao---Estgio-objective9 .
 
 usdl4edu:Dissertao--Estgio-prerequisites a usdl4edu:OverallPrerequisite ;
     dc:description "BsC in Informatics Engineering or similar and courses of the 1 st " .
@@ -413,15 +403,31 @@ usdl4edu:Dissertao--Estgio-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Dissertação / Estágio" .
 
 usdl4edu:Engenharia-de-Redes-objective1 a usdl4edu:Objective ;
-    dc:description "operação de redes informáticas:  aplicações de comunicação; arquiteturas protocolares; sistemas de cablagem; tecnologias de comunicação; equipamentos de comunicação; e metodologias de planeamento e projeto" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+    dc:description " Inglês: The main objective of this course is to transmit to the students an integrating perspective of the various topics that are necessary for planning, designing and deploying communication infrastructures for the support of telematics applications" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm8-4-4 .
 
 usdl4edu:Engenharia-de-Redes-objective2 a usdl4edu:Objective ;
-    dc:description "preparação do aluno nas diversas áreas necessárias à concepção, implementação e operação de redes informáticas:  aplicações de comunicação; arquiteturas protocolares; sistemas de cablagem; tecnologias de comunicação; equipamentos de comunicação; e metodologias de planeamento e projeto" ;
+    dc:description " Neste contexto, a disciplina de Engenharia de Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção, implementação e operação de Redes Informáticas:  Aplicações de comunicação; Arquiteturas protocolares; Sistemas de cablagem; Tecnologias de comunicação; Equipamentos de comunicação; E metodologias de planeamento e projeto" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Engenharia-de-Redes-objective3 a usdl4edu:Objective ;
-    dc:description "order to allow students to acquire all the knowledge and skills they will need to design communications networks, taking into account all the design phases and components" ;
+    dc:description " Neste contexto, a disciplina de Engenharia de Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção, implementação e operação de Redes Informáticas:  Aplicações de comunicação; Arquiteturas protocolares; Sistemas de cablagem; Tecnologias de comunicação; Equipamentos de comunicação; E metodologias de planeamento e projeto" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Engenharia-de-Redes-objective4 a usdl4edu:Objective ;
+    dc:description "Português: A unidade curricular de Engenharia de Redes tem por objectivo transmitir aos alunos uma perspectiva integradora das várias matérias necessárias ao planeamento, projeto e instalação de infraestruturas de comunicação para suporte de aplicações telemáticas" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
+
+usdl4edu:Engenharia-de-Redes-objective5 a usdl4edu:Objective ;
+    dc:description " Inglês: The main objective of this course is to transmit to the students an integrating perspective of the various topics that are necessary for planning, designing and deploying communication infrastructures for the support of telematics applications" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm8-4-4 .
+
+usdl4edu:Engenharia-de-Redes-objective6 a usdl4edu:Objective ;
+    dc:description " This is a course with a strong emphasis on an engineering perspective, in order to allow students to acquire all the knowledge and skills they will need to design communications networks, taking into account all the design phases and components" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
     usdl4edu:hasContext usdl4edu:acm1-2-8,
         usdl4edu:acm4,
@@ -431,22 +437,6 @@ usdl4edu:Engenharia-de-Redes-objective3 a usdl4edu:Objective ;
         usdl4edu:acm4-6-3-4-2,
         usdl4edu:acm4-8-10 ;
     usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual .
-
-usdl4edu:Engenharia-de-Redes-objective4 a usdl4edu:Objective ;
-    dc:description "support of telematics applications" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm8-4-4 .
-
-usdl4edu:Engenharia-de-Redes-objective5 a usdl4edu:Objective ;
-    dc:description "designing and deploying communication infrastructures for the support of telematics applications" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8,
-        usdl4edu:acm8-4-4 .
-
-usdl4edu:Engenharia-de-Redes-objective6 a usdl4edu:Objective ;
-    dc:description "planeamento, projeto e instalação de infraestruturas de comunicação para suporte de aplicações telemáticas" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
 
 usdl4edu:Engenharia-de-Redes-objectives a usdl4edu:OverallObjective ;
     dc:description "Português: A unidade curricular de Engenharia de Redes tem por objectivo transmitir aos alunos uma perspectiva integradora das várias matérias necessárias ao planeamento, projeto e instalação de infraestruturas de comunicação para suporte de aplicações telemáticas. Trata-se de uma disciplina com um forte carácter de engenharia, de modo a proporcionar aos alunos a aquisição dos conhecimentos e das competências necessárias ao projeto de redes informáticas, tendo em conta todas as suas fases e vertentes. Neste contexto, a disciplina de Engenharia de Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção, implementação e operação de Redes Informáticas:  Aplicações de comunicação; Arquiteturas protocolares; Sistemas de cablagem; Tecnologias de comunicação; Equipamentos de comunicação; E metodologias de planeamento e projeto. Inglês: The main objective of this course is to transmit to the students an integrating perspective of the various topics that are necessary for planning, designing and deploying communication infrastructures for the support of telematics applications. This is a course with a strong emphasis on an engineering perspective, in order to allow students to acquire all the knowledge and skills they will need to design communications networks, taking into account all the design phases and components. In this context, the key motivation of this course it to prepare the students in the areas which are required to plan, design, implement and operate data networks:  Communication applications; Network architectures; Cabling systems; Communication technologies; Network equipment; And planning and design methodologies. " ;
@@ -495,26 +485,13 @@ usdl4edu:Estudo-e-Desenvolvimento-de-Jogos-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Licnio-Gomes-Roque ;
     usdl4edu:hasTitle "Estudo e Desenvolvimento de Jogos" .
 
-usdl4edu:Fundamentos-de-Sistemas-de-Comunicao-objective a usdl4edu:Objective ;
-    dc:description "- the key objectives of this course are the study of the foundations of transmission and switching systems " .
+usdl4edu:Fernando-Jos-Barros-Rodrigues-da-Silva a foaf:Person ;
+    foaf:firstName "Fernando" ;
+    foaf:lastName "Silva" .
 
-usdl4edu:Fundamentos-de-Sistemas-de-Comunicao-objectives a usdl4edu:OverallObjective ;
-    dc:description "- The key objectives of this course are the study of the foundations of transmission and switching systems " ;
-    usdl4edu:hasPartObjective usdl4edu:Fundamentos-de-Sistemas-de-Comunicao-objective .
-
-usdl4edu:Fundamentos-de-Sistemas-de-Comunicao-prerequisites a usdl4edu:OverallPrerequisite ;
-    dc:description "BsC in Informatics Engineering or similar. " .
-
-usdl4edu:Fundamentos-de-Sistemas-de-Comunicao-unit a usdl4edu:CourseUnit ;
-    dc:description "- Knowledge and ability to understand: " ;
-    usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres ;
-    usdl4edu:hasEcts "6" ;
-    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
-    usdl4edu:hasOverallObjective usdl4edu:Fundamentos-de-Sistemas-de-Comunicao-objectives ;
-    usdl4edu:hasOverallPrerequisite usdl4edu:Fundamentos-de-Sistemas-de-Comunicao-prerequisites ;
-    usdl4edu:hasSemester 1 ;
-    usdl4edu:hasTeacher usdl4edu:Edmundo-Heitor-da-Silva-Monteiro ;
-    usdl4edu:hasTitle "Fundamentos de Sistemas de Comunicação" .
+usdl4edu:Filipe-Alexandre-Madeira-Rodrigues-Neves a foaf:Person ;
+    foaf:firstName "Filipe" ;
+    foaf:lastName "Neves" .
 
 usdl4edu:Gesto-de-Empresas-objective a usdl4edu:Objective ;
     dc:description "português:  trata-se de uma disciplina em que se pretende dar uma visão genérica do que é uma empresa, das suas principais componentes e de quais as suas interacções com o meio envolvente.     • objectivos   – conhecer as etapas de constituição de uma empresa   – conhecer as principais unidades funcionais de uma empresa e suas interdependências   – conhecer as componentes de um plano de negócios e ser capaz de elaborar o respectivo documento   – ser capaz de gerir uma empresa em todas as suas vertentes (produção, marketing e finanças) num ambiente internacional e competitivo. inglês:  " ;
@@ -539,7 +516,7 @@ usdl4edu:Gesto-de-Empresas-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Gestão de Empresas" .
 
 usdl4edu:Gesto-de-Projectos-de-Software-objective1 a usdl4edu:Objective ;
-    dc:description "used to manage and execute a software project as an engineering activity, i" ;
+    dc:description "   Inglês: In Software Project Management the students will get knowledge through hands-on experience on the main techniques used to manage and execute a software project as an engineering activity, i" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm12-3-6,
         usdl4edu:acm13-1-4-4-7,
@@ -553,7 +530,7 @@ usdl4edu:Gesto-de-Projectos-de-Software-objective1 a usdl4edu:Objective ;
         usdl4edu:acm9-9-5 .
 
 usdl4edu:Gesto-de-Projectos-de-Software-objective2 a usdl4edu:Objective ;
-    dc:description "experience on the main techniques used to manage and execute a software project as an engineering activity, i" ;
+    dc:description "   Inglês: In Software Project Management the students will get knowledge through hands-on experience on the main techniques used to manage and execute a software project as an engineering activity, i" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm12-3-6,
         usdl4edu:acm13-1-2-1-1,
@@ -570,7 +547,7 @@ usdl4edu:Gesto-de-Projectos-de-Software-objective2 a usdl4edu:Objective ;
         usdl4edu:acm9-9-5 .
 
 usdl4edu:Gesto-de-Projectos-de-Software-objective3 a usdl4edu:Objective ;
-    dc:description "execute a software project as an engineering activity, i" ;
+    dc:description "   Inglês: In Software Project Management the students will get knowledge through hands-on experience on the main techniques used to manage and execute a software project as an engineering activity, i" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
     usdl4edu:hasContext usdl4edu:acm12-3-6,
         usdl4edu:acm13-1-4-4-7,
@@ -605,7 +582,24 @@ usdl4edu:Gesto-de-Projectos-de-Software-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Gestão de Projectos de Software" .
 
 usdl4edu:Gesto-de-Sistemas-de-Informao-objective1 a usdl4edu:Objective ;
-    dc:description "solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as itil, cobit and togaf" ;
+    dc:description " Inglês: Nowadays, Information Systems (IS) play an important role to support strategic and operational objectives in organizations" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm14-2 .
+
+usdl4edu:Gesto-de-Sistemas-de-Informao-objective2 a usdl4edu:Objective ;
+    dc:description " It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as ITIL, COBIT and TOGAF" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm11-3-2,
+        usdl4edu:acm12-2-2,
+        usdl4edu:acm12-2-2-1,
+        usdl4edu:acm12-2-2-2,
+        usdl4edu:acm12-2-2-3,
+        usdl4edu:acm5-1-1-3-3,
+        usdl4edu:acm5-2-1-2-14,
+        usdl4edu:acm9-1-1 .
+
+usdl4edu:Gesto-de-Sistemas-de-Informao-objective3 a usdl4edu:Objective ;
+    dc:description " It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as ITIL, COBIT and TOGAF" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm11-3-2,
         usdl4edu:acm12-2-2,
@@ -616,33 +610,16 @@ usdl4edu:Gesto-de-Sistemas-de-Informao-objective1 a usdl4edu:Objective ;
         usdl4edu:acm5-2-1-2-14,
         usdl4edu:acm9-1-1 .
 
-usdl4edu:Gesto-de-Sistemas-de-Informao-objective2 a usdl4edu:Objective ;
-    dc:description "operacionais das organizações" ;
+usdl4edu:Gesto-de-Sistemas-de-Informao-objective4 a usdl4edu:Objective ;
+    dc:description "Português: Hoje em dia, os Sistemas de Informação (SI) desempenham um papel importante ao apoio dos objectivos estratégicos e operacionais das organizações" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
-usdl4edu:Gesto-de-Sistemas-de-Informao-objective3 a usdl4edu:Objective ;
-    dc:description "explains to students the main concepts, principles, and methodologies required to manage is in organizations" ;
+usdl4edu:Gesto-de-Sistemas-de-Informao-objective5 a usdl4edu:Objective ;
+    dc:description " This course explains to students the main concepts, principles, and methodologies required to manage IS in organizations" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
     usdl4edu:hasContext usdl4edu:acm14-2,
         usdl4edu:acm2-6-7 ;
     usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
-
-usdl4edu:Gesto-de-Sistemas-de-Informao-objective4 a usdl4edu:Objective ;
-    dc:description "support strategic and operational objectives in organizations" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm14-2 .
-
-usdl4edu:Gesto-de-Sistemas-de-Informao-objective5 a usdl4edu:Objective ;
-    dc:description "critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as itil, cobit and togaf" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm11-3-2,
-        usdl4edu:acm12-2-2,
-        usdl4edu:acm12-2-2-1,
-        usdl4edu:acm12-2-2-2,
-        usdl4edu:acm12-2-2-3,
-        usdl4edu:acm5-1-1-3-3,
-        usdl4edu:acm5-2-1-2-14,
-        usdl4edu:acm9-1-1 .
 
 usdl4edu:Gesto-de-Sistemas-de-Informao-objectives a usdl4edu:OverallObjective ;
     dc:description "Português: Hoje em dia, os Sistemas de Informação (SI) desempenham um papel importante ao apoio dos objectivos estratégicos e operacionais das organizações. Neste contexto, a sua implementação e gestão são de importância capital. Esta unidade curricular explica aos alunos os principais conceitos, princípios e metodologias necessárias para gerir SI em organizações. A unidade também fornece competências necessárias em síntese, comunicação escrita, resolução de problemas, raciocínio crítico e aplicação prática de conhecimento em áreas como fluxo de trabalho, gestão de processos de negócio e metodologias de gestão, tais como o ITIL, o COBIT e o TOGAF. Inglês: Nowadays, Information Systems (IS) play an important role to support strategic and operational objectives in organizations. In this context, their implementation and management are of capital importance. This course explains to students the main concepts, principles, and methodologies required to manage IS in organizations. It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as ITIL, COBIT and TOGAF. " ;
@@ -669,34 +646,25 @@ usdl4edu:Gesto-de-Sistemas-de-Informao-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Gestão de Sistemas de Informação" .
 
 usdl4edu:Gesto-de-Sistemas-e-Redes-objective1 a usdl4edu:Objective ;
-    dc:description "operação de infraestruturas informáticas, incluindo administração de sistemas; administração de serviços de rede; e gestão de redes e plataformas informáticas" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Gesto-de-Sistemas-e-Redes-objective2 a usdl4edu:Objective ;
-    dc:description "computing infrastructures in general" ;
+    dc:description " Inglês: The main objective of this course is to prepare students for the tasks of systems and network administration and management of networking and computing infrastructures in general" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm12-2-14 .
 
+usdl4edu:Gesto-de-Sistemas-e-Redes-objective2 a usdl4edu:Objective ;
+    dc:description " Neste contexto, a disciplina de Gestão de Sistemas e Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção e operação de infraestruturas informáticas, incluindo administração de sistemas; administração de serviços de rede; e gestão de redes e plataformas informáticas" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
 usdl4edu:Gesto-de-Sistemas-e-Redes-objective3 a usdl4edu:Objective ;
-    dc:description "preparar os alunos para as funções de administrador de sistemas e redes e de gestor de infraestruturas informáticas em geral, por meio de uma abordagem aos principais problemas que se colocam a um gestor de infraestruturas informáticas" ;
+    dc:description "Português: O objetivo da unidade curricular de Gestão de Sistemas e Redes é preparar os alunos para as funções de administrador de sistemas e redes e de gestor de infraestruturas informáticas em geral, por meio de uma abordagem aos principais problemas que se colocam a um gestor de infraestruturas informáticas" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Gesto-de-Sistemas-e-Redes-objective4 a usdl4edu:Objective ;
-    dc:description "achieve this goal, this course will address the main problems faced by managers of computing and networking infrastructures" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasContext usdl4edu:acm12-2-14,
-        usdl4edu:acm4-6-3 .
-
-usdl4edu:Gesto-de-Sistemas-e-Redes-objective5 a usdl4edu:Objective ;
-    dc:description "general" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
-
-usdl4edu:Gesto-de-Sistemas-e-Redes-objective6 a usdl4edu:Objective ;
-    dc:description "general" ;
+    dc:description " Inglês: The main objective of this course is to prepare students for the tasks of systems and network administration and management of networking and computing infrastructures in general",
+        "  In this context, this course will allow students to acquire the knowledge and skills necessary to design and operate such infrastructures, including systems administration, administration of network services, and network management in general" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
-usdl4edu:Gesto-de-Sistemas-e-Redes-objective7 a usdl4edu:Objective ;
-    dc:description "design and operate such infrastructures, including systems administration, administration of network services, and network management in general" ;
+usdl4edu:Gesto-de-Sistemas-e-Redes-objective5 a usdl4edu:Objective ;
+    dc:description "  In this context, this course will allow students to acquire the knowledge and skills necessary to design and operate such infrastructures, including systems administration, administration of network services, and network management in general" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8,
         usdl4edu:acm12-10-5,
@@ -717,6 +685,17 @@ usdl4edu:Gesto-de-Sistemas-e-Redes-objective7 a usdl4edu:Objective ;
         usdl4edu:acm8-1,
         usdl4edu:acm8-4-6,
         usdl4edu:acm9-1-1 .
+
+usdl4edu:Gesto-de-Sistemas-e-Redes-objective6 a usdl4edu:Objective ;
+    dc:description " Inglês: The main objective of this course is to prepare students for the tasks of systems and network administration and management of networking and computing infrastructures in general",
+        "  In this context, this course will allow students to acquire the knowledge and skills necessary to design and operate such infrastructures, including systems administration, administration of network services, and network management in general" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand .
+
+usdl4edu:Gesto-de-Sistemas-e-Redes-objective7 a usdl4edu:Objective ;
+    dc:description " To achieve this goal, this course will address the main problems faced by managers of computing and networking infrastructures" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm12-2-14,
+        usdl4edu:acm4-6-3 .
 
 usdl4edu:Gesto-de-Sistemas-e-Redes-objectives a usdl4edu:OverallObjective ;
     dc:description "Português: O objetivo da unidade curricular de Gestão de Sistemas e Redes é preparar os alunos para as funções de administrador de sistemas e redes e de gestor de infraestruturas informáticas em geral, por meio de uma abordagem aos principais problemas que se colocam a um gestor de infraestruturas informáticas. Neste contexto, a disciplina de Gestão de Sistemas e Redes tem como motivação a preparação do aluno nas diversas áreas necessárias à concepção e operação de infraestruturas informáticas, incluindo administração de sistemas; administração de serviços de rede; e gestão de redes e plataformas informáticas. Inglês: The main objective of this course is to prepare students for the tasks of systems and network administration and management of networking and computing infrastructures in general. To achieve this goal, this course will address the main problems faced by managers of computing and networking infrastructures.  In this context, this course will allow students to acquire the knowledge and skills necessary to design and operate such infrastructures, including systems administration, administration of network services, and network management in general. " ;
@@ -742,6 +721,10 @@ usdl4edu:Gesto-de-Sistemas-e-Redes-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 1 ;
     usdl4edu:hasTeacher usdl4edu:Paulo-Alexandre-Ferreira-Simes ;
     usdl4edu:hasTitle "Gestão de Sistemas e Redes" .
+
+usdl4edu:Helder-de-Jesus-Arajo a foaf:Person ;
+    foaf:firstName "Helder" ;
+    foaf:lastName "Araújo" .
 
 usdl4edu:Informtica-Mdica-objective a usdl4edu:Objective ;
     dc:description "fornecer de uma forma sistemática as tecnologias e os fundamentos para a integração e desenvolvimento de sistemas de informação e de apoio à decisão em aplicações clínicas. em particular, é objectivo exporem-se os protocolos e abordagens mais significativas em sistemas de informação clínicos, as arquiteturas e tecnologias utilizadas para a construção de sistemas telemédicos (nomeadamente de sistemas phealth), e ainda algoritmos de análise de informação clínica para apoio ao diagnóstico.  " .
@@ -787,23 +770,23 @@ usdl4edu:Integrao-de-Sistemas-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Integração de Sistemas" .
 
 usdl4edu:Inteligncia-Artificial-objective1 a usdl4edu:Objective ;
-    dc:description "solving, decision-making, team work, critical reasoning, autonomous learning, practical application of theoretical knowledge, and research" ;
+    dc:description " Acquiring competencies in synthesis and analysis, organization and planning, written communication, problem solving, decision-making, team work, critical reasoning, autonomous learning, practical application of theoretical knowledge, and research" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm11-3-2 .
+
+usdl4edu:Inteligncia-Artificial-objective2 a usdl4edu:Objective ;
+    dc:description " Acquiring competencies in synthesis and analysis, organization and planning, written communication, problem solving, decision-making, team work, critical reasoning, autonomous learning, practical application of theoretical knowledge, and research" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm11-3-2,
         usdl4edu:acm11-4-1-3-1,
         usdl4edu:acm6-7-1-13-1 .
 
-usdl4edu:Inteligncia-Artificial-objective2 a usdl4edu:Objective ;
-    dc:description "critical reasoning, autonomous learning, practical application of theoretical knowledge, and research" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm11-3-2 .
-
 usdl4edu:Inteligncia-Artificial-objective3 a usdl4edu:Objective ;
-    dc:description "organização e planificação, comunicação escrita, resolução de problemas, decisão, trabalho em grupo, raciocínio crítico, aprendizagem autónoma, aplicação prática dos conhecimentos, e investigação" ;
+    dc:description " Aquisição de competências em análise e síntese, organização e planificação, comunicação escrita, resolução de problemas, decisão, trabalho em grupo, raciocínio crítico, aprendizagem autónoma, aplicação prática dos conhecimentos, e investigação" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Inteligncia-Artificial-objective4 a usdl4edu:Objective ;
-    dc:description "planificação, comunicação escrita, resolução de problemas, decisão, trabalho em grupo, raciocínio crítico, aprendizagem autónoma, aplicação prática dos conhecimentos, e investigação" ;
+    dc:description " Aquisição de competências em análise e síntese, organização e planificação, comunicação escrita, resolução de problemas, decisão, trabalho em grupo, raciocínio crítico, aprendizagem autónoma, aplicação prática dos conhecimentos, e investigação" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
 
@@ -831,7 +814,11 @@ usdl4edu:Inteligncia-Artificial-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Inteligência Artificial" .
 
 usdl4edu:Inteligncia-no-Negcio-objective1 a usdl4edu:Objective ;
-    dc:description "show how the techniques of data warehouses (dw), olap and data mining (dm) can be combined in building software solutions for decision support" ;
+    dc:description " Inglês: The objectives of this course are to study the main methodologies for developing business intelligence solutions and show how the techniques of Data Warehouses (DW), OLAP and Data Mining (DM) can be combined in building software solutions for decision support" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Inteligncia-no-Negcio-objective2 a usdl4edu:Objective ;
+    dc:description " Inglês: The objectives of this course are to study the main methodologies for developing business intelligence solutions and show how the techniques of Data Warehouses (DW), OLAP and Data Mining (DM) can be combined in building software solutions for decision support" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm5-3-1-4-1,
         usdl4edu:acm5-3-3,
@@ -843,12 +830,8 @@ usdl4edu:Inteligncia-no-Negcio-objective1 a usdl4edu:Objective ;
         usdl4edu:acm8-3-8-6,
         usdl4edu:acm8-4-3 .
 
-usdl4edu:Inteligncia-no-Negcio-objective2 a usdl4edu:Objective ;
-    dc:description "support" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
-
 usdl4edu:Inteligncia-no-Negcio-objective3 a usdl4edu:Objective ;
-    dc:description "combined in building software solutions for decision support" ;
+    dc:description " Inglês: The objectives of this course are to study the main methodologies for developing business intelligence solutions and show how the techniques of Data Warehouses (DW), OLAP and Data Mining (DM) can be combined in building software solutions for decision support" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm8-3-4 .
 
@@ -874,7 +857,7 @@ usdl4edu:Inteligncia-no-Negcio-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Inteligência no Negócio" .
 
 usdl4edu:Interaco-Humano-Computador-objective1 a usdl4edu:Objective ;
-    dc:description "design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de hci" ;
+    dc:description " Mais especificamente, o estudante deverá compreender o papel dos factores humanos na interacção e interface, compreender e aplicar técnicas de prototipagem para investigação e ensaio de proposta de design, compreender e aplicar métodos de análise e modelação de utilizadores, tarefas e cenários, de análise e design de contextos e a sua utilidade para a formulação de propostas de design de interacção, compreender os modelos e modalidades de interacção, de visualização e de manipulação, e a sua adequação ao propósito, contexto de interacção e dispositivos computacionais, analisar e conceber a interacção e interface para determinados contextos de uso, tendo em vista a optimização da qualidade da experiência de interacção, com base em abordagens contextuais e participativas, desenvolver a capacidade de construção de interfaces gráficas inovadoras e coerentes com o propósito, desenvolver a capacidade de avaliação da usabilidade e da experiência de interacção com domínio de técnicas variadas e sua adequação em contexto de projecto, desenvolver a capacidade de tradução de objectivos e restrições em requisitos de projecto de interacção e sua prioritização e gestão, desenvolver a capacidade de aprendizagem autónoma no domínio de HCI" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8,
         usdl4edu:acm10-2-1-1,
@@ -900,12 +883,32 @@ usdl4edu:Interaco-Humano-Computador-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Licnio-Gomes-Roque ;
     usdl4edu:hasTitle "Interacção Humano-Computador" .
 
+usdl4edu:Joo-Manuel-Frade-Belo-Bicker a foaf:Person ;
+    foaf:firstName "João" ;
+    foaf:lastName "Bicker" .
+
+usdl4edu:Joo-Paulo-da-Silva-Machado-Garcia-Vilela a foaf:Person ;
+    foaf:firstName "João" ;
+    foaf:lastName "Vilela" .
+
+usdl4edu:Jorge-Manuel-Oliveira-Henriques a foaf:Person ;
+    foaf:firstName "Jorge" ;
+    foaf:lastName "Henriques" .
+
+usdl4edu:Jorge-Miguel-S-Silva a foaf:Person ;
+    foaf:firstName "Jorge" ;
+    foaf:lastName "Silva" .
+
 usdl4edu:Laboratrio-de-Comunicaes-objective1 a usdl4edu:Objective ;
-    dc:description "experimentais na área das comunicações e telemática, familiarização com o ambiente de laboratório, e o aprofundamento das técnicas de escrita de documentação e de realização de apresentações científicas" ;
+    dc:description " A disciplina permite ao aluno a aprendizagem de técnicas experimentais na área das Comunicações e Telemática, familiarização com o ambiente de laboratório, e o aprofundamento das técnicas de escrita de documentação e de realização de apresentações científicas" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Laboratrio-de-Comunicaes-objective2 a usdl4edu:Objective ;
-    dc:description "" ;
+    dc:description " ",
+        " --------------------------------------------------------------------------------- The main objective of this course is the sedimentation and integration of the knowledge gained in the courses in the area of communications and telematics, providing the basis for the MsC thesis in this area",
+        " A disciplina permite ao aluno a aprendizagem de técnicas experimentais na área das Comunicações e Telemática, familiarização com o ambiente de laboratório, e o aprofundamento das técnicas de escrita de documentação e de realização de apresentações científicas",
+        " This course allows that the student learns experimental techniques in the communication and telematics area, experience in laboratory environment, and the practice of scientific writing and presentations",
+        "Esta disciplina tem como objectivo principal a sedimentação e integração dos conhecimentos adquiridos nas disciplinas na área de Comunicações e Telemática, tendo o potencial de preparar a realização da dissertação de mestrado na área das Comunicações e Telemática" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Laboratrio-de-Comunicaes-objectives a usdl4edu:OverallObjective ;
@@ -927,6 +930,10 @@ usdl4edu:Laboratrio-de-Comunicaes-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasSemester 2 ;
     usdl4edu:hasTeacher usdl4edu:Fernando-Pedro-Lopes-Boavida-Fernandes ;
     usdl4edu:hasTitle "Laboratório de Comunicações" .
+
+usdl4edu:Lus-Miguel-Machado-Lopes-Macedo a foaf:Person ;
+    foaf:firstName "Luís" ;
+    foaf:lastName "Macedo" .
 
 usdl4edu:Manipuladores-e-Robtica-unit a usdl4edu:CourseUnit ;
     dc:description "" ;
@@ -953,7 +960,6 @@ São definidas três Opções Temáticas, que coincidem largamente com as áreas
         usdl4edu:Dissertao--Estgio-unit,
         usdl4edu:Engenharia-de-Redes-unit,
         usdl4edu:Estudo-e-Desenvolvimento-de-Jogos-unit,
-        usdl4edu:Fundamentos-de-Sistemas-de-Comunicao-unit,
         usdl4edu:Gesto-de-Empresas-unit,
         usdl4edu:Gesto-de-Projectos-de-Software-unit,
         usdl4edu:Gesto-de-Sistemas-de-Informao-unit,
@@ -968,6 +974,7 @@ São definidas três Opções Temáticas, que coincidem largamente com as áreas
         usdl4edu:Mobilidade-em-Redes-de-Comunicao-unit,
         usdl4edu:Modelao-e-Desempenho-de-Redes-unit,
         usdl4edu:Mtodos-de-Investigao-unit,
+        usdl4edu:Multimdia-Avanada-unit,
         usdl4edu:Multimdia-e-Aprendizagem-unit,
         usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-unit,
         usdl4edu:Planeamento-e-Gesto-da-Produo-unit,
@@ -1017,22 +1024,20 @@ usdl4edu:Mobilidade-em-Redes-de-Comunicao-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Mobilidade em Redes de Comunicação" .
 
 usdl4edu:Modelao-e-Desempenho-de-Redes-objective1 a usdl4edu:Objective ;
-    dc:description "selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
+    dc:description " Inglês: The main objective of this course is the study of methodologies for modeling and performance evaluation of communication networks" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
     usdl4edu:hasContext usdl4edu:acm1-2-5,
-        usdl4edu:acm1-2-9,
-        usdl4edu:acm11-5-1-1,
-        usdl4edu:acm14-1-11,
-        usdl4edu:acm14-1-12,
-        usdl4edu:acm2-6-7,
+        usdl4edu:acm4,
         usdl4edu:acm4-5,
-        usdl4edu:acm4-5-1,
-        usdl4edu:acm5-2-5-4,
-        usdl4edu:acm8-1-5-2,
-        usdl4edu:acm8-5-6 .
+        usdl4edu:acm4-6-3-4-2,
+        usdl4edu:acm4-8-10 .
 
 usdl4edu:Modelao-e-Desempenho-de-Redes-objective2 a usdl4edu:Objective ;
-    dc:description "use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained" ;
+    dc:description " Pretende-se que o aluno adquira capacidade de tomada de decisão na seleção e utilização de metodologias para modelação e avaliação do desempenho de redes de comunicação e que seja capaz de justificar as opções tomadas, assim como expor e fundamentar os resultados da avaliação de desempenho de redes de comunicação" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Modelao-e-Desempenho-de-Redes-objective3 a usdl4edu:Objective ;
+    dc:description " Students will acquire decision making capabilities in the selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm1-2-5,
         usdl4edu:acm1-2-9,
@@ -1046,14 +1051,20 @@ usdl4edu:Modelao-e-Desempenho-de-Redes-objective2 a usdl4edu:Objective ;
         usdl4edu:acm8-1-5-2,
         usdl4edu:acm8-5-6 .
 
-usdl4edu:Modelao-e-Desempenho-de-Redes-objective3 a usdl4edu:Objective ;
-    dc:description "explain the results obtained" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
-
 usdl4edu:Modelao-e-Desempenho-de-Redes-objective4 a usdl4edu:Objective ;
-    dc:description "selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    dc:description " The students will acquire knowledge about fundamentals on modeling and network performance analysis, obtaining capabilities for the analysis and design of models of communication systems components" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm13-1-2-1-4,
+        usdl4edu:acm14-1-11,
+        usdl4edu:acm14-1-12,
+        usdl4edu:acm14-1-18,
+        usdl4edu:acm5-1-2-3,
+        usdl4edu:acm8-1-1 .
+
+usdl4edu:Modelao-e-Desempenho-de-Redes-objective5 a usdl4edu:Objective ;
+    dc:description " Students will acquire decision making capabilities in the selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
     usdl4edu:hasContext usdl4edu:acm1-2-5,
         usdl4edu:acm1-2-9,
         usdl4edu:acm11-5-1-1,
@@ -1066,29 +1077,25 @@ usdl4edu:Modelao-e-Desempenho-de-Redes-objective4 a usdl4edu:Objective ;
         usdl4edu:acm8-1-5-2,
         usdl4edu:acm8-5-6 .
 
-usdl4edu:Modelao-e-Desempenho-de-Redes-objective5 a usdl4edu:Objective ;
-    dc:description "evaluation of communication networks" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm1-2-5,
-        usdl4edu:acm4,
-        usdl4edu:acm4-5,
-        usdl4edu:acm4-6-3-4-2,
-        usdl4edu:acm4-8-10 .
-
 usdl4edu:Modelao-e-Desempenho-de-Redes-objective6 a usdl4edu:Objective ;
-    dc:description "justificar as opções tomadas, assim como expor e fundamentar os resultados da avaliação de desempenho de redes de comunicação" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+    dc:description " Students will acquire decision making capabilities in the selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceptual .
 
 usdl4edu:Modelao-e-Desempenho-de-Redes-objective7 a usdl4edu:Objective ;
-    dc:description "design of models of communication systems components" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8,
-        usdl4edu:acm13-1-2-1-4,
+    dc:description " Students will acquire decision making capabilities in the selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm1-2-5,
+        usdl4edu:acm1-2-9,
+        usdl4edu:acm11-5-1-1,
         usdl4edu:acm14-1-11,
         usdl4edu:acm14-1-12,
-        usdl4edu:acm14-1-18,
-        usdl4edu:acm5-1-2-3,
-        usdl4edu:acm8-1-1 .
+        usdl4edu:acm2-6-7,
+        usdl4edu:acm4-5,
+        usdl4edu:acm4-5-1,
+        usdl4edu:acm5-2-5-4,
+        usdl4edu:acm8-1-5-2,
+        usdl4edu:acm8-5-6 .
 
 usdl4edu:Modelao-e-Desempenho-de-Redes-objectives a usdl4edu:OverallObjective ;
     dc:description "Português: O objectivo principal da disciplina é o estudo de metodologias para a modelação e avaliação do desempenho de redes de comunicação. A disciplina aborda os fundamentos da teoria das probabilidades e dos processos estocásticos na perspectiva da modelação e análise de desempenho das redes de comunicação. De forma complementar, a disciplina aborda metodologias de simulação para avaliação de desempenho de sistemas de comunicação. A disciplina pretende que os alunos adquiram conhecimentos sobre os fundamentos de modelação e análise de desempenho de redes de comunicação, obtendo capacidade de análise e concepção de modelos de componentes de sistemas de comunicação. Pretende-se que o aluno adquira capacidade de tomada de decisão na seleção e utilização de metodologias para modelação e avaliação do desempenho de redes de comunicação e que seja capaz de justificar as opções tomadas, assim como expor e fundamentar os resultados da avaliação de desempenho de redes de comunicação. Inglês: The main objective of this course is the study of methodologies for modeling and performance evaluation of communication networks. The course addresses fundamentals of probability theory and stochastic processes from the perspective of modeling and performance analysis of communication systems. This course also addresses simulation methodologies for the performance analysis of communication systems. The students will acquire knowledge about fundamentals on modeling and network performance analysis, obtaining capabilities for the analysis and design of models of communication systems components. Students will acquire decision making capabilities in the selection and use of methodologies for modeling and performance evaluation of communication systems, being able to justify the options taken, as well as to express and explain the results obtained. " ;
@@ -1116,12 +1123,24 @@ usdl4edu:Modelao-e-Desempenho-de-Redes-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Paulo-Alexandre-Ferreira-Simes ;
     usdl4edu:hasTitle "Modelação e Desempenho de Redes" .
 
+usdl4edu:Mrio-Alberto-da-Costa-Zenha-Rela a foaf:Person ;
+    foaf:firstName "Mário" ;
+    foaf:lastName "Rela" .
+
 usdl4edu:Mtodos-de-Investigao-unit a usdl4edu:CourseUnit ;
     dc:description "" ;
     usdl4edu:hasEcts "6" ;
     usdl4edu:hasLanguage usdl4edu:LanguagePT ;
     usdl4edu:hasSemester 1 ;
     usdl4edu:hasTitle "Métodos de Investigação" .
+
+usdl4edu:Multimdia-Avanada-unit a usdl4edu:CourseUnit ;
+    dc:description "" ;
+    usdl4edu:hasEcts "6" ;
+    usdl4edu:hasLanguage usdl4edu:LanguagePT ;
+    usdl4edu:hasSemester 2 ;
+    usdl4edu:hasTeacher usdl4edu:Maria-Jos-Patrcio-Marcelino ;
+    usdl4edu:hasTitle "Multimédia Avançada" .
 
 usdl4edu:Multimdia-e-Aprendizagem-objective a usdl4edu:Objective ;
     dc:description "pretende-se com esta discilplina dar a conhecer as diferentes formas de utilização das tecnologias da informação e da comunicação na educação e na formação profissional. inclui técnicas, metodologias e ferramentas para essa utilização, bem como pretende criar competências para a concepção e configuração de cursos de e-learning. " ;
@@ -1146,35 +1165,35 @@ usdl4edu:Multimdia-e-Aprendizagem-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Multimédia e Aprendizagem" .
 
 usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objective1 a usdl4edu:Objective ;
-    dc:description "solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm11-3-2,
-        usdl4edu:acm14-2,
-        usdl4edu:acm8-4-3-3 .
-
-usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objective2 a usdl4edu:Objective ;
-    dc:description "operate as a complex system" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objective3 a usdl4edu:Objective ;
-    dc:description "change, and organizational culture" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objective4 a usdl4edu:Objective ;
-    dc:description "critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context" ;
+    dc:description " It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
     usdl4edu:hasContext usdl4edu:acm11-3-2,
         usdl4edu:acm14-2,
         usdl4edu:acm8-4-3-3 .
 
+usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objective2 a usdl4edu:Objective ;
+    dc:description " It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm11-3-2,
+        usdl4edu:acm14-2,
+        usdl4edu:acm8-4-3-3 .
+
+usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objective3 a usdl4edu:Objective ;
+    dc:description " Inglês: The objective of this course is to help students to understand how people and organizations operate as a complex system" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objective4 a usdl4edu:Objective ;
+    dc:description " Covered topics include motivation, job satisfaction, communication, leadership, change, and organizational culture" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
 usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objective5 a usdl4edu:Objective ;
-    dc:description "understand how people and organizations operate as a complex system" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
-    usdl4edu:hasContext usdl4edu:acm14-2 .
+    dc:description "Português: O objectivo desta unidade curricular é ajudar os alunos a entender de que forma os indivíduos e as organizações funcionam como um sistema complexo" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
 
 usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objective6 a usdl4edu:Objective ;
-    dc:description "organizações funcionam como um sistema complexo" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+    dc:description " Inglês: The objective of this course is to help students to understand how people and organizations operate as a complex system" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm14-2 .
 
 usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-objectives a usdl4edu:OverallObjective ;
     dc:description "Português: O objectivo desta unidade curricular é ajudar os alunos a entender de que forma os indivíduos e as organizações funcionam como um sistema complexo. A unidade abrange o comportamento individual nas organizações, o comportamento de grupo, e estuda a forma como o comportamento afecta o desempenho global das organizações. A unidade também fornece uma visão geral dos métodos de inovação. Os tópicos abordados incluem motivação, satisfação no trabalho, comunicação, liderança, mudança e cultura organizacional. A unidade fornece também competências fundamentais em síntese, comunicação escrita, resolução de problemas, raciocínio crítico, aplicação prática de conhecimento em gestão de organizações e auxilia os alunos a desenvolver capacidades de análise e diagnóstico no contexto organizacional. Inglês: The objective of this course is to help students to understand how people and organizations operate as a complex system. The course covers individual behavior in organizations, group behavior, and how behavior affects the overall performance of organizations. The course also provides an overview of innovation methods. Covered topics include motivation, job satisfaction, communication, leadership, change, and organizational culture. It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context. " ;
@@ -1199,6 +1218,18 @@ usdl4edu:Organizao-Comportamento-Conhecimento-e-Inovao-unit a usdl4edu:CourseUni
     usdl4edu:hasSemester 1 ;
     usdl4edu:hasTeacher usdl4edu:Antnio-Jorge-Silva-Cardoso ;
     usdl4edu:hasTitle "Organização, Comportamento, Conhecimento e Inovação" .
+
+usdl4edu:Paulo-Fernando-Pereira-de-Carvalho a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Carvalho" .
+
+usdl4edu:Paulo-Jos-Osrio-Rupino-da-Cunha a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Cunha" .
+
+usdl4edu:Pedro-Nuno-San-Bento-Furtado a foaf:Person ;
+    foaf:firstName "Pedro" ;
+    foaf:lastName "Furtado" .
 
 usdl4edu:Planeamento-e-Gesto-da-Produo-objective a usdl4edu:Objective ;
     dc:description "o estudo dos principais métodos quantitativos de gestão de organizações (indústria, serviços), proporcionando ao engenheiro informático a capacidade de desenvolvimento das funcionalidades operativas dos sistemas de informação é o objectivo central desta unidade curricular. a arte de resolução de problemas (nomeadamente por programação linear e não-linear), a previsão, a gestão de inventários, a produção integrada moderna (cim, mrpii, erp, etc.) são temas desenvolvidos. " ;
@@ -1226,7 +1257,7 @@ usdl4edu:Processamento-Digital-do-Sinal-e-da-Voz-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Processamento Digital do Sinal e da Voz" .
 
 usdl4edu:Protocolos-de-Comunicao-II-objective1 a usdl4edu:Objective ;
-    dc:description "ranking das 10 mais importantes tecnologias emergentes" ;
+    dc:description " A Business Week seleccionou as RSSFs como uma das 21 tecnologias mais importantes no século XXI, enquanto a Technology Review colocou as no ranking das 10 mais importantes tecnologias emergentes" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
     usdl4edu:hasContext usdl4edu:acm11-4-1-1-1 ;
     usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual .
@@ -1267,6 +1298,10 @@ usdl4edu:Reutilizao-de-Software-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Fernando-Jos-Barros-Rodrigues-da-Silva ;
     usdl4edu:hasTitle "Reutilização de Software" .
 
+usdl4edu:Rui-Alexandre-de-Matos-Arajo a foaf:Person ;
+    foaf:firstName "Rui" ;
+    foaf:lastName "Araújo" .
+
 usdl4edu:Segurana-em-Sistemas-de-Comunicao-objective a usdl4edu:Objective ;
     dc:description "the main objectives of this course are the following:  informatics security network security security of informatics systems " ;
     usdl4edu:hasContext usdl4edu:acm4-6-1,
@@ -1306,7 +1341,17 @@ usdl4edu:Sistemas-Integrados-de-Apoio-ao-Negcio-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Sistemas Integrados de Apoio ao Negócio" .
 
 usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective1 a usdl4edu:Objective ;
-    dc:description "used for knowledge management:  information retrieval; case based reasoning (cbr); text mining (tm); web mining (wm); semantic search" ;
+    dc:description " -        Issues related to the management of a knowledge base" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm9-1-1 .
+
+usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective2 a usdl4edu:Objective ;
+    dc:description " -        Issues related to the management of a knowledge base" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm9-1-1 .
+
+usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective3 a usdl4edu:Objective ;
+    dc:description " -        What are the techniques used for Knowledge Management:  Information Retrieval; Case Based Reasoning (CBR); Text Mining (TM); Web Mining (WM); Semantic Search" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm11-3-2,
         usdl4edu:acm8-2-5-3,
@@ -1318,34 +1363,42 @@ usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective1 a usdl4edu:
         usdl4edu:acm8-5-8-1-1,
         usdl4edu:acm9-1-1 .
 
-usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective2 a usdl4edu:Objective ;
-    dc:description "" ;
+usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective4 a usdl4edu:Objective ;
+    dc:description " ",
+        " -        Ability to apply the approaches lectured in new situations",
+        " -        Ability to manage a knowledge base",
+        " -        Ability to specify, design and develop systems for knowledge management based on the techniques lectured",
+        " -        Capacidade de aplicar as abordagens leccionadas em novas situações",
+        " -        Capacidade de especificar, fazer o design e desenvolver sistemas para a gestão de conhecimento baseados nas técnicas leccionadas",
+        " -        Capacidade de gestão de uma base de conhecimento",
+        " -        Issues related to the management of a knowledge base",
+        " -        O que é uma base de conhecimento",
+        " -        O que é uma ontologia",
+        " -        Que técnicas é que podem ser usadas para a GC:  Recolha de Informação (Information Retrieval); Raciocínio Baseado em Casos (RBC); Text Mining (TM); Web Mining (WM); Pesquisa Semântica",
+        " -        Questões relacionadas com a gestão de uma base de conhecimento",
+        " -        What are the techniques used for Knowledge Management:  Information Retrieval; Case Based Reasoning (CBR); Text Mining (TM); Web Mining (WM); Semantic Search",
+        " -        What is a knowledge base",
+        " -        What is an ontology",
+        " Based on the acquisition of these competences the students acquire the following: -        What is Knowledge Management",
+        " Com base na aquisição destas competências o aluno adquire necessariamente os seguintes conhecimentos: -        O que é a Gestão de Conhecimento (GC)",
+        " Inglês: The main goal of this course is that students acquire the following set of competences: -        Ability to represent knowledge using a formal language (ontologies, cases or other formalisms lectured)",
+        "Português: O objectivo principal da cadeira é que o aluno adquira um conjunto de competências: -        Capacidade de representação de conhecimento através de uma linguagem formal (ontologias, casos ou outras formalismos leccionados)" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
-usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective3 a usdl4edu:Objective ;
-    dc:description "related to the management of a knowledge base" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
-    usdl4edu:hasContext usdl4edu:acm9-1-1 .
-
-usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective4 a usdl4edu:Objective ;
-    dc:description "related to the management of a knowledge base" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
-    usdl4edu:hasContext usdl4edu:acm9-1-1 .
-
 usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective5 a usdl4edu:Objective ;
-    dc:description "related to the management of a knowledge base" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    dc:description " -        Issues related to the management of a knowledge base" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm9-1-1 .
 
 usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective6 a usdl4edu:Objective ;
-    dc:description "related to the management of a knowledge base" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm9-1-1 .
-
-usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective7 a usdl4edu:Objective ;
-    dc:description "design e desenvolver sistemas para a gestão de conhecimento baseados nas técnicas leccionadas" ;
+    dc:description " -        Capacidade de especificar, fazer o design e desenvolver sistemas para a gestão de conhecimento baseados nas técnicas leccionadas" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8 .
+
+usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objective7 a usdl4edu:Objective ;
+    dc:description " -        Issues related to the management of a knowledge base" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse ;
+    usdl4edu:hasContext usdl4edu:acm9-1-1 .
 
 usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-objectives a usdl4edu:OverallObjective ;
     dc:description "Português: O objectivo principal da cadeira é que o aluno adquira um conjunto de competências: -        Capacidade de representação de conhecimento através de uma linguagem formal (ontologias, casos ou outras formalismos leccionados). -        Capacidade de gestão de uma base de conhecimento. -        Capacidade de especificar, fazer o design e desenvolver sistemas para a gestão de conhecimento baseados nas técnicas leccionadas. -        Capacidade de aplicar as abordagens leccionadas em novas situações. Com base na aquisição destas competências o aluno adquire necessariamente os seguintes conhecimentos: -        O que é a Gestão de Conhecimento (GC). -        Que técnicas é que podem ser usadas para a GC:  Recolha de Informação (Information Retrieval); Raciocínio Baseado em Casos (RBC); Text Mining (TM); Web Mining (WM); Pesquisa Semântica. -        O que é uma ontologia. -        O que é uma base de conhecimento. -        Questões relacionadas com a gestão de uma base de conhecimento. Inglês: The main goal of this course is that students acquire the following set of competences: -        Ability to represent knowledge using a formal language (ontologies, cases or other formalisms lectured). -        Ability to manage a knowledge base. -        Ability to specify, design and develop systems for knowledge management based on the techniques lectured. -        Ability to apply the approaches lectured in new situations. Based on the acquisition of these competences the students acquire the following: -        What is Knowledge Management. -        What are the techniques used for Knowledge Management:  Information Retrieval; Case Based Reasoning (CBR); Text Mining (TM); Web Mining (WM); Semantic Search. -        What is an ontology. -        What is a knowledge base. -        Issues related to the management of a knowledge base. " ;
@@ -1373,7 +1426,7 @@ usdl4edu:Sistemas-Inteligentes-para-Gesto-de-Conhecimento-unit a usdl4edu:Course
     usdl4edu:hasTitle "Sistemas Inteligentes para Gestão de Conhecimento" .
 
 usdl4edu:Sistemas-Ubquos-objective1 a usdl4edu:Objective ;
-    dc:description "computação ubíqua realiza a visão de mark weiser - “a physical world richly and invisibly interwoven with sensors, actuators, displays’ and computational elements, embedded seamlessly in the everyday objects of our lives and connected through a continuous network”" ;
+    dc:description "A computação ubíqua realiza a visão de Mark Weiser - “a physical world richly and invisibly interwoven with sensors, actuators, displays’ and computational elements, embedded seamlessly in the everyday objects of our lives and connected through a continuous network”" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm14-3-62,
         usdl4edu:acm2-2-2,
@@ -1439,12 +1492,17 @@ usdl4edu:Superviso-e-Informtica-Industrial-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Supervisão e Informática Industrial" .
 
 usdl4edu:Tcnicas-de-Reconhecimento-de-Padres-objective1 a usdl4edu:Objective ;
-    dc:description "recognize patterns has been found a most intriguing and challenging task" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
-    usdl4edu:hasContext usdl4edu:acm5-2-1-2-12 .
+    dc:description " Inglês: Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task",
+        "Português:    Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    usdl4edu:hasContext usdl4edu:acm1-2-8,
+        usdl4edu:acm5-2-1-2-12,
+        usdl4edu:acm5-3-2-1-7,
+        usdl4edu:acm6-5,
+        usdl4edu:acm6-5-10 .
 
 usdl4edu:Tcnicas-de-Reconhecimento-de-Padres-objective2 a usdl4edu:Objective ;
-    dc:description "operation and design of systems that  pattern recognition (pr) recognize patterns in data  person identification; facial expression detection; vehicle trajectory recognition;  object recognition (ex: car license plate recognition); mouse recognition; handwriting character recognition;  speech analysis; strategic games; pattern mining in the web (www, datawarehouses, business intelligence, etc" ;
+    dc:description "  is the scientifc discipline  that studies the operation and design of systems that  Pattern Recognition (PR) recognize patterns in data  Person Identification; Facial Expression Detection; Vehicle Trajectory Recognition;  Object Recognition (ex: Car License Plate Recognition); Mouse Recognition; Handwriting Character Recognition;  Speech Analysis; Strategic Games; Pattern Mining in the WEB (WWW, DataWarehouses, Business Intelligence, etc" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm1-2-8,
         usdl4edu:acm11-3-1-5,
@@ -1476,8 +1534,9 @@ usdl4edu:Tcnicas-de-Reconhecimento-de-Padres-objective2 a usdl4edu:Objective ;
         usdl4edu:acm9-4-2 .
 
 usdl4edu:Tcnicas-de-Reconhecimento-de-Padres-objective3 a usdl4edu:Objective ;
-    dc:description "computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
+    dc:description " Inglês: Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task",
+        "Português:    Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8,
         usdl4edu:acm5-2-1-2-12,
         usdl4edu:acm5-3-2-1-7,
@@ -1485,13 +1544,10 @@ usdl4edu:Tcnicas-de-Reconhecimento-de-Padres-objective3 a usdl4edu:Objective ;
         usdl4edu:acm6-5-10 .
 
 usdl4edu:Tcnicas-de-Reconhecimento-de-Padres-objective4 a usdl4edu:Objective ;
-    dc:description "design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm1-2-8,
-        usdl4edu:acm5-2-1-2-12,
-        usdl4edu:acm5-3-2-1-7,
-        usdl4edu:acm6-5,
-        usdl4edu:acm6-5-10 .
+    dc:description " Inglês: Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task",
+        "Português:    Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
+    usdl4edu:hasContext usdl4edu:acm5-2-1-2-12 .
 
 usdl4edu:Tcnicas-de-Reconhecimento-de-Padres-objectives a usdl4edu:OverallObjective ;
     dc:description "Português:    Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task.  is the scientifc discipline  that studies the operation and design of systems that  Pattern Recognition (PR) recognize patterns in data  Person Identification; Facial Expression Detection; Vehicle Trajectory Recognition;  Object Recognition (ex: Car License Plate Recognition); Mouse Recognition; Handwriting Character Recognition;  Speech Analysis; Strategic Games; Pattern Mining in the WEB (WWW, DataWarehouses, Business Intelligence, etc.); Stream Data Mining.  The course will give techniques able to explore many of the above applications. Inglês: Since early times of computing the design and implementation of algorithms emulating the human ability to recognize patterns has been found a most intriguing and challenging task. is the scientifc discipline  that studies the operation and design of systems that Pattern Recognition (PR) recognize patterns in data  Person Identification; Facial Expression Detection; Vehicle Trajectory Recognition;  Object Recognition (ex: Car License Plate Recognition); Mouse Recognition; Handwriting Character Recognition;  Speech Analysis; Strategic Games; Pattern Mining in the WEB (WWW, DataWarehouses, Business Intelligence, etc.); Stream Data Mining.  The course will give techniques able to explore many of the above applications. " ;
@@ -1524,7 +1580,34 @@ usdl4edu:Teoria-e-Prtica-de-Optimizao-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTitle "Teoria e Prática de Optimização" .
 
 usdl4edu:Tpicos-Avanados-de-Comunicaes-objective1 a usdl4edu:Objective ;
-    dc:description "state of the art of communication technologies, mechanisms and protocols for the implementation and management of networks and services of the new generation, including issues on energy efficiency" ;
+    dc:description " O aluno deve ficar a conhecer o estado da arte em termos de tecnologias, mecanismos e protocolos para a implementação e gestão de redes e serviços de última geração, incluindo os aspectos relativos a eficiência energética" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
+
+usdl4edu:Tpicos-Avanados-de-Comunicaes-objective2 a usdl4edu:Objective ;
+    dc:description " ==============English translation============================ The main objectives of this course are the knowledge about network technologies that support high throughput and the study of solutions that guarantee quality of service and the support of emerging applications" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
+    usdl4edu:hasContext usdl4edu:acm8-4-4 .
+
+usdl4edu:Tpicos-Avanados-de-Comunicaes-objective3 a usdl4edu:Objective ;
+    dc:description " O aluno deve ficar a conhecer o estado da arte em termos de tecnologias, mecanismos e protocolos para a implementação e gestão de redes e serviços de última geração, incluindo os aspectos relativos a eficiência energética" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
+
+usdl4edu:Tpicos-Avanados-de-Comunicaes-objective4 a usdl4edu:Objective ;
+    dc:description " The student must obtain knowledge on the state of the art of communication technologies, mechanisms and protocols for the implementation and management of networks and services of the new generation, including issues on energy efficiency" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
+    usdl4edu:hasContext usdl4edu:acm2-5-2 .
+
+usdl4edu:Tpicos-Avanados-de-Comunicaes-objective5 a usdl4edu:Objective ;
+    dc:description " O aluno deve ficar a conhecer o estado da arte em termos de tecnologias, mecanismos e protocolos para a implementação e gestão de redes e serviços de última geração, incluindo os aspectos relativos a eficiência energética" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+
+usdl4edu:Tpicos-Avanados-de-Comunicaes-objective6 a usdl4edu:Objective ;
+    dc:description " The student must obtain knowledge on the state of the art of communication technologies, mechanisms and protocols for the implementation and management of networks and services of the new generation, including issues on energy efficiency" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
+    usdl4edu:hasContext usdl4edu:acm2-5-2 .
+
+usdl4edu:Tpicos-Avanados-de-Comunicaes-objective7 a usdl4edu:Objective ;
+    dc:description " The student must obtain knowledge on the state of the art of communication technologies, mechanisms and protocols for the implementation and management of networks and services of the new generation, including issues on energy efficiency" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember ;
     usdl4edu:hasContext usdl4edu:acm13-1-2-2,
         usdl4edu:acm14-1-16,
@@ -1542,36 +1625,9 @@ usdl4edu:Tpicos-Avanados-de-Comunicaes-objective1 a usdl4edu:Objective ;
         usdl4edu:acm8-4-6,
         usdl4edu:acm9-1-1 .
 
-usdl4edu:Tpicos-Avanados-de-Comunicaes-objective2 a usdl4edu:Objective ;
-    dc:description "relativos a eficiência energética" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
-
-usdl4edu:Tpicos-Avanados-de-Comunicaes-objective3 a usdl4edu:Objective ;
-    dc:description "relativos a eficiência energética" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
-
-usdl4edu:Tpicos-Avanados-de-Comunicaes-objective4 a usdl4edu:Objective ;
-    dc:description "relativos a eficiência energética" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate .
-
-usdl4edu:Tpicos-Avanados-de-Comunicaes-objective5 a usdl4edu:Objective ;
-    dc:description "support high throughput and the study of solutions that guarantee quality of service and the support of emerging applications" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate ;
-    usdl4edu:hasContext usdl4edu:acm8-4-4 .
-
-usdl4edu:Tpicos-Avanados-de-Comunicaes-objective6 a usdl4edu:Objective ;
-    dc:description "generation, including issues on energy efficiency" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand ;
-    usdl4edu:hasContext usdl4edu:acm2-5-2 .
-
-usdl4edu:Tpicos-Avanados-de-Comunicaes-objective7 a usdl4edu:Objective ;
-    dc:description "generation, including issues on energy efficiency" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
-    usdl4edu:hasContext usdl4edu:acm2-5-2 .
-
 usdl4edu:Tpicos-Avanados-de-Comunicaes-objective8 a usdl4edu:Objective ;
-    dc:description "relativos a eficiência energética" ;
-    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create .
+    dc:description " O aluno deve ficar a conhecer o estado da arte em termos de tecnologias, mecanismos e protocolos para a implementação e gestão de redes e serviços de última geração, incluindo os aspectos relativos a eficiência energética" ;
+    usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse .
 
 usdl4edu:Tpicos-Avanados-de-Comunicaes-objectives a usdl4edu:OverallObjective ;
     dc:description "Os objectivos centrais da disciplina são o conhecimento das tecnologias de rede que, atualmente, possibilitam elevados débitos, e a abordagem e estudo de soluções para garantia de qualidade de serviço e suporte de aplicações emergentes. O aluno deve ficar a conhecer o estado da arte em termos de tecnologias, mecanismos e protocolos para a implementação e gestão de redes e serviços de última geração, incluindo os aspectos relativos a eficiência energética. Este conhecimento deverá permitir a realização de processos de decisão na definição de estratégias relativas aos sistemas de comunicação e a integração no mundo IP. A disciplina abordará tecnologias de redes de muito alto débito, identificando o seu papel e possíveis linhas de evolução no contexto das atuais redes IP, incluindo também a vertente das tecnologias de comunicação sem fios de banda larga. Serão também abordados os conceitos base associados aos mecanismos de qualidade de serviço, com ênfase em soluções, arquiteturas e protocolos para redes com e sem fios. Os aspectos relativos à eficiência energética nos sistemas de comunicação serão também abordados, abrangendo mecanismos específicos das tecnologias, protocolos e soluções multi-camada. ==============English translation============================ The main objectives of this course are the knowledge about network technologies that support high throughput and the study of solutions that guarantee quality of service and the support of emerging applications. The student must obtain knowledge on the state of the art of communication technologies, mechanisms and protocols for the implementation and management of networks and services of the new generation, including issues on energy efficiency. This knowledge will support decision processes on the definition of strategies related to the communication systems and integration in the all-IP world. This course will address high-speed technologies within the context of IP networks, including also wireless broadband technologies. Basic concepts on quality of service with emphasis on solutions, architectures and protocols for wired and wireless networks will also be covered. Energy efficiency in communication systems will be addressed, covering technology dependent mechanisms, protocols and cross-layer solutions. " ;
@@ -1607,24 +1663,28 @@ usdl4edu:Viso-Computacional-unit a usdl4edu:CourseUnit ;
     usdl4edu:hasTeacher usdl4edu:Helder-de-Jesus-Arajo ;
     usdl4edu:hasTitle "Visão Computacional" .
 
+usdl4edu:Vtor-Manuel-Mendes-da-Silva a foaf:Person ;
+    foaf:firstName "Vítor" ;
+    foaf:lastName "Silva" .
+
 usdl4edu:Web-Semntica-objective1 a usdl4edu:Objective ;
-    dc:description "use triple stores, sparql, semantic search and reasoning mechanisms" ;
+    dc:description " -        Ability to use triple stores, SPARQL, Semantic Search and reasoning mechanisms" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply .
 
 usdl4edu:Web-Semntica-objective2 a usdl4edu:Objective ;
-    dc:description "applications for intranets and internet" ;
+    dc:description " -        Ability to apply and use ontologies represented using Semantic Web specific languages in applications for Intranets and Internet" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_3Apply ;
     usdl4edu:hasContext usdl4edu:acm12-2-1-1,
         usdl4edu:acm8-3-1-1,
         usdl4edu:acm8-4-4 .
 
 usdl4edu:Web-Semntica-objective3 a usdl4edu:Objective ;
-    dc:description "create and manage ontologies" ;
+    dc:description " Inglês: The main objective of the Semantic Web course is to teach the following competences to students: -        Ability to create and manage ontologies" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm8-5-1-6 .
 
 usdl4edu:Web-Semntica-objective4 a usdl4edu:Objective ;
-    dc:description "design e desenvolvimento de sistemas/aplicações para a web semântica" ;
+    dc:description " -        Capacidade de especificação, design e desenvolvimento de sistemas/aplicações para a Web Semântica" ;
     usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create ;
     usdl4edu:hasContext usdl4edu:acm1-2-8 .
 
@@ -1652,4 +1712,40 @@ usdl4edu:Web-Semntica-unit a usdl4edu:CourseUnit ;
 
 usdl4edu:dei-uc a foaf:Organization ;
     dc:description "Department of Informatics Engineering - University of Coimbra" .
+
+usdl4edu:Antnio-Dourado-Pereira-Correia a foaf:Person ;
+    foaf:firstName "António" ;
+    foaf:lastName "Correia" .
+
+usdl4edu:Antnio-Jorge-Silva-Cardoso a foaf:Person ;
+    foaf:firstName "António" ;
+    foaf:lastName "Cardoso" .
+
+usdl4edu:Filipe-Joo-Boavida-Mendona-Machado-de-Arajo a foaf:Person ;
+    foaf:firstName "Filipe" ;
+    foaf:lastName "Araújo" .
+
+usdl4edu:Licnio-Gomes-Roque a foaf:Person ;
+    foaf:firstName "Licínio" ;
+    foaf:lastName "Roque" .
+
+usdl4edu:Maria-Jos-Patrcio-Marcelino a foaf:Person ;
+    foaf:firstName "Maria" ;
+    foaf:lastName "Marcelino" .
+
+usdl4edu:Paulo-Jorge-de-Sousa-Gomes a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Gomes" .
+
+usdl4edu:Edmundo-Heitor-da-Silva-Monteiro a foaf:Person ;
+    foaf:firstName "Edmundo" ;
+    foaf:lastName "Monteiro" .
+
+usdl4edu:Fernando-Pedro-Lopes-Boavida-Fernandes a foaf:Person ;
+    foaf:firstName "Fernando" ;
+    foaf:lastName "Fernandes" .
+
+usdl4edu:Paulo-Alexandre-Ferreira-Simes a foaf:Person ;
+    foaf:firstName "Paulo" ;
+    foaf:lastName "Simões" .
 

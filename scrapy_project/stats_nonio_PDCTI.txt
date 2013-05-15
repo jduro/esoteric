@@ -1,0 +1,228 @@
+Gonna send login
+https://inforestudante.uc.pt/nonio/security/init.do
+---- PIPELINE ----
+Programa de Doutoramento em Ciências e Tecnologias da Informação
+PDCTI
+----180
+Este curso foi concebido para proporcionar aos alunos uma compreensão abrangente das técnicas avançadas e algoritmos para análise de bio-sinais. O curso aborda tanto os aspectos teóricos fundamentais que envolvem a extração de informação útil a partir de sinais biológicos para diagnóstico e terapêutica, bem como aplicações específicas, utilizando alguns biosignais relevantes. A disciplina contribui para a aquisição das seguintes competências: Instrumentais:  Capacidade de análise e de síntese em problemas complexos; Aprofundamento do raciocínio matemático; Capacidade de abstração e de generalização; . Pessoais:  Raciocínio critico. Sistémicas:  Autoaprendizagem; Investigação. 
+TUDO:Este curso foi concebido para proporcionar aos alunos uma compreensão abrangente das técnicas avançadas e algoritmos para análise de bio-sinais. O curso aborda tanto os aspectos teóricos fundamentais que envolvem a extração de informação útil a partir de sinais biológicos para diagnóstico e terapêutica, bem como aplicações específicas, utilizando alguns biosignais relevantes. A disciplina contribui para a aquisição das seguintes competências: Instrumentais:  Capacidade de análise e de síntese em problemas complexos; Aprofundamento do raciocínio matemático; Capacidade de abstração e de generalização; . Pessoais:  Raciocínio critico. Sistémicas:  Autoaprendizagem; Investigação. 
+Phrase:  Este curso foi concebido para proporcionar aos alunos uma compreensão abrangente das técnicas avançadas e algoritmos para análise de bio-sinais
+Phrase:   O curso aborda tanto os aspectos teóricos fundamentais que envolvem a extração de informação útil a partir de sinais biológicos para diagnóstico e terapêutica, bem como aplicações específicas, utilizando alguns biosignais relevantes
+Phrase:   A disciplina contribui para a aquisição das seguintes competências: Instrumentais:  Capacidade de análise e de síntese em problemas complexos; Aprofundamento do raciocínio matemático; Capacidade de abstração e de generalização; 
+Phrase:   Pessoais:  Raciocínio critico
+Phrase:   Sistémicas:  Autoaprendizagem; Investigação
+Phrase:   
+Sem nada: este curso foi concebido para proporcionar aos alunos uma compreensão abrangente das técnicas avançadas e algoritmos para análise de bio-sinais. o curso aborda tanto os aspectos teóricos fundamentais que envolvem a extração de informação útil a partir de sinais biológicos para diagnóstico e terapêutica, bem como aplicações específicas, utilizando alguns biosignais relevantes. a disciplina contribui para a aquisição das seguintes competências: instrumentais:  capacidade de análise e de síntese em problemas complexos; aprofundamento do raciocínio matemático; capacidade de abstração e de generalização; . pessoais:  raciocínio critico. sistémicas:  autoaprendizagem; investigação. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+This course intends to provide to the student a context for learning a set of advanced research topics on Cognitive Modeling in depth, with a solid theoretical contextualization and corresponding empirical support. It is organized in a set of Options Modules with a workload of 2 ECTS each, covering a wide area of advanced topics. Each individual learning plan will comprise 2 of those modules and will be defined by the student’s supervisor, in accordance to the specific needs of the student’s PhD plan, in collaboration with the student and the course’s coordinator. 
+TUDO:This course intends to provide to the student a context for learning a set of advanced research topics on Cognitive Modeling in depth, with a solid theoretical contextualization and corresponding empirical support. It is organized in a set of Options Modules with a workload of 2 ECTS each, covering a wide area of advanced topics. Each individual learning plan will comprise 2 of those modules and will be defined by the student’s supervisor, in accordance to the specific needs of the student’s PhD plan, in collaboration with the student and the course’s coordinator. 
+Phrase:  This course intends to provide to the student a context for learning a set of advanced research topics on Cognitive Modeling in depth, with a solid theoretical contextualization and corresponding empirical support
+Phrase:   It is organized in a set of Options Modules with a workload of 2 ECTS each, covering a wide area of advanced topics
+Phrase:   Each individual learning plan will comprise 2 of those modules and will be defined by the student’s supervisor, in accordance to the specific needs of the student’s PhD plan, in collaboration with the student and the course’s coordinator
+Phrase:   
+verbo:define/defin
+defined by the student’s supervisor, in accordance to the specific needs of the student’s phd plan, in collaboration with the student and the course’s coordinator
+verbo:plan/plan
+plan will comprise 2 of those modules and will be defined by the student’s supervisor, in accordance to the specific needs of the student’s phd plan, in collaboration with the student and the course’s coordinator
+KNOWLEDGE DIMENSION:  plan
+verbo:organize/organ
+organized in a set of options modules with a workload of 2 ects each, covering a wide area of advanced topics
+3
+[1, 0, 0, 0, 0, 2]
+4
+[0, 1, 0, 0]
+2
+----
+Information and communication technologies (ICT) role in education and training has increased in the last few years. Education methodologies and materials have also been influenced by technology. Terms like e-learning, b-learning and m-learning are common today. Technology has been used to support learning in many areas and in all levels of education. The group of professors responsible for this course has been developing research in several sub-areas, such as the utilization of computer based systems to support computer-science learning, the design and development of educational simulations and the utilization of mobile devices to support learning. Some of this research was developed in collaboration with researchers from other areas, namely Education, and from other institutions from Portugal and abroad. In this perspective it is possible the participation of researchers from other institutions in some course modules. Technology and Learning main objective is to allow students to deepen their knowledge in the field of ICT applied to Education and Training, preparing them to do research in this area. 
+TUDO:Information and communication technologies (ICT) role in education and training has increased in the last few years. Education methodologies and materials have also been influenced by technology. Terms like e-learning, b-learning and m-learning are common today. Technology has been used to support learning in many areas and in all levels of education. The group of professors responsible for this course has been developing research in several sub-areas, such as the utilization of computer based systems to support computer-science learning, the design and development of educational simulations and the utilization of mobile devices to support learning. Some of this research was developed in collaboration with researchers from other areas, namely Education, and from other institutions from Portugal and abroad. In this perspective it is possible the participation of researchers from other institutions in some course modules. Technology and Learning main objective is to allow students to deepen their knowledge in the field of ICT applied to Education and Training, preparing them to do research in this area. 
+Phrase:  Information and communication technologies (ICT) role in education and training has increased in the last few years
+Phrase:   Education methodologies and materials have also been influenced by technology
+Phrase:   Terms like e-learning, b-learning and m-learning are common today
+Phrase:   Technology has been used to support learning in many areas and in all levels of education
+Phrase:   The group of professors responsible for this course has been developing research in several sub-areas, such as the utilization of computer based systems to support computer-science learning, the design and development of educational simulations and the utilization of mobile devices to support learning
+Phrase:   Some of this research was developed in collaboration with researchers from other areas, namely Education, and from other institutions from Portugal and abroad
+Phrase:   In this perspective it is possible the participation of researchers from other institutions in some course modules
+Phrase:   Technology and Learning main objective is to allow students to deepen their knowledge in the field of ICT applied to Education and Training, preparing them to do research in this area
+Phrase:   
+verbo:apply/appli
+applied to education and training, preparing them to do research in this area
+verbo:use/use
+used to support learning in many areas and in all levels of education
+verbo:prepare/prepar
+preparing them to do research in this area
+verbo:compute/comput
+computer based systems to support computer-science learning, the design and development of educational simulations and the utilization of mobile devices to support learning
+verbo:name/name
+namely education, and from other institutions from portugal and abroad
+verbo:support/support
+support learning in many areas and in all levels of education
+verbo:design/design
+design and development of educational simulations and the utilization of mobile devices to support learning
+7
+[1, 0, 4, 0, 1, 1]
+3
+[0, 0, 0, 0]
+----
+2 -Enduring Principles Knowledge about the state-of-the-art of data quality management, sensor data models, processing engines for warehousing and mining, large graph data  processing, information networks analysis, stream data management and event detection on stream data. At the end of the course the students will be able to design applications with challenging requirements like: –        data quality and business intelligence quality –        efficient algorithms for processing engines –        robust ranking algorithms  for information networks   –        Efficient algorithms for anomalies detection on streaming data –        high-performance and scalability 
+TUDO:2 -Enduring Principles Knowledge about the state-of-the-art of data quality management, sensor data models, processing engines for warehousing and mining, large graph data  processing, information networks analysis, stream data management and event detection on stream data. At the end of the course the students will be able to design applications with challenging requirements like: –        data quality and business intelligence quality –        efficient algorithms for processing engines –        robust ranking algorithms  for information networks   –        Efficient algorithms for anomalies detection on streaming data –        high-performance and scalability 
+Phrase:  2 -Enduring Principles Knowledge about the state-of-the-art of data quality management, sensor data models, processing engines for warehousing and mining, large graph data  processing, information networks analysis, stream data management and event detection on stream data
+Phrase:   At the end of the course the students will be able to design applications with challenging requirements like: –        data quality and business intelligence quality –        efficient algorithms for processing engines –        robust ranking algorithms  for information networks   –        Efficient algorithms for anomalies detection on streaming data –        high-performance and scalability 
+verbo:rank/rank
+ranking algorithms  for information networks   –        efficient algorithms for anomalies detection on streaming data –        high-performance and scalability
+KNOWLEDGE DIMENSION:  rank
+verbo:design/design
+design applications with challenging requirements like: –        data quality and business intelligence quality –        efficient algorithms for processing engines –        robust ranking algorithms  for information networks   –        efficient algorithms for anomalies detection on streaming data –        high-performance and scalability
+2
+[0, 0, 0, 0, 1, 1]
+5
+[1, 0, 0, 0]
+1
+----
+Estudar as teorias e cultivar as capacidade de desenvolver modelos computacionais em tempo real a partir de dados segundo os dois paradigmas: dados quantitativos (casos linear e não linear), dados qualitativos. Os parâmetros destes modelos são treinados em tempo real, de modo recursivo, usando redes neuronais e máquinas de vetores de suporte para o caso quantitativo e sistemas difusos para o caso qualitativo.   
+TUDO:Estudar as teorias e cultivar as capacidade de desenvolver modelos computacionais em tempo real a partir de dados segundo os dois paradigmas: dados quantitativos (casos linear e não linear), dados qualitativos. Os parâmetros destes modelos são treinados em tempo real, de modo recursivo, usando redes neuronais e máquinas de vetores de suporte para o caso quantitativo e sistemas difusos para o caso qualitativo.   
+Phrase:  Estudar as teorias e cultivar as capacidade de desenvolver modelos computacionais em tempo real a partir de dados segundo os dois paradigmas: dados quantitativos (casos linear e não linear), dados qualitativos
+Phrase:   Os parâmetros destes modelos são treinados em tempo real, de modo recursivo, usando redes neuronais e máquinas de vetores de suporte para o caso quantitativo e sistemas difusos para o caso qualitativo
+Phrase:     
+Sem nada: estudar as teorias e cultivar as capacidade de desenvolver modelos computacionais em tempo real a partir de dados segundo os dois paradigmas: dados quantitativos (casos linear e não linear), dados qualitativos. os parâmetros destes modelos são treinados em tempo real, de modo recursivo, usando redes neuronais e máquinas de vetores de suporte para o caso quantitativo e sistemas difusos para o caso qualitativo.   
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Elaboração de uma tese original e especialmente preparada para este fim, adequada à natureza do ramo de conhecimento ou da especialidade. 
+TUDO:Elaboração de uma tese original e especialmente preparada para este fim, adequada à natureza do ramo de conhecimento ou da especialidade. 
+Phrase:  Elaboração de uma tese original e especialmente preparada para este fim, adequada à natureza do ramo de conhecimento ou da especialidade
+Phrase:   
+Sem nada: elaboração de uma tese original e especialmente preparada para este fim, adequada à natureza do ramo de conhecimento ou da especialidade. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Levar os alunos a aprofundar o seu conhecimento de um tema de investigação em particular, a identificar os problemas a considerar e possíveis métodos para os resolver, e a preparar um plano de trabalho a desenvolver durante a unidade curricular de Tese. 
+TUDO:Levar os alunos a aprofundar o seu conhecimento de um tema de investigação em particular, a identificar os problemas a considerar e possíveis métodos para os resolver, e a preparar um plano de trabalho a desenvolver durante a unidade curricular de Tese. 
+Phrase:  Levar os alunos a aprofundar o seu conhecimento de um tema de investigação em particular, a identificar os problemas a considerar e possíveis métodos para os resolver, e a preparar um plano de trabalho a desenvolver durante a unidade curricular de Tese
+Phrase:   
+Sem nada: levar os alunos a aprofundar o seu conhecimento de um tema de investigação em particular, a identificar os problemas a considerar e possíveis métodos para os resolver, e a preparar um plano de trabalho a desenvolver durante a unidade curricular de tese. 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+To discuss and explore several networking research topics related to next generation networking. These include, but are not restricted to, user and network mobility, routing, signalling, sensor networks, network management, quality of service and quality of experience. 
+TUDO:To discuss and explore several networking research topics related to next generation networking. These include, but are not restricted to, user and network mobility, routing, signalling, sensor networks, network management, quality of service and quality of experience. 
+Phrase:  To discuss and explore several networking research topics related to next generation networking
+Phrase:   These include, but are not restricted to, user and network mobility, routing, signalling, sensor networks, network management, quality of service and quality of experience
+Phrase:   
+verbo:relate/relat
+related to next generation networking
+verbo:experiment/experi
+experience
+verbo:relate/relat
+related to next generation networking
+verbo:relate/relat
+related to next generation networking
+verbo:generalize/gener
+generation networking
+verbo:relate/relat
+related to next generation networking
+verbo:generate/gener
+generation networking
+7
+[0, 1, 2, 1, 1, 2]
+4
+[0, 0, 0, 0]
+----
+The goal of this course is to provide context for learning a set of advanced AI research topics in depth, with a solid theoretical scaffolding and adequate empirical support   
+TUDO:The goal of this course is to provide context for learning a set of advanced AI research topics in depth, with a solid theoretical scaffolding and adequate empirical support   
+Phrase:  The goal of this course is to provide context for learning a set of advanced AI research topics in depth, with a solid theoretical scaffolding and adequate empirical support   
+verbo:support/support
+support  
+1
+[0, 0, 0, 0, 1, 0]
+5
+[0, 0, 0, 0]
+----
+The goal of this course is to introduce the students principles of empirical research based on quantitative methods as well as to improve their research communication skills, both orally and in writing. The course is split into two modules: Quantitative Methods (QM) and Scientific Communication (SC). QM: The goal of this course is to introduce the students to a wide range of tools and techniques that will help them to conduct sound empirical and quantitative research. It will cover topics of exploratory data analysis, inferential statistics, and experimental design. Special emphasis will be given to techniques that allow a comprehensive interpretation of data, generalization from sampled data and sound ways of designing experiments. SC: This course aims to develop students’ skills in scientific communication, oral and written, and will include both active and passive components. The focus will be on achieving clarity, concision, coherence/cohesion and an appropriate style in specific academic/scientific text types. 
+TUDO:The goal of this course is to introduce the students principles of empirical research based on quantitative methods as well as to improve their research communication skills, both orally and in writing. The course is split into two modules: Quantitative Methods (QM) and Scientific Communication (SC). QM: The goal of this course is to introduce the students to a wide range of tools and techniques that will help them to conduct sound empirical and quantitative research. It will cover topics of exploratory data analysis, inferential statistics, and experimental design. Special emphasis will be given to techniques that allow a comprehensive interpretation of data, generalization from sampled data and sound ways of designing experiments. SC: This course aims to develop students’ skills in scientific communication, oral and written, and will include both active and passive components. The focus will be on achieving clarity, concision, coherence/cohesion and an appropriate style in specific academic/scientific text types. 
+Phrase:  The goal of this course is to introduce the students principles of empirical research based on quantitative methods as well as to improve their research communication skills, both orally and in writing
+Phrase:   The course is split into two modules: Quantitative Methods (QM) and Scientific Communication (SC)
+Phrase:   QM: The goal of this course is to introduce the students to a wide range of tools and techniques that will help them to conduct sound empirical and quantitative research
+Phrase:   It will cover topics of exploratory data analysis, inferential statistics, and experimental design
+Phrase:   Special emphasis will be given to techniques that allow a comprehensive interpretation of data, generalization from sampled data and sound ways of designing experiments
+Phrase:   SC: This course aims to develop students’ skills in scientific communication, oral and written, and will include both active and passive components
+Phrase:   The focus will be on achieving clarity, concision, coherence/cohesion and an appropriate style in specific academic/scientific text types
+Phrase:   
+verbo:achieve/achiev
+achieving clarity, concision, coherence/cohesion and an appropriate style in specific academic/scientific text types
+verbo:generalize/gener
+generalization from sampled data and sound ways of designing experiments
+verbo:interpret/interpret
+interpretation of data, generalization from sampled data and sound ways of designing experiments
+KNOWLEDGE DIMENSION:  interpret
+verbo:design/design
+design
+verbo:generate/gener
+generalization from sampled data and sound ways of designing experiments
+5
+[0, 2, 0, 1, 0, 2]
+4
+[0, 1, 0, 0]
+2
+----
+ After completion of the course students will be able to: - Understand the essential concepts of a pattern recognition system; - Understand the nature and inherent difficulties of the pattern classification problem; - Understand concepts such as trade-offs and appropriateness of classification techniques such as Bayesian, maximum-likelihood, principal components, nonparametric, linear discriminant, multi-layer neural networks, and so on; - Understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as Isomap and Local Linear Embedding (LLE); - Demonstrate the programming skills to correctly implement the chosen algorithm in Matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - Deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake. 
+TUDO: After completion of the course students will be able to: - Understand the essential concepts of a pattern recognition system; - Understand the nature and inherent difficulties of the pattern classification problem; - Understand concepts such as trade-offs and appropriateness of classification techniques such as Bayesian, maximum-likelihood, principal components, nonparametric, linear discriminant, multi-layer neural networks, and so on; - Understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as Isomap and Local Linear Embedding (LLE); - Demonstrate the programming skills to correctly implement the chosen algorithm in Matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - Deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake. 
+Phrase:   After completion of the course students will be able to: - Understand the essential concepts of a pattern recognition system; - Understand the nature and inherent difficulties of the pattern classification problem; - Understand concepts such as trade-offs and appropriateness of classification techniques such as Bayesian, maximum-likelihood, principal components, nonparametric, linear discriminant, multi-layer neural networks, and so on; - Understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as Isomap and Local Linear Embedding (LLE); - Demonstrate the programming skills to correctly implement the chosen algorithm in Matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - Deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake
+Phrase:   
+verbo:demonstrate/demonstr
+demonstrate the programming skills to correctly implement the chosen algorithm in matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake
+verbo:use/use
+use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake
+verbo:discriminate/discrimin
+discriminant, multi-layer neural networks, and so on; - understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as isomap and local linear embedding (lle); - demonstrate the programming skills to correctly implement the chosen algorithm in matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake
+verbo:discriminate/discrimin
+discriminant, multi-layer neural networks, and so on; - understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as isomap and local linear embedding (lle); - demonstrate the programming skills to correctly implement the chosen algorithm in matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake
+verbo:evaluate/evalu
+evaluation aspects are at stake
+verbo:interpret/interpret
+interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake
+KNOWLEDGE DIMENSION:  interpret
+verbo:understand/understand
+understand the essential concepts of a pattern recognition system; - understand the nature and inherent difficulties of the pattern classification problem; - understand concepts such as trade-offs and appropriateness of classification techniques such as bayesian, maximum-likelihood, principal components, nonparametric, linear discriminant, multi-layer neural networks, and so on; - understand more advanced concepts such as methods for dimension space reduction under the more broad topic of manifold learning algorithms such as isomap and local linear embedding (lle); - demonstrate the programming skills to correctly implement the chosen algorithm in matlab (or to competently use existing programs) as required, along with the insight to properly interpret the program results; - deal with case-studies to develop their skills in addressing decision and pattern recognition problems in which multiple evaluation aspects are at stake
+7
+[0, 2, 2, 1, 2, 0]
+3
+[0, 1, 0, 0]
+2
+----
+Goals:  The aim of this course is to give to the studen the basic skills  that may be expected for any scientist in the use of statistics, like: - 	the ability of dealing with statistical methods for collecting,  organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data. 
+TUDO:Goals:  The aim of this course is to give to the studen the basic skills  that may be expected for any scientist in the use of statistics, like: - 	the ability of dealing with statistical methods for collecting,  organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data. 
+Phrase:  Goals:  The aim of this course is to give to the studen the basic skills  that may be expected for any scientist in the use of statistics, like: - 	the ability of dealing with statistical methods for collecting,  organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data
+Phrase:   
+verbo:produce/produc
+produced data
+verbo:use/use
+use of statistics, like: - 	the ability of dealing with statistical methods for collecting,  organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data
+verbo:describe/describ
+describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data
+verbo:infer/infer
+inference for drawing conclusions  from properly produced data
+verbo:infer/infer
+inference for drawing conclusions  from properly produced data
+verbo:organize/organ
+organizing and describing data; -	the ability to use parametric and  non-parametric methods of statistical inference for drawing conclusions  from properly produced data
+6
+[1, 1, 2, 1, 0, 1]
+3
+[0, 0, 0, 0]
+----
+Number descriptions:  12
+Number found:  38
+Number context:  175
+Number without:  4
+Stats:  [4, 1, 1, 1, 0, 1, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number descriptions:  12
+Number found:  38
+Number context:  175
+Number without:  4
+Stats:  [4, 1, 1, 1, 0, 1, 1, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
