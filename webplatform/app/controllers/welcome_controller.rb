@@ -208,6 +208,18 @@ class WelcomeController < ApplicationController
 		    USDL4EDU.hasTeacher => :teacher
 		  }
 		})
+		queryUnitOP = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.CourseUnit,
+		    USDL4EDU.hasOverallPrerequisite => :pre
+		  }
+		})
+		queryOP = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.OverallPrerequisite,
+		    DC.description => :description
+		  }
+		})
 		queryOB = RDF::Query.new({
 		  :q => {
 		    RDF.type => USDL4EDU.OverallObjective,
@@ -276,6 +288,9 @@ class WelcomeController < ApplicationController
 		solutionsObjectiveCogn=queryObjectiveCogn.execute(graph)
 		solutionsObjectiveKnow=queryObjectiveKnow.execute(graph)
 		solutionsObjectiveContext=queryObjectiveContext.execute(graph)
+
+		solutionsOP=queryOP.execute(graph)
+		solutionsUnitOP=queryUnitOP.execute(graph)
 		
 		itemServiceUnit=""
 		checkCourse=false
@@ -316,6 +331,18 @@ class WelcomeController < ApplicationController
 
 				@unit["teachers"] << teacher
 		end
+
+		solutionsUnitOP.filter(:q => itemServiceUnit).each do |solution|
+			pre=Hash.new
+			pre["url"]=solution.pre
+			@unit["pre"]=pre
+		end
+		if @unit["pre"]
+			solutionsOP.filter(:q => @unit["pre"]["url"]).each do |solution|
+				@unit["pre"]["description"]=solution.description.to_s
+			end
+		end
+
 		solutionsOB.filter(:q => @unit["obj"]["url"]).each do |solution|
 			@unit["obj"]["description"]=solution.description.to_s
 		end
@@ -460,13 +487,6 @@ class WelcomeController < ApplicationController
 	# 		return solution.label
 	# 	end
 	# end
-	def infocourse()
-		@isIndex=true
-
-		@services=Service.all
-		@organizations=Service.select(:organization).map(&:organization).uniq
-
-	end
 
 
 	def infounit()
@@ -550,15 +570,32 @@ class WelcomeController < ApplicationController
 		    DC.description => :description, 
 		    USDL4EDU.hasDeliveryMode => :delivery, 
 		    USDL4EDU.hasLanguage => :language, 
-		    USDL4EDU.hasOverallObjective => :obj,
 		    USDL4EDU.hasTeacher => :teacher,
 		    USDL4EDU.hasEcts => :ects,
 		    USDL4EDU.hasSemester => :semester
 		  }
 		})
+		queryUnitOP = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.CourseUnit,
+		    USDL4EDU.hasOverallPrerequisite => :pre
+		  }
+		})
+		queryUnitOB = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.CourseUnit,
+		    USDL4EDU.hasOverallObjective => :obj
+		  }
+		})
 		queryOB = RDF::Query.new({
 		  :q => {
 		    RDF.type => USDL4EDU.OverallObjective,
+		    DC.description => :description
+		  }
+		})
+		queryOP = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.OverallPrerequisite,
 		    DC.description => :description
 		  }
 		})
@@ -623,6 +660,9 @@ class WelcomeController < ApplicationController
 		solutionsObjectiveCogn=queryObjectiveCogn.execute(graph)
 		solutionsObjectiveKnow=queryObjectiveKnow.execute(graph)
 		solutionsObjectiveContext=queryObjectiveContext.execute(graph)
+		solutionsOP=queryOP.execute(graph)
+		solutionsUnitOP=queryUnitOP.execute(graph)
+		solutionsUnitOB=queryUnitOB.execute(graph)
 		
 		
 
@@ -631,156 +671,176 @@ class WelcomeController < ApplicationController
 		@unit["teachers"]=[]
 		@unit["url"]=@serviceSelected.urlCourse
 		solutionsUnit.filter(:q => @unitDB.url).each do |solutionUnit|
-				@unit["description"]=solutionUnit.description.to_s
+			@unit["description"]=solutionUnit.description.to_s
 
-				@unit["ects"]=solutionUnit.ects
-				@unit["semester"]=solutionUnit.semester
+			@unit["ects"]=solutionUnit.ects
+			@unit["semester"]=solutionUnit.semester
 
-				solutions=queryUSDL4EDUDelivery.execute(graphUSDL4EDU)
-				solutions.filter(:q => solutionUnit.delivery).each do |solution|
-					@unit["delivery"]=solution.label
-				end
-				
-
-				solutions=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
-				solutions.filter(:q => solutionUnit.language).each do |solution|
-					@unit["language"]=solution.label
-				end
-				# @unit["language"]=getLanguageName(solutionUnit.language)
-
-				obj=Hash.new
-				obj["url"]=solutionUnit.obj
-				@unit["obj"]=obj
-				teacher=Hash.new
-				teacher["url"]=solutionUnit.teacher
-
-				solutionsTeacher.filter(:q => teacher["url"]).each do |s|
-					teacher["name"]=s["first"].to_s+" "+s["last"].to_s
-				end
-
-				@unit["teachers"] << teacher
-		end
-		solutionsOB.filter(:q => @unit["obj"]["url"]).each do |solution|
-			@unit["obj"]["description"]=solution.description.to_s
-		end
-		solutionsOBCogn.filter(:q => @unit["obj"]["url"]).each do |solution|
-			@unit["obj"]["cogn"]=cognitiveDimension[solution.cogn]
-		end
-		solutionsOBKnow.filter(:q => @unit["obj"]["url"]).each do |solution|
-			@unit["obj"]["know"]=knowledgeDimension[solution.know]
-		end
-		@unit["obj"]["parts"]=[]
-		solutionsOBParts.filter(:q => @unit["obj"]["url"]).each do |solution|
-			part=Hash.new
-			part["url"]=solution.part
-			part["context"]=[]
-			@unit["obj"]["parts"] << part
-		end
-
-		@unit["obj"]["parts"].each do |part|
-			solutionsObjective.filter(:q => part["url"]).each do |solution|
-				part["description"]=solution.description.to_s
-			end
-			solutionsObjectiveCogn.filter(:q => part["url"]).each do |solution|
-				part["cogn"]=cognitiveDimension[solution.cogn]
-			end
-			solutionsObjectiveKnow.filter(:q => part["url"]).each do |solution|
-				part["know"]=knowledgeDimension[solution.know]
-			end
-			solutionsObjectiveContext.filter(:q => part["url"]).each do |solution|
-				context=Hash.new
-				context["url"]=solution.context
-				# context["label"]=solution.context
-
-				solutions=queryContext.execute(graphContext)
-				solutions.filter(:q => context["url"]).each do |solution|
-					context["label"]= solution.label
-				end
-
-				# context["label"]=getContextName(context["url"])
-				part["context"] << context
-			end
-			solutionsObjective=queryObjective.execute(graph)
-			solutionsObjectiveKnow=queryObjectiveKnow.execute(graph)
-			solutionsObjectiveCogn=queryObjectiveCogn.execute(graph)
-			solutionsObjectiveContext=queryObjectiveContext.execute(graph)
-		end
-		@graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
-			f.options[:plotOptions]={
-				:line => {:lineWidth => 0}
-			}
-			f.options[:chart]={
-				:width => 500,
-				:height => 200
-			}
-			f.options[:title][:text] = "Objectives Trend"
-			f.options[:xAxis]={
-				:title => {:text => "Cognitive Dimension"},
-				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
-				:tickPositions => [0,1,2,3,4,5,6],
-				:gridLineWidth => '1',
-				:lineWidth => 1,
-        		:tickmarkPlacement => 'on',
-				:max => 6,
-				:min => 0
-			}
-			f.options[:yAxis]={
-				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
-				:tickPositions => [0,1,2,3,4],
-				:gridLineWidth => '1',
-				:lineWidth => 1,
-        		:tickmarkPlacement => 'on',
-				:max => 4,
-				:min => 0
-			}
-			tmp="Average"
-			f.series(
-			:name=> tmp, 
-			:data=> [[@unit["obj"]["cogn"] ? @unit["obj"]["cogn"]["value"]: 0, @unit["obj"]["know"] ? @unit["obj"]["know"]["value"]: 0]],
-			:marker => {:radius=>6}
-			)
-		end
-		@aux=[@unit["cogn"] ? @unit["cogn"]["value"]: 0, @unit["know"] ? @unit["know"]["value"]: 0]
-
-
-		@graphObjectives = LazyHighCharts::HighChart.new('graph') do |f|
-			f.options[:plotOptions]={
-				:line => {:lineWidth => 0}
-			}
-			f.options[:title][:text] = "Objectives Identified"
-			f.options[:xAxis]={
-				:title => {:text => "Cognitive Dimension"},
-				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
-				:tickPositions => [0,1,2,3,4,5,6],
-				:gridLineWidth => '1',
-				:lineWidth => 1,
-        		:tickmarkPlacement => 'on',
-				:max => 6,
-				:min => 0
-			}
-			f.options[:yAxis]={
-				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
-				:tickPositions => [0,1,2,3,4],
-				:gridLineWidth => '1',
-				:lineWidth => 1,
-        		:tickmarkPlacement => 'on',
-				:max => 4,
-				:min => 0
-			}
-			aux=1
-			@unit["obj"]["parts"].each do |part|
-				tmp="Objective #{aux}"
-				f.series(
-				:name=> tmp, 
-				:data=> [[part["cogn"] ? part["cogn"]["value"]: 0, part["know"] ? part["know"]["value"]: 0]],
-				:marker => {:radius=>6}
-				)
-				aux+=1
+			solutions=queryUSDL4EDUDelivery.execute(graphUSDL4EDU)
+			solutions.filter(:q => solutionUnit.delivery).each do |solution|
+				@unit["delivery"]=solution.label
 			end
 			
-	  	end
+
+			solutions=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
+			solutions.filter(:q => solutionUnit.language).each do |solution|
+				@unit["language"]=solution.label
+			end
+			# @unit["language"]=getLanguageName(solutionUnit.language)
+
+			teacher=Hash.new
+			teacher["url"]=solutionUnit.teacher
+
+			solutionsTeacher.filter(:q => teacher["url"]).each do |s|
+				teacher["name"]=s["first"].to_s+" "+s["last"].to_s
+			end
+
+			@unit["teachers"] << teacher
+		end
+		solutionsUnitOP.filter(:q => @unitDB.url).each do |solution|
+			pre=Hash.new
+			pre["url"]=solution.pre
+			@unit["pre"]=pre
+		end
+		if @unit["pre"]
+			solutionsOP.filter(:q => @unit["pre"]["url"]).each do |solution|
+				@unit["pre"]["description"]=solution.description.to_s
+			end
+		end
+
+		solutionsUnitOB.filter(:q => @unitDB.url).each do |solution|
+			obj=Hash.new
+			obj["url"]=solution.obj
+			@unit["obj"]=obj
+		end
+		if @unit["obj"]
+			solutionsOP.filter(:q => @unit["obj"]["url"]).each do |solution|
+				@unit["obj"]["description"]=solution.description.to_s
+			end
+
+			solutionsOB.filter(:q => @unit["obj"]["url"]).each do |solution|
+				@unit["obj"]["description"]=solution.description.to_s
+			end
+			solutionsOBCogn.filter(:q => @unit["obj"]["url"]).each do |solution|
+				@unit["obj"]["cogn"]=cognitiveDimension[solution.cogn]
+			end
+			solutionsOBKnow.filter(:q => @unit["obj"]["url"]).each do |solution|
+				@unit["obj"]["know"]=knowledgeDimension[solution.know]
+			end
+			@unit["obj"]["parts"]=[]
+			solutionsOBParts.filter(:q => @unit["obj"]["url"]).each do |solution|
+				part=Hash.new
+				part["url"]=solution.part
+				part["context"]=[]
+				@unit["obj"]["parts"] << part
+			end
+
+			@unit["obj"]["parts"].each do |part|
+				solutionsObjective.filter(:q => part["url"]).each do |solution|
+					part["description"]=solution.description.to_s
+				end
+				solutionsObjectiveCogn.filter(:q => part["url"]).each do |solution|
+					part["cogn"]=cognitiveDimension[solution.cogn]
+				end
+				solutionsObjectiveKnow.filter(:q => part["url"]).each do |solution|
+					part["know"]=knowledgeDimension[solution.know]
+				end
+				solutionsObjectiveContext.filter(:q => part["url"]).each do |solution|
+					context=Hash.new
+					context["url"]=solution.context
+					# context["label"]=solution.context
+
+					solutions=queryContext.execute(graphContext)
+					solutions.filter(:q => context["url"]).each do |solution|
+						context["label"]= solution.label
+					end
+
+					# context["label"]=getContextName(context["url"])
+					part["context"] << context
+				end
+				solutionsObjective=queryObjective.execute(graph)
+				solutionsObjectiveKnow=queryObjectiveKnow.execute(graph)
+				solutionsObjectiveCogn=queryObjectiveCogn.execute(graph)
+				solutionsObjectiveContext=queryObjectiveContext.execute(graph)
+			end
+
+			@graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
+				f.options[:plotOptions]={
+					:line => {:lineWidth => 0}
+				}
+				f.options[:chart]={
+					:width => 500,
+					:height => 200
+				}
+				f.options[:title][:text] = "Objectives Trend"
+				f.options[:xAxis]={
+					:title => {:text => "Cognitive Dimension"},
+					:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+					:tickPositions => [0,1,2,3,4,5,6],
+					:gridLineWidth => '1',
+					:lineWidth => 1,
+	        		:tickmarkPlacement => 'on',
+					:max => 6,
+					:min => 0
+				}
+				f.options[:yAxis]={
+					:title => {:text => "Knowledge Dimension"},
+					:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+					:tickPositions => [0,1,2,3,4],
+					:gridLineWidth => '1',
+					:lineWidth => 1,
+	        		:tickmarkPlacement => 'on',
+					:max => 4,
+					:min => 0
+				}
+				tmp="Average"
+				f.series(
+				:name=> tmp, 
+				:data=> [[@unit["obj"]["cogn"] ? @unit["obj"]["cogn"]["value"]: 0, @unit["obj"]["know"] ? @unit["obj"]["know"]["value"]: 0]],
+				:marker => {:radius=>6}
+				)
+			end
+			@aux=[@unit["cogn"] ? @unit["cogn"]["value"]: 0, @unit["know"] ? @unit["know"]["value"]: 0]
+
+
+			@graphObjectives = LazyHighCharts::HighChart.new('graph') do |f|
+				f.options[:plotOptions]={
+					:line => {:lineWidth => 0}
+				}
+				f.options[:title][:text] = "Objectives Identified"
+				f.options[:xAxis]={
+					:title => {:text => "Cognitive Dimension"},
+					:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+					:tickPositions => [0,1,2,3,4,5,6],
+					:gridLineWidth => '1',
+					:lineWidth => 1,
+	        		:tickmarkPlacement => 'on',
+					:max => 6,
+					:min => 0
+				}
+				f.options[:yAxis]={
+					:title => {:text => "Knowledge Dimension"},
+					:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+					:tickPositions => [0,1,2,3,4],
+					:gridLineWidth => '1',
+					:lineWidth => 1,
+	        		:tickmarkPlacement => 'on',
+					:max => 4,
+					:min => 0
+				}
+				aux=1
+				@unit["obj"]["parts"].each do |part|
+					tmp="Objective #{aux}"
+					f.series(
+					:name=> tmp, 
+					:data=> [[part["cogn"] ? part["cogn"]["value"]: 0, part["know"] ? part["know"]["value"]: 0]],
+					:marker => {:radius=>6}
+					)
+					aux+=1
+				end
+				
+		  	end
+		  end
 
 
 
@@ -791,5 +851,186 @@ class WelcomeController < ApplicationController
 		@services=Service.all
 		@organizations=Service.select(:organization).map(&:organization).uniq
 		
+	end
+
+	def infocourse()
+
+		@serviceSelected=Service.find(params[:id])
+
+		graph = RDF::Graph.load(@serviceSelected.path, :format => :ttl)
+
+		graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+		queryUSDL4EDULanguage = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.Language,
+		    RDFS.label => :label
+		  }
+		})
+		queryUSDL4EDUCycle = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.HighEducationCycle,
+		    RDFS.label => :label,
+		    DC.description => :description
+		  }
+		})
+		queryUSDL4EDUDelivery = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.ModeDelivery,
+		    RDFS.label => :label
+		  }
+		})
+		queryUSDL4EDCogn = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.CognitiveDimension,
+		    RDFS.label => :label,
+		    DC.description => :description,
+		    USDL4EDU.hasValue => :value
+		  }
+		})
+		queryUSDL4EDKnow = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.KnowledgeDimension,
+		    RDFS.label => :label,
+		    DC.description => :description,
+		    USDL4EDU.hasValue => :value
+		  }
+		})
+		cognitiveDimension=Hash.new
+		solutions=queryUSDL4EDCogn.execute(graphUSDL4EDU)
+		solutions.each do |s|
+			c=Hash.new
+			c["label"]=s.label.to_s
+			c["description"]=s.description.to_s
+			c["value"]=s.value.to_i
+			cognitiveDimension[s.q]=c
+		end
+		knowledgeDimension=Hash.new
+		solutions=queryUSDL4EDKnow.execute(graphUSDL4EDU)
+		solutions.each do |s|
+			c=Hash.new
+			c["label"]=s.label.to_s
+			c["description"]=s.description.to_s
+			c["value"]=s.value.to_i
+			knowledgeDimension[s.q]=c
+		end
+
+
+
+		queryService = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.EducationalService,
+		    USDL4EDU.hasDegree => :degree
+		  }
+		})
+		queryDegree = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.Degree,
+		    DC.description => :description,
+		    USDL4EDU.hasCycle => :cycleX,
+		    USDL4EDU.hasEcts => :ects,
+		    USDL4EDU.hasLanguage => :language
+		  }
+		})
+		queryDegreeUnit = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.Degree,
+		    USDL4EDU.hasCourseUnit => :unit
+		  }
+		})
+
+
+		queryUnitOB = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.CourseUnit,
+		    USDL4EDU.hasTitle => :title,
+		    USDL4EDU.hasOverallObjective => :obj
+		  }
+		})
+		queryOBCogn = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.OverallObjective,
+		    USDL4EDU.hasCognitiveDimension => :cogn
+		  }
+		})
+		queryOBKnow = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.OverallObjective,
+		    USDL4EDU.hasKnowledgeDimension => :know
+		  }
+		})
+
+		solutionsService=queryService.execute(graph)
+		solutionsDegree=queryDegree.execute(graph)
+		solutionsDegreeUnit=queryDegreeUnit.execute(graph)
+
+		solutionsUnitOB=queryUnitOB.execute(graph)
+		solutionsOBCogn=queryOBCogn.execute(graph)
+		solutionsOBKnow=queryOBKnow.execute(graph)
+		
+		itemDegree=""
+		solutionsService.filter(:q => @serviceSelected.url).each do |solution|
+			itemDegree=solution.degree
+		end
+
+
+		@unit = Hash.new
+		@unit["url"]=@serviceSelected.urlCourse
+		@unit["language"]=[]
+		@unit["unit"]=[]
+		solutionsDegree.filter(:q => itemDegree).each do |solution|
+			@unit["description"]=solution.description.to_s		
+
+			solutions=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
+			solutions.filter(:q => solution.language).each do |solutionl|
+				@unit["language"] << solutionl.label.to_s
+			end
+
+			solutions=queryUSDL4EDUCycle.execute(graphUSDL4EDU)
+			solutions.filter(:q => solution.cycleX).each do |solutionl|
+				cycle=Hash.new
+				cycle["label"]=solutionl.label.to_s
+				cycle["description"]=solutionl.description.to_s
+				@unit["cycle"]=cycle
+			end
+
+			@unit["ects"]=solution.ects
+		end
+		solutionsDegreeUnit.filter(:q => itemDegree).each do |solution|
+			u=Hash.new
+			u["url"]=solution.unit
+			@unit["unit"] << u
+		end
+		countCogn=0
+		countKnow=0
+		sumCogn=0
+		sumKnow=0
+		@unit["unit"].each do |u|
+			solutionsUnitOB.filter(:q => u["url"]).each do |solutionUnit|
+				u["title"]=solutionUnit.title.to_s
+				u["cogn"]=0
+				solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
+					u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
+					countCogn+=1
+					sumCogn+=u["cogn"]
+				end
+				u["know"]=0
+				solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
+					u["know"]=knowledgeDimension[solutionOB.know]["value"]
+					countKnow+=1
+					sumKnow+=u["know"]
+				end
+			end
+			solutionsUnitOB=queryUnitOB.execute(graph)
+			solutionsOBCogn=queryOBCogn.execute(graph)
+			solutionsOBKnow=queryOBKnow.execute(graph)
+		end
+		@unit["cogn"]=sumCogn/countCogn
+		@unit["know"]=sumKnow/countKnow
+
+		@isIndex=true
+
+		@services=Service.all
+		@organizations=Service.select(:organization).map(&:organization).uniq
+
 	end
 end

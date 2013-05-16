@@ -20,6 +20,9 @@
 	</div>
 </div>
 <div class="well">
+	<p style="margin-bottom:1px"><strong>Prerequisites</strong></p><p><%=@unit["pre"] ? @unit["pre"]["description"] : "None"%> </p>
+</div>
+<div class="well">
 	<p style="margin-bottom:1px"><strong>Objective</strong></p><p><%=@unit["obj"]["description"]%> </p>
 	<p style="margin-bottom:1px"><strong>Bloom's Taxonomy Classification</strong></p>
 	<p style="margin-bottom:1px"><strong>Cognitive Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["cogn"] ? "rel='tooltip' title='"+@unit["obj"]["cogn"]["description"]+"'": "" %> ><%=@unit["obj"]["cogn"] ? @unit["obj"]["cogn"]["label"] : "None"%>
