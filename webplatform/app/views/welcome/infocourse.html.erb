@@ -36,7 +36,13 @@
 	<%=@unit["description"]%>
 </div>
 <div class="well">
-	<strong>Avg</strong><%=@unit["cogn"]%>,<%=@unit["know"]%>
-	<strong>Units</strong>
-	<%=@unit["unit"]%>
+	<div align="center">
+		<div id="my_id2" ><%= high_chart("my_id2", @graphOverall) %></div>
+	</div>
+</div>
+<div class="well">
+	<%= high_chart("my_id", @graphObjectives) %>
+</div>
+<div class="well">
+	<%= high_chart("my_id3", @graphObjectivesBubble) %>
 </div>

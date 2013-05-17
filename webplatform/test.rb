@@ -26,40 +26,25 @@ queryUnit = RDF::Query.new({
 @unit=Hash.new
 
 
-print "ola\n"
-print @unitDB.url+"\n"
-
-solutionsUnit=queryUnit.execute(graph)
-
-solutionsUnit.filter(:q => @unitDB.url).each do |solutionUnit|
-    @unit["description"]=solutionUnit.description.to_s
-    print @unit["description"]
-    @unit["ects"]=solutionUnit.ects
-    @unit["semester"]=solutionUnit.semester
-
-    # solutions=queryUSDL4EDUDelivery.execute(graphUSDL4EDU)
-    # solutions.filter(:q => solutionUnit.delivery).each do |solution|
-    #   @unit["delivery"]=solution.label
-    # end
-    
-
-    # solutions=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
-    # solutions.filter(:q => solutionUnit.language).each do |solution|
-    #   @unit["language"]=solution.label
-    # end
-    # @unit["language"]=getLanguageName(solutionUnit.language)
-
-    obj=Hash.new
-    obj["url"]=solutionUnit.obj
-    @unit["obj"]=obj
-    teacher=Hash.new
-    teacher["url"]=solutionUnit.teacher
-    print teacher["url"]+"\n"
-    @unit["teachers"]=[]
-    # solutionsTeacher.filter(:q => teacher["url"]).each do |s|
-    #   teacher["name"]=s["first"].to_s+" "+s["last"].to_s
-    #   print teacher["name"]
-    # end
-
-    @unit["teachers"] << teacher
+@a=[[13, 0, 0, 0, 0], [0, 0, 0, 0, 0], [2, 0, 0, 0, 0], [6, 0, 0, 0, 0], [6, 1, 2, 0, 0], [0, 1, 1, 0, 0], [1, 0, 0, 0, 0]] 
+print @a.size
+print @a[0].size
+for i in 0..(@a.size-1)
+    for j in 0..(@a[i].size-1)
+        puts i.to_s+","+j.to_s+"\n"
+    end
 end
+
+# @data=[]
+# for i in 0..@a.size
+#     for j in 0..@a[i].size
+#         if @a[i][j]!=0
+#             print i+","
+#             print j
+#             print "\n"
+#             aux=[]
+#             aux=[i,j,@a[i][j]]
+#             @data << aux
+#         end
+#     end
+# end

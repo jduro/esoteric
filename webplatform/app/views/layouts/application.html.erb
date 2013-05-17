@@ -55,7 +55,37 @@
                     <% if service.organization==organization %>
                       <% if service.isCourse==false %>
                         <div style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
-                        <i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></div>
+                          <%if @idsS%>
+                            <%if @idsS.include? service.id %>
+                              <%tmp=@idsS%>
+                              <%tmp=tmp.delete_if{|n| n==service.id}%>
+                              <%if tmp.size!=0%>
+                                    <%aux=tmp.join("-")%>
+                                    <%= link_to("/view/#{aux}") do %>
+                                      <i class="icon-remove"></i>
+                                    <%end%>
+                                  <%else%>
+                                    <%= link_to("/") do %>
+                                      <i class="icon-remove"></i>
+                                    <%end%>
+                                  <%end%>
+                            <%else%>
+                              <%aux="" %>
+                              <%if @ids %>
+                                <%aux=@ids+"-"%>
+                              <%end%>
+                              <% aux += service.id.to_s%>
+                              <%= link_to("/view/#{aux}") do %>
+                                <i class="icon-plus"></i>
+                              <%end%>
+                            <%end%>
+                          <%else%>
+                            <%= link_to("/view/#{service.id}") do %>
+                              <i class="icon-plus"></i>
+                            <%end%>
+                          <%end%>
+
+                        </div>
                       <% else %>
                         <div style="margin-bottom:10px">
                           <div class="btn-group">
@@ -70,8 +100,9 @@
                           <% service.units.each do |u| %>
                             <div style="margin-bottom:10px">
                               <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
-                              <i class="icon-ok icon-green"></i>
-                              <i class="icon-remove icon-red"></i>
+                              <%= link_to("/view/#{service.id}") do %>
+                                <i class="icon-plus"></i>
+                              <%end%>
                             </div>
                           <% end%>
                         </div>
@@ -101,8 +132,35 @@
                           <% service.units.each do |u| %>
                             <div style="margin-bottom:10px">
                               <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
-                              <i class="icon-ok icon-green"></i>
-                              <i class="icon-remove icon-red"></i>
+                              <%if @idsS%>
+                                <%if @idsS.include? service.id %>
+                                  <%tmp=@idsS%>
+                                  <%tmp=tmp.delete_if{|n| n==service.id}%>
+                                  <%if tmp.size!=0%>
+                                    <%aux=tmp.join("-")%>
+                                    <%= link_to("/view/#{aux}") do %>
+                                      <i class="icon-remove"></i>
+                                    <%end%>
+                                  <%else%>
+                                    <%= link_to("/") do %>
+                                      <i class="icon-remove"></i>
+                                    <%end%>
+                                  <%end%>
+                                <%else%>
+                                  <%aux="" %>
+                                  <%if @ids %>
+                                    <%aux=@ids+"-"%>
+                                  <%end%>
+                                  <% aux += service.id.to_s%>
+                                  <%= link_to("/view/#{aux}") do %>
+                                    <i class="icon-plus"></i>
+                                  <%end%>
+                                <%end%>
+                              <%else%>
+                                <%= link_to("/view/#{service.id}") do %>
+                                  <i class="icon-plus"></i>
+                                <%end%>
+                              <%end%>
                             </div>
                           <% end%>
                         </div>

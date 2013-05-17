@@ -1004,6 +1004,17 @@ class WelcomeController < ApplicationController
 		countKnow=0
 		sumCogn=0
 		sumKnow=0
+
+		#bubble chart
+		@a=[]
+	  	@a[0]=[0,0,0,0,0]
+	  	@a[1]=[0,0,0,0,0]
+	  	@a[2]=[0,0,0,0,0]
+	  	@a[3]=[0,0,0,0,0]
+	  	@a[4]=[0,0,0,0,0]
+	  	@a[5]=[0,0,0,0,0]
+	  	@a[6]=[0,0,0,0,0]
+
 		@unit["unit"].each do |u|
 			solutionsUnitOB.filter(:q => u["url"]).each do |solutionUnit|
 				u["title"]=solutionUnit.title.to_s
@@ -1019,13 +1030,163 @@ class WelcomeController < ApplicationController
 					countKnow+=1
 					sumKnow+=u["know"]
 				end
+				@a[u["cogn"]][u["know"]]+=1
 			end
 			solutionsUnitOB=queryUnitOB.execute(graph)
 			solutionsOBCogn=queryOBCogn.execute(graph)
 			solutionsOBKnow=queryOBKnow.execute(graph)
 		end
-		@unit["cogn"]=sumCogn/countCogn
-		@unit["know"]=sumKnow/countKnow
+		@unit["cogn"]=countCogn==0 ? 0 : (sumCogn/countCogn).round()
+		@unit["know"]=countKnow==0 ? 0 : (sumKnow/countKnow).round()
+
+		@graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
+			f.options[:plotOptions]={
+				:line => {:lineWidth => 0}
+			}
+			f.options[:chart]={
+				:width => 500,
+				:height => 200
+			}
+			f.options[:title][:text] = "Average of Curricular units"
+			f.options[:xAxis]={
+				:title => {:text => "Cognitive Dimension"},
+				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:tickPositions => [0,1,2,3,4,5,6],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+        		:tickmarkPlacement => 'on',
+				:max => 6,
+				:min => 0
+			}
+			f.options[:yAxis]={
+				:title => {:text => "Knowledge Dimension"},
+				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+				:tickPositions => [0,1,2,3,4],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+        		:tickmarkPlacement => 'on',
+				:max => 4,
+				:min => 0
+			}
+			tmp="Average"
+			f.series(
+			:name=> tmp, 
+			:data=> [[@unit["cogn"] ? @unit["cogn"]: 0, @unit["know"] ? @unit["know"]: 0]],
+			:marker => {:radius=>6}
+			)
+		end
+
+		@graphObjectives = LazyHighCharts::HighChart.new('graph') do |f|
+			f.options[:legend]={
+				:width => 600,
+				:itemWidth => 300,
+				:adjustChartSize => true
+			}
+			f.options[:plotOptions]={
+				:line => {:lineWidth => 0}
+			}
+			f.options[:title][:text] = "Objectives Trend on each Curse unit"
+			f.options[:xAxis]={
+				:title => {:text => "Cognitive Dimension"},
+				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:tickPositions => [0,1,2,3,4,5,6],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+	    		:tickmarkPlacement => 'on',
+				:max => 6,
+				:min => 0
+			}
+			f.options[:yAxis]={
+				:title => {:text => "Knowledge Dimension"},
+				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+				:tickPositions => [0,1,2,3,4],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+	    		:tickmarkPlacement => 'on',
+				:max => 4,
+				:min => 0
+			}
+			@unit["unit"].each do |u|
+				if u['title']
+					tmp="#{u['title']}"
+					f.series(
+						
+						:name=> tmp, 
+						:data=> [[u["cogn"] ? u["cogn"]: 0, u["know"] ? u["know"]: 0]],
+						:marker => {:radius=>6}
+					)
+				end
+			end
+	  	end
+
+
+	  	@data=[]
+	  	for i in 0..(@a.size-1)
+    		for j in 0..(@a[0].size-1)
+	  			if @a[i][j]!=0
+	  				aux=[]
+	  				aux=[i,j,@a[i][j]]
+	  				@data << aux
+	  			end
+	  		end
+	  	end
+
+	  	@graphObjectivesBubble = LazyHighCharts::HighChart.new('graph') do |f|
+			f.option[:chart]={
+				:type => "bubble",
+				:plotBorderWidth => 1,
+				:zoomType => 'xy'
+			}
+			f.options[:title][:text] = "Disposition of Curricular units according to Bloom's Taxonomy"
+			f.options[:xAxis]={
+				:title => {:text => "Cognitive Dimension"},
+				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:tickPositions => [0,1,2,3,4,5,6],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+	    		:tickmarkPlacement => 'on',
+				:max => 6,
+				:min => 0
+			}
+			f.options[:yAxis]={
+				:title => {:text => "Knowledge Dimension"},
+				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+				:tickPositions => [0,1,2,3,4],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+	    		:tickmarkPlacement => 'on',
+				:max => 4,
+				:min => -1,
+				:startOnTick => false
+			}
+
+			f.series(
+				:data=> @data,
+				:name => @serviceSelected.title,	
+                :marker=>{
+                	:fillColor => {
+                		:radialGradient => { cx: 0.4, cy: 0.3, r: 0.7 },
+                		:stops => [
+                         [0, 'rgba(0,255,0,0.5)'],
+                         [1, 'rgba(69,114,167,0.5)']]
+                	}
+                }
+			)
+	  	end
+
+
+
+
+		@isIndex=true
+
+		@services=Service.all
+		@organizations=Service.select(:organization).map(&:organization).uniq
+
+	end
+
+	def view()
+		@ids=params[:ids]
+		@idsS=@ids.split("-").map{ |s| s.to_i }
 
 		@isIndex=true
 
