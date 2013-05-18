@@ -1187,6 +1187,17 @@ class WelcomeController < ApplicationController
 	def view()
 		@ids=params[:ids]
 		@idsS=@ids.split("-").map{ |s| s.to_i }
+		@idsUnit=params[:idsUnit]
+		@idsSUnit=@ids.split("-").map{ |s| s.to_i }
+
+		# @servicesSelected=[]
+		# @idsS.each do |id|
+		# 	@servicesSelected << Service.find(id)
+		# end
+		# @unitsSelected=[]
+		# @idsSUnit.each do |id|
+		# 	@unitsSelected << Unit.find(id)
+		# end
 
 		@isIndex=true
 
