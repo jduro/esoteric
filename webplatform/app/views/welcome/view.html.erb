@@ -1,5 +1,101 @@
-ids:<%= @ids %>
+<div class="hero-unit" style="padding-top:20px;padding-bottom:20px;padding-left:40px;padding-right:40px;">
+	<p>Browse</p>
+	<%count=0%>
+	<% @servicesSelected.each do |service|%>
+		<%if count%2==0%>
+			<div class="row-fluid">
+		<%end%>
+		<div class="span6">
+			<% if service.isCourse==false %>
+		        <div class="btn-group" style="margin-bottom:10px">
+		        	<button class="btn btn-small btn-course-title disabled" rel="tooltip" title="This service is selected in view">
+		          		<%=service.title%>
+		          	</button>
+		          <%if @idsS%>
+		            <%if @idsS.include? service.id %>
+		              <%tmp=@idsS.clone%>
+		              <%tmp=tmp.delete_if{|n| n==service.id}%>
+		              <%if tmp.size!=0%>
+		                    <%aux=tmp.join("-")%>
+		                    <%= link_to({:action=>'view',:ids=>aux},:class=>"btn btn-small") do %>
+		                      <i class="icon-remove"></i>
+		                    <%end%>
+		                  <%else%>
+		                    <%= link_to("/",:class=>"btn btn-small") do %>
+		                      <i class="icon-remove"></i>
+		                    <%end%>
+		                  <%end%>
+		            <%else%>
+		              <%aux="" %>
+		              <%if @ids %>
+		                <%aux=@ids+"-"%>
+		              <%end%>
+		              <% aux += service.id.to_s%>
+		              <%= link_to({:action=>'view',:ids=>aux},:class=>"btn btn-small") do %>
+		                <i class="icon-plus"></i>
+		              <%end%>
+		            <%end%>
+		          <%else%>
+		            <%= link_to({:action=>'view',:ids=>service.id},:class=>"btn btn-small") do %>
+		              <i class="icon-plus"></i>
+		            <%end%>
+		          <%end%>
+		      </div>
+		      <% else %>
+		        <div style="margin-bottom:10px">
+		          <div class="btn-group">
+		          	<button class="btn btn-small btn-course-title disabled" rel="tooltip" title="This service is selected in view">
+		          		<%=service.title%>
+		          	</button>
+		          <%if @idsS%>
+		            <%if @idsS.include? service.id %>
+		              <%tmp=@idsS.clone%>
+		              <%tmp=tmp.delete_if{|n| n==service.id}%>
+		              <%if tmp.size!=0%>
+		                    <%aux=tmp.join("-")%>
+		                    <%= link_to({:action=>'view',:ids=>aux}, :class=>"btn btn-small") do %>
+		                      <i class="icon-remove inline"></i>
+		                    <%end%>
+		                  <%else%>
+		                    <%= link_to("/", :class=>"btn btn-small") do %>
+		                      <i class="icon-remove inline"></i>
+		                    <%end%>
+		                  <%end%>
+		            <%else%>
+		              <%aux="" %>
+		              <%if @ids %>
+		                <%aux=@ids+"-"%>
+		              <%end%>
+		              <% aux += service.id.to_s%>
+		              <%= link_to({:action=>'view',:ids=>aux}, :class=>"btn btn-small") do %>
+		                <i class="icon-plus inline"></i>
+		              <%end%>
+		            <%end%>
+		          <%else%>
+		            <%= link_to({:action=>'view',:ids=>service.id}, :class=>"btn btn-small") do %>
+		              <i class="icon-plus inline"></i>
+		            <%end%>
+		          <%end%>
+		          </div>
+		        </div>
+		    <%end%>
+		   	</div>
+		    <%if count%2!=0%>
+				</div>
+			<%end%>
+			<%count+=1%>
+		<%end%>
+	<%if count%2!=0%>
+		</div>
+	<%end%>
+</div>
 
-<br>
+<div class="well">
+	<div align="center">
+		<div id="my_id2" ><%= high_chart("my_id2", @graphOverall) %></div>
+	</div>
+</div>
 
-idsUnit:<%= @idsUnit %>
+<div class="well">
+	<%= high_chart("my_id3", @graphObjectivesBubble) %>
+</div>

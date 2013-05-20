@@ -1150,12 +1150,12 @@ class WelcomeController < ApplicationController
 			}
 			f.options[:yAxis]={
 				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
-				:tickPositions => [0,1,2,3,4],
+				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive",""],
+				:tickPositions => [0,1,2,3,4,5],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
 	    		:tickmarkPlacement => 'on',
-				:max => 4,
+				:max => 5,
 				:min => -1,
 				:startOnTick => false
 			}
@@ -1187,22 +1187,298 @@ class WelcomeController < ApplicationController
 	def view()
 		@ids=params[:ids]
 		@idsS=@ids.split("-").map{ |s| s.to_i }
-		@idsUnit=params[:idsUnit]
-		@idsSUnit=@ids.split("-").map{ |s| s.to_i }
 
-		# @servicesSelected=[]
-		# @idsS.each do |id|
-		# 	@servicesSelected << Service.find(id)
-		# end
-		# @unitsSelected=[]
-		# @idsSUnit.each do |id|
-		# 	@unitsSelected << Unit.find(id)
-		# end
 
 		@isIndex=true
 
 		@services=Service.all
 		@organizations=Service.select(:organization).map(&:organization).uniq
+
+
+		graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+		queryUSDL4EDCogn = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.CognitiveDimension,
+		    RDFS.label => :label,
+		    DC.description => :description,
+		    USDL4EDU.hasValue => :value
+		  }
+		})
+		queryUSDL4EDKnow = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.KnowledgeDimension,
+		    RDFS.label => :label,
+		    DC.description => :description,
+		    USDL4EDU.hasValue => :value
+		  }
+		})
+		cognitiveDimension=Hash.new
+		solutions=queryUSDL4EDCogn.execute(graphUSDL4EDU)
+		solutions.each do |s|
+			c=Hash.new
+			c["label"]=s.label.to_s
+			c["description"]=s.description.to_s
+			c["value"]=s.value.to_i
+			cognitiveDimension[s.q]=c
+		end
+		knowledgeDimension=Hash.new
+		solutions=queryUSDL4EDKnow.execute(graphUSDL4EDU)
+		solutions.each do |s|
+			c=Hash.new
+			c["label"]=s.label.to_s
+			c["description"]=s.description.to_s
+			c["value"]=s.value.to_i
+			knowledgeDimension[s.q]=c
+		end
+
+
+
+		queryService2 = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.EducationalService,
+		    USDL4EDU.hasCourseUnit => :unit
+		  }
+		})
+
+
+		queryService = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.EducationalService,
+		    USDL4EDU.hasDegree => :degree
+		  }
+		})
+		queryDegree = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.Degree,
+		    DC.description => :description,
+		    USDL4EDU.hasCycle => :cycleX,
+		    USDL4EDU.hasEcts => :ects,
+		    USDL4EDU.hasLanguage => :language
+		  }
+		})
+		queryDegreeUnit = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.Degree,
+		    USDL4EDU.hasCourseUnit => :unit
+		  }
+		})
+
+
+		queryUnitOB = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.CourseUnit,
+		    USDL4EDU.hasTitle => :title,
+		    USDL4EDU.hasOverallObjective => :obj
+		  }
+		})
+		queryOBCogn = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.OverallObjective,
+		    USDL4EDU.hasCognitiveDimension => :cogn
+		  }
+		})
+		queryOBKnow = RDF::Query.new({
+		  :q => {
+		    RDF.type => USDL4EDU.OverallObjective,
+		    USDL4EDU.hasKnowledgeDimension => :know
+		  }
+		})
+
+
+		#bubble chart
+		@a=[]
+	  	@a[0]=[0,0,0,0,0]
+	  	@a[1]=[0,0,0,0,0]
+	  	@a[2]=[0,0,0,0,0]
+	  	@a[3]=[0,0,0,0,0]
+	  	@a[4]=[0,0,0,0,0]
+	  	@a[5]=[0,0,0,0,0]
+	  	@a[6]=[0,0,0,0,0]
+
+	  	countCogn=0
+		countKnow=0
+		sumCogn=0
+		sumKnow=0
+		@avgCogn=0
+		@avgKnow=0
+
+		@servicesSelected=Service.find(@idsS)
+
+		@servicesSelected.each do |s|
+			graph = RDF::Graph.load(s.path, :format => :ttl)
+			solutionsUnitOB=queryUnitOB.execute(graph)
+			solutionsOBCogn=queryOBCogn.execute(graph)
+			solutionsOBKnow=queryOBKnow.execute(graph)
+
+			if s.isCourse
+
+				solutionsService=queryService.execute(graph)
+				solutionsDegree=queryDegree.execute(graph)
+				solutionsDegreeUnit=queryDegreeUnit.execute(graph)
+
+				itemDegree=""
+				solutionsService.filter(:q => s.url).each do |solution|
+					itemDegree=solution.degree
+				end
+
+				unit = Hash.new
+				unit["unit"]=[]
+				solutionsDegreeUnit.filter(:q => itemDegree).each do |solution|
+					u=Hash.new
+					u["url"]=solution.unit
+					unit["unit"] << u
+				end
+
+				unit["unit"].each do |u|
+					solutionsUnitOB.filter(:q => u["url"]).each do |solutionUnit|
+						u["title"]=solutionUnit.title.to_s
+						u["cogn"]=0
+						solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
+							u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
+							countCogn+=1
+							sumCogn+=u["cogn"]
+						end
+						u["know"]=0
+						solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
+							u["know"]=knowledgeDimension[solutionOB.know]["value"]
+							countKnow+=1
+							sumKnow+=u["know"]
+						end
+						@a[u["cogn"]][u["know"]]+=1
+					end
+					solutionsUnitOB=queryUnitOB.execute(graph)
+					solutionsOBCogn=queryOBCogn.execute(graph)
+					solutionsOBKnow=queryOBKnow.execute(graph)
+				end
+			else
+				solutionsService2=queryService2.execute(graph)
+
+				unit = Hash.new
+				unit["unit"]=[]
+				solutionsService2.filter(:q => s.url).each do |solution|
+					u=Hash.new
+					u["url"]=solution.unit
+					unit["unit"] << u
+				end
+
+				unit["unit"].each do |u|
+					solutionsUnitOB.filter(:q => u["url"]).each do |solutionUnit|
+						u["title"]=solutionUnit.title.to_s
+						u["cogn"]=0
+						solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
+							u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
+							countCogn+=1
+							sumCogn+=u["cogn"]
+						end
+						u["know"]=0
+						solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
+							u["know"]=knowledgeDimension[solutionOB.know]["value"]
+							countKnow+=1
+							sumKnow+=u["know"]
+						end
+						@a[u["cogn"]][u["know"]]+=1
+					end
+					solutionsUnitOB=queryUnitOB.execute(graph)
+					solutionsOBCogn=queryOBCogn.execute(graph)
+					solutionsOBKnow=queryOBKnow.execute(graph)
+				end
+
+
+			end
+		end
+		@avgCogn=countCogn==0 ? 0 : (sumCogn/countCogn).round()
+		@avgKnow=countKnow==0 ? 0 : (sumKnow/countKnow).round()
+
+		@data=[]
+	  	for i in 0..(@a.size-1)
+    		for j in 0..(@a[0].size-1)
+	  			if @a[i][j]!=0
+	  				aux=[]
+	  				aux=[i,j,@a[i][j]]
+	  				@data << aux
+	  			end
+	  		end
+	  	end
+
+		@graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
+			f.options[:plotOptions]={
+				:line => {:lineWidth => 0}
+			}
+			f.options[:chart]={
+				:width => 500,
+				:height => 200
+			}
+			f.options[:title][:text] = "Average of Curricular units"
+			f.options[:xAxis]={
+				:title => {:text => "Cognitive Dimension"},
+				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:tickPositions => [0,1,2,3,4,5,6],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+        		:tickmarkPlacement => 'on',
+				:max => 6,
+				:min => 0
+			}
+			f.options[:yAxis]={
+				:title => {:text => "Knowledge Dimension"},
+				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+				:tickPositions => [0,1,2,3,4],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+        		:tickmarkPlacement => 'on',
+				:max => 4,
+				:min => 0
+			}
+			tmp="Average"
+			f.series(
+			:name=> tmp, 
+			:data=> [[@avgCogn ? @avgCogn: 0, @avgKnow ? @avgKnow: 0]],
+			:marker => {:radius=>6}
+			)
+		end
+		@graphObjectivesBubble = LazyHighCharts::HighChart.new('graph') do |f|
+			f.option[:chart]={
+				:type => "bubble",
+				:plotBorderWidth => 1,
+				:zoomType => 'xy'
+			}
+			f.options[:title][:text] = "Disposition of Curricular units according to Bloom's Taxonomy"
+			f.options[:xAxis]={
+				:title => {:text => "Cognitive Dimension"},
+				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:tickPositions => [0,1,2,3,4,5,6],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+	    		:tickmarkPlacement => 'on',
+				:max => 6,
+				:min => 0
+			}
+			f.options[:yAxis]={
+				:title => {:text => "Knowledge Dimension"},
+				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive",""],
+				:tickPositions => [0,1,2,3,4,5],
+				:gridLineWidth => '1',
+				:lineWidth => 1,
+	    		:tickmarkPlacement => 'on',
+				:max => 5,
+				:min => -1,
+				:startOnTick => false
+			}
+
+			f.series(
+				:data=> @data,
+				:name => "Services selected above",	
+                :marker=>{
+                	:fillColor => {
+                		:radialGradient => { cx: 0.4, cy: 0.3, r: 0.7 },
+                		:stops => [
+                         [0, 'rgba(0,255,0,0.5)'],
+                         [1, 'rgba(69,114,167,0.5)']]
+                	}
+                }
+			)
+	  	end
+
 
 	end
 end
