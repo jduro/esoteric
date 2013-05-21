@@ -13,6 +13,13 @@ class WelcomeController < ApplicationController
 		@organizations=Service.select(:organization).map(&:organization).uniq
 	end
 
+	def blank()
+		@isIndex=true
+		@services=Service.all
+		@organizations=Service.select(:organization).map(&:organization).uniq
+		flash[:notice]="Exited from view section."
+	end
+
 	def import()
 		begin
 			name = params[:file].original_filename
@@ -1187,6 +1194,15 @@ class WelcomeController < ApplicationController
 	def view()
 		@ids=params[:ids]
 		@idsS=@ids.split("-").map{ |s| s.to_i }
+
+		if params[:idAdded]
+			if @idsS.include? params[:idAdded].to_i
+				flash[:notice] = Service.find(params[:idAdded]).title+" added to view"
+			else
+				flash[:notice] = Service.find(params[:idAdded]).title+" removed from view"
+			end
+		end
+
 
 
 		@isIndex=true

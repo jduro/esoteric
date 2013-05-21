@@ -11,35 +11,22 @@
 		        	<button class="btn btn-small btn-course-title disabled" rel="tooltip" title="This service is selected in view">
 		          		<%=service.title%>
 		          	</button>
-		          <%if @idsS%>
-		            <%if @idsS.include? service.id %>
-		              <%tmp=@idsS.clone%>
-		              <%tmp=tmp.delete_if{|n| n==service.id}%>
-		              <%if tmp.size!=0%>
-		                    <%aux=tmp.join("-")%>
-		                    <%= link_to({:action=>'view',:ids=>aux},:class=>"btn btn-small") do %>
-		                      <i class="icon-remove"></i>
-		                    <%end%>
-		                  <%else%>
-		                    <%= link_to("/",:class=>"btn btn-small") do %>
-		                      <i class="icon-remove"></i>
-		                    <%end%>
-		                  <%end%>
-		            <%else%>
-		              <%aux="" %>
-		              <%if @ids %>
-		                <%aux=@ids+"-"%>
-		              <%end%>
-		              <% aux += service.id.to_s%>
-		              <%= link_to({:action=>'view',:ids=>aux},:class=>"btn btn-small") do %>
-		                <i class="icon-plus"></i>
-		              <%end%>
-		            <%end%>
-		          <%else%>
-		            <%= link_to({:action=>'view',:ids=>service.id},:class=>"btn btn-small") do %>
-		              <i class="icon-plus"></i>
-		            <%end%>
-		          <%end%>
+					<%if @idsS%>
+						<%if @idsS.include? service.id %>
+						  <%tmp=@idsS.clone%>
+						  <%tmp=tmp.delete_if{|n| n==service.id}%>
+						  <%if tmp.size!=0%>
+						        <%aux=tmp.join("-")%>
+						        <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
+						          <i class="icon-remove"></i>
+						        <%end%>
+						      <%else%>
+						        <%= link_to("/",:class=>"btn btn-small") do %>
+						          <i class="icon-remove"></i>
+						        <%end%>
+						      <%end%>
+						<%end%>
+					<%end%>
 		      </div>
 		      <% else %>
 		        <div style="margin-bottom:10px">
@@ -52,28 +39,15 @@
 		              <%tmp=@idsS.clone%>
 		              <%tmp=tmp.delete_if{|n| n==service.id}%>
 		              <%if tmp.size!=0%>
-		                    <%aux=tmp.join("-")%>
-		                    <%= link_to({:action=>'view',:ids=>aux}, :class=>"btn btn-small") do %>
-		                      <i class="icon-remove inline"></i>
-		                    <%end%>
-		                  <%else%>
-		                    <%= link_to("/", :class=>"btn btn-small") do %>
-		                      <i class="icon-remove inline"></i>
-		                    <%end%>
-		                  <%end%>
-		            <%else%>
-		              <%aux="" %>
-		              <%if @ids %>
-		                <%aux=@ids+"-"%>
-		              <%end%>
-		              <% aux += service.id.to_s%>
-		              <%= link_to({:action=>'view',:ids=>aux}, :class=>"btn btn-small") do %>
-		                <i class="icon-plus inline"></i>
-		              <%end%>
-		            <%end%>
-		          <%else%>
-		            <%= link_to({:action=>'view',:ids=>service.id}, :class=>"btn btn-small") do %>
-		              <i class="icon-plus inline"></i>
+	                    <%aux=tmp.join("-")%>
+	                    <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id}, :class=>"btn btn-small") do %>
+	                      <i class="icon-remove inline"></i>
+	                    <%end%>
+	                  <%else%>
+	                    <%= link_to("/", :class=>"btn btn-small") do %>
+	                      <i class="icon-remove inline"></i>
+	                    <%end%>
+	                  <%end%>
 		            <%end%>
 		          <%end%>
 		          </div>
@@ -88,6 +62,10 @@
 	<%if count%2!=0%>
 		</div>
 	<%end%>
+	<br>
+	<%= link_to({:action=>'blank'}, :class=>"btn btn-danger btn-small") do %>
+      Remove all <i class="icon-remove inline"></i>
+    <%end%>
 </div>
 
 <div class="well">
