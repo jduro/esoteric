@@ -283,7 +283,7 @@ class NonioSpider(BaseSpider):
         print "Gonna send login"
         print response.url
         return [FormRequest.from_response(response,
-                    formdata={'method' : 'submeter' ,'username': 'uc2007103732@student.uc.pt', 'password': 'wordPASS0'},
+                    formdata={'method' : 'submeter' ,'username': 'x', 'password': 'x'},
                     callback=self.after_login, dont_filter=True)]
         #dont_filter=True because the login page of NONIO redirects 3 times
 
