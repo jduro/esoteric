@@ -65,4 +65,10 @@ Webplatform::Application.routes.draw do
 
   match "/unit/:id" => "welcome#infounit"
 
+  match "/view/:ids" => "welcome#view"
+
+  match "/view/:ids/:idAdded" => "welcome#view"
+
+  match "/blank" => "welcome#blank"
+
 end

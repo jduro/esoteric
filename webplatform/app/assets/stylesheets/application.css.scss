@@ -16,11 +16,19 @@
 
 .btn-service-title{
 	width:80%;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 .btn-service-title2{
 	width:77%;
 	margin-left:3%;
+	max-width:77%;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 .btn-course-title{
-	width:75%;
+	width:70%;
+	max-width:70%;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }

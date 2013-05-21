@@ -54,8 +54,25 @@
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
                       <% if service.isCourse==false %>
-                        <div style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
-                        <i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></div>
+                        <div class="btn-group" style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%if @idsS%>
+                            <%if not @idsS.include? service.id %>
+                              <%aux="" %>
+                              <%if @ids %>
+                                <%aux=@ids+"-"%>
+                              <%end%>
+                              <% aux += service.id.to_s%>
+                              <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
+                                <i class="icon-plus"></i>
+                              <%end%>
+                            <%end%>
+                          <%else%>
+                            <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
+                              <i class="icon-plus"></i>
+                            <%end%>
+                          <%end%>
+
+                        </div>
                       <% else %>
                         <div style="margin-bottom:10px">
                           <div class="btn-group">
@@ -63,6 +80,22 @@
                           <button type="button" class="btn btn-small" data-toggle="collapse" data-target="#collapse<%=collapse%>" data-toggle="tooltip" title="Click to expand/collapse course units list">
                             <span class="caret"></span>
                           </button>
+                          <%if @idsS%>
+                            <%if not @idsS.include? service.id %>
+                              <%aux="" %>
+                              <%if @ids %>
+                                <%aux=@ids+"-"%>
+                              <%end%>
+                              <% aux += service.id.to_s%>
+                              <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id}, :class=>"btn btn-small") do %>
+                                <i class="icon-plus inline"></i>
+                              <%end%>
+                            <%end%>
+                          <%else%>
+                            <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id}, :class=>"btn btn-small") do %>
+                              <i class="icon-plus inline"></i>
+                            <%end%>
+                          <%end%>
                           </div>
                         </div>
                         <div id="collapse<%=collapse%>" class="collapse">
@@ -70,8 +103,6 @@
                           <% service.units.each do |u| %>
                             <div style="margin-bottom:10px">
                               <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
-                              <i class="icon-ok icon-green"></i>
-                              <i class="icon-remove icon-red"></i>
                             </div>
                           <% end%>
                         </div>
@@ -85,8 +116,24 @@
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
                       <% if service.isCourse==false %>
-                        <div style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
-                        <i class="icon-ok icon-green"></i><i class="icon-remove icon-red"></i></div>
+                        <div class="btn-group" style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%if @idsS%>
+                            <%if not @idsS.include? service.id %>
+                              <%aux="" %>
+                              <%if @ids %>
+                                <%aux=@ids+"-"%>
+                              <%end%>
+                              <% aux += service.id.to_s%>
+                              <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
+                                <i class="icon-plus"></i>
+                              <%end%>
+                            <%end%>
+                          <%else%>
+                            <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
+                              <i class="icon-plus"></i>
+                            <%end%>
+                          <%end%>
+                      </div>
                       <% else %>
                         <div style="margin-bottom:10px">
                           <div class="btn-group">
@@ -94,6 +141,22 @@
                           <button type="button" class="btn btn-small" data-toggle="collapse" data-target="#collapse<%=collapse%>" data-toggle="tooltip" title="Click to expand/collapse course units list">
                           <span class="caret"></span>
                           </button>
+                          <%if @idsS%>
+                            <%if not @idsS.include? service.id %>
+                              <%aux="" %>
+                              <%if @ids %>
+                                <%aux=@ids+"-"%>
+                              <%end%>
+                              <% aux += service.id.to_s%>
+                              <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id}, :class=>"btn btn-small") do %>
+                                <i class="icon-plus inline"></i>
+                              <%end%>
+                            <%end%>
+                          <%else%>
+                            <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id}, :class=>"btn btn-small") do %>
+                              <i class="icon-plus inline"></i>
+                            <%end%>
+                          <%end%>
                           </div>
                         </div>
                         <div id="collapse<%=collapse%>" class="collapse">
@@ -101,15 +164,12 @@
                           <% service.units.each do |u| %>
                             <div style="margin-bottom:10px">
                               <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
-                              <i class="icon-ok icon-green"></i>
-                              <i class="icon-remove icon-red"></i>
                             </div>
                           <% end%>
                         </div>
                       <% end %>
                     <% end %>
                   <% end %>
-
                 </div>
               <% end %>
               <% count+=1 %>

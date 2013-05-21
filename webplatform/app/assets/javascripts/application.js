@@ -11,3 +11,4 @@
 //= require bootstrap
 
 //= require highcharts
+//= require highcharts-more
