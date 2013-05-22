@@ -403,7 +403,7 @@ class WelcomeController < ApplicationController
 				:width => 500,
 				:height => 200
 			}
-			f.options[:title][:text] = "Objectives Trend"
+			f.options[:title][:text] = "Average of Curricular objectives according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -438,7 +438,7 @@ class WelcomeController < ApplicationController
 			f.options[:plotOptions]={
 				:line => {:lineWidth => 0}
 			}
-			f.options[:title][:text] = "Objectives Identified"
+			f.options[:title][:text] = "Objectives Identified according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1054,7 +1054,7 @@ class WelcomeController < ApplicationController
 				:width => 500,
 				:height => 200
 			}
-			f.options[:title][:text] = "Average of Curricular units"
+			f.options[:title][:text] = "Avegare of Dregree according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1092,7 +1092,7 @@ class WelcomeController < ApplicationController
 			f.options[:plotOptions]={
 				:line => {:lineWidth => 0}
 			}
-			f.options[:title][:text] = "Objectives Trend on each Curse unit"
+			f.options[:title][:text] = "Objectives Trend on each Curricular unit according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1192,18 +1192,35 @@ class WelcomeController < ApplicationController
 	end
 
 	def view()
-		@ids=params[:ids]
-		@idsS=@ids.split("-").map{ |s| s.to_i }
+		@all=params[:ids].split("-")
+		@idsS=[]
+		@idsUS=[]
+		@idsU=""
 
-		if params[:idAdded]
-			if @idsS.include? params[:idAdded].to_i
-				flash[:notice] = Service.find(params[:idAdded]).title+" added to view"
-			else
-				flash[:notice] = Service.find(params[:idAdded]).title+" removed from view"
-			end
+		@all.each do |sub|
+		    if sub.ends_with? "u"
+		        @idsUS<<sub[0..sub.size-2].to_i
+		        @idsU+=sub+"-"
+		    else
+		        @idsS<<sub.to_i
+		    end
 		end
+		@ids=@idsS.join("-")
+		@idsU=@idsU[0..@idsU.size-2]
 
 
+		# if params[:idAdded]
+		# 	if @idsS.include? params[:idAdded].to_i
+		# 		flash[:notice] = Service.find(params[:idAdded]).title+" added to view"
+		# 	elsif @idsUS.include? params[:idAdded].to_i
+		# 		flash[:notice] = Unit.find(params[:idAdded]).title+" added to view"
+		# 	else
+		# 		flash[:notice] = Service.find(params[:idAdded]).title+" removed from view"
+		# 	end
+		# end
+
+		@servicesSelected=Service.find(@idsS, :order=>"title")
+		@unitsSelected=Unit.find(@idsUS, :order=>"title")
 
 		@isIndex=true
 
@@ -1318,7 +1335,7 @@ class WelcomeController < ApplicationController
 		@avgCogn=0
 		@avgKnow=0
 
-		@servicesSelected=Service.find(@idsS)
+		
 
 		@servicesSelected.each do |s|
 			graph = RDF::Graph.load(s.path, :format => :ttl)
@@ -1402,6 +1419,37 @@ class WelcomeController < ApplicationController
 
 			end
 		end
+
+		@unitsSelected.each do |s|
+			service=s.service
+			graph = RDF::Graph.load(service.path, :format => :ttl)
+			solutionsUnitOB=queryUnitOB.execute(graph)
+			solutionsOBCogn=queryOBCogn.execute(graph)
+			solutionsOBKnow=queryOBKnow.execute(graph)
+
+			u=Hash.new
+			solutionsUnitOB.filter(:q => s.url).each do |solutionUnit|
+				u["title"]=solutionUnit.title.to_s
+				u["cogn"]=0
+				solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
+					u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
+					countCogn+=1
+					sumCogn+=u["cogn"]
+				end
+				u["know"]=0
+				solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
+					u["know"]=knowledgeDimension[solutionOB.know]["value"]
+					countKnow+=1
+					sumKnow+=u["know"]
+				end
+				@a[u["cogn"]][u["know"]]+=1
+			end
+			solutionsUnitOB=queryUnitOB.execute(graph)
+			solutionsOBCogn=queryOBCogn.execute(graph)
+			solutionsOBKnow=queryOBKnow.execute(graph)
+
+		end
+
 		@avgCogn=countCogn==0 ? 0 : (sumCogn/countCogn).round()
 		@avgKnow=countKnow==0 ? 0 : (sumKnow/countKnow).round()
 
@@ -1424,7 +1472,7 @@ class WelcomeController < ApplicationController
 				:width => 500,
 				:height => 200
 			}
-			f.options[:title][:text] = "Average of Curricular units"
+			f.options[:title][:text] = "Average of Curricular units according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],

@@ -11,21 +11,19 @@
 		        	<button class="btn btn-small btn-course-title disabled" rel="tooltip" title="This service is selected in view">
 		          		<%=service.title%>
 		          	</button>
-					<%if @idsS%>
-						<%if @idsS.include? service.id %>
-						  <%tmp=@idsS.clone%>
-						  <%tmp=tmp.delete_if{|n| n==service.id}%>
-						  <%if tmp.size!=0%>
-						        <%aux=tmp.join("-")%>
-						        <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
-						          <i class="icon-remove"></i>
-						        <%end%>
-						      <%else%>
-						        <%= link_to("/",:class=>"btn btn-small") do %>
-						          <i class="icon-remove"></i>
-						        <%end%>
-						      <%end%>
-						<%end%>
+					<%if @all%>
+					  <%tmp=@all.clone%>
+					  <%tmp=tmp.delete_if{|n| n==service.id.to_s}%>
+					  <%if tmp.size!=0%>
+				        <%aux=tmp.join("-")%>
+				        <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
+				          <i class="icon-remove"></i>
+				        <%end%>
+				      <%else%>
+				        <%= link_to("/",:class=>"btn btn-small") do %>
+				          <i class="icon-remove"></i>
+				        <%end%>
+				      <%end%>
 					<%end%>
 		      </div>
 		      <% else %>
@@ -34,10 +32,9 @@
 		          	<button class="btn btn-small btn-course-title disabled" rel="tooltip" title="This service is selected in view">
 		          		<%=service.title%>
 		          	</button>
-		          <%if @idsS%>
-		            <%if @idsS.include? service.id %>
-		              <%tmp=@idsS.clone%>
-		              <%tmp=tmp.delete_if{|n| n==service.id}%>
+		          <%if @all%>
+		              <%tmp=@all.clone%>
+		              <%tmp=tmp.delete_if{|n| n==service.id.to_s}%>
 		              <%if tmp.size!=0%>
 	                    <%aux=tmp.join("-")%>
 	                    <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id}, :class=>"btn btn-small") do %>
@@ -48,17 +45,53 @@
 	                      <i class="icon-remove inline"></i>
 	                    <%end%>
 	                  <%end%>
-		            <%end%>
 		          <%end%>
 		          </div>
 		        </div>
 		    <%end%>
 		   	</div>
-		    <%if count%2!=0%>
-				</div>
-			<%end%>
-			<%count+=1%>
+	    <%if count%2!=0%>
+			</div>
 		<%end%>
+		<%count+=1%>
+	<%end%>
+
+
+
+	<% @unitsSelected.each do |u|%>
+		<%if count%2==0%>
+			<div class="row-fluid">
+		<%end%>
+		<div class="span6">
+
+			<div class="btn-group" style="margin-bottom:10px">
+	        	<button class="btn btn-small btn-course-title disabled" rel="tooltip" title="This Unit is selected in view">
+	          		<%=u.title%>
+	          	</button>
+				<%if @all%>
+				  <%tmp=@all.clone%>
+				  <%tmp=tmp.delete_if{|n| n==u.id.to_s+"u"}%>
+				  <%if tmp.size!=0%>
+			        <%aux=tmp.join("-")%>
+			        <%= link_to({:action=>'view',:ids=>aux, :idAdded=>u.id},:class=>"btn btn-small") do %>
+			          <i class="icon-remove"></i>
+			        <%end%>
+			      <%else%>
+			        <%= link_to("/",:class=>"btn btn-small") do %>
+			          <i class="icon-remove"></i>
+			        <%end%>
+			      <%end%>
+				<%end%>
+	      	</div>
+
+		</div>
+		<%if count%2!=0%>
+			</div>
+		<%end%>
+		<%count+=1%>
+	<%end%>
+
+
 	<%if count%2!=0%>
 		</div>
 	<%end%>
@@ -69,11 +102,12 @@
 </div>
 
 <div class="well">
-	<div align="center">
-		<div id="my_id2" ><%= high_chart("my_id2", @graphOverall) %></div>
-	</div>
+    <div align="center">
+        <div id="my_id2" ><%= high_chart("my_id2", @graphOverall) %></div>
+    </div>
 </div>
 
 <div class="well">
-	<%= high_chart("my_id3", @graphObjectivesBubble) %>
+    <%= high_chart("my_id3", @graphObjectivesBubble) %>
 </div>
+
