@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(:version => 20130514105953) do
     t.string   "path"
     t.string   "organization"
     t.boolean  "isCourse",     :default => false
+    t.boolean  "haveInfo",     :default => true
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -30,6 +31,7 @@ ActiveRecord::Schema.define(:version => 20130514105953) do
     t.integer  "service_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.boolean  "haveInfo",   :default => true
   end
 
 end

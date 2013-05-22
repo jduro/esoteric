@@ -15,7 +15,7 @@
 }
 
 .btn-service-title{
-	width:80%;
+	width:78%;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
@@ -31,4 +31,7 @@
 	max-width:70%;
 	text-overflow: ellipsis;
 	overflow: hidden;
+}
+.btn-service-no-info{
+	opacity:0.65;
 }

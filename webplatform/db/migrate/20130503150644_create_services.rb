@@ -7,6 +7,7 @@ class CreateServices < ActiveRecord::Migration
       t.string :path
       t.string :organization
       t.boolean :isCourse, :default => false
+      t.boolean :haveInfo, :default => true
       t.timestamps
     end
   end

@@ -54,7 +54,12 @@
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
                       <% if service.isCourse==false %>
-                        <div class="btn-group" style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                        <div class="btn-group" style="margin-bottom:10px">
+                        <%if service.haveInfo%>
+                          <%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                        <%else%>
+                          <%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-no-info btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                        <%end%>
                           <%if @all%>
                             <%if not @all.include? service.id.to_s %>
                               <%aux="" %>
@@ -74,7 +79,11 @@
                       <% else %>
                         <div style="margin-bottom:10px">
                           <div class="btn-group">
-                          <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-course-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%if service.haveInfo%>
+                            <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%else%>
+                            <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-service-no-info btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%end%>
                           <button type="button" class="btn btn-small" data-toggle="collapse" data-target="#collapse<%=collapse%>" data-toggle="tooltip" title="Click to expand/collapse course units list">
                             <span class="caret"></span>
                           </button>
@@ -99,18 +108,22 @@
                           <% service.units.each do |u| %>
                             <div style="margin-bottom:10px">
                               <div class="btn-group">
-                                <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%if u.haveInfo%>
+                                  <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%else%>
+                                  <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-no-info btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%end%>
                                 <%if @all%>
                                   <%if not @all.include? u.id.to_s+"u" %>
                                     <%aux="" %>
                                     <%aux=@all.join("-")+"-"%>
                                     <% aux += u.id.to_s+"u"%>
-                                    <%= link_to({:action=>'view',:ids=>aux, :idAdded=>u.id},:class=>"btn btn-small") do %>
+                                    <%= link_to({:action=>'view',:ids=>aux, :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
                                       <i class="icon-plus"></i>
                                     <%end%>
                                   <%end%>
                                 <%else%>
-                                  <%= link_to({:action=>'view',:ids=>u.id.to_s+"u", :idAdded=>u.id},:class=>"btn btn-small") do %>
+                                  <%= link_to({:action=>'view',:ids=>u.id.to_s+"u", :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
                                     <i class="icon-plus"></i>
                                   <%end%>
                                 <%end%>
@@ -128,7 +141,12 @@
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
                       <% if service.isCourse==false %>
-                        <div class="btn-group" style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                        <div class="btn-group" style="margin-bottom:10px">
+                          <%if service.haveInfo%>
+                            <%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%else%>
+                            <%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-no-info btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%end%>
                           <%if @all%>
                             <%if not @all.include? service.id.to_s %>
                               <%aux="" %>
@@ -147,7 +165,11 @@
                       <% else %>
                         <div style="margin-bottom:10px">
                           <div class="btn-group">
-                          <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-course-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                            <%if service.haveInfo%>
+                              <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                            <%else%>
+                              <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-service-no-info btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                            <%end%>
                           <button type="button" class="btn btn-small" data-toggle="collapse" data-target="#collapse<%=collapse%>" data-toggle="tooltip" title="Click to expand/collapse course units list">
                           <span class="caret"></span>
                           </button>
@@ -172,18 +194,22 @@
                           <% service.units.each do |u| %>
                             <div style="margin-bottom:10px">
                               <div class="btn-group">
-                                <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%if u.haveInfo%>
+                                  <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%else%>
+                                  <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-no-info btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%end%>
                                 <%if @all%>
                                   <%if not @all.include? u.id.to_s+"u" %>
                                     <%aux="" %>
                                     <%aux=@all.join("-")+"-"%>
                                     <% aux += u.id.to_s+"u"%>
-                                    <%= link_to({:action=>'view',:ids=>aux, :idAdded=>u.id},:class=>"btn btn-small") do %>
+                                    <%= link_to({:action=>'view',:ids=>aux, :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
                                       <i class="icon-plus"></i>
                                     <%end%>
                                   <%end%>
                                 <%else%>
-                                  <%= link_to({:action=>'view',:ids=>u.id.to_s+"u", :idAdded=>u.id},:class=>"btn btn-small") do %>
+                                  <%= link_to({:action=>'view',:ids=>u.id.to_s+"u", :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
                                     <i class="icon-plus"></i>
                                   <%end%>
                                 <%end%>

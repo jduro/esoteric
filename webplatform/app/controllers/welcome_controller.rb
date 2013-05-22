@@ -34,6 +34,42 @@ class WelcomeController < ApplicationController
 		    File.open(path, "wb") { |f| f.write(params[:file].read) }
 
 			graph = RDF::Graph.load(path, :format => :ttl)
+			graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+			queryUSDL4EDCogn = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.CognitiveDimension,
+			    RDFS.label => :label,
+			    DC.description => :description,
+			    USDL4EDU.hasValue => :value
+			  }
+			})
+			queryUSDL4EDKnow = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.KnowledgeDimension,
+			    RDFS.label => :label,
+			    DC.description => :description,
+			    USDL4EDU.hasValue => :value
+			  }
+			})
+
+			cognitiveDimension=Hash.new
+			solutions=queryUSDL4EDCogn.execute(graphUSDL4EDU)
+			solutions.each do |s|
+				c=Hash.new
+				c["label"]=s.label.to_s
+				c["description"]=s.description.to_s
+				c["value"]=s.value.to_i
+				cognitiveDimension[s.q]=c
+			end
+			knowledgeDimension=Hash.new
+			solutions=queryUSDL4EDKnow.execute(graphUSDL4EDU)
+			solutions.each do |s|
+				c=Hash.new
+				c["label"]=s.label.to_s
+				c["description"]=s.description.to_s
+				c["value"]=s.value.to_i
+				knowledgeDimension[s.q]=c
+			end
 
 			queryServiceDegree = RDF::Query.new({
 			  :q => {
@@ -53,9 +89,24 @@ class WelcomeController < ApplicationController
 			queryUnit = RDF::Query.new({
 			  :q => {
 			    RDF.type => USDL4EDU.CourseUnit,
-			    USDL4EDU.hasTitle => :title
+			    USDL4EDU.hasTitle => :title,
+			    USDL4EDU.hasOverallObjective => :obj
 			  }
 			})
+
+			queryOBCogn = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.OverallObjective,
+			    USDL4EDU.hasCognitiveDimension => :cogn
+			  }
+			})
+			queryOBKnow = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.OverallObjective,
+			    USDL4EDU.hasKnowledgeDimension => :know
+			  }
+			})
+
 			solutions=queryServiceDegree.execute(graph)
 			solutionsD=queryDegree.execute(graph)
 			solutionsU=queryUnit.execute(graph)
@@ -80,6 +131,22 @@ class WelcomeController < ApplicationController
 							unit=Unit.new
 							unit.url=s2.q.to_s
 							unit.title=s2.title.to_s
+
+
+							solutionsOBKnow=queryOBKnow.execute(graph)
+							solutionsOBCogn=queryOBCogn.execute(graph)
+							cogn=0
+							know=0
+							solutionsOBCogn.filter(:q => s2.obj).each do |solutionOB|
+								cogn=cognitiveDimension[solutionOB.cogn]["value"]
+							end
+							solutionsOBKnow.filter(:q => s2.obj).each do |solutionOB|
+								know=knowledgeDimension[solutionOB.know]["value"]
+							end
+
+							if cogn==0 and know==0
+								unit.haveInfo=false
+							end
 							unit.save
 							service.units << unit
 						end
@@ -91,7 +158,7 @@ class WelcomeController < ApplicationController
 			else
 				puts "----BEGIN----"
 				check=false
-				RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :description, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasURL => :urlCourse}}).execute(graph).each do |s|
+				RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :description, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasURL => :urlCourse, USDL4EDU.hasCourseUnit=>:unit}}).execute(graph).each do |s|
 					check=true
 					service=Service.new
 					# puts "URL:"+s.q.to_s
@@ -106,9 +173,26 @@ class WelcomeController < ApplicationController
 					elsif s.organization=="http://rdf.genssiz.dei.uc.pt/usdl4edu#dei-uc"
 						service.organization="DEI-UC"
 					end
-					service.title=s.description.to_s.gsub(/ - .*/,"")
-					# puts "title:"+service.title
-					# puts "description:"+service.description
+					# service.title=s.description.to_s.gsub(/ - .*/,"")
+
+					solutionsU=queryUnit.execute(graph)
+					solutionsU.filter(:q => s.unit).each do |s2|
+						service.title=s2.title.to_s
+						solutionsOBKnow=queryOBKnow.execute(graph)
+						solutionsOBCogn=queryOBCogn.execute(graph)
+						cogn=0
+						know=0
+						solutionsOBCogn.filter(:q => s2.obj).each do |solutionOB|
+							cogn=cognitiveDimension[solutionOB.cogn]["value"]
+						end
+						solutionsOBKnow.filter(:q => s2.obj).each do |solutionOB|
+							know=knowledgeDimension[solutionOB.know]["value"]
+						end
+
+						if cogn==0 and know==0
+							service.haveInfo=false
+						end
+					end
 					service.path=path
 					service.save
 				end
@@ -122,6 +206,7 @@ class WelcomeController < ApplicationController
 			redirect_to action: "index"
 		rescue Exception => exc
 			flash[:error] = "Error: "+exc.message
+			# logger.error "#{ exc.message } - (#{ exc.class })" << "\n" << (exc.backtrace or []).join("\n")
 			redirect_to action: "index"
 		end
 	end
@@ -1209,15 +1294,21 @@ class WelcomeController < ApplicationController
 		@idsU=@idsU[0..@idsU.size-2]
 
 
-		# if params[:idAdded]
-		# 	if @idsS.include? params[:idAdded].to_i
-		# 		flash[:notice] = Service.find(params[:idAdded]).title+" added to view"
-		# 	elsif @idsUS.include? params[:idAdded].to_i
-		# 		flash[:notice] = Unit.find(params[:idAdded]).title+" added to view"
-		# 	else
-		# 		flash[:notice] = Service.find(params[:idAdded]).title+" removed from view"
-		# 	end
-		# end
+		if params[:idAdded]
+			if params[:idAdded].ends_with? "u"
+				if @all.include? params[:idAdded]
+					flash[:notice] = Unit.find(params[:idAdded][0..params[:idAdded].size-2].to_i).title+" added to view"
+				else
+					flash[:notice] = Unit.find(params[:idAdded][0..params[:idAdded].size-2].to_i).title+" removed from view"
+				end
+			else
+				if @all.include? params[:idAdded]
+					flash[:notice] = Service.find(params[:idAdded]).title+" added to view"
+				else
+					flash[:notice] = Service.find(params[:idAdded]).title+" removed from view"
+				end
+			end
+		end
 
 		@servicesSelected=Service.find(@idsS, :order=>"title")
 		@unitsSelected=Unit.find(@idsUS, :order=>"title")
