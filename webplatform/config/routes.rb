@@ -69,6 +69,8 @@ Webplatform::Application.routes.draw do
 
   match "/view/:ids/:idAdded" => "welcome#view"
 
+  match "/view/:ids/:sort" => "welcome#view"
+
   match "/blank" => "welcome#blank"
 
 end

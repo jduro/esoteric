@@ -57,7 +57,6 @@
 	<%end%>
 
 
-
 	<% @unitsSelected.each do |u|%>
 		<%if count%2==0%>
 			<div class="row-fluid">
@@ -100,7 +99,42 @@
       Remove all <i class="icon-remove inline"></i>
     <%end%>
 </div>
-
+<div class="well">
+	<%=@selectedTable%>
+</div>
+<div class="well">
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th><%=link_to("Title",{:action=>'view',:ids=>@all.join("-"), :sort=>"title"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Remember",{:action=>'view',:ids=>@all.join("-"), :sort=>"1"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Understand",{:action=>'view',:ids=>@all.join("-"), :sort=>"2"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Apply",{:action=>'view',:ids=>@all.join("-"), :sort=>"3"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Analyze",{:action=>'view',:ids=>@all.join("-"), :sort=>"4"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Evaluate",{:action=>'view',:ids=>@all.join("-"), :sort=>"5"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Create",{:action=>'view',:ids=>@all.join("-"), :sort=>"6"},:class=>"btn btn-small")%></th>
+			</tr>
+		</thead>
+		<tbody>
+			<%@selectedTable2.each do |s|%>
+				<tr>
+					<td><%=s["title"]%></td>
+					<%(1..(s["cogn"]-1)).each do%>
+						<td></td>
+					<%end%>
+					<%if s["cogn"]==0%>
+						<td></td>
+					<%else%>
+						<td class="know<%=s["know"]%>"><%=s["know"]%></td>
+					<%end%>
+					<%((s["cogn"]+1)..6).each do%>
+						<td></td>
+					<%end%>
+				</tr>
+			<%end%>
+		</tbody>
+	</table>
+</div>
 <div class="well">
     <div align="center">
         <div id="my_id2" ><%= high_chart("my_id2", @graphOverall) %></div>
