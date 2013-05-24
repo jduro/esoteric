@@ -273,7 +273,7 @@ usdl4edu:Citizenship-and-US-Immigration-service a usdl4edu:EducationalService ;
     usdl4edu:hasURL "https://www.coursera.org/course/immigration" .
 
 usdl4edu:Classics-of-Chinese-Humanities-Guided-Readings---service a usdl4edu:EducationalService ;
-    dc:description "Classics of Chinese Humanities: Guided Readings | : - Educational service from Coursera" ;
+    dc:description "Classics of Chinese Humanities: Guided Readings- Educational service from Coursera" ;
     usdl4edu:hasCourseUnit usdl4edu:Classics-of-Chinese-Humanities-Guided-Readings---unit ;
     usdl4edu:hasOrganization usdl4edu:coursera ;
     usdl4edu:hasURL "https://www.coursera.org/course/chinesehumanities" .
@@ -4568,7 +4568,7 @@ usdl4edu:Classics-of-Chinese-Humanities-Guided-Readings---unit a usdl4edu:Course
     usdl4edu:hasOverallObjective usdl4edu:Classics-of-Chinese-Humanities-Guided-Readings---objectives ;
     usdl4edu:hasTeacher usdl4edu:Ou-Fan-Leo-Lee,
         usdl4edu:Wai-Tsui ;
-    usdl4edu:hasTitle "Classics of Chinese Humanities: Guided Readings | :" .
+    usdl4edu:hasTitle "Classics of Chinese Humanities: Guided Readings" .
 
 <http://rdf.genssiz.dei.uc.pt/usdl4edu#Classics-of-Chinese-Humanities-Guided-Readings-|--objective> a usdl4edu:Objective ;
     dc:description "2006  10:" .
