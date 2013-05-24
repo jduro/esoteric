@@ -88,7 +88,7 @@ class ScrapyProjectPipeline(object):
 			self.graph.add((unit,self.USDL4EDU["hasLanguage"],self.languageEN))
 			#TEACHERS (not check existing, rdflib doesn't add a existing one)
 			for t in item['teachers']:
-				teacher=URIRef(self.USDL4EDU+t['name'].encode("ascii","ignore").strip().replace(" ","-").replace(".","-"))
+				teacher=URIRef(self.USDL4EDU+t['name'].encode("ascii","ignore").strip().replace(" ","-").replace(".","-").replace("(","").replace(")","").replace("\'",""))
 				self.graph.add((teacher,RDF.type,self.person))
 				name=t['name'].encode("ascii","replace").strip().split(" ")
 				self.graph.add((teacher,self.FOAF["firstName"],Literal(name[0])))
@@ -111,7 +111,7 @@ class ScrapyProjectPipeline(object):
 			# print "objectives:",item['objectives']
 			# print "prereq:",item['prereq']
 			# print "summary:",item['summary']
-			self.parseOverallObjective2(item['objectives'].replace("\n",""),overallObj,item['title'].strip())
+			self.parseOverallObjective2(item['objectives'].replace("\n",""),overallObj,item['title'].strip().replace(" ","-").replace(".","").replace(":","").replace(",","").replace("&","and").replace("/","-").replace("(","").replace(")","").replace("\'","").replace("\"","").replace("!","").replace("+","plus").replace("|","").replace("?",""))
 			self.number_descriptions+=1
 		elif spider.name=="edx":
 			#See http://rdf.genssiz.dei.uc.pt/usdl4edu# for Ontology schema
@@ -513,8 +513,8 @@ class ScrapyProjectPipeline(object):
 			self.graph=Graph()
 			self.graphConcepts=Graph()
 			self.graphUSDL4EDU=Graph()
-			self.graphPersons=Graph()
-			self.graphPersons.parse("commondata\exported\\nonio_persons.ttl",format='n3')
+			# self.graphPersons=Graph()
+			# self.graphPersons.parse("commondata\exported\\nonio_persons.ttl",format='n3')
 			self.initialize_uris_usdl4edu()
 			if spider.name=="udacity":			
 				self.organization=URIRef(self.USDL4EDU+"udacity")
