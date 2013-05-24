@@ -34,6 +34,42 @@ class WelcomeController < ApplicationController
 		    File.open(path, "wb") { |f| f.write(params[:file].read) }
 
 			graph = RDF::Graph.load(path, :format => :ttl)
+			graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+			queryUSDL4EDCogn = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.CognitiveDimension,
+			    RDFS.label => :label,
+			    DC.description => :description,
+			    USDL4EDU.hasValue => :value
+			  }
+			})
+			queryUSDL4EDKnow = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.KnowledgeDimension,
+			    RDFS.label => :label,
+			    DC.description => :description,
+			    USDL4EDU.hasValue => :value
+			  }
+			})
+
+			cognitiveDimension=Hash.new
+			solutions=queryUSDL4EDCogn.execute(graphUSDL4EDU)
+			solutions.each do |s|
+				c=Hash.new
+				c["label"]=s.label.to_s
+				c["description"]=s.description.to_s
+				c["value"]=s.value.to_i
+				cognitiveDimension[s.q]=c
+			end
+			knowledgeDimension=Hash.new
+			solutions=queryUSDL4EDKnow.execute(graphUSDL4EDU)
+			solutions.each do |s|
+				c=Hash.new
+				c["label"]=s.label.to_s
+				c["description"]=s.description.to_s
+				c["value"]=s.value.to_i
+				knowledgeDimension[s.q]=c
+			end
 
 			queryServiceDegree = RDF::Query.new({
 			  :q => {
@@ -53,9 +89,24 @@ class WelcomeController < ApplicationController
 			queryUnit = RDF::Query.new({
 			  :q => {
 			    RDF.type => USDL4EDU.CourseUnit,
-			    USDL4EDU.hasTitle => :title
+			    USDL4EDU.hasTitle => :title,
+			    USDL4EDU.hasOverallObjective => :obj
 			  }
 			})
+
+			queryOBCogn = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.OverallObjective,
+			    USDL4EDU.hasCognitiveDimension => :cogn
+			  }
+			})
+			queryOBKnow = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.OverallObjective,
+			    USDL4EDU.hasKnowledgeDimension => :know
+			  }
+			})
+
 			solutions=queryServiceDegree.execute(graph)
 			solutionsD=queryDegree.execute(graph)
 			solutionsU=queryUnit.execute(graph)
@@ -80,6 +131,22 @@ class WelcomeController < ApplicationController
 							unit=Unit.new
 							unit.url=s2.q.to_s
 							unit.title=s2.title.to_s
+
+
+							solutionsOBKnow=queryOBKnow.execute(graph)
+							solutionsOBCogn=queryOBCogn.execute(graph)
+							cogn=0
+							know=0
+							solutionsOBCogn.filter(:q => s2.obj).each do |solutionOB|
+								cogn=cognitiveDimension[solutionOB.cogn]["value"]
+							end
+							solutionsOBKnow.filter(:q => s2.obj).each do |solutionOB|
+								know=knowledgeDimension[solutionOB.know]["value"]
+							end
+
+							if cogn==0 and know==0
+								unit.haveInfo=false
+							end
 							unit.save
 							service.units << unit
 						end
@@ -91,7 +158,7 @@ class WelcomeController < ApplicationController
 			else
 				puts "----BEGIN----"
 				check=false
-				RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :description, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasURL => :urlCourse}}).execute(graph).each do |s|
+				RDF::Query.new({q: {RDF.type => USDL4EDU.EducationalService, DC.description => :description, USDL4EDU.hasOrganization => :organization, USDL4EDU.hasURL => :urlCourse, USDL4EDU.hasCourseUnit=>:unit}}).execute(graph).each do |s|
 					check=true
 					service=Service.new
 					# puts "URL:"+s.q.to_s
@@ -106,9 +173,27 @@ class WelcomeController < ApplicationController
 					elsif s.organization=="http://rdf.genssiz.dei.uc.pt/usdl4edu#dei-uc"
 						service.organization="DEI-UC"
 					end
-					service.title=s.description.to_s.gsub(/ - .*/,"")
-					# puts "title:"+service.title
-					# puts "description:"+service.description
+					# service.title=s.description.to_s.gsub(/ - .*/,"")
+
+					solutionsU=queryUnit.execute(graph)
+					solutionsU.filter(:q => s.unit).each do |s2|
+						logger.error "\n!!!!!!!!!!!!!!!!!!!\n"+s.description.to_s.gsub(/ - .*/,"")+"\n!!!!!!!!!!!!!!!!!!!\n"
+						service.title=s2.title.to_s
+						solutionsOBKnow=queryOBKnow.execute(graph)
+						solutionsOBCogn=queryOBCogn.execute(graph)
+						cogn=0
+						know=0
+						solutionsOBCogn.filter(:q => s2.obj).each do |solutionOB|
+							cogn=cognitiveDimension[solutionOB.cogn]["value"]
+						end
+						solutionsOBKnow.filter(:q => s2.obj).each do |solutionOB|
+							know=knowledgeDimension[solutionOB.know]["value"]
+						end
+
+						if cogn==0 and know==0
+							service.haveInfo=false
+						end
+					end
 					service.path=path
 					service.save
 				end
@@ -122,6 +207,7 @@ class WelcomeController < ApplicationController
 			redirect_to action: "index"
 		rescue Exception => exc
 			flash[:error] = "Error: "+exc.message
+			# logger.error "#{ exc.message } - (#{ exc.class })" << "\n" << (exc.backtrace or []).join("\n")
 			redirect_to action: "index"
 		end
 	end
@@ -403,7 +489,7 @@ class WelcomeController < ApplicationController
 				:width => 500,
 				:height => 200
 			}
-			f.options[:title][:text] = "Objectives Trend"
+			f.options[:title][:text] = "Average of Curricular objectives according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -438,7 +524,7 @@ class WelcomeController < ApplicationController
 			f.options[:plotOptions]={
 				:line => {:lineWidth => 0}
 			}
-			f.options[:title][:text] = "Objectives Identified"
+			f.options[:title][:text] = "Objectives Identified according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1054,7 +1140,7 @@ class WelcomeController < ApplicationController
 				:width => 500,
 				:height => 200
 			}
-			f.options[:title][:text] = "Average of Curricular units"
+			f.options[:title][:text] = "Avegare of Dregree according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1092,7 +1178,7 @@ class WelcomeController < ApplicationController
 			f.options[:plotOptions]={
 				:line => {:lineWidth => 0}
 			}
-			f.options[:title][:text] = "Objectives Trend on each Curse unit"
+			f.options[:title][:text] = "Objectives Trend on each Curricular unit according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1192,18 +1278,44 @@ class WelcomeController < ApplicationController
 	end
 
 	def view()
-		@ids=params[:ids]
-		@idsS=@ids.split("-").map{ |s| s.to_i }
+		@all=params[:ids].split("-")
+		@idsS=[]
+		@idsUS=[]
+		@idsU=""
+
+		@all.each do |sub|
+		    if sub.ends_with? "u"
+		        @idsUS<<sub[0..sub.size-2].to_i
+		        @idsU+=sub+"-"
+		    else
+		        @idsS<<sub.to_i
+		    end
+		end
+		@ids=@idsS.join("-")
+		@idsU=@idsU[0..@idsU.size-2]
+
 
 		if params[:idAdded]
-			if @idsS.include? params[:idAdded].to_i
-				flash[:notice] = Service.find(params[:idAdded]).title+" added to view"
+			if params[:idAdded].ends_with? "u"
+				if @all.include? params[:idAdded]
+					flash[:notice] = Unit.find(params[:idAdded][0..params[:idAdded].size-2].to_i).title+" added to view"
+				else
+					flash[:notice] = Unit.find(params[:idAdded][0..params[:idAdded].size-2].to_i).title+" removed from view"
+				end
+			elsif params[:idAdded].ends_with? "c"
+				flash[:notice] = "All units from "+Service.find(params[:idAdded][0..params[:idAdded].size-2].to_i).title+" added to view"
+				
 			else
-				flash[:notice] = Service.find(params[:idAdded]).title+" removed from view"
+				if @all.include? params[:idAdded]
+					flash[:notice] = Service.find(params[:idAdded]).title+" added to view"
+				else
+					flash[:notice] = Service.find(params[:idAdded]).title+" removed from view"
+				end
 			end
 		end
 
-
+		@servicesSelected=Service.find(@idsS, :order=>"title")
+		@unitsSelected=Unit.find(@idsUS, :order=>"title")
 
 		@isIndex=true
 
@@ -1275,7 +1387,8 @@ class WelcomeController < ApplicationController
 		queryDegreeUnit = RDF::Query.new({
 		  :q => {
 		    RDF.type => USDL4EDU.Degree,
-		    USDL4EDU.hasCourseUnit => :unit
+		    USDL4EDU.hasCourseUnit => :unit,
+		    USDL4EDU.hasTitle => :title
 		  }
 		})
 
@@ -1318,13 +1431,16 @@ class WelcomeController < ApplicationController
 		@avgCogn=0
 		@avgKnow=0
 
-		@servicesSelected=Service.find(@idsS)
+		
+		@selectedTable=[]
 
 		@servicesSelected.each do |s|
 			graph = RDF::Graph.load(s.path, :format => :ttl)
 			solutionsUnitOB=queryUnitOB.execute(graph)
 			solutionsOBCogn=queryOBCogn.execute(graph)
 			solutionsOBKnow=queryOBKnow.execute(graph)
+
+			selected=Hash.new
 
 			if s.isCourse
 
@@ -1343,7 +1459,13 @@ class WelcomeController < ApplicationController
 					u=Hash.new
 					u["url"]=solution.unit
 					unit["unit"] << u
+					selected['title']=solution.title.to_s
 				end
+
+				cK=0
+				cC=0
+				sK=0
+				sC=0
 
 				unit["unit"].each do |u|
 					solutionsUnitOB.filter(:q => u["url"]).each do |solutionUnit|
@@ -1352,12 +1474,16 @@ class WelcomeController < ApplicationController
 						solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
 							u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
 							countCogn+=1
+							cC+=1
+							sC+=u["cogn"]
 							sumCogn+=u["cogn"]
 						end
 						u["know"]=0
 						solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
 							u["know"]=knowledgeDimension[solutionOB.know]["value"]
 							countKnow+=1
+							cK+=1
+							sK+=u["know"]
 							sumKnow+=u["know"]
 						end
 						@a[u["cogn"]][u["know"]]+=1
@@ -1366,31 +1492,46 @@ class WelcomeController < ApplicationController
 					solutionsOBCogn=queryOBCogn.execute(graph)
 					solutionsOBKnow=queryOBKnow.execute(graph)
 				end
+
+				selected["cogn"]=cC==0 ? 0 : (sC/cC).round()
+				selected["know"]=cK==0 ? 0 : (sK/cK).round()
+
+				@selectedTable<<selected
 			else
 				solutionsService2=queryService2.execute(graph)
 
 				unit = Hash.new
 				unit["unit"]=[]
+				u=Hash.new
 				solutionsService2.filter(:q => s.url).each do |solution|
-					u=Hash.new
 					u["url"]=solution.unit
 					unit["unit"] << u
 				end
 
+				cK=0
+				cC=0
+				sK=0
+				sC=0
+
 				unit["unit"].each do |u|
 					solutionsUnitOB.filter(:q => u["url"]).each do |solutionUnit|
+						selected["title"]=solutionUnit.title.to_s
 						u["title"]=solutionUnit.title.to_s
 						u["cogn"]=0
 						solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
 							u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
 							countCogn+=1
 							sumCogn+=u["cogn"]
+							cC+=1
+							sC+=u["cogn"]
 						end
 						u["know"]=0
 						solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
 							u["know"]=knowledgeDimension[solutionOB.know]["value"]
 							countKnow+=1
 							sumKnow+=u["know"]
+							cK+=1
+							sK+=u["know"]
 						end
 						@a[u["cogn"]][u["know"]]+=1
 					end
@@ -1399,9 +1540,57 @@ class WelcomeController < ApplicationController
 					solutionsOBKnow=queryOBKnow.execute(graph)
 				end
 
-
+				selected["cogn"]=cC==0 ? 0 : (sC/cC).round()
+				selected["know"]=cK==0 ? 0 : (sK/cK).round()
+				@selectedTable<<selected
 			end
 		end
+
+		@unitsSelected.each do |s|
+			selected=Hash.new
+
+			service=s.service
+			graph = RDF::Graph.load(service.path, :format => :ttl)
+			solutionsUnitOB=queryUnitOB.execute(graph)
+			solutionsOBCogn=queryOBCogn.execute(graph)
+			solutionsOBKnow=queryOBKnow.execute(graph)
+
+			u=Hash.new
+			solutionsUnitOB.filter(:q => s.url).each do |solutionUnit|
+				u["title"]=solutionUnit.title.to_s
+				selected["title"]=u["title"]
+				u["cogn"]=0
+				solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
+					u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
+					countCogn+=1
+					sumCogn+=u["cogn"]
+				end
+				u["know"]=0
+				solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
+					u["know"]=knowledgeDimension[solutionOB.know]["value"]
+					countKnow+=1
+					sumKnow+=u["know"]
+				end
+				selected["cogn"]=u["cogn"]
+				selected["know"]=u["know"]
+				@a[u["cogn"]][u["know"]]+=1
+			end
+			@selectedTable<<selected
+			solutionsUnitOB=queryUnitOB.execute(graph)
+			solutionsOBCogn=queryOBCogn.execute(graph)
+			solutionsOBKnow=queryOBKnow.execute(graph)
+
+		end
+		@selectedTable2=@selectedTable
+		if params[:sort]
+			if params[:sort]=="title"
+				@selectedTable2=@selectedTable.sort_by{|hsh| hsh["title"]}
+			else
+				@selectedTable2=@selectedTable.sort_by{|hsh| [hsh["cogn"],-hsh["know"]]}
+				@selectedTable2=@selectedTable2.sort_by{|hsh| [hsh["cogn"]==params[:sort].to_i ? 0 : 1, [hsh["cogn"],-hsh["know"]]]}
+			end
+		end
+
 		@avgCogn=countCogn==0 ? 0 : (sumCogn/countCogn).round()
 		@avgKnow=countKnow==0 ? 0 : (sumKnow/countKnow).round()
 
@@ -1424,7 +1613,7 @@ class WelcomeController < ApplicationController
 				:width => 500,
 				:height => 200
 			}
-			f.options[:title][:text] = "Average of Curricular units"
+			f.options[:title][:text] = "Average of Curricular units according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],

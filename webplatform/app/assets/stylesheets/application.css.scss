@@ -15,7 +15,7 @@
 }
 
 .btn-service-title{
-	width:80%;
+	width:78%;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
@@ -31,4 +31,33 @@
 	max-width:70%;
 	text-overflow: ellipsis;
 	overflow: hidden;
+}
+.btn-service-no-info{
+	opacity:0.65;
+}
+
+.table tbody td.know0{
+    background-color: #2f96b4;
+}
+.table tbody td.know1{
+    background-color: #0044cc;
+}
+.table tbody td.know2{
+    background-color: #51a351;
+}
+.table tbody td.know3{
+    background-color: #f89406;
+}
+.table tbody td.know4{
+    background-color: #bd362f ;
+}
+
+.center-table
+{
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.table-legend{
+	width:50%;
 }

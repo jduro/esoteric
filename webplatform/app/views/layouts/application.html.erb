@@ -11,7 +11,7 @@
   <div class="navbar-inner" style="padding-left:30px;">
     <a class="brand" href="#">usdl4edu</a>
     <% if @isIndex %>
-    <a href="#myModal" role="button" class="btn pull-right" data-toggle="modal" style="margin-right:60px">Import Vocabulary</a>
+    <a href="#myModal" role="button" class="btn pull-right" data-toggle="modal" style="margin-right:60px">Import Instance</a>
     <%end%>
   </div>
 </div>
@@ -46,7 +46,7 @@
           </ul>
           <% collapse=1 %>
           <div class="tab-content">
-
+            <%allIds=@all ? @all.join("-") : ""%>
             <% count=1 %>
             <% @organizations.each do |organization| %>
               <% if count==1 %>
@@ -54,19 +54,28 @@
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
                       <% if service.isCourse==false %>
-                        <div class="btn-group" style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
-                          <%if @idsS%>
-                            <%if not @idsS.include? service.id %>
+                        <div class="btn-group" style="margin-bottom:10px">
+                        <%if service.haveInfo%>
+                          <%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                        <%else%>
+                          <%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-no-info btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                        <%end%>
+                          <%if @all%>
+                            <%if not @all.include? service.id.to_s %>
                               <%aux="" %>
-                              <%if @ids %>
-                                <%aux=@ids+"-"%>
-                              <%end%>
+                              <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
+                              <% allIds+="-"+service.id.to_s%>
                               <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
                                 <i class="icon-plus"></i>
                               <%end%>
                             <%end%>
                           <%else%>
+                            <% if allIds==""%>
+                              <% allIds+=service.id.to_s%>
+                            <%else%>
+                              <% allIds+="-"+service.id.to_s%>
+                            <%end%>
                             <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
                               <i class="icon-plus"></i>
                             <%end%>
@@ -76,53 +85,103 @@
                       <% else %>
                         <div style="margin-bottom:10px">
                           <div class="btn-group">
-                          <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-course-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%if service.haveInfo%>
+                            <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%else%>
+                            <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-service-no-info btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%end%>
                           <button type="button" class="btn btn-small" data-toggle="collapse" data-target="#collapse<%=collapse%>" data-toggle="tooltip" title="Click to expand/collapse course units list">
                             <span class="caret"></span>
                           </button>
-                          <%if @idsS%>
-                            <%if not @idsS.include? service.id %>
+                          <%if @all%>
+                            <%if not @all.include? service.id.to_s %>
                               <%aux="" %>
-                              <%if @ids %>
-                                <%aux=@ids+"-"%>
-                              <%end%>
+                              <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
-                              <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id}, :class=>"btn btn-small") do %>
-                                <i class="icon-plus inline"></i>
+                              <% allIds+="-"+service.id.to_s%>
+                              <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
+                                <i class="icon-plus"></i>
                               <%end%>
                             <%end%>
                           <%else%>
-                            <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id}, :class=>"btn btn-small") do %>
-                              <i class="icon-plus inline"></i>
+                            <% if allIds==""%>
+                              <% allIds+=service.id.to_s%>
+                            <%else%>
+                              <% allIds+="-"+service.id.to_s%>
+                            <%end%>
+                            <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
+                              <i class="icon-plus"></i>
                             <%end%>
                           <%end%>
                           </div>
                         </div>
                         <div id="collapse<%=collapse%>" class="collapse">
                           <%collapse+=1%>
+                          <%addAll=@all ? @all.join("-") : ""%>
                           <% service.units.each do |u| %>
                             <div style="margin-bottom:10px">
-                              <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                              <div class="btn-group">
+                                <%if u.haveInfo%>
+                                  <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%else%>
+                                  <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-no-info btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%end%>
+                                <%if @all%>
+                                  <%if not @all.include? u.id.to_s+"u" %>
+                                    <%aux="" %>
+                                    <%aux=@all.join("-")+"-"%>
+                                    <% aux += u.id.to_s+"u"%>
+                                    <% addAll+="-"+u.id.to_s+"u"%>
+                                    <%= link_to({:action=>'view',:ids=>aux, :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
+                                      <i class="icon-plus"></i>
+                                    <%end%>
+                                  <%end%>
+                                <%else%>
+                                  <% if addAll==""%>
+                                    <% addAll+=u.id.to_s+"u"%>
+                                  <%else%>
+                                    <% addAll+="-"+u.id.to_s+"u"%>
+                                  <%end%>
+                                  <%= link_to({:action=>'view',:ids=>u.id.to_s+"u", :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
+                                    <i class="icon-plus"></i>
+                                  <%end%>
+                                  <br>
+                                <%end%>
+                              </div>
                             </div>
                           <% end%>
+                          <div style="margin-bottom:20px">
+                            <%= link_to({:action=>'view',:ids=>addAll,:idAdded=>service.id.to_s+"c"},:class=>"btn btn-primary") do %>
+                              Add all Units <i class="icon-plus"></i>
+                            <%end%>
+                          </div>
                         </div>
                       <% end %>
                     <% end %>
                   <% end %>
 
+                  <div style="margin-bottom:20px">
+                    <%= link_to({:action=>'view',:ids=>allIds},:class=>"btn btn-primary") do %>
+                      Add all Services <i class="icon-plus"></i>
+                    <%end%>
+                  </div>
+                
                 </div>
               <% else %>
                 <div class="tab-pane" id="tab<%=count%>">
                   <% @services.each do |service| %>
                     <% if service.organization==organization %>
                       <% if service.isCourse==false %>
-                        <div class="btn-group" style="margin-bottom:10px"><%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
-                          <%if @idsS%>
-                            <%if not @idsS.include? service.id %>
+                        <div class="btn-group" style="margin-bottom:10px">
+                          <%if service.haveInfo%>
+                            <%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%else%>
+                            <%= link_to service.title, "/service/#{service.id}", :class => "btn btn-small btn-service-no-info btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                          <%end%>
+                          <%if @all%>
+                            <%if not @all.include? service.id.to_s %>
                               <%aux="" %>
-                              <%if @ids %>
-                                <%aux=@ids+"-"%>
-                              <%end%>
+                              <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
                               <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
                                 <i class="icon-plus"></i>
@@ -137,35 +196,70 @@
                       <% else %>
                         <div style="margin-bottom:10px">
                           <div class="btn-group">
-                          <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-course-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                            <%if service.haveInfo%>
+                              <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                            <%else%>
+                              <%= link_to service.title, "/course/#{service.id}", :class => "btn btn-small btn-service-no-info btn-service-title", :rel => 'tooltip', :title => 'Press for more info'%>
+                            <%end%>
                           <button type="button" class="btn btn-small" data-toggle="collapse" data-target="#collapse<%=collapse%>" data-toggle="tooltip" title="Click to expand/collapse course units list">
                           <span class="caret"></span>
                           </button>
-                          <%if @idsS%>
-                            <%if not @idsS.include? service.id %>
+                          <%if @all%>
+                            <%if not @all.include? service.id.to_s %>
                               <%aux="" %>
-                              <%if @ids %>
-                                <%aux=@ids+"-"%>
-                              <%end%>
+                              <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
-                              <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id}, :class=>"btn btn-small") do %>
-                                <i class="icon-plus inline"></i>
+                              <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
+                                <i class="icon-plus"></i>
                               <%end%>
                             <%end%>
                           <%else%>
-                            <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id}, :class=>"btn btn-small") do %>
-                              <i class="icon-plus inline"></i>
+                            <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
+                              <i class="icon-plus"></i>
                             <%end%>
                           <%end%>
                           </div>
                         </div>
                         <div id="collapse<%=collapse%>" class="collapse">
                           <%collapse+=1%>
+                          <%addAll=@all ? @all.join("-") : ""%>
                           <% service.units.each do |u| %>
                             <div style="margin-bottom:10px">
-                              <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                              <div class="btn-group">
+                                <%if u.haveInfo%>
+                                  <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%else%>
+                                  <%= link_to u.title, "/unit/#{u.id}", :class => "btn btn-small btn-service-no-info btn-service-title2", :rel => 'tooltip', :title => 'Press for more info'%>
+                                <%end%>
+                                <%if @all%>
+                                  <%if not @all.include? u.id.to_s+"u" %>
+                                    <%aux="" %>
+                                    <%aux=@all.join("-")+"-"%>
+                                    <% aux += u.id.to_s+"u"%>
+                                    <% addAll+="-"+u.id.to_s+"u"%>
+                                    <%= link_to({:action=>'view',:ids=>aux, :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
+                                      <i class="icon-plus"></i>
+                                    <%end%>
+                                  <%end%>
+                                <%else%>
+                                  <% if addAll==""%>
+                                    <% addAll+=u.id.to_s+"u"%>
+                                  <%else%>
+                                    <% addAll+="-"+u.id.to_s+"u"%>
+                                  <%end%>
+                                  <%= link_to({:action=>'view',:ids=>u.id.to_s+"u", :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
+                                    <i class="icon-plus"></i>
+                                  <%end%>
+                                  <br>
+                                <%end%>
+                              </div>
                             </div>
                           <% end%>
+                          <div style="margin-bottom:20px">
+                            <%= link_to({:action=>'view',:ids=>addAll, :idAdded=>service.id.to_s+"c"},:class=>"btn btn-primary") do %>
+                              Add all Units <i class="icon-plus"></i>
+                            <%end%>
+                          </div>
                         </div>
                       <% end %>
                     <% end %>
@@ -190,7 +284,7 @@
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Import Vocabulary</h3>
+    <h3 id="myModalLabel">Import File</h3>
   </div>
   <div class="modal-body">
     <p><%= file_field_tag "file" %></p>
@@ -198,7 +292,7 @@
     <div class="modal-footer">
     
     <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    <%= submit_tag "Import file", class: "btn btn-primary"%>
+    <%= submit_tag "Import", class: "btn btn-primary"%>
   </div>
 </div>
 <% end %>
