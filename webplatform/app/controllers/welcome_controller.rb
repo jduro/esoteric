@@ -177,6 +177,7 @@ class WelcomeController < ApplicationController
 
 					solutionsU=queryUnit.execute(graph)
 					solutionsU.filter(:q => s.unit).each do |s2|
+						logger.error "\n!!!!!!!!!!!!!!!!!!!\n"+s.description.to_s.gsub(/ - .*/,"")+"\n!!!!!!!!!!!!!!!!!!!\n"
 						service.title=s2.title.to_s
 						solutionsOBKnow=queryOBKnow.execute(graph)
 						solutionsOBCogn=queryOBCogn.execute(graph)
@@ -1301,6 +1302,9 @@ class WelcomeController < ApplicationController
 				else
 					flash[:notice] = Unit.find(params[:idAdded][0..params[:idAdded].size-2].to_i).title+" removed from view"
 				end
+			elsif params[:idAdded].ends_with? "c"
+				flash[:notice] = "All units from "+Service.find(params[:idAdded][0..params[:idAdded].size-2].to_i).title+" added to view"
+				
 			else
 				if @all.include? params[:idAdded]
 					flash[:notice] = Service.find(params[:idAdded]).title+" added to view"

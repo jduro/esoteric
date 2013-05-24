@@ -46,7 +46,7 @@
           </ul>
           <% collapse=1 %>
           <div class="tab-content">
-
+            <%allIds=@all ? @all.join("-") : ""%>
             <% count=1 %>
             <% @organizations.each do |organization| %>
               <% if count==1 %>
@@ -65,11 +65,17 @@
                               <%aux="" %>
                               <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
+                              <% allIds+="-"+service.id.to_s%>
                               <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
                                 <i class="icon-plus"></i>
                               <%end%>
                             <%end%>
                           <%else%>
+                            <% if allIds==""%>
+                              <% allIds+=service.id.to_s%>
+                            <%else%>
+                              <% allIds+="-"+service.id.to_s%>
+                            <%end%>
                             <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
                               <i class="icon-plus"></i>
                             <%end%>
@@ -92,11 +98,17 @@
                               <%aux="" %>
                               <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
+                              <% allIds+="-"+service.id.to_s%>
                               <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
                                 <i class="icon-plus"></i>
                               <%end%>
                             <%end%>
                           <%else%>
+                            <% if allIds==""%>
+                              <% allIds+=service.id.to_s%>
+                            <%else%>
+                              <% allIds+="-"+service.id.to_s%>
+                            <%end%>
                             <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
                               <i class="icon-plus"></i>
                             <%end%>
@@ -139,7 +151,7 @@
                             </div>
                           <% end%>
                           <div style="margin-bottom:20px">
-                            <%= link_to({:action=>'view',:ids=>addAll},:class=>"btn btn-primary") do %>
+                            <%= link_to({:action=>'view',:ids=>addAll,:idAdded=>service.id.to_s+"c"},:class=>"btn btn-primary") do %>
                               Add all Units <i class="icon-plus"></i>
                             <%end%>
                           </div>
@@ -148,6 +160,12 @@
                     <% end %>
                   <% end %>
 
+                  <div style="margin-bottom:20px">
+                    <%= link_to({:action=>'view',:ids=>allIds},:class=>"btn btn-primary") do %>
+                      Add all Services <i class="icon-plus"></i>
+                    <%end%>
+                  </div>
+                
                 </div>
               <% else %>
                 <div class="tab-pane" id="tab<%=count%>">
@@ -238,7 +256,7 @@
                             </div>
                           <% end%>
                           <div style="margin-bottom:20px">
-                            <%= link_to({:action=>'view',:ids=>addAll},:class=>"btn btn-primary") do %>
+                            <%= link_to({:action=>'view',:ids=>addAll, :idAdded=>service.id.to_s+"c"},:class=>"btn btn-primary") do %>
                               Add all Units <i class="icon-plus"></i>
                             <%end%>
                           </div>
