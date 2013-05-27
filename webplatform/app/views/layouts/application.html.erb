@@ -65,16 +65,20 @@
                               <%aux="" %>
                               <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
-                              <% allIds+="-"+service.id.to_s%>
+                              <%if service.haveInfo%>
+                                <% allIds+="-"+service.id.to_s%>
+                              <%end%>
                               <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
                                 <i class="icon-plus"></i>
                               <%end%>
                             <%end%>
                           <%else%>
-                            <% if allIds==""%>
-                              <% allIds+=service.id.to_s%>
-                            <%else%>
-                              <% allIds+="-"+service.id.to_s%>
+                            <%if service.haveInfo%>
+                              <% if allIds==""%>
+                                <% allIds+=service.id.to_s%>
+                              <%else%>
+                                <% allIds+="-"+service.id.to_s%>
+                              <%end%>
                             <%end%>
                             <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
                               <i class="icon-plus"></i>
@@ -98,16 +102,20 @@
                               <%aux="" %>
                               <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
-                              <% allIds+="-"+service.id.to_s%>
+                              <%if service.haveInfo%>
+                                <% allIds+="-"+service.id.to_s%>
+                              <%end%>
                               <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
                                 <i class="icon-plus"></i>
                               <%end%>
                             <%end%>
                           <%else%>
-                            <% if allIds==""%>
-                              <% allIds+=service.id.to_s%>
-                            <%else%>
-                              <% allIds+="-"+service.id.to_s%>
+                            <%if service.haveInfo%>
+                              <% if allIds==""%>
+                                <% allIds+=service.id.to_s%>
+                              <%else%>
+                                <% allIds+="-"+service.id.to_s%>
+                              <%end%>
                             <%end%>
                             <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
                               <i class="icon-plus"></i>
@@ -131,16 +139,20 @@
                                     <%aux="" %>
                                     <%aux=@all.join("-")+"-"%>
                                     <% aux += u.id.to_s+"u"%>
-                                    <% addAll+="-"+u.id.to_s+"u"%>
+                                    <%if u.haveInfo%>
+                                      <% addAll+="-"+u.id.to_s+"u"%>
+                                    <%end%>
                                     <%= link_to({:action=>'view',:ids=>aux, :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
                                       <i class="icon-plus"></i>
                                     <%end%>
                                   <%end%>
                                 <%else%>
-                                  <% if addAll==""%>
-                                    <% addAll+=u.id.to_s+"u"%>
-                                  <%else%>
-                                    <% addAll+="-"+u.id.to_s+"u"%>
+                                  <%if u.haveInfo%>
+                                    <% if addAll==""%>
+                                      <% addAll+=u.id.to_s+"u"%>
+                                    <%else%>
+                                      <% addAll+="-"+u.id.to_s+"u"%>
+                                    <%end%>
                                   <%end%>
                                   <%= link_to({:action=>'view',:ids=>u.id.to_s+"u", :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
                                     <i class="icon-plus"></i>
@@ -184,16 +196,20 @@
                               <%aux="" %>
                               <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
-                              <% allIds+="-"+service.id.to_s%>
+                              <%if service.haveInfo%>
+                                <% allIds+="-"+service.id.to_s%>
+                              <%end%>
                               <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
                                 <i class="icon-plus"></i>
                               <%end%>
                             <%end%>
                           <%else%>
-                            <% if allIds==""%>
-                              <% allIds+=service.id.to_s%>
-                            <%else%>
-                              <% allIds+="-"+service.id.to_s%>
+                            <%if service.haveInfo%>
+                              <% if allIds==""%>
+                                <% allIds+=service.id.to_s%>
+                              <%else%>
+                                <% allIds+="-"+service.id.to_s%>
+                              <%end%>
                             <%end%>
                             <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
                               <i class="icon-plus"></i>
@@ -216,16 +232,20 @@
                               <%aux="" %>
                               <%aux=@all.join("-")+"-"%>
                               <% aux += service.id.to_s%>
-                              <% allIds+="-"+service.id.to_s%>
+                              <%if service.haveInfo%>
+                                <% allIds+="-"+service.id.to_s%>
+                              <%end%>
                               <%= link_to({:action=>'view',:ids=>aux, :idAdded=>service.id},:class=>"btn btn-small") do %>
                                 <i class="icon-plus"></i>
                               <%end%>
                             <%end%>
                           <%else%>
-                            <% if allIds==""%>
-                              <% allIds+=service.id.to_s%>
-                            <%else%>
-                              <% allIds+="-"+service.id.to_s%>
+                            <%if service.haveInfo%>
+                              <% if allIds==""%>
+                                <% allIds+=service.id.to_s%>
+                              <%else%>
+                                <% allIds+="-"+service.id.to_s%>
+                              <%end%>
                             <%end%>
                             <%= link_to({:action=>'view',:ids=>service.id, :idAdded=>service.id},:class=>"btn btn-small") do %>
                               <i class="icon-plus"></i>
@@ -249,16 +269,20 @@
                                     <%aux="" %>
                                     <%aux=@all.join("-")+"-"%>
                                     <% aux += u.id.to_s+"u"%>
-                                    <% addAll+="-"+u.id.to_s+"u"%>
+                                    <%if u.haveInfo%>
+                                      <% addAll+="-"+u.id.to_s+"u"%>
+                                    <%end%>
                                     <%= link_to({:action=>'view',:ids=>aux, :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
                                       <i class="icon-plus"></i>
                                     <%end%>
                                   <%end%>
                                 <%else%>
-                                  <% if addAll==""%>
-                                    <% addAll+=u.id.to_s+"u"%>
-                                  <%else%>
-                                    <% addAll+="-"+u.id.to_s+"u"%>
+                                  <%if u.haveInfo%>
+                                    <% if addAll==""%>
+                                      <% addAll+=u.id.to_s+"u"%>
+                                    <%else%>
+                                      <% addAll+="-"+u.id.to_s+"u"%>
+                                    <%end%>
                                   <%end%>
                                   <%= link_to({:action=>'view',:ids=>u.id.to_s+"u", :idAdded=>u.id.to_s+"u"},:class=>"btn btn-small") do %>
                                     <i class="icon-plus"></i>
