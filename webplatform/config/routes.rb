@@ -63,6 +63,8 @@ Webplatform::Application.routes.draw do
 
   match "/course/:id" => "welcome#infocourse"
 
+  match "/course/:id/:sort" => "welcome#infocourse"
+
   match "/unit/:id" => "welcome#infounit"
 
   match "/view/:ids" => "welcome#view"

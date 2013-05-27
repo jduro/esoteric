@@ -12,3 +12,4 @@
 
 //= require highcharts
 //= require highcharts-more
+//= require exporting

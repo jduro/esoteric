@@ -865,7 +865,7 @@ class WelcomeController < ApplicationController
 					:width => 500,
 					:height => 200
 				}
-				f.options[:title][:text] = "Objectives Trend"
+				f.options[:title][:text] = "Objectives trend according to Bloom's Taxonomy"
 				f.options[:xAxis]={
 					:title => {:text => "Cognitive Dimension"},
 					:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -900,7 +900,7 @@ class WelcomeController < ApplicationController
 				f.options[:plotOptions]={
 					:line => {:lineWidth => 0}
 				}
-				f.options[:title][:text] = "Objectives Identified"
+				f.options[:title][:text] = "Objectives identified according to Bloom's Taxonomy"
 				f.options[:xAxis]={
 					:title => {:text => "Cognitive Dimension"},
 					:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1065,6 +1065,8 @@ class WelcomeController < ApplicationController
 			itemDegree=solution.degree
 		end
 
+		@selectedTable=[]
+
 
 		@unit = Hash.new
 		@unit["url"]=@serviceSelected.urlCourse
@@ -1108,8 +1110,12 @@ class WelcomeController < ApplicationController
 	  	@a[5]=[0,0,0,0,0]
 	  	@a[6]=[0,0,0,0,0]
 
+	  	
+
 		@unit["unit"].each do |u|
 			solutionsUnitOB.filter(:q => u["url"]).each do |solutionUnit|
+				selected=Hash.new
+				selected["title"]=solutionUnit.title.to_s
 				u["title"]=solutionUnit.title.to_s
 				u["cogn"]=0
 				solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
@@ -1124,6 +1130,9 @@ class WelcomeController < ApplicationController
 					sumKnow+=u["know"]
 				end
 				@a[u["cogn"]][u["know"]]+=1
+				selected["cogn"]=u["cogn"]
+				selected["know"]=u["know"]
+				@selectedTable<<selected
 			end
 			solutionsUnitOB=queryUnitOB.execute(graph)
 			solutionsOBCogn=queryOBCogn.execute(graph)
@@ -1132,44 +1141,57 @@ class WelcomeController < ApplicationController
 		@unit["cogn"]=countCogn==0 ? 0 : (sumCogn/countCogn).round()
 		@unit["know"]=countKnow==0 ? 0 : (sumKnow/countKnow).round()
 
-		@graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
-			f.options[:plotOptions]={
-				:line => {:lineWidth => 0}
-			}
-			f.options[:chart]={
-				:width => 500,
-				:height => 200
-			}
-			f.options[:title][:text] = "Avegare of Dregree according to Bloom's Taxonomy"
-			f.options[:xAxis]={
-				:title => {:text => "Cognitive Dimension"},
-				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
-				:tickPositions => [0,1,2,3,4,5,6],
-				:gridLineWidth => '1',
-				:lineWidth => 1,
-        		:tickmarkPlacement => 'on',
-				:max => 6,
-				:min => 0
-			}
-			f.options[:yAxis]={
-				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
-				:tickPositions => [0,1,2,3,4],
-				:gridLineWidth => '1',
-				:lineWidth => 1,
-        		:tickmarkPlacement => 'on',
-				:max => 4,
-				:min => 0
-			}
-			tmp="Average"
-			f.series(
-			:name=> tmp, 
-			:data=> [[@unit["cogn"] ? @unit["cogn"]: 0, @unit["know"] ? @unit["know"]: 0]],
-			:marker => {:radius=>6}
-			)
+		@selectedTable2=@selectedTable
+		if params[:sort]
+			if params[:sort]=="title"
+				@selectedTable2=@selectedTable.sort_by{|hsh| hsh["title"]}
+			else
+				@selectedTable2=@selectedTable.sort_by{|hsh| [hsh["cogn"],-hsh["know"]]}
+				@selectedTable2=@selectedTable2.sort_by{|hsh| [hsh["cogn"]==params[:sort].to_i ? 0 : 1, [hsh["cogn"],-hsh["know"]]]}
+			end
 		end
 
+		# @graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
+		# 	f.options[:plotOptions]={
+		# 		:line => {:lineWidth => 0}
+		# 	}
+		# 	f.options[:chart]={
+		# 		:width => 500,
+		# 		:height => 200
+		# 	}
+		# 	f.options[:title][:text] = "Avegare of Dregree according to Bloom's Taxonomy"
+		# 	f.options[:xAxis]={
+		# 		:title => {:text => "Cognitive Dimension"},
+		# 		:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+		# 		:tickPositions => [0,1,2,3,4,5,6],
+		# 		:gridLineWidth => '1',
+		# 		:lineWidth => 1,
+  #       		:tickmarkPlacement => 'on',
+		# 		:max => 6,
+		# 		:min => 0
+		# 	}
+		# 	f.options[:yAxis]={
+		# 		:title => {:text => "Knowledge Dimension"},
+		# 		:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+		# 		:tickPositions => [0,1,2,3,4],
+		# 		:gridLineWidth => '1',
+		# 		:lineWidth => 1,
+  #       		:tickmarkPlacement => 'on',
+		# 		:max => 4,
+		# 		:min => 0
+		# 	}
+		# 	tmp="Average"
+		# 	f.series(
+		# 	:name=> tmp, 
+		# 	:data=> [[@unit["cogn"] ? @unit["cogn"]: 0, @unit["know"] ? @unit["know"]: 0]],
+		# 	:marker => {:radius=>6}
+		# 	)
+		# end
+
 		@graphObjectives = LazyHighCharts::HighChart.new('graph') do |f|
+			f.options[:exporting]={
+				:enabled => true
+			}
 			f.options[:legend]={
 				:width => 600,
 				:itemWidth => 300,
@@ -1178,7 +1200,7 @@ class WelcomeController < ApplicationController
 			f.options[:plotOptions]={
 				:line => {:lineWidth => 0}
 			}
-			f.options[:title][:text] = "Objectives Trend on each Curricular unit according to Bloom's Taxonomy"
+			f.options[:title][:text] = "Objectives of each curricular unit according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1230,7 +1252,7 @@ class WelcomeController < ApplicationController
 				:plotBorderWidth => 1,
 				:zoomType => 'xy'
 			}
-			f.options[:title][:text] = "Disposition of Curricular units according to Bloom's Taxonomy"
+			f.options[:title][:text] = "Disposition of curricular units according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1605,49 +1627,50 @@ class WelcomeController < ApplicationController
 	  		end
 	  	end
 
-		@graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
-			f.options[:plotOptions]={
-				:line => {:lineWidth => 0}
-			}
-			f.options[:chart]={
-				:width => 500,
-				:height => 200
-			}
-			f.options[:title][:text] = "Average of Curricular units according to Bloom's Taxonomy"
-			f.options[:xAxis]={
-				:title => {:text => "Cognitive Dimension"},
-				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
-				:tickPositions => [0,1,2,3,4,5,6],
-				:gridLineWidth => '1',
-				:lineWidth => 1,
-        		:tickmarkPlacement => 'on',
-				:max => 6,
-				:min => 0
-			}
-			f.options[:yAxis]={
-				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
-				:tickPositions => [0,1,2,3,4],
-				:gridLineWidth => '1',
-				:lineWidth => 1,
-        		:tickmarkPlacement => 'on',
-				:max => 4,
-				:min => 0
-			}
-			tmp="Average"
-			f.series(
-			:name=> tmp, 
-			:data=> [[@avgCogn ? @avgCogn: 0, @avgKnow ? @avgKnow: 0]],
-			:marker => {:radius=>6}
-			)
-		end
+		# @graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
+		# 	f.options[:plotOptions]={
+		# 		:line => {:lineWidth => 0}
+		# 	}
+		# 	f.options[:chart]={
+		# 		:width => 500,
+		# 		:height => 200
+		# 	}
+		# 	f.options[:title][:text] = "Average of Curricular units according to Bloom's Taxonomy"
+		# 	f.options[:xAxis]={
+		# 		:title => {:text => "Cognitive Dimension"},
+		# 		:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+		# 		:tickPositions => [0,1,2,3,4,5,6],
+		# 		:gridLineWidth => '1',
+		# 		:lineWidth => 1,
+  #       		:tickmarkPlacement => 'on',
+		# 		:max => 6,
+		# 		:min => 0
+		# 	}
+		# 	f.options[:yAxis]={
+		# 		:title => {:text => "Knowledge Dimension"},
+		# 		:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+		# 		:tickPositions => [0,1,2,3,4],
+		# 		:gridLineWidth => '1',
+		# 		:lineWidth => 1,
+  #       		:tickmarkPlacement => 'on',
+		# 		:max => 4,
+		# 		:min => 0
+		# 	}
+		# 	tmp="Average"
+		# 	f.series(
+		# 	:name=> tmp, 
+		# 	:data=> [[@avgCogn ? @avgCogn: 0, @avgKnow ? @avgKnow: 0]],
+		# 	:marker => {:radius=>6}
+		# 	)
+		# end
+
 		@graphObjectivesBubble = LazyHighCharts::HighChart.new('graph') do |f|
 			f.option[:chart]={
 				:type => "bubble",
 				:plotBorderWidth => 1,
 				:zoomType => 'xy'
 			}
-			f.options[:title][:text] = "Disposition of Curricular units according to Bloom's Taxonomy"
+			f.options[:title][:text] = "Disposition of curricular units according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],

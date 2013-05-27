@@ -36,13 +36,79 @@
 	<%=@unit["description"]%>
 </div>
 <div class="well">
-	<div align="center">
-		<div id="my_id2" ><%= high_chart("my_id2", @graphOverall) %></div>
-	</div>
+	<%= high_chart("my_id3", @graphObjectivesBubble) %>
 </div>
 <div class="well">
 	<%= high_chart("my_id", @graphObjectives) %>
 </div>
-<div class="well">
-	<%= high_chart("my_id3", @graphObjectivesBubble) %>
+<div class="well" style="padding-left:3px">
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th><%=link_to("Title",{:action=>'infocourse',:id=>@serviceSelected.id, :sort=>"title"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Remember",{:action=>'infocourse',:id=>@serviceSelected.id, :sort=>"1"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Understand",{:action=>'infocourse',:id=>@serviceSelected.id, :sort=>"2"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Apply",{:action=>'infocourse',:id=>@serviceSelected.id, :sort=>"3"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Analyze",{:action=>'infocourse',:id=>@serviceSelected.id, :sort=>"4"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Evaluate",{:action=>'infocourse',:id=>@serviceSelected.id, :sort=>"5"},:class=>"btn btn-small")%></th>
+				<th><%=link_to("Create",{:action=>'infocourse',:id=>@serviceSelected.id, :sort=>"6"},:class=>"btn btn-small")%></th>
+			</tr>
+		</thead>
+		<tbody>
+			<%@selectedTable2.each do |s|%>
+				<tr style="height:2px;">
+					<td><%=s["title"]%></td>
+					<%(1..(s["cogn"]-1)).each do%>
+						<td></td>
+					<%end%>
+					<%if s["cogn"]!=0%>
+						
+						<%case s["know"]%>
+							<%when 0%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="N/A"></td>
+							<%when 1%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="Factual Knowledge"></td>
+							<%when 2%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="Conceptual Knowledge"></td>
+							<%when 3%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="Procedural Knowledge"></td>
+							<%when 4%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="Meta-Cognitive Knowledge"></td>
+						<%end%>
+					<%end%>
+					<%((s["cogn"]+1)..6).each do%>
+						<td></td>
+					<%end%>
+				</tr>
+			<%end%>
+		</tbody>
+	</table>
+	<div class="row-fluid">
+		<div class="span4 offset4">
+			<table class="table table-bordered">
+				<tbody>
+				<tr>
+					<td class="know0"></td>
+					<td>N/A</td>
+				</tr>
+				<tr>
+					<td class="know1"></td>
+					<td>Factual Knowledge</td>
+				</tr>
+				<tr>
+					<td class="know2"></td>
+					<td>Conceptual Knowledge</td>
+				</tr>
+				<tr>
+					<td class="know3"></td>
+					<td>Procedural Knowledge</td>
+				</tr>
+				<tr>
+					<td class="know4"></td>
+					<td>Meta-Cognitive Knowledge</td>
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>		
 </div>

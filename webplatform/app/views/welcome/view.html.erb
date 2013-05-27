@@ -100,6 +100,9 @@
     <%end%>
 </div>
 <div class="well">
+    <%= high_chart("my_id3", @graphObjectivesBubble) %>
+</div>
+<div class="well">
 	<table class="table table-bordered">
 		<thead>
 			<tr>
@@ -119,10 +122,19 @@
 					<%(1..(s["cogn"]-1)).each do%>
 						<td></td>
 					<%end%>
-					<%if s["cogn"]==0%>
-						<td></td>
-					<%else%>
-						<td class="know<%=s["know"]%>"></td>
+					<%if s["cogn"]!=0%>
+						<%case s["know"]%>
+							<%when 0%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="N/A"></td>
+							<%when 1%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="Factual Knowledge"></td>
+							<%when 2%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="Conceptual Knowledge"></td>
+							<%when 3%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="Procedural Knowledge"></td>
+							<%when 4%>
+								<td class="know<%=s["know"]%>" data-toggle="tooltip" title="Meta-Cognitive Knowledge"></td>
+						<%end%>
 					<%end%>
 					<%((s["cogn"]+1)..6).each do%>
 						<td></td>
@@ -159,15 +171,5 @@
 			</table>
 		</div>
 	</div>		
-</div>
-
-<div class="well">
-    <div align="center">
-        <div id="my_id2" ><%= high_chart("my_id2", @graphOverall) %></div>
-    </div>
-</div>
-
-<div class="well">
-    <%= high_chart("my_id3", @graphObjectivesBubble) %>
 </div>
 
