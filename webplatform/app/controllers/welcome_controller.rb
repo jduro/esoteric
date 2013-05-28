@@ -213,6 +213,9 @@ class WelcomeController < ApplicationController
 	end
 
 	def info()
+
+		allPaths=Service.select(:path).map(&:path).uniq
+
 		@serviceSelected = Service.find(params[:id])
 		
 		graph = RDF::Graph.load(@serviceSelected.path, :format => :ttl)
@@ -254,6 +257,7 @@ class WelcomeController < ApplicationController
 			c["label"]=s.label.to_s
 			c["description"]=s.description.to_s
 			c["value"]=s.value.to_i
+			c["url"]=s.q
 			cognitiveDimension[s.q]=c
 		end
 		knowledgeDimension=Hash.new
@@ -263,6 +267,7 @@ class WelcomeController < ApplicationController
 			c["label"]=s.label.to_s
 			c["description"]=s.description.to_s
 			c["value"]=s.value.to_i
+			c["url"]=s.q
 			knowledgeDimension[s.q]=c
 		end
 
@@ -445,6 +450,62 @@ class WelcomeController < ApplicationController
 		solutionsOBKnow.filter(:q => @unit["obj"]["url"]).each do |solution|
 			@unit["obj"]["know"]=knowledgeDimension[solution.know]
 		end
+
+
+
+		@sameOB=[]
+		allPaths.each do |p|
+			graphCompare = RDF::Graph.load(p, :format => :ttl)
+			qUnit = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.CourseUnit,
+			    USDL4EDU.hasTitle => :title,
+			    USDL4EDU.hasOverallObjective => :obj
+			  }
+			})
+			qOB = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.CourseUnit,
+			    USDL4EDU.hasOverallObjective => :obj
+			  }
+			})
+
+			solUnit=qUnit.execute(graphCompare)
+			solUnit.each do |solution|
+				aux=Hash.new
+				aux["title"]=solution.title.to_s
+				check=false
+				check2=false
+				if @unit["obj"]["cogn"]
+					solObjectiveCogn=queryOBCogn.execute(graphCompare)
+					solObjectiveCogn.filter(:q => solution.obj).each do |s|
+						if s.cogn==@unit["obj"]["cogn"]["url"]
+							check=true
+							aux["cogn"]=@unit["obj"]["cogn"]["value"]
+						end
+					end
+				end
+
+				if @unit["obj"]["know"]
+					solObjectiveKnow=queryOBKnow.execute(graphCompare)
+					solObjectiveKnow.filter(:q => solution.obj).each do |s|
+						if s.know==@unit["obj"]["know"]["url"]
+							check2=true
+							aux["know"]=@unit["obj"]["know"]["value"]
+						end
+					end
+				end
+
+
+
+				if check and check2
+					@sameOB<<aux
+				end
+
+			end
+
+		end
+
 		@unit["obj"]["parts"]=[]
 		solutionsOBParts.filter(:q => @unit["obj"]["url"]).each do |solution|
 			part=Hash.new

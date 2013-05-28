@@ -14,6 +14,11 @@
 	<%end%>
 </div>
 <div class="well">
+	<% @sameOB.each do |s|%>
+		<%=s%><br>
+	<%end%>
+</div>
+<div class="well">
 	<div style="clear:both;">
 		<p style="float: left;"><strong>Language:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["language"]%></p>
 		<p style="float: right;"><strong>Delivery Mode:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["delivery"]%> </p>
@@ -30,8 +35,13 @@
 			<i class="icon-hand-up"></i>
 		<% end %>
 	</span></p>
-	<p><strong>Knowledge Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["know"] ? "rel='tooltip' title='"+@unit["obj"]["know"]["description"]+"'": "" %> ><%=@unit["obj"]["know"] ? @unit["obj"]["know"]["label"] : "None"%>
+	<p style="margin-bottom:1px"><strong>Knowledge Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["know"] ? "rel='tooltip' title='"+@unit["obj"]["know"]["description"]+"'": "" %> ><%=@unit["obj"]["know"] ? @unit["obj"]["know"]["label"] : "None"%>
 		<% if @unit["obj"]["know"] %>
+			<i class="icon-hand-up"></i>
+		<% end %>
+	</span></p>
+	<p><strong>Skill Dimension:&nbsp;&nbsp;&nbsp;&nbsp;</strong><span <%=@unit["obj"]["skill"] ? "rel='tooltip' title='"+@unit["obj"]["skill"]["description"]+"'": "" %> ><%=@unit["obj"]["skill"] ? @unit["obj"]["skill"]["label"] : "None"%>
+		<% if @unit["obj"]["skill"] %>
 			<i class="icon-hand-up"></i>
 		<% end %>
 	</span></p>
@@ -57,9 +67,15 @@
 						<i class="icon-hand-up"></i>
 					<% end %>
 				</span></p>
-				<p><strong>Knowledge Dimension:&nbsp;&nbsp;</strong><span <%=part["know"] ? "rel='tooltip' title='"+part["know"]["description"]+"'": "" %> >
+				<p style="margin-bottom:1px"><strong>Knowledge Dimension:&nbsp;&nbsp;</strong><span <%=part["know"] ? "rel='tooltip' title='"+part["know"]["description"]+"'": "" %> >
 					<%=part["know"] ? part["know"]["label"] : "None"%>
 					<% if part["know"] %>
+						<i class="icon-hand-up"></i>
+					<% end %>
+				</span></p>
+				<p><strong>Skill Dimension:&nbsp;&nbsp;</strong><span <%=part["skill"] ? "rel='tooltip' title='"+part["skill"]["description"]+"'": "" %> >
+					<%=part["skill"] ? part["skill"]["label"] : "None"%>
+					<% if part["skill"] %>
 						<i class="icon-hand-up"></i>
 					<% end %>
 				</span></p>
@@ -91,9 +107,15 @@
 						<i class="icon-hand-up"></i>
 					<% end %>
 				</span></p>
-				<p><strong>Knowledge Dimension:&nbsp;&nbsp;</strong><span <%=part["know"] ? "rel='tooltip' title='"+part["know"]["description"]+"'": "" %> >
+				<p style="margin-bottom:1px"><strong>Knowledge Dimension:&nbsp;&nbsp;</strong><span <%=part["know"] ? "rel='tooltip' title='"+part["know"]["description"]+"'": "" %> >
 					<%=part["know"] ? part["know"]["label"] : "None"%>
 					<% if part["know"] %>
+						<i class="icon-hand-up"></i>
+					<% end %>
+				</span></p>
+				<p><strong>Skill Dimension:&nbsp;&nbsp;</strong><span <%=part["skill"] ? "rel='tooltip' title='"+part["skill"]["description"]+"'": "" %> >
+					<%=part["skill"] ? part["skill"]["label"] : "None"%>
+					<% if part["skill"] %>
 						<i class="icon-hand-up"></i>
 					<% end %>
 				</span></p>
