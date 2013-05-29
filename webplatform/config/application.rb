@@ -52,7 +52,6 @@ module Webplatform
     RDFS=RDF::Vocabulary.new "http://www.w3.org/2000/01/rdf-schema#"
     USDL4EDU = RDF::Vocabulary.new NS
 
-    GRAPHCONTEXT = RDF::Graph.load("public/services/context.ttl", :format => :ttl)
     GRAPHUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
 
 
@@ -90,20 +89,6 @@ module Webplatform
         c["description"]=s.description.to_s
         c["value"]=s.value.to_i
         KNOWLEDGEDIMENSION[s.q]=c
-    end
-
-    EDUCATIONALCONTEXT=Hash.new
-    queryContext = RDF::Query.new({
-      :q => {
-        RDF.type => SKOS.Concept,
-        SKOS.prefLabel => :label
-      }
-    })
-    queryContext.execute(GRAPHCONTEXT).each do |s|
-        c=Hash.new
-        c["label"]=s.label.to_s
-        c["url"]=s.q
-        EDUCATIONALCONTEXT[s.q]=c
     end
 
   end

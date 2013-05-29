@@ -106,6 +106,18 @@ class WelcomeController < ApplicationController
 			    USDL4EDU.hasKnowledgeDimension => :know
 			  }
 			})
+			queryOBParts = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.OverallObjective,
+			    USDL4EDU.hasPartObjective => :part
+			  }
+			})
+			queryObjectiveContext = RDF::Query.new({
+			  :q => {
+			    RDF.type => USDL4EDU.Objective,
+			    USDL4EDU.hasContext => :context
+			  }
+			})
 
 			solutions=queryServiceDegree.execute(graph)
 			solutionsD=queryDegree.execute(graph)
@@ -126,6 +138,10 @@ class WelcomeController < ApplicationController
 					elsif s.organization=="http://rdf.genssiz.dei.uc.pt/usdl4edu#dei-uc"
 						service.organization="DEI-UC"
 					end
+					sC=0
+					sK=0
+					cC=0
+					cK=0
 					solutionsD.filter(:q => s.degree).each do |s1|
 						solutionsU.filter(:q => s1.unit).each do |s2|
 							unit=Unit.new
@@ -139,9 +155,23 @@ class WelcomeController < ApplicationController
 							know=0
 							solutionsOBCogn.filter(:q => s2.obj).each do |solutionOB|
 								cogn=Webplatform::Application::COGNITIVEDIMENSION[solutionOB.cogn]["value"]
+								sC+=cogn
+								cC+=1
 							end
 							solutionsOBKnow.filter(:q => s2.obj).each do |solutionOB|
 								know=Webplatform::Application::KNOWLEDGEDIMENSION[solutionOB.know]["value"]
+								sK+=know
+								cK+=1
+							end
+							unit.cogn=cogn
+							unit.know=know
+
+							solutionOBPart=queryOBParts.execute(graph)
+							solutionOBPart.filter(:q => s2.obj).each do |solutionP|
+								solutionContext=queryObjectiveContext.execute(graph)
+								solutionContext.filter(:q=>solutionP.part).each do |solutionC|
+									unit.educationalcontexts << Educationalcontext.find_by_url(solutionC.q.to_s)
+								end
 							end
 
 							if cogn==0 and know==0
@@ -152,6 +182,9 @@ class WelcomeController < ApplicationController
 						end
 						solutionsU=queryUnit.execute(graph)
 					end
+					service.cogn= cC==0 ? 0 : (sC/cC).round()
+					service.know= cK==0 ? 0 : (sK/cK).round()
+
 					service.path=path
 					service.save
 				end
@@ -177,7 +210,6 @@ class WelcomeController < ApplicationController
 
 					solutionsU=queryUnit.execute(graph)
 					solutionsU.filter(:q => s.unit).each do |s2|
-						logger.error "\n!!!!!!!!!!!!!!!!!!!\n"+s.description.to_s.gsub(/ - .*/,"")+"\n!!!!!!!!!!!!!!!!!!!\n"
 						service.title=s2.title.to_s
 						solutionsOBKnow=queryOBKnow.execute(graph)
 						solutionsOBCogn=queryOBCogn.execute(graph)
@@ -189,6 +221,15 @@ class WelcomeController < ApplicationController
 						solutionsOBKnow.filter(:q => s2.obj).each do |solutionOB|
 							know=Webplatform::Application::KNOWLEDGEDIMENSION[solutionOB.know]["value"]
 						end
+						solutionOBPart=queryOBParts.execute(graph)
+						solutionOBPart.filter(:q => s2.obj).each do |solutionP|
+							solutionContext=queryObjectiveContext.execute(graph)
+							solutionContext.filter(:q=>solutionP.part).each do |solutionC|
+								service.educationalcontexts << Educationalcontext.find_by_url(solutionC.q.to_s)
+							end
+						end
+						service.cogn=cogn
+						service.know=know
 
 						if cogn==0 and know==0
 							service.haveInfo=false
