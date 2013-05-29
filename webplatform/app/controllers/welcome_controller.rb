@@ -34,7 +34,7 @@ class WelcomeController < ApplicationController
 		    File.open(path, "wb") { |f| f.write(params[:file].read) }
 
 			graph = RDF::Graph.load(path, :format => :ttl)
-			graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+			# graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
 			queryUSDL4EDCogn = RDF::Query.new({
 			  :q => {
 			    RDF.type => USDL4EDU.CognitiveDimension,
@@ -52,24 +52,24 @@ class WelcomeController < ApplicationController
 			  }
 			})
 
-			cognitiveDimension=Hash.new
-			solutions=queryUSDL4EDCogn.execute(graphUSDL4EDU)
-			solutions.each do |s|
-				c=Hash.new
-				c["label"]=s.label.to_s
-				c["description"]=s.description.to_s
-				c["value"]=s.value.to_i
-				cognitiveDimension[s.q]=c
-			end
-			knowledgeDimension=Hash.new
-			solutions=queryUSDL4EDKnow.execute(graphUSDL4EDU)
-			solutions.each do |s|
-				c=Hash.new
-				c["label"]=s.label.to_s
-				c["description"]=s.description.to_s
-				c["value"]=s.value.to_i
-				knowledgeDimension[s.q]=c
-			end
+			# cognitiveDimension=Hash.new
+			# solutions=queryUSDL4EDCogn.execute(Webplatform::Application::GRAPHUSDL4EDU)
+			# solutions.each do |s|
+			# 	c=Hash.new
+			# 	c["label"]=s.label.to_s
+			# 	c["description"]=s.description.to_s
+			# 	c["value"]=s.value.to_i
+			# 	cognitiveDimension[s.q]=c
+			# end
+			# knowledgeDimension=Hash.new
+			# solutions=queryUSDL4EDKnow.execute(Webplatform::Application::GRAPHUSDL4EDU)
+			# solutions.each do |s|
+			# 	c=Hash.new
+			# 	c["label"]=s.label.to_s
+			# 	c["description"]=s.description.to_s
+			# 	c["value"]=s.value.to_i
+			# 	knowledgeDimension[s.q]=c
+			# end
 
 			queryServiceDegree = RDF::Query.new({
 			  :q => {
@@ -138,10 +138,10 @@ class WelcomeController < ApplicationController
 							cogn=0
 							know=0
 							solutionsOBCogn.filter(:q => s2.obj).each do |solutionOB|
-								cogn=cognitiveDimension[solutionOB.cogn]["value"]
+								cogn=Webplatform::Application::COGNITIVEDIMENSION[solutionOB.cogn]["value"]
 							end
 							solutionsOBKnow.filter(:q => s2.obj).each do |solutionOB|
-								know=knowledgeDimension[solutionOB.know]["value"]
+								know=Webplatform::Application::KNOWLEDGEDIMENSION[solutionOB.know]["value"]
 							end
 
 							if cogn==0 and know==0
@@ -184,10 +184,10 @@ class WelcomeController < ApplicationController
 						cogn=0
 						know=0
 						solutionsOBCogn.filter(:q => s2.obj).each do |solutionOB|
-							cogn=cognitiveDimension[solutionOB.cogn]["value"]
+							cogn=Webplatform::Application::COGNITIVEDIMENSION[solutionOB.cogn]["value"]
 						end
 						solutionsOBKnow.filter(:q => s2.obj).each do |solutionOB|
-							know=knowledgeDimension[solutionOB.know]["value"]
+							know=Webplatform::Application::KNOWLEDGEDIMENSION[solutionOB.know]["value"]
 						end
 
 						if cogn==0 and know==0
@@ -220,7 +220,7 @@ class WelcomeController < ApplicationController
 		
 		graph = RDF::Graph.load(@serviceSelected.path, :format => :ttl)
 
-		graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+		# graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
 		queryUSDL4EDULanguage = RDF::Query.new({
 		  :q => {
 		    RDF.type => USDL4EDU.Language,
@@ -250,30 +250,30 @@ class WelcomeController < ApplicationController
 		  }
 		})
 
-		cognitiveDimension=Hash.new
-		solutions=queryUSDL4EDCogn.execute(graphUSDL4EDU)
-		solutions.each do |s|
-			c=Hash.new
-			c["label"]=s.label.to_s
-			c["description"]=s.description.to_s
-			c["value"]=s.value.to_i
-			c["url"]=s.q
-			cognitiveDimension[s.q]=c
-		end
-		knowledgeDimension=Hash.new
-		solutions=queryUSDL4EDKnow.execute(graphUSDL4EDU)
-		solutions.each do |s|
-			c=Hash.new
-			c["label"]=s.label.to_s
-			c["description"]=s.description.to_s
-			c["value"]=s.value.to_i
-			c["url"]=s.q
-			knowledgeDimension[s.q]=c
-		end
+		# cognitiveDimension=Hash.new
+		# solutions=queryUSDL4EDCogn.execute(Webplatform::Application::GRAPHUSDL4EDU)
+		# solutions.each do |s|
+		# 	c=Hash.new
+		# 	c["label"]=s.label.to_s
+		# 	c["description"]=s.description.to_s
+		# 	c["value"]=s.value.to_i
+		# 	c["url"]=s.q
+		# 	cognitiveDimension[s.q]=c
+		# end
+		# knowledgeDimension=Hash.new
+		# solutions=queryUSDL4EDKnow.execute(Webplatform::Application::GRAPHUSDL4EDU)
+		# solutions.each do |s|
+		# 	c=Hash.new
+		# 	c["label"]=s.label.to_s
+		# 	c["description"]=s.description.to_s
+		# 	c["value"]=s.value.to_i
+		# 	c["url"]=s.q
+		# 	knowledgeDimension[s.q]=c
+		# end
 
 
 
-		graphContext = RDF::Graph.load("public/services/context.ttl", :format => :ttl)
+		# graphContext = RDF::Graph.load("public/services/context.ttl", :format => :ttl)
 		queryContext = RDF::Query.new({
 		  :q => {
 		    RDF.type => SKOS.Concept,
@@ -405,13 +405,13 @@ class WelcomeController < ApplicationController
 				@unit["description"]=solutionUnit.description.to_s
 
 				
-				solutions=queryUSDL4EDUDelivery.execute(graphUSDL4EDU)
+				solutions=queryUSDL4EDUDelivery.execute(Webplatform::Application::GRAPHUSDL4EDU)
 				solutions.filter(:q => solutionUnit.delivery).each do |solution|
 					@unit["delivery"]=solution.label
 				end
 				
 
-				solutions=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
+				solutions=queryUSDL4EDULanguage.execute(Webplatform::Application::GRAPHUSDL4EDU)
 				solutions.filter(:q => solutionUnit.language).each do |solution|
 					@unit["language"]=solution.label
 				end
@@ -445,66 +445,66 @@ class WelcomeController < ApplicationController
 			@unit["obj"]["description"]=solution.description.to_s
 		end
 		solutionsOBCogn.filter(:q => @unit["obj"]["url"]).each do |solution|
-			@unit["obj"]["cogn"]=cognitiveDimension[solution.cogn]
+			@unit["obj"]["cogn"]=Webplatform::Application::COGNITIVEDIMENSION[solution.cogn]
 		end
 		solutionsOBKnow.filter(:q => @unit["obj"]["url"]).each do |solution|
-			@unit["obj"]["know"]=knowledgeDimension[solution.know]
+			@unit["obj"]["know"]=Webplatform::Application::KNOWLEDGEDIMENSION[solution.know]
 		end
 
 
 
-		@sameOB=[]
-		allPaths.each do |p|
-			graphCompare = RDF::Graph.load(p, :format => :ttl)
-			qUnit = RDF::Query.new({
-			  :q => {
-			    RDF.type => USDL4EDU.CourseUnit,
-			    USDL4EDU.hasTitle => :title,
-			    USDL4EDU.hasOverallObjective => :obj
-			  }
-			})
-			qOB = RDF::Query.new({
-			  :q => {
-			    RDF.type => USDL4EDU.CourseUnit,
-			    USDL4EDU.hasOverallObjective => :obj
-			  }
-			})
+		# @sameOB=[]
+		# allPaths.each do |p|
+		# 	graphCompare = RDF::Graph.load(p, :format => :ttl)
+		# 	qUnit = RDF::Query.new({
+		# 	  :q => {
+		# 	    RDF.type => USDL4EDU.CourseUnit,
+		# 	    USDL4EDU.hasTitle => :title,
+		# 	    USDL4EDU.hasOverallObjective => :obj
+		# 	  }
+		# 	})
+		# 	qOB = RDF::Query.new({
+		# 	  :q => {
+		# 	    RDF.type => USDL4EDU.CourseUnit,
+		# 	    USDL4EDU.hasOverallObjective => :obj
+		# 	  }
+		# 	})
 
-			solUnit=qUnit.execute(graphCompare)
-			solUnit.each do |solution|
-				aux=Hash.new
-				aux["title"]=solution.title.to_s
-				check=false
-				check2=false
-				if @unit["obj"]["cogn"]
-					solObjectiveCogn=queryOBCogn.execute(graphCompare)
-					solObjectiveCogn.filter(:q => solution.obj).each do |s|
-						if s.cogn==@unit["obj"]["cogn"]["url"]
-							check=true
-							aux["cogn"]=@unit["obj"]["cogn"]["value"]
-						end
-					end
-				end
+		# 	solUnit=qUnit.execute(graphCompare)
+		# 	solUnit.each do |solution|
+		# 		aux=Hash.new
+		# 		aux["title"]=solution.title.to_s
+		# 		check=false
+		# 		check2=false
+		# 		if @unit["obj"]["cogn"]
+		# 			solObjectiveCogn=queryOBCogn.execute(graphCompare)
+		# 			solObjectiveCogn.filter(:q => solution.obj).each do |s|
+		# 				if s.cogn==@unit["obj"]["cogn"]["url"]
+		# 					check=true
+		# 					aux["cogn"]=@unit["obj"]["cogn"]["value"]
+		# 				end
+		# 			end
+		# 		end
 
-				if @unit["obj"]["know"]
-					solObjectiveKnow=queryOBKnow.execute(graphCompare)
-					solObjectiveKnow.filter(:q => solution.obj).each do |s|
-						if s.know==@unit["obj"]["know"]["url"]
-							check2=true
-							aux["know"]=@unit["obj"]["know"]["value"]
-						end
-					end
-				end
+		# 		if @unit["obj"]["know"]
+		# 			solObjectiveKnow=queryOBKnow.execute(graphCompare)
+		# 			solObjectiveKnow.filter(:q => solution.obj).each do |s|
+		# 				if s.know==@unit["obj"]["know"]["url"]
+		# 					check2=true
+		# 					aux["know"]=@unit["obj"]["know"]["value"]
+		# 				end
+		# 			end
+		# 		end
 
 
 
-				if check and check2
-					@sameOB<<aux
-				end
+		# 		if check and check2
+		# 			@sameOB<<aux
+		# 		end
 
-			end
+		# 	end
 
-		end
+		# end
 
 		@unit["obj"]["parts"]=[]
 		solutionsOBParts.filter(:q => @unit["obj"]["url"]).each do |solution|
@@ -519,20 +519,20 @@ class WelcomeController < ApplicationController
 				part["description"]=solution.description.to_s
 			end
 			solutionsObjectiveCogn.filter(:q => part["url"]).each do |solution|
-				part["cogn"]=cognitiveDimension[solution.cogn]
+				part["cogn"]=Webplatform::Application::COGNITIVEDIMENSION[solution.cogn]
 			end
 			solutionsObjectiveKnow.filter(:q => part["url"]).each do |solution|
-				part["know"]=knowledgeDimension[solution.know]
+				part["know"]=Webplatform::Application::KNOWLEDGEDIMENSION[solution.know]
 			end
 			solutionsObjectiveContext.filter(:q => part["url"]).each do |solution|
 				context=Hash.new
 				context["url"]=solution.context
 				# context["label"]=solution.context
-
-				solutions=queryContext.execute(graphContext)
-				solutions.filter(:q => context["url"]).each do |solution|
-					context["label"]= solution.label
-				end
+				context["label"]=Webplatform::Application::EDUCATIONALCONTEXT[context["url"]]["label"]
+				# solutions=queryContext.execute(Webplatform::Application::GRAPHCONTEXT)
+				# solutions.filter(:q => context["url"]).each do |solution|
+				# 	context["label"]= solution.label
+				# end
 
 				# context["label"]=getContextName(context["url"])
 				part["context"] << context
@@ -649,7 +649,7 @@ class WelcomeController < ApplicationController
 
 		graph = RDF::Graph.load(@serviceSelected.path, :format => :ttl)
 
-		graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+		# graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
 		queryUSDL4EDULanguage = RDF::Query.new({
 		  :q => {
 		    RDF.type => USDL4EDU.Language,
@@ -679,28 +679,28 @@ class WelcomeController < ApplicationController
 		  }
 		})
 
-		cognitiveDimension=Hash.new
-		solutions=queryUSDL4EDCogn.execute(graphUSDL4EDU)
-		solutions.each do |s|
-			c=Hash.new
-			c["label"]=s.label.to_s
-			c["description"]=s.description.to_s
-			c["value"]=s.value.to_i
-			cognitiveDimension[s.q]=c
-		end
-		knowledgeDimension=Hash.new
-		solutions=queryUSDL4EDKnow.execute(graphUSDL4EDU)
-		solutions.each do |s|
-			c=Hash.new
-			c["label"]=s.label.to_s
-			c["description"]=s.description.to_s
-			c["value"]=s.value.to_i
-			knowledgeDimension[s.q]=c
-		end
+		# cognitiveDimension=Hash.new
+		# solutions=queryUSDL4EDCogn.execute(Webplatform::Application::GRAPHUSDL4EDU)
+		# solutions.each do |s|
+		# 	c=Hash.new
+		# 	c["label"]=s.label.to_s
+		# 	c["description"]=s.description.to_s
+		# 	c["value"]=s.value.to_i
+		# 	cognitiveDimension[s.q]=c
+		# end
+		# knowledgeDimension=Hash.new
+		# solutions=queryUSDL4EDKnow.execute(Webplatform::Application::GRAPHUSDL4EDU)
+		# solutions.each do |s|
+		# 	c=Hash.new
+		# 	c["label"]=s.label.to_s
+		# 	c["description"]=s.description.to_s
+		# 	c["value"]=s.value.to_i
+		# 	knowledgeDimension[s.q]=c
+		# end
 
 
 
-		graphContext = RDF::Graph.load("public/services/context.ttl", :format => :ttl)
+		# graphContext = RDF::Graph.load("public/services/context.ttl", :format => :ttl)
 		queryContext = RDF::Query.new({
 		  :q => {
 		    RDF.type => SKOS.Concept,
@@ -830,13 +830,13 @@ class WelcomeController < ApplicationController
 			@unit["ects"]=solutionUnit.ects
 			@unit["semester"]=solutionUnit.semester
 
-			solutions=queryUSDL4EDUDelivery.execute(graphUSDL4EDU)
+			solutions=queryUSDL4EDUDelivery.execute(Webplatform::Application::GRAPHUSDL4EDU)
 			solutions.filter(:q => solutionUnit.delivery).each do |solution|
 				@unit["delivery"]=solution.label
 			end
 			
 
-			solutions=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
+			solutions=queryUSDL4EDULanguage.execute(Webplatform::Application::GRAPHUSDL4EDU)
 			solutions.filter(:q => solutionUnit.language).each do |solution|
 				@unit["language"]=solution.label
 			end
@@ -876,10 +876,10 @@ class WelcomeController < ApplicationController
 				@unit["obj"]["description"]=solution.description.to_s
 			end
 			solutionsOBCogn.filter(:q => @unit["obj"]["url"]).each do |solution|
-				@unit["obj"]["cogn"]=cognitiveDimension[solution.cogn]
+				@unit["obj"]["cogn"]=Webplatform::Application::COGNITIVEDIMENSION[solution.cogn]
 			end
 			solutionsOBKnow.filter(:q => @unit["obj"]["url"]).each do |solution|
-				@unit["obj"]["know"]=knowledgeDimension[solution.know]
+				@unit["obj"]["know"]=Webplatform::Application::KNOWLEDGEDIMENSION[solution.know]
 			end
 			@unit["obj"]["parts"]=[]
 			solutionsOBParts.filter(:q => @unit["obj"]["url"]).each do |solution|
@@ -894,20 +894,21 @@ class WelcomeController < ApplicationController
 					part["description"]=solution.description.to_s
 				end
 				solutionsObjectiveCogn.filter(:q => part["url"]).each do |solution|
-					part["cogn"]=cognitiveDimension[solution.cogn]
+					part["cogn"]=Webplatform::Application::COGNITIVEDIMENSION[solution.cogn]
 				end
 				solutionsObjectiveKnow.filter(:q => part["url"]).each do |solution|
-					part["know"]=knowledgeDimension[solution.know]
+					part["know"]=Webplatform::Application::KNOWLEDGEDIMENSION[solution.know]
 				end
 				solutionsObjectiveContext.filter(:q => part["url"]).each do |solution|
 					context=Hash.new
 					context["url"]=solution.context
 					# context["label"]=solution.context
 
-					solutions=queryContext.execute(graphContext)
-					solutions.filter(:q => context["url"]).each do |solution|
-						context["label"]= solution.label
-					end
+					# solutions=queryContext.execute(Webplatform::Application::GRAPHCONTEXT)
+					# solutions.filter(:q => context["url"]).each do |solution|
+					# 	context["label"]= solution.label
+					# end
+					context["label"]=Webplatform::Application::EDUCATIONALCONTEXT[context["url"]]["label"]
 
 					# context["label"]=getContextName(context["url"])
 					part["context"] << context
@@ -1008,12 +1009,11 @@ class WelcomeController < ApplicationController
 	end
 
 	def infocourse()
-
 		@serviceSelected=Service.find(params[:id])
 
 		graph = RDF::Graph.load(@serviceSelected.path, :format => :ttl)
 
-		graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+		# graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
 		queryUSDL4EDULanguage = RDF::Query.new({
 		  :q => {
 		    RDF.type => USDL4EDU.Language,
@@ -1049,24 +1049,24 @@ class WelcomeController < ApplicationController
 		    USDL4EDU.hasValue => :value
 		  }
 		})
-		cognitiveDimension=Hash.new
-		solutions=queryUSDL4EDCogn.execute(graphUSDL4EDU)
-		solutions.each do |s|
-			c=Hash.new
-			c["label"]=s.label.to_s
-			c["description"]=s.description.to_s
-			c["value"]=s.value.to_i
-			cognitiveDimension[s.q]=c
-		end
-		knowledgeDimension=Hash.new
-		solutions=queryUSDL4EDKnow.execute(graphUSDL4EDU)
-		solutions.each do |s|
-			c=Hash.new
-			c["label"]=s.label.to_s
-			c["description"]=s.description.to_s
-			c["value"]=s.value.to_i
-			knowledgeDimension[s.q]=c
-		end
+		# cognitiveDimension=Hash.new
+		# solutions=queryUSDL4EDCogn.execute(Webplatform::Application::GRAPHUSDL4EDU)
+		# solutions.each do |s|
+		# 	c=Hash.new
+		# 	c["label"]=s.label.to_s
+		# 	c["description"]=s.description.to_s
+		# 	c["value"]=s.value.to_i
+		# 	cognitiveDimension[s.q]=c
+		# end
+		# knowledgeDimension=Hash.new
+		# solutions=queryUSDL4EDKnow.execute(Webplatform::Application::GRAPHUSDL4EDU)
+		# solutions.each do |s|
+		# 	c=Hash.new
+		# 	c["label"]=s.label.to_s
+		# 	c["description"]=s.description.to_s
+		# 	c["value"]=s.value.to_i
+		# 	knowledgeDimension[s.q]=c
+		# end
 
 
 
@@ -1136,12 +1136,12 @@ class WelcomeController < ApplicationController
 		solutionsDegree.filter(:q => itemDegree).each do |solution|
 			@unit["description"]=solution.description.to_s		
 
-			solutions=queryUSDL4EDULanguage.execute(graphUSDL4EDU)
+			solutions=queryUSDL4EDULanguage.execute(Webplatform::Application::GRAPHUSDL4EDU)
 			solutions.filter(:q => solution.language).each do |solutionl|
 				@unit["language"] << solutionl.label.to_s
 			end
 
-			solutions=queryUSDL4EDUCycle.execute(graphUSDL4EDU)
+			solutions=queryUSDL4EDUCycle.execute(Webplatform::Application::GRAPHUSDL4EDU)
 			solutions.filter(:q => solution.cycleX).each do |solutionl|
 				cycle=Hash.new
 				cycle["label"]=solutionl.label.to_s
@@ -1180,13 +1180,13 @@ class WelcomeController < ApplicationController
 				u["title"]=solutionUnit.title.to_s
 				u["cogn"]=0
 				solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
-					u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
+					u["cogn"]=Webplatform::Application::COGNITIVEDIMENSION[solutionOB.cogn]["value"]
 					countCogn+=1
 					sumCogn+=u["cogn"]
 				end
 				u["know"]=0
 				solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
-					u["know"]=knowledgeDimension[solutionOB.know]["value"]
+					u["know"]=Webplatform::Application::KNOWLEDGEDIMENSION[solutionOB.know]["value"]
 					countKnow+=1
 					sumKnow+=u["know"]
 				end
@@ -1205,7 +1205,7 @@ class WelcomeController < ApplicationController
 		@selectedTable2=@selectedTable
 		if params[:sort]
 			if params[:sort]=="title"
-				@selectedTable2=@selectedTable.sort_by{|hsh| hsh["title"]}
+				sselectedTable2=@selectedTable.sort_by{|hsh| hsh["title"]}
 			else
 				@selectedTable2=@selectedTable.sort_by{|hsh| [hsh["cogn"],-hsh["know"]]}
 				@selectedTable2=@selectedTable2.sort_by{|hsh| [hsh["cogn"]==params[:sort].to_i ? 0 : 1, [hsh["cogn"],-hsh["know"]]]}
@@ -1406,7 +1406,7 @@ class WelcomeController < ApplicationController
 		@organizations=Service.select(:organization).map(&:organization).uniq
 
 
-		graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+		# graphUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
 		queryUSDL4EDCogn = RDF::Query.new({
 		  :q => {
 		    RDF.type => USDL4EDU.CognitiveDimension,
@@ -1423,24 +1423,24 @@ class WelcomeController < ApplicationController
 		    USDL4EDU.hasValue => :value
 		  }
 		})
-		cognitiveDimension=Hash.new
-		solutions=queryUSDL4EDCogn.execute(graphUSDL4EDU)
-		solutions.each do |s|
-			c=Hash.new
-			c["label"]=s.label.to_s
-			c["description"]=s.description.to_s
-			c["value"]=s.value.to_i
-			cognitiveDimension[s.q]=c
-		end
-		knowledgeDimension=Hash.new
-		solutions=queryUSDL4EDKnow.execute(graphUSDL4EDU)
-		solutions.each do |s|
-			c=Hash.new
-			c["label"]=s.label.to_s
-			c["description"]=s.description.to_s
-			c["value"]=s.value.to_i
-			knowledgeDimension[s.q]=c
-		end
+		# cognitiveDimension=Hash.new
+		# solutions=queryUSDL4EDCogn.execute(Webplatform::Application::GRAPHUSDL4EDU)
+		# solutions.each do |s|
+		# 	c=Hash.new
+		# 	c["label"]=s.label.to_s
+		# 	c["description"]=s.description.to_s
+		# 	c["value"]=s.value.to_i
+		# 	cognitiveDimension[s.q]=c
+		# end
+		# knowledgeDimension=Hash.new
+		# solutions=queryUSDL4EDKnow.execute(Webplatform::Application::GRAPHUSDL4EDU)
+		# solutions.each do |s|
+		# 	c=Hash.new
+		# 	c["label"]=s.label.to_s
+		# 	c["description"]=s.description.to_s
+		# 	c["value"]=s.value.to_i
+		# 	knowledgeDimension[s.q]=c
+		# end
 
 
 
@@ -1555,7 +1555,7 @@ class WelcomeController < ApplicationController
 						u["title"]=solutionUnit.title.to_s
 						u["cogn"]=0
 						solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
-							u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
+							u["cogn"]=Webplatform::Application::COGNITIVEDIMENSION[solutionOB.cogn]["value"]
 							countCogn+=1
 							cC+=1
 							sC+=u["cogn"]
@@ -1563,7 +1563,7 @@ class WelcomeController < ApplicationController
 						end
 						u["know"]=0
 						solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
-							u["know"]=knowledgeDimension[solutionOB.know]["value"]
+							u["know"]=Webplatform::Application::KNOWLEDGEDIMENSION[solutionOB.know]["value"]
 							countKnow+=1
 							cK+=1
 							sK+=u["know"]
@@ -1602,7 +1602,7 @@ class WelcomeController < ApplicationController
 						u["title"]=solutionUnit.title.to_s
 						u["cogn"]=0
 						solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
-							u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
+							u["cogn"]=Webplatform::Application::COGNITIVEDIMENSION[solutionOB.cogn]["value"]
 							countCogn+=1
 							sumCogn+=u["cogn"]
 							cC+=1
@@ -1610,7 +1610,7 @@ class WelcomeController < ApplicationController
 						end
 						u["know"]=0
 						solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
-							u["know"]=knowledgeDimension[solutionOB.know]["value"]
+							u["know"]=Webplatform::Application::KNOWLEDGEDIMENSION[solutionOB.know]["value"]
 							countKnow+=1
 							sumKnow+=u["know"]
 							cK+=1
@@ -1644,13 +1644,13 @@ class WelcomeController < ApplicationController
 				selected["title"]=u["title"]
 				u["cogn"]=0
 				solutionsOBCogn.filter(:q => solutionUnit.obj).each do |solutionOB|
-					u["cogn"]=cognitiveDimension[solutionOB.cogn]["value"]
+					u["cogn"]=Webplatform::Application::COGNITIVEDIMENSION[solutionOB.cogn]["value"]
 					countCogn+=1
 					sumCogn+=u["cogn"]
 				end
 				u["know"]=0
 				solutionsOBKnow.filter(:q => solutionUnit.obj).each do |solutionOB|
-					u["know"]=knowledgeDimension[solutionOB.know]["value"]
+					u["know"]=Webplatform::Application::KNOWLEDGEDIMENSION[solutionOB.know]["value"]
 					countKnow+=1
 					sumKnow+=u["know"]
 				end

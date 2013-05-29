@@ -45,5 +45,66 @@ module Webplatform
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
+    NS="http://rdf.genssiz.dei.uc.pt/usdl4edu#"
+    DC=RDF::Vocabulary.new "http://purl.org/dc/terms/"
+    SKOS=RDF::Vocabulary.new "http://www.w3.org/2004/02/skos/core#"
+    FOAF=RDF::Vocabulary.new "http://xmlns.com/foaf/spec/"
+    RDFS=RDF::Vocabulary.new "http://www.w3.org/2000/01/rdf-schema#"
+    USDL4EDU = RDF::Vocabulary.new NS
+
+    GRAPHCONTEXT = RDF::Graph.load("public/services/context.ttl", :format => :ttl)
+    GRAPHUSDL4EDU = RDF::Graph.load("public/services/usdl4edu.ttl", :format => :ttl)
+
+
+
+    queryUSDL4EDCogn = RDF::Query.new({
+      :q => {
+        RDF.type => USDL4EDU.CognitiveDimension,
+        RDFS.label => :label,
+        DC.description => :description,
+        USDL4EDU.hasValue => :value
+      }
+    })
+    queryUSDL4EDKnow = RDF::Query.new({
+      :q => {
+        RDF.type => USDL4EDU.KnowledgeDimension,
+        RDFS.label => :label,
+        DC.description => :description,
+        USDL4EDU.hasValue => :value
+      }
+    })
+    COGNITIVEDIMENSION=Hash.new
+    solutions=queryUSDL4EDCogn.execute(GRAPHUSDL4EDU)
+    solutions.each do |s|
+        c=Hash.new
+        c["label"]=s.label.to_s
+        c["description"]=s.description.to_s
+        c["value"]=s.value.to_i
+        COGNITIVEDIMENSION[s.q]=c
+    end
+    KNOWLEDGEDIMENSION=Hash.new
+    solutions=queryUSDL4EDKnow.execute(GRAPHUSDL4EDU)
+    solutions.each do |s|
+        c=Hash.new
+        c["label"]=s.label.to_s
+        c["description"]=s.description.to_s
+        c["value"]=s.value.to_i
+        KNOWLEDGEDIMENSION[s.q]=c
+    end
+
+    EDUCATIONALCONTEXT=Hash.new
+    queryContext = RDF::Query.new({
+      :q => {
+        RDF.type => SKOS.Concept,
+        SKOS.prefLabel => :label
+      }
+    })
+    queryContext.execute(GRAPHCONTEXT).each do |s|
+        c=Hash.new
+        c["label"]=s.label.to_s
+        c["url"]=s.q
+        EDUCATIONALCONTEXT[s.q]=c
+    end
+
   end
 end
