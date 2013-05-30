@@ -20,14 +20,12 @@ ActiveRecord::Schema.define(:version => 20130529152341) do
     t.datetime "updated_at"
   end
 
-  create_table "servicehascontexts", :force => true do |t|
-    t.integer  "service_id"
-    t.integer  "educationalcontexts_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "servicehascontexts", :id => false, :force => true do |t|
+    t.integer "service_id"
+    t.integer "educationalcontext_id"
   end
 
-  add_index "servicehascontexts", ["service_id", "educationalcontexts_id"], :name => "index_servicehascontexts"
+  add_index "servicehascontexts", ["service_id", "educationalcontext_id"], :name => "index_servicehascontexts"
 
   create_table "services", :force => true do |t|
     t.string   "title"
@@ -43,14 +41,12 @@ ActiveRecord::Schema.define(:version => 20130529152341) do
     t.datetime "updated_at"
   end
 
-  create_table "unithascontexts", :force => true do |t|
-    t.integer  "unit_id"
-    t.integer  "educationalcontexts_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+  create_table "unithascontexts", :id => false, :force => true do |t|
+    t.integer "unit_id"
+    t.integer "educationalcontext_id"
   end
 
-  add_index "unithascontexts", ["unit_id", "educationalcontexts_id"], :name => "index_unithascontexts"
+  add_index "unithascontexts", ["unit_id", "educationalcontext_id"], :name => "index_unithascontexts"
 
   create_table "units", :force => true do |t|
     t.string   "title"

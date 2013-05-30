@@ -170,7 +170,12 @@ class WelcomeController < ApplicationController
 							solutionOBPart.filter(:q => s2.obj).each do |solutionP|
 								solutionContext=queryObjectiveContext.execute(graph)
 								solutionContext.filter(:q=>solutionP.part).each do |solutionC|
-									unit.educationalcontexts << Educationalcontext.find_by_url(solutionC.q.to_s)
+									edu=Educationalcontext.find_by_url(solutionC.context.to_s)
+									if edu
+										if not unit.educationalcontexts.include?(edu)
+											unit.educationalcontexts << edu
+										end
+									end
 								end
 							end
 
@@ -225,7 +230,12 @@ class WelcomeController < ApplicationController
 						solutionOBPart.filter(:q => s2.obj).each do |solutionP|
 							solutionContext=queryObjectiveContext.execute(graph)
 							solutionContext.filter(:q=>solutionP.part).each do |solutionC|
-								service.educationalcontexts << Educationalcontext.find_by_url(solutionC.q.to_s)
+								edu=Educationalcontext.find_by_url(solutionC.context.to_s)
+								if edu
+									if not service.educationalcontexts.include?(edu)
+										service.educationalcontexts << edu
+									end
+								end
 							end
 						end
 						service.cogn=cogn
