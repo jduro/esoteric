@@ -577,9 +577,9 @@ class WelcomeController < ApplicationController
 			end
 			solutionsObjectiveContext.filter(:q => part["url"]).each do |solution|
 				context=Hash.new
-				context["url"]=solution.context
+				context["url"]=solution.context.to_s
 				# context["label"]=solution.context
-				context["label"]=Webplatform::Application::EDUCATIONALCONTEXT[context["url"]]["label"]
+				context["label"]=Educationalcontext.find_by_url(context["url"]).title
 				# solutions=queryContext.execute(Webplatform::Application::GRAPHCONTEXT)
 				# solutions.filter(:q => context["url"]).each do |solution|
 				# 	context["label"]= solution.label
@@ -952,14 +952,14 @@ class WelcomeController < ApplicationController
 				end
 				solutionsObjectiveContext.filter(:q => part["url"]).each do |solution|
 					context=Hash.new
-					context["url"]=solution.context
+					context["url"]=solution.context.to_s
 					# context["label"]=solution.context
 
 					# solutions=queryContext.execute(Webplatform::Application::GRAPHCONTEXT)
 					# solutions.filter(:q => context["url"]).each do |solution|
 					# 	context["label"]= solution.label
 					# end
-					context["label"]=Webplatform::Application::EDUCATIONALCONTEXT[context["url"]]["label"]
+					context["label"]=Educationalcontext.find_by_url(context["url"]).title
 
 					# context["label"]=getContextName(context["url"])
 					part["context"] << context
@@ -1401,6 +1401,26 @@ class WelcomeController < ApplicationController
 			)
 	  	end
 
+	  	@context=ActiveSupport::OrderedHash.new
+		Service.find(params[:id]).units.each do |u|
+			u.educationalcontexts.each do |c|
+				if not @context.has_key?(c.url)
+					aux=Hash.new
+					aux["label"]=c.title
+					aux["n"]=1
+					aux["units"]=u.title
+					@context[c.url]=aux
+				else
+					@context[c.url]["n"]+=1
+					@context[c.url]["units"]+="\n"+u.title
+				end
+			end
+		end
+		@final=Hash.new
+		sorted = @context.sorted_hash{ |a, b| -a[1]["n"] <=> -b[1]["n"] }
+
+		sorted.keys[0..10].each { |key| @final[key]=sorted[key] }
+
 
 
 
@@ -1821,4 +1841,10 @@ class WelcomeController < ApplicationController
 
 
 	end
+end
+
+class Hash
+  def sorted_hash(&block)
+    self.class[sort(&block)]   # Hash[ [[key1, value1], [key2, value2]] ]
+  end
 end
