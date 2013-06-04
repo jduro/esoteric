@@ -246,6 +246,7 @@ class WelcomeController < ApplicationController
 						end
 					end
 					service.path=path
+					puts "Service "+service.title+" has been save\n"
 					service.save
 				end
 				if check==false
@@ -618,7 +619,7 @@ class WelcomeController < ApplicationController
 				if contexts.include?edu
 					count+=1
 					if not aux["tooltip"].include? edu.title
-						aux["tooltip"]+="- "+edu.title
+						aux["tooltip"]+=edu.title+"<br>"
 					end
 				end
 			end

@@ -133,8 +133,18 @@
 <%if @sameContext.size>0%>
 	<div class="well">
 		<strong>Services that share educational contexts with <%=@serviceSelected.title%> </strong>
+		
 		<% @sameContext.each do |s|%>
-			<%= link_to s["s"].title, "/service/#{s["s"].id}", :class => "btn btn-small", :rel => 'tooltip', :title => 'Press for more info'%> <%= s["tooltip"]%>
+			<div class="row-fluid">
+				<%= link_to s["s"].title, "/service/#{s["s"].id}", :class => "btn btn-small", :rel => 'tooltip', :title => 'Press for more info'%> 
+			</div>
+			<div class="row-fluid">
+				<div class="span7 offset2">
+					<% s["tooltip"].split("<br>").each do |s|%>
+						<span class="label"><%= s%></span><br>
+					<%end%>
+				</div>
+			</div>
 		<%end%>
 		
 	</div>
