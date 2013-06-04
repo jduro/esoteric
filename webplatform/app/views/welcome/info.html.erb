@@ -14,11 +14,6 @@
 	<%end%>
 </div>
 <div class="well">
-	<% @sameOB.each do |s|%>
-		<%=s%><br>
-	<%end%>
-</div>
-<div class="well">
 	<div style="clear:both;">
 		<p style="float: left;"><strong>Language:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["language"]%></p>
 		<p style="float: right;"><strong>Delivery Mode:&nbsp;&nbsp;&nbsp;&nbsp;</strong> <%=@unit["delivery"]%> </p>
@@ -135,3 +130,21 @@
 </div>
 </div>
 </div>
+<%if @sameContext.size>0%>
+	<div class="well">
+		<strong>Services that share educational contexts with <%=@serviceSelected.title%> </strong>
+		<% @sameContext.each do |s|%>
+			<%= link_to s["s"].title, "/service/#{s["s"].id}", :class => "btn btn-small", :rel => 'tooltip', :title => 'Press for more info'%> <%= s["tooltip"]%>
+		<%end%>
+		
+	</div>
+<%end%>
+<%if @sameOB.size>0%>
+	<div class="well">
+		<strong>The following services have a similar classification of Learning Objectives:</strong><br><br>
+		<% @sameOB.each do |s|%>
+			<%= link_to s.title, "/service/#{s.id}", :class => "btn btn-small", :rel => 'tooltip', :title => 'Press for more info'%>
+		<%end%>
+		
+	</div>
+<%end%>

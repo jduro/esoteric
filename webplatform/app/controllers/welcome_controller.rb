@@ -556,6 +556,7 @@ class WelcomeController < ApplicationController
 		# 	end
 
 		# end
+		contextSelected=[]
 
 		@unit["obj"]["parts"]=[]
 		solutionsOBParts.filter(:q => @unit["obj"]["url"]).each do |solution|
@@ -587,12 +588,46 @@ class WelcomeController < ApplicationController
 
 				# context["label"]=getContextName(context["url"])
 				part["context"] << context
+
 			end
 			solutionsObjective=queryObjective.execute(graph)
 			solutionsObjectiveKnow=queryObjectiveKnow.execute(graph)
 			solutionsObjectiveCogn=queryObjectiveCogn.execute(graph)
 			solutionsObjectiveContext=queryObjectiveContext.execute(graph)
 		end
+
+
+		@sameOB=[]
+		if @unit["obj"]["cogn"]
+			@sameOB=Service.where(:cogn => @unit["obj"]["cogn"]["value"])
+		end
+		
+		if @unit["obj"]["know"]
+			@sameOB=@sameOB.where(:know => [@unit["obj"]["know"]["value"],0])
+		end
+		@sameContext=[]
+		@sameOB.delete_if{|x| x == @serviceSelected}
+		contexts=@serviceSelected.educationalcontexts
+		
+		Service.all.each do |s|
+			aux=Hash.new
+			aux["s"]=s
+			aux["tooltip"]=""
+			count=0
+			s.educationalcontexts.each do |edu|
+				if contexts.include?edu
+					count+=1
+					if not aux["tooltip"].include? edu.title
+						aux["tooltip"]+="- "+edu.title
+					end
+				end
+			end
+			if count>0 and s!=@serviceSelected
+				aux["n"]=count
+				@sameContext<<aux
+			end
+		end
+
 		@graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
 			f.options[:plotOptions]={
 				:line => {:lineWidth => 0}
@@ -1585,6 +1620,8 @@ class WelcomeController < ApplicationController
 		@avgCogn=0
 		@avgKnow=0
 
+		@context=ActiveSupport::OrderedHash.new
+
 		
 		@selectedTable=[]
 
@@ -1594,9 +1631,25 @@ class WelcomeController < ApplicationController
 			solutionsOBCogn=queryOBCogn.execute(graph)
 			solutionsOBKnow=queryOBKnow.execute(graph)
 
+
 			selected=Hash.new
 
 			if s.isCourse
+
+				s.units.each do |u|
+					u.educationalcontexts.each do |c|
+						if not @context.has_key?(c.url)
+							aux=Hash.new
+							aux["label"]=c.title
+							aux["n"]=1
+							aux["units"]=s.title+" ("+u.title+")"
+							@context[c.url]=aux
+						else
+							@context[c.url]["n"]+=1
+							@context[c.url]["units"]+="\n"+s.title+" ("+u.title+")"
+						end
+					end
+				end
 
 				solutionsService=queryService.execute(graph)
 				solutionsDegree=queryDegree.execute(graph)
@@ -1654,6 +1707,20 @@ class WelcomeController < ApplicationController
 			else
 				solutionsService2=queryService2.execute(graph)
 
+
+				s.educationalcontexts.each do |c|
+					if not @context.has_key?(c.url)
+						aux=Hash.new
+						aux["label"]=c.title
+						aux["n"]=1
+						aux["units"]=u.title
+						@context[c.url]=aux
+					else
+						@context[c.url]["n"]+=1
+						@context[c.url]["units"]+="\n"+u.title
+					end
+				end
+
 				unit = Hash.new
 				unit["unit"]=[]
 				u=Hash.new
@@ -1703,6 +1770,21 @@ class WelcomeController < ApplicationController
 		@unitsSelected.each do |s|
 			selected=Hash.new
 
+
+			s.educationalcontexts.each do |c|
+				if not @context.has_key?(c.url)
+					aux=Hash.new
+					aux["label"]=c.title
+					aux["n"]=1
+					aux["units"]=u.title
+					@context[c.url]=aux
+				else
+					@context[c.url]["n"]+=1
+					@context[c.url]["units"]+="\n"+u.title
+				end
+			end
+
+
 			service=s.service
 			graph = RDF::Graph.load(service.path, :format => :ttl)
 			solutionsUnitOB=queryUnitOB.execute(graph)
@@ -1735,6 +1817,15 @@ class WelcomeController < ApplicationController
 			solutionsOBKnow=queryOBKnow.execute(graph)
 
 		end
+
+
+		@final=Hash.new
+		sorted = @context.sorted_hash{ |a, b| -a[1]["n"] <=> -b[1]["n"] }
+
+		sorted.keys[0..10].each { |key| @final[key]=sorted[key] }
+
+
+
 		@selectedTable2=@selectedTable
 		if params[:sort]
 			if params[:sort]=="title"
