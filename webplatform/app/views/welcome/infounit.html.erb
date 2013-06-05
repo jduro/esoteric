@@ -94,7 +94,7 @@
 					None<br>
 				<%else%>
 					<%part["context"].each do |c|%>
-						<%=c["label"]%><br>
+						<span class="label label-info"><%=c["label"]%></span><br>
 					<%end%>
 				<%end%>
 				</p>
@@ -134,7 +134,7 @@
 					None<br>
 				<%else%>
 					<%part["context"].each do |c|%>
-						<%=c["label"]%><br>
+						<span class="label label-info"><%=c["label"]%></span><br>
 					<%end%>
 				<%end%>
 				</p>
@@ -150,3 +150,51 @@
 		<p style="margin-bottom:1px"><strong>Objective</strong></p><p>None</p>
 	</div>
 <% end %>
+
+<div class="well">
+	<p><strong>Similar services with <%=@unitDB.title%> </strong></p>
+	<br>
+	<%if @sameContext.size>0%>
+		<% @sameContext.each do |s|%>
+			<div class="row-fluid">
+				<% if s.instance_of?(Service)%>
+					<%= link_to s["s"].title, "/service/#{s["s"].id}", :class => "btn btn-service-similar", :rel => 'tooltip', :title => 'Press for more info'%> 
+				<% else %>
+					<%= link_to s["s"].title, "/unit/#{s["s"].id}", :class => "btn btn-service-similar", :rel => 'tooltip', :title => 'Press for more info'%> 
+				<% end %>
+			</div>
+			<div class="row-fluid">
+				<div class="span9">
+					<p style="margin-bottom:2px">Cognitive Dimension:&nbsp;&nbsp;<span <%=s["cogn"] ? "rel='tooltip' title='"+s["cogn"]["description"]+"'": "" %> class="btn-context-similar">
+						<%if s["cogn"] %>
+							<span class="label label-success"><%=s["cogn"]["label"]%></span><i class="icon-hand-up"></i>
+						<%else%>
+							None
+						<%end%>
+					</span></p>
+					<p style="margin-bottom:2px">Knowledge Dimension:&nbsp;&nbsp;<span <%=s["know"] ? "rel='tooltip' title='"+s["know"]["description"]+"'": "" %> class="btn-context-similar">
+						<%if s["know"] %>
+							<span class="label label-success"><%=s["know"]["label"]%></span><i class="icon-hand-up"></i>
+						<%else%>
+							None
+						<%end%>
+					</span></p>
+					<p >Skill Dimension:&nbsp;&nbsp;<span <%=s["skill"] ? "rel='tooltip' title='"+s["skill"]["description"]+"'": "" %> class="btn-context-similar">
+						<%if s["skill"] %>
+							<span class="label label-success"><%=s["skill"]["label"]%></span><i class="icon-hand-up"></i>
+						<%else%>
+							None
+						<%end%>
+					</span></p>
+					Educational Contexts:
+					<p><% s["tooltip"].split("<br>").each do |s|%>
+						<span class="label label-info btn-context-similar"><%= s%></span>
+					<%end%></p>
+				</div>
+			</div>
+		<%end%>
+	<%else%>
+		None found
+	<%end%>	
+</div>
+

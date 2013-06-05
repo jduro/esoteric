@@ -598,22 +598,33 @@ class WelcomeController < ApplicationController
 		end
 
 
-		@sameOB=[]
 		if @unit["obj"]["cogn"]
 			@sameOB=Service.where(:cogn => @unit["obj"]["cogn"]["value"])
+			@sameOBU=Unit.where(:cogn => @unit["obj"]["cogn"]["value"])
+		else
+			@sameOB=Service.where(:cogn => 0)
+			@sameOBU=Unit.where(:cogn => 0)
 		end
-		
+
 		if @unit["obj"]["know"]
-			@sameOB=@sameOB.where(:know => [@unit["obj"]["know"]["value"],0])
+			@sameOB=@sameOB.where(:know => [@unit["obj"]["know"]["value"]])
+			@sameOBU=@sameOBU.where(:know => [@unit["obj"]["know"]["value"]])
+		else
+			@sameOB=@sameOB.where(:know => 0)
+			@sameOBU=@sameOBU.where(:know => 0)
 		end
 		@sameContext=[]
 		@sameOB.delete_if{|x| x == @serviceSelected}
+
+		@sameOB=@sameOB+@sameOBU
 		contexts=@serviceSelected.educationalcontexts
 		
-		Service.all.each do |s|
+		@sameOB.each do |s|
 			aux=Hash.new
 			aux["s"]=s
 			aux["tooltip"]=""
+			aux["cogn"]=Webplatform::Application::COGNITIVEDIMENSION.values.select{|f| f["value"]==s.cogn}.first
+			aux["know"]=Webplatform::Application::KNOWLEDGEDIMENSION.values.select{|f| f["value"]==s.know}.first
 			count=0
 			s.educationalcontexts.each do |edu|
 				if contexts.include?edu
@@ -628,6 +639,9 @@ class WelcomeController < ApplicationController
 				@sameContext<<aux
 			end
 		end
+
+		@sameContext=@sameContext.sort_by { |hsh| -hsh["n"] }
+		@sameContext=@sameContext[0..10]
 
 		@graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
 			f.options[:plotOptions]={
@@ -1005,6 +1019,53 @@ class WelcomeController < ApplicationController
 				solutionsObjectiveCogn=queryObjectiveCogn.execute(graph)
 				solutionsObjectiveContext=queryObjectiveContext.execute(graph)
 			end
+
+			@sameOB=[]
+			if @unit["obj"]["cogn"]
+				@sameOB=Service.where(:cogn => @unit["obj"]["cogn"]["value"])
+				@sameOBU=Unit.where(:cogn => @unit["obj"]["cogn"]["value"])
+			else
+				@sameOB=Service.where(:cogn => 0)
+				@sameOBU=Unit.where(:cogn => 0)
+			end
+			
+			if @unit["obj"]["know"]
+				@sameOB=@sameOB.where(:know => [@unit["obj"]["know"]["value"]])
+				@sameOBU=@sameOBU.where(:know => [@unit["obj"]["know"]["value"]])
+			else
+				@sameOB=@sameOB.where(:know => 0)
+				@sameOBU=@sameOBU.where(:know => 0)
+			end
+			@sameContext=[]
+			@sameOBU.delete_if{|x| x == @unitDB}
+
+			@sameOB=@sameOB+@sameOBU
+			contexts=@unitDB.educationalcontexts
+			@sameOB.each do |s|
+				aux=Hash.new
+				aux["s"]=s
+				aux["tooltip"]=""
+				aux["cogn"]=Webplatform::Application::COGNITIVEDIMENSION.values.select{|f| f["value"]==s.cogn}.first
+				aux["know"]=Webplatform::Application::KNOWLEDGEDIMENSION.values.select{|f| f["value"]==s.know}.first
+				count=0
+				s.educationalcontexts.each do |edu|
+					if contexts.include?edu
+						count+=1
+						if not aux["tooltip"].include? edu.title
+							aux["tooltip"]+=edu.title+"<br>"
+						end
+					end
+				end
+
+				if count>0
+					puts "!!!!!!!!!!!!!!!!!!!!!\n"+s.title+"->"+count.to_s+"\n"
+					aux["n"]=count
+					@sameContext<<aux
+				end
+			end
+
+			@sameContext=@sameContext.sort_by { |hsh| -hsh["n"] }
+			@sameContext=@sameContext[0..10]
 
 			@graphOverall = LazyHighCharts::HighChart.new('graph') do |f|
 				f.options[:plotOptions]={
