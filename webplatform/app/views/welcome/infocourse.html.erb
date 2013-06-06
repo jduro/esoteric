@@ -115,6 +115,6 @@
 <div class="well">
 	<p><strong>Most common Educational Areas:</strong></p>
 	<%@final.each do |key,value|%>
-		<p data-toggle="tooltip" title="<%= value["units"]%>"><%=value["label"]%><i class="icon-hand-up"></i></p>
+		<p data-toggle="tooltip" title="<%= value["units"]%>"><span class="label label-info btn-context-similar"><%=value["label"]%></span><i class="icon-hand-up"></i></p>
 	<%end%>
 </div>

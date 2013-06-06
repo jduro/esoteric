@@ -1775,11 +1775,11 @@ class WelcomeController < ApplicationController
 						aux=Hash.new
 						aux["label"]=c.title
 						aux["n"]=1
-						aux["units"]=u.title
+						aux["units"]=s.title
 						@context[c.url]=aux
 					else
 						@context[c.url]["n"]+=1
-						@context[c.url]["units"]+="\n"+u.title
+						@context[c.url]["units"]+="\n"+s.title
 					end
 				end
 
@@ -1838,11 +1838,11 @@ class WelcomeController < ApplicationController
 					aux=Hash.new
 					aux["label"]=c.title
 					aux["n"]=1
-					aux["units"]=u.title
+					aux["units"]=s.title
 					@context[c.url]=aux
 				else
 					@context[c.url]["n"]+=1
-					@context[c.url]["units"]+="\n"+u.title
+					@context[c.url]["units"]+="\n"+s.title
 				end
 			end
 
