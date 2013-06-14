@@ -136,6 +136,7 @@
 	<br>
 	<%if @sameContext.size>0%>
 		<% @sameContext.each do |s|%>
+			<div class="well">
 			<div class="row-fluid">
 				<% if s.instance_of?(Service)%>
 					<%= link_to s["s"].title, "/service/#{s["s"].id}", :class => "btn btn-service-similar", :rel => 'tooltip', :title => 'Press for more info'%> 
@@ -171,6 +172,7 @@
 						<span class="label label-info btn-context-similar"><%= s%></span>
 					<%end%></p>
 				</div>
+			</div>
 			</div>
 		<%end%>
 	<%else%>
