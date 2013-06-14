@@ -59,24 +59,8 @@ class EdxSpider(CrawlSpider):
     name="edx"
     allowed_domains=["edx.org"]
     start_urls=["https://www.edx.org/courses"]
-    # rules = (
-    #     Rule(
-    #         SgmlLinkExtractor(
-    #             allow=('https://www.edx.org/courses/\w+'),
-    #         ),
-    #         callback='parse_item',
-    #         ),
-    #     )
 
     def parse(self, response):
-        print response.url
-        # links=SgmlLinkExtractor(
-        #         allow=('https://www.edx.org/courses/\w+'),
-        #     )
-        # print "TAMANHO:",len(links.extract_links(response))
-        # for link in links.extract_links(response):
-        #     request = Request(link.url,callback=self.parse_item)
-        #     request.meta['item']=item
         hxs = HtmlXPathSelector(response)
         for li in hxs.select("//ul/li"):
             request = Request("https://www.edx.org"+str(li.select("./article/a/@href").extract()[0]),callback=self.parse_item)
