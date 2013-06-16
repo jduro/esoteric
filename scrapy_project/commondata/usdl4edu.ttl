@@ -9,12 +9,28 @@
 @prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix teach:   <http://linkedscience.org/teach/ns#> .
 @prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+teach:Course
+      rdf:type rdfs:Class ;
+      rdfs:comment "Course is where students are supposed to learn something."^^xsd:string ;
+      rdfs:label "Course"^^xsd:string .
 
 gr:ProductOrService
       rdf:type rdfs:Class ;
       rdfs:comment "The superclass of all classes describing products or services types, either by nature or purpose. Examples for such subclasses are \"TV set\", \"vacuum cleaner\", etc. An instance of this class can be either an actual product or service (gr:Individual), a placeholder instance for unknown instances of a mass-produced commodity (gr:SomeItems), or a model / prototype specification (gr:ProductOrServiceModel). When in doubt, use gr:SomeItems."^^xsd:string ;
       rdfs:label "Product or service"^^xsd:string .
+
+ecs:Degree
+      rdf:type rdfs:Class ;
+      rdfs:comment "An educational award made by a university or other higher education institution."^^xsd:string ;
+      rdfs:label "Degree"^^xsd:string .
+
+ecs:Module
+      rdf:type rdfs:Class ;
+      rdfs:comment "A module of tuition on a degree programme."^^xsd:string ;
+      rdfs:label "Module"^^xsd:string .
 
 <http://rdf.genssiz.dei.uc.pt/usdl4edu>
       rdf:type owl:Ontology ;
@@ -76,7 +92,8 @@ gr:ProductOrService
 :CourseUnit
       rdf:type rdfs:Class ;
       rdfs:comment "This class will represent a course unit from the service or from a specific Degree"^^xsd:string ;
-      rdfs:label "Course Unit"^^xsd:string .
+      rdfs:label "Course Unit"^^xsd:string ;
+      rdfs:subClassOf teach:Course .
 
 :Degree
       rdf:type rdfs:Class ;
@@ -92,7 +109,8 @@ gr:ProductOrService
 :HighEducationCycle
       rdf:type rdfs:Class ;
       rdfs:comment "The European higher education area adopted a system based on three cycles of study, at bachelor, master and doctorate's level"^^xsd:string ;
-      rdfs:label "High Education Cycle"^^xsd:string .
+      rdfs:label "High Education Cycle"^^xsd:string ;
+      rdfs:subClassOf ecs:Degree .
 
 :HighEducationCycle_1st
       rdf:type :HighEducationCycle ;
@@ -324,7 +342,7 @@ gr:ProductOrService
       rdfs:comment "A prerequisite of a service could be (in a simpler way) just a Context (Area)"^^xsd:string ;
       rdfs:domain :OverallPrerequisite ;
       rdfs:label "has Prerequisite"^^xsd:string ;
-      rdfs:range skos:Concept .
+      rdfs:range skos:Concept , :EducationalService .
 
 :hasSemester
       rdf:type rdf:Property ;
