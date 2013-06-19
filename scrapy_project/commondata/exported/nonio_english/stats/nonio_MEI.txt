@@ -1,0 +1,12 @@
+Gonna send login
+https://inforestudante.uc.pt/nonio/security/init.do
+Number descriptions:  0
+Number found:  0
+Number context:  0
+Number without:  0
+Stats:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number descriptions:  0
+Number found:  0
+Number context:  0
+Number without:  0
+Stats:  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

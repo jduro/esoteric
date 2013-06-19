@@ -1,0 +1,330 @@
+How to Build a Startup
+TUDO:You'll learn the key steps of the Customer Development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger.
+Phrase:  You'll learn the key steps of the Customer Development process: how to identify and engage the first customers for your product, and how to gather, evaluate and use their feedback to make your product, marketing and business model far stronger
+Phrase:  
+verbo:use/use
+use their feedback to make your product, marketing and business model far stronger
+verbo:evaluate/evalu
+evaluate and use their feedback to make your product, marketing and business model far stronger
+verbo:identify/identifi
+
+3
+[1, 0, 1, 0, 1, 0]
+3
+[0, 0, 0, 0]
+----
+Design of Computer Programs
+TUDO:Move along the path towards becoming an expert programmer! In this class you will practice going from a problem description to a solution, using a series of assignments.
+Phrase:  Move along the path towards becoming an expert programmer! In this class you will practice going from a problem description to a solution, using a series of assignments
+Phrase:  
+verbo:use/use
+
+1
+[0, 0, 1, 0, 0, 0]
+3
+[0, 0, 0, 0]
+----
+Applied Cryptography
+TUDO:Explore how secrets are written and shared, as well as what can go wrong when cryptography is misused or implemented badly.
+Phrase:  Explore how secrets are written and shared, as well as what can go wrong when cryptography is misused or implemented badly
+Phrase:  
+Sem nada: explore how secrets are written and shared, as well as what can go wrong when cryptography is misused or implemented badly.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Introduction to Computer Science
+TUDO:At the end of this course, you will have learned key concepts in computer science and enough Python programming to be able to write programs to solve problems on your own. This course will prepare you to move on to more intermediate-level courses in CS.
+Phrase:  At the end of this course, you will have learned key concepts in computer science and enough Python programming to be able to write programs to solve problems on your own
+Phrase:   This course will prepare you to move on to more intermediate-level courses in CS
+Phrase:  
+verbo:write/write
+write programs to solve problems on your own
+verbo:solve/solv
+solve problems on your own
+verbo:compute/comput
+computer science and enough python programming to be able to write programs to solve problems on your own
+verbo:prepare/prepar
+prepare you to move on to more intermediate-level courses in cs
+4
+[0, 0, 3, 0, 0, 1]
+3
+[0, 0, 0, 0]
+----
+Functional Hardware Verification
+TUDO:This course will teach you how to think like a verification engineer.It will show the software development aspects you need to know to ensure chips are working as expected. You will learn how to implement verification environments.
+Phrase:  This course will teach you how to think like a verification engineer
+Phrase:  It will show the software development aspects you need to know to ensure chips are working as expected
+Phrase:   You will learn how to implement verification environments
+Phrase:  
+verbo:show/show
+show the software development aspects you need to know to ensure chips are working as expected
+verbo:know/know
+know to ensure chips are working as expected
+2
+[1, 0, 1, 0, 0, 0]
+2
+[0, 0, 0, 0]
+----
+Introduction to Parallel Programming
+TUDO:You'll master the fundamentals of massively parallel computing by using CUDA C/C++ to program modern GPUs. You'll learn the GPU programming model and architecture, key algorithms and parallel programming patterns, and optimization techniques. Your assignments will illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain. Most of all we hope you'll learn how to think in parallel.
+Phrase:  You'll master the fundamentals of massively parallel computing by using CUDA C/C++ to program modern GPUs
+Phrase:   You'll learn the GPU programming model and architecture, key algorithms and parallel programming patterns, and optimization techniques
+Phrase:   Your assignments will illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain
+Phrase:   Most of all we hope you'll learn how to think in parallel
+Phrase:  
+verbo:compute/comput
+computing by using cuda c/c++ to program modern gpus
+verbo:use/use
+
+verbo:translate/translat
+translate to any application domain
+verbo:illustrate/illustr
+illustrate these concepts through image processing applications, but this is a parallel computing course and what you learn will translate to any application domain
+4
+[0, 1, 2, 1, 0, 0]
+3
+[0, 0, 0, 0]
+----
+Introduction to Theoretical Computer Science
+TUDO:At the end of this course, you will have a solid understanding of theoretical computer science. This will not only allow you to recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice.
+Phrase:  At the end of this course, you will have a solid understanding of theoretical computer science
+Phrase:   This will not only allow you to recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice
+Phrase:  
+verbo:compute/comput
+computer science
+verbo:recognize/recogn
+recognize some of the most challenging algorithmic problems out there, but also give you powerful tools to deal with them in practice
+verbo:understand/understand
+understanding of theoretical computer science
+3
+[1, 1, 1, 0, 0, 0]
+2
+[0, 0, 0, 0]
+----
+Artificial Intelligence for Robotics
+TUDO:This course will cover probabilistic inference, planning and search, localization, tracking and control, all with a focus on robotics.
+Phrase:  This course will cover probabilistic inference, planning and search, localization, tracking and control, all with a focus on robotics
+Phrase:  
+verbo:plan/plan
+planning and search, localization, tracking and control, all with a focus on robotics
+KNOWLEDGE DIMENSION:  plan
+verbo:infer/infer
+inference, planning and search, localization, tracking and control, all with a focus on robotics
+verbo:infer/infer
+inference, planning and search, localization, tracking and control, all with a focus on robotics
+3
+[0, 1, 0, 1, 0, 1]
+4
+[0, 1, 0, 0]
+2
+----
+Introduction to Artificial Intelligence
+TUDO:This class introduces students to the basics of Artificial Intelligence, which includes machine learning, probabilistic reasoning, robotics, and natural language processing.
+Phrase:  This class introduces students to the basics of Artificial Intelligence, which includes machine learning, probabilistic reasoning, robotics, and natural language processing
+Phrase:  
+Sem nada: this class introduces students to the basics of artificial intelligence, which includes machine learning, probabilistic reasoning, robotics, and natural language processing.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Software Testing
+TUDO:This course will teach you how to think like a software tester, how to find bugs in code earlier, and write better code.
+Phrase:  This course will teach you how to think like a software tester, how to find bugs in code earlier, and write better code
+Phrase:  
+verbo:write/write
+write better code
+1
+[0, 0, 0, 0, 0, 1]
+6
+[0, 0, 0, 0]
+----
+Interactive 3D Graphics
+TUDO:By the end of this class you will know enough to make an animated 3D demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated.
+Phrase:  By the end of this class you will know enough to make an animated 3D demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated
+Phrase:  
+verbo:generate/gener
+generated
+verbo:compute/comput
+computer images are generated
+verbo:know/know
+know enough to make an animated 3d demo program that runs in a web browser, while also understanding the basic principles of how realistic computer images are generated
+verbo:understand/understand
+understanding the basic principles of how realistic computer images are generated
+verbo:generalize/gener
+generated
+5
+[1, 2, 1, 0, 0, 1]
+2
+[0, 0, 0, 0]
+----
+HTML5 Game Development
+TUDO:At the end of this course, you'll understand how to develop an HTML5 game. You will gain familiarity with HTML5 features such as 2D canvas and techniques for improving performance.
+Phrase:  At the end of this course, you'll understand how to develop an HTML5 game
+Phrase:   You will gain familiarity with HTML5 features such as 2D canvas and techniques for improving performance
+Phrase:  
+verbo:understand/understand
+understand how to develop an html5 game
+1
+[0, 1, 0, 0, 0, 0]
+2
+[0, 0, 0, 0]
+----
+Programming Languages
+TUDO:Take this class and learn how to build your own simple web browser complete with the ability to parse and understand HTML and JavaScript.
+Phrase:  Take this class and learn how to build your own simple web browser complete with the ability to parse and understand HTML and JavaScript
+Phrase:  
+verbo:understand/understand
+understand html and javascript
+1
+[0, 1, 0, 0, 0, 0]
+2
+[0, 0, 0, 0]
+----
+Differential Equations in Action
+TUDO:By the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences. You'll also learn how to build mathematical models for systems of differential equations. Along the way, you'll learn how to translate mathematical expressions into Python code, and solve some really cool problems!
+Phrase:  By the end of this course, you'll develop an intuition for the use of differential equations in the applied sciences
+Phrase:   You'll also learn how to build mathematical models for systems of differential equations
+Phrase:   Along the way, you'll learn how to translate mathematical expressions into Python code, and solve some really cool problems!
+verbo:solve/solv
+solve some really cool problems!
+verbo:apply/appli
+applied sciences
+verbo:use/use
+use of differential equations in the applied sciences
+verbo:translate/translat
+translate mathematical expressions into python code, and solve some really cool problems!
+verbo:differentiate/differenti
+differential equations in the applied sciences
+5
+[0, 1, 3, 1, 0, 0]
+3
+[0, 0, 0, 0]
+----
+Software Debugging
+TUDO:At the end of this course you will have a solid understanding about systematic debugging, will know how to automate debugging and will have built several functional debugging tools in Python.
+Phrase:  At the end of this course you will have a solid understanding about systematic debugging, will know how to automate debugging and will have built several functional debugging tools in Python
+Phrase:  
+verbo:know/know
+know how to automate debugging and will have built several functional debugging tools in python
+verbo:understand/understand
+understanding about systematic debugging, will know how to automate debugging and will have built several functional debugging tools in python
+2
+[1, 1, 0, 0, 0, 0]
+1
+[0, 0, 0, 0]
+----
+Web Development
+TUDO:In this project-based course your knowledge will be evaluated as you learn to build your own blog application! Learn everything Steve Huffman wished he would have known when he broke into the startup world. Read more about Huffman and the course 
+Phrase:  In this project-based course your knowledge will be evaluated as you learn to build your own blog application! Learn everything Steve Huffman wished he would have known when he broke into the startup world
+Phrase:   Read more about Huffman and the course 
+verbo:evaluate/evalu
+evaluated as you learn to build your own blog application! learn everything steve huffman wished he would have known when he broke into the startup world
+1
+[0, 0, 0, 0, 1, 0]
+5
+[0, 0, 0, 0]
+----
+Algorithms
+TUDO:By the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms.
+Phrase:  By the end of this class you will understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms
+Phrase:  
+verbo:devise/devis
+devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms
+verbo:evaluate/evalu
+evaluate the efficiency of these algorithms
+verbo:understand/understand
+understand key concepts needed to devise new algorithms for graphs and other important data structures and to evaluate the efficiency of these algorithms
+3
+[0, 1, 0, 0, 1, 1]
+4
+[0, 0, 0, 0]
+----
+Introduction to Programming
+TUDO:
+Phrase:  
+Sem nada: 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Introduction to Physics
+TUDO:This unique class gives you the chance to see the sites where physics history was made and learn some of the subject's most captivating concepts.
+Phrase:  This unique class gives you the chance to see the sites where physics history was made and learn some of the subject's most captivating concepts
+Phrase:  
+Sem nada: this unique class gives you the chance to see the sites where physics history was made and learn some of the subject's most captivating concepts.
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Introduction to Psychology
+TUDO:Students will be able to:
+Phrase:  Students will be able to:
+Sem nada: students will be able to:
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Introduction to Statistics
+TUDO:This course will cover visualization, probability, regression and other topics that will help you learn the basic methods of understanding data with statistics. 
+Phrase:  This course will cover visualization, probability, regression and other topics that will help you learn the basic methods of understanding data with statistics
+Phrase:   
+verbo:understand/understand
+understanding data with statistics
+1
+[0, 1, 0, 0, 0, 0]
+2
+[0, 0, 0, 0]
+----
+Introductory Algebra Review
+TUDO:At the end of this course students will have reviewed the core topics of introductory algebra. Students will be comfortable with the concepts and procedures of introductory algebra, and be able to apply their knowledge to other coursework and real-world problems.
+Phrase:  At the end of this course students will have reviewed the core topics of introductory algebra
+Phrase:   Students will be comfortable with the concepts and procedures of introductory algebra, and be able to apply their knowledge to other coursework and real-world problems
+Phrase:  
+verbo:apply/appli
+
+1
+[0, 0, 1, 0, 0, 0]
+3
+[0, 0, 0, 0]
+----
+Elementary Statistics
+TUDO:T; M; T; A; S; C; W; 
+Phrase:  T; M; T; A; S; C; W; 
+Sem nada: t; m; t; a; s; c; w; 
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Visualizing Algebra (Entry Level Mathematics)
+TUDO:Understand and develop the language, models, and tools for math reasoning.
+Phrase:  Understand and develop the language, models, and tools for math reasoning
+Phrase:  
+verbo:understand/understand
+understand and develop the language, models, and tools for math reasoning
+1
+[0, 1, 0, 0, 0, 0]
+2
+[0, 0, 0, 0]
+----
+College Algebra
+TUDO:In this course, you will learn...  
+Phrase:  In this course, you will learn
+Phrase:  
+Phrase:  
+Phrase:    
+Sem nada: in this course, you will learn...  
+0
+[0, 0, 0, 0, 0, 0]
+[0, 0, 0, 0]
+----
+Number descriptions:  25
+Number found:  42
+Number context:  71
+Number without:  7
+Stats:  [7, 8, 2, 4, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Number descriptions:  25
+Number found:  42
+Number context:  71
+Number without:  7
+Stats:  [7, 8, 2, 4, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
