@@ -1,8 +1,10 @@
 <div class="hero-unit" style="padding-top:20px;padding-bottom:20px;padding-left:40px;padding-right:40px;">
+	<%=link_to "Download Description", @serviceSelected.path[6..@serviceSelected.path.size], target: "_blank", class: "btn btn-success pull-right"%>
 	<h1><%=@serviceSelected.title%> 
 		<% if @unit["url"] %>
 			<%=link_to "Link", @unit["url"], target: "_blank", class: "btn btn-primary"%>
 		<% end %>
+
 	</h1>
 	<p><%=@unit["description"]%></p>
 	<% if @unit["teachers"].size>0 %>
