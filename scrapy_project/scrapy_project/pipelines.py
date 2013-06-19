@@ -169,6 +169,7 @@ class ScrapyProjectPipeline(object):
 
 
 			#Savin acronym to use in file name
+			self.acronym=""
 			if item["acronym"]:
 				self.acronym=item["acronym"]
 			else:
@@ -580,10 +581,11 @@ class ScrapyProjectPipeline(object):
 			print self.graph.serialize("commondata\exported\context.ttl",format='n3')
 		elif spider.name=="udacity":
 			# print "NOT SAVING"
-			print self.number_descriptions
-			print self.number_found
-			print self.number_context
-			print self.number_wihout
+			print "Number descriptions: ",self.number_descriptions
+			print "Number found: ",self.number_found
+			print "Number context: ",self.number_context
+			print "Number without: ",self.number_wihout
+			print "Stats: ",self.stats
 			self.graph.serialize("commondata\exported\udacity2.ttl",format='n3')
 		elif spider.name=="coursera":
 			# print "NOT SAVING"
@@ -608,7 +610,7 @@ class ScrapyProjectPipeline(object):
 			print "Number context: ",self.number_context
 			print "Number without: ",self.number_wihout
 			print "Stats: ",self.stats
-			self.graph.serialize("commondata\exported\\nonio_"+self.acronym+".ttl",format='n3')
+			self.graph.serialize("commondata\exported\\nonio_english\\nonio_"+self.acronym+".ttl",format='n3')
 			# self.graphPersons.serialize("commondata\exported\\nonio_persons.ttl",format='n3')
 		return
 
