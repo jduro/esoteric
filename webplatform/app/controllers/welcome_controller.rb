@@ -1461,7 +1461,7 @@ class WelcomeController < ApplicationController
 				:plotBorderWidth => 1,
 				:zoomType => 'xy'
 			}
-			f.options[:title][:text] = "Disposition of curricular units according to Bloom's Taxonomy"
+			f.options[:title][:text] = "Classification of curricular units according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
@@ -1955,7 +1955,7 @@ class WelcomeController < ApplicationController
 				:plotBorderWidth => 1,
 				:zoomType => 'xy'
 			}
-			f.options[:title][:text] = "Disposition of curricular units according to Bloom's Taxonomy"
+			f.options[:title][:text] = "Classification of curricular units according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
 				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],

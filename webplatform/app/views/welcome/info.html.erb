@@ -140,7 +140,7 @@
 		<% @sameContext.each do |s|%>
 			<div class="well">
 			<div class="row-fluid">
-				<% if s.instance_of?(Service)%>
+				<% if s["s"].instance_of?(Service)%>
 					<%= link_to s["s"].title, "/service/#{s["s"].id}", :class => "btn btn-service-similar", :rel => 'tooltip', :title => 'Press for more info'%> 
 				<% else %>
 					<%= link_to s["s"].title, "/unit/#{s["s"].id}", :class => "btn btn-service-similar", :rel => 'tooltip', :title => 'Press for more info'%> 
