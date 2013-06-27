@@ -654,7 +654,7 @@ class WelcomeController < ApplicationController
 			f.options[:title][:text] = "Average of Curricular objectives according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
-				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:categories => ["N/D", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
 				:tickPositions => [0,1,2,3,4,5,6],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
@@ -664,7 +664,7 @@ class WelcomeController < ApplicationController
 			}
 			f.options[:yAxis]={
 				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+				:categories => ["N/D", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
 				:tickPositions => [0,1,2,3,4],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
@@ -689,7 +689,7 @@ class WelcomeController < ApplicationController
 			f.options[:title][:text] = "Objectives Identified according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
-				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:categories => ["N/D", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
 				:tickPositions => [0,1,2,3,4,5,6],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
@@ -699,7 +699,7 @@ class WelcomeController < ApplicationController
 			}
 			f.options[:yAxis]={
 				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+				:categories => ["N/D", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
 				:tickPositions => [0,1,2,3,4],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
@@ -1078,7 +1078,7 @@ class WelcomeController < ApplicationController
 				f.options[:title][:text] = "Objectives trend according to Bloom's Taxonomy"
 				f.options[:xAxis]={
 					:title => {:text => "Cognitive Dimension"},
-					:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+					:categories => ["N/D", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
 					:tickPositions => [0,1,2,3,4,5,6],
 					:gridLineWidth => '1',
 					:lineWidth => 1,
@@ -1088,7 +1088,7 @@ class WelcomeController < ApplicationController
 				}
 				f.options[:yAxis]={
 					:title => {:text => "Knowledge Dimension"},
-					:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+					:categories => ["N/D", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
 					:tickPositions => [0,1,2,3,4],
 					:gridLineWidth => '1',
 					:lineWidth => 1,
@@ -1113,7 +1113,7 @@ class WelcomeController < ApplicationController
 				f.options[:title][:text] = "Objectives identified according to Bloom's Taxonomy"
 				f.options[:xAxis]={
 					:title => {:text => "Cognitive Dimension"},
-					:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+					:categories => ["N/D", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
 					:tickPositions => [0,1,2,3,4,5,6],
 					:gridLineWidth => '1',
 					:lineWidth => 1,
@@ -1123,7 +1123,7 @@ class WelcomeController < ApplicationController
 				}
 				f.options[:yAxis]={
 					:title => {:text => "Knowledge Dimension"},
-					:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+					:categories => ["N/D", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
 					:tickPositions => [0,1,2,3,4],
 					:gridLineWidth => '1',
 					:lineWidth => 1,
@@ -1371,7 +1371,7 @@ class WelcomeController < ApplicationController
 		# 	f.options[:title][:text] = "Avegare of Dregree according to Bloom's Taxonomy"
 		# 	f.options[:xAxis]={
 		# 		:title => {:text => "Cognitive Dimension"},
-		# 		:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+		# 		:categories => ["N/D", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
 		# 		:tickPositions => [0,1,2,3,4,5,6],
 		# 		:gridLineWidth => '1',
 		# 		:lineWidth => 1,
@@ -1381,7 +1381,7 @@ class WelcomeController < ApplicationController
 		# 	}
 		# 	f.options[:yAxis]={
 		# 		:title => {:text => "Knowledge Dimension"},
-		# 		:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+		# 		:categories => ["N/D", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
 		# 		:tickPositions => [0,1,2,3,4],
 		# 		:gridLineWidth => '1',
 		# 		:lineWidth => 1,
@@ -1412,7 +1412,7 @@ class WelcomeController < ApplicationController
 			f.options[:title][:text] = "Objectives of each curricular unit according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
-				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:categories => ["N/D", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
 				:tickPositions => [0,1,2,3,4,5,6],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
@@ -1422,7 +1422,7 @@ class WelcomeController < ApplicationController
 			}
 			f.options[:yAxis]={
 				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+				:categories => ["N/D", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
 				:tickPositions => [0,1,2,3,4],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
@@ -1464,7 +1464,7 @@ class WelcomeController < ApplicationController
 			f.options[:title][:text] = "Classification of curricular units according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
-				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:categories => ["N/D", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
 				:tickPositions => [0,1,2,3,4,5,6],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
@@ -1474,7 +1474,7 @@ class WelcomeController < ApplicationController
 			}
 			f.options[:yAxis]={
 				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive",""],
+				:categories => ["N/D", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive",""],
 				:tickPositions => [0,1,2,3,4,5],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
@@ -1880,7 +1880,7 @@ class WelcomeController < ApplicationController
 
 		end
 
-
+		@a[0][0]=0
 		@final=Hash.new
 		sorted = @context.sorted_hash{ |a, b| -a[1]["n"] <=> -b[1]["n"] }
 
@@ -1923,7 +1923,7 @@ class WelcomeController < ApplicationController
 		# 	f.options[:title][:text] = "Average of Curricular units according to Bloom's Taxonomy"
 		# 	f.options[:xAxis]={
 		# 		:title => {:text => "Cognitive Dimension"},
-		# 		:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+		# 		:categories => ["N/D", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
 		# 		:tickPositions => [0,1,2,3,4,5,6],
 		# 		:gridLineWidth => '1',
 		# 		:lineWidth => 1,
@@ -1933,7 +1933,7 @@ class WelcomeController < ApplicationController
 		# 	}
 		# 	f.options[:yAxis]={
 		# 		:title => {:text => "Knowledge Dimension"},
-		# 		:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
+		# 		:categories => ["N/D", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive"],
 		# 		:tickPositions => [0,1,2,3,4],
 		# 		:gridLineWidth => '1',
 		# 		:lineWidth => 1,
@@ -1958,7 +1958,7 @@ class WelcomeController < ApplicationController
 			f.options[:title][:text] = "Classification of curricular units according to Bloom's Taxonomy"
 			f.options[:xAxis]={
 				:title => {:text => "Cognitive Dimension"},
-				:categories => ["N/A", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
+				:categories => ["N/D", "Remember" ,"Understand" , "Apply" , "Analyze" , "Evaluate" , "Create"],
 				:tickPositions => [0,1,2,3,4,5,6],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
@@ -1968,7 +1968,7 @@ class WelcomeController < ApplicationController
 			}
 			f.options[:yAxis]={
 				:title => {:text => "Knowledge Dimension"},
-				:categories => ["N/A", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive",""],
+				:categories => ["N/D", "Factual" ,"Conceptual" , "Procedural" , "Meta-Cognitive",""],
 				:tickPositions => [0,1,2,3,4,5],
 				:gridLineWidth => '1',
 				:lineWidth => 1,
