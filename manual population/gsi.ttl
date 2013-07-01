@@ -1,0 +1,144 @@
+@base <http://rdf.genssiz.dei.uc.pt/usdl4edu/gsi> .
+@prefix : <http://rdf.genssiz.dei.uc.pt/usdl4edu/gsi#> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ecs: <http://rdf.ecs.soton.ac.uk/ontology/ecs#> .
+@prefix usdl4edu: <http://rdf.genssiz.dei.uc.pt/usdl4edu#> .
+
+
+usdl4edu:uc a foaf:Organization;
+	rdfs:label "University of Coimbra"^^xsd:string;
+	rdfs:comment ""^^xsd:string.
+
+usdl4edu:jcardoso a foaf:Person;
+	rdfs:label "Jorge Cardoso"^^xsd:string;
+	foaf:lastName "Cardoso"^^xsd:string;
+	foaf:firstName "Jorge"^^xsd:string;
+	foaf:workplaceHomepage "http://eden.dei.uc.pt/~jcardoso/";
+	rdfs:comment ""^^xsd:string.
+
+:service_gsi a usdl4edu:EducationalService;
+	rdfs:label "Information Systems Management Service"^^xsd:string;
+	rdf:comment "Service about Information Systems Management, a Curricular unit from Master's Degree in Computer Science from University of Coimbra";
+	usdl4edu:hasCourseUnit :unit_gsi;
+	usdl4edu:hasUniversity usdl4edu:uc.
+
+:unit_gsi a usdl4edu:CourseUnit;
+	rdfs:comment "Information Systems Management from Master's Degree in Computer Science from University of Coimbra"^^xsd:string;
+	rdfs:label "Information Systems Management"^^xsd:string;
+	usdl4edu:hasEcts "6"^^xsd:integer;
+	usdl4edu:semester "1"^^xsd:integer;
+	usdl4edu:title "Information Systems Management"^^xsd:string;
+	usdl4edu:hasWorkload "8"^^xsd:integer;
+	usdl4edu:hasTeacher usdl4edu:jcardoso;
+	usdl4edu:hasOverallObjective :overallobjectiveGSI;
+	usdl4edu:hasLanguage usdl4edu:LanguagePT;
+	usdl4edu:hasLanguage usdl4edu:LanguageEN;
+	usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres.
+
+:overallobjectiveGSI a usdl4edu:OverallObjective;
+	rdfs:comment "Nowadays, Information Systems (IS) play an important role to support strategic and operational objectives in organizations. In this context, their implementation and management are of capital importance. This course explains to students the main concepts, principles, and methodologies required to manage IS in organizations. It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as ITIL, COBIT and TOGAF."^^xsd:string;
+	rdfs:label "Objectives of Information Systems Management from UC"^^xsd:string;
+	usdl4edu:hasPartObjective :objectiveGSI1;
+	usdl4edu:hasPartObjective :objectiveGSI2;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceputal;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_2Basic.
+
+:objectiveGSI1 a usdl4edu:Objective;
+	rdfs:comment "Provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, and practical application of knowledge in areas such as workflows, business process management and standard management frameworks such as ITIL, COBIT and TOGAF"^^xsd:string;
+	rdfs:label "Curricular Objective"^^xsd:string;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_6Create;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceputal;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_2Basic;
+	usdl4edu:hasContext usdl4edu:contextITIL;
+	usdl4edu:hasContext usdl4edu:contextCOBIT;
+	usdl4edu:hasContext usdl4edu:contextTOGAF;
+	usdl4edu:hasContext usdl4edu:contextPetri;
+	usdl4edu:hasContext usdl4edu:contextBPM.
+
+:objectiveGSI2 a usdl4edu:Objective;
+	rdfs:comment "This course explains to students the main concepts, principles, and methodologies required to manage IS in organizations"^^xsd:string;
+	rdfs:label "Curricular Objective"^^xsd:string;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_3Procedural;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_2Basic;
+	usdl4edu:hasContext usdl4edu:contextIS.
+
+usdl4edu:contextIS a usdl4edu:Context;
+	rdfs:comment "Information Systems"^^xsd:string;
+	rdfs:label "IS"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextISA;
+	usdl4edu:hasSubContext usdl4edu:contextDMS.
+
+usdl4edu:contextISA a usdl4edu:Context;
+	rdfs:comment "Information Systems Applications"^^xsd:string;
+	rdfs:label "IS Applications"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextEIS.
+
+usdl4edu:contextEIS a usdl4edu:Context;
+	rdfs:comment "Enterprise Information Systems"^^xsd:string;
+	rdfs:label "Enterprise Information Systems"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextITIL;
+	usdl4edu:hasSubContext usdl4edu:contextCOBIT;
+	usdl4edu:hasSubContext usdl4edu:contextTOGAF.
+
+usdl4edu:contextITIL a usdl4edu:Context;
+	rdfs:comment "ITIL - Information Technology Infrastructure Library"^^xsd:string;
+	rdfs:label "ITIL"^^xsd:string.
+
+usdl4edu:contextCOBIT a usdl4edu:Context;
+	rdfs:comment "COBIT - Control Objectives for Information and Related Technology"^^xsd:string;
+	rdfs:label "COBIT"^^xsd:string.
+
+usdl4edu:contextTOGAF a usdl4edu:Context;
+	rdfs:comment "TOGAF - The Open Group Architecture Framework"^^xsd:string;
+	rdfs:label "TOGAF"^^xsd:string.
+
+
+
+usdl4edu:contextSE a usdl4edu:Context;
+	rdfs:comment "Software and its engineering"^^xsd:string;
+	rdfs:label "Software and its engineering"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextSOP.
+
+usdl4edu:contextSOP a usdl4edu:Context;
+	rdfs:comment "Software organization and properties"^^xsd:string;
+	rdfs:label "Software organization and properties"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextSSS.
+
+usdl4edu:contextSSS a usdl4edu:Context;
+	rdfs:comment "Software System Structures"^^xsd:string;
+	rdfs:label "Software System Structures"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextSSM.
+
+usdl4edu:contextSSM a usdl4edu:Context;
+	rdfs:comment "Software System Models"^^xsd:string;
+	rdfs:label "Software System Models"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextPetri.
+
+usdl4edu:contextPetri a usdl4edu:Context;
+	rdfs:comment "Petri Nets"^^xsd:string;
+	rdfs:label "Petri Nets"^^xsd:string.
+
+
+usdl4edu:contextAC a usdl4edu:Context;
+	rdfs:comment "Applied Computing"^^xsd:string;
+	rdfs:label "Applied Computing"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextEC;
+	usdl4edu:hasSubContext usdl4edu:contextSocial.
+
+usdl4edu:contextEC a usdl4edu:Context;
+	rdfs:comment "Enterprise Computing"^^xsd:string;
+	rdfs:label "Enterprise Computing"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextBPM.
+
+usdl4edu:contextBPM a usdl4edu:Context;
+	rdfs:comment "Business process management"^^xsd:string;
+	rdfs:label "BPM"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextOrganization.
