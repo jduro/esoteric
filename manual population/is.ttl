@@ -1,0 +1,104 @@
+@base <http://rdf.genssiz.dei.uc.pt/usdl4edu/occi> .
+@prefix : <http://rdf.genssiz.dei.uc.pt/usdl4edu/occi#> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ecs: <http://rdf.ecs.soton.ac.uk/ontology/ecs#> .
+@prefix usdl4edu: <http://rdf.genssiz.dei.uc.pt/usdl4edu#> .
+
+usdl4edu:jaraujo a foaf:Person;
+	rdfs:label "Filipe Araujo"^^xsd:string;
+	foaf:lastName "Araujo"^^xsd:string;
+	foaf:firstName "Filipe"^^xsd:string;
+	foaf:workplaceHomepage "http://eden.dei.uc.pt/~filipius/";
+	rdfs:comment ""^^xsd:string.
+
+:service_is a usdl4edu:EducationalService;
+	rdfs:label "Enterprise Application Integration"^^xsd:string;
+	rdf:comment "Enterprise Application Integration, a Curricular unit from Master's Degree in Computer Science from University of Coimbra";
+	usdl4edu:hasCourseUnit :unit_is;
+	usdl4edu:hasPrerequisite usdl4edu:contextDistributed;
+	usdl4edu:hasPrerequisite usdl4edu:contextNetwork;
+	usdl4edu:hasPrerequisite usdl4edu:contextNetSec;
+	usdl4edu:hasPrerequisite usdl4edu:contextDMS;
+	usdl4edu:hasUniversity usdl4edu:uc.
+
+:unit_is a usdl4edu:CourseUnit;
+	rdfs:comment "Enterprise Application Integration from Master's Degree in Computer Science from University of Coimbra"^^xsd:string;
+	rdfs:label "Enterprise Application Integration"^^xsd:string;
+	usdl4edu:hasEcts "6"^^xsd:integer;
+	usdl4edu:semester "1"^^xsd:integer;
+	usdl4edu:title "OEnterprise Application Integration"^^xsd:string;
+	usdl4edu:hasWorkload "8"^^xsd:integer;
+	usdl4edu:hasOverallObjective :overallobjectiveIS;
+	usdl4edu:hasTeacher usdl4edu:jaraujo;
+	usdl4edu:hasLanguage usdl4edu:LanguagePT;
+	usdl4edu:hasLanguage usdl4edu:LanguageEN;
+	usdl4edu:hasDeliveryMode usdl4edu:ModeDeliveryPres.
+
+:overallobjectiveIS a usdl4edu:OverallObjective;
+	rdfs:comment ""^^xsd:string;
+	rdfs:label "Objectives of Enterprise Application Integration from UC"^^xsd:string;
+	usdl4edu:hasPartObjective :objectiveOCCI1;
+	usdl4edu:hasPartObjective :objectiveOCCI2;
+	usdl4edu:hasPartObjective :objectiveOCCI3;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceputal;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_2Basic.
+
+:objectiveIS1 usdl4edu:Objective;
+	rdfs:comment "In this course we discuss ways to integrate enterprise applications, not only at the level of an organization, but among different organizations. We give a strong emphasis on middleware-based integration, using approaches such as SOA (Service Oriented Architecture) and ESB (Enterprise Service Bus)"^^xsd:string;
+	rdfs:label "Curricular Objective"^^xsd:string;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_1Recognition;
+	usdl4edu:hasContext usdl4edu:contextSocial;
+	usdl4edu:hasContext usdl4edu:contextSociology.
+
+:objectiveiS2 a usdl4edu:Objective;
+	rdfs:comment "The course also provides an overview of innovation methods. Covered topics include motivation, job satisfaction, communication, leadership, change, and organizational culture"^^xsd:string;
+	rdfs:label "Curricular Objective"^^xsd:string;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_1Recognition;
+	usdl4edu:hasContext usdl4edu:contextSociology;
+	usdl4edu:hasContext usdl4edu:contextSocial;
+	usdl4edu:hasContext usdl4edu:contextOrganization.
+
+:objectiveOCCI3 a usdl4edu:Objective;
+	rdfs:comment "It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context"^^xsd:string;
+	rdfs:label "Curricular Objective"^^xsd:string;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_3Competent;
+	usdl4edu:hasContext usdl4edu:contextOrganization.
+
+usdl4edu:contextDistributed a usdl4edu:Context;
+	rdfs:comment "Distributed architectures"^^xsd:string;
+	rdfs:label "Distributed architectures"^^xsd:string.
+	
+usdl4edu:contextNetwork a usdl4edu:Context;
+	rdfs:comment "Networks"^^xsd:string;
+	rdfs:label "Networks"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextNetPro.
+
+usdl4edu:contextNetPro a usdl4edu:Context;
+	rdfs:comment "Network properties"^^xsd:string;
+	rdfs:label "Network properties"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextNetSec.
+	
+usdl4edu:contextNetSec a usdl4edu:Context;
+	rdfs:comment "Network security"^^xsd:string;
+	rdfs:label "Network security"^^xsd:string.
+	
+usdl4edu:contextDMS a usdl4edu:Context;
+	rdfs:comment "Data management systems"^^xsd:string;
+	rdfs:label "Data management systems"^^xsd:string.
+
+usdl4edu:contextOrganization a usdl4edu:Context;
+	rdfs:comment "Cross-organizational business processes"^^xsd:string;
+	rdfs:label "Cross-organizational business processes"^^xsd:string.

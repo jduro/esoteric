@@ -1,0 +1,102 @@
+@base <http://rdf.genssiz.dei.uc.pt/usdl4edu/occi> .
+@prefix : <http://rdf.genssiz.dei.uc.pt/usdl4edu/occi#> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ecs: <http://rdf.ecs.soton.ac.uk/ontology/ecs#> .
+@prefix usdl4edu: <http://rdf.genssiz.dei.uc.pt/usdl4edu#> .
+
+:service_occi a usdl4edu:EducationalService;
+	rdfs:label "Organizational, Behaviour, Knowledge and Innovation Service"^^xsd:string;
+	rdf:comment "Service about Organizational, Behaviour, Knowledge and Innovation, a Curricular unit from Master's Degree in Computer Science from University of Coimbra";
+	usdl4edu:hasCourseUnit :unit_occi;
+	usdl4edu:hasOrganization :university_coimbra.
+	
+:university_coimbra a foaf:Organization;
+	dc:description "FOAF of University of Coimbra";
+	foaf:member :jcardoso;
+	foaf:name "University of Coimbra";
+	foaf:homepage <http://www.uc.pt/> .
+
+:jcardoso a foaf:Person;
+	foaf:name "Jorge Cardoso";
+	foaf:homepage <http://eden.dei.uc.pt/~jcardoso/> .
+
+:unit_occi a usdl4edu:CourseUnit;
+	rdfs:comment "Organizational, Behaviour, Knowledge and Innovation from Master's Degree in Computer Science from University of Coimbra"^^xsd:string;
+	rdfs:label "Organizational, Behaviour, Knowledge and Innovation"^^xsd:string;
+	usdl4edu:hasEcts "6"^^xsd:integer;
+	usdl4edu:semester "1"^^xsd:integer;
+	usdl4edu:title "Organizational, Behaviour, Knowledge and Innovation"^^xsd:string;
+	usdl4edu:hasWorkload "8"^^xsd:integer;
+	usdl4edu:hasOverallObjective :overallobjectiveOCCI;
+	usdl4edu:hasTeacher :jcardoso;
+	usdl4edu:hasLanguage :LanguagePT;
+	usdl4edu:hasLanguage :LanguageEN;
+	usdl4edu:hasDeliveryMode :ModeDeliveryPres.
+	
+:LanguageEN
+      rdf:type :Language ;
+      rdfs:label "English"^^xsd:string .
+
+:LanguagePT
+      rdf:type :Language ;
+      rdfs:label "Portuguese"^^xsd:string .
+	  
+:ModeDeliveryPres
+      rdf:type :ModeDelivery ;
+      rdfs:label "Presential"^^xsd:string .
+
+:overallobjectiveOCCI a usdl4edu:OverallObjective;
+	rdfs:comment "The objective of this course is to help students to understand how people and organizations operate as a complex system. The course covers individual behavior in organizations, group behavior, and how behavior affects the overall performance of organizations. The course also provides an overview of innovation methods. Covered topics include motivation, job satisfaction, communication, leadership, change, and organizational culture. It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context. "^^xsd:string;
+	rdfs:label "Objectives of Organizational, Behaviour, Knowledge and Innovation from UC"^^xsd:string;
+	usdl4edu:hasPartObjective :objectiveOCCI1;
+	usdl4edu:hasPartObjective :objectiveOCCI2;
+	usdl4edu:hasPartObjective :objectiveOCCI3;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_5Evaluate;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_2Conceputal;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_2Basic.
+
+:objectiveOCCI1 a usdl4edu:Objective;
+	rdfs:comment "The objective of this course is to help students to understand how people and organizations operate as a complex system"^^xsd:string;
+	rdfs:label "Curricular Objective"^^xsd:string;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_2Understand;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_3Procedural;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_1Recognition;
+	usdl4edu:hasContext usdl4edu:contextSocial;
+	usdl4edu:hasContext usdl4edu:contextSociology.
+
+:objectiveOCCI2 a usdl4edu:Objective;
+	rdfs:comment "The course also provides an overview of innovation methods. Covered topics include motivation, job satisfaction, communication, leadership, change, and organizational culture"^^xsd:string;
+	rdfs:label "Curricular Objective"^^xsd:string;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_1Remember;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_1Factual;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_1Recognition;
+	usdl4edu:hasContext usdl4edu:contextSociology;
+	usdl4edu:hasContext usdl4edu:contextSocial;
+	usdl4edu:hasContext usdl4edu:contextOrganization.
+
+:objectiveOCCI3 a usdl4edu:Objective;
+	rdfs:comment "It also provides the necessary competencies in synthesis, written communication, problem solving, critical reasoning, practical application of knowledge in managing organizations and assists students in developing skills of analysis and diagnosis in the organizational context"^^xsd:string;
+	rdfs:label "Curricular Objective"^^xsd:string;
+	usdl4edu:hasCognitiveDimension usdl4edu:CognitiveDimension_4Analyse;
+	usdl4edu:hasKnowledgeDimension usdl4edu:KnowledgeDimension_4Meta;
+	usdl4edu:hasSkillDimension usdl4edu:SkillDimension_3Competent;
+	usdl4edu:hasContext usdl4edu:contextOrganization.
+
+usdl4edu:contextSocial a usdl4edu:Context;
+	rdfs:comment "Law, social and behavioral sciences"^^xsd:string;
+	rdfs:label "Behavioral sciences"^^xsd:string;
+	usdl4edu:hasSubContext usdl4edu:contextSociology.
+
+usdl4edu:contextSociology a usdl4edu:Context;
+	rdfs:comment "Sociology"^^xsd:string;
+	rdfs:label "Sociology"^^xsd:string.
+
+usdl4edu:contextOrganization a usdl4edu:Context;
+	rdfs:comment "Cross-organizational business processes"^^xsd:string;
+	rdfs:label "Cross-organizational business processes"^^xsd:string.
